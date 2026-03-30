@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку е 5 + 3?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 9 - 4?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број доаѓа после 19?",
+      "OptionA": "18",
+      "OptionB": "20",
+      "OptionC": "21",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 2 + 7?",
+      "OptionA": "8",
+      "OptionB": "10",
+      "OptionC": "9",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 10 - 6?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е поголем: 15 или 12?",
+      "OptionA": "12",
+      "OptionB": "15",
+      "OptionC": "Исти се",
+      "OptionD": "Не може да се знае",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 6 + 6?",
+      "OptionA": "10",
+      "OptionB": "11",
+      "OptionC": "12",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 8 - 3?",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број доаѓа пред 10?",
+      "OptionA": "8",
+      "OptionB": "11",
+      "OptionC": "9",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 4 + 4?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 7 + 5?",
+      "OptionA": "11",
+      "OptionB": "12",
+      "OptionC": "13",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 15 - 8?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е парен: 3, 5, 6 или 9?",
+      "OptionA": "3",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 3 + 8?",
+      "OptionA": "10",
+      "OptionB": "11",
+      "OptionC": "12",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 20 - 5?",
+      "OptionA": "14",
+      "OptionB": "15",
+      "OptionC": "16",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

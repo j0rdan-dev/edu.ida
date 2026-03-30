@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "Кое животно е домашно?",
+      "OptionA": "Лав",
+      "OptionB": "Куче",
+      "OptionC": "Жирафа",
+      "OptionD": "Мечка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое годишно време доаѓа после лето?",
+      "OptionA": "Зима",
+      "OptionB": "Пролет",
+      "OptionC": "Есен",
+      "OptionD": "Повторно лето",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку дена има една недела?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој ден доаѓа после понеделник?",
+      "OptionA": "Среда",
+      "OptionB": "Вторник",
+      "OptionC": "Недела",
+      "OptionD": "Четврток",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку месеци има една година?",
+      "OptionA": "10",
+      "OptionB": "11",
+      "OptionC": "12",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во кое годишно време паѓа снег?",
+      "OptionA": "Лето",
+      "OptionB": "Пролет",
+      "OptionC": "Есен",
+      "OptionD": "Зима",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кое животно живее во вода?",
+      "OptionA": "Мачка",
+      "OptionB": "Риба",
+      "OptionC": "Птица",
+      "OptionD": "Зајак",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што ни дава Сонцето?",
+      "OptionA": "Вода",
+      "OptionB": "Светлина и топлина",
+      "OptionC": "Ветер",
+      "OptionD": "Дожд",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од каде доаѓа дождот?",
+      "OptionA": "Од земјата",
+      "OptionB": "Од морето",
+      "OptionC": "Од облаците",
+      "OptionD": "Од дрвјата",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое растение расте од семе?",
+      "OptionA": "Камен",
+      "OptionB": "Цвет",
+      "OptionC": "Метал",
+      "OptionD": "Пластика",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое животно лета?",
+      "OptionA": "Куче",
+      "OptionB": "Мачка",
+      "OptionC": "Птица",
+      "OptionD": "Желка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во кое годишно време цветаат цвеќињата?",
+      "OptionA": "Зима",
+      "OptionB": "Пролет",
+      "OptionC": "Есен",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е потребно на растенијата за да растат?",
+      "OptionA": "Темнина и студ",
+      "OptionB": "Вода, светлина и воздух",
+      "OptionC": "Само камења",
+      "OptionD": "Само песок",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое сетило го користиме за да гледаме?",
+      "OptionA": "Ушите",
+      "OptionB": "Рацете",
+      "OptionC": "Очите",
+      "OptionD": "Носот",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е првиот месец во годината?",
+      "OptionA": "Март",
+      "OptionB": "Февруари",
+      "OptionC": "Јануари",
+      "OptionD": "Декември",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

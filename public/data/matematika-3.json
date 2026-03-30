@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку е 7 × 8?",
+      "OptionA": "54",
+      "OptionB": "56",
+      "OptionC": "58",
+      "OptionD": "48",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 144 ÷ 12?",
+      "OptionA": "10",
+      "OptionB": "11",
+      "OptionC": "12",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 125 + 278?",
+      "OptionA": "393",
+      "OptionB": "403",
+      "OptionC": "413",
+      "OptionD": "383",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 500 - 237?",
+      "OptionA": "253",
+      "OptionB": "263",
+      "OptionC": "273",
+      "OptionD": "243",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 9 × 9?",
+      "OptionA": "72",
+      "OptionB": "81",
+      "OptionC": "90",
+      "OptionD": "63",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку четвртини има еден цел?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/2 + 1/2?",
+      "OptionA": "1/4",
+      "OptionB": "1/2",
+      "OptionC": "1",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 6 × 12?",
+      "OptionA": "62",
+      "OptionB": "66",
+      "OptionC": "72",
+      "OptionD": "78",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1000 - 456?",
+      "OptionA": "544",
+      "OptionB": "554",
+      "OptionC": "534",
+      "OptionD": "564",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е најблизок до 100: 89, 95, 108 или 112?",
+      "OptionA": "89",
+      "OptionB": "95",
+      "OptionC": "108",
+      "OptionD": "112",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 8 × 7?",
+      "OptionA": "49",
+      "OptionB": "54",
+      "OptionC": "56",
+      "OptionD": "63",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку сантиметри има еден метар?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 45 ÷ 5?",
+      "OptionA": "7",
+      "OptionB": "8",
+      "OptionC": "9",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 250 + 350?",
+      "OptionA": "500",
+      "OptionB": "550",
+      "OptionC": "600",
+      "OptionD": "650",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути има еден час?",
+      "OptionA": "30",
+      "OptionB": "45",
+      "OptionC": "60",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

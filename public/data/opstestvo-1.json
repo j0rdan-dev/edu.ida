@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "Како се вика местото каде живееме?",
+      "OptionA": "Училиште",
+      "OptionB": "Дом (куќа или стан)",
+      "OptionC": "Продавница",
+      "OptionD": "Парк",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој работи во училиштето и ги учи децата?",
+      "OptionA": "Доктор",
+      "OptionB": "Наставник",
+      "OptionC": "Пожарникар",
+      "OptionD": "Готвач",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е семејство?",
+      "OptionA": "Група другари од училиште",
+      "OptionB": "Луѓе кои живеат заедно и се грижат едни за други",
+      "OptionC": "Група животни",
+      "OptionD": "Тим за фудбал",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каде одиме кога сме болни?",
+      "OptionA": "Во продавница",
+      "OptionB": "Во парк",
+      "OptionC": "Кај доктор",
+      "OptionD": "Во училиште",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Зошто треба да ги мие ме рацете?",
+      "OptionA": "За да бидат убави",
+      "OptionB": "За да ги отстраниме бактериите и да не се разболиме",
+      "OptionC": "Не треба да ги миеме",
+      "OptionD": "Само пред спиење",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој ни помага кога има пожар?",
+      "OptionA": "Наставникот",
+      "OptionB": "Пожарникарот",
+      "OptionC": "Пекарот",
+      "OptionD": "Фризерот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што значи сообраќаен знак со црвено светло?",
+      "OptionA": "Продолжи",
+      "OptionB": "Забрзај",
+      "OptionC": "Застани",
+      "OptionD": "Сврти лево",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е главниот град на Република Северна Македонија?",
+      "OptionA": "Битола",
+      "OptionB": "Охрид",
+      "OptionC": "Скопје",
+      "OptionD": "Прилеп",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "На кое знаме се наоѓа сонце со зраци?",
+      "OptionA": "Српско знаме",
+      "OptionB": "Македонско знаме",
+      "OptionC": "Грчко знаме",
+      "OptionD": "Бугарско знаме",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кога го празнуваме Нова Година?",
+      "OptionA": "1 март",
+      "OptionB": "1 јуни",
+      "OptionC": "1 јануари",
+      "OptionD": "1 септември",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Зошто одиме во училиште?",
+      "OptionA": "За да играме цел ден",
+      "OptionB": "За да учиме и стекнуваме знаење",
+      "OptionC": "За да спиеме",
+      "OptionD": "За да јадеме",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која боја ја има зеленото светло на семафорот?",
+      "OptionA": "Црвена",
+      "OptionB": "Жолта",
+      "OptionC": "Зелена",
+      "OptionD": "Сина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој се грижи за нашето здравје?",
+      "OptionA": "Наставникот",
+      "OptionB": "Докторот",
+      "OptionC": "Полицаецот",
+      "OptionD": "Возачот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каде ги фрламе отпадоците?",
+      "OptionA": "На улица",
+      "OptionB": "Во реката",
+      "OptionC": "Во канта за отпадоци",
+      "OptionD": "Во паркот",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што правиме кога сакаме да ја поминеме улицата?",
+      "OptionA": "Трчаме преку улицата",
+      "OptionB": "Гледаме лево и десно и поминуваме на пешачки премин",
+      "OptionC": "Затвораме очи и поминуваме",
+      "OptionD": "Чекаме некој да нè носи",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

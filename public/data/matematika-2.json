@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку е 12 + 15?",
+      "OptionA": "25",
+      "OptionB": "27",
+      "OptionC": "26",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 30 - 14?",
+      "OptionA": "14",
+      "OptionB": "15",
+      "OptionC": "16",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 3 × 4?",
+      "OptionA": "7",
+      "OptionB": "10",
+      "OptionC": "12",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 5 × 5?",
+      "OptionA": "20",
+      "OptionB": "25",
+      "OptionC": "30",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 45 + 23?",
+      "OptionA": "66",
+      "OptionB": "67",
+      "OptionC": "68",
+      "OptionD": "69",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 50 - 28?",
+      "OptionA": "20",
+      "OptionB": "22",
+      "OptionC": "24",
+      "OptionD": "26",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 6 × 3?",
+      "OptionA": "15",
+      "OptionB": "16",
+      "OptionC": "18",
+      "OptionD": "21",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е непарен: 2, 4, 7 или 8?",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 100 - 35?",
+      "OptionA": "55",
+      "OptionB": "60",
+      "OptionC": "65",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 4 × 7?",
+      "OptionA": "21",
+      "OptionB": "24",
+      "OptionC": "28",
+      "OptionD": "32",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 8 × 2?",
+      "OptionA": "14",
+      "OptionB": "16",
+      "OptionC": "18",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 36 + 44?",
+      "OptionA": "78",
+      "OptionB": "80",
+      "OptionC": "82",
+      "OptionD": "84",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку десетки има бројот 70?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 9 × 3?",
+      "OptionA": "24",
+      "OptionB": "27",
+      "OptionC": "30",
+      "OptionD": "21",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 56 - 29?",
+      "OptionA": "25",
+      "OptionB": "26",
+      "OptionC": "27",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "На кој континент се наоѓа Македонија?",
+      "OptionA": "Азија",
+      "OptionB": "Африка",
+      "OptionC": "Европа",
+      "OptionD": "Австралија",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое езеро е најголемо во Македонија?",
+      "OptionA": "Дојранско Езеро",
+      "OptionB": "Преспанско Езеро",
+      "OptionC": "Охридско Езеро",
+      "OptionD": "Мавровско Езеро",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која река поминува низ Скопје?",
+      "OptionA": "Брегалница",
+      "OptionB": "Вардар",
+      "OptionC": "Треска",
+      "OptionD": "Црн Дрим",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку континенти има на Земјата?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што покажува компасот?",
+      "OptionA": "Времето",
+      "OptionB": "Температурата",
+      "OptionC": "Правецот (север, југ, исток, запад)",
+      "OptionD": "Височината",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е најголемата планина во Македонија?",
+      "OptionA": "Шар Планина",
+      "OptionB": "Кожуф",
+      "OptionC": "Кораб",
+      "OptionD": "Пелистер",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој океан е најголем?",
+      "OptionA": "Атлантски",
+      "OptionB": "Индиски",
+      "OptionC": "Тихи",
+      "OptionD": "Арктички",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е глобус?",
+      "OptionA": "Вид на топка за игра",
+      "OptionB": "Модел на Земјата",
+      "OptionC": "Вид на карта",
+      "OptionD": "Инструмент за мерење",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во кое столетие живееме?",
+      "OptionA": "19-то",
+      "OptionB": "20-то",
+      "OptionC": "21-во",
+      "OptionD": "22-ро",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е најдолгата река во светот?",
+      "OptionA": "Амазон",
+      "OptionB": "Нил",
+      "OptionC": "Дунав",
+      "OptionD": "Мисисипи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каде се наоѓа пустината Сахара?",
+      "OptionA": "Европа",
+      "OptionB": "Азија",
+      "OptionC": "Африка",
+      "OptionD": "Австралија",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е државниот празник на Македонија (Ден на независноста)?",
+      "OptionA": "2 август",
+      "OptionB": "8 септември",
+      "OptionC": "11 октомври",
+      "OptionD": "1 мај",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е рељеф?",
+      "OptionA": "Вид на растение",
+      "OptionB": "Облик на земјината површина (планини, долини, рамнини)",
+      "OptionC": "Вид на временска прогноза",
+      "OptionD": "Вид на река",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои се четирите страни на светот?",
+      "OptionA": "Горе, долу, лево, десно",
+      "OptionB": "Север, југ, исток, запад",
+      "OptionC": "Пролет, лето, есен, зима",
+      "OptionD": "Земја, вода, оган, воздух",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е остров?",
+      "OptionA": "Голема река",
+      "OptionB": "Копно опкружено со вода од сите страни",
+      "OptionC": "Висока планина",
+      "OptionD": "Длабоко езеро",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

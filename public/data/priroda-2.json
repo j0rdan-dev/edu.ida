@@ -1,0 +1,124 @@
+{
+  "Questions": [
+    {
+      "Question": "Како се нарекува кожичката на дрвото?",
+      "OptionA": "Лист",
+      "OptionB": "Кора",
+      "OptionC": "Корен",
+      "OptionD": "Гранка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој дел од растението ја впива водата од почвата?",
+      "OptionA": "Листот",
+      "OptionB": "Цветот",
+      "OptionC": "Коренот",
+      "OptionD": "Стеблото",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое животно е влечуга?",
+      "OptionA": "Жаба",
+      "OptionB": "Гуштер",
+      "OptionC": "Орел",
+      "OptionD": "Зајак",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е водна пареа?",
+      "OptionA": "Замрзната вода",
+      "OptionB": "Течна вода",
+      "OptionC": "Вода во гасовита состојба",
+      "OptionD": "Кал",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое животно е цицач?",
+      "OptionA": "Змија",
+      "OptionB": "Пчела",
+      "OptionC": "Делфин",
+      "OptionD": "Жаба",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од каде добиваме волна?",
+      "OptionA": "Од кокошка",
+      "OptionB": "Од овца",
+      "OptionC": "Од крава",
+      "OptionD": "Од коза",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е процесот на претворање на гасеница во пеперутка?",
+      "OptionA": "Раст",
+      "OptionB": "Метаморфоза",
+      "OptionC": "Фотосинтеза",
+      "OptionD": "Испарување",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое животно е водоземец?",
+      "OptionA": "Крокодил",
+      "OptionB": "Желка",
+      "OptionC": "Жаба",
+      "OptionD": "Риба",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Каде живеат рибите?",
+      "OptionA": "На дрвја",
+      "OptionB": "Во вода",
+      "OptionC": "Во песок",
+      "OptionD": "Во воздух",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е хербивор?",
+      "OptionA": "Животно кое јаде месо",
+      "OptionB": "Животно кое јаде растенија",
+      "OptionC": "Животно кое јаде сè",
+      "OptionD": "Животно кое не јаде",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој орган го користиме за да чувствуваме мирис?",
+      "OptionA": "Јазикот",
+      "OptionB": "Очите",
+      "OptionC": "Носот",
+      "OptionD": "Ушите",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е разликата меѓу жива и нежива природа?",
+      "OptionA": "Нема разлика",
+      "OptionB": "Живата природа расте, се храни и се размножува",
+      "OptionC": "Неживата природа може да трча",
+      "OptionD": "Живата природа е само камења",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е потребно за да гори оган?",
+      "OptionA": "Вода и мраз",
+      "OptionB": "Гориво, кислород и топлина",
+      "OptionC": "Само дрво",
+      "OptionD": "Само воздух",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку нозе има пајак?",
+      "OptionA": "6",
+      "OptionB": "8",
+      "OptionC": "10",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое животно прави мед?",
+      "OptionA": "Мравка",
+      "OptionB": "Пчела",
+      "OptionC": "Пеперутка",
+      "OptionD": "Оса",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}
