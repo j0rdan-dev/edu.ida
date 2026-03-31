@@ -1,0 +1,796 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку сантиметри (cm) има во 1 метар (m)?",
+      "OptionA": "10 cm",
+      "OptionB": "1000 cm",
+      "OptionC": "100 cm",
+      "OptionD": "50 cm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која единица е најмала за мерење должина според содржината?",
+      "OptionA": "Милиметар",
+      "OptionB": "Сантиметар",
+      "OptionC": "Дециметар",
+      "OptionD": "Метар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што мериме со мерната единица грам (g)?",
+      "OptionA": "Должина",
+      "OptionB": "Маса",
+      "OptionC": "Време",
+      "OptionD": "Течност",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку милилитри (ml) има во 1 литар (l)?",
+      "OptionA": "100 ml",
+      "OptionB": "10 ml",
+      "OptionC": "500 ml",
+      "OptionD": "1000 ml",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку минути има во еден час?",
+      "OptionA": "60 минути",
+      "OptionB": "100 минути",
+      "OptionC": "24 минути",
+      "OptionD": "12 минути",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку години претставува една деценија?",
+      "OptionA": "1 година",
+      "OptionB": "10 години",
+      "OptionC": "100 години",
+      "OptionD": "50 години",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица се користи за мерење на растојание меѓу два града?",
+      "OptionA": "Милиметар",
+      "OptionB": "Сантиметар",
+      "OptionC": "Километар",
+      "OptionD": "Дециметар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што претставува периметарот на една 2Д-форма?",
+      "OptionA": "Бојата на формата",
+      "OptionB": "Просторот внатре во формата",
+      "OptionC": "Висината на формата",
+      "OptionD": "Збир на должините на сите страни",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку грама има во 1 килограм (kg)?",
+      "OptionA": "1000 g",
+      "OptionB": "100 g",
+      "OptionC": "10 g",
+      "OptionD": "500 g",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку години има во еден век?",
+      "OptionA": "10 години",
+      "OptionB": "100 години",
+      "OptionC": "1000 години",
+      "OptionD": "50 години",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица се користи за мерење на течност во мала лажичка?",
+      "OptionA": "Литар",
+      "OptionB": "Килограм",
+      "OptionC": "Милилитар",
+      "OptionD": "Метар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку дециметри (dm) има во 1 метар?",
+      "OptionA": "100 dm",
+      "OptionB": "5 dm",
+      "OptionC": "20 dm",
+      "OptionD": "10 dm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што се користи за мерење на плоштина според учебникот?",
+      "OptionA": "Квадратна мрежа",
+      "OptionB": "Вага",
+      "OptionC": "Термометар",
+      "OptionD": "Часовник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку секунди има во една минута?",
+      "OptionA": "60 секунди",
+      "OptionB": "100 секунди",
+      "OptionC": "30 секунди",
+      "OptionD": "12 секунди",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е основната единица за мерење течност?",
+      "OptionA": "Грам",
+      "OptionB": "Литар",
+      "OptionC": "Метар",
+      "OptionD": "Секунда",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку центилитри (cl) има во 1 литар?",
+      "OptionA": "10 cl",
+      "OptionB": "50 cl",
+      "OptionC": "100 cl",
+      "OptionD": "1000 cl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Со кој инструмент се мери време?",
+      "OptionA": "Линијар",
+      "OptionB": "Вага",
+      "OptionC": "Мензура",
+      "OptionD": "Часовник",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку милиметри има во 1 сантиметар?",
+      "OptionA": "10 mm",
+      "OptionB": "100 mm",
+      "OptionC": "5 mm",
+      "OptionD": "1000 mm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што од наведеното е единица за маса?",
+      "OptionA": "Милиметар",
+      "OptionB": "Килограм",
+      "OptionC": "Литар",
+      "OptionD": "Минута",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку децилитри (dl) има во 1 литар?",
+      "OptionA": "100 dl",
+      "OptionB": "5 dl",
+      "OptionC": "10 dl",
+      "OptionD": "20 dl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која единица е соодветна за мерење на дебелината на еден молив?",
+      "OptionA": "Километар",
+      "OptionB": "Метар",
+      "OptionC": "Литар",
+      "OptionD": "Милиметар",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку часови има во едно деноноќие?",
+      "OptionA": "24 часа",
+      "OptionB": "12 часа",
+      "OptionC": "60 часа",
+      "OptionD": "10 часа",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која мерна единица се користи за тежина на вреќа брашно?",
+      "OptionA": "Сантиметар",
+      "OptionB": "Килограм",
+      "OptionC": "Милилитар",
+      "OptionD": "Век",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако една страна на квадрат е 5 cm, колкав е неговиот периметар?",
+      "OptionA": "10 cm",
+      "OptionB": "15 cm",
+      "OptionC": "20 cm",
+      "OptionD": "25 cm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која единица за време е поголема од еден час?",
+      "OptionA": "Минута",
+      "OptionB": "Секунда",
+      "OptionC": "Милисекунда",
+      "OptionD": "Ден",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако имаш 2 килограми јаболка, колку грама се тоа?",
+      "OptionA": "2000 g",
+      "OptionB": "200 g",
+      "OptionC": "20 g",
+      "OptionD": "20000 g",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која единица ја користиме за мерење на должина на училница?",
+      "OptionA": "Милиметар",
+      "OptionB": "Метар",
+      "OptionC": "Килограм",
+      "OptionD": "Грам",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку денови има во една седмица?",
+      "OptionA": "5 дена",
+      "OptionB": "10 дена",
+      "OptionC": "7 дена",
+      "OptionD": "30 дена",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако шише сок собира 500 ml, колку такви шишиња чинат 1 литар?",
+      "OptionA": "1 шише",
+      "OptionB": "5 шишиња",
+      "OptionC": "10 шишиња",
+      "OptionD": "2 шишиња",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што од наведеното мериме со километри?",
+      "OptionA": "Растојание",
+      "OptionB": "Маса на леб",
+      "OptionC": "Количина вода",
+      "OptionD": "Времетраење на филм",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку месеци има во една година?",
+      "OptionA": "10 месеци",
+      "OptionB": "12 месеци",
+      "OptionC": "24 месеци",
+      "OptionD": "4 месеци",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица е поголема: дециметар или сантиметар?",
+      "OptionA": "Сантиметар",
+      "OptionB": "Исти се",
+      "OptionC": "Дециметар",
+      "OptionD": "Милиметар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако еден настан трае 120 минути, колку часа трае?",
+      "OptionA": "1 час",
+      "OptionB": "3 часа",
+      "OptionC": "4 часа",
+      "OptionD": "2 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е соодветна единица за мерење на маса на едно писмо?",
+      "OptionA": "Грам",
+      "OptionB": "Килограм",
+      "OptionC": "Километар",
+      "OptionD": "Литар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку метри има во половина километар?",
+      "OptionA": "100 m",
+      "OptionB": "500 m",
+      "OptionC": "50 m",
+      "OptionD": "1000 m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е 'временски интервал'?",
+      "OptionA": "Вид на часовник",
+      "OptionB": "Дел од календар",
+      "OptionC": "Времетраење помеѓу два настани",
+      "OptionD": "Име на месец",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која единица е дел од литар?",
+      "OptionA": "Грам",
+      "OptionB": "Метар",
+      "OptionC": "Секунда",
+      "OptionD": "Децилитар",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако периметарот на триаголник со еднакви страни е 12 cm, колкава е една страна?",
+      "OptionA": "4 cm",
+      "OptionB": "3 cm",
+      "OptionC": "6 cm",
+      "OptionD": "2 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри се 5 дециметри?",
+      "OptionA": "5 cm",
+      "OptionB": "50 cm",
+      "OptionC": "500 cm",
+      "OptionD": "15 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица се користи за тежина на камион?",
+      "OptionA": "Милиграм",
+      "OptionB": "Грам",
+      "OptionC": "Килограм",
+      "OptionD": "Центилитар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часа има во 2 дена?",
+      "OptionA": "24 часа",
+      "OptionB": "12 часа",
+      "OptionC": "60 часа",
+      "OptionD": "48 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за километар?",
+      "OptionA": "km",
+      "OptionB": "klm",
+      "OptionC": "m",
+      "OptionD": "k",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку грама се 3 kg и 500 g?",
+      "OptionA": "350 g",
+      "OptionB": "3500 g",
+      "OptionC": "3050 g",
+      "OptionD": "5300 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се мери со литарски садови?",
+      "OptionA": "Шеќер",
+      "OptionB": "Брашно",
+      "OptionC": "Вода",
+      "OptionD": "Ткаенина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се 180 секунди?",
+      "OptionA": "1 минута",
+      "OptionB": "2 минути",
+      "OptionC": "5 минути",
+      "OptionD": "3 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која единица ја користиме за должина на книга?",
+      "OptionA": "Сантиметар",
+      "OptionB": "Километар",
+      "OptionC": "Литар",
+      "OptionD": "Грам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку милилитри се 2 литри?",
+      "OptionA": "200 ml",
+      "OptionB": "2000 ml",
+      "OptionC": "20 ml",
+      "OptionD": "20000 ml",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што претставува 100 години?",
+      "OptionA": "Деценија",
+      "OptionB": "Година",
+      "OptionC": "Век",
+      "OptionD": "Месец",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако правоаголник има страни 2 cm и 4 cm, колкав е периметарот?",
+      "OptionA": "6 cm",
+      "OptionB": "8 cm",
+      "OptionC": "10 cm",
+      "OptionD": "12 cm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за дециметар?",
+      "OptionA": "dm",
+      "OptionB": "dc",
+      "OptionC": "d",
+      "OptionD": "m",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку килограми се 5000 грама?",
+      "OptionA": "50 kg",
+      "OptionB": "5 kg",
+      "OptionC": "500 kg",
+      "OptionD": "1 kg",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е единица за мерење плоштина?",
+      "OptionA": "Метар",
+      "OptionB": "Литар",
+      "OptionC": "Квадратен сантиметар",
+      "OptionD": "Килограм",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се половина час?",
+      "OptionA": "15 минути",
+      "OptionB": "20 минути",
+      "OptionC": "45 минути",
+      "OptionD": "30 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Со што се мери должина на ткаенина?",
+      "OptionA": "Метарска лента",
+      "OptionB": "Вага",
+      "OptionC": "Часовник",
+      "OptionD": "Термометар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри се 1 метар и 20 сантиметри?",
+      "OptionA": "12 cm",
+      "OptionB": "120 cm",
+      "OptionC": "102 cm",
+      "OptionD": "201 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се мери со мерни единици како милилитар?",
+      "OptionA": "Должина",
+      "OptionB": "Маса",
+      "OptionC": "Зафатнина на течност",
+      "OptionD": "Време",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку децении има во еден век?",
+      "OptionA": "100 децении",
+      "OptionB": "5 децении",
+      "OptionC": "1 деценија",
+      "OptionD": "10 децении",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која единица е најсоодветна за висина на човек?",
+      "OptionA": "Сантиметар",
+      "OptionB": "Километар",
+      "OptionC": "Милиметар",
+      "OptionD": "Грам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку грама има во половина килограм?",
+      "OptionA": "100 g",
+      "OptionB": "500 g",
+      "OptionC": "250 g",
+      "OptionD": "1000 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку милилитри има во 1 децилитар?",
+      "OptionA": "10 ml",
+      "OptionB": "50 ml",
+      "OptionC": "100 ml",
+      "OptionD": "1000 ml",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако еден филм почнува во 14:00 и завршува во 15:30, колку траел?",
+      "OptionA": "30 минути",
+      "OptionB": "60 минути",
+      "OptionC": "2 часа",
+      "OptionD": "90 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за милиметар?",
+      "OptionA": "mm",
+      "OptionB": "ml",
+      "OptionC": "m",
+      "OptionD": "cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку метри се 300 сантиметри?",
+      "OptionA": "30 m",
+      "OptionB": "3 m",
+      "OptionC": "300 m",
+      "OptionD": "1 m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку дена има во две седмици?",
+      "OptionA": "10 дена",
+      "OptionB": "7 дена",
+      "OptionC": "14 дена",
+      "OptionD": "20 дена",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се пресметува со броење квадратчиња во мрежа?",
+      "OptionA": "Тежина",
+      "OptionB": "Висина",
+      "OptionC": "Периметар",
+      "OptionD": "Плоштина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку милиметри се 4 сантиметри?",
+      "OptionA": "40 mm",
+      "OptionB": "400 mm",
+      "OptionC": "4 mm",
+      "OptionD": "14 mm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која единица е поголема од грам?",
+      "OptionA": "Милиграм",
+      "OptionB": "Килограм",
+      "OptionC": "Милиметар",
+      "OptionD": "Милилитар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку центилитри се 50 милилитри?",
+      "OptionA": "500 cl",
+      "OptionB": "50 cl",
+      "OptionC": "5 cl",
+      "OptionD": "10 cl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часа има во 3 деноноќија?",
+      "OptionA": "24 часа",
+      "OptionB": "48 часа",
+      "OptionC": "60 часа",
+      "OptionD": "72 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за литар?",
+      "OptionA": "l",
+      "OptionB": "ml",
+      "OptionC": "kg",
+      "OptionD": "m",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку метри има во 4 километри?",
+      "OptionA": "400 m",
+      "OptionB": "4000 m",
+      "OptionC": "40 m",
+      "OptionD": "40000 m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица е соодветна за мерење на време за трка на 100 метри?",
+      "OptionA": "Час",
+      "OptionB": "Ден",
+      "OptionC": "Секунда",
+      "OptionD": "Век",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако периметарот на квадрат е 16 cm, колкава е неговата страна?",
+      "OptionA": "8 cm",
+      "OptionB": "2 cm",
+      "OptionC": "6 cm",
+      "OptionD": "4 cm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е најголема единица за должина од наведените?",
+      "OptionA": "Километар",
+      "OptionB": "Метар",
+      "OptionC": "Дециметар",
+      "OptionD": "Сантиметар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку грама се 10 килограми?",
+      "OptionA": "1000 g",
+      "OptionB": "10000 g",
+      "OptionC": "100 g",
+      "OptionD": "5000 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што користиме за мерење на течност за сируп за кашлица?",
+      "OptionA": "Метар",
+      "OptionB": "Килограм",
+      "OptionC": "Милилитар",
+      "OptionD": "Век",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се 2 часа?",
+      "OptionA": "60 минути",
+      "OptionB": "100 минути",
+      "OptionC": "90 минути",
+      "OptionD": "120 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за грам?",
+      "OptionA": "g",
+      "OptionB": "gr",
+      "OptionC": "kg",
+      "OptionD": "gm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку дециметри се 200 сантиметри?",
+      "OptionA": "2 dm",
+      "OptionB": "20 dm",
+      "OptionC": "200 dm",
+      "OptionD": "10 dm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува кратенката 'cl'?",
+      "OptionA": "Килограм",
+      "OptionB": "Сантиметар",
+      "OptionC": "Центилитар",
+      "OptionD": "Час",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој месец има најмалку денови?",
+      "OptionA": "Јануари",
+      "OptionB": "Јуни",
+      "OptionC": "Октомври",
+      "OptionD": "Февруари",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која единица е соодветна за мерење на должина на мравка?",
+      "OptionA": "Милиметар",
+      "OptionB": "Километар",
+      "OptionC": "Метар",
+      "OptionD": "Дециметар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку грама има во 1/4 килограм (250g)?",
+      "OptionA": "100 g",
+      "OptionB": "250 g",
+      "OptionC": "500 g",
+      "OptionD": "1000 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку литри се 3000 милилитри?",
+      "OptionA": "30 l",
+      "OptionB": "300 l",
+      "OptionC": "3 l",
+      "OptionD": "13 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку секунди има во 2 минути?",
+      "OptionA": "60 секунди",
+      "OptionB": "100 секунди",
+      "OptionC": "30 секунди",
+      "OptionD": "120 секунди",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за децилитар?",
+      "OptionA": "dl",
+      "OptionB": "dc",
+      "OptionC": "l",
+      "OptionD": "ml",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри се половина метар?",
+      "OptionA": "5 cm",
+      "OptionB": "50 cm",
+      "OptionC": "500 cm",
+      "OptionD": "100 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица е најголема за течност од понудените?",
+      "OptionA": "Милилитар",
+      "OptionB": "Центилитар",
+      "OptionC": "Литар",
+      "OptionD": "Децилитар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку години се 5 децении?",
+      "OptionA": "5 години",
+      "OptionB": "500 години",
+      "OptionC": "15 години",
+      "OptionD": "50 години",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Со што се мери количина на млеко во чаша?",
+      "OptionA": "Мензура или мерен сад",
+      "OptionB": "Линијар",
+      "OptionC": "Вага",
+      "OptionD": "Компас",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку децилитри се 2 литри?",
+      "OptionA": "2 dl",
+      "OptionB": "20 dl",
+      "OptionC": "200 dl",
+      "OptionD": "10 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако една форма зафаќа 12 квадратчиња на мрежа, тоа е нејзината:",
+      "OptionA": "Тежина",
+      "OptionB": "Боја",
+      "OptionC": "Плоштина",
+      "OptionD": "Висина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се 1 час и 15 минути?",
+      "OptionA": "60 минути",
+      "OptionB": "15 минути",
+      "OptionC": "80 минути",
+      "OptionD": "75 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е кратенката за центилитар?",
+      "OptionA": "cl",
+      "OptionB": "ct",
+      "OptionC": "l",
+      "OptionD": "ml",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку милиметри има во 1 дециметар?",
+      "OptionA": "10 mm",
+      "OptionB": "100 mm",
+      "OptionC": "1000 mm",
+      "OptionD": "50 mm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се мери со инструмент наречен вага?",
+      "OptionA": "Должина",
+      "OptionB": "Време",
+      "OptionC": "Маса",
+      "OptionD": "Течност",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку години се 2 века?",
+      "OptionA": "20 години",
+      "OptionB": "100 години",
+      "OptionC": "2000 години",
+      "OptionD": "200 години",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што е кратенка за милилитар?",
+      "OptionA": "ml",
+      "OptionB": "m",
+      "OptionC": "l",
+      "OptionD": "mm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри се 10 милиметри?",
+      "OptionA": "10 cm",
+      "OptionB": "1 cm",
+      "OptionC": "100 cm",
+      "OptionD": "0 cm",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

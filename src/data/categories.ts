@@ -1,4 +1,4 @@
-import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind } from "lucide-react";
+import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3 } from "lucide-react";
 
 export interface Category {
   id: string;
@@ -226,7 +226,7 @@ export const grades: Grade[] = [
             label: "1. Броеви и броење",
             description: "",
             file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje.json`,
-            icon: Calculator,
+            icon: Hash,
             color: "340 65% 50%",
           },
           {
@@ -234,24 +234,48 @@ export const grades: Grade[] = [
             label: "2. Геометрија",
             description: "",
             file: `${import.meta.env.BASE_URL}data/4-geometrija.json`,
-            icon: Calculator,
-            color: "340 65% 50%",
+            icon: Compass,
+            color: "280 70% 50%",
           },
           {
             id: "operacii-broeci-4",
             label: "3. Операции со броеви",
             description: "",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi.json`,
-            icon: Calculator,
-            color: "340 65% 50%",
+            icon: Plus,
+            color: "220 70% 50%",
           },
           {
-            id: "operacii-broeci-4",
+            id: "operacii-broeci-tekstualni-4",
             label: "3. Операции со броеви (текстуални задачи)",
             description: "",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_tekstualni.json`,
-            icon: Calculator,
-            color: "340 65% 50%",
+            icon: Plus,
+            color: "200 65% 50%",
+          },
+          {
+            id: "merenje-4",
+            label: "4. Мерење",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-merenje.json`,
+            icon: Ruler,
+            color: "40 80% 50%",
+          },
+          {
+            id: "merenje-tekstualni-4",
+            label: "4. Мерење (текстуални задачи)",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-merenje_tekstualni.json`,
+            icon: Ruler,
+            color: "30 75% 50%",
+          },
+          {
+            id: "rabota-podatoci-4",
+            label: "5. Работа со податоци",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-rabota_so_podatoci.json`,
+            icon: BarChart3,
+            color: "260 60% 50%",
           },
         ],
       },
