@@ -1,5 +1,5 @@
 import { Grade, grades } from "@/data/categories";
-import { BookOpen, GraduationCap } from "lucide-react";
+import { BookOpen, GraduationCap, ExternalLink } from "lucide-react";
 
 interface GradeSelectProps {
   onSelect: (grade: Grade) => void;
@@ -45,6 +45,25 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
               </div>
             </button>
           ))}
+
+          {/* External Link Button */}
+          <a
+            href="https://srna.mk/testovi.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-4 w-full rounded-xl border-2 border-violet-400 bg-violet-50 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up hover:border-violet-500 hover:shadow-lg hover:shadow-violet-200 hover:-translate-y-0.5 active:scale-[0.98]"
+            style={{ animationDelay: `${100 + grades.length * 80}ms` }}
+          >
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-100 transition-transform duration-200 group-hover:scale-105">
+              <ExternalLink className="h-6 w-6 text-violet-600" />
+            </div>
+            <div className="min-w-0">
+              <p className="font-semibold text-base text-violet-900">Квизовите на Срна</p>
+              <p className="text-sm text-violet-700">
+                Математички забавни тестови
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
