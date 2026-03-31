@@ -210,4 +210,67 @@ export const grades: Grade[] = [
       },
     ],
   },
+  ,
+  {
+    id: "grade4",
+    label: "Четвртто Одделение",
+    subjects: [
+      {
+        id: "matematika-4",
+        label: "Математика",
+        icon: Calculator,
+        color: "340 65% 50%",
+        categories: [
+          {
+            id: "aritmetika-4",
+            label: "Аритметика",
+            description: "Множење, делење, дропки, мерки",
+            file: `${import.meta.env.BASE_URL}data/matematika-3.json`,
+            icon: Calculator,
+            color: "340 65% 50%",
+          },
+        ],
+      },
+      {
+        id: "prirodni-nauki-4",
+        label: "Природни Науки",
+        icon: FlaskConical,
+        color: "24 80% 55%",
+        categories: [
+          {
+            id: "nauka-4",
+            label: "Наука",
+            description: "Биологија, хемија, физика, човечко тело",
+            file: `${import.meta.env.BASE_URL}data/наука.json`,
+            icon: FlaskConical,
+            color: "24 80% 55%",
+          },
+          {
+            id: "ekosistemi-4",
+            label: "Екосистеми и енергија",
+            description: "Хранливи ланци, енергија, вулкани, земјотреси",
+            file: `${import.meta.env.BASE_URL}data/priroda-3.json`,
+            icon: Zap,
+            color: "48 85% 50%",
+          },
+        ],
+      },
+      {
+        id: "opstestvo-4",
+        label: "Општество",
+        icon: Globe,
+        color: "220 65% 55%",
+        categories: [
+          {
+            id: "istorija-4",
+            label: "Историја и географија",
+            description: "Македонска историја, устав, соседи",
+            file: `${import.meta.env.BASE_URL}data/opstestvo-3.json`,
+            icon: BookOpen,
+            color: "220 65% 55%",
+          },
+        ],
+      },
+    ],
+  },
 ];

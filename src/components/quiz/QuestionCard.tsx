@@ -8,6 +8,8 @@ interface QuestionCardProps {
   totalQuestions: number;
   timeLimit: number;
   onAnswer: (answer: OptionKey | null) => void;
+  onRestart: () => void;
+  onHome: () => void;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -19,7 +21,7 @@ const optionLabels: Record<OptionKey, string> = {
 
 const optionKeys: OptionKey[] = ["OptionA", "OptionB", "OptionC", "OptionD"];
 
-const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer }: QuestionCardProps) => {
+const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome }: QuestionCardProps) => {
   const [selected, setSelected] = useState<OptionKey | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(timeLimit);
@@ -147,6 +149,22 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
               </span>
             </button>
           ))}
+        </div>
+
+        {/* Navigation buttons */}
+        <div className="flex gap-2 justify-center mt-8">
+          <button
+            onClick={onHome}
+            className="px-3 py-1.5 text-sm rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors font-medium"
+          >
+            Почетна
+          </button>
+          <button
+            onClick={onRestart}
+            className="px-3 py-1.5 text-sm rounded-md bg-orange-500 text-white hover:bg-orange-600 transition-colors font-medium"
+          >
+            Рестарт
+          </button>
         </div>
       </div>
     </div>

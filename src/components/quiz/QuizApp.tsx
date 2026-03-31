@@ -86,7 +86,25 @@ const QuizApp = () => {
     [quizQuestions, currentIndex, answers]
   );
 
+  const handleRestartQuiz = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    setCurrentIndex(0);
+    setAnswers([]);
+    setTimeElapsed(0);
+
+    timerRef.current = setInterval(() => {
+      setTimeElapsed((t) => t + 1);
+    }, 1000);
+  }, []);
+
   const handleRestart = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    setScreen("grades");
+    setSelectedGrade(null);
+    setSelectedSubject(null);
+  }, []);
+
+  const handleHome = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
     setScreen("grades");
     setSelectedGrade(null);
@@ -135,6 +153,8 @@ const QuizApp = () => {
           totalQuestions={quizQuestions.length}
           timeLimit={TIME_PER_QUESTION}
           onAnswer={handleAnswer}
+          onRestart={handleRestartQuiz}
+          onHome={handleHome}
         />
       );
     case "results":
