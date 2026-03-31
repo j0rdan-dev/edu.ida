@@ -14,9 +14,9 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
             <GraduationCap className="h-8 w-8 text-primary" />
           </div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
-            Квиз
+            EDU.IDA
           </h1>
-          <p className="text-muted-foreground">Избери одделение</p>
+          <p className="text-muted-foreground">проверка на знаење</p>
         </div>
 
         <div className="flex flex-col gap-3">
