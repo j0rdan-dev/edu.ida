@@ -1,4 +1,4 @@
-import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon } from "lucide-react";
+import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind } from "lucide-react";
 
 export interface Category {
   id: string;
@@ -47,16 +47,16 @@ export const grades: Grade[] = [
       {
         id: "prirodni-nauki-1",
         label: "Природни Науки",
-        icon: TreePine,
-        color: "142 60% 45%",
+        icon: Leaf,
+        color: "120 65% 45%",
         categories: [
           {
             id: "priroda-okolina-1",
             label: "Природа и околина",
             description: "Животни, растенија, годишни времиња",
             file: `${import.meta.env.BASE_URL}data/priroda-1.json`,
-            icon: TreePine,
-            color: "142 60% 45%",
+            icon: Leaf,
+            color: "120 65% 45%",
           },
         ],
       },
@@ -101,8 +101,8 @@ export const grades: Grade[] = [
       {
         id: "prirodni-nauki-2",
         label: "Природни Науки",
-        icon: FlaskConical,
-        color: "24 80% 55%",
+        icon: Microscope,
+        color: "259 78% 51%",
         categories: [
           {
             id: "voda",
@@ -117,8 +117,8 @@ export const grades: Grade[] = [
             label: "Животни и растенија",
             description: "Цицачи, влечуги, водоземци, делови на растенија",
             file: `${import.meta.env.BASE_URL}data/priroda-2.json`,
-            icon: TreePine,
-            color: "142 60% 45%",
+            icon: Bug,
+            color: "48 85% 50%",
           },
         ],
       },
@@ -172,7 +172,7 @@ export const grades: Grade[] = [
         id: "prirodni-nauki-3",
         label: "Природни Науки",
         icon: FlaskConical,
-        color: "24 80% 55%",
+        color: "259 78% 51%",
         categories: [
           {
             id: "nauka-3",
@@ -180,15 +180,15 @@ export const grades: Grade[] = [
             description: "Биологија, хемија, физика, човечко тело",
             file: `${import.meta.env.BASE_URL}data/наука.json`,
             icon: FlaskConical,
-            color: "24 80% 55%",
+            color: "259 78% 51%",
           },
           {
             id: "ekosistemi-3",
             label: "Екосистеми и енергија",
             description: "Хранливи ланци, енергија, вулкани, земјотреси",
             file: `${import.meta.env.BASE_URL}data/priroda-3.json`,
-            icon: Zap,
-            color: "48 85% 50%",
+            icon: Sprout,
+            color: "160 70% 45%",
           },
         ],
       },
@@ -235,23 +235,47 @@ export const grades: Grade[] = [
         id: "prirodni-nauki-4",
         label: "Природни Науки",
         icon: FlaskConical,
-        color: "24 80% 55%",
+        color: "259 78% 51%",
         categories: [
           {
-            id: "nauka-4",
-            label: "Наука",
-            description: "Биологија, хемија, физика, човечко тело",
-            file: `${import.meta.env.BASE_URL}data/наука.json`,
-            icon: FlaskConical,
-            color: "24 80% 55%",
+            id: "karakteristiki-na-zemjata-4",
+            label: "1. Физичко-географски карактеристики на Земјата",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-karakteristiki_na_zemjata.json`,
+            icon: Earth,
+            color: "30 80% 55%",
           },
           {
-            id: "ekosistemi-4",
-            label: "Екосистеми и енергија",
-            description: "Хранливи ланци, енергија, вулкани, земјотреси",
-            file: `${import.meta.env.BASE_URL}data/priroda-3.json`,
-            icon: Zap,
+            id: "osobini-na-zivotnite-i-rastenijata-4",
+            label: "2. Особини на животните и растенијата и нивната поделба",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-osobini_na_zivotni_i_rastenija.json`,
+            icon: Bug,
             color: "48 85% 50%",
+          },
+          {
+            id: "aggregatni-sostojbi-4",
+            label: "3. Агрегатни состојби на материјата и промени на агрегатните состојби",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-agregatna_sostojba.json`,
+            icon: FlaskConical,
+            color: "259 78% 51%",
+          },
+          {
+            id: "zvuk-4",
+            label: "4. Звук",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-zvuk.json`,
+            icon: Volume2,
+            color: "190 80% 50%",
+          },
+          {
+            id: "elektricitet-4",
+            label: "5. Електрицитет и магнетизам",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-elektricitet_magnetizam.json`,
+            icon: Zap,
+            color: "45 95% 51%",
           },
         ],
       },

@@ -24,14 +24,21 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
             <button
               key={grade.id}
               onClick={() => onSelect(grade)}
-              className="group flex items-center gap-4 w-full rounded-xl border-2 border-border bg-card p-5 text-left transition-all duration-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98] opacity-0 animate-fade-up"
+              disabled={i < 2}
+              className={`group flex items-center gap-4 w-full rounded-xl border-2 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up ${
+                i < 2
+                  ? "border-muted bg-muted/30 cursor-not-allowed opacity-50"
+                  : "border-border bg-card hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98]"
+              }`}
               style={{ animationDelay: `${100 + i * 80}ms` }}
             >
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 transition-transform duration-200 group-hover:scale-105">
-                <BookOpen className="h-6 w-6 text-primary" />
+              <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-transform duration-200 ${
+                i < 2 ? "bg-muted/30" : "bg-primary/10 group-hover:scale-105"
+              }`}>
+                <BookOpen className={`h-6 w-6 ${i < 2 ? "text-muted-foreground" : "text-primary"}`} />
               </div>
               <div className="min-w-0">
-                <p className="font-semibold text-foreground text-base">{grade.label}</p>
+                <p className={`font-semibold text-base ${i < 2 ? "text-muted-foreground" : "text-foreground"}`}>{grade.label}</p>
                 <p className="text-sm text-muted-foreground">
                   {grade.subjects.length} {grade.subjects.length === 1 ? "предмет" : "предмети"}
                 </p>
