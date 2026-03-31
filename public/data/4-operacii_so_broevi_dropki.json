@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Како се пресметува непознат множител (x) во изразот x * 7 = 56?",
+      "OptionA": "Со собирање на 56 и 7",
+      "OptionB": "Со делење на производот со познатиот множител (56 : 7)",
+      "OptionC": "Со одземање на 7 од 56",
+      "OptionD": "Со множење на 56 со 7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е x во равенката 8 * x = 72?",
+      "OptionA": "64",
+      "OptionB": "80",
+      "OptionC": "9",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика бројот што го делиме во операцијата делење?",
+      "OptionA": "Делител",
+      "OptionB": "Количник",
+      "OptionC": "Множител",
+      "OptionD": "Деленик",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако непознатиот број е деленик (x : 5 = 10), како ќе го најдеме?",
+      "OptionA": "Со множење на количникот и делителот (10 * 5)",
+      "OptionB": "Со делење на 10 со 5",
+      "OptionC": "Со одземање на 5 од 10",
+      "OptionD": "Со собирање на 10 и 5",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај го делителот x во равенката 45 : x = 9.",
+      "OptionA": "54",
+      "OptionB": "36",
+      "OptionC": "405",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што се случува со именителот при собирање на дропки со исти именители?",
+      "OptionA": "Именителите се собираат",
+      "OptionB": "Именителот останува ист",
+      "OptionC": "Именителот се множи",
+      "OptionD": "Именителот се заменува со 0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 2/7 + 3/7?",
+      "OptionA": "5/14",
+      "OptionB": "5/7",
+      "OptionC": "1/7",
+      "OptionD": "6/49",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 9/10 - 4/10?",
+      "OptionA": "5/0",
+      "OptionB": "13/10",
+      "OptionC": "5/10",
+      "OptionD": "5/20",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "За да собереме 1/2 и 1/4, прво мора да ги доведеме до:",
+      "OptionA": "Ист броител",
+      "OptionB": "Поголем број",
+      "OptionC": "Ист именител",
+      "OptionD": "Мешан број",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка е еднаква на 1/2?",
+      "OptionA": "2/4",
+      "OptionB": "1/3",
+      "OptionC": "2/2",
+      "OptionD": "3/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако x : 4 = 8, тогаш x е:",
+      "OptionA": "2",
+      "OptionB": "12",
+      "OptionC": "4",
+      "OptionD": "32",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Резултатот на 5/8 + 2/8 е:",
+      "OptionA": "7/8",
+      "OptionB": "7/16",
+      "OptionC": "3/8",
+      "OptionD": "10/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 6/6 - 2/6?",
+      "OptionA": "8/6",
+      "OptionB": "4/6",
+      "OptionC": "4/0",
+      "OptionD": "1/3",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е непознат множител во 6 * x = 42?",
+      "OptionA": "6",
+      "OptionB": "48",
+      "OptionC": "7",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "За да ја претвориме дропката 1/3 во дропка со именител 6, броителот и именителот ги множиме со:",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "1",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 1/5 + 1/10 (ако 1/5 се запише како 2/10)?",
+      "OptionA": "2/15",
+      "OptionB": "3/10",
+      "OptionC": "1/15",
+      "OptionD": "3/20",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во равенката x : 3 = 20, x е:",
+      "OptionA": "60",
+      "OptionB": "17",
+      "OptionC": "23",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 10/12 - 3/12?",
+      "OptionA": "13/12",
+      "OptionB": "7/0",
+      "OptionC": "7/24",
+      "OptionD": "7/12",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако 12 * x = 48, тогаш x е:",
+      "OptionA": "60",
+      "OptionB": "36",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка е еднаква на 3/4?",
+      "OptionA": "6/8",
+      "OptionB": "4/3",
+      "OptionC": "3/8",
+      "OptionD": "1/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај x ако 81 : x = 9.",
+      "OptionA": "729",
+      "OptionB": "9",
+      "OptionC": "90",
+      "OptionD": "72",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 4/9 + 5/9?",
+      "OptionA": "9/18",
+      "OptionB": "1/9",
+      "OptionC": "20/81",
+      "OptionD": "9/9 (или 1)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се пресметува непознат делител (x) во 100 : x = 10?",
+      "OptionA": "100 * 10",
+      "OptionB": "100 + 10",
+      "OptionC": "100 : 10",
+      "OptionD": "100 - 10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/4 + 2/4?",
+      "OptionA": "3/4",
+      "OptionB": "3/8",
+      "OptionC": "1/4",
+      "OptionD": "2/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Непознат множител во x * 5 = 50 е:",
+      "OptionA": "250",
+      "OptionB": "10",
+      "OptionC": "45",
+      "OptionD": "55",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 7/15 - 4/15?",
+      "OptionA": "11/15",
+      "OptionB": "3/30",
+      "OptionC": "3/15",
+      "OptionD": "28/15",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако доведеме 1/3 на именител 9, таа станува:",
+      "OptionA": "3/9",
+      "OptionB": "1/9",
+      "OptionC": "6/9",
+      "OptionD": "2/9",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај x во равенката x : 6 = 7.",
+      "OptionA": "1",
+      "OptionB": "13",
+      "OptionC": "42",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Збирот на 3/10 и 4/10 е:",
+      "OptionA": "7/20",
+      "OptionB": "1/10",
+      "OptionC": "12/10",
+      "OptionD": "7/10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во x * 9 = 0, x изнесува:",
+      "OptionA": "9",
+      "OptionB": "1",
+      "OptionC": "0",
+      "OptionD": "Нема решение",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 8/9 - 5/9?",
+      "OptionA": "3/9",
+      "OptionB": "13/9",
+      "OptionC": "3/0",
+      "OptionD": "3/18",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која операција се користи за наоѓање непознат множител?",
+      "OptionA": "Множење",
+      "OptionB": "Собирање",
+      "OptionC": "Делење",
+      "OptionD": "Одземање",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 2/5 + 1/5?",
+      "OptionA": "3/10",
+      "OptionB": "1/5",
+      "OptionC": "3/5",
+      "OptionD": "2/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 24 : x = 4, x е:",
+      "OptionA": "6",
+      "OptionB": "28",
+      "OptionC": "20",
+      "OptionD": "96",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако имаме 1 цел круг поделен на 4 дела, 4/4 е еднакво на:",
+      "OptionA": "1/4",
+      "OptionB": "1",
+      "OptionC": "4",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е x ако x * 10 = 100?",
+      "OptionA": "1000",
+      "OptionB": "10",
+      "OptionC": "90",
+      "OptionD": "110",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Разликата на 5/7 и 2/7 е:",
+      "OptionA": "3/7",
+      "OptionB": "7/7",
+      "OptionC": "3/0",
+      "OptionD": "10/7",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 4/10?",
+      "OptionA": "1/5",
+      "OptionB": "2/10",
+      "OptionC": "2/5",
+      "OptionD": "4/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај го деленикот x : 9 = 4.",
+      "OptionA": "13",
+      "OptionB": "5",
+      "OptionC": "36",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Збирот на 1/8, 2/8 и 3/8 е:",
+      "OptionA": "6/24",
+      "OptionB": "6/8",
+      "OptionC": "5/8",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако x * 4 = 16, x е:",
+      "OptionA": "4",
+      "OptionB": "12",
+      "OptionC": "20",
+      "OptionD": "64",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 1/2 + 1/2?",
+      "OptionA": "2/4",
+      "OptionB": "1/2",
+      "OptionC": "2/2 (или 1)",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 60 : x = 6, x е:",
+      "OptionA": "54",
+      "OptionB": "10",
+      "OptionC": "66",
+      "OptionD": "360",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 11/20 - 5/20?",
+      "OptionA": "6/20",
+      "OptionB": "16/20",
+      "OptionC": "6/0",
+      "OptionD": "6/40",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако ја прошириме дропката 2/3 со бројот 4, добиваме:",
+      "OptionA": "6/7",
+      "OptionB": "8/3",
+      "OptionC": "8/12",
+      "OptionD": "2/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај x во равенката x * 3 = 27.",
+      "OptionA": "30",
+      "OptionB": "9",
+      "OptionC": "24",
+      "OptionD": "81",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1/6 + 4/6?",
+      "OptionA": "5/12",
+      "OptionB": "3/6",
+      "OptionC": "5/6",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 35 : x = 7, x е:",
+      "OptionA": "5",
+      "OptionB": "245",
+      "OptionC": "42",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 1 целина?",
+      "OptionA": "1/2",
+      "OptionB": "5/5",
+      "OptionC": "0/1",
+      "OptionD": "1/5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е x во x : 8 = 3?",
+      "OptionA": "11",
+      "OptionB": "5",
+      "OptionC": "24",
+      "OptionD": "16",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од 5/5 одземеме 2/5, остануваат:",
+      "OptionA": "3/5",
+      "OptionB": "7/5",
+      "OptionC": "3/0",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "За да добиеме ист именител за 1/2 и 1/6, 1/2 ја запишуваме како:",
+      "OptionA": "2/6",
+      "OptionB": "3/6",
+      "OptionC": "1/6",
+      "OptionD": "4/6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е x ако 7 * x = 49?",
+      "OptionA": "42",
+      "OptionB": "56",
+      "OptionC": "7",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Збирот на 4/11 и 6/11 е:",
+      "OptionA": "10/11",
+      "OptionB": "10/22",
+      "OptionC": "2/11",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во равенката x : 2 = 50, x е:",
+      "OptionA": "25",
+      "OptionB": "100",
+      "OptionC": "48",
+      "OptionD": "52",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Разликата на 12/15 и 7/15 е:",
+      "OptionA": "19/15",
+      "OptionB": "5/0",
+      "OptionC": "5/30",
+      "OptionD": "5/15",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дропката 5/10 е еднаква на:",
+      "OptionA": "1/2",
+      "OptionB": "1/5",
+      "OptionC": "2/5",
+      "OptionD": "5/1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај x во 9 * x = 81.",
+      "OptionA": "72",
+      "OptionB": "9",
+      "OptionC": "90",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 3/8 + 3/8?",
+      "OptionA": "6/16",
+      "OptionB": "0/8",
+      "OptionC": "6/8",
+      "OptionD": "9/8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 48 : x = 8, x е:",
+      "OptionA": "6",
+      "OptionB": "40",
+      "OptionC": "56",
+      "OptionD": "384",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 2/8?",
+      "OptionA": "1/4",
+      "OptionB": "1/2",
+      "OptionC": "1/8",
+      "OptionD": "4/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е x во x : 10 = 5?",
+      "OptionA": "15",
+      "OptionB": "5",
+      "OptionC": "50",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од 1 одземеме 1/4, добиваме:",
+      "OptionA": "1/4",
+      "OptionB": "3/4",
+      "OptionC": "0",
+      "OptionD": "4/4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 2/9 + 7/9?",
+      "OptionA": "9/18",
+      "OptionB": "5/9",
+      "OptionC": "9/9 (или 1)",
+      "OptionD": "14/9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е x ако 5 * x = 35?",
+      "OptionA": "7",
+      "OptionB": "30",
+      "OptionC": "40",
+      "OptionD": "175",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Збирот на 5/12 и 2/12 е:",
+      "OptionA": "7/24",
+      "OptionB": "3/12",
+      "OptionC": "10/12",
+      "OptionD": "7/12",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Пресметај го деленикот x во x : 7 = 6.",
+      "OptionA": "13",
+      "OptionB": "42",
+      "OptionC": "1",
+      "OptionD": "49",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Разликата на 8/10 и 3/10 е:",
+      "OptionA": "5/10",
+      "OptionB": "11/10",
+      "OptionC": "5/0",
+      "OptionD": "5/20",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 3/9?",
+      "OptionA": "1/3",
+      "OptionB": "1/9",
+      "OptionC": "2/3",
+      "OptionD": "3/3",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај x во 4 * x = 32.",
+      "OptionA": "36",
+      "OptionB": "28",
+      "OptionC": "8",
+      "OptionD": "128",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/7 + 3/7 + 2/7?",
+      "OptionA": "6/21",
+      "OptionB": "6/7",
+      "OptionC": "5/7",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во 56 : x = 8, x е:",
+      "OptionA": "7",
+      "OptionB": "64",
+      "OptionC": "48",
+      "OptionD": "448",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дропката 6/12 е еднаква на:",
+      "OptionA": "1/2",
+      "OptionB": "1/6",
+      "OptionC": "2/12",
+      "OptionD": "3/12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е x во x : 5 = 9?",
+      "OptionA": "14",
+      "OptionB": "4",
+      "OptionC": "45",
+      "OptionD": "1.8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од 10/10 одземеме 10/10, резултатот е:",
+      "OptionA": "1",
+      "OptionB": "0",
+      "OptionC": "10/10",
+      "OptionD": "20/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 3/5 + 2/5?",
+      "OptionA": "5/10",
+      "OptionB": "1/5",
+      "OptionC": "5/5 (или 1)",
+      "OptionD": "6/25",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е x во 8 * x = 64?",
+      "OptionA": "8",
+      "OptionB": "72",
+      "OptionC": "56",
+      "OptionD": "512",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Збирот на 1/4 и 1/4 е:",
+      "OptionA": "2/8",
+      "OptionB": "2/4 (или 1/2)",
+      "OptionC": "1/8",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај x во 21 : x = 3.",
+      "OptionA": "18",
+      "OptionB": "24",
+      "OptionC": "7",
+      "OptionD": "63",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Разликата на 7/8 и 5/8 е:",
+      "OptionA": "2/8 (или 1/4)",
+      "OptionB": "12/8",
+      "OptionC": "2/0",
+      "OptionD": "35/64",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 2/10?",
+      "OptionA": "1/5",
+      "OptionB": "1/2",
+      "OptionC": "1/10",
+      "OptionD": "5/10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај x во x * 6 = 18.",
+      "OptionA": "12",
+      "OptionB": "3",
+      "OptionC": "24",
+      "OptionD": "108",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 4/10 + 4/10?",
+      "OptionA": "8/20",
+      "OptionB": "1",
+      "OptionC": "8/10",
+      "OptionD": "16/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 72 : x = 9, x е:",
+      "OptionA": "8",
+      "OptionB": "81",
+      "OptionC": "63",
+      "OptionD": "648",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дропката 4/8 е еднаква на:",
+      "OptionA": "1/2",
+      "OptionB": "1/4",
+      "OptionC": "2/8",
+      "OptionD": "4/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е x во x : 4 = 10?",
+      "OptionA": "14",
+      "OptionB": "6",
+      "OptionC": "40",
+      "OptionD": "2.5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од 4/6 одземеме 1/6, остануваат:",
+      "OptionA": "3/6 (или 1/2)",
+      "OptionB": "5/6",
+      "OptionC": "3/0",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 1/3 + 1/3?",
+      "OptionA": "2/6",
+      "OptionB": "2/3",
+      "OptionC": "1/3",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е x во 2 * x = 20?",
+      "OptionA": "10",
+      "OptionB": "22",
+      "OptionC": "18",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Збирот на 3/7 и 1/7 е:",
+      "OptionA": "4/14",
+      "OptionB": "2/7",
+      "OptionC": "4/7",
+      "OptionD": "3/49",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај x во 30 : x = 5.",
+      "OptionA": "6",
+      "OptionB": "25",
+      "OptionC": "35",
+      "OptionD": "150",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Разликата на 9/12 и 4/12 е:",
+      "OptionA": "5/12",
+      "OptionB": "13/12",
+      "OptionC": "5/0",
+      "OptionD": "5/24",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 1/4?",
+      "OptionA": "2/8",
+      "OptionB": "2/4",
+      "OptionC": "1/8",
+      "OptionD": "4/1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај x во x * 5 = 25.",
+      "OptionA": "20",
+      "OptionB": "30",
+      "OptionC": "5",
+      "OptionD": "125",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 5/9 + 2/9?",
+      "OptionA": "7/18",
+      "OptionB": "3/9",
+      "OptionC": "7/9",
+      "OptionD": "10/9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 40 : x = 4, x е:",
+      "OptionA": "10",
+      "OptionB": "36",
+      "OptionC": "44",
+      "OptionD": "160",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дропката 2/4 е еднаква на:",
+      "OptionA": "1/2",
+      "OptionB": "1/4",
+      "OptionC": "3/4",
+      "OptionD": "2/2",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е x во x : 3 = 12?",
+      "OptionA": "15",
+      "OptionB": "9",
+      "OptionC": "36",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од 8/8 одземеме 3/8, остануваат:",
+      "OptionA": "5/8",
+      "OptionB": "11/8",
+      "OptionC": "5/0",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 2/10 + 3/10 + 4/10?",
+      "OptionA": "9/30",
+      "OptionB": "9/10",
+      "OptionC": "1/10",
+      "OptionD": "24/10",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

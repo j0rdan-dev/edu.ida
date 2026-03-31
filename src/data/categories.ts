@@ -246,6 +246,22 @@ export const grades: Grade[] = [
             color: "220 70% 50%",
           },
           {
+            id: "operacii-broevi-dropki-4",
+            label: "3. Операции со броеви (дропки)",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki.json`,
+            icon: Plus,
+            color: "220 80% 30%",
+          },
+          {
+            id: "operacii-broevi-dropki-4",
+            label: "3. Операции со броеви (дропки - текстуални)",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki_tekstualni.json`,
+            icon: Plus,
+            color: "200 90% 10%",
+          },
+          {
             id: "operacii-broeci-tekstualni-4",
             label: "3. Операции со броеви (текстуални задачи)",
             description: "",
