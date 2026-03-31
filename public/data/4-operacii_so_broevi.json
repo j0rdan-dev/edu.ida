@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку е збирот на броевите 450 и 350?",
+      "OptionA": "800",
+      "OptionB": "700",
+      "OptionC": "750",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај ја разликата: 1000 - 450.",
+      "OptionA": "650",
+      "OptionB": "550",
+      "OptionC": "450",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 120 поголем од 380?",
+      "OptionA": "400",
+      "OptionB": "480",
+      "OptionC": "500",
+      "OptionD": "520",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако еден собирок е 240, а збирот е 600, колку изнесува другиот собирок?",
+      "OptionA": "460",
+      "OptionB": "340",
+      "OptionC": "400",
+      "OptionD": "360",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 7 помножено со 8?",
+      "OptionA": "56",
+      "OptionB": "54",
+      "OptionC": "63",
+      "OptionD": "48",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е резултатот од делењето 63 : 9?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 120 помножено со 10?",
+      "OptionA": "120",
+      "OptionB": "100",
+      "OptionC": "1200",
+      "OptionD": "2100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај го производот: 15 x 4.",
+      "OptionA": "45",
+      "OptionB": "50",
+      "OptionC": "55",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако на бројот 2500 му додадеме 1500, што ќе добиеме?",
+      "OptionA": "4000",
+      "OptionB": "3000",
+      "OptionC": "3500",
+      "OptionD": "4500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 4000 - 1200?",
+      "OptionA": "3800",
+      "OptionB": "2800",
+      "OptionC": "2200",
+      "OptionD": "3000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е 10 пати помал од 500?",
+      "OptionA": "5",
+      "OptionB": "5000",
+      "OptionC": "50",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се добива ако 0 се помножи со 156?",
+      "OptionA": "156",
+      "OptionB": "1",
+      "OptionC": "1560",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е резултатот од 345 + 105?",
+      "OptionA": "450",
+      "OptionB": "440",
+      "OptionC": "460",
+      "OptionD": "400",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 72 поделено со 8?",
+      "OptionA": "8",
+      "OptionB": "9",
+      "OptionC": "7",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Збирот на 30, 40 и 50 е:",
+      "OptionA": "110",
+      "OptionB": "100",
+      "OptionC": "120",
+      "OptionD": "130",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1000 : 100?",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "0",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Пресметај: (10 + 5) x 2.",
+      "OptionA": "30",
+      "OptionB": "20",
+      "OptionC": "25",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако имаш 4 кутии со по 6 моливи, колку моливи имаш вкупно?",
+      "OptionA": "20",
+      "OptionB": "24",
+      "OptionC": "10",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број поделен со 5 дава резултат 6?",
+      "OptionA": "11",
+      "OptionB": "25",
+      "OptionC": "30",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 450 - 50 - 100?",
+      "OptionA": "400",
+      "OptionB": "350",
+      "OptionC": "250",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е производ на 9 и 4?",
+      "OptionA": "36",
+      "OptionB": "32",
+      "OptionC": "40",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај 500 + 250 + 50.",
+      "OptionA": "750",
+      "OptionB": "800",
+      "OptionC": "700",
+      "OptionD": "850",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 81 поделено со 9?",
+      "OptionA": "7",
+      "OptionB": "8",
+      "OptionC": "9",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е резултатот на 100 x 5?",
+      "OptionA": "105",
+      "OptionB": "50",
+      "OptionC": "5000",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако Марко има 500 денари и потрошил 120, колку му останале?",
+      "OptionA": "380",
+      "OptionB": "420",
+      "OptionC": "400",
+      "OptionD": "350",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 6 x 7?",
+      "OptionA": "36",
+      "OptionB": "42",
+      "OptionC": "48",
+      "OptionD": "54",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 2000 - 500.",
+      "OptionA": "1000",
+      "OptionB": "1200",
+      "OptionC": "1500",
+      "OptionD": "1800",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се добива ако 24 се подели со 3?",
+      "OptionA": "7",
+      "OptionB": "6",
+      "OptionC": "9",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број треба да стои на местото на *: 400 + * = 1000?",
+      "OptionA": "600",
+      "OptionB": "500",
+      "OptionC": "700",
+      "OptionD": "400",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е половина од 100?",
+      "OptionA": "25",
+      "OptionB": "50",
+      "OptionC": "75",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај го збирот: 125 + 125.",
+      "OptionA": "200",
+      "OptionB": "240",
+      "OptionC": "250",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е четири пати поголем од 5?",
+      "OptionA": "9",
+      "OptionB": "15",
+      "OptionC": "25",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 900 - 350?",
+      "OptionA": "550",
+      "OptionB": "650",
+      "OptionC": "600",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Резултатот од 48 : 6 е:",
+      "OptionA": "7",
+      "OptionB": "8",
+      "OptionC": "9",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 30 x 3?",
+      "OptionA": "60",
+      "OptionB": "33",
+      "OptionC": "90",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај 10 + 20 + 30 + 40.",
+      "OptionA": "90",
+      "OptionB": "80",
+      "OptionC": "110",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е за 50 помал од 1000?",
+      "OptionA": "950",
+      "OptionB": "900",
+      "OptionC": "1050",
+      "OptionD": "850",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 5 x 9?",
+      "OptionA": "40",
+      "OptionB": "45",
+      "OptionC": "50",
+      "OptionD": "35",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако на еден рафт има 8 книги, колку книги има на 10 такви рафтови?",
+      "OptionA": "18",
+      "OptionB": "70",
+      "OptionC": "80",
+      "OptionD": "90",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај 600 - 200 - 200.",
+      "OptionA": "400",
+      "OptionB": "300",
+      "OptionC": "100",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 250 + 250 + 250?",
+      "OptionA": "750",
+      "OptionB": "500",
+      "OptionC": "1000",
+      "OptionD": "650",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е бројот што помножен со 7 дава 49?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 360 поделено со 6?",
+      "OptionA": "30",
+      "OptionB": "40",
+      "OptionC": "60",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Пресметај го производот на броевите 11 и 5.",
+      "OptionA": "66",
+      "OptionB": "50",
+      "OptionC": "60",
+      "OptionD": "55",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако бројот 800 го намалиш за 450, ќе добиеш:",
+      "OptionA": "350",
+      "OptionB": "450",
+      "OptionC": "400",
+      "OptionD": "250",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е збирот на 1000 и 850?",
+      "OptionA": "1750",
+      "OptionB": "1850",
+      "OptionC": "1950",
+      "OptionD": "2000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 32 : 4?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е 100 пати поголем од 7?",
+      "OptionA": "77",
+      "OptionB": "70",
+      "OptionC": "7000",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Пресметај 150 + 250.",
+      "OptionA": "400",
+      "OptionB": "300",
+      "OptionC": "350",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 56 : 7?",
+      "OptionA": "7",
+      "OptionB": "8",
+      "OptionC": "9",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако Марко има 12 бонбони и ги подели на 3 другари еднакво, по колку ќе добијат?",
+      "OptionA": "3",
+      "OptionB": "5",
+      "OptionC": "4",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е резултатот од 25 x 2?",
+      "OptionA": "40",
+      "OptionB": "45",
+      "OptionC": "60",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Пресметај 700 - 300.",
+      "OptionA": "400",
+      "OptionB": "500",
+      "OptionC": "300",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 9 x 3?",
+      "OptionA": "24",
+      "OptionB": "27",
+      "OptionC": "30",
+      "OptionD": "18",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е инверзна операција на собирањето?",
+      "OptionA": "Множење",
+      "OptionB": "Делење",
+      "OptionC": "Одземање",
+      "OptionD": "Квадрирање",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 100 : 2?",
+      "OptionA": "20",
+      "OptionB": "40",
+      "OptionC": "60",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е збир на 456 и 0?",
+      "OptionA": "456",
+      "OptionB": "0",
+      "OptionC": "4560",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 8 x 4?",
+      "OptionA": "24",
+      "OptionB": "32",
+      "OptionC": "40",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 1000 - 10.",
+      "OptionA": "900",
+      "OptionB": "999",
+      "OptionC": "990",
+      "OptionD": "1010",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број се добива кога 40 ќе се подели со 5?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако еден фактор е 6, а производот е 30, колку е другиот фактор?",
+      "OptionA": "5",
+      "OptionB": "4",
+      "OptionC": "6",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 500 + 500?",
+      "OptionA": "1500",
+      "OptionB": "1000",
+      "OptionC": "2000",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 21 : 3.",
+      "OptionA": "6",
+      "OptionB": "8",
+      "OptionC": "7",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 15 x 3?",
+      "OptionA": "30",
+      "OptionB": "40",
+      "OptionC": "50",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е за 200 поголем од 800?",
+      "OptionA": "1000",
+      "OptionB": "600",
+      "OptionC": "1200",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 4 x 9?",
+      "OptionA": "40",
+      "OptionB": "36",
+      "OptionC": "32",
+      "OptionD": "44",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 80 - 15.",
+      "OptionA": "75",
+      "OptionB": "55",
+      "OptionC": "65",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број поделен со 10 дава 7?",
+      "OptionA": "17",
+      "OptionB": "77",
+      "OptionC": "100",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Збирот на броевите 120 и 80 е:",
+      "OptionA": "200",
+      "OptionB": "180",
+      "OptionC": "220",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 10 x 10?",
+      "OptionA": "20",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 45 : 5.",
+      "OptionA": "8",
+      "OptionB": "7",
+      "OptionC": "9",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако имаш 3 групи со по 7 деца, колку деца има вкупно?",
+      "OptionA": "10",
+      "OptionB": "14",
+      "OptionC": "28",
+      "OptionD": "21",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 1000 - 900?",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е производ на 6 и 6?",
+      "OptionA": "12",
+      "OptionB": "36",
+      "OptionC": "42",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 180 + 20.",
+      "OptionA": "190",
+      "OptionB": "160",
+      "OptionC": "200",
+      "OptionD": "220",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 14 поделено со 2?",
+      "OptionA": "6",
+      "OptionB": "8",
+      "OptionC": "5",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што се добива кога на 350 му се додаде 50?",
+      "OptionA": "400",
+      "OptionB": "300",
+      "OptionC": "450",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 3 x 8?",
+      "OptionA": "11",
+      "OptionB": "24",
+      "OptionC": "32",
+      "OptionD": "21",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 500 - 150.",
+      "OptionA": "450",
+      "OptionB": "400",
+      "OptionC": "350",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е 2 пати помал од 16?",
+      "OptionA": "14",
+      "OptionB": "32",
+      "OptionC": "10",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е збирот на 600 и 400?",
+      "OptionA": "1000",
+      "OptionB": "1200",
+      "OptionC": "900",
+      "OptionD": "1100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 40 x 2?",
+      "OptionA": "42",
+      "OptionB": "80",
+      "OptionC": "60",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 27 : 9.",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "3",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако имаш 100 денари и купиш сладолед од 35 денари, колку кусур ќе ти вратат?",
+      "OptionA": "75",
+      "OptionB": "55",
+      "OptionC": "60",
+      "OptionD": "65",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 2 x 2 x 2?",
+      "OptionA": "8",
+      "OptionB": "6",
+      "OptionC": "4",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е 10 пати поголем од 45?",
+      "OptionA": "455",
+      "OptionB": "450",
+      "OptionC": "540",
+      "OptionD": "54",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 120 + 120 + 120.",
+      "OptionA": "240",
+      "OptionB": "300",
+      "OptionC": "360",
+      "OptionD": "480",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 30 : 5?",
+      "OptionA": "5",
+      "OptionB": "7",
+      "OptionC": "4",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број недостасува: 2, 4, 6, *, 10?",
+      "OptionA": "8",
+      "OptionB": "7",
+      "OptionC": "9",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Пресметај 100 - 45.",
+      "OptionA": "65",
+      "OptionB": "55",
+      "OptionC": "45",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 4 x 4?",
+      "OptionA": "8",
+      "OptionB": "12",
+      "OptionC": "16",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е тоа 'производ'?",
+      "OptionA": "Резултат при собирање",
+      "OptionB": "Резултат при одземање",
+      "OptionC": "Резултат при делење",
+      "OptionD": "Резултат при множење",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Пресметај 250 + 750.",
+      "OptionA": "1000",
+      "OptionB": "900",
+      "OptionC": "800",
+      "OptionD": "1100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 20 : 4?",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 90 - 30 - 20.",
+      "OptionA": "50",
+      "OptionB": "60",
+      "OptionC": "40",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е бројот што поделен со 1 дава 55?",
+      "OptionA": "1",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "55",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Пресметај го збирот: 333 + 667.",
+      "OptionA": "1000",
+      "OptionB": "999",
+      "OptionC": "1100",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 7 x 7?",
+      "OptionA": "42",
+      "OptionB": "49",
+      "OptionC": "56",
+      "OptionD": "35",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај 1000 : 1.",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е резултатот од 12 x 2?",
+      "OptionA": "14",
+      "OptionB": "22",
+      "OptionC": "26",
+      "OptionD": "24",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

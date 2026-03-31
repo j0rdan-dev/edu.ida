@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Што е полуправа?",
+      "OptionA": "Дел од права ограничена со две точки.",
+      "OptionB": "Дел од права што започнува во една точка и се протега бесконечно во една насока.",
+      "OptionC": "Линија што нема ниту почеток ниту крај.",
+      "OptionD": "Крива линија што поврзува две точки.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку почетни точки има една полуправа?",
+      "OptionA": "Две.",
+      "OptionB": "Ниедна.",
+      "OptionC": "Една.",
+      "OptionD": "Бесконечно многу.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика заедничката почетна точка на две полуправи што формираат агол?",
+      "OptionA": "Теме на аголот.",
+      "OptionB": "Раб на аголот.",
+      "OptionC": "Страна на аголот.",
+      "OptionD": "Центар на аголот.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој агол изнесува точно 90 степени?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Рамен агол.",
+      "OptionD": "Прав агол.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Каков е аголот што е помал од правиот агол?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Рамен агол.",
+      "OptionD": "Полн агол.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Каков е аголот што е поголем од правиот, а помал од рамниот агол?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Прав агол.",
+      "OptionD": "Крив агол.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку темиња има триаголникот?",
+      "OptionA": "Четири.",
+      "OptionB": "Две.",
+      "OptionC": "Три.",
+      "OptionD": "Пет.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку страни има правоаголникот?",
+      "OptionA": "Четири.",
+      "OptionB": "Три.",
+      "OptionC": "Пет.",
+      "OptionD": "Шест.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Каков многуаголник е квадратот?",
+      "OptionA": "Неправилен многуаголник.",
+      "OptionB": "Правилен четириаголник.",
+      "OptionC": "Триаголник со еднакви страни.",
+      "OptionD": "Тркалезна форма.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е 3Д-форма?",
+      "OptionA": "Квадрат.",
+      "OptionB": "Круг.",
+      "OptionC": "Триаголник.",
+      "OptionD": "Коцка.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку ѕидови има коцката?",
+      "OptionA": "Четири.",
+      "OptionB": "Шест.",
+      "OptionC": "Осум.",
+      "OptionD": "Дванаесет.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каков е обликот на ѕидовите кај коцката?",
+      "OptionA": "Правоаголен.",
+      "OptionB": "Триаголен.",
+      "OptionC": "Квадратен.",
+      "OptionD": "Кружен.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку темиња има квадарот?",
+      "OptionA": "Шест.",
+      "OptionB": "Осум.",
+      "OptionC": "Четири.",
+      "OptionD": "Десет.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е раб кај една 3Д-форма?",
+      "OptionA": "Местото каде се сечат два ѕида.",
+      "OptionB": "Рамната површина на формата.",
+      "OptionC": "Точката каде се спојуваат рабовите.",
+      "OptionD": "Внатрешниот дел на формата.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која 3Д-форма нема ниту едно теме?",
+      "OptionA": "Пирамида.",
+      "OptionB": "Коцка.",
+      "OptionC": "Квадар.",
+      "OptionD": "Топка.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку основи има цилиндарот?",
+      "OptionA": "Една.",
+      "OptionB": "Две.",
+      "OptionC": "Три.",
+      "OptionD": "Ниедна.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каков е обликот на основата на конусот?",
+      "OptionA": "Квадрат.",
+      "OptionB": "Триаголник.",
+      "OptionC": "Круг.",
+      "OptionD": "Правоаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која форма е валчеста 3Д-форма?",
+      "OptionA": "Коцка.",
+      "OptionB": "Цилиндар.",
+      "OptionC": "Пирамида.",
+      "OptionD": "Квадар.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку рабови има коцката?",
+      "OptionA": "Шест.",
+      "OptionB": "Осум.",
+      "OptionC": "Дванаесет.",
+      "OptionD": "Десет.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што претставува мрежа на 3Д-форма?",
+      "OptionA": "Цртеж на формата во боја.",
+      "OptionB": "Рамна слика (2Д) која кога ќе се преклопи формира 3Д-тело.",
+      "OptionC": "Сенката што ја фрла телото.",
+      "OptionD": "Линијата што го дели телото на два дела.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку квадрати има во мрежата на коцката?",
+      "OptionA": "Четири.",
+      "OptionB": "Пет.",
+      "OptionC": "Шест.",
+      "OptionD": "Седум.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е оска на симетрија?",
+      "OptionA": "Најдолгата страна на еден триаголник.",
+      "OptionB": "Линија што ја дели формата на два еднакви и поклопливи дела.",
+      "OptionC": "Точка во центарот на кругот.",
+      "OptionD": "Аголот кај правоаголникот.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку оски на симетрија има квадратот?",
+      "OptionA": "Две.",
+      "OptionB": "Четири.",
+      "OptionC": "Една.",
+      "OptionD": "Три.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дали кругот има оски на симетрија?",
+      "OptionA": "Да, бесконечно многу.",
+      "OptionB": "Не, нема ниту една.",
+      "OptionC": "Да, само две.",
+      "OptionD": "Да, само четири.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се користи за означување на положба во координатна мрежа?",
+      "OptionA": "Само еден број.",
+      "OptionB": "Координатен пар (број и буква или два броја).",
+      "OptionC": "Линијар и шестар.",
+      "OptionD": "Само името на предметот.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во координатен пар (3, A), што означува првиот елемент (3)?",
+      "OptionA": "Положба на вертикалната оска.",
+      "OptionB": "Положба на хоризонталната оска.",
+      "OptionC": "Бојата на полето.",
+      "OptionD": "Големината на формата.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика многуаголникот со пет страни?",
+      "OptionA": "Шестаголник.",
+      "OptionB": "Четириаголник.",
+      "OptionC": "Петаголник.",
+      "OptionD": "Седмаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој од следниве е правилен многуаголник?",
+      "OptionA": "Рамнокрак триаголник.",
+      "OptionB": "Правоаголник.",
+      "OptionC": "Рамностран триаголник.",
+      "OptionD": "Разностран триаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е теме кај 2Д-форма?",
+      "OptionA": "Точка каде се спојуваат две страни.",
+      "OptionB": "Линијата што ја заградува формата.",
+      "OptionC": "Просторот внатре во формата.",
+      "OptionD": "Највисоката точка на кругот.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку страни има шестаголникот?",
+      "OptionA": "Пет.",
+      "OptionB": "Седум.",
+      "OptionC": "Шест.",
+      "OptionD": "Осум.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој агол е поголем: 45° или 90°?",
+      "OptionA": "45°.",
+      "OptionB": "90°.",
+      "OptionC": "Истите се.",
+      "OptionD": "Ниеден.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Аголот од 120 степени е:",
+      "OptionA": "Остар агол.",
+      "OptionB": "Прав агол.",
+      "OptionC": "Тап агол.",
+      "OptionD": "Рамен агол.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика направата за мерење агли?",
+      "OptionA": "Линијар.",
+      "OptionB": "Шестар.",
+      "OptionC": "Агломер.",
+      "OptionD": "Термометар.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку страни има триаголникот?",
+      "OptionA": "Две.",
+      "OptionB": "Четири.",
+      "OptionC": "Три.",
+      "OptionD": "Пет.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е заедничко за квадратот и правоаголникот?",
+      "OptionA": "Имаат по три страни.",
+      "OptionB": "Сите страни им се еднакви.",
+      "OptionC": "Имаат по четири прави агли.",
+      "OptionD": "Немаат темиња.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која 3Д-форма има само еден кружен ѕид (основа) и едно теме?",
+      "OptionA": "Цилиндар.",
+      "OptionB": "Конус.",
+      "OptionC": "Топка.",
+      "OptionD": "Коцка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку темиња има петаголникот?",
+      "OptionA": "Пет.",
+      "OptionB": "Четири.",
+      "OptionC": "Шест.",
+      "OptionD": "Три.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која 2Д-форма нема агли?",
+      "OptionA": "Квадрат.",
+      "OptionB": "Триаголник.",
+      "OptionC": "Круг.",
+      "OptionD": "Петаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој многуаголник има најмал број страни?",
+      "OptionA": "Четириаголник.",
+      "OptionB": "Триаголник.",
+      "OptionC": "Петаголник.",
+      "OptionD": "Круг.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку ѕидови кај квадарот се правоаголници?",
+      "OptionA": "Сите шест.",
+      "OptionB": "Само два.",
+      "OptionC": "Само четири.",
+      "OptionD": "Ниеден.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која форма може да се тркала?",
+      "OptionA": "Коцка.",
+      "OptionB": "Пирамида.",
+      "OptionC": "Цилиндар.",
+      "OptionD": "Квадар.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што добиваме кога ќе пресечеме топка на половина?",
+      "OptionA": "Два круга.",
+      "OptionB": "Две полутопки.",
+      "OptionC": "Два цилиндри.",
+      "OptionD": "Две коцки.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку темиња има шестаголната пирамида во основата?",
+      "OptionA": "Пет.",
+      "OptionB": "Шест.",
+      "OptionC": "Седум.",
+      "OptionD": "Едно.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика движењето на формата околу една точка?",
+      "OptionA": "Пресликување.",
+      "OptionB": "Вртење (ротација).",
+      "OptionC": "Зголемување.",
+      "OptionD": "Бришење.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во која насока се движат стрелките на часовникот?",
+      "OptionA": "Налево.",
+      "OptionB": "Надесно (во насока на стрелките).",
+      "OptionC": "Нагоре.",
+      "OptionD": "Надолу.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е „четврт вртење“ надесно кај еден круг?",
+      "OptionA": "Вртење за 180 степени.",
+      "OptionB": "Вртење за 90 степени.",
+      "OptionC": "Вртење за 360 степени.",
+      "OptionD": "Вртење за 45 степени.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако свртиме квадрат за половина вртење, како ќе изгледа?",
+      "OptionA": "Исто како на почетокот.",
+      "OptionB": "Ќе стане триаголник.",
+      "OptionC": "Ќе биде наопаку.",
+      "OptionD": "Ќе се намали.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку оски на симетрија има рамнокракиот триаголник?",
+      "OptionA": "Три.",
+      "OptionB": "Една.",
+      "OptionC": "Две.",
+      "OptionD": "Ниедна.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која буква е симетрична?",
+      "OptionA": "Буквата А.",
+      "OptionB": "Буквата Ф.",
+      "OptionC": "Буквата Г.",
+      "OptionD": "Буквата Р.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која 3Д-форма има мрежа составена од еден правоаголник и два круга?",
+      "OptionA": "Конус.",
+      "OptionB": "Цилиндар.",
+      "OptionC": "Топка.",
+      "OptionD": "Квадар.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку рабови има триаголната пирамида?",
+      "OptionA": "Три.",
+      "OptionB": "Четири.",
+      "OptionC": "Шест.",
+      "OptionD": "Осум.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој агол го формираат страните на еден квадрат?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Прав агол.",
+      "OptionD": "Рамен агол.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика линијата што поврзува две точки на кружницата и минува низ центарот?",
+      "OptionA": "Дијаметар.",
+      "OptionB": "Радиус.",
+      "OptionC": "Тетива.",
+      "OptionD": "Лак.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку радиуси го сочинуваат еден дијаметар?",
+      "OptionA": "Еден.",
+      "OptionB": "Три.",
+      "OptionC": "Два.",
+      "OptionD": "Четири.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Каков агол формираат стрелките на часовникот кога е точно 3 часот?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Прав агол.",
+      "OptionC": "Тап агол.",
+      "OptionD": "Рамен агол.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е тоа „права“ во геометријата?",
+      "OptionA": "Линија со почеток и крај.",
+      "OptionB": "Линија што се протега бесконечно во двете насоки.",
+      "OptionC": "Крива линија.",
+      "OptionD": "Точка во просторот.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку прави минуваат низ една точка?",
+      "OptionA": "Само една.",
+      "OptionB": "Две.",
+      "OptionC": "Бесконечно многу.",
+      "OptionD": "Ниедна.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку прави минуваат низ две различни точки?",
+      "OptionA": "Само една.",
+      "OptionB": "Две.",
+      "OptionC": "Бесконечно многу.",
+      "OptionD": "Три.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се викаат две прави што никогаш не се сечат?",
+      "OptionA": "Нормални прави.",
+      "OptionB": "Паралелни прави.",
+      "OptionC": "Прави што се сечат.",
+      "OptionD": "Криви прави.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се викаат правите што се сечат под прав агол (90°)?",
+      "OptionA": "Паралелни прави.",
+      "OptionB": "Нормални прави.",
+      "OptionC": "Коси прави.",
+      "OptionD": "Хоризонтални прави.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која фигура е затворена линија составена од три или повеќе отсечки?",
+      "OptionA": "Агол.",
+      "OptionB": "Многуаголник.",
+      "OptionC": "Полуправа.",
+      "OptionD": "Крива.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку дијагонали може да се повлечат од едно теме кај триаголникот?",
+      "OptionA": "Ниедна.",
+      "OptionB": "Една.",
+      "OptionC": "Две.",
+      "OptionD": "Три.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е периметар на еден многуаголник?",
+      "OptionA": "Просторот внатре во формата.",
+      "OptionB": "Збир од должините на сите негови страни.",
+      "OptionC": "Бројот на неговите темиња.",
+      "OptionD": "Должината на дијагоналата.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 3Д-форма наликува на сладолед во корнет?",
+      "OptionA": "Коцка.",
+      "OptionB": "Цилиндар.",
+      "OptionC": "Конус.",
+      "OptionD": "Пирамида.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се случува при пресликување на форма преку оска на симетрија?",
+      "OptionA": "Формата се зголемува.",
+      "OptionB": "Се добива „слика во огледало“.",
+      "OptionC": "Формата ја менува бојата.",
+      "OptionD": "Формата исчезнува.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку темиња има триаголната призма?",
+      "OptionA": "Три.",
+      "OptionB": "Шест.",
+      "OptionC": "Пет.",
+      "OptionD": "Четири.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 3Д-форма има 5 ѕидови, 5 темиња и 8 рабови?",
+      "OptionA": "Четириаголна пирамида.",
+      "OptionB": "Триаголна пирамида.",
+      "OptionC": "Коцка.",
+      "OptionD": "Квадар.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика ѕидот на кој „стои“ 3Д-формата?",
+      "OptionA": "Бочен ѕид.",
+      "OptionB": "Теме.",
+      "OptionC": "Основа.",
+      "OptionD": "Раб.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој агол е поголем од 90°, а помал од 180°?",
+      "OptionA": "Остар.",
+      "OptionB": "Тап.",
+      "OptionC": "Прав.",
+      "OptionD": "Полн.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каков многуаголник е ромбот?",
+      "OptionA": "Триаголник.",
+      "OptionB": "Четириаголник.",
+      "OptionC": "Петаголник.",
+      "OptionD": "Круг.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку прави агли има кај правоаголникот?",
+      "OptionA": "Два.",
+      "OptionB": "Три.",
+      "OptionC": "Четири.",
+      "OptionD": "Ниеден.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој предмет наликува на коцка?",
+      "OptionA": "Портокал.",
+      "OptionB": "Конзерва.",
+      "OptionC": "Играчка коцка (за „Не лути се човече“).",
+      "OptionD": "Молив.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која 3Д-форма наликува на фудбалска топка?",
+      "OptionA": "Цилиндар.",
+      "OptionB": "Топка (сфера).",
+      "OptionC": "Конус.",
+      "OptionD": "Квадар.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 3Д-форма има мрежа составена од два триаголника и три правоаголника?",
+      "OptionA": "Триаголна призма.",
+      "OptionB": "Триаголна пирамида.",
+      "OptionC": "Коцка.",
+      "OptionD": "Квадар.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што означува координатата (0,0)?",
+      "OptionA": "Крајот на мрежата.",
+      "OptionB": "Почетокот на координатниот систем.",
+      "OptionC": "Средината на мрежата.",
+      "OptionD": "Највисоката точка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика аголот кој е еднаков на два прави агли?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Рамен агол (180°).",
+      "OptionD": "Прав агол.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика триаголникот на кој сите три страни му се со различна должина?",
+      "OptionA": "Разностран триаголник.",
+      "OptionB": "Рамностран триаголник.",
+      "OptionC": "Рамнокрак триаголник.",
+      "OptionD": "Правоаголен триаголник.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која фигура има само една оска на симетрија?",
+      "OptionA": "Квадрат.",
+      "OptionB": "Круг.",
+      "OptionC": "Буквата М.",
+      "OptionD": "Рамностран триаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Каде се наоѓа точката (2, 4) во однос на точката (2, 1)?",
+      "OptionA": "Лево.",
+      "OptionB": "Десно.",
+      "OptionC": "Погоре.",
+      "OptionD": "Подолу.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Каков многуаголник има 8 страни и 8 темиња?",
+      "OptionA": "Седмаголник.",
+      "OptionB": "Деветаголник.",
+      "OptionC": "Осмаголник.",
+      "OptionD": "Шестаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку ѕидови има триаголната пирамида?",
+      "OptionA": "Три.",
+      "OptionB": "Четири.",
+      "OptionC": "Пет.",
+      "OptionD": "Шест.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку пара паралелни страни има квадратот?",
+      "OptionA": "Еден.",
+      "OptionB": "Два.",
+      "OptionC": "Три.",
+      "OptionD": "Четири.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од наведениве предмети наликува на цилиндар?",
+      "OptionA": "Лименка сок.",
+      "OptionB": "Книга.",
+      "OptionC": "Плико за писмо.",
+      "OptionD": "Кутија за чевли.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е тоа „отсечка“?",
+      "OptionA": "Дел од права ограничена со две точки.",
+      "OptionB": "Линија што оди во бесконечност.",
+      "OptionC": "Крива линија околу круг.",
+      "OptionD": "Точка каде се сечат прави.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако една форма ја свртиме за 360 степени, каде ќе се најде?",
+      "OptionA": "На спротивната страна.",
+      "OptionB": "На истото место каде што почнала.",
+      "OptionC": "На четврт пат од почетокот.",
+      "OptionD": "Ќе се преврти наопаку.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 2Д-форма може да биде основа на пирамида?",
+      "OptionA": "Било кој многуаголник.",
+      "OptionB": "Само круг.",
+      "OptionC": "Само квадрат.",
+      "OptionD": "Само триаголник.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика триаголникот што има еден прав агол?",
+      "OptionA": "Остроаголен триаголник.",
+      "OptionB": "Тапоаголен триаголник.",
+      "OptionC": "Правоаголен триаголник.",
+      "OptionD": "Рамностран триаголник.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која буква нема ниту една оска на симетрија?",
+      "OptionA": "А.",
+      "OptionB": "О.",
+      "OptionC": "Н.",
+      "OptionD": "Ф.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која 3Д-форма има само еден закривен ѕид (обвивка) и нема темиња?",
+      "OptionA": "Коцка.",
+      "OptionB": "Квадар.",
+      "OptionC": "Топка.",
+      "OptionD": "Пирамида.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако точката А е на (1,1) и се помести за 3 полиња надесно, која ќе биде новата позиција?",
+      "OptionA": "(4,1).",
+      "OptionB": "(1,4).",
+      "OptionC": "(3,1).",
+      "OptionD": "(1,3).",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку темиња има коцката?",
+      "OptionA": "4.",
+      "OptionB": "6.",
+      "OptionC": "8.",
+      "OptionD": "12.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која форма има четири еднакви страни и нема прави агли?",
+      "OptionA": "Квадрат.",
+      "OptionB": "Правоаголник.",
+      "OptionC": "Ромб.",
+      "OptionD": "Трапез.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се користи за цртање правилни кружници?",
+      "OptionA": "Линијар.",
+      "OptionB": "Шестар.",
+      "OptionC": "Агломер.",
+      "OptionD": "Гума.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 3Д-форма има 12 рабови и сите ѕидови ѝ се еднакви квадрати?",
+      "OptionA": "Квадар.",
+      "OptionB": "Пирамида.",
+      "OptionC": "Коцка.",
+      "OptionD": "Призма.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Каков е аголот од 89 степени?",
+      "OptionA": "Остар.",
+      "OptionB": "Прав.",
+      "OptionC": "Тап.",
+      "OptionD": "Рамен.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од овие форми е 2Д-форма?",
+      "OptionA": "Коцка.",
+      "OptionB": "Триаголник.",
+      "OptionC": "Топка.",
+      "OptionD": "Конус.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што добиваме кога ќе споиме две еднакви коцки една до друга?",
+      "OptionA": "Поголема коцка.",
+      "OptionB": "Квадар.",
+      "OptionC": "Пирамида.",
+      "OptionD": "Цилиндар.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку оски на симетрија има правоаголникот (кој не е квадрат)?",
+      "OptionA": "Една.",
+      "OptionB": "Две.",
+      "OptionC": "Четири.",
+      "OptionD": "Ниедна.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој агол го нарекуваме „цел круг“?",
+      "OptionA": "Рамен агол.",
+      "OptionB": "Прав агол.",
+      "OptionC": "Полн агол (360°).",
+      "OptionD": "Остар агол.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика 3Д-формата која има мрежа од 6 правоаголници?",
+      "OptionA": "Коцка.",
+      "OptionB": "Квадар.",
+      "OptionC": "Пирамида.",
+      "OptionD": "Конус.",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

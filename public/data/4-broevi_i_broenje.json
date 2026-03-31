@@ -1,0 +1,796 @@
+{
+  "Questions": [
+    {
+      "Question": "Кој е најголемиот трицифрен број?",
+      "OptionA": "999",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку стотки има во бројот 1000?",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број следува по 9999 при броење по еден нанапред?",
+      "OptionA": "9000",
+      "OptionB": "1000",
+      "OptionC": "10000",
+      "OptionD": "10001",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишува со цифри бројот 'седум илјади и два'?",
+      "OptionA": "7200",
+      "OptionB": "7020",
+      "OptionC": "72",
+      "OptionD": "7002",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е месната вредност на цифрата 5 во бројот 5432?",
+      "OptionA": "Илјади",
+      "OptionB": "Единици",
+      "OptionC": "Десетки",
+      "OptionD": "Стотки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што означува цифрата 0 во бројот 3025?",
+      "OptionA": "Дека нема единици",
+      "OptionB": "Дека нема стотки",
+      "OptionC": "Дека нема илјади",
+      "OptionD": "Дека нема десетки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 1000 помал од 5678?",
+      "OptionA": "5578",
+      "OptionB": "6678",
+      "OptionC": "4678",
+      "OptionD": "5668",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се разложува бројот 4321 на месни вредности?",
+      "OptionA": "400 + 30 + 2 + 1",
+      "OptionB": "4 + 3 + 2 + 1",
+      "OptionC": "4000 + 321",
+      "OptionD": "4000 + 300 + 20 + 1",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу броевите 4567 и 4576?",
+      "OptionA": "<",
+      "OptionB": ">",
+      "OptionC": "=",
+      "OptionD": "+",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Заокружи го бројот 346 на најблиската десетка.",
+      "OptionA": "340",
+      "OptionB": "350",
+      "OptionC": "300",
+      "OptionD": "400",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи го бројот 4500 на најблиската илјада.",
+      "OptionA": "4000",
+      "OptionB": "4600",
+      "OptionC": "5000",
+      "OptionD": "4100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој од наведените броеви е негативен?",
+      "OptionA": "0",
+      "OptionB": "1",
+      "OptionC": "10",
+      "OptionD": "-5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Каде се наоѓаат негативните броеви на бројната права?",
+      "OptionA": "Лево од нулата",
+      "OptionB": "Десно од нулата",
+      "OptionC": "Над нулата",
+      "OptionD": "Под десетката",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е поголем: -2 или -5?",
+      "OptionA": "-5",
+      "OptionB": "-2",
+      "OptionC": "Истите се",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е тоа 'правилна дропка'?",
+      "OptionA": "Дропка каде броителот е поголем од именителот",
+      "OptionB": "Дропка која е еднаква на 1",
+      "OptionC": "Дропка каде броителот е помал од именителот",
+      "OptionD": "Било кој цел број",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој дел од дропката покажува на колку еднакви делови е поделено едно цело?",
+      "OptionA": "Броител",
+      "OptionB": "Дробна црта",
+      "OptionC": "Месна вредност",
+      "OptionD": "Именител",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се запишува дропката 'три четвртини'?",
+      "OptionA": "3/4",
+      "OptionB": "4/3",
+      "OptionC": "3,4",
+      "OptionD": "34/100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 1/2?",
+      "OptionA": "1/4",
+      "OptionB": "2/4",
+      "OptionC": "3/4",
+      "OptionD": "1/3",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку десеттинки има во едно цело?",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "10",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишува дропката 7/10 како децимален број?",
+      "OptionA": "7,0",
+      "OptionB": "0,07",
+      "OptionC": "7,10",
+      "OptionD": "0,7",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број во низата 200, 400, 600, ... следува според правилото?",
+      "OptionA": "800",
+      "OptionB": "700",
+      "OptionC": "1000",
+      "OptionD": "650",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е најмалиот четирицифрен број?",
+      "OptionA": "1001",
+      "OptionB": "1000",
+      "OptionC": "999",
+      "OptionD": "1111",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се добива ако на 5000 додадеме 3 стотки?",
+      "OptionA": "5003",
+      "OptionB": "8000",
+      "OptionC": "5300",
+      "OptionD": "5030",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Бројот 7892 има колку десетки?",
+      "OptionA": "8",
+      "OptionB": "2",
+      "OptionC": "7",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е претставен со 6И 0С 4Д 1Е?",
+      "OptionA": "6041",
+      "OptionB": "641",
+      "OptionC": "6401",
+      "OptionD": "6014",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Спореди: 8901 ____ 9000",
+      "OptionA": "=",
+      "OptionB": "<",
+      "OptionC": ">",
+      "OptionD": "Ниедно од понудените",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "При заокружување на најблиска стотка, бројот 1234 станува:",
+      "OptionA": "1300",
+      "OptionB": "1230",
+      "OptionC": "1200",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако броиме наназад по 1000 од 8000, кој е претходниот број?",
+      "OptionA": "7900",
+      "OptionB": "9000",
+      "OptionC": "8100",
+      "OptionD": "7000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е точната споредба на дропки со исти именители?",
+      "OptionA": "2/7 < 5/7",
+      "OptionB": "1/5 > 3/5",
+      "OptionC": "4/4 < 1/4",
+      "OptionD": "3/8 = 5/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што претставува 0,1?",
+      "OptionA": "Една стотинка",
+      "OptionB": "Една десеттинка",
+      "OptionC": "Едно цело",
+      "OptionD": "Нула цели и една стотинка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува во низата: -3, -2, __, 0, 1?",
+      "OptionA": "-4",
+      "OptionB": "2",
+      "OptionC": "-1",
+      "OptionD": "0,5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Бројот 10000 содржи колку илјади?",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "0",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако една цифра се наоѓа на третото место од десно на лево, таа покажува:",
+      "OptionA": "Стотки",
+      "OptionB": "Единици",
+      "OptionC": "Десетки",
+      "OptionD": "Илјади",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е поголем од 7034?",
+      "OptionA": "7033",
+      "OptionB": "7040",
+      "OptionC": "6999",
+      "OptionD": "7004",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи го 888 на најблиската десетка.",
+      "OptionA": "800",
+      "OptionB": "880",
+      "OptionC": "890",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дропката каде броителот е еднаков со именителот (на пр. 5/5) е еднаква на:",
+      "OptionA": "0",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој децимален број е поголем: 1,2 или 0,9?",
+      "OptionA": "1,2",
+      "OptionB": "0,9",
+      "OptionC": "Исти се",
+      "OptionD": "Ниеден",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "При броење по 100 нанапред, што следува по 1900?",
+      "OptionA": "1910",
+      "OptionB": "2000",
+      "OptionC": "1800",
+      "OptionD": "2100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Бројот 4056 има 0 на местото на:",
+      "OptionA": "Илјадите",
+      "OptionB": "Десетките",
+      "OptionC": "Стотките",
+      "OptionD": "Единиците",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е за 1 помал од 4000?",
+      "OptionA": "3000",
+      "OptionB": "3990",
+      "OptionC": "4001",
+      "OptionD": "3999",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Запиши го со цифри бројот 'пет илјади шестотини и три'.",
+      "OptionA": "5603",
+      "OptionB": "5630",
+      "OptionC": "5063",
+      "OptionD": "563",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која цифра во бројот 9214 има вредност 200?",
+      "OptionA": "9",
+      "OptionB": "2",
+      "OptionC": "1",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што ќе добиеме ако бројот 2400 го зголемиме за 50?",
+      "OptionA": "2900",
+      "OptionB": "2405",
+      "OptionC": "2450",
+      "OptionD": "7400",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/4 од 20?",
+      "OptionA": "4",
+      "OptionB": "10",
+      "OptionC": "2",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број недостасува: 10, 5, 0, -5, __?",
+      "OptionA": "-10",
+      "OptionB": "5",
+      "OptionC": "-15",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка претставува половина?",
+      "OptionA": "1/4",
+      "OptionB": "1/2",
+      "OptionC": "2/1",
+      "OptionD": "1/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Бројот 1,5 се чита како:",
+      "OptionA": "Петнаесет цели",
+      "OptionB": "Едно цело и пет стотинки",
+      "OptionC": "Едно цело и пет десеттинки",
+      "OptionD": "Нула цели и петнаесет",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која месна вредност е десет пати поголема од десетката?",
+      "OptionA": "Единица",
+      "OptionB": "Илјада",
+      "OptionC": "Милион",
+      "OptionD": "Стотка",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број се наоѓа точно на средина меѓу 3000 и 4000?",
+      "OptionA": "3500",
+      "OptionB": "3050",
+      "OptionC": "4500",
+      "OptionD": "3100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Заокружи го 6789 на најблиската илјада.",
+      "OptionA": "6000",
+      "OptionB": "7000",
+      "OptionC": "6800",
+      "OptionD": "6700",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика бројот под дробната црта?",
+      "OptionA": "Броител",
+      "OptionB": "Делител",
+      "OptionC": "Именител",
+      "OptionD": "Количник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 0,9 + 0,1?",
+      "OptionA": "0,10",
+      "OptionB": "0,1",
+      "OptionC": "1,1",
+      "OptionD": "1,0",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Низата 1200, 1300, 1400 расте по колку?",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1000",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Бројот -10 е _____ од -5.",
+      "OptionA": "Поголем",
+      "OptionB": "Помал",
+      "OptionC": "Еднаков",
+      "OptionD": "Дупло поголем",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку единици има во 4 десетки?",
+      "OptionA": "4",
+      "OptionB": "400",
+      "OptionC": "40",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е цифрата на илјади во бројот 1056?",
+      "OptionA": "0",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Бројот 3456 разложен е: 3000 + 400 + ___ + 6. Што недостасува?",
+      "OptionA": "50",
+      "OptionB": "5",
+      "OptionC": "500",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е најблиску до 1000?",
+      "OptionA": "900",
+      "OptionB": "998",
+      "OptionC": "1010",
+      "OptionD": "1100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во дропката 2/5, броителот е:",
+      "OptionA": "5",
+      "OptionB": "Дробната црта",
+      "OptionC": "2",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако едно јаболко го поделиме на 4 дела и изедеме 1, колкав дел останал?",
+      "OptionA": "1/4",
+      "OptionB": "2/4",
+      "OptionC": "4/4",
+      "OptionD": "3/4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Децималниот број 0,5 е исто што и дропката:",
+      "OptionA": "5/10",
+      "OptionB": "5/100",
+      "OptionC": "1/5",
+      "OptionD": "10/5",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Броевите помали од 0 се викаат:",
+      "OptionA": "Позитивни",
+      "OptionB": "Негативни",
+      "OptionC": "Природни",
+      "OptionD": "Цели",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 10 поголем од 990?",
+      "OptionA": "991",
+      "OptionB": "1010",
+      "OptionC": "1000",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која вредност ја има цифрата 7 во 170?",
+      "OptionA": "7",
+      "OptionB": "700",
+      "OptionC": "17",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Подреди ги по големина почнувајќи од најмалиот: 567, 765, 675.",
+      "OptionA": "567, 675, 765",
+      "OptionB": "765, 675, 567",
+      "OptionC": "567, 765, 675",
+      "OptionD": "675, 567, 765",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се добива кога ќе се заокружи 55 на најблиската десетка?",
+      "OptionA": "50",
+      "OptionB": "60",
+      "OptionC": "100",
+      "OptionD": "55",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дропката 10/10 е исто што и:",
+      "OptionA": "0,1",
+      "OptionB": "10",
+      "OptionC": "1",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во децималниот број 2,3 цифрата 3 означува:",
+      "OptionA": "Десетки",
+      "OptionB": "Единици",
+      "OptionC": "Стотки",
+      "OptionD": "Десеттинки",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако денес температурата е -2 степени, а утре ќе биде за 3 степени постудено, колку ќе биде?",
+      "OptionA": "-5 степени",
+      "OptionB": "1 степен",
+      "OptionC": "0 степени",
+      "OptionD": "-1 степен",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е за 100 помал од 1000?",
+      "OptionA": "990",
+      "OptionB": "900",
+      "OptionC": "1100",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број има 8 илјади, 2 стотки и 5 единици?",
+      "OptionA": "8250",
+      "OptionB": "852",
+      "OptionC": "8205",
+      "OptionD": "8025",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број следува во низата: 1, 2, 4, 8, ...?",
+      "OptionA": "10",
+      "OptionB": "12",
+      "OptionC": "9",
+      "OptionD": "16",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што претставува цифрата 9 во бројот 9876?",
+      "OptionA": "9 илјади",
+      "OptionB": "9 стотки",
+      "OptionC": "9 десетки",
+      "OptionD": "9 единици",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број се наоѓа точно на средина меѓу -1 и 1 на бројната права?",
+      "OptionA": "-2",
+      "OptionB": "0",
+      "OptionC": "2",
+      "OptionD": "0,5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако обоиме 2 од 3 еднакви дела на еден круг, тоа е:",
+      "OptionA": "3/2",
+      "OptionB": "1/3",
+      "OptionC": "2/3",
+      "OptionD": "2/2",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој децимален број одговара на 4 десеттинки?",
+      "OptionA": "4,0",
+      "OptionB": "0,04",
+      "OptionC": "4,10",
+      "OptionD": "0,4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е претходник на 7000?",
+      "OptionA": "6999",
+      "OptionB": "6900",
+      "OptionC": "6000",
+      "OptionD": "7001",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Спореди: 0 ____ -3",
+      "OptionA": "<",
+      "OptionB": ">",
+      "OptionC": "=",
+      "OptionD": "Ништо од наведеното",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "При заокружување на најблиска илјада, 9499 станува:",
+      "OptionA": "10000",
+      "OptionB": "9500",
+      "OptionC": "9000",
+      "OptionD": "9400",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку четвртини има во две цели?",
+      "OptionA": "4",
+      "OptionB": "2",
+      "OptionC": "6",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Бројот 10000 е за 1 поголем од:",
+      "OptionA": "9999",
+      "OptionB": "9000",
+      "OptionC": "9990",
+      "OptionD": "10001",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Месната вредност на 6 во 461 е:",
+      "OptionA": "6",
+      "OptionB": "60",
+      "OptionC": "600",
+      "OptionD": "Единици",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку стотки има во 5000?",
+      "OptionA": "5",
+      "OptionB": "500",
+      "OptionC": "50",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е дробната црта?",
+      "OptionA": "Линија која ги собира броевите",
+      "OptionB": "Линија која означува децимално место",
+      "OptionC": "Симбол за еднаквост",
+      "OptionD": "Линија помеѓу броителот и именителот",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е 1,0?",
+      "OptionA": "Едно цело",
+      "OptionB": "Нула цели",
+      "OptionC": "Десет цели",
+      "OptionD": "Сто цели",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Низата 5, 10, 15, 20 е низа на содржатели на бројот:",
+      "OptionA": "2",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се случува со вредноста на бројот ако му додадеме 0 на крајот?",
+      "OptionA": "Останува ист",
+      "OptionB": "Се зголемува за 10",
+      "OptionC": "Се зголемува 10 пати",
+      "OptionD": "Се намалува",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако броителот е 1, дропката се вика:",
+      "OptionA": "Главна дропка",
+      "OptionB": "Цела дропка",
+      "OptionC": "Нема посебно име",
+      "OptionD": "Единична дропка",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е најмал од понудените?",
+      "OptionA": "-1",
+      "OptionB": "0,1",
+      "OptionC": "0",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број се добива со собирање 3000 + 40?",
+      "OptionA": "3400",
+      "OptionB": "3040",
+      "OptionC": "3004",
+      "OptionD": "340",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која цифра покажува десетки во 5678?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку десетки има во бројот 100?",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "0",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дропката 4/8 е еднаква со:",
+      "OptionA": "1/2",
+      "OptionB": "1/4",
+      "OptionC": "1/3",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку десеттинки се содржат во 0,8?",
+      "OptionA": "80",
+      "OptionB": "8",
+      "OptionC": "0",
+      "OptionD": "18",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што следува по -1 кога броиме нанапред (кон позитивните броеви)?",
+      "OptionA": "-2",
+      "OptionB": "1",
+      "OptionC": "0",
+      "OptionD": "0,1",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак означува 'помало од'?",
+      "OptionA": ">",
+      "OptionB": "=",
+      "OptionC": "–",
+      "OptionD": "<",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Бројот 1250 заокружен на најблиска стотка е:",
+      "OptionA": "1300",
+      "OptionB": "1200",
+      "OptionC": "1000",
+      "OptionD": "1250",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што покажува броителот кај дропките?",
+      "OptionA": "Колку дела има едно цело",
+      "OptionB": "Колку дела сме зеле или обоиле",
+      "OptionC": "Колку е голема дропката",
+      "OptionD": "Месната вредност на бројот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако имаме 10 бонбони и изедеме половина (1/2), колку останале?",
+      "OptionA": "2",
+      "OptionB": "1",
+      "OptionC": "5",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}
