@@ -5,6 +5,7 @@ interface ResultsScreenProps {
   answers: AnswerRecord[];
   timeElapsed: number;
   onRestart: () => void;
+  onRestartQuiz: () => void;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -14,7 +15,7 @@ const optionLabels: Record<OptionKey, string> = {
   OptionD: "Г",
 };
 
-const ResultsScreen = ({ answers, timeElapsed, onRestart }: ResultsScreenProps) => {
+const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz }: ResultsScreenProps) => {
   const correct = answers.filter((a) => a.isCorrect).length;
   const total = answers.length;
   const percentage = Math.round((correct / total) * 100);
@@ -101,14 +102,21 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart }: ResultsScreenProps) 
           ))}
         </div>
 
-        {/* Restart */}
-        <div className="text-center opacity-0 animate-fade-up" style={{ animationDelay: "300ms" }}>
+        {/* Restart buttons */}
+        <div className="flex gap-3 justify-center opacity-0 animate-fade-up" style={{ animationDelay: "300ms" }}>
           <button
-            onClick={onRestart}
-            className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition-all duration-200 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 active:scale-[0.97]"
+            onClick={onRestartQuiz}
+            className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-orange-500/20 transition-all duration-200 hover:bg-orange-600 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:scale-[0.97]"
           >
             <RotateCcw className="h-4 w-4" />
-            Играј повторно
+            Рестарт
+          </button>
+          <button
+            onClick={onRestart}
+            className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition-all duration-200 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 active:scale-[0.97]"
+          >
+            <RotateCcw className="h-4 w-4" />
+            Почетна
           </button>
         </div>
       </div>
