@@ -10,19 +10,19 @@
     },
     {
       "Question": "Како се вика воздушниот слој што ја обвиткува Земјата?",
-      "OptionA": "Хидросфера",
-      "OptionB": "Литосфера",
-      "OptionC": "Атмосфера",
+      "OptionA": "Атмосфера",
+      "OptionB": "Хидросфера",
+      "OptionC": "Литосфера",
       "OptionD": "Биосфера",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што претставува хидросферата?",
       "OptionA": "Сите карпи на Земјата",
-      "OptionB": "Сите водени површини на Земјата",
-      "OptionC": "Сите гасови во воздухот",
+      "OptionB": "Сите гасови во воздухот",
+      "OptionC": "Сите водени површини на Земјата",
       "OptionD": "Сите шуми на Земјата",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Кој гас е најзастапен во атмосферата на Земјата?",
@@ -34,35 +34,35 @@
     },
     {
       "Question": "Колку континенти постојат на Земјата?",
-      "OptionA": "Пет",
-      "OptionB": "Седум",
+      "OptionA": "Седум",
+      "OptionB": "Пет",
       "OptionC": "Четири",
       "OptionD": "Десет",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Кој е најголемиот континент на Земјата?",
-      "OptionA": "Азија",
-      "OptionB": "Африка",
-      "OptionC": "Европа",
+      "OptionA": "Африка",
+      "OptionB": "Европа",
+      "OptionC": "Азија",
       "OptionD": "Австралија",
-      "CorrectAnswer": "OptionA"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Кој океан е најголем по површина?",
       "OptionA": "Атлантски Океан",
-      "OptionB": "Индиски Океан",
-      "OptionC": "Тихи Океан (Пацифик)",
+      "OptionB": "Тихи Океан (Пацифик)",
+      "OptionC": "Индиски Океан",
       "OptionD": "Северен Леден Океан",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се вика замислената линија што ја дели Земјата на Северна и Јужна полутопка?",
       "OptionA": "Меридијан",
       "OptionB": "Поларник",
-      "OptionC": "Екватор",
-      "OptionD": "Оска",
-      "CorrectAnswer": "OptionC"
+      "OptionC": "Оска",
+      "OptionD": "Екватор",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Како се вика внатрешниот, најжежок слој на Земјата?",
@@ -82,67 +82,67 @@
     },
     {
       "Question": "Како се нарекуваат деловите од копното целосно опкружени со вода?",
-      "OptionA": "Полуострови",
-      "OptionB": "Острови",
+      "OptionA": "Острови",
+      "OptionB": "Полуострови",
       "OptionC": "Планини",
       "OptionD": "Езера",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Кој континент е најстуден и покриен со мраз?",
       "OptionA": "Јужна Америка",
-      "OptionB": "Азија",
-      "OptionC": "Антарктик",
+      "OptionB": "Антарктик",
+      "OptionC": "Азија",
       "OptionD": "Европа",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Што се меридијани?",
-      "OptionA": "Хоризонтални замислени линии",
-      "OptionB": "Вертикални замислени линии што ги поврзуваат половите",
+      "OptionA": "Вертикални замислени линии што ги поврзуваат половите",
+      "OptionB": "Хоризонтални замислени линии",
       "OptionC": "Вистински патишта на Земјата",
       "OptionD": "Реки",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Која е главната улога на озонскиот слој во атмосферата?",
       "OptionA": "Да создава дожд",
-      "OptionB": "Да нѐ штити од штетното ултравиолетово зрачење",
-      "OptionC": "Да го лади јадрото на Земјата",
+      "OptionB": "Да го лади јадрото на Земјата",
+      "OptionC": "Да нѐ штити од штетното ултравиолетово зрачење",
       "OptionD": "Да произведува кислород",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Кој слој на Земјата се наоѓа веднаш под кората?",
       "OptionA": "Надворешно јадро",
-      "OptionB": "Внатрешно јадро",
-      "OptionC": "Мантлија (обвивка)",
+      "OptionB": "Мантлија (обвивка)",
+      "OptionC": "Внатрешно јадро",
       "OptionD": "Тропосфера",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се нарекува науката што ја проучува Земјата?",
-      "OptionA": "Биологија",
-      "OptionB": "Географија",
+      "OptionA": "Географија",
+      "OptionB": "Биологија",
       "OptionC": "Историја",
       "OptionD": "Математика",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што претставува глобусот?",
       "OptionA": "Голема мапа на ѕидот",
-      "OptionB": "Намален модел на Земјата",
-      "OptionC": "Инструмент за мерење ветер",
-      "OptionD": "Вид на карпа",
-      "CorrectAnswer": "OptionB"
+      "OptionB": "Инструмент за мерење ветер",
+      "OptionC": "Вид на карпа",
+      "OptionD": "Намален модел на Земјата",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Колку проценти од површината на Земјата се покриени со вода?",
       "OptionA": "Околу 30%",
-      "OptionB": "Околу 50%",
-      "OptionC": "Околу 70%",
+      "OptionB": "Околу 70%",
+      "OptionC": "Околу 50%",
       "OptionD": "Околу 95%",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Каде се наоѓа Северниот пол?",
@@ -154,11 +154,11 @@
     },
     {
       "Question": "Што се паралели?",
-      "OptionA": "Замислени кружни линии паралелни со Екваторот",
-      "OptionB": "Линии што се сечат во центарот на океаните",
-      "OptionC": "Планински венци",
+      "OptionA": "Планински венци",
+      "OptionB": "Замислени кружни линии паралелни со Екваторот",
+      "OptionC": "Линии што се сечат во центарот на океаните",
       "OptionD": "Вид на облаци",
-      "CorrectAnswer": "OptionA"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се вика најголемиот дел од литосферата под океаните?",
@@ -171,210 +171,210 @@
     {
       "Question": "Кој континент е дом на најголемата пустина Сахара?",
       "OptionA": "Азија",
-      "OptionB": "Африка",
-      "OptionC": "Австралија",
+      "OptionB": "Австралија",
+      "OptionC": "Африка",
       "OptionD": "Северна Америка",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Како се движи Земјата околу својата оска?",
       "OptionA": "Од исток кон запад",
-      "OptionB": "Од север кон југ",
-      "OptionC": "Од запад кон исток",
+      "OptionB": "Од запад кон исток",
+      "OptionC": "Од север кон југ",
       "OptionD": "Воопшто не се движи",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Што настанува како последица на ротацијата на Земјата околу својата оска?",
       "OptionA": "Годишните времиња",
       "OptionB": "Месечевите мени",
-      "OptionC": "Смената на денот и ноќта",
-      "OptionD": "Затемнување на сонцето",
-      "CorrectAnswer": "OptionC"
+      "OptionC": "Затемнување на сонцето",
+      "OptionD": "Смената на денот и ноќта",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Колку време и е потребно на Земјата за една целосна ротација околу оската?",
-      "OptionA": "12 часа",
-      "OptionB": "24 часа (еден ден)",
+      "OptionA": "24 часа (еден ден)",
+      "OptionB": "12 часа",
       "OptionC": "365 дена",
       "OptionD": "Еден месец",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што е револуција на Земјата?",
       "OptionA": "Движење на Земјата околу Месечината",
-      "OptionB": "Движење на Земјата околу Сонцето",
-      "OptionC": "Движење на облаците",
+      "OptionB": "Движење на облаците",
+      "OptionC": "Движење на Земјата околу Сонцето",
       "OptionD": "Тресење на земјата",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Колку време и е потребно на Земјата да го обиколи Сонцето?",
       "OptionA": "24 часа",
-      "OptionB": "30 дена",
-      "OptionC": "Една година (365 дена и 6 часа)",
+      "OptionB": "Една година (365 дена и 6 часа)",
+      "OptionC": "30 дена",
       "OptionD": "10 години",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Зошто постојат годишните времиња?",
-      "OptionA": "Поради движењето на облаците",
-      "OptionB": "Поради навалената оска на Земјата и нејзиното движење околу Сонцето",
+      "OptionA": "Поради навалената оска на Земјата и нејзиното движење околу Сонцето",
+      "OptionB": "Поради движењето на облаците",
       "OptionC": "Поради силината на ветрот",
       "OptionD": "Поради близината на Месечината",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што е компас?",
       "OptionA": "Инструмент за мерење температура",
-      "OptionB": "Инструмент за одредување на страните на светот",
-      "OptionC": "Вид на мапа",
+      "OptionB": "Вид на мапа",
+      "OptionC": "Инструмент за одредување на страните на светот",
       "OptionD": "Уред за гледање ѕвезди",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "На каде секогаш покажува иглата на компасот?",
       "OptionA": "Кон Југ",
-      "OptionB": "Кон Исток",
-      "OptionC": "Кон Север (Магнетен Север)",
+      "OptionB": "Кон Север (Магнетен Север)",
+      "OptionC": "Кон Исток",
       "OptionD": "Кон Запад",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Колку главни страни на светот постојат?",
       "OptionA": "Две",
       "OptionB": "Осум",
-      "OptionC": "Четири",
-      "OptionD": "Шест",
-      "CorrectAnswer": "OptionC"
+      "OptionC": "Шест",
+      "OptionD": "Четири",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Која страна на светот се наоѓа спроти Исток?",
       "OptionA": "Север",
-      "OptionB": "Југ",
-      "OptionC": "Запад",
+      "OptionB": "Запад",
+      "OptionC": "Југ",
       "OptionD": "Североисток",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се вика најниското земјиште на планетата?",
       "OptionA": "Планина",
-      "OptionB": "Рамнина или низина",
-      "OptionC": "Рид",
+      "OptionB": "Рид",
+      "OptionC": "Рамнина или низина",
       "OptionD": "Плато",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Што е тоа релјеф?",
-      "OptionA": "Сите видови растенија на Земјата",
-      "OptionB": "Сите нерамнини на површината на Земјата",
+      "OptionA": "Сите нерамнини на површината на Земјата",
+      "OptionB": "Сите видови растенија на Земјата",
       "OptionC": "Брзината на патување на звукот",
       "OptionD": "Длабочината на океаните",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Како се нарекуваат многу високите делови од релјефот?",
       "OptionA": "Долини",
-      "OptionB": "Котлини",
-      "OptionC": "Планини",
+      "OptionB": "Планини",
+      "OptionC": "Котлини",
       "OptionD": "Пустини",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се вика замислениот круг каде што изгледа дека небото и земјата се допираат?",
-      "OptionA": "Екватор",
-      "OptionB": "Хоризонт",
+      "OptionA": "Хоризонт",
+      "OptionB": "Екватор",
       "OptionC": "Атмосфера",
       "OptionD": "Меридијан",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што се тоа фосили?",
       "OptionA": "Живи животни во океанот",
-      "OptionB": "Остатоци од растенија и животни зачувани во карпите",
-      "OptionC": "Видови на нови карпи",
+      "OptionB": "Видови на нови карпи",
+      "OptionC": "Остатоци од растенија и животни зачувани во карпите",
       "OptionD": "Вселенски камења",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Кој гас во атмосферата ни е неопходен за дишење?",
-      "OptionA": "Азот",
-      "OptionB": "Кислород",
+      "OptionA": "Кислород",
+      "OptionB": "Азот",
       "OptionC": "Хелиум",
       "OptionD": "Аргон",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Која е најголемата длабочина во океаните (Маријанска бразда)?",
       "OptionA": "Околу 100 метри",
       "OptionB": "Околу 1.000 метри",
-      "OptionC": "Околу 11.000 метри",
-      "OptionD": "Околу 500 километри",
-      "CorrectAnswer": "OptionC"
+      "OptionC": "Околу 500 километри",
+      "OptionD": "Околу 11.000 метри",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Што се случува со температурата во внатрешноста на Земјата како што се оди подлабоко?",
-      "OptionA": "Се намалува",
-      "OptionB": "Се зголемува",
+      "OptionA": "Се зголемува",
+      "OptionB": "Се намалува",
       "OptionC": "Останува иста",
       "OptionD": "Станува замрзнато",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што е тоа мапа (карта)?",
-      "OptionA": "Цртеж на кој е прикажан дел или целата површина на Земјата",
-      "OptionB": "Вид на фотографија од блиску",
-      "OptionC": "Направа за мерење притисок",
+      "OptionA": "Направа за мерење притисок",
+      "OptionB": "Цртеж на кој е прикажан дел или целата површина на Земјата",
+      "OptionC": "Вид на фотографија од блиску",
       "OptionD": "Списокот на сите животни",
-      "CorrectAnswer": "OptionA"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се викаат страните помеѓу главните страни на светот (на пр. помеѓу Север и Исток)?",
       "OptionA": "Мали страни",
-      "OptionB": "Помошни или споредни страни на светот",
-      "OptionC": "Лажни страни",
+      "OptionB": "Лажни страни",
+      "OptionC": "Помошни или споредни страни на светот",
       "OptionD": "Средни линии",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Што означува сината боја на физичката карта?",
-      "OptionA": "Шуми",
-      "OptionB": "Вода (океани, мориња, езера)",
+      "OptionA": "Вода (океани, мориња, езера)",
+      "OptionB": "Шуми",
       "OptionC": "Пустини",
       "OptionD": "Планини",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Што означува зелената боја на физичката карта?",
       "OptionA": "Длабоки мориња",
-      "OptionB": "Низини и рамнини",
-      "OptionC": "Високи планини",
+      "OptionB": "Високи планини",
+      "OptionC": "Низини и рамнини",
       "OptionD": "Снег",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Што означува кафеавата боја на физичката карта?",
       "OptionA": "Океани",
-      "OptionB": "Долини",
-      "OptionC": "Планини и возвишенија",
+      "OptionB": "Планини и возвишенија",
+      "OptionC": "Долини",
       "OptionD": "Облаци",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Како се нарекува течната карпа што излегува од вулкан?",
       "OptionA": "Вода",
-      "OptionB": "Пепел",
-      "OptionC": "Магма (Лава)",
-      "OptionD": "Песок",
-      "CorrectAnswer": "OptionC"
+      "OptionB": "Песок",
+      "OptionC": "Пепел",
+      "OptionD": "Магма (Лава)",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Земјата е ____ планета по оддалеченост од Сонцето?",
-      "OptionA": "Прва",
-      "OptionB": "Втора",
-      "OptionC": "Трета",
+      "OptionA": "Трета",
+      "OptionB": "Прва",
+      "OptionC": "Втора",
       "OptionD": "Петта",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Кој е единствениот природен сателит на Земјата?",
@@ -387,10 +387,10 @@
     {
       "Question": "Што е тоа ерозија?",
       "OptionA": "Создавање нови карпи",
-      "OptionB": "Процес на трошење и менување на релјефот под влијание на вода и ветер",
-      "OptionC": "Растење на растенијата",
+      "OptionB": "Растење на растенијата",
+      "OptionC": "Процес на трошење и менување на релјефот под влијание на вода и ветер",
       "OptionD": "Движење на планетите",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Кој дел од Земјата е течен, а направен од железо и никел?",
@@ -403,66 +403,66 @@
     {
       "Question": "Што се тоа поларни кругови?",
       "OptionA": "Места каде живеат жирафи",
-      "OptionB": "Замислени линии во близина на Северен и Јужен пол",
-      "OptionC": "Вид на сладолед",
-      "OptionD": "Патишта низ шумата",
-      "CorrectAnswer": "OptionB"
+      "OptionB": "Патишта низ шумата",
+      "OptionC": "Замислени линии во близина на Северен и Јужен пол",
+      "OptionD": "Вид на сладолед",
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Како се вика океанот што ја опкружува Северна Америка од источната страна?",
       "OptionA": "Тихи Океан",
-      "OptionB": "Индиски Океан",
-      "OptionC": "Атлантски Океан",
+      "OptionB": "Атлантски Океан",
+      "OptionC": "Индиски Океан",
       "OptionD": "Северен Леден Океан",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Што е тоа размер на мапа?",
       "OptionA": "Бојата на мапата",
-      "OptionB": "Односот помеѓу растојанието на мапата и вистинското растојание во природата",
-      "OptionC": "Името на државата",
-      "OptionD": "Тежината на мапата",
-      "CorrectAnswer": "OptionB"
+      "OptionB": "Името на државата",
+      "OptionC": "Тежината на мапата",
+      "OptionD": "Односот помевду растојанието на мапата и вистинското растојание во природата",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Кој дел од Земјата е најтенкиот слој?",
       "OptionA": "Јадрото",
-      "OptionB": "Мантлијата",
-      "OptionC": "Кората",
+      "OptionB": "Кората",
+      "OptionC": "Мантлијата",
       "OptionD": "Океаните",
-      "CorrectAnswer": "OptionC"
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Што е тоа земјотрес?",
       "OptionA": "Силно дување на ветар",
-      "OptionB": "Тресење на површината на Земјата предизвикано од внатрешни сили",
-      "OptionC": "Врнење на дожд",
+      "OptionB": "Врнење на дожд",
+      "OptionC": "Тресење на површината на Земјата предизвикано од внатрешни сили",
       "OptionD": "Растење на планина",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Која е основната задача на мапата?",
-      "OptionA": "Да ни ги покаже видовите на храна",
-      "OptionB": "Да ни помогне да се ориентираме и да ги запознаеме местата",
+      "OptionA": "Да ни помогне да се ориентираме и да ги запознаеме местата",
+      "OptionB": "Да ни ги покаже видовите на храна",
       "OptionC": "Да ја мери брзината на автомобилот",
       "OptionD": "Да нѐ заштити од дожд",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionA"
     },
     {
       "Question": "Каде Сонцето секогаш изгрева?",
       "OptionA": "На Запад",
-      "OptionB": "На Исток",
-      "OptionC": "На Север",
-      "OptionD": "На Југ",
-      "CorrectAnswer": "OptionB"
+      "OptionB": "На Север",
+      "OptionC": "На Југ",
+      "OptionD": "На Исток",
+      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Како се вика делот од копното што е со три страни опкружен со вода?",
       "OptionA": "Остров",
-      "OptionB": "Полуостров",
-      "OptionC": "Долина",
+      "OptionB": "Долина",
+      "OptionC": "Полуостров",
       "OptionD": "Езеро",
-      "CorrectAnswer": "OptionB"
+      "CorrectAnswer": "OptionC"
     },
     {
       "Question": "Што е атмосфера?",
