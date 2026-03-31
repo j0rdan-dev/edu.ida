@@ -1,683 +1,795 @@
 {
   "Questions": [
     {
-      "Question": "Марко прочитал 1/10 од книгата во понеделник и 2/10 во вторник. Колкав дел од книгата му останал за читање?",
-      "OptionA": "3/10",
-      "OptionB": "7/10",
-      "OptionC": "5/10",
-      "OptionD": "1/10",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Ако 6 исти тетратки чинат 120 денари, колку чини една тетратка?",
-      "OptionA": "20 денари",
-      "OptionB": "15 денари",
-      "OptionC": "25 денари",
-      "OptionD": "30 денари",
+      "Question": "Марко изел 2/8 од едно чоколадо, а сестра му изела 3/8. Колкав дел од чоколадото изеле заедно?",
+      "OptionA": "5/8",
+      "OptionB": "5/16",
+      "OptionC": "1/8",
+      "OptionD": "6/8",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Марија испекла пита и ја поделила на 8 еднакви делови. Изеле 5 делови. Колкава дропка од питата останала?",
-      "OptionA": "5/8",
-      "OptionB": "2/8",
-      "OptionC": "3/8",
-      "OptionD": "1/8",
-      "CorrectAnswer": "OptionC"
+      "Question": "Една чаша е полна 1/2 со сок. Ако долееме уште 1/4, колку ќе биде полна чашата?",
+      "OptionA": "3/4",
+      "OptionB": "2/4",
+      "OptionC": "1/4",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Еден замислен број поделен со 7 дава количник 8. Кој е тој број?",
-      "OptionA": "15",
-      "OptionB": "49",
-      "OptionC": "1",
-      "OptionD": "56",
-      "CorrectAnswer": "OptionD"
+      "Question": "Марија прочитала 4/10 од една книга во сабота, а 5/10 во недела. Колкав дел од книгата прочитала вкупно?",
+      "OptionA": "9/10",
+      "OptionB": "1/10",
+      "OptionC": "9/20",
+      "OptionD": "10/10",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "За еден проект биле потрошени 2/9 од буџетот во првиот месец и 3/9 во вториот. Колку вкупно е потрошено?",
-      "OptionA": "5/9",
+      "Question": "Од една лента долга 1 метар, отсечени се 3/10. Колкав дел од лентата останал?",
+      "OptionA": "7/10",
+      "OptionB": "3/10",
+      "OptionC": "13/10",
+      "OptionD": "7/0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Петар претрчал 1/3 од патеката наутро, а попладне уште 1/6. Колку претрчал вкупно?",
+      "OptionA": "3/6",
+      "OptionB": "2/6",
+      "OptionC": "4/6",
+      "OptionD": "2/9",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во една градина 3/7 се засадени со домати, а 2/7 со пиперки. Колкав дел од градината е засаден со овој зеленчук?",
+      "OptionA": "5/7",
+      "OptionB": "5/14",
+      "OptionC": "1/7",
+      "OptionD": "6/7",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Мајката направила пита и ја поделила на 9 еднакви дела. Таткото изел 2/9, а синот 4/9. Колку останало од питата?",
+      "OptionA": "3/9",
       "OptionB": "6/9",
-      "OptionC": "5/18",
+      "OptionC": "7/9",
       "OptionD": "1/9",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Во една овошна градина има 5 реда со еднаков број дрвја. Ако вкупно има 45 дрвја, колку дрвја има во секој ред?",
-      "OptionA": "7",
-      "OptionB": "9",
-      "OptionC": "8",
-      "OptionD": "5",
+      "Question": "Ако во еден сад има 5/12 литри млеко и се потрошат 3/12 за колач, колку млеко ќе остане?",
+      "OptionA": "2/12",
+      "OptionB": "8/12",
+      "OptionC": "2/0",
+      "OptionD": "1/12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Еден фармер изорал 1/2 од нивата првиот ден, а 1/8 вториот ден. Колку изорал вкупно?",
+      "OptionA": "5/8",
+      "OptionB": "2/8",
+      "OptionC": "3/8",
+      "OptionD": "5/16",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од роденденската торта децата изеле 7/12. Колкав дел од тортата останал за возрасните?",
+      "OptionA": "5/12",
+      "OptionB": "7/12",
+      "OptionC": "19/12",
+      "OptionD": "4/12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Јован обоил 2/5 од една ограда, а потоа уште 1/10. Колку обоил вкупно?",
+      "OptionA": "5/10",
+      "OptionB": "3/10",
+      "OptionC": "3/15",
+      "OptionD": "4/10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Една екипа исчистила 4/15 од паркот наутро и 6/15 попладне. Колкав дел останал за чистење?",
+      "OptionA": "5/15",
+      "OptionB": "10/15",
+      "OptionC": "11/15",
+      "OptionD": "1/15",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако една нива е поделена на 6 дела, и 1/6 е засадена со пченка, а 1/3 со пченица, колку е засадено вкупно?",
+      "OptionA": "3/6",
+      "OptionB": "2/6",
+      "OptionC": "4/6",
+      "OptionD": "2/9",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во едно училиште 3/10 од учениците спортуваат фудбал, а 4/10 кошарка. Колкав дел од учениците ги спортуваат овие две игри?",
+      "OptionA": "7/10",
+      "OptionB": "1/10",
+      "OptionC": "7/20",
+      "OptionD": "8/10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Една сликовница има 12 страни. Ана прочитала 1/4, а потоа уште 5/12. Колку прочитала вкупно?",
+      "OptionA": "8",
+      "OptionB": "6",
+      "OptionC": "4",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од едно буре полно со вода, потрошени се 4/11 за наводнување. Колку вода останала?",
+      "OptionA": "7/11",
+      "OptionB": "15/11",
+      "OptionC": "7/0",
+      "OptionD": "5/11",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Матија поминал 1/2 од патот со велосипед, а 2/10 пеш. Колку поминал вкупно?",
+      "OptionA": "7/10",
+      "OptionB": "3/10",
+      "OptionC": "3/12",
+      "OptionD": "6/10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Баба Рада употребила 3/8 од брашното за пита и 2/8 за колачи. Колкав дел од брашното потрошила?",
+      "OptionA": "5/8",
+      "OptionB": "1/8",
+      "OptionC": "5/16",
+      "OptionD": "6/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Еден базен се полни со две цевки. Првата полни 2/9 на час, а втората 1/3 на час. Колку ќе наполнат за еден час заедно?",
+      "OptionA": "5/9",
+      "OptionB": "3/9",
+      "OptionC": "4/9",
+      "OptionD": "3/12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од еден голем леб, семејството изело 5/8 за ручек. Колку останало за вечера?",
+      "OptionA": "3/8",
+      "OptionB": "5/8",
+      "OptionC": "13/8",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "На еден натпревар 4/11 од публиката биле деца, а 5/11 биле мажи. Колкав дел биле деца и мажи заедно?",
+      "OptionA": "9/11",
+      "OptionB": "1/11",
+      "OptionC": "9/22",
+      "OptionD": "10/11",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Сликар обоил 1/2 од ѕидот наутро и 1/6 попладне. Колку е обоено вкупно?",
+      "OptionA": "4/6",
+      "OptionB": "2/6",
+      "OptionC": "2/8",
+      "OptionD": "5/6",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во една кутија има 15 бомбони. Ако 3/15 се со јагода, а 7/15 со чоколадо, колкав дел се со овие два вкуса?",
+      "OptionA": "10",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "11",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Мила испила 1/4 литар млеко наутро, а 1/2 попладне. Колку литри млеко испила?",
+      "OptionA": "3/4",
+      "OptionB": "2/4",
+      "OptionC": "3/8",
+      "OptionD": "1/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако 5/7 од патот е асфалтиран, колкав дел од патот не е асфалтиран?",
+      "OptionA": "2/7",
+      "OptionB": "5/7",
+      "OptionC": "12/7",
+      "OptionD": "1/7",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Една нива е засадена со пченица 2/5 и со овес 1/5. Колкав дел е вкупно НЕ е засаден?",
+      "OptionA": "3/10",
+      "OptionB": "2/5",
+      "OptionC": "1/5",
+      "OptionD": "3/5",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која дропка е еднаква на 1/2 ако ја прошириме за да има именител 6?",
-      "OptionA": "1/6",
-      "OptionB": "2/6",
+      "Question": "Од едно платно, Марија искористила 1/2 за фустан. Колку останало?",
+      "OptionA": "4/6",
+      "OptionB": "3/6",
+      "OptionC": "1/6",
+      "OptionD": "2/6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако Ана изела 3/10 од јаболкото, а брат ѝ изел 4/10, колкав дел останал?",
+      "OptionA": "7/10",
+      "OptionB": "3/10",
+      "OptionC": "4/10",
+      "OptionD": "1/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во еден овоштарник 1/3 се јаболка, а 1/6 се круши. Колку се вкупно јаболка и круши?",
+      "OptionA": "2/6",
+      "OptionB": "3/6",
+      "OptionC": "1/6",
+      "OptionD": "3/9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пекарот потрошил 4/12 од брашното наутро и 5/12 попладне. Колку потрошил вкупно?",
+      "OptionA": "9/24",
+      "OptionB": "9/12",
+      "OptionC": "1/12",
+      "OptionD": "12/12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако испиеш 1/2 од сокот, а потоа уште 1/4, колку сок си испил вкупно?",
+      "OptionA": "1/4",
+      "OptionB": "3/4",
+      "OptionC": "2/4",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од едно пакување со бонбони, децата изеле 6/8. Колку бонбони останале?",
+      "OptionA": "14/8",
+      "OptionB": "2/8",
+      "OptionC": "6/8",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во еден базен влегле 2/10 од учениците во 10 часот, а 5/10 во 11 часот. Колку вкупно ученици го посетиле базенот?",
+      "OptionA": "7/20",
+      "OptionB": "7/10",
+      "OptionC": "3/10",
+      "OptionD": "10/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако имаш 3/4 литри млеко и потрошиш 1/2 за палачинки, колку ќе ти остане?",
+      "OptionA": "2/4",
+      "OptionB": "1/4",
+      "OptionC": "1/2",
+      "OptionD": "3/4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Една патека е долга еден километар. Ако си поминал 5/9, колку ти останува до крајот?",
+      "OptionA": "14/9",
+      "OptionB": "4/9",
+      "OptionC": "5/9",
+      "OptionD": "1/9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во една продавница 1/5 од овошјето се банани, а 2/10 (1/5) се портокали. Колку се вкупно?",
+      "OptionA": "3/10",
+      "OptionB": "2/5",
+      "OptionC": "1/5",
+      "OptionD": "4/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од една торта, гостите изеле 8/10. Колкав дел останал?",
+      "OptionA": "18/10",
+      "OptionB": "2/10",
+      "OptionC": "8/10",
+      "OptionD": "1/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Марко вежбал математика 2/6 од еден час, а природа 1/3. Колку вкупно часа вежбал Марко?",
+      "OptionA": "3/6",
+      "OptionB": "4/6",
+      "OptionC": "1/3",
+      "OptionD": "2/6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во еден автобус 4/11 се мажи, а останатите се жени. Колкав дел од патниците се жени?",
+      "OptionA": "10/22",
+      "OptionB": "7/11",
+      "OptionC": "2/11",
+      "OptionD": "11/11",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако од една чаша со вода испиеш 3/5, колку вода ќе остане во чашата?",
+      "OptionA": "8/5",
+      "OptionB": "2/5",
+      "OptionC": "3/5",
+      "OptionD": "1/5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Една книга има многу страни. Стефан прочитал 1/2 наутро и 3/8 попладне. Колку прочитал вкупно?",
+      "OptionA": "4/8",
+      "OptionB": "7/8",
+      "OptionC": "1/8",
+      "OptionD": "7/16",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во една кошница 2/7 од овошјето се круши, а 4/7 се јаболка. Колкав дел се круши и јаболка?",
+      "OptionA": "6/14",
+      "OptionB": "6/7",
+      "OptionC": "2/7",
+      "OptionD": "7/7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од еден голем сад со масло, потрошени се 7/12. Колку масло останало?",
+      "OptionA": "19/12",
+      "OptionB": "5/12",
+      "OptionC": "7/12",
+      "OptionD": "1/12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако една лента е обоена 1/4 со црвена и 1/2 со сина боја, колкав дел е обоен?",
+      "OptionA": "2/4",
+      "OptionB": "3/4",
+      "OptionC": "3/8",
+      "OptionD": "1/4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во една училница 5/15 од учениците носат очила, а останатите не носат. Колкав дел од учениците не носат наочари?",
+      "OptionA": "13/30",
+      "OptionB": "10/15",
+      "OptionC": "3/15",
+      "OptionD": "13/15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако од едно чоколадо изедеш 1/2, колку ќе ти остане?",
+      "OptionA": "5/8",
+      "OptionB": "4/8",
+      "OptionC": "1/2",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Една градина е поделена на 9 дела. 2/9 се засадени со цвеќиња, а 1/3 со трева. Колку е вкупно?",
+      "OptionA": "3/9",
+      "OptionB": "5/9",
+      "OptionC": "4/9",
+      "OptionD": "3/12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во еден сад има 9/10 литри вода. Ако се истурат 4/10, колку вода ќе остане?",
+      "OptionA": "13/10",
+      "OptionB": "5/10",
+      "OptionC": "4/10",
+      "OptionD": "1/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако испиеш 1/6 од млекото наутро и 2/6 попладне, колку си испил вкупно?",
+      "OptionA": "3/12",
+      "OptionB": "3/6",
+      "OptionC": "1/6",
+      "OptionD": "4/6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од еден пат долг 1 километaр, поминати се 4/7. Колку километри останале?",
+      "OptionA": "11/7",
+      "OptionB": "3/7",
+      "OptionC": "4/7",
+      "OptionD": "1/7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во еден воз 3/8 од патниците се во првиот вагон, а 4/8 во вториот. Колкав дел се во првите два вагона вкупно?",
+      "OptionA": "7/16",
+      "OptionB": "1/8",
+      "OptionC": "7/8",
+      "OptionD": "8/8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од роденденска торта, Ана изела 1/6, а Петар 2/6. Колкав дел од тортата изеле заедно?",
+      "OptionA": "3/12",
+      "OptionB": "1/6",
       "OptionC": "3/6",
       "OptionD": "4/6",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Ако x * 4 = 48, колку изнесува x?",
-      "OptionA": "10",
-      "OptionB": "44",
-      "OptionC": "52",
-      "OptionD": "12",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Една лента е долга 1 метар (10/10). Ако отсечеме 4/10 од неа, колку ќе остане?",
-      "OptionA": "6/10",
-      "OptionB": "14/10",
-      "OptionC": "4/10",
-      "OptionD": "5/10",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој број помножен со 9 дава производ 72?",
-      "OptionA": "7",
-      "OptionB": "8",
-      "OptionC": "9",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Јован има 15 јаболка и ги дели подеднакво на 3 пријатели. По колку јаболка ќе добијат?",
-      "OptionA": "3",
-      "OptionB": "4",
-      "OptionC": "5",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Збирот на 4/12 и 3/12 изнесува:",
-      "OptionA": "7/24",
-      "OptionB": "1/12",
-      "OptionC": "12/12",
-      "OptionD": "7/12",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Во една училница има 32 ученици поделени во 4 еднакви групи. Колку ученици има во секоја група?",
-      "OptionA": "8",
-      "OptionB": "7",
-      "OptionC": "9",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Пресметај го непознатиот делител ако 81 : x = 9.",
-      "OptionA": "72",
-      "OptionB": "9",
-      "OptionC": "90",
-      "OptionD": "8",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Една чаша е полна 1/4 со сок. Ако долееме уште 2/4, колкав дел од чашата е полн?",
-      "OptionA": "1/4",
-      "OptionB": "4/4",
+      "Question": "Ако во една кутија 1/2 се црвени моливи, 1/4 се сини моливи а останатите се пенкала. Колку се вкупно моливи?",
+      "OptionA": "2/4",
+      "OptionB": "1/4",
       "OptionC": "3/4",
       "OptionD": "3/8",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Ако x : 5 = 12, тогаш x е:",
-      "OptionA": "17",
-      "OptionB": "7",
-      "OptionC": "48",
-      "OptionD": "60",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Еден велосипедист поминал 3/7 од патот. Колкав дел од патот му преостанал?",
-      "OptionA": "4/7",
-      "OptionB": "3/7",
-      "OptionC": "7/7",
-      "OptionD": "1/7",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој број помножен со 10 дава 200?",
-      "OptionA": "210",
-      "OptionB": "20",
-      "OptionC": "190",
-      "OptionD": "2",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Разликата помеѓу 9/15 и 4/15 е:",
-      "OptionA": "13/15",
-      "OptionB": "5/0",
-      "OptionC": "5/15",
-      "OptionD": "5/30",
+      "Question": "Во една библиотека 5/12 од книгите се бајки, а 4/12 се раскази. Колкав дел се тоа заедно?",
+      "OptionA": "9/24",
+      "OptionB": "1/12",
+      "OptionC": "9/12",
+      "OptionD": "12/12",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Во изразот 56 : x = 8, x изнесува:",
-      "OptionA": "48",
-      "OptionB": "64",
-      "OptionC": "9",
-      "OptionD": "7",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Мама искористила 1/2 од брашното за леб и 1/4 за кифлички. Колку вкупно брашно потрошила (во четвртини)?",
-      "OptionA": "3/4",
-      "OptionB": "2/4",
-      "OptionC": "1/4",
-      "OptionD": "4/4",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Ако 7 исти моливи чинат 49 денари, колку чини еден молив?",
-      "OptionA": "6 денари",
-      "OptionB": "7 денари",
-      "OptionC": "8 денари",
-      "OptionD": "9 денари",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Пресметај x во равенката x * 3 = 27.",
-      "OptionA": "30",
-      "OptionB": "24",
-      "OptionC": "9",
-      "OptionD": "81",
+      "Question": "Од едно пакување сок, потрошени се 1/2. Колку сок останал?",
+      "OptionA": "6/10",
+      "OptionB": "4/10",
+      "OptionC": "5/10",
+      "OptionD": "1/10",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Дропката 4/8 е еднаква на која дропка со именител 2?",
-      "OptionA": "2/2",
-      "OptionB": "0/2",
-      "OptionC": "3/2",
-      "OptionD": "1/2",
-      "CorrectAnswer": "OptionD"
+      "Question": "Ако еден работник завршил 2/7 од работата наутро и 3/7 попладне, колку завршил вкупно?",
+      "OptionA": "5/14",
+      "OptionB": "1/7",
+      "OptionC": "5/7",
+      "OptionD": "6/7",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Еден овошен сад содржи 12 овошки. Ако 1/3 се круши, колку круши има?",
-      "OptionA": "4",
-      "OptionB": "3",
-      "OptionC": "6",
-      "OptionD": "9",
-      "CorrectAnswer": "OptionA"
+      "Question": "Во една продавница 3/10 од играчките се кукли, а 1/5 се мечиња. Колку се вкупно?",
+      "OptionA": "4/10",
+      "OptionB": "4/20",
+      "OptionC": "5/10",
+      "OptionD": "2/10",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Ако од 1 целина одземеме 3/5, колку останува?",
-      "OptionA": "1/5",
+      "Question": "Од една пица, Марко изел 3/8. Колку парчиња (дел) останале?",
+      "OptionA": "11/8",
+      "OptionB": "3/8",
+      "OptionC": "5/8",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Марија испила 1/3 литар вода, а потоа уште 1/6. Колку вкупно испила?",
+      "OptionA": "2/6",
+      "OptionB": "1/6",
+      "OptionC": "3/6",
+      "OptionD": "3/9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во еден парк 4/15 од дрвјата се борови, а 7/15 се дабови. Колку се вкупно?",
+      "OptionA": "11/30",
+      "OptionB": "3/15",
+      "OptionC": "11/15",
+      "OptionD": "15/15",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од една лента отсечеш 5/12, колку ќе ти остане?",
+      "OptionA": "17/12",
+      "OptionB": "5/12",
+      "OptionC": "7/12",
+      "OptionD": "1/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Петар поминал 1/4 од патот со трчање, а 1/2 со одење. Колку поминал вкупно?",
+      "OptionA": "2/4",
+      "OptionB": "1/4",
+      "OptionC": "3/4",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во една кутија 2/9 се зелени боички, а 5/9 се црвени. Колку се вкупно?",
+      "OptionA": "7/18",
+      "OptionB": "3/9",
+      "OptionC": "7/9",
+      "OptionD": "9/9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од едно чоколадо, Ана изела 2/5. Колку останало?",
+      "OptionA": "7/5",
       "OptionB": "2/5",
       "OptionC": "3/5",
-      "OptionD": "5/5",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Пресметај го деленикот x во x : 6 = 5.",
-      "OptionA": "11",
-      "OptionB": "1",
-      "OptionC": "30",
-      "OptionD": "25",
+      "OptionD": "1/5",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Колку е 2/11 + 5/11 + 1/11?",
-      "OptionA": "8/33",
-      "OptionB": "7/11",
-      "OptionC": "9/11",
-      "OptionD": "8/11",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Ако x * 5 = 100, тогаш x е:",
-      "OptionA": "20",
-      "OptionB": "95",
-      "OptionC": "105",
-      "OptionD": "500",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Една нива е посадена со 4/7 пченица и 2/7 јачмен. Колкав дел е посаден вкупно?",
-      "OptionA": "2/7",
-      "OptionB": "6/7",
-      "OptionC": "6/14",
-      "OptionD": "1/7",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој број поделен со 9 дава 3?",
-      "OptionA": "12",
-      "OptionB": "6",
-      "OptionC": "27",
-      "OptionD": "3",
+      "Question": "Ако испиеш 1/2 од чашата сок, а потоа уште 1/10, колку си испил вкупно?",
+      "OptionA": "5/10",
+      "OptionB": "4/10",
+      "OptionC": "6/10",
+      "OptionD": "1/10",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Дропката 5/10 е еднаква на:",
-      "OptionA": "1/10",
-      "OptionB": "2/10",
-      "OptionC": "1/5",
-      "OptionD": "1/2",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Во еден магацин имало 48 гајби сок. Ако секој ден се трошеле по 6 гајби, за колку дена се потрошиле сите?",
-      "OptionA": "8",
-      "OptionB": "7",
-      "OptionC": "9",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Ако имаме 1 метар платно и потрошиме 7/10, колкав дел останува?",
-      "OptionA": "1/10",
-      "OptionB": "3/10",
-      "OptionC": "10/10",
-      "OptionD": "7/10",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Пресметај x во 4 * x = 36.",
-      "OptionA": "40",
-      "OptionB": "32",
-      "OptionC": "9",
-      "OptionD": "144",
+      "Question": "Во една градина 3/11 се лалиња, а 5/11 се рози. Колку се вкупно цвеќиња?",
+      "OptionA": "8/22",
+      "OptionB": "2/11",
+      "OptionC": "8/11",
+      "OptionD": "11/11",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Колку е 1/3 + 1/6 (ако 1/3 ја запишеме како 2/6)?",
-      "OptionA": "1/6",
+      "Question": "Од една нива, изорани се 4/9. Колку останало за орање?",
+      "OptionA": "13/9",
+      "OptionB": "4/9",
+      "OptionC": "5/9",
+      "OptionD": "1/9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Матија прочитал 1/3 од книгата во понеделник и 1/3 во вторник. Колку прочитал вкупно?",
+      "OptionA": "1/3",
       "OptionB": "2/6",
+      "OptionC": "2/3",
+      "OptionD": "3/3",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од една целина одземеш 1/2, колку ќе остане?",
+      "OptionA": "5/8",
+      "OptionB": "3/8",
+      "OptionC": "4/8",
+      "OptionD": "1/8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во еден сад има 7/12 литри млеко. Ако додадеш 2/12, колку ќе има вкупно?",
+      "OptionA": "9/24",
+      "OptionB": "5/12",
+      "OptionC": "9/12",
+      "OptionD": "12/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од роденденска торта, децата изеле 3/10, а возрасните 4/10. Колку изеле вкупно?",
+      "OptionA": "7/20",
+      "OptionB": "1/10",
+      "OptionC": "7/10",
+      "OptionD": "10/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако испиеш 1/4 од шишето вода, а потоа уште 1/8, колку си испил вкупно?",
+      "OptionA": "2/8",
+      "OptionB": "1/8",
+      "OptionC": "3/8",
+      "OptionD": "3/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во една кошница 2/7 се круши, а 3/7 се јаболка. Колкав дел од овошјето се круши и јаболка?",
+      "OptionA": "5/14",
+      "OptionB": "1/7",
+      "OptionC": "5/7",
+      "OptionD": "6/7",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од еден пат, поминати се 4/6. Колку останало до крајот?",
+      "OptionA": "10/6",
+      "OptionB": "4/6",
+      "OptionC": "2/6",
+      "OptionD": "1/6",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Марија употребила 1/2 од шеќерот за торта и 1/6 за пудинг. Колку потрошила вкупно?",
+      "OptionA": "2/6",
+      "OptionB": "3/6",
       "OptionC": "4/6",
+      "OptionD": "4/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Петар изел 3/9 од пицата, а сестра му 4/9. Колку вкупно изеле?",
+      "OptionA": "7/18",
+      "OptionB": "1/9",
+      "OptionC": "12/81",
+      "OptionD": "7/9",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од едно шише со сок, Ана испила 6/10. Колку сок останал?",
+      "OptionA": "16/10",
+      "OptionB": "6/10",
+      "OptionC": "1/10",
+      "OptionD": "4/10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако во еден клас 1/2 се момчиња кои носат зелено, а 1/4 се девојчиња кои носат зелено. Колку се вкупно деца носат зелено?",
+      "OptionA": "1/4",
+      "OptionB": "2/4",
+      "OptionC": "3/8",
+      "OptionD": "3/4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во една градина 4/12 се засадени со цвеќе, а 5/12 со зеленчук. Колку е засадено вкупно?",
+      "OptionA": "9/24",
+      "OptionB": "1/12",
+      "OptionC": "12/12",
+      "OptionD": "9/12",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од едно пакување брашно, потрошени се 5/8. Колку брашно останало?",
+      "OptionA": "13/8",
+      "OptionB": "5/8",
+      "OptionC": "1/8",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Матија поминал 1/3 од патот наутро и 1/6 попладне. Колку поминал вкупно?",
+      "OptionA": "2/6",
+      "OptionB": "1/6",
+      "OptionC": "3/9",
       "OptionD": "3/6",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Еден воз поминува 80 километри на час. За колку часа ќе помине 240 километри?",
-      "OptionA": "3 часа",
-      "OptionB": "4 часа",
-      "OptionC": "2 часа",
-      "OptionD": "5 часа",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која дропка е еднаква на 2/8?",
-      "OptionA": "1/2",
-      "OptionB": "1/4",
-      "OptionC": "1/8",
-      "OptionD": "4/8",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Ако x : 10 = 5, тогаш x е:",
-      "OptionA": "15",
-      "OptionB": "5",
-      "OptionC": "50",
-      "OptionD": "2",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку е 15/20 - 7/20?",
-      "OptionA": "22/20",
-      "OptionB": "8/0",
-      "OptionC": "8/40",
-      "OptionD": "8/20",
+      "Question": "Во еден сад има 11/15 литри вода. Ако се потрошат 4/15, колку ќе остане?",
+      "OptionA": "15/15",
+      "OptionB": "4/15",
+      "OptionC": "11/15",
+      "OptionD": "7/15",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Еден работник за 4 дена заработил 4000 денари. Колку заработувал по еден ден?",
-      "OptionA": "1000 денари",
-      "OptionB": "500 денари",
-      "OptionC": "2000 денари",
-      "OptionD": "1500 денари",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Збирот на 3/7 и 2/7 е:",
-      "OptionA": "1/7",
-      "OptionB": "5/7",
-      "OptionC": "6/49",
-      "OptionD": "5/14",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Во равенката 9 * x = 81, x е:",
-      "OptionA": "72",
-      "OptionB": "90",
-      "OptionC": "9",
-      "OptionD": "1",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Ако од 1 литар млеко се искористи 3/4 литри, колку останува?",
-      "OptionA": "1/2",
-      "OptionB": "3/4",
-      "OptionC": "0",
-      "OptionD": "1/4",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Пресметај го непознатиот множител x во x * 8 = 64.",
-      "OptionA": "56",
-      "OptionB": "72",
-      "OptionC": "8",
-      "OptionD": "10",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Дропката 6/12 е еднаква на:",
-      "OptionA": "1/6",
-      "OptionB": "2/12",
-      "OptionC": "3/12",
-      "OptionD": "1/2",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Ако во 5 пакети има вкупно 50 чоколади, по колку чоколади има во секој пакет?",
-      "OptionA": "10",
-      "OptionB": "5",
-      "OptionC": "15",
-      "OptionD": "25",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку е 11/12 - 5/12?",
-      "OptionA": "16/12",
-      "OptionB": "6/12",
-      "OptionC": "6/0",
-      "OptionD": "7/12",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку е x во равенката 45 : x = 5?",
-      "OptionA": "40",
-      "OptionB": "50",
-      "OptionC": "9",
-      "OptionD": "225",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "За да ги собереме 1/5 и 3/10, првата дропка ја запишуваме како:",
-      "OptionA": "1/10",
-      "OptionB": "3/10",
-      "OptionC": "4/10",
-      "OptionD": "2/10",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Кој број помножен со 7 дава 28?",
-      "OptionA": "4",
-      "OptionB": "3",
-      "OptionC": "5",
-      "OptionD": "35",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Разликата на 8/10 и 3/10 е:",
-      "OptionA": "11/10",
-      "OptionB": "5/10",
-      "OptionC": "5/0",
-      "OptionD": "5/20",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Ако x : 4 = 9, тогаш x е:",
-      "OptionA": "13",
-      "OptionB": "5",
-      "OptionC": "36",
-      "OptionD": "2.25",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која дропка е еднаква на 3/9?",
-      "OptionA": "1/9",
-      "OptionB": "2/3",
-      "OptionC": "3/3",
-      "OptionD": "1/3",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Во една кутија има 24 моливи. Ако ги поделиме на 6 деца, колку ќе добие секое?",
-      "OptionA": "4",
-      "OptionB": "3",
-      "OptionC": "5",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Збирот на 1/6, 2/6 и 2/6 е:",
-      "OptionA": "3/6",
-      "OptionB": "5/6",
-      "OptionC": "5/18",
-      "OptionD": "1/6",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Ако 7 * x = 0, тогаш x е:",
-      "OptionA": "7",
-      "OptionB": "1",
-      "OptionC": "0",
-      "OptionD": "Нема решение",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку е 1 целина минус 4/7?",
-      "OptionA": "4/7",
+      "Question": "Ако испиеш 2/7 од сокот наутро и 3/7 попладне, колку си испил вкупно?",
+      "OptionA": "5/14",
       "OptionB": "1/7",
       "OptionC": "7/7",
-      "OptionD": "3/7",
+      "OptionD": "5/7",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Кој број поделен со 5 дава 20?",
-      "OptionA": "100",
-      "OptionB": "4",
-      "OptionC": "25",
-      "OptionD": "15",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Ако x * 3 = 60, тогаш x е:",
-      "OptionA": "63",
-      "OptionB": "57",
-      "OptionC": "20",
-      "OptionD": "180",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Дропката 4/16 скратена со 4 изнесува:",
-      "OptionA": "1/16",
-      "OptionB": "2/8",
-      "OptionC": "4/4",
-      "OptionD": "1/4",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Една екипа одиграла 10 натпревари. Победила на 6/10. Колкав дел од натпреварите не победила?",
-      "OptionA": "4/10",
-      "OptionB": "6/10",
-      "OptionC": "10/10",
-      "OptionD": "2/10",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Ако 100 : x = 4, тогаш x е:",
-      "OptionA": "400",
-      "OptionB": "20",
-      "OptionC": "25",
-      "OptionD": "50",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Дропката 2/3 проширена со 3 е:",
-      "OptionA": "5/6",
-      "OptionB": "6/3",
-      "OptionC": "2/9",
-      "OptionD": "6/9",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Ако еден молив чини 9 денари, колку моливи може да се купат за 81 денар?",
-      "OptionA": "9",
-      "OptionB": "8",
-      "OptionC": "10",
-      "OptionD": "7",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Пресметај x во 6 * x = 42.",
-      "OptionA": "36",
-      "OptionB": "48",
-      "OptionC": "7",
-      "OptionD": "252",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која дропка е еднаква на 1/5?",
-      "OptionA": "1/10",
-      "OptionB": "3/15",
-      "OptionC": "5/10",
+      "Question": "Од роденденска торта, децата изеле 8/10. Колку останало за родителите?",
+      "OptionA": "18/10",
+      "OptionB": "8/10",
+      "OptionC": "1/10",
       "OptionD": "2/10",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Во една корпа има 30 јајца. Ако ги спакуваме во кутии по 6, колку кутии ни требаат?",
-      "OptionA": "5",
-      "OptionB": "6",
-      "OptionC": "4",
-      "OptionD": "10",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Пресметај го делителот x во 72 : x = 8.",
-      "OptionA": "64",
-      "OptionB": "80",
-      "OptionC": "9",
-      "OptionD": "576",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која дропка е еднаква на 4/10?",
-      "OptionA": "1/10",
-      "OptionB": "4/5",
-      "OptionC": "2/10",
-      "OptionD": "2/5",
+      "Question": "Стефан обоил 1/2 од оградата, а потоа уште 1/10. Колку обоил вкупно?",
+      "OptionA": "5/10",
+      "OptionB": "4/10",
+      "OptionC": "1/10",
+      "OptionD": "6/10",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Ако x : 9 = 4, тогаш x е:",
-      "OptionA": "13",
-      "OptionB": "5",
-      "OptionC": "36",
-      "OptionD": "45",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Разликата помеѓу 5/6 и 1/6 е:",
-      "OptionA": "6/6",
-      "OptionB": "4/0",
-      "OptionC": "3/6",
-      "OptionD": "4/6",
+      "Question": "Во една кошница 3/11 се јаболка, а 4/11 се круши, а останатото банани. Колку се вкупно банани?",
+      "OptionA": "7/22",
+      "OptionB": "7/11",
+      "OptionC": "11/11",
+      "OptionD": "4/11",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Ако 1/4 од патот е 5 километри, колку е целата должина?",
-      "OptionA": "20 километри",
-      "OptionB": "9 километри",
-      "OptionC": "1 километар",
-      "OptionD": "15 километри",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Збирот 2/9 + 1/9 + 4/9 е:",
-      "OptionA": "3/9",
-      "OptionB": "7/9",
-      "OptionC": "7/27",
-      "OptionD": "1",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку е x ако 63 : x = 7?",
-      "OptionA": "56",
-      "OptionB": "70",
-      "OptionC": "9",
-      "OptionD": "441",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Дропката 3/6 е еднаква на:",
-      "OptionA": "1/3",
-      "OptionB": "1/6",
-      "OptionC": "2/3",
-      "OptionD": "1/2",
+      "Question": "Од една нива, изорани се 1/2. Колку останало за орање?",
+      "OptionA": "4/6",
+      "OptionB": "2/6",
+      "OptionC": "1/6",
+      "OptionD": "3/6",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Еден замислен број помножен со 10 дава 500. Кој е тој број?",
-      "OptionA": "50",
-      "OptionB": "490",
-      "OptionC": "510",
-      "OptionD": "5",
-      "CorrectAnswer": "OptionA"
+      "Question": "Марко прочитал 2/9 од книгата во сабота и 5/9 во недела. Колку прочитал вкупно?",
+      "OptionA": "7/18",
+      "OptionB": "3/9",
+      "OptionC": "9/9",
+      "OptionD": "7/9",
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Ако имаме 3/4 литри вода и истуриме 1/4, колку останало?",
+      "Question": "Ако од една лента отсечеш 8/12, колку ќе ти остане?",
+      "OptionA": "20/12",
+      "OptionB": "8/12",
+      "OptionC": "1/12",
+      "OptionD": "4/12",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Мила испила 1/4 литар вода наутро и 1/2 попладне. Колку испила вкупно?",
       "OptionA": "2/4",
       "OptionB": "1/4",
-      "OptionC": "4/4",
-      "OptionD": "0",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Збирот на 1/5 и 2/5 е:",
-      "OptionA": "1/5",
-      "OptionB": "3/5",
-      "OptionC": "3/10",
-      "OptionD": "4/5",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Пресметај x во x * 2 = 50.",
-      "OptionA": "48",
-      "OptionB": "52",
-      "OptionC": "25",
-      "OptionD": "100",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која дропка е еднаква на 1/3?",
-      "OptionA": "1/6",
-      "OptionB": "2/3",
-      "OptionC": "3/6",
-      "OptionD": "2/6",
+      "OptionC": "3/8",
+      "OptionD": "3/4",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Во 4 кутии има вкупно 36 топчиња. Колку топчиња има во секоја кутија?",
-      "OptionA": "9",
-      "OptionB": "8",
-      "OptionC": "10",
-      "OptionD": "7",
-      "CorrectAnswer": "OptionA"
+      "Question": "Во еден автобус 5/11 се ученици, а 4/11 се возрасни вработени а останатите пензионери. Колку се вкупно пензионери?",
+      "OptionA": "9/22",
+      "OptionB": "9/11",
+      "OptionC": "11/11",
+      "OptionD": "2/11",
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Збирот 3/10 + 4/10 + 2/10 е:",
-      "OptionA": "7/10",
-      "OptionB": "9/10",
-      "OptionC": "9/30",
-      "OptionD": "1/10",
-      "CorrectAnswer": "OptionB"
+      "Question": "Од едно пакување сок, потрошени се 6/8. Колку останало?",
+      "OptionA": "14/8",
+      "OptionB": "6/8",
+      "OptionC": "1/8",
+      "OptionD": "2/8",
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Ако x : 2 = 100, тогаш x е:",
-      "OptionA": "50",
-      "OptionB": "102",
-      "OptionC": "200",
-      "OptionD": "98",
-      "CorrectAnswer": "OptionC"
+      "Question": "Петар поминал 2/10 од патот пеш, а 1/2 (5/10) со велосипед. Колку поминал вкупно?",
+      "OptionA": "3/10",
+      "OptionB": "6/10",
+      "OptionC": "7/20",
+      "OptionD": "7/10",
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Од една цела торта изедени се 5/8. Колку останало?",
-      "OptionA": "5/8",
-      "OptionB": "1/8",
-      "OptionC": "8/8",
-      "OptionD": "3/8",
+      "Question": "Во една продавница 4/15 се црвени балони, а 8/15 се сини. Колку се вкупно црвени и сини балони?",
+      "OptionA": "12/30",
+      "OptionB": "4/15",
+      "OptionC": "15/15",
+      "OptionD": "12/15",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од едно чоколадо, Ана изела 5/9. Колку чоколадо останало?",
+      "OptionA": "14/9",
+      "OptionB": "5/9",
+      "OptionC": "1/9",
+      "OptionD": "4/9",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако испиеш 1/3 од млекото наутро и 1/6 , колку си испил?",
+      "OptionA": "2/6",
+      "OptionB": "1/6",
+      "OptionC": "3/9",
+      "OptionD": "3/6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во една градина 2/5 се засадени со рози, а 1/5 со лалиња. Колку е засадено вкупно?",
+      "OptionA": "3/10",
+      "OptionB": "1/5",
+      "OptionC": "4/5",
+      "OptionD": "3/5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од една торта (12/12), децата изеле 11/12. Колку останало за десерт подоцна?",
+      "OptionA": "23/12",
+      "OptionB": "11/12",
+      "OptionC": "2/12",
+      "OptionD": "1/12",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Стефан поминал 1/4 од патеката со трчање и 1/4 со одење. Колку поминал вкупно?",
+      "OptionA": "1/4",
+      "OptionB": "2/8",
+      "OptionC": "0/4",
+      "OptionD": "2/4",
       "CorrectAnswer": "OptionD"
     }
   ]
