@@ -353,22 +353,6 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Кој број поделен со 6 дава 10?",
-      "OptionA": "60",
-      "OptionB": "16",
-      "OptionC": "4",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку е 4/9 + 5/9?",
-      "OptionA": "1/9",
-      "OptionB": "9/9 (или 1)",
-      "OptionC": "20/81",
-      "OptionD": "9/18",
-      "CorrectAnswer": "OptionB"
-    },
-    {
       "Question": "Пресметај го непознатиот множител x во x * 8 = 64.",
       "OptionA": "56",
       "OptionB": "72",
@@ -489,14 +473,6 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Збирот на 3/11 и 5/11 е:",
-      "OptionA": "8/22",
-      "OptionB": "8/11",
-      "OptionC": "2/11",
-      "OptionD": "15/121",
-      "CorrectAnswer": "OptionB"
-    },
-    {
       "Question": "Ако x * 3 = 60, тогаш x е:",
       "OptionA": "63",
       "OptionB": "57",
@@ -519,14 +495,6 @@
       "OptionC": "10/10",
       "OptionD": "2/10",
       "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку е 2/5 + 2/5?",
-      "OptionA": "0/5",
-      "OptionB": "4/5",
-      "OptionC": "4/10",
-      "OptionD": "1/5",
-      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Ако 100 : x = 4, тогаш x е:",
@@ -553,14 +521,6 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку е 9/10 - 4/10?",
-      "OptionA": "13/10",
-      "OptionB": "5/10",
-      "OptionC": "5/0",
-      "OptionD": "5/20",
-      "CorrectAnswer": "OptionB"
-    },
-    {
       "Question": "Пресметај x во 6 * x = 42.",
       "OptionA": "36",
       "OptionB": "48",
@@ -585,46 +545,6 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Збирот на 1/8 и 5/8 е:",
-      "OptionA": "4/8",
-      "OptionB": "6/8",
-      "OptionC": "6/16",
-      "OptionD": "7/8",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку е x ако x : 3 = 30?",
-      "OptionA": "10",
-      "OptionB": "33",
-      "OptionC": "90",
-      "OptionD": "27",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Разликата помеѓу 7/7 и 2/7 е:",
-      "OptionA": "9/7",
-      "OptionB": "5/0",
-      "OptionC": "1",
-      "OptionD": "5/7",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Ако x * 4 = 400, x е:",
-      "OptionA": "100",
-      "OptionB": "404",
-      "OptionC": "396",
-      "OptionD": "1600",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку е 3/15 + 7/15?",
-      "OptionA": "4/15",
-      "OptionB": "10/15",
-      "OptionC": "10/30",
-      "OptionD": "1",
-      "CorrectAnswer": "OptionB"
-    },
-    {
       "Question": "Пресметај го делителот x во 72 : x = 8.",
       "OptionA": "64",
       "OptionB": "80",
@@ -639,22 +559,6 @@
       "OptionC": "2/10",
       "OptionD": "2/5",
       "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Кој број помножен со 5 дава 35?",
-      "OptionA": "7",
-      "OptionB": "6",
-      "OptionC": "8",
-      "OptionD": "30",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку е 5/12 + 2/12?",
-      "OptionA": "3/12",
-      "OptionB": "7/12",
-      "OptionC": "7/24",
-      "OptionD": "10/12",
-      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Ако x : 9 = 4, тогаш x е:",
@@ -711,30 +615,6 @@
       "OptionC": "510",
       "OptionD": "5",
       "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку е 4/15 + 6/15?",
-      "OptionA": "2/15",
-      "OptionB": "10/15",
-      "OptionC": "10/30",
-      "OptionD": "1",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Ако x : 8 = 3, x е:",
-      "OptionA": "11",
-      "OptionB": "5",
-      "OptionC": "24",
-      "OptionD": "16",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Разликата на 11/12 и 4/12 е:",
-      "OptionA": "15/12",
-      "OptionB": "7/0",
-      "OptionC": "7/24",
-      "OptionD": "7/12",
-      "CorrectAnswer": "OptionD"
     },
     {
       "Question": "Ако имаме 3/4 литри вода и истуриме 1/4, колку останало?",
