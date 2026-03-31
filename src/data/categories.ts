@@ -251,7 +251,7 @@ export const grades: Grade[] = [
             description: "Цела тема, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_tekstualni.json`,
             icon: Plus,
-            color: "200 65% 50%",
+            color: "80 65% 50%",
           },
           {
             id: "operacii-broevi-dropki-4",
@@ -259,7 +259,7 @@ export const grades: Grade[] = [
             description: "Дропки",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki.json`,
             icon: Plus,
-            color: "220 80% 30%",
+            color: "10 80% 30%",
           },
           {
             id: "operacii-broevi-dropki-4",
@@ -267,7 +267,7 @@ export const grades: Grade[] = [
             description: "Дропки, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki_tekstualni.json`,
             icon: Plus,
-            color: "200 90% 10%",
+            color: "150 90% 10%",
           },
           {
             id: "merenje-4",
