@@ -13,7 +13,12 @@ const QUESTIONS_PER_QUIZ = 10;
 const TIME_PER_QUESTION = 30;
 
 function shuffleAndPick(questions: QuizQuestion[], count: number): QuizQuestion[] {
-  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  // Fisher-Yates shuffle algorithm for proper randomization
+  const shuffled = [...questions];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
   return shuffled.slice(0, count);
 }
 
