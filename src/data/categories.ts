@@ -1,4 +1,4 @@
-import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3 } from "lucide-react";
+import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3, Home, Flag } from "lucide-react";
 
 export interface Category {
   id: string;
@@ -213,7 +213,7 @@ export const grades: Grade[] = [
   ,
   {
     id: "grade4",
-    label: "Четвртто Одделение",
+    label: "Четврто Одделение",
     subjects: [
       {
         id: "matematika-4",
@@ -349,29 +349,29 @@ export const grades: Grade[] = [
         icon: Globe,
         color: "220 65% 55%",
         categories: [
-                              {
+          {
             id: "moeto-opkruzuvanje-4",
             label: "1. Моето опкружување",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-moeto_opkruzuvanje.json`,
-            icon: BookOpen,
-            color: "220 65% 55%",
+            icon: Home,
+            color: "30 85% 55%",
           },
           {
             id: "sredinate-vo-koja-ziveam-4",
             label: "2. Средината во која живеам",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-sredina_vo_koja_ziveam.json`,
-            icon: BookOpen,
-            color: "220 65% 55%",
+            icon: TreePine,
+            color: "120 65% 45%",
           },
           {
             id: "mojata-drzava-4",
             label: "3. Мојата држава",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-mojata_drzava.json`,
-            icon: BookOpen,
-            color: "220 65% 55%",
+            icon: Flag,
+            color: "0 75% 50%",
           },
         ],
       },
