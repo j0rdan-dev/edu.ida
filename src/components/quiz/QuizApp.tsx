@@ -26,6 +26,7 @@ const QuizApp = () => {
   const [screen, setScreen] = useState<Screen>("grades");
   const [selectedGrade, setSelectedGrade] = useState<Grade | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
@@ -49,6 +50,7 @@ const QuizApp = () => {
 
   const startQuiz = useCallback(async (category: Category) => {
     setLoading(true);
+    setSelectedCategory(category);
     try {
       const res = await fetch(category.file);
       const data: QuizData = await res.json();
@@ -164,10 +166,11 @@ const QuizApp = () => {
           onAnswer={handleAnswer}
           onRestart={handleRestartQuiz}
           onHome={handleHome}
+          quizTitle={selectedCategory?.label || ""}
         />
       );
     case "results":
-      return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} />;
+      return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} quizTitle={selectedCategory?.label || ""} />;
   }
 };
 

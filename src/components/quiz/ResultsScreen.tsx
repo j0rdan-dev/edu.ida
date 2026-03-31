@@ -6,6 +6,7 @@ interface ResultsScreenProps {
   timeElapsed: number;
   onRestart: () => void;
   onRestartQuiz: () => void;
+  quizTitle: string;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -15,7 +16,7 @@ const optionLabels: Record<OptionKey, string> = {
   OptionD: "Г",
 };
 
-const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz }: ResultsScreenProps) => {
+const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTitle }: ResultsScreenProps) => {
   const correct = answers.filter((a) => a.isCorrect).length;
   const total = answers.length;
   const percentage = Math.round((correct / total) * 100);
@@ -35,6 +36,7 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz }: Resul
       <div className="w-full max-w-lg">
         {/* Score header */}
         <div className="text-center mb-8 opacity-0 animate-fade-up">
+          <h2 className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">{quizTitle}</h2>
           <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
             <Trophy className="h-10 w-10 text-primary" />
           </div>

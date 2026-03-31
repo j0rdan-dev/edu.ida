@@ -10,6 +10,7 @@ interface QuestionCardProps {
   onAnswer: (answer: OptionKey | null) => void;
   onRestart: () => void;
   onHome: () => void;
+  quizTitle: string;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -21,7 +22,7 @@ const optionLabels: Record<OptionKey, string> = {
 
 const optionKeys: OptionKey[] = ["OptionA", "OptionB", "OptionC", "OptionD"];
 
-const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome }: QuestionCardProps) => {
+const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome, quizTitle }: QuestionCardProps) => {
   const [selected, setSelected] = useState<OptionKey | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(timeLimit);
@@ -96,6 +97,11 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg opacity-0 animate-fade-up">
+        {/* Quiz Title */}
+        <div className="mb-6">
+          <h3 className="text-center text-sm font-semibold text-primary uppercase tracking-wider">{quizTitle}</h3>
+        </div>
+
         {/* Progress + Timer row */}
         <div className="mb-8">
           <div className="flex justify-between items-center text-sm text-muted-foreground mb-2">
