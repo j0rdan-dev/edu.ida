@@ -1,13 +1,15 @@
 import { useState, useEffect, useCallback, useRef } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { QuizData, QuizQuestion, OptionKey, AnswerRecord } from "@/types/quiz";
-import { Category, Grade, Subject } from "@/data/categories";
+import { Category, Grade, Subject, grades } from "@/data/categories";
 import GradeSelect from "./GradeSelect";
 import SubjectSelect from "./SubjectSelect";
 import CategorySelect from "./CategorySelect";
 import QuestionCard from "./QuestionCard";
 import ResultsScreen from "./ResultsScreen";
+import TextbooksSelect from "./TextbooksSelect";
 
-type Screen = "grades" | "subjects" | "categories" | "quiz" | "results";
+type Screen = "grades" | "subjects" | "categories" | "quiz" | "results" | "textbooks";
 
 const QUESTIONS_PER_QUIZ = 10;
 const TIME_PER_QUESTION = 30;
@@ -122,6 +124,10 @@ const QuizApp = () => {
     setSelectedSubject(null);
   }, []);
 
+  const handleTextbooksClick = useCallback(() => {
+    setScreen("textbooks");
+  }, []);
+
   useEffect(() => {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -145,6 +151,7 @@ const QuizApp = () => {
           grade={selectedGrade!}
           onSelect={handleSubjectSelect}
           onBack={() => setScreen("grades")}
+          onTextbooksClick={handleTextbooksClick}
         />
       );
     case "categories":
@@ -171,6 +178,8 @@ const QuizApp = () => {
       );
     case "results":
       return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} quizTitle={selectedCategory?.label || ""} />;
+    case "textbooks":
+      return <TextbooksSelect grade={selectedGrade!} onBack={() => setScreen("subjects")} />;
   }
 };
 

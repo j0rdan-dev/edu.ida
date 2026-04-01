@@ -378,3 +378,93 @@ export const grades: Grade[] = [
     ],
   },
 ];
+
+export interface Textbook {
+  id: string;
+  label: string;
+  url: string;
+  color: string;
+}
+
+export const textbooksByGrade: Record<string, Textbook[]> = {
+  grade1: [
+    {
+      id: "matematik-1",
+      label: "Математика (Прво одделение)",
+      url: "#",
+      color: "340 65% 50%",
+    },
+    {
+      id: "prirodni-1",
+      label: "Природни Науки (Прво одделение)",
+      url: "#",
+      color: "120 65% 45%",
+    },
+    {
+      id: "opstestvo-1",
+      label: "Општество (Прво одделение)",
+      url: "#",
+      color: "220 65% 55%",
+    },
+  ],
+  grade2: [
+    {
+      id: "matematik-2",
+      label: "Математика (Второ одделение)",
+      url: "#",
+      color: "340 65% 50%",
+    },
+    {
+      id: "prirodni-2",
+      label: "Природни Науки (Второ одделение)",
+      url: "#",
+      color: "259 78% 51%",
+    },
+    {
+      id: "opstestvo-2",
+      label: "Општество (Второ одделение)",
+      url: "#",
+      color: "220 65% 55%",
+    },
+  ],
+  grade3: [
+    {
+      id: "matematik-3",
+      label: "Математика (Трето одделение)",
+      url: "#",
+      color: "340 65% 50%",
+    },
+    {
+      id: "prirodni-3",
+      label: "Природни Науки (Трето одделение)",
+      url: "#",
+      color: "259 78% 51%",
+    },
+    {
+      id: "opstestvo-3",
+      label: "Општество (Трето одделение)",
+      url: "#",
+      color: "220 65% 55%",
+    },
+  ],
+  grade4: [
+    {
+      id: "matematik-4",
+      label: "Математика",
+      url: "./ucebnici/Matematika_4_mak_web.pdf",
+      color: "340 65% 50%",
+    },
+    {
+      id: "prirodni-4",
+      label: "Природни Науки",
+      url: "./ucebnici/Prirodni_nauki_4_mak.pdf",
+      color: "240 70% 45%",
+    },
+    {
+      id: "opstestvo-4",
+      label: "Општество",
+      url: "./ucebnici/Istorija_opstestvo_4_mak.pdf",
+      color: "220 65% 55%",
+    },
+  ],
+};

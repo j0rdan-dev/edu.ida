@@ -1,13 +1,14 @@
 import { Grade, Subject } from "@/data/categories";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, BookOpen } from "lucide-react";
 
 interface SubjectSelectProps {
   grade: Grade;
   onSelect: (subject: Subject) => void;
   onBack: () => void;
+  onTextbooksClick: () => void;
 }
 
-const SubjectSelect = ({ grade, onSelect, onBack }: SubjectSelectProps) => {
+const SubjectSelect = ({ grade, onSelect, onBack, onTextbooksClick }: SubjectSelectProps) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg">
@@ -54,6 +55,21 @@ const SubjectSelect = ({ grade, onSelect, onBack }: SubjectSelectProps) => {
               </button>
             );
           })}
+
+          {/* Textbooks Section */}
+          <button
+            onClick={onTextbooksClick}
+            className="group flex items-center gap-4 w-full rounded-xl border-2 border-border bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-5 text-left transition-all duration-200 hover:border-purple-400/60 hover:shadow-lg hover:shadow-purple-500/10 hover:-translate-y-0.5 active:scale-[0.98] opacity-0 animate-fade-up mt-2"
+            style={{ animationDelay: `${100 + grade.subjects.length * 80}ms` }}
+          >
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-transform duration-200 group-hover:scale-105 bg-gradient-to-br from-purple-500 to-pink-500">
+              <BookOpen className="h-6 w-6 text-white" />
+            </div>
+            <div className="min-w-0">
+              <p className="font-semibold text-foreground text-base">Учебници</p>
+              <p className="text-sm text-muted-foreground">Образовни материјали</p>
+            </div>
+          </button>
         </div>
       </div>
     </div>
