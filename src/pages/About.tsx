@@ -25,7 +25,7 @@ const About = () => {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-foreground">Наша мисија</h2>
               <p className="text-foreground leading-relaxed">
-                Нашата цел е да омогниме на учениците да учат преку интерактивни квизови. Со забавни и ангажирачки вежби, 
+                Нашата цел е да им помогнеме на учениците да учат преку интерактивни квизови. Со забавни и ангажирачки вежби, 
                 ние веруваме дека учењето може да биде достапно и пријатно за сите.
               </p>
             </div>
@@ -55,7 +55,7 @@ const About = () => {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-foreground">Контакт</h2>
               <p className="text-foreground">
-                Ако имате вопроси или предлози, контактирајте нас на:{" "}
+                Ако имате прашања или предлози, контактирајте нас на:{" "}
                 <a href="mailto:contact@edu.ida.mk" className="text-primary hover:underline">
                   contact@edu.ida.mk
                 </a>
