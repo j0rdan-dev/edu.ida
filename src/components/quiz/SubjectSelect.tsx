@@ -13,10 +13,10 @@ const SubjectSelect = ({ grade, onSelect, onBack, onTextbooksClick }: SubjectSel
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg flex flex-col h-full">
         <div className="text-center mb-10 opacity-0 animate-fade-up">
-          <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
+          <h1 className="text-4xl font-bold tracking-tight text-foreground mb-2 font-display">
             {grade.label}
           </h1>
-          <p className="text-muted-foreground">Избери предмет</p>
+          <p className="text-lg text-muted-foreground font-subtitle font-semibold">Избери предмет</p>
         </div>
 
         <div className="flex flex-col gap-3 flex-1">

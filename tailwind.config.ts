@@ -14,7 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        sans: ['"PT Sans"', 'system-ui', 'sans-serif'],
+        display: ['"Comfortaa"', 'system-ui', 'sans-serif'],
+        subtitle: ['"Nunito"', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
