@@ -466,5 +466,11 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
       url: "./ucebnici/Istorija_opstestvo_4_mak.pdf",
       color: "220 65% 55%",
     },
+        {
+      id: "makedonski-4",
+      label: "Македонски Јазик",
+      url: "./ucebnici/makedonski_4.pdf",
+      color: "400 85% 35%",
+    },
   ],
 };
