@@ -430,20 +430,20 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
   grade3: [
     {
       id: "matematik-3",
-      label: "Математика (Трето одделение)",
-      url: "#",
+      label: "Македонски Јазик",
+      url: "./ucebnici/makedonski_3.pdf",
       color: "340 65% 50%",
     },
     {
       id: "prirodni-3",
-      label: "Природни Науки (Трето одделение)",
+      label: "Природни Науки (soon)",
       url: "#",
       color: "259 78% 51%",
     },
     {
       id: "opstestvo-3",
-      label: "Општество (Трето одделение)",
-      url: "#",
+      label: "Општество",
+      url: "./ucebnici/Opstestvo_3.pdf",
       color: "220 65% 55%",
     },
   ],
