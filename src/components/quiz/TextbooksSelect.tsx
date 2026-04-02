@@ -10,22 +10,15 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
   const textbooks = textbooksByGrade[grade.id] || [];
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
-      <div className="w-full max-w-lg">
+      <div className="w-full max-w-lg flex flex-col h-full">
         <div className="text-center mb-10 opacity-0 animate-fade-up">
-          <button
-            onClick={onBack}
-            className="mx-auto mb-4 flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors active:scale-[0.97]"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Назад
-          </button>
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
             Учебници - {grade.label}
           </h1>
           <p className="text-muted-foreground">Преземи образовни материјали</p>
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 flex-1">
           {textbooks.map((book, i) => (
             <a
               key={book.id}
@@ -47,6 +40,16 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
             </a>
           ))}
         </div>
+
+        {/* Back Button */}
+        <button
+          onClick={onBack}
+          className="mt-8 inline-flex items-center justify-center gap-2 w-full rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-orange-500/20 transition-all duration-200 hover:bg-orange-600 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:scale-[0.97] opacity-0 animate-fade-up"
+          style={{ animationDelay: `${100 + textbooks.length * 80}ms` }}
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Назад
+        </button>
       </div>
     </div>
   );
