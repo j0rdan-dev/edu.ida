@@ -470,7 +470,7 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
     },
     {
       id: "opstestvo-4",
-      label: "Општество",
+      label: "Историја и Општество",
       url: "./ucebnici/Istorija_opstestvo_4_mak.pdf",
       color: "220 65% 55%",
     },
