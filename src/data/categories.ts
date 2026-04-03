@@ -361,7 +361,7 @@ export const grades: Grade[] = [
             id: "sredinate-vo-koja-ziveam-4",
             label: "2. Средината во која живеам",
             description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/4-sredina_vo_koja_ziveam.json`,
+            file: `${import.meta.env.BASE_URL}data/4-sredinata_vo_koja_ziveam.json`,
             icon: TreePine,
             color: "120 65% 45%",
           },
