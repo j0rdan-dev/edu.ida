@@ -1,8 +1,17 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Home, Info } from "lucide-react";
 
 const Header = () => {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    navigate("/", {
+      state: {
+        homeResetToken: Date.now(),
+      },
+    });
+  };
 
   return (
     <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
@@ -12,8 +21,9 @@ const Header = () => {
         </Link>
 
         <nav className="flex items-center gap-4">
-          <Link
-            to="/"
+          <button
+            type="button"
+            onClick={handleHomeClick}
             className={`flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all duration-200 ${
               location.pathname === "/"
                 ? "bg-primary text-primary-foreground"
@@ -22,7 +32,7 @@ const Header = () => {
           >
             <Home className="h-4 w-4" />
             <span className="text-sm font-medium">Почетна</span>
-          </Link>
+          </button>
           <Link
             to="/about"
             className={`flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all duration-200 ${
