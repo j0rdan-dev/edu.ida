@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { QuizData, QuizQuestion, OptionKey, AnswerRecord } from "@/types/quiz";
 import { Category, Grade, Subject, grades } from "@/data/categories";
 import GradeSelect from "./GradeSelect";
@@ -25,6 +25,7 @@ function shuffleAndPick(questions: QuizQuestion[], count: number): QuizQuestion[
 }
 
 const QuizApp = () => {
+  const location = useLocation();
   const [screen, setScreen] = useState<Screen>("grades");
   const [selectedGrade, setSelectedGrade] = useState<Grade | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
@@ -121,6 +122,25 @@ const QuizApp = () => {
   const handleTextbooksClick = useCallback(() => {
     setScreen("textbooks");
   }, []);
+
+  useEffect(() => {
+    if (!(location.state as { homeResetToken?: number } | null)?.homeResetToken) return;
+
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+
+    setScreen("grades");
+    setSelectedGrade(null);
+    setSelectedSubject(null);
+    setSelectedCategory(null);
+    setQuizQuestions([]);
+    setCurrentIndex(0);
+    setAnswers([]);
+    setTimeElapsed(0);
+    setLoading(false);
+  }, [location.state]);
 
   useEffect(() => {
     return () => {
