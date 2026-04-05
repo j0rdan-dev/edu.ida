@@ -51,6 +51,10 @@ const QuizApp = () => {
   }, []);
 
   const startQuiz = useCallback(async (category: Category) => {
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
     setLoading(true);
     setSelectedCategory(category);
     try {
@@ -96,19 +100,9 @@ const QuizApp = () => {
   );
 
   const handleRestartQuiz = useCallback(() => {
-    if (timerRef.current) clearInterval(timerRef.current);
-    // Reshuffle the same questions for a new attempt
-    const reshuffled = shuffleAndPick(quizQuestions, quizQuestions.length);
-    setQuizQuestions(reshuffled);
-    setCurrentIndex(0);
-    setAnswers([]);
-    setTimeElapsed(0);
-    setScreen("quiz");
-
-    timerRef.current = setInterval(() => {
-      setTimeElapsed((t) => t + 1);
-    }, 1000);
-  }, [quizQuestions]);
+    if (!selectedCategory) return;
+    startQuiz(selectedCategory);
+  }, [selectedCategory, startQuiz]);
 
   const handleRestart = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
