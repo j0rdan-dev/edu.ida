@@ -1,21 +1,56 @@
+import { useEffect, useState } from "react";
 import { Category } from "@/data/categories";
 import { ArrowLeft } from "lucide-react";
 
 interface CategorySelectProps {
   categories: Category[];
+  subjectTitle: string;
   onSelect: (category: Category) => void;
   onBack: () => void;
 }
 
-const CategorySelect = ({ categories, onSelect, onBack }: CategorySelectProps) => {
+interface LearningTipsData {
+  Tips: string[];
+}
+
+const CategorySelect = ({ categories, subjectTitle, onSelect, onBack }: CategorySelectProps) => {
+  const [tip, setTip] = useState<string>("");
+
+  useEffect(() => {
+    let active = true;
+
+    const loadRandomTip = async () => {
+      try {
+        const res = await fetch(`${import.meta.env.BASE_URL}data/learning_tips.json`);
+        const data: LearningTipsData = await res.json();
+        if (!active || !Array.isArray(data.Tips) || data.Tips.length === 0) return;
+        const randomTip = data.Tips[Math.floor(Math.random() * data.Tips.length)];
+        setTip(randomTip);
+      } catch (error) {
+        console.error("Failed to load learning tips", error);
+      }
+    };
+
+    loadRandomTip();
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg flex flex-col h-full">
         <div className="text-center mb-10 opacity-0 animate-fade-up">
           <h1 className="text-4xl font-bold tracking-tight text-foreground mb-2 font-display">
-            Квиз
+            {subjectTitle}
           </h1>
           <p className="text-lg text-muted-foreground font-subtitle font-semibold">Избери категорија</p>
+        </div>
+
+        <div className="mb-6 rounded-xl border-2 border-amber-200 bg-amber-50/90 p-4 opacity-0 animate-fade-up" style={{ animationDelay: "90ms" }}>
+          <p className="text-base font-bold text-amber-900 mb-1">Совети за подобро учење</p>
+          <p className="text-sm font-medium text-amber-800">{tip || "Советите се вчитуваат..."}</p>
         </div>
 
         <div className="flex flex-col gap-3 flex-1">
