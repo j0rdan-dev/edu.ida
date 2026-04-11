@@ -172,6 +172,7 @@ const QuizApp = () => {
       return (
         <CategorySelect
           categories={selectedSubject!.categories}
+          subjectTitle={selectedSubject!.label}
           onSelect={startQuiz}
           onBack={() => setScreen("subjects")}
         />
