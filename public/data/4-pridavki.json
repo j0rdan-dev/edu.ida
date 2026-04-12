@@ -1,0 +1,812 @@
+﻿{
+  "Questions": [
+    {
+      "Question": "Што означуваат придавките?",
+      "OptionA": "Особини на суштествата и предметите.",
+      "OptionB": "Само имиња на предмети.",
+      "OptionC": "Дејства што се вршат.",
+      "OptionD": "Колку е часот.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е придавка во реченицата: „Црвеното јаболко е слатко“?",
+      "OptionA": "Црвеното",
+      "OptionB": "Јаболко",
+      "OptionC": "Е",
+      "OptionD": "Јаболкото",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "На кое прашање одговараат придавките?",
+      "OptionA": "Какво е нештото?",
+      "OptionB": "Кој го прави тоа?",
+      "OptionC": "Кога се случило?",
+      "OptionD": "Зошто е така?",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од наведените е описна придавка?",
+      "OptionA": "Убава",
+      "OptionB": "Македонски",
+      "OptionC": "Денешен",
+      "OptionD": "Прв",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што означуваат описните придавки?",
+      "OptionA": "Боја, форма, вкус или друга особина.",
+      "OptionB": "На кого му припаѓа нештото.",
+      "OptionC": "Од што е направено нештото.",
+      "OptionD": "Редослед на предметите.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е придавка за вкус?",
+      "OptionA": "Кисело",
+      "OptionB": "Тркалезно",
+      "OptionC": "Високо",
+      "OptionD": "Зелено",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која придавка означува боја?",
+      "OptionA": "Сино",
+      "OptionB": "Меко",
+      "OptionC": "Тешко",
+      "OptionD": "Големо",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Придавките се менуваат по:",
+      "OptionA": "Род и број.",
+      "OptionB": "Само по род.",
+      "OptionC": "Само по број.",
+      "OptionD": "Не се менуваат.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е придавката во машки род?",
+      "OptionA": "Вреден",
+      "OptionB": "Вредна",
+      "OptionC": "Вредно",
+      "OptionD": "Вредни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е придавката во женски род?",
+      "OptionA": "Мала",
+      "OptionB": "Мал",
+      "OptionC": "Мало",
+      "OptionD": "Мали",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е придавката во среден род?",
+      "OptionA": "Бистро",
+      "OptionB": "Бистар",
+      "OptionC": "Бистра",
+      "OptionD": "Бистри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како гласи придавката „нов“ во множина?",
+      "OptionA": "Нови",
+      "OptionB": "Нова",
+      "OptionC": "Ново",
+      "OptionD": "Новиот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е спротивна придавка на „висок“?",
+      "OptionA": "Низок",
+      "OptionB": "Дебел",
+      "OptionC": "Долг",
+      "OptionD": "Голем",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е спротивна придавка на „добар“?",
+      "OptionA": "Лош",
+      "OptionB": "Мирен",
+      "OptionC": "Стар",
+      "OptionD": "Слаб",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Придавката во фразата „паметно дете“ е во кој род?",
+      "OptionA": "Среден род",
+      "OptionB": "Машки род",
+      "OptionC": "Женски род",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е придавката во фразата „сончев ден“?",
+      "OptionA": "Сончев",
+      "OptionB": "Ден",
+      "OptionC": "Сонце",
+      "OptionD": "Денот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е описна придавка?",
+      "OptionA": "Широк",
+      "OptionB": "Мој",
+      "OptionC": "Твој",
+      "OptionD": "Овој",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се „присвојни придавки“?",
+      "OptionA": "Означуваат припадност.",
+      "OptionB": "Означуваат боја.",
+      "OptionC": "Означуваат тежина.",
+      "OptionD": "Означуваат броење.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е присвојна придавка?",
+      "OptionA": "Мајчин",
+      "OptionB": "Брз",
+      "OptionC": "Тесен",
+      "OptionD": "Светол",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од придавката „храбар“, женски род е:",
+      "OptionA": "Храбра",
+      "OptionB": "Храбро",
+      "OptionC": "Храбри",
+      "OptionD": "Храброст",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни ја реченицата: „Тоа е ________ небо“.",
+      "OptionA": "Ведро",
+      "OptionB": "Ведар",
+      "OptionC": "Ведра",
+      "OptionD": "Ведри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е придавка за форма?",
+      "OptionA": "Тркалезно",
+      "OptionB": "Горко",
+      "OptionC": "Топло",
+      "OptionD": "Далечно",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Придавката „стари“ е во:",
+      "OptionA": "Множина",
+      "OptionB": "Еднина машки род",
+      "OptionC": "Еднина женски род",
+      "OptionD": "Еднина среден род",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Со кој збор се согласува придавката по род и број?",
+      "OptionA": "Со именката до неа.",
+      "OptionB": "Со глаголот.",
+      "OptionC": "Со прилогот.",
+      "OptionD": "Со предлогот.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која придавка е во еднина, машки род?",
+      "OptionA": "Златен",
+      "OptionB": "Златна",
+      "OptionC": "Златно",
+      "OptionD": "Златни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е придавка?",
+      "OptionA": "Трча",
+      "OptionB": "Студен",
+      "OptionC": "Маса",
+      "OptionD": "Брзо",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка означува припадност (присвојна)?",
+      "OptionA": "Долг",
+      "OptionB": "Училишен",
+      "OptionC": "Мек",
+      "OptionD": "Бел",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како гласи придавката „тежок“ во женски род?",
+      "OptionA": "Тежок",
+      "OptionB": "Тешка",
+      "OptionC": "Тешко",
+      "OptionD": "Тешки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката во „шумски цвет“ е:",
+      "OptionA": "Цвет",
+      "OptionB": "Шумски",
+      "OptionC": "Шума",
+      "OptionD": "Цветот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка е во множина?",
+      "OptionA": "Чист",
+      "OptionB": "Чисти",
+      "OptionC": "Чиста",
+      "OptionD": "Чисто",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е среден род од придавката „мил“?",
+      "OptionA": "Мила",
+      "OptionB": "Мило",
+      "OptionC": "Мили",
+      "OptionD": "Милиот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е спротивна придавка на „тесен“?",
+      "OptionA": "Мал",
+      "OptionB": "Широк",
+      "OptionC": "Краток",
+      "OptionD": "Тенок",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката „брза“ е во кој род?",
+      "OptionA": "Машки",
+      "OptionB": "Женски",
+      "OptionC": "Среден",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: „________ девојче“.",
+      "OptionA": "Убав",
+      "OptionB": "Убаво",
+      "OptionC": "Убава",
+      "OptionD": "Убави",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка е во машки род?",
+      "OptionA": "Среќна",
+      "OptionB": "Среќен",
+      "OptionC": "Среќно",
+      "OptionD": "Среќни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката „планински“ означува:",
+      "OptionA": "Боја",
+      "OptionB": "Припадност",
+      "OptionC": "Вкус",
+      "OptionD": "Форма",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка е спротивна на „светол“?",
+      "OptionA": "Јасен",
+      "OptionB": "Темен",
+      "OptionC": "Бел",
+      "OptionD": "Сјаен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор е описна придавка?",
+      "OptionA": "Татков",
+      "OptionB": "Горчлив",
+      "OptionC": "Денешен",
+      "OptionD": "Градски",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката во „жешка супа“ е:",
+      "OptionA": "Супа",
+      "OptionB": "Жешка",
+      "OptionC": "Жешко",
+      "OptionD": "Јадење",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како гласи придавката „добар“ во множина?",
+      "OptionA": "Добар",
+      "OptionB": "Добри",
+      "OptionC": "Добра",
+      "OptionD": "Добро",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката „дрвена“ означува:",
+      "OptionA": "Боја",
+      "OptionB": "Материјал (од што е направено)",
+      "OptionC": "Вкус",
+      "OptionD": "Големина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка е во среден род?",
+      "OptionA": "Силна",
+      "OptionB": "Силно",
+      "OptionC": "Силен",
+      "OptionD": "Силни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка е во еднина?",
+      "OptionA": "Големи",
+      "OptionB": "Голем",
+      "OptionC": "Мали",
+      "OptionD": "Нови",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката во „Марков молив“ е:",
+      "OptionA": "Молив",
+      "OptionB": "Марков",
+      "OptionC": "Марко",
+      "OptionD": "Пишува",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е спротивна придавка на „благ“?",
+      "OptionA": "Сладок",
+      "OptionB": "Горлив",
+      "OptionC": "Вкусен",
+      "OptionD": "Мек",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката „зимски“ е:",
+      "OptionA": "Описна",
+      "OptionB": "Присвојна (време)",
+      "OptionC": "За вкус",
+      "OptionD": "За форма",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е придавката во „бистра река“?",
+      "OptionA": "Река",
+      "OptionB": "Бистра",
+      "OptionC": "Вода",
+      "OptionD": "Тече",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од придавката „паметен“, женски род е:",
+      "OptionA": "Паметни",
+      "OptionB": "Паметна",
+      "OptionC": "Паметно",
+      "OptionD": "Паметниот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: „________ куќа“.",
+      "OptionA": "Стар",
+      "OptionB": "Стара",
+      "OptionC": "Старо",
+      "OptionD": "Стари",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој род е придавката „желто“?",
+      "OptionA": "Машки",
+      "OptionB": "Среден",
+      "OptionC": "Женски",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката „волнени“ е во:",
+      "OptionA": "Еднина",
+      "OptionB": "Среден род",
+      "OptionC": "Множина",
+      "OptionD": "Машки род",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор е придавка за тежина?",
+      "OptionA": "Долг",
+      "OptionB": "Висок",
+      "OptionC": "Лесен",
+      "OptionD": "Широк",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка е во среден род?",
+      "OptionA": "Шарен",
+      "OptionB": "Шарена",
+      "OptionC": "Шарено",
+      "OptionD": "Шарени",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Придавката во „тешка торба“ е во:",
+      "OptionA": "Машки род",
+      "OptionB": "Среден род",
+      "OptionC": "Женски род",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка означува материјал?",
+      "OptionA": "Скап",
+      "OptionB": "Евтин",
+      "OptionC": "Стаклен",
+      "OptionD": "Сјаен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: „________ патики“.",
+      "OptionA": "Нов",
+      "OptionB": "Нова",
+      "OptionC": "Нови",
+      "OptionD": "Ново",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е машки род од придавката „мала“?",
+      "OptionA": "Мало",
+      "OptionB": "Мали",
+      "OptionC": "Мал",
+      "OptionD": "Малата",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Придавката „детска“ е:",
+      "OptionA": "Описна",
+      "OptionB": "Среден род",
+      "OptionC": "Присвојна",
+      "OptionD": "Глагол",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е спротивна придавка на „остар“?",
+      "OptionA": "Тврд",
+      "OptionB": "Мек",
+      "OptionC": "Тап",
+      "OptionD": "Крив",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка е во женски род?",
+      "OptionA": "Висок",
+      "OptionB": "Високо",
+      "OptionC": "Висока",
+      "OptionD": "Високи",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Придавката во „црно куче“ е во кој род?",
+      "OptionA": "Машки",
+      "OptionB": "Женски",
+      "OptionC": "Среден",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор е придавка во: „Тоа е моќен лав“?",
+      "OptionA": "Тоа",
+      "OptionB": "Лав",
+      "OptionC": "Моќен",
+      "OptionD": "Е",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка означува форма?",
+      "OptionA": "Црвена",
+      "OptionB": "Слатка",
+      "OptionC": "Коцкеста",
+      "OptionD": "Жешка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Придавката „мирно“ е во:",
+      "OptionA": "Машки род",
+      "OptionB": "Женски род",
+      "OptionC": "Среден род",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка е во множина?",
+      "OptionA": "Тесен",
+      "OptionB": "Тесна",
+      "OptionC": "Тесни",
+      "OptionD": "Тесно",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Присвојна придавка изведена од „училиште“ е:",
+      "OptionA": "Ученик",
+      "OptionB": "Учи",
+      "OptionC": "Училишна",
+      "OptionD": "Училница",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка е спротивна на „валкан“?",
+      "OptionA": "Лош",
+      "OptionB": "Нов",
+      "OptionC": "Чист",
+      "OptionD": "Вреден",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од придавката „храбар“, множина е:",
+      "OptionA": "Храбар",
+      "OptionB": "Храбра",
+      "OptionC": "Храбри",
+      "OptionD": "Храбро",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: „________ небо“.",
+      "OptionA": "Син",
+      "OptionB": "Сина",
+      "OptionC": "Сино",
+      "OptionD": "Сини",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој род е придавката „тешка“?",
+      "OptionA": "Машки",
+      "OptionB": "Среден",
+      "OptionC": "Женски",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Придавката „македонски“ е:",
+      "OptionA": "Описна",
+      "OptionB": "За боја",
+      "OptionC": "Присвојна",
+      "OptionD": "Глагол",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка означува големина?",
+      "OptionA": "Зелена",
+      "OptionB": "Вкусна",
+      "OptionC": "Огромна",
+      "OptionD": "Дрвена",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка е во еднина?",
+      "OptionA": "Добри",
+      "OptionB": "Мили",
+      "OptionC": "Мила",
+      "OptionD": "Брзи",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Придавката „сиромашен“ е спротивна на:",
+      "OptionA": "Среќен",
+      "OptionB": "Лош",
+      "OptionC": "Богат",
+      "OptionD": "Силен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е придавката во: „Ти си вреден ученик“?",
+      "OptionA": "Ти",
+      "OptionB": "Ученик",
+      "OptionC": "Вреден",
+      "OptionD": "Си",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која придавка е во женски род?",
+      "OptionA": "Тесен",
+      "OptionB": "Тесно",
+      "OptionC": "Тесни",
+      "OptionD": "Тесна",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката во „шарена пеперутка“ е:",
+      "OptionA": "Пеперутка",
+      "OptionB": "Крило",
+      "OptionC": "Лета",
+      "OptionD": "Шарена",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор е придавка за брзина?",
+      "OptionA": "Тежок",
+      "OptionB": "Висок",
+      "OptionC": "Мек",
+      "OptionD": "Брз",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка е во среден род?",
+      "OptionA": "Здрав",
+      "OptionB": "Здрава",
+      "OptionC": "Здрави",
+      "OptionD": "Здраво",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката во „меко перниче“ е во:",
+      "OptionA": "Машки род",
+      "OptionB": "Женски род",
+      "OptionC": "Множина",
+      "OptionD": "Среден род",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка означува време?",
+      "OptionA": "Брза",
+      "OptionB": "Чиста",
+      "OptionC": "Убава",
+      "OptionD": "Летен",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: „________ луѓе“.",
+      "OptionA": "Добар",
+      "OptionB": "Добра",
+      "OptionC": "Добро",
+      "OptionD": "Добри",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е женски род од придавката „стар“?",
+      "OptionA": "Старо",
+      "OptionB": "Стари",
+      "OptionC": "Стариот",
+      "OptionD": "Стара",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката „челична“ означува:",
+      "OptionA": "Боја",
+      "OptionB": "Припадност",
+      "OptionC": "Вкус",
+      "OptionD": "Материјал",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е спротивна придавка на „мек“?",
+      "OptionA": "Тенков",
+      "OptionB": "Низок",
+      "OptionC": "Тежок",
+      "OptionD": "Тврд",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка е во машки род?",
+      "OptionA": "Мала",
+      "OptionB": "Мало",
+      "OptionC": "Мали",
+      "OptionD": "Мал",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката во „железен мост“ е во кој род?",
+      "OptionA": "Среден",
+      "OptionB": "Женски",
+      "OptionC": "Множина",
+      "OptionD": "Машки",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор е придавка во: „На небото има бел облак“?",
+      "OptionA": "Небото",
+      "OptionB": "Облак",
+      "OptionC": "Има",
+      "OptionD": "Бел",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка означува вкус?",
+      "OptionA": "Зелено",
+      "OptionB": "Тркалезно",
+      "OptionC": "Студено",
+      "OptionD": "Солено",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката „весели“ е во:",
+      "OptionA": "Машки род",
+      "OptionB": "Женски род",
+      "OptionC": "Среден род",
+      "OptionD": "Множина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка е во еднина?",
+      "OptionA": "Нови",
+      "OptionB": "Чисти",
+      "OptionC": "Брзи",
+      "OptionD": "Убав",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Присвојна придавка од „град“ е:",
+      "OptionA": "Градови",
+      "OptionB": "Градење",
+      "OptionC": "Градинка",
+      "OptionD": "Градски",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка е спротивна на „тежок“?",
+      "OptionA": "Мал",
+      "OptionB": "Низок",
+      "OptionC": "Краток",
+      "OptionD": "Лесен",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од придавката „мил“, множина е:",
+      "OptionA": "Мил",
+      "OptionB": "Мила",
+      "OptionC": "Мило",
+      "OptionD": "Мили",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: „________ сонце“.",
+      "OptionA": "Сјаен",
+      "OptionB": "Сјајна",
+      "OptionC": "Сјајни",
+      "OptionD": "Сјајно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој род е придавката „нова“?",
+      "OptionA": "Машки",
+      "OptionB": "Среден",
+      "OptionC": "Множина",
+      "OptionD": "Женски",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката „кучешка“ е:",
+      "OptionA": "Описна",
+      "OptionB": "За боја",
+      "OptionC": "За форма",
+      "OptionD": "Присвојна",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка означува особина на карактер?",
+      "OptionA": "Висок",
+      "OptionB": "Слаб",
+      "OptionC": "Црвен",
+      "OptionD": "Итар",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која придавка е во среден род?",
+      "OptionA": "Светол",
+      "OptionB": "Светла",
+      "OptionC": "Светли",
+      "OptionD": "Светло",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Придавката „тажна“ е спротивна на:",
+      "OptionA": "Добра",
+      "OptionB": "Мирна",
+      "OptionC": "Вредна",
+      "OptionD": "Весела",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е придавката во: „Пијам топол чај“?",
+      "OptionA": "Пијам",
+      "OptionB": "Чај",
+      "OptionC": "Чајот",
+      "OptionD": "Топол",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

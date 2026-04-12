@@ -1,0 +1,804 @@
+﻿{
+  "Questions": [
+    {
+      "Question": "Кој збор има исто значење со зборот 'куќа'?",
+      "OptionA": "Дом",
+      "OptionB": "Двор",
+      "OptionC": "Улица",
+      "OptionD": "Зграда",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'лекар'?",
+      "OptionA": "Доктор",
+      "OptionB": "Учител",
+      "OptionC": "Пекар",
+      "OptionD": "Аптекар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е синоним (збор со исто значење) на 'пат'?",
+      "OptionA": "Друм",
+      "OptionB": "Планина",
+      "OptionC": "Мост",
+      "OptionD": "Шума",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'храбар'?",
+      "OptionA": "Неустрашив",
+      "OptionB": "Плашлив",
+      "OptionC": "Слаб",
+      "OptionD": "Низок",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'лице'?",
+      "OptionA": "Образ",
+      "OptionB": "Рака",
+      "OptionC": "Нога",
+      "OptionD": "Око",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'убав'?",
+      "OptionA": "Прекрасен",
+      "OptionB": "Грд",
+      "OptionC": "Валкан",
+      "OptionD": "Лош",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'другар'?",
+      "OptionA": "Пријател",
+      "OptionB": "Непријател",
+      "OptionC": "Сосед",
+      "OptionD": "Брат",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'брз'?",
+      "OptionA": "Хитар",
+      "OptionB": "Бавен",
+      "OptionC": "Мрзлив",
+      "OptionD": "Тежок",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'чевли'?",
+      "OptionA": "Обувки",
+      "OptionB": "Облека",
+      "OptionC": "Чорапи",
+      "OptionD": "Ракавици",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'почеток'?",
+      "OptionA": "Старт",
+      "OptionB": "Крај",
+      "OptionC": "Средина",
+      "OptionD": "Прекин",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'среќен'?",
+      "OptionA": "Радостен",
+      "OptionB": "Тажен",
+      "OptionC": "Лут",
+      "OptionD": "Загрижен",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'темен'?",
+      "OptionA": "Мрачен",
+      "OptionB": "Светол",
+      "OptionC": "Јасен",
+      "OptionD": "Бел",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'тивок'?",
+      "OptionA": "Мирен",
+      "OptionB": "Гласен",
+      "OptionC": "Бучен",
+      "OptionD": "Немирен",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'вреден'?",
+      "OptionA": "Работен",
+      "OptionB": "Мрзлив",
+      "OptionC": "Богат",
+      "OptionD": "Паметен",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'итар'?",
+      "OptionA": "Мудар",
+      "OptionB": "Глупав",
+      "OptionC": "Смешен",
+      "OptionD": "Тажен",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'силен'?",
+      "OptionA": "Моќен",
+      "OptionB": "Слаб",
+      "OptionC": "Мал",
+      "OptionD": "Тенков",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'дарува'?",
+      "OptionA": "Подарува",
+      "OptionB": "Зема",
+      "OptionC": "Купува",
+      "OptionD": "Краде",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'зборува'?",
+      "OptionA": "Збори",
+      "OptionB": "Молчи",
+      "OptionC": "Слуша",
+      "OptionD": "Чита",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'гледа'?",
+      "OptionA": "Набљудува",
+      "OptionB": "Спие",
+      "OptionC": "Мириса",
+      "OptionD": "Јаде",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'оди'?",
+      "OptionA": "Чекори",
+      "OptionB": "Лежи",
+      "OptionC": "Седе",
+      "OptionD": "Лета",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'скока'?",
+      "OptionA": "Рипа",
+      "OptionB": "Паѓа",
+      "OptionC": "Плива",
+      "OptionD": "Трча",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'плаче'?",
+      "OptionA": "Рони солзи",
+      "OptionB": "Се смее",
+      "OptionC": "Пее",
+      "OptionD": "Вика",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'мајка'?",
+      "OptionA": "Родителка",
+      "OptionB": "Тетка",
+      "OptionC": "Баба",
+      "OptionD": "Ќерка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'татко'?",
+      "OptionA": "Родител",
+      "OptionB": "Вујко",
+      "OptionC": "Дедо",
+      "OptionD": "Син",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'голем'?",
+      "OptionA": "Огромен",
+      "OptionB": "Ситен",
+      "OptionC": "Низок",
+      "OptionD": "Слаб",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е спротивен (антоним) на зборот 'бел'?",
+      "OptionA": "Шарен",
+      "OptionB": "Црн",
+      "OptionC": "Сив",
+      "OptionD": "Светол",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'топло'?",
+      "OptionA": "Млако",
+      "OptionB": "Ладно",
+      "OptionC": "Жешко",
+      "OptionD": "Врие",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'голем'?",
+      "OptionA": "Широк",
+      "OptionB": "Мал",
+      "OptionC": "Долг",
+      "OptionD": "Висок",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'висок'?",
+      "OptionA": "Тенок",
+      "OptionB": "Низок",
+      "OptionC": "Краток",
+      "OptionD": "Мал",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'дебел'?",
+      "OptionA": "Крупен",
+      "OptionB": "Слаб",
+      "OptionC": "Мек",
+      "OptionD": "Тежок",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'тежок'?",
+      "OptionA": "Тврд",
+      "OptionB": "Лесен",
+      "OptionC": "Мал",
+      "OptionD": "Брз",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'нов'?",
+      "OptionA": "Модерен",
+      "OptionB": "Стар",
+      "OptionC": "Валкан",
+      "OptionD": "Скршен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'богат'?",
+      "OptionA": "Среќен",
+      "OptionB": "Сиромашен",
+      "OptionC": "Успешен",
+      "OptionD": "Моќен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'ден'?",
+      "OptionA": "Утро",
+      "OptionB": "Ноќ",
+      "OptionC": "Пладне",
+      "OptionD": "Вечер",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'светло'?",
+      "OptionA": "Јасно",
+      "OptionB": "Темно",
+      "OptionC": "Сино",
+      "OptionD": "Бело",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'меко'?",
+      "OptionA": "Нежно",
+      "OptionB": "Тврдо",
+      "OptionC": "Слатко",
+      "OptionD": "Мирисно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'остро'?",
+      "OptionA": "Криво",
+      "OptionB": "Тапо",
+      "OptionC": "Право",
+      "OptionD": "Тенко",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'широк'?",
+      "OptionA": "Простран",
+      "OptionB": "Тесен",
+      "OptionC": "Краток",
+      "OptionD": "Мал",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'горе'?",
+      "OptionA": "Лево",
+      "OptionB": "Долу",
+      "OptionC": "Десно",
+      "OptionD": "Внатре",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'лево'?",
+      "OptionA": "Напред",
+      "OptionB": "Десно",
+      "OptionC": "Назад",
+      "OptionD": "Горе",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'внатре'?",
+      "OptionA": "Помеѓу",
+      "OptionB": "Надвор",
+      "OptionC": "Позади",
+      "OptionD": "Одоздола",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'пред'?",
+      "OptionA": "Околу",
+      "OptionB": "Зад",
+      "OptionC": "Под",
+      "OptionD": "Над",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'прв'?",
+      "OptionA": "Втор",
+      "OptionB": "Последен",
+      "OptionC": "Главен",
+      "OptionD": "Единствен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'купува'?",
+      "OptionA": "Дава",
+      "OptionB": "Продава",
+      "OptionC": "Зема",
+      "OptionD": "Плаќа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'влегува'?",
+      "OptionA": "Трча",
+      "OptionB": "Излегува",
+      "OptionC": "Оди",
+      "OptionD": "Стои",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'отвора'?",
+      "OptionA": "Крши",
+      "OptionB": "Затвора",
+      "OptionC": "Гледа",
+      "OptionD": "Чува",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'памети'?",
+      "OptionA": "Знае",
+      "OptionB": "Заборава",
+      "OptionC": "Учи",
+      "OptionD": "Мисли",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'сака'?",
+      "OptionA": "Почитува",
+      "OptionB": "Мрази",
+      "OptionC": "Бара",
+      "OptionD": "Гледа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'вистина'?",
+      "OptionA": "Збор",
+      "OptionB": "Лага",
+      "OptionC": "Песна",
+      "OptionD": "Мисла",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'војна'?",
+      "OptionA": "Битка",
+      "OptionB": "Мир",
+      "OptionC": "Слобода",
+      "OptionD": "Победа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'ученик'?",
+      "OptionA": "Учител",
+      "OptionB": "Професор",
+      "OptionC": "Ѓак",
+      "OptionD": "Директор",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'шума'?",
+      "OptionA": "Ливада",
+      "OptionB": "Поле",
+      "OptionC": "Гора",
+      "OptionD": "Рид",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'тажен'?",
+      "OptionA": "Среќен",
+      "OptionB": "Радостен",
+      "OptionC": "Несреќен",
+      "OptionD": "Весел",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'мал'?",
+      "OptionA": "Голем",
+      "OptionB": "Висок",
+      "OptionC": "Ситен",
+      "OptionD": "Широк",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'училиште'?",
+      "OptionA": "Болница",
+      "OptionB": "Кино",
+      "OptionC": "Школо",
+      "OptionD": "Парк",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'автомобил'?",
+      "OptionA": "Велосипед",
+      "OptionB": "Камион",
+      "OptionC": "Кола",
+      "OptionD": "Мотор",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'скали'?",
+      "OptionA": "Врата",
+      "OptionB": "Прозорец",
+      "OptionC": "Степеници",
+      "OptionD": "Покрив",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'чист'?",
+      "OptionA": "Валкан",
+      "OptionB": "Прашлив",
+      "OptionC": "Уреден",
+      "OptionD": "Мрачен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'валкан'?",
+      "OptionA": "Сјаен",
+      "OptionB": "Бел",
+      "OptionC": "Нечист",
+      "OptionD": "Мирисен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'често'?",
+      "OptionA": "Ретко",
+      "OptionB": "Никогаш",
+      "OptionC": "Постојано",
+      "OptionD": "Понекогаш",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'лесен'?",
+      "OptionA": "Мал",
+      "OptionB": "Тенков",
+      "OptionC": "Тежок",
+      "OptionD": "Брз",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'паметен'?",
+      "OptionA": "Мудар",
+      "OptionB": "Вреден",
+      "OptionC": "Глупав",
+      "OptionD": "Силен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'здрав'?",
+      "OptionA": "Јак",
+      "OptionB": "Весел",
+      "OptionC": "Болен",
+      "OptionD": "Уморен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'се смее'?",
+      "OptionA": "Пее",
+      "OptionB": "Игра",
+      "OptionC": "Плаче",
+      "OptionD": "Спие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'непријател'?",
+      "OptionA": "Сосед",
+      "OptionB": "Странец",
+      "OptionC": "Пријател",
+      "OptionD": "Брат",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'полн'?",
+      "OptionA": "Тежок",
+      "OptionB": "Голем",
+      "OptionC": "Празен",
+      "OptionD": "Широк",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'слатко'?",
+      "OptionA": "Вкусно",
+      "OptionB": "Шеќерно",
+      "OptionC": "Горко",
+      "OptionD": "Кисело",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'оди'?",
+      "OptionA": "Трча",
+      "OptionB": "Скока",
+      "OptionC": "Стои",
+      "OptionD": "Лежи",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'зборува'?",
+      "OptionA": "Вика",
+      "OptionB": "Пее",
+      "OptionC": "Молчи",
+      "OptionD": "Слуша",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'куќа' (во смисла на големина)?",
+      "OptionA": "Зграда",
+      "OptionB": "Дворец",
+      "OptionC": "Колиба",
+      "OptionD": "Дом",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'напред'?",
+      "OptionA": "Горе",
+      "OptionB": "Долу",
+      "OptionC": "Назад",
+      "OptionD": "Лево",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'прв'?",
+      "OptionA": "Втор",
+      "OptionB": "Главен",
+      "OptionC": "Последен",
+      "OptionD": "Среден",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'почеток'?",
+      "OptionA": "Средина",
+      "OptionB": "Старт",
+      "OptionC": "Крај",
+      "OptionD": "Продолжение",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'победа'?",
+      "OptionA": "Борба",
+      "OptionB": "Успех",
+      "OptionC": "Пораз",
+      "OptionD": "Трка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'составено'?",
+      "OptionA": "Цело",
+      "OptionB": "Залепено",
+      "OptionC": "Раставено",
+      "OptionD": "Ново",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'храна'?",
+      "OptionA": "Вода",
+      "OptionB": "Овошје",
+      "OptionC": "Пијалок",
+      "OptionD": "Јадење",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'птица'?",
+      "OptionA": "Животно",
+      "OptionB": "Инсект",
+      "OptionC": "Риба",
+      "OptionD": "Пердувести",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'брзо'?",
+      "OptionA": "Бавно",
+      "OptionB": "Тивко",
+      "OptionC": "Мирно",
+      "OptionD": "Итно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'состанок'?",
+      "OptionA": "Разговор",
+      "OptionB": "Игра",
+      "OptionC": "Учење",
+      "OptionD": "Средба",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'крие'?",
+      "OptionA": "Покажува",
+      "OptionB": "Гледа",
+      "OptionC": "Бара",
+      "OptionD": "Засолни",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'прашува'?",
+      "OptionA": "Одговара",
+      "OptionB": "Молчи",
+      "OptionC": "Пишува",
+      "OptionD": "Ангажира",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'удар'?",
+      "OptionA": "Допир",
+      "OptionB": "Милување",
+      "OptionC": "Пад",
+      "OptionD": "Трес",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'огромна'?",
+      "OptionA": "Мала",
+      "OptionB": "Ситна",
+      "OptionC": "Средна",
+      "OptionD": "Џиновска",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'храбар'?",
+      "OptionA": "Плашлив",
+      "OptionB": "Слаб",
+      "OptionC": "Нервозен",
+      "OptionD": "Јунак",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има исто значење со зборот 'песна'?",
+      "OptionA": "Приказна",
+      "OptionB": "Басна",
+      "OptionC": "Роман",
+      "OptionD": "Стихотворба",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'суво'?",
+      "OptionA": "Прашливо",
+      "OptionB": "Тврдо",
+      "OptionC": "Топло",
+      "OptionD": "Мокро",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'тесен'?",
+      "OptionA": "Мал",
+      "OptionB": "Краток",
+      "OptionC": "Долг",
+      "OptionD": "Широк",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'грд'?",
+      "OptionA": "Лош",
+      "OptionB": "Валкан",
+      "OptionC": "Стар",
+      "OptionD": "Убав",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'бавен'?",
+      "OptionA": "Мрзлив",
+      "OptionB": "Тежок",
+      "OptionC": "Тивок",
+      "OptionD": "Брз",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'мрзлив'?",
+      "OptionA": "Богат",
+      "OptionB": "Паметен",
+      "OptionC": "Среќен",
+      "OptionD": "Вреден",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'ладен'?",
+      "OptionA": "Млак",
+      "OptionB": "Свеж",
+      "OptionC": "Замрзнат",
+      "OptionD": "Топол",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'затворен'?",
+      "OptionA": "Скриен",
+      "OptionB": "Тесен",
+      "OptionC": "Мрачен",
+      "OptionD": "Отворен",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'плашлив'?",
+      "OptionA": "Слаб",
+      "OptionB": "Мал",
+      "OptionC": "Тивок",
+      "OptionD": "Храбар",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'тенок'?",
+      "OptionA": "Краток",
+      "OptionB": "Низок",
+      "OptionC": "Слаб",
+      "OptionD": "Дебел",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'низок'?",
+      "OptionA": "Мал",
+      "OptionB": "Тенок",
+      "OptionC": "Краток",
+      "OptionD": "Висок",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'краток'?",
+      "OptionA": "Мал",
+      "OptionB": "Низок",
+      "OptionC": "Тесен",
+      "OptionD": "Долг",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'стар'?",
+      "OptionA": "Валкан",
+      "OptionB": "Скршен",
+      "OptionC": "Лош",
+      "OptionD": "Нов",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'сиромашен'?",
+      "OptionA": "Тажен",
+      "OptionB": "Болен",
+      "OptionC": "Мал",
+      "OptionD": "Богат",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'ноќ'?",
+      "OptionA": "Вечер",
+      "OptionB": "Мрак",
+      "OptionC": "Утро",
+      "OptionD": "Ден",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор има спротивно значење од 'темно'?",
+      "OptionA": "Црно",
+      "OptionB": "Сиво",
+      "OptionC": "Матно",
+      "OptionD": "Светло",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}
