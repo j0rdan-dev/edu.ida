@@ -1,0 +1,804 @@
+﻿{
+  "Questions": [
+    {
+      "Question": "Кој збор е глагол во реченицата „Детето трча по ливадата“?",
+      "OptionA": "трча",
+      "OptionB": "детето",
+      "OptionC": "ливадата",
+      "OptionD": "по",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што означуваат глаголите?",
+      "OptionA": "Работа, дејство или состојба.",
+      "OptionB": "Имиња на предмети.",
+      "OptionC": "Особини на суштествата.",
+      "OptionD": "Количество на нештата.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во која група зборови сите се глаголи?",
+      "OptionA": "пее, мисли, скока",
+      "OptionB": "сонце, небо, дожд",
+      "OptionC": "убав, голем, брз",
+      "OptionD": "ние, ти, тие",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Глаголот „пишувам“ е во:",
+      "OptionA": "прво лице еднина",
+      "OptionB": "второ лице еднина",
+      "OptionC": "трето лице множина",
+      "OptionD": "прво лице множина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој глагол е во идно време?",
+      "OptionA": "ќе работам",
+      "OptionB": "работев",
+      "OptionC": "работам",
+      "OptionD": "работиме",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како гласи глаголот „носи“ во второ лице еднина, сегашно време?",
+      "OptionA": "носиш",
+      "OptionB": "носам",
+      "OptionC": "носат",
+      "OptionD": "носеше",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој од следниве зборови е глагол кој означува природна појава?",
+      "OptionA": "грми",
+      "OptionB": "јаде",
+      "OptionC": "спие",
+      "OptionD": "плаче",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата „Ние вчера учевме“, глаголот е во:",
+      "OptionA": "минато време",
+      "OptionB": "сегашно време",
+      "OptionC": "идно време",
+      "OptionD": "неопределено време",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој глагол е во трето лице множина?",
+      "OptionA": "гледаат",
+      "OptionB": "гледаш",
+      "OptionC": "гледаме",
+      "OptionD": "гледам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се менува кај глаголите?",
+      "OptionA": "лице, број и време",
+      "OptionB": "само родот",
+      "OptionC": "само падежот",
+      "OptionD": "ништо не се менува",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој глагол означува психичка состојба?",
+      "OptionA": "се радува",
+      "OptionB": "копа",
+      "OptionC": "трча",
+      "OptionD": "плива",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Најди го глаголот во еднина:",
+      "OptionA": "пее",
+      "OptionB": "пеат",
+      "OptionC": "пееме",
+      "OptionD": "пеете",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни ја реченицата: Јас ______ јаболко.",
+      "OptionA": "јадам",
+      "OptionB": "јадеш",
+      "OptionC": "јаде",
+      "OptionD": "јадат",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како гласи одречната форма на глаголот „може“?",
+      "OptionA": "не може",
+      "OptionB": "неможе",
+      "OptionC": "без можење",
+      "OptionD": "никогаш може",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој глагол е во второ лице множина?",
+      "OptionA": "викате",
+      "OptionB": "викаме",
+      "OptionC": "викаат",
+      "OptionD": "вика",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Глаголот „сакав“ е во:",
+      "OptionA": "прво лице еднина, минато време",
+      "OptionB": "прво лице множина, минато време",
+      "OptionC": "трето лице еднина, сегашно време",
+      "OptionD": "второ лице еднина, идно време",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што означува глаголот „молчи“?",
+      "OptionA": "состојба",
+      "OptionB": "движење",
+      "OptionC": "физичка работа",
+      "OptionD": "време",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој глагол е правилно напишан во идно време?",
+      "OptionA": "ќе скока",
+      "OptionB": "ке скока",
+      "OptionC": "ќескока",
+      "OptionD": "скока ќе",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како гласи глаголот „пие“ во прво лице множина, сегашно време?",
+      "OptionA": "пиеме",
+      "OptionB": "пијат",
+      "OptionC": "пиете",
+      "OptionD": "пијам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е глагол?",
+      "OptionA": "размислува",
+      "OptionB": "мисла",
+      "OptionC": "паметен",
+      "OptionD": "брзо",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата „Птиците летаат“, глаголот е во:",
+      "OptionA": "множина",
+      "OptionB": "еднина",
+      "OptionC": "женски род",
+      "OptionD": "минато време",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој од следниве е глагол во идно време?",
+      "OptionA": "ќе читаме",
+      "OptionB": "читавме",
+      "OptionC": "читаме",
+      "OptionD": "прочитавме",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кое лице е заменката „Ти“ кај глаголите?",
+      "OptionA": "второ лице еднина",
+      "OptionB": "прво лице еднина",
+      "OptionC": "трето лице еднина",
+      "OptionD": "второ лице множина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се глаголите по вид на збор?",
+      "OptionA": "менливи зборови",
+      "OptionB": "неменливи зборови",
+      "OptionC": "помошни зборови",
+      "OptionD": "бројни зборови",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Глаголот „сечеше“ е во:",
+      "OptionA": "минато време",
+      "OptionB": "сегашно време",
+      "OptionC": "идно време",
+      "OptionD": "заповеден начин",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е глаголот во реченицата „Сонцето силно свети“?",
+      "OptionA": "сонцето",
+      "OptionB": "свети",
+      "OptionC": "силно",
+      "OptionD": "нема глагол",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како гласи глаголот „учи“ во трето лице еднина, идно време?",
+      "OptionA": "ќе учам",
+      "OptionB": "ќе учи",
+      "OptionC": "учеше",
+      "OptionD": "учат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од наведените зборови означува физичка работа?",
+      "OptionA": "спие",
+      "OptionB": "копа",
+      "OptionC": "сонува",
+      "OptionD": "молчи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Глаголот „пливаме“ е во:",
+      "OptionA": "прво лице еднина",
+      "OptionB": "прво лице множина",
+      "OptionC": "второ лице множина",
+      "OptionD": "трето лице множина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која честичка се користи за негација на глаголи?",
+      "OptionA": "да",
+      "OptionB": "не",
+      "OptionC": "ли",
+      "OptionD": "ќе",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој глагол е во минато време?",
+      "OptionA": "трчам",
+      "OptionB": "трчав",
+      "OptionC": "ќе трчам",
+      "OptionD": "трчаат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика промената на глаголите по лица?",
+      "OptionA": "деклинација",
+      "OptionB": "конјугација (менување)",
+      "OptionC": "компарација",
+      "OptionD": "градација",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Глаголот „чекаш“ е во кое лице?",
+      "OptionA": "прво лице еднина",
+      "OptionB": "второ лице еднина",
+      "OptionC": "трето лице еднина",
+      "OptionD": "прво лице множина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во „Тој вчера ме покани“, глаголот е во:",
+      "OptionA": "сегашно време",
+      "OptionB": "минато време",
+      "OptionC": "идно време",
+      "OptionD": "нема време",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој глагол означува звук?",
+      "OptionA": "гледа",
+      "OptionB": "чука",
+      "OptionC": "стои",
+      "OptionD": "мисли",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Тие ______ во паркот.",
+      "OptionA": "шетаме",
+      "OptionB": "шетаат",
+      "OptionC": "шеташ",
+      "OptionD": "шетам",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува глаголот „паѓа“ во реченицата „Врне снег и паѓа“?",
+      "OptionA": "состојба",
+      "OptionB": "дејство/движење",
+      "OptionC": "особина",
+      "OptionD": "предмет",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој глагол е во сегашно време?",
+      "OptionA": "цртав",
+      "OptionB": "цртам",
+      "OptionC": "ќе цртам",
+      "OptionD": "нацртав",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Глаголот „верувате“ е во:",
+      "OptionA": "прво лице множина",
+      "OptionB": "второ лице множина",
+      "OptionC": "трето лице множина",
+      "OptionD": "второ лице еднина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како гласи 1. лице множина од „зборува“ во минато време?",
+      "OptionA": "зборуваме",
+      "OptionB": "зборувавме",
+      "OptionC": "ќе зборуваме",
+      "OptionD": "зборуваа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор НЕ е глагол?",
+      "OptionA": "мие",
+      "OptionB": "лице",
+      "OptionC": "брише",
+      "OptionD": "чешла",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата „Баба меси леб“, глаголот е:",
+      "OptionA": "баба",
+      "OptionB": "меси",
+      "OptionC": "леб",
+      "OptionD": "вредна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое е трето лице еднина од „игра“?",
+      "OptionA": "играм",
+      "OptionB": "игра",
+      "OptionC": "играш",
+      "OptionD": "играат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Глаголот „велат“ е во:",
+      "OptionA": "прво лице множина",
+      "OptionB": "трето лице множина",
+      "OptionC": "второ лице еднина",
+      "OptionD": "прво лице еднина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува сегашното време кај глаголите?",
+      "OptionA": "дејство што се случило",
+      "OptionB": "дејство во моментот на зборување",
+      "OptionC": "дејство што ќе се случи",
+      "OptionD": "само желба",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој глагол е во идно време?",
+      "OptionA": "слушав",
+      "OptionB": "ќе слушам",
+      "OptionC": "слушам",
+      "OptionD": "слушаат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Глаголот „растеше“ е во:",
+      "OptionA": "сегашно време",
+      "OptionB": "минато време",
+      "OptionC": "идно време",
+      "OptionD": "еднина прво лице",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како гласи негативната форма на „знам“?",
+      "OptionA": "незнам",
+      "OptionB": "не знам",
+      "OptionC": "без знаење",
+      "OptionD": "никако знам",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое е второ лице еднина од „брза“?",
+      "OptionA": "брзам",
+      "OptionB": "брзаш",
+      "OptionC": "брзаат",
+      "OptionD": "брза",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата „Мама ме бакна“, глаголот е:",
+      "OptionA": "мама",
+      "OptionB": "бакна",
+      "OptionC": "ме",
+      "OptionD": "вчера",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор е глагол во реченицата „Учениците читаат книга“?",
+      "OptionA": "учениците",
+      "OptionB": "книга",
+      "OptionC": "читаат",
+      "OptionD": "вредно",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Глаголот „ќе патуваме“ е во:",
+      "OptionA": "минато време",
+      "OptionB": "сегашно време",
+      "OptionC": "идно време",
+      "OptionD": "заповеден начин",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој глагол е во трето лице еднина?",
+      "OptionA": "мислам",
+      "OptionB": "мислиш",
+      "OptionC": "мисли",
+      "OptionD": "мислат",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што означува минатото време?",
+      "OptionA": "дејство што ќе биде",
+      "OptionB": "дејство што е сега",
+      "OptionC": "дејство што завршило пред зборувањето",
+      "OptionD": "дејство што не постои",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој глагол е во прво лице множина, минато време?",
+      "OptionA": "правев",
+      "OptionB": "прават",
+      "OptionC": "правевме",
+      "OptionD": "ќе правиме",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Глаголот „молчат“ е во:",
+      "OptionA": "прво лице еднина",
+      "OptionB": "второ лице множина",
+      "OptionC": "трето лице множина",
+      "OptionD": "трето лице еднина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како гласи идно време за 1. лице множина од „оди“?",
+      "OptionA": "одиме",
+      "OptionB": "одевме",
+      "OptionC": "ќе одиме",
+      "OptionD": "отидовме",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој од следниве зборови е глагол кој означува состојба?",
+      "OptionA": "сече",
+      "OptionB": "скока",
+      "OptionC": "спие",
+      "OptionD": "носи",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Ти вчера ______ многу убаво.",
+      "OptionA": "пееш",
+      "OptionB": "ќе пееш",
+      "OptionC": "пееше",
+      "OptionD": "пееме",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во реченицата „Ветерот силно дува“, глаголот е:",
+      "OptionA": "ветерот",
+      "OptionB": "силно",
+      "OptionC": "дува",
+      "OptionD": "ладниот",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое е лицето во глаголот „пишувате“?",
+      "OptionA": "прво лице множина",
+      "OptionB": "трето лице множина",
+      "OptionC": "второ лице множина",
+      "OptionD": "второ лице еднина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика честичката за идно време?",
+      "OptionA": "да",
+      "OptionB": "не",
+      "OptionC": "ќе",
+      "OptionD": "би",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Глаголот „стојат“ е во:",
+      "OptionA": "еднина",
+      "OptionB": "прво лице",
+      "OptionC": "множина",
+      "OptionD": "минато време",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој глагол означува движење?",
+      "OptionA": "мисли",
+      "OptionB": "спие",
+      "OptionC": "трча",
+      "OptionD": "молчи",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како гласи негативната форма на „сакам“?",
+      "OptionA": "несакам",
+      "OptionB": "без сакање",
+      "OptionC": "не сакам",
+      "OptionD": "нема сака",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во кое време е глаголот „гледаат“?",
+      "OptionA": "минато",
+      "OptionB": "идно",
+      "OptionC": "сегашно",
+      "OptionD": "далечно",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Најди го глаголот во 1. лице еднина:",
+      "OptionA": "црташ",
+      "OptionB": "црта",
+      "OptionC": "цртам",
+      "OptionD": "цртаат",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се изразува со глаголот во „Детето плаче“?",
+      "OptionA": "работа",
+      "OptionB": "движење",
+      "OptionC": "состојба",
+      "OptionD": "време",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Глаголот „сакавте“ е во кое лице и број?",
+      "OptionA": "1. л. множина",
+      "OptionB": "3. л. множина",
+      "OptionC": "2. л. множина",
+      "OptionD": "2. л. еднина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор е глагол?",
+      "OptionA": "училиште",
+      "OptionB": "ученик",
+      "OptionC": "учи",
+      "OptionD": "учен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е глаголот во идно време?",
+      "OptionA": "скокав",
+      "OptionB": "скокам",
+      "OptionC": "ќе скокам",
+      "OptionD": "скокаше",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како ќе кажеш „јас“ и „чита“ во минато време?",
+      "OptionA": "читам",
+      "OptionB": "ќе читам",
+      "OptionC": "читав",
+      "OptionD": "читате",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Тие ______ утре на пат.",
+      "OptionA": "одат",
+      "OptionB": "одеа",
+      "OptionC": "ќе одат",
+      "OptionD": "отидовме",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое е 1. лице множина од „слуша“?",
+      "OptionA": "слушате",
+      "OptionB": "слушаат",
+      "OptionC": "слушаме",
+      "OptionD": "слушам",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во реченицата „Рибите пливаат“, глаголот е:",
+      "OptionA": "рибите",
+      "OptionB": "во вода",
+      "OptionC": "пливаат",
+      "OptionD": "мали",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој глагол е во минато време?",
+      "OptionA": "вежбам",
+      "OptionB": "ќе вежбам",
+      "OptionC": "вежбаат",
+      "OptionD": "вежбав",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Глаголот „ќе пишувате“ е во:",
+      "OptionA": "минато време",
+      "OptionB": "сегашно време",
+      "OptionC": "заповеден начин",
+      "OptionD": "идно време",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор е глагол во реченицата „Сонцето зајде“?",
+      "OptionA": "сонцето",
+      "OptionB": "силно",
+      "OptionC": "убаво",
+      "OptionD": "зајде",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што означува идното време?",
+      "OptionA": "минати настани",
+      "OptionB": "сегашни настани",
+      "OptionC": "постојани вистини",
+      "OptionD": "настани што допрва ќе се случат",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кое лице е глаголот во „Ние ќе победиме“?",
+      "OptionA": "второ лице множина",
+      "OptionB": "трето лице множина",
+      "OptionC": "прво лице еднина",
+      "OptionD": "прво лице множина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој глагол е во трето лице множина, сегашно време?",
+      "OptionA": "светам",
+      "OptionB": "светиш",
+      "OptionC": "светиме",
+      "OptionD": "светат",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Глаголот „стоеше“ е во:",
+      "OptionA": "идно време",
+      "OptionB": "сегашно време",
+      "OptionC": "множина",
+      "OptionD": "минато време",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како гласи 2. лице еднина од „игра“ во идно време?",
+      "OptionA": "играм",
+      "OptionB": "играв",
+      "OptionC": "играат",
+      "OptionD": "ќе играш",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој од следниве зборови е глагол?",
+      "OptionA": "зелено",
+      "OptionB": "дрво",
+      "OptionC": "големо",
+      "OptionD": "расте",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Вие ______ задача.",
+      "OptionA": "реши",
+      "OptionB": "решивме",
+      "OptionC": "решат",
+      "OptionD": "решивте",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој глагол означува психичка активност?",
+      "OptionA": "скока",
+      "OptionB": "јаде",
+      "OptionC": "сече",
+      "OptionD": "мисли",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во реченицата „Тивко врне дожд“, глаголот е:",
+      "OptionA": "тивко",
+      "OptionB": "дожд",
+      "OptionC": "небо",
+      "OptionD": "врне",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кое лице е заменката „Тие“ кај глаголите?",
+      "OptionA": "прво лице множина",
+      "OptionB": "второ лице множина",
+      "OptionC": "трето лице еднина",
+      "OptionD": "трето лице множина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како гласи 1. лице еднина од „црта“ во идно време?",
+      "OptionA": "цртав",
+      "OptionB": "цртам",
+      "OptionC": "ќе црта",
+      "OptionD": "ќе цртам",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Глаголот во „Учениците слушаат внимателно“ е во:",
+      "OptionA": "еднина",
+      "OptionB": "минато време",
+      "OptionC": "прво лице",
+      "OptionD": "множина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој глагол е во сегашно време, 1. лице еднина?",
+      "OptionA": "патуваш",
+      "OptionB": "патуваат",
+      "OptionC": "патува",
+      "OptionD": "патувам",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што означува глаголот во „Мама меси“?",
+      "OptionA": "состојба",
+      "OptionB": "време",
+      "OptionC": "особина",
+      "OptionD": "работа/дејство",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор е глагол во реченицата „Децата се смеат“?",
+      "OptionA": "децата",
+      "OptionB": "весело",
+      "OptionC": "играчки",
+      "OptionD": "се смеат",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како гласи 3. лице множина минато време од „гледа“?",
+      "OptionA": "гледа",
+      "OptionB": "гледаат",
+      "OptionC": "гледавме",
+      "OptionD": "гледаа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Глаголот „носите“ е во:",
+      "OptionA": "прво лице множина",
+      "OptionB": "трето лице множина",
+      "OptionC": "минато време",
+      "OptionD": "второ лице множина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е глаголот во идно време?",
+      "OptionA": "пеев",
+      "OptionB": "пеам",
+      "OptionC": "пеат",
+      "OptionD": "ќе пеам",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кое е трето лице еднина од „стои“?",
+      "OptionA": "стојам",
+      "OptionB": "стоиш",
+      "OptionC": "стојат",
+      "OptionD": "стои",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во реченицата „Ние се радуваме“, глаголот е во:",
+      "OptionA": "второ лице множина",
+      "OptionB": "трето лице множина",
+      "OptionC": "прво лице еднина",
+      "OptionD": "прво лице множина",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Најди го глаголот во 2. лице еднина:",
+      "OptionA": "слушам",
+      "OptionB": "слуша",
+      "OptionC": "слушаат",
+      "OptionD": "слушаш",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој глагол означува појава на небото?",
+      "OptionA": "брза",
+      "OptionB": "молчи",
+      "OptionC": "мисли",
+      "OptionD": "светка",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}
