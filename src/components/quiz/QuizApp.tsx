@@ -12,7 +12,7 @@ import TextbooksSelect from "./TextbooksSelect";
 type Screen = "grades" | "subjects" | "categories" | "quiz" | "results" | "textbooks";
 
 const QUESTIONS_PER_QUIZ = 10;
-const TIME_PER_QUESTION = 30;
+const DEFAULT_TIME_PER_QUESTION = 30;
 
 const pathForGrade = (gradeId: string) => `/grade/${gradeId}`;
 const pathForTextbooks = (gradeId: string) => `/grade/${gradeId}/textbooks`;
@@ -107,6 +107,14 @@ function shuffleAndPick(questions: QuizQuestion[], count: number): QuizQuestion[
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
   return shuffled.slice(0, count);
+}
+
+function getTimeLimitForCategory(category: Category | null): number {
+  const configuredLimit = category?.timeLimitSeconds;
+  if (typeof configuredLimit === "number" && Number.isFinite(configuredLimit) && configuredLimit > 0) {
+    return configuredLimit;
+  }
+  return DEFAULT_TIME_PER_QUESTION;
 }
 
 const QuizApp = () => {
@@ -425,7 +433,7 @@ const QuizApp = () => {
           question={quizQuestions[currentIndex]}
           questionNumber={currentIndex + 1}
           totalQuestions={quizQuestions.length}
-          timeLimit={TIME_PER_QUESTION}
+          timeLimit={getTimeLimitForCategory(selectedCategory)}
           onAnswer={handleAnswer}
           onRestart={handleRestartQuiz}
           onHome={handleHome}
