@@ -5,6 +5,7 @@ export interface Category {
   label: string;
   description: string;
   file: string;
+  timeLimitSeconds?: number;
   icon: LucideIcon;
   color: string;
 }
@@ -262,6 +263,7 @@ export const grades: Grade[] = [
           },
           {
             id: "operacii-broevi-dropki-4-tekstualni",
+            timeLimitSeconds: 150,
             label: "3. Операции со броеви IV",
             description: "Дропки, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki_tekstualni.json`,
