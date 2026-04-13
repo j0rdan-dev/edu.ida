@@ -210,7 +210,6 @@ export const grades: Grade[] = [
       },
     ],
   },
-  ,
   {
     id: "grade4",
     label: "Четврто Одделение",
@@ -262,7 +261,7 @@ export const grades: Grade[] = [
             color: "10 80% 30%",
           },
           {
-            id: "operacii-broevi-dropki-4",
+            id: "operacii-broevi-dropki-4-tekstualni",
             label: "3. Операции со броеви IV",
             description: "Дропки, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki_tekstualni.json`,
@@ -446,7 +445,7 @@ export const grades: Grade[] = [
             color: "0 75% 50%",
           },
                     {
-            id: "mojata-drzava-4",
+            id: "mojata-drzava-4-do-142",
             label: "3. Мојата држава",
             description: "Заклучно со 142 страна",
             file: `${import.meta.env.BASE_URL}data/4-mojata_drzava-up-to-142.json`,
@@ -511,7 +510,7 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
     {
       id: "matematik-3",
       label: "Македонски Јазик",
-      url: "./ucebnici/makedonski_3.pdf",
+      url: `${import.meta.env.BASE_URL}ucebnici/makedonski_3.pdf`,
       color: "340 65% 50%",
     },
     {
@@ -523,7 +522,7 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
     {
       id: "opstestvo-3",
       label: "Општество",
-      url: "./ucebnici/Opstestvo_3.pdf",
+      url: `${import.meta.env.BASE_URL}ucebnici/Opstestvo_3.pdf`,
       color: "220 65% 55%",
     },
   ],
@@ -531,25 +530,25 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
     {
       id: "matematik-4",
       label: "Математика",
-      url: "./ucebnici/Matematika_4_mak_web.pdf",
+      url: `${import.meta.env.BASE_URL}ucebnici/Matematika_4_mak_web.pdf`,
       color: "340 65% 50%",
     },
     {
       id: "prirodni-4",
       label: "Природни Науки",
-      url: "./ucebnici/Prirodni_nauki_4_mak.pdf",
+      url: `${import.meta.env.BASE_URL}ucebnici/Prirodni_nauki_4_mak.pdf`,
       color: "240 70% 45%",
     },
     {
       id: "opstestvo-4",
       label: "Историја и Општество",
-      url: "./ucebnici/Istorija_opstestvo_4_mak.pdf",
+      url: `${import.meta.env.BASE_URL}ucebnici/Istorija_opstestvo_4_mak.pdf`,
       color: "220 65% 55%",
     },
         {
       id: "makedonski-4",
       label: "Македонски Јазик",
-      url: "./ucebnici/makedonski_4.pdf",
+      url: `${import.meta.env.BASE_URL}ucebnici/makedonski_4.pdf`,
       color: "400 85% 35%",
     },
   ],
