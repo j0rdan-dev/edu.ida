@@ -23,6 +23,23 @@
   <meta name="twitter:title" content="Квиз">
   <meta property="og:description" content="Тестирај го своето знаење со овој интерактивен квиз">
   <meta name="twitter:description" content="Тестирај го своето знаење со овој интерактивен квиз">
+  <script>
+    // GitHub Pages SPA redirect fix:
+    // if 404.html redirected to /?/<route>, rewrite back to the original route.
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+
+        window.history.replaceState(null, "", l.pathname.slice(0, -1) + decoded + l.hash);
+      }
+    })(window.location);
+  </script>
 </head>
 
   <body>
