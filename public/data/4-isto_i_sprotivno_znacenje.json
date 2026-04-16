@@ -58,7 +58,7 @@
     },
     {
       "Question": "Кој збор има исто значење со зборот 'брз'?",
-      "OptionA": "Хитар",
+      "OptionA": "Итар",
       "OptionB": "Бавен",
       "OptionC": "Мрзлив",
       "OptionD": "Тежок",
@@ -404,7 +404,7 @@
       "Question": "Кој збор има исто значење со зборот 'ученик'?",
       "OptionA": "Учител",
       "OptionB": "Професор",
-      "OptionC": "Ѓак",
+      "OptionC": "Ученик",
       "OptionD": "Директор",
       "CorrectAnswer": "OptionC"
     },
