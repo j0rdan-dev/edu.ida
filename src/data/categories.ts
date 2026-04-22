@@ -217,7 +217,7 @@ export const grades: Grade[] = [
           },
           {
             id: "nauka-3",
-            label: "Наука",
+            label: "БОНУС: Наука",
             description: "Биологија, хемија, физика, човечко тело",
             file: `${import.meta.env.BASE_URL}data/наука.json`,
             icon: FlaskConical,
@@ -225,7 +225,7 @@ export const grades: Grade[] = [
           },
           {
             id: "ekosistemi-3",
-            label: "Екосистеми и енергија",
+            label: "БОНУС: Екосистеми и енергија",
             description: "Хранливи ланци, енергија, вулкани, земјотреси",
             file: `${import.meta.env.BASE_URL}data/priroda-3.json`,
             icon: Sprout,
