@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Како се вика ѕвездата околу која кружи Земјата?",
+      "OptionA": "Месечина",
+      "OptionB": "Марс",
+      "OptionC": "Сонце",
+      "OptionD": "Поларна ѕвезда",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е Месечината?",
+      "OptionA": "Планета",
+      "OptionB": "Природен сателит на Земјата",
+      "OptionC": "Ѕвезда",
+      "OptionD": "Комета",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика групата планети што кружат околу Сонцето?",
+      "OptionA": "Млечен пат",
+      "OptionB": "Сончев систем",
+      "OptionC": "Орбитален појас",
+      "OptionD": "Галактичко јадро",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што предизвикува ден и ноќ на Земјата?",
+      "OptionA": "Вртењето на Земјата околу својата оска",
+      "OptionB": "Движењето на облаците",
+      "OptionC": "Плимата и осеката",
+      "OptionD": "Ветровите",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кое небесно тело свети со сопствена светлина?",
+      "OptionA": "Планета",
+      "OptionB": "Сателит",
+      "OptionC": "Ѕвезда",
+      "OptionD": "Астероид",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е планета?",
+      "OptionA": "Тело што свети само од себе",
+      "OptionB": "Небесно тело што кружи околу ѕвезда",
+      "OptionC": "Облак од вода",
+      "OptionD": "Секое тело со опашка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика нашата планета?",
+      "OptionA": "Венера",
+      "OptionB": "Јупитер",
+      "OptionC": "Земја",
+      "OptionD": "Сатурн",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се ѕвезди?",
+      "OptionA": "Големи, жешки небесни тела што емитуваат светлина",
+      "OptionB": "Ладни карпи",
+      "OptionC": "Мали планети",
+      "OptionD": "Сателити на Земјата",
+      "CorrectAnswer": "OptionA"
+    }
+  ]
+}

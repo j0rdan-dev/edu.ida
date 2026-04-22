@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Која е главната улога на скелетот?",
+      "OptionA": "Да произведува крв",
+      "OptionB": "Да го држи телото исправено и да ги штити органите",
+      "OptionC": "Да ја вари храната",
+      "OptionD": "Да создава воздух",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој орган е заштитен со черепот?",
+      "OptionA": "Срцето",
+      "OptionB": "Желудникот",
+      "OptionC": "Мозокот",
+      "OptionD": "Бубрезите",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како мускулите ни помагаат?",
+      "OptionA": "Ни помагаат да се движиме",
+      "OptionB": "Ни помагаат да слушаме",
+      "OptionC": "Ни помагаат да спиеме",
+      "OptionD": "Ни помагаат да мирисаме",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е витален орган што ја пумпа крвта?",
+      "OptionA": "Белите дробови",
+      "OptionB": "Срцето",
+      "OptionC": "Црниот дроб",
+      "OptionD": "Слезината",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои органи се најважни за дишење?",
+      "OptionA": "Бубрезите",
+      "OptionB": "Белите дробови",
+      "OptionC": "Цревата",
+      "OptionD": "Коските",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Каде се наоѓа срцето во телото?",
+      "OptionA": "Во стомакот",
+      "OptionB": "Во градниот кош",
+      "OptionC": "Во ногата",
+      "OptionD": "Во вратот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што ги поврзува коските во телото?",
+      "OptionA": "Сончева светлина",
+      "OptionB": "Зглобови",
+      "OptionC": "Коса",
+      "OptionD": "Кожа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Зошто се важни виталните органи?",
+      "OptionA": "Бидејќи без нив телото не може да живее",
+      "OptionB": "Бидејќи даваат боја на кожата",
+      "OptionC": "Бидејќи прават коса",
+      "OptionD": "Бидејќи ги зајакнуваат ноктите",
+      "CorrectAnswer": "OptionA"
+    }
+  ]
+}

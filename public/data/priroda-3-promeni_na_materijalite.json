@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Што се случува со мразот кога се загрева?",
+      "OptionA": "Станува камен",
+      "OptionB": "Се топи и станува вода",
+      "OptionC": "Станува дрво",
+      "OptionD": "Станува песок",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика промена од течност во гас?",
+      "OptionA": "Топење",
+      "OptionB": "Испарување",
+      "OptionC": "Замрзнување",
+      "OptionD": "Кондензација",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е замрзнување?",
+      "OptionA": "Промена од гас во течност",
+      "OptionB": "Промена од течност во цврста состојба",
+      "OptionC": "Промена од цврста во течна состојба",
+      "OptionD": "Промена од цврста во гасовита состојба",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кога водената пареа се лади, што се создава?",
+      "OptionA": "Мраз",
+      "OptionB": "Капки вода",
+      "OptionC": "Песок",
+      "OptionD": "Метал",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е цврста состојба на водата?",
+      "OptionA": "Пареа",
+      "OptionB": "Мраз",
+      "OptionC": "Дожд",
+      "OptionD": "Роса",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која промена најчесто е повратна?",
+      "OptionA": "Горење хартија",
+      "OptionB": "Топење и повторно замрзнување вода",
+      "OptionC": "Гниење овошје",
+      "OptionD": "Печење леб",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што може да ја промени состојбата на материјалите?",
+      "OptionA": "Само бојата",
+      "OptionB": "Греење и ладење",
+      "OptionC": "Само обликот",
+      "OptionD": "Само големината",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е пример за неповратна промена?",
+      "OptionA": "Замрзнување вода",
+      "OptionB": "Топење мраз",
+      "OptionC": "Горење дрво",
+      "OptionD": "Кондензација на пареа",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}
