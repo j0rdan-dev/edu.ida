@@ -1,0 +1,100 @@
+{
+  "Questions": [
+    {
+      "Question": "Кој број доаѓа по 399?",
+      "OptionA": "398",
+      "OptionB": "400",
+      "OptionC": "409",
+      "OptionD": "390",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е најмал: 507, 570, 750 или 705?",
+      "OptionA": "507",
+      "OptionB": "570",
+      "OptionC": "750",
+      "OptionD": "705",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку десетки има бројот 340?",
+      "OptionA": "3",
+      "OptionB": "34",
+      "OptionC": "40",
+      "OptionD": "340",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е парен?",
+      "OptionA": "125",
+      "OptionB": "341",
+      "OptionC": "508",
+      "OptionD": "777",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Заокружи 468 на најблиска стотка.",
+      "OptionA": "400",
+      "OptionB": "450",
+      "OptionC": "500",
+      "OptionD": "470",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е римскиот број за 10?",
+      "OptionA": "V",
+      "OptionB": "X",
+      "OptionC": "L",
+      "OptionD": "I",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку единици има 6 стотки, 2 десетки и 5 единици?",
+      "OptionA": "625",
+      "OptionB": "652",
+      "OptionC": "562",
+      "OptionD": "526",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е помеѓу 899 и 901?",
+      "OptionA": "890",
+      "OptionB": "900",
+      "OptionC": "910",
+      "OptionD": "8990",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е поголем?",
+      "OptionA": "438",
+      "OptionB": "483",
+      "OptionC": "348",
+      "OptionD": "384",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку броеви има од 1 до 100?",
+      "OptionA": "99",
+      "OptionB": "100",
+      "OptionC": "101",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е непарен?",
+      "OptionA": "264",
+      "OptionB": "902",
+      "OptionC": "715",
+      "OptionD": "480",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која низа е растечка?",
+      "OptionA": "410, 405, 400",
+      "OptionB": "198, 208, 218",
+      "OptionC": "600, 590, 580",
+      "OptionD": "50, 40, 30",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

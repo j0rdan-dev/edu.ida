@@ -1,0 +1,100 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку е 36 + 27?",
+      "OptionA": "53",
+      "OptionB": "63",
+      "OptionC": "73",
+      "OptionD": "62",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 94 - 38?",
+      "OptionA": "46",
+      "OptionB": "56",
+      "OptionC": "66",
+      "OptionD": "48",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 7 × 6?",
+      "OptionA": "36",
+      "OptionB": "40",
+      "OptionC": "42",
+      "OptionD": "48",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 56 ÷ 8?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 125 + 300?",
+      "OptionA": "415",
+      "OptionB": "425",
+      "OptionC": "435",
+      "OptionD": "525",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 500 - 245?",
+      "OptionA": "255",
+      "OptionB": "265",
+      "OptionC": "275",
+      "OptionD": "245",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 9 × 4?",
+      "OptionA": "36",
+      "OptionB": "45",
+      "OptionC": "32",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 72 ÷ 9?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 48 + 19?",
+      "OptionA": "57",
+      "OptionB": "67",
+      "OptionC": "69",
+      "OptionD": "77",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 81 - 26?",
+      "OptionA": "55",
+      "OptionB": "45",
+      "OptionC": "65",
+      "OptionD": "56",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 6 × 8?",
+      "OptionA": "42",
+      "OptionB": "46",
+      "OptionC": "48",
+      "OptionD": "54",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 63 ÷ 7?",
+      "OptionA": "7",
+      "OptionB": "8",
+      "OptionC": "9",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

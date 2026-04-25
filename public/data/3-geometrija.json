@@ -1,0 +1,100 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку страни има триаголник?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која фигура има 4 еднакви страни и 4 прави агли?",
+      "OptionA": "Круг",
+      "OptionB": "Правоаголник",
+      "OptionC": "Квадрат",
+      "OptionD": "Триаголник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку темиња има правоаголник?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која фигура нема агли?",
+      "OptionA": "Квадрат",
+      "OptionB": "Круг",
+      "OptionC": "Триаголник",
+      "OptionD": "Петаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку страни има петаголник?",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Паралелни прави се прави што...",
+      "OptionA": "се сечат",
+      "OptionB": "никогаш не се сечат",
+      "OptionC": "се криви",
+      "OptionD": "се допираат во една точка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку агли има квадрат?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е 3D фигура?",
+      "OptionA": "Квадрат",
+      "OptionB": "Круг",
+      "OptionC": "Коцка",
+      "OptionD": "Триаголник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку лица има коцка?",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која фигура е правоаголник?",
+      "OptionA": "Фигура со 4 страни и 4 прави агли",
+      "OptionB": "Фигура со 3 страни",
+      "OptionC": "Фигура без страни",
+      "OptionD": "Фигура со 5 страни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е отсечка?",
+      "OptionA": "Линија без краеви",
+      "OptionB": "Дел од права со два краја",
+      "OptionC": "Крива линија",
+      "OptionD": "Само една точка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку страни има шестоаголник?",
+      "OptionA": "5",
+      "OptionB": "6",
+      "OptionC": "7",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

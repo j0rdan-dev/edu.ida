@@ -1,0 +1,100 @@
+{
+  "Questions": [
+    {
+      "Question": "Во табела пишува: јаболка 6, банани 4, портокали 5. Кое овошје има најмногу?",
+      "OptionA": "Банани",
+      "OptionB": "Портокали",
+      "OptionC": "Јаболка",
+      "OptionD": "Сите еднакво",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Податоци за оценки: 5, 4, 5, 3, 5. Колку пати се појавува 5?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во графикон: сино 7, црвено 2, зелено 5. Кој е најмал број?",
+      "OptionA": "Сино",
+      "OptionB": "Црвено",
+      "OptionC": "Зелено",
+      "OptionD": "Нема",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ана прочитала 8 страници, Боби 6, Ема 8. Кои имаат ист број страници?",
+      "OptionA": "Ана и Боби",
+      "OptionB": "Боби и Ема",
+      "OptionC": "Ана и Ема",
+      "OptionD": "Сите",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Број на ученици што дојдоа со автобус: понеделник 12, вторник 9, среда 12. Кој ден има најмал број?",
+      "OptionA": "Понеделник",
+      "OptionB": "Вторник",
+      "OptionC": "Среда",
+      "OptionD": "Понеделник и среда",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во листа: 3, 3, 4, 5, 3, 4. Кој број се појавува најчесто?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "Сите еднакво",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во продавница продале: 10 сокови, 7 води, 10 млека. Кој производ е продаден најмногу?",
+      "OptionA": "Сокови",
+      "OptionB": "Води",
+      "OptionC": "Млека",
+      "OptionD": "Сокови и млека",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Температури во три дена: 18°C, 20°C, 19°C. Кој ден е најтопол?",
+      "OptionA": "18°C",
+      "OptionB": "19°C",
+      "OptionC": "20°C",
+      "OptionD": "Сите",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во класот има: фудбал 9 ученици, кошарка 5, одбојка 6. Колку вкупно ученици има во овие групи?",
+      "OptionA": "18",
+      "OptionB": "19",
+      "OptionC": "20",
+      "OptionD": "21",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Бои на балони: црвени 4, сини 4, жолти 2. Колку балони се црвени или сини заедно?",
+      "OptionA": "6",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Број на книги прочитани од 4 ученици: 2, 5, 3, 5. Кој е најголем број?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во анкета за омилен предмет: Математика 11, Природа 8, Јазик 11. Кои предмети се изедначени?",
+      "OptionA": "Математика и Природа",
+      "OptionB": "Природа и Јазик",
+      "OptionC": "Математика и Јазик",
+      "OptionD": "Нема изедначени",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

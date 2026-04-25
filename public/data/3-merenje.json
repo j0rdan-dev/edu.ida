@@ -1,0 +1,100 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку сантиметри има 1 метар?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку минути има 1 час?",
+      "OptionA": "30",
+      "OptionB": "45",
+      "OptionC": "60",
+      "OptionD": "90",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часа има 1 ден?",
+      "OptionA": "12",
+      "OptionB": "18",
+      "OptionC": "24",
+      "OptionD": "48",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е потешко?",
+      "OptionA": "1 килограм",
+      "OptionB": "500 грама",
+      "OptionC": "250 грама",
+      "OptionD": "100 грама",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку денари се 5 монети по 10 денари?",
+      "OptionA": "40",
+      "OptionB": "50",
+      "OptionC": "60",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку милиметри има 1 сантиметар?",
+      "OptionA": "2",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое време покажува 14:00?",
+      "OptionA": "2 часот попладне",
+      "OptionB": "4 часот попладне",
+      "OptionC": "12 часот напладне",
+      "OptionD": "10 часот наутро",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку литри има во 2 садови по 1 литар?",
+      "OptionA": "1",
+      "OptionB": "2",
+      "OptionC": "3",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е подолг?",
+      "OptionA": "80 см",
+      "OptionB": "1 м",
+      "OptionC": "90 см",
+      "OptionD": "95 см",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е половина од 1 час?",
+      "OptionA": "20 минути",
+      "OptionB": "30 минути",
+      "OptionC": "40 минути",
+      "OptionD": "50 минути",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку грама има 1 килограм?",
+      "OptionA": "100",
+      "OptionB": "500",
+      "OptionC": "1000",
+      "OptionD": "2000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако е 08:15, колку минути поминале од 08:00?",
+      "OptionA": "10",
+      "OptionB": "15",
+      "OptionC": "20",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}
