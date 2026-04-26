@@ -241,6 +241,7 @@ export const grades: Grade[] = [
           },
           {
             id: "promeni-na-materijalite-definicii-3",
+            timeLimitSeconds: 60,
             label: "Промени на материјалите (дефиниции)",
             description: "Дефиниции и поими за промени на материјалите",
             file: `${import.meta.env.BASE_URL}data/priroda-3-promeni_na_materijalite_definicii.json`,
