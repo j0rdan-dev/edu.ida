@@ -240,6 +240,14 @@ export const grades: Grade[] = [
             color: "195 75% 52%",
           },
           {
+            id: "promeni-na-materijalite-definicii-3",
+            label: "Промени на материјалите (дефиниции)",
+            description: "Дефиниции и поими за промени на материјалите",
+            file: `${import.meta.env.BASE_URL}data/priroda-3-promeni_na_materijalite_definicii.json`,
+            icon: Droplets,
+            color: "195 60% 40%",
+          },
+          {
             id: "vselena-nebesni-tela-3",
             label: "Вселена и небесни тела",
             description: "Сончев систем, планети, ѕвезди и движење на Земјата",
