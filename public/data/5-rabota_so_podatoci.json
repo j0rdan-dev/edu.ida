@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Ако во еден разред има 15 дечиња и 12 девојчиња, колкав е вкупниот број ученици?",
+      "OptionA": "25",
+      "OptionB": "26",
+      "OptionC": "27",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "На барањето прашано од 5 ученици, 3 одговориши 'да', а 2 одговориши 'не'. Кој дел од ученците одговориши 'да'?",
+      "OptionA": "1/5",
+      "OptionB": "2/5",
+      "OptionC": "3/5",
+      "OptionD": "4/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако средната vrednost од 4 броја е 10, која е нивната сума?",
+      "OptionA": "30",
+      "OptionB": "35",
+      "OptionC": "40",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е модата (најчеста вредност) од множеството: 2, 3, 3, 4, 5, 5, 5, 6?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Доколку табелата покажува продажба на јаболка: пон=5, уто=7, сря=6, чет=8, пет=9, колкав е вкупниот број јаболка?",
+      "OptionA": "30",
+      "OptionB": "32",
+      "OptionC": "34",
+      "OptionD": "35",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако 60% од 50 ученици добиле пятка, колкав е бројот на ученици со пятка?",
+      "OptionA": "20",
+      "OptionB": "25",
+      "OptionC": "30",
+      "OptionD": "35",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е медијаната од множеството: 10, 15, 20, 25, 30?",
+      "OptionA": "15",
+      "OptionB": "20",
+      "OptionC": "25",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако во еден магазин дневно се прдаваат 100 јаболка, полови колкав е просечниот број јаболка во денот?",
+      "OptionA": "25",
+      "OptionB": "33",
+      "OptionC": "50",
+      "OptionD": "75",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

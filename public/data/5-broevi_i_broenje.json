@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Кој број доаѓа по 4999?",
+      "OptionA": "4998",
+      "OptionB": "5000",
+      "OptionC": "5001",
+      "OptionD": "4990",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е најголем: 5234, 5342, 5423 или 5324?",
+      "OptionA": "5234",
+      "OptionB": "5342",
+      "OptionC": "5423",
+      "OptionD": "5324",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку стотки има бројот 3567?",
+      "OptionA": "3",
+      "OptionB": "5",
+      "OptionC": "35",
+      "OptionD": "356",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е непарен?",
+      "OptionA": "2456",
+      "OptionB": "3561",
+      "OptionC": "4782",
+      "OptionD": "5008",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи 4568 на најблиска илјада.",
+      "OptionA": "4000",
+      "OptionB": "4500",
+      "OptionC": "4600",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е римскиот број за 50?",
+      "OptionA": "L",
+      "OptionB": "C",
+      "OptionC": "D",
+      "OptionD": "XL",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е вредноста на цифрата 7 во бројот 37856?",
+      "OptionA": "7",
+      "OptionB": "70",
+      "OptionC": "700",
+      "OptionD": "7000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку цифри има бројот 56789?",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

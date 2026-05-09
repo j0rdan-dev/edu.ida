@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку метри има 1 километар?",
+      "OptionA": "100",
+      "OptionB": "1000",
+      "OptionC": "10000",
+      "OptionD": "100000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку сантиметри има 1 метар?",
+      "OptionA": "10",
+      "OptionB": "50",
+      "OptionC": "100",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е обиколката на квадрат со страна 5 см?",
+      "OptionA": "10 см",
+      "OptionB": "15 см",
+      "OptionC": "20 см",
+      "OptionD": "25 см",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку килограми има 1 тона?",
+      "OptionA": "10 кг",
+      "OptionB": "100 кг",
+      "OptionC": "1000 кг",
+      "OptionD": "10000 кг",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е плоштината на правоаголник со должина 4 см и ширина 3 см?",
+      "OptionA": "7 см²",
+      "OptionB": "12 см²",
+      "OptionC": "14 см²",
+      "OptionD": "24 см²",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку литри има 1 кубен метар?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "10000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се 3 часа?",
+      "OptionA": "120 минути",
+      "OptionB": "180 минути",
+      "OptionC": "240 минути",
+      "OptionD": "300 минути",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е обиколката на круг со радиус 5 см? (користи π ≈ 3,14)",
+      "OptionA": "31,4 см",
+      "OptionB": "62,8 см",
+      "OptionC": "78,5 см",
+      "OptionD": "157 см",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

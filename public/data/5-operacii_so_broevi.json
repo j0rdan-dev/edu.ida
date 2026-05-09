@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку е 2345 + 1234?",
+      "OptionA": "3579",
+      "OptionB": "3589",
+      "OptionC": "3599",
+      "OptionD": "3489",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 5000 - 1234?",
+      "OptionA": "3766",
+      "OptionB": "3776",
+      "OptionC": "3786",
+      "OptionD": "3656",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 25 × 4?",
+      "OptionA": "100",
+      "OptionB": "90",
+      "OptionC": "110",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 144 ÷ 12?",
+      "OptionA": "10",
+      "OptionB": "11",
+      "OptionC": "12",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 15 × 8?",
+      "OptionA": "110",
+      "OptionB": "120",
+      "OptionC": "130",
+      "OptionD": "140",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 456 + 789?",
+      "OptionA": "1245",
+      "OptionB": "1255",
+      "OptionC": "1265",
+      "OptionD": "1235",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 3000 ÷ 6?",
+      "OptionA": "500",
+      "OptionB": "400",
+      "OptionC": "600",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 1/2 од 100?",
+      "OptionA": "25",
+      "OptionB": "50",
+      "OptionC": "75",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

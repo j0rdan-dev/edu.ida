@@ -539,6 +539,108 @@ export const grades: Grade[] = [
       },
     ],
   },
+  {
+    id: "grade5",
+    label: "Петто Одделение [во изработка]",
+    subjects: [
+      {
+        id: "matematika-5",
+        label: "Математика",
+        icon: Calculator,
+        color: "340 65% 50%",
+        categories: [
+          {
+            id: "broevi-i-broenje-5",
+            label: "1. Броеви и броење",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/5-broevi_i_broenje.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+          {
+            id: "geometrija-5",
+            label: "2. Геометрија",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/5-geometrija.json`,
+            icon: Compass,
+            color: "280 70% 50%",
+          },
+          {
+            id: "operacii-so-broevi-5",
+            label: "3. Операции со броеви",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/5-operacii_so_broevi.json`,
+            icon: Plus,
+            color: "220 70% 50%",
+          },
+          {
+            id: "merenje-5",
+            label: "4. Мерење",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/5-merenje.json`,
+            icon: Ruler,
+            color: "40 80% 50%",
+          },
+          {
+            id: "rabota-so-podatoci-5",
+            label: "5. Работа со податоци",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/5-rabota_so_podatoci.json`,
+            icon: BarChart3,
+            color: "260 60% 50%",
+          },
+        ],
+      },
+      {
+        id: "prirodni-nauki-5",
+        label: "Природни Науки",
+        icon: FlaskConical,
+        color: "259 78% 51%",
+        categories: [
+          {
+            id: "prirodni-nauki-5",
+            label: "Природни науки",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/sample.json`,
+            icon: FlaskConical,
+            color: "259 78% 51%",
+          },
+        ],
+      },
+      {
+        id: "makedonski-jazik-5",
+        label: "Македонски јазик",
+        icon: BookOpen,
+        color: "14 80% 45%",
+        categories: [
+          {
+            id: "makedonski-jazik-5",
+            label: "Македонски јазик",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/sample.json`,
+            icon: BookOpen,
+            color: "14 80% 45%",
+          },
+        ],
+      },
+      {
+        id: "istorija-opstestvo-5",
+        label: "Историја и Општество",
+        icon: Globe,
+        color: "220 65% 55%",
+        categories: [
+          {
+            id: "istorija-opstestvo-5",
+            label: "Историја и Општество",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/sample.json`,
+            icon: Globe,
+            color: "220 65% 55%",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export interface Textbook {
@@ -633,6 +735,32 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
       label: "Македонски Јазик",
       url: `${import.meta.env.BASE_URL}ucebnici/makedonski_4.pdf`,
       color: "400 85% 35%",
+    },
+  ],
+  grade5: [
+    {
+      id: "matematik-5",
+      label: "Математика",
+      url: "#",
+      color: "340 65% 50%",
+    },
+    {
+      id: "prirodni-5",
+      label: "Природни Науки",
+      url: "#",
+      color: "259 78% 51%",
+    },
+    {
+      id: "makedonski-5",
+      label: "Македонски Јазик",
+      url: "#",
+      color: "14 80% 45%",
+    },
+    {
+      id: "istorija-opstestvo-5",
+      label: "Историја и Општество",
+      url: "#",
+      color: "220 65% 55%",
     },
   ],
 };

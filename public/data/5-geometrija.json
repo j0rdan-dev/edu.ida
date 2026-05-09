@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Question": "Колку странички има триаголник?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку агли има четириаголник?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој геометриски облик има 6 страни?",
+      "OptionA": "Квадрат",
+      "OptionB": "Триаголник",
+      "OptionC": "Хексагон",
+      "OptionD": "Пентагон",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку темиња има коцка?",
+      "OptionA": "6",
+      "OptionB": "8",
+      "OptionC": "10",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој облик е правилен квадрат?",
+      "OptionA": "Сите страни се еднакви и сите агли се 90 степени",
+      "OptionB": "Сите страни се еднакви и сите агли се 60 степени",
+      "OptionC": "Две страни се еднакви и агли не се еднакви",
+      "OptionD": "Нема еднакви страни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е вредноста на правиот агол?",
+      "OptionA": "45 степени",
+      "OptionB": "90 степени",
+      "OptionC": "180 степени",
+      "OptionD": "360 степени",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој геометриски облик нема страни?",
+      "OptionA": "Квадрат",
+      "OptionB": "Триаголник",
+      "OptionC": "Круг",
+      "OptionD": "Пентагон",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку страни има призма?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}
