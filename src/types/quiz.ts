@@ -5,6 +5,7 @@ export interface QuizQuestion {
   OptionC: string;
   OptionD: string;
   CorrectAnswer: "OptionA" | "OptionB" | "OptionC" | "OptionD";
+  image?: string;
 }
 
 export interface QuizData {
