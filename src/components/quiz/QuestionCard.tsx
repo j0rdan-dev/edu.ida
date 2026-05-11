@@ -165,7 +165,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
             <img
               src={questionImageSrc}
               alt={`Илустрација за прашање ${questionNumber}`}
-              className="h-auto max-h-64 w-auto max-w-full rounded-lg object-contain sm:max-h-72"
+              className="h-auto max-h-[205px] w-auto max-w-full rounded-lg object-contain sm:max-h-[230px]"
               loading="lazy"
               onError={() => setShowImage(false)}
             />
