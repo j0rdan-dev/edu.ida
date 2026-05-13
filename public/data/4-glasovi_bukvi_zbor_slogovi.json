@@ -1,295 +1,151 @@
 ﻿{
   "Questions": [
     {
-      "Question": "Колку гласови и букви има во македонската азбука?",
+      "Question": "Како се викаат знаците со кои се бележат гласовите при пишување?",
+      "OptionA": "Зборови",
+      "OptionB": "Букви",
+      "OptionC": "Слогови",
+      "OptionD": "Реченици",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку гласови и букви има во македонскиот јазик?",
       "OptionA": "31",
-      "OptionB": "30",
-      "OptionC": "32",
-      "OptionD": "26",
+      "OptionB": "28",
+      "OptionC": "30",
+      "OptionD": "32",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Што користиме за да ги запишеме гласовите?",
-      "OptionA": "Букви",
-      "OptionB": "Броеви",
-      "OptionC": "Цртежи",
-      "OptionD": "Ноти",
+      "Question": "Дополни ја дефиницијата: Слог е дел од зборот што се изговара со ___________ замав на гласот.",
+      "OptionA": "еден",
+      "OptionB": "два",
+      "OptionC": "три",
+      "OptionD": "четири",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Кои се самогласки во македонскиот јазик?",
-      "OptionA": "а, е, и, о, у",
-      "OptionB": "б, в, г, д, ѓ",
-      "OptionC": "л, љ, м, н, њ",
-      "OptionD": "п, р, с, т, ќ",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој глас може да биде носител на слог покрај самогласките?",
-      "OptionA": "р",
-      "OptionB": "с",
-      "OptionC": "л",
-      "OptionD": "м",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Што претставува слогот?",
-      "OptionA": "Дел од зборот што се изговара со еден воздушен млаз.",
-      "OptionB": "Група од сите согласки во зборот.",
-      "OptionC": "Знак за интерпункција на крајот од реченицата.",
-      "OptionD": "Најдолгиот збор во една реченица.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку слогови има зборот „маса“?",
-      "OptionA": "Два",
-      "OptionB": "Еден",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Како правилно се дели зборот „училиште“ на слогови?",
-      "OptionA": "у-чи-лиш-те",
-      "OptionB": "уч-ил-иш-те",
-      "OptionC": "учи-лиште",
-      "OptionD": "у-чил-и-ште",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој од наведените зборови е едносложен?",
-      "OptionA": "Стол",
-      "OptionB": "Книга",
-      "OptionC": "Прозорец",
-      "OptionD": "Табла",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Со каква буква се пишуваат сопствените именки?",
-      "OptionA": "Со голема буква",
-      "OptionB": "Со мала буква",
-      "OptionC": "Со коса буква",
-      "OptionD": "Со задебелена буква",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Што се согласките?",
-      "OptionA": "Гласови при чиј изговор воздухот наидува на препрека.",
-      "OptionB": "Гласови што секогаш се пеат.",
-      "OptionC": "Знаци што стојат само на почетокот на зборот.",
-      "OptionD": "Зборови што немаат значење.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој збор е правилно поделен на слогови?",
-      "OptionA": "пе-перу-тка",
-      "OptionB": "пеп-ер-ут-ка",
-      "OptionC": "пе-пе-ру-тка",
-      "OptionD": "пеп-ерутка",
+      "Question": "Точно или неточно: Секој збор може да се подели на слогови.",
+      "OptionA": "Неточно",
+      "OptionB": "Само некои зборови",
+      "OptionC": "Точно",
+      "OptionD": "Само долгите зборови",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Колку слогови има зборот „библиотека“?",
-      "OptionA": "Пет",
-      "OptionB": "Четири",
-      "OptionC": "Три",
-      "OptionD": "Шест",
-      "CorrectAnswer": "OptionA"
+      "Question": "Што е носител на слогот во македонскиот јазик?",
+      "OptionA": "Согласка",
+      "OptionB": "Буква",
+      "OptionC": "Збор",
+      "OptionD": "Самогласка",
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Кој глас е самогласка во зборот „рж“?",
-      "OptionA": "р",
-      "OptionB": "ж",
-      "OptionC": "Нема самогласка",
-      "OptionD": "двете",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку самогласки има во зборот „планина“?",
-      "OptionA": "Три",
-      "OptionB": "Две",
-      "OptionC": "Четири",
-      "OptionD": "Една",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Зборот „татковина“ има колку слогови?",
-      "OptionA": "Четири",
-      "OptionB": "Три",
-      "OptionC": "Пет",
-      "OptionD": "Два",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Што добиваме кога гласовите ќе ги подредиме по точно утврден ред?",
+      "Question": "Дополни: Буквите од еден јазик наредени по одреден ред се викаат ___________?",
       "OptionA": "Азбука",
-      "OptionB": "Реченица",
-      "OptionC": "Параграф",
-      "OptionD": "Расказ",
+      "OptionB": "Слогови",
+      "OptionC": "Гласови",
+      "OptionD": "Зборови",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која е првата буква во македонската азбука?",
-      "OptionA": "А",
-      "OptionB": "Б",
-      "OptionC": "В",
-      "OptionD": "Ш",
+      "Question": "Точно или неточно: Во македонскиот јазик за секој глас има посебна буква.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Понекогаш",
+      "OptionD": "Само за самогласките",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која е последната буква во македонската азбука?",
-      "OptionA": "Ш",
-      "OptionB": "Ж",
-      "OptionC": "З",
-      "OptionD": "Т",
+      "Question": "Како се викаат зборовите што имаат само еден слог?",
+      "OptionA": "Двосложни",
+      "OptionB": "Повеќесложни",
+      "OptionC": "Едносложни",
+      "OptionD": "Тросложни",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: На крајот од редот, зборовите се пренесуваат само на ___________?",
+      "OptionA": "букви",
+      "OptionB": "слогови",
+      "OptionC": "гласови",
+      "OptionD": "цели реченици",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од следниве зборови е двосложен?",
+      "OptionA": "Мама",
+      "OptionB": "Стол",
+      "OptionC": "Училиште",
+      "OptionD": "Леб",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Зборот „јаболко“ започнува со:",
-      "OptionA": "Самогласка",
-      "OptionB": "Согласка",
-      "OptionC": "Број",
-      "OptionD": "Знак",
+      "Question": "Точно или неточно: Една буква може да се остави сама на крајот од редот ако е самогласка.",
+      "OptionA": "Точно",
+      "OptionB": "Зависи од зборот",
+      "OptionC": "Само во поезија",
+      "OptionD": "Неточно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како правилно се дели зборот 'ученик' на слогови?",
+      "OptionA": "у-че-ник",
+      "OptionB": "уче-ник",
+      "OptionC": "учен-ик",
+      "OptionD": "у-ченик",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Како се викаат буквите што ги пишуваме со рака?",
-      "OptionA": "Ракописни букви",
-      "OptionB": "Печатни букви",
-      "OptionC": "Големи букви",
-      "OptionD": "Мали букви",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој од следниве зборови има 3 слога?",
-      "OptionA": "Компјутер",
-      "OptionB": "Молив",
-      "OptionC": "Дом",
-      "OptionD": "Информатика",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Во зборот „срце“, гласот „р“ е:",
-      "OptionA": "Слоготворно р",
-      "OptionB": "Обична согласка",
-      "OptionC": "Самогласка е",
-      "OptionD": "Нем глас",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Зборот „ма-ке-дон-ски“ е поделен на:",
-      "OptionA": "Четири слогови",
-      "OptionB": "Три слогови",
-      "OptionC": "Пет слогови",
-      "OptionD": "Два слога",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Што се согласките „б, п, в, ф, м“ според местото на образување?",
-      "OptionA": "Усни гласови",
-      "OptionB": "Забни гласови",
-      "OptionC": "Непчани гласови",
-      "OptionD": "Грлени гласови",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Зборот „сонце“ содржи колку согласки?",
+      "Question": "Колку слогови има во зборот 'македонски'?",
       "OptionA": "Три",
-      "OptionB": "Две",
+      "OptionB": "Пет",
       "OptionC": "Четири",
-      "OptionD": "Пет",
-      "CorrectAnswer": "OptionA"
+      "OptionD": "Шест",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Колку согласки има во македонскиот јазик?",
-      "OptionA": "31",
-      "OptionB": "26",
-      "OptionC": "5",
-      "OptionD": "21",
+      "Question": "Дополни: Самогласките во македонскиот јазик се: а, е, и, о, ___________?",
+      "OptionA": "р",
+      "OptionB": "с",
+      "OptionC": "у",
+      "OptionD": "в",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: При изговарање на гласовите, воздухот поминува низ устата.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само кај согласките",
+      "OptionD": "Само кај буквите",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој збор е правилно поделен на слогови?",
-      "OptionA": "про-зо-рец",
-      "OptionB": "про-зор-ец",
-      "OptionC": "пр-оз-ор-ец",
-      "OptionD": "проз-о-рец",
+      "Question": "Како се викаат буквите што не се самогласки?",
+      "OptionA": "Гласови",
+      "OptionB": "Слогови",
+      "OptionC": "Азбука",
+      "OptionD": "Согласки",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што означува терминот 'пренесување на зборови'?",
+      "OptionA": "Превод на друг јазик",
+      "OptionB": "Пишување на зборот во нов ред по слогови",
+      "OptionC": "Учење на нови зборови",
+      "OptionD": "Повторување на зборот",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој од овие зборови има само еден слог?",
-      "OptionA": "Рака",
-      "OptionB": "Брат",
-      "OptionC": "Мама",
-      "OptionD": "Уво",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Што користиме при делење на зборот на крајот од редот?",
+      "Question": "Кој знак се користи при пренесување на збор во нов ред?",
       "OptionA": "Запирка",
-      "OptionB": "Цртичка",
-      "OptionC": "Точка",
-      "OptionD": "Прашалник",
-      "CorrectAnswer": "OptionB"
+      "OptionB": "Точка",
+      "OptionC": "Цртичка (тире)",
+      "OptionD": "Извичник",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Зборот „есен“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Нема слогови",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Буквата „Љ“ е:",
-      "OptionA": "Самогласка",
-      "OptionB": "Согласка",
-      "OptionC": "Носител на слог",
-      "OptionD": "Број",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку самогласки има во зборот „образование“?",
-      "OptionA": "Пет",
-      "OptionB": "Шест",
-      "OptionC": "Седум",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Како се викаат буквите во весниците и книгите?",
-      "OptionA": "Ракописни",
-      "OptionB": "Печатни",
-      "OptionC": "Уметнички",
-      "OptionD": "Тајни",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Зборот „дрво“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Зборот „црв“ е:",
-      "OptionA": "Двосложен",
-      "OptionB": "Едносложен",
-      "OptionC": "Трисложен",
-      "OptionD": "Несложен",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која буква доаѓа по буквата „К“ во азбуката?",
-      "OptionA": "М",
-      "OptionB": "Л",
-      "OptionC": "Ј",
-      "OptionD": "Н",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Во зборот „трча“, слогот го образува гласот:",
+      "Question": "Дополни: Во зборот 'трча', гласот ___________ ја врши функцијата на самогласка?",
       "OptionA": "т",
       "OptionB": "р",
       "OptionC": "ч",
@@ -297,508 +153,12 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Буквата „Џ“ е:",
-      "OptionA": "Самогласка",
-      "OptionB": "Согласка",
-      "OptionC": "Запирка",
-      "OptionD": "Точка",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој од овие зборови започнува на согласка?",
-      "OptionA": "Око",
-      "OptionB": "Нос",
-      "OptionC": "Уста",
-      "OptionD": "Игла",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Зборот „пчела“ содржи колку самогласки?",
-      "OptionA": "Две",
-      "OptionB": "Една",
-      "OptionC": "Три",
-      "OptionD": "Нула",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку букви има зборот „Македонија“?",
-      "OptionA": "9",
-      "OptionB": "10",
-      "OptionC": "8",
-      "OptionD": "11",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Што се образува со спојување на повеќе слогови?",
-      "OptionA": "Глас",
-      "OptionB": "Збор",
-      "OptionC": "Азбука",
-      "OptionD": "Точка",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку слогови има зборот „птица“?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која буква е пред „Ш“ во азбуката?",
-      "OptionA": "Ц",
-      "OptionB": "Џ",
-      "OptionC": "Ч",
-      "OptionD": "Т",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Зборот „сликовница“ има колку согласки?",
-      "OptionA": "Пет",
-      "OptionB": "Шест",
-      "OptionC": "Четири",
-      "OptionD": "Седум",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој збор е правилно поделен на слогови?",
-      "OptionA": "те-тра-тк-а",
-      "OptionB": "те-трат-ка",
-      "OptionC": "тет-рат-ка",
-      "OptionD": "те-тра-тка",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Во зборот „грст“, носителот на слогот е:",
-      "OptionA": "г",
-      "OptionB": "р",
-      "OptionC": "с",
-      "OptionD": "т",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која е петтата буква во македонската азбука?",
-      "OptionA": "Ѓ",
-      "OptionB": "Д",
-      "OptionC": "Е",
-      "OptionD": "В",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку слогови има зборот „радост“?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Што е „глас“?",
-      "OptionA": "Напишан знак",
-      "OptionB": "Најмала говорна единица",
-      "OptionC": "Цел збор",
-      "OptionD": "Реченица",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку самогласки има во македонскиот јазик?",
-      "OptionA": "6",
-      "OptionB": "7",
-      "OptionC": "5",
-      "OptionD": "31",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Зборот „прозорец“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Како се вика групата од 31 буква?",
-      "OptionA": "Математика",
-      "OptionB": "Природа",
-      "OptionC": "Азбука",
-      "OptionD": "Песна",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Кој збор има 4 слога?",
-      "OptionA": "Ученик",
-      "OptionB": "Училиште",
-      "OptionC": "Училница",
-      "OptionD": "Учи",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Буквата „Р“ во зборот „крв“ е:",
-      "OptionA": "Согласка",
-      "OptionB": "Самогласка",
-      "OptionC": "Слоготворна согласка",
-      "OptionD": "Нема значење",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку слогови има зборот „пеперутка“?",
+      "Question": "Колку слогови има зборот 'јазикот'?",
       "OptionA": "Два",
-      "OptionB": "Три",
-      "OptionC": "Четири",
-      "OptionD": "Пет",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која од овие букви е согласка?",
-      "OptionA": "А",
-      "OptionB": "Е",
-      "OptionC": "М",
-      "OptionD": "О",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Зборот „мама“ е составен од:",
-      "OptionA": "Еден слог",
-      "OptionB": "Три слога",
-      "OptionC": "Два слога",
-      "OptionD": "Четири слога",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку букви има зборот „татко“?",
-      "OptionA": "4",
-      "OptionB": "6",
-      "OptionC": "5",
-      "OptionD": "7",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Кој глас е самогласка?",
-      "OptionA": "Б",
-      "OptionB": "В",
-      "OptionC": "У",
-      "OptionD": "Г",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Како се вика буквата „Ќ“?",
-      "OptionA": "Меко К",
-      "OptionB": "Тврдо К",
-      "OptionC": "Ќе",
-      "OptionD": "Ка",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Зборот „телевизија“ има колку слогови?",
-      "OptionA": "Четири",
-      "OptionB": "Три",
-      "OptionC": "Пет",
-      "OptionD": "Шест",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Буквата „Њ“ е:",
-      "OptionA": "Самогласка",
-      "OptionB": "Број",
-      "OptionC": "Согласка",
-      "OptionD": "Знак",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Кој од наведените зборови има само согласки и слоготворно р?",
-      "OptionA": "Рака",
-      "OptionB": "Риба",
-      "OptionC": "Трн",
-      "OptionD": "Река",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Зборот „облак“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Три",
-      "OptionC": "Два",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која буква е по буквата „П“ во азбуката?",
-      "OptionA": "О",
-      "OptionB": "С",
-      "OptionC": "Р",
-      "OptionD": "Т",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Зборот „цвеќе“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Три",
-      "OptionC": "Два",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку согласки има во зборот „јазик“?",
-      "OptionA": "Една",
-      "OptionB": "Две",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Што е „азбука“?",
-      "OptionA": "Група реченици",
-      "OptionB": "Збирка раскази",
-      "OptionC": "Систем од букви подредени по ред",
-      "OptionD": "Лист хартија",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Во зборот „рж“, носителот на слогот е гласот:",
-      "OptionA": "ж",
-      "OptionB": "нема",
-      "OptionC": "р",
-      "OptionD": "и",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која буква е пред „Б“ во азбуката?",
-      "OptionA": "В",
-      "OptionB": "Г",
-      "OptionC": "А",
-      "OptionD": "Д",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку слогови има во зборот „другарче“?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Кој глас НЕ е самогласка?",
-      "OptionA": "А",
-      "OptionB": "Е",
-      "OptionC": "С",
-      "OptionD": "И",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Зборот „прст“ има колку слогови?",
-      "OptionA": "Нула",
-      "OptionB": "Два",
-      "OptionC": "Еден",
-      "OptionD": "Три",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Како се вика македонската азбука?",
-      "OptionA": "Латиница",
-      "OptionB": "Кинеско писмо",
-      "OptionC": "Кирилица",
-      "OptionD": "Глаголица",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку слогови има зборот „план“?",
-      "OptionA": "Два",
-      "OptionB": "Три",
-      "OptionC": "Четири",
-      "OptionD": "Еден",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Што се „а, е, и, о, у“?",
-      "OptionA": "Согласки",
-      "OptionB": "Броеви",
-      "OptionC": "Знаци",
-      "OptionD": "Самогласки",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Колку слогови има зборот „интернет“?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Четири",
-      "OptionD": "Три",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Во зборот „врв“, гласот „р“ е:",
-      "OptionA": "Обична согласка",
-      "OptionB": "Нема функција",
-      "OptionC": "Нем глас",
-      "OptionD": "Носител на слог",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Кој збор е правилно поделен на слогови?",
-      "OptionA": "ли-ни-ја",
-      "OptionB": "лин-ија",
-      "OptionC": "лини-ја",
-      "OptionD": "ли-ни-ја",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Зборот „математика“ има колку слогови?",
-      "OptionA": "Три",
       "OptionB": "Четири",
-      "OptionC": "Шест",
-      "OptionD": "Пет",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која е втората буква во македонската азбука?",
-      "OptionA": "В",
-      "OptionB": "Г",
-      "OptionC": "А",
-      "OptionD": "Б",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Колку самогласки има во зборот „учи“?",
-      "OptionA": "Нула",
-      "OptionB": "Една",
       "OptionC": "Три",
-      "OptionD": "Две",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Зборот „дом“ е:",
-      "OptionA": "Двосложен",
-      "OptionB": "Трисложен",
-      "OptionC": "Повеќесложен",
-      "OptionD": "Едносложен",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Што означуваме со буквата „Г“?",
-      "OptionA": "Број",
-      "OptionB": "Знак",
-      "OptionC": "Слог",
-      "OptionD": "Глас",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Колку слогови има зборот „песна“?",
-      "OptionA": "Еден",
-      "OptionB": "Три",
-      "OptionC": "Четири",
-      "OptionD": "Два",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Кој од следниве зборови има најмногу слогови?",
-      "OptionA": "Маса",
-      "OptionB": "Стол",
-      "OptionC": "Ранец",
-      "OptionD": "Сликовница",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која буква е пред „З“ во азбука?",
-      "OptionA": "Д",
-      "OptionB": "Ѓ",
-      "OptionC": "Е",
-      "OptionD": "Ж",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Зборот „буква“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Три",
-      "OptionC": "Четири",
-      "OptionD": "Два",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Колку согласки има во зборот „перо“?",
-      "OptionA": "Нула",
-      "OptionB": "Една",
-      "OptionC": "Три",
-      "OptionD": "Две",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Во зборот „рбет“, слогот го образува:",
-      "OptionA": "б",
-      "OptionB": "е",
-      "OptionC": "т",
-      "OptionD": "р",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која е 31-та буква во азбуката?",
-      "OptionA": "Ц",
-      "OptionB": "Ч",
-      "OptionC": "Џ",
-      "OptionD": "Ш",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Колку слогови има во зборот „татковина“?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Три",
-      "OptionD": "Четири",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Буквата „Ѓ“ е:",
-      "OptionA": "Самогласка",
-      "OptionB": "Број",
-      "OptionC": "Слог",
-      "OptionD": "Согласка",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Зборот „рака“ започнува на:",
-      "OptionA": "Самогласка",
-      "OptionB": "Број",
-      "OptionC": "Слог",
-      "OptionD": "Согласка",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Колку слогови има во зборот „азбука“?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Четири",
-      "OptionD": "Три",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која буква е пред „К“?",
-      "OptionA": "Л",
-      "OptionB": "М",
-      "OptionC": "Н",
-      "OptionD": "Ј",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Зборот „слог“ има колку самогласки?",
-      "OptionA": "Две",
-      "OptionB": "Три",
-      "OptionC": "Четири",
-      "OptionD": "Една",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Како се викаат „б, в, г, д“?",
-      "OptionA": "Самогласки",
-      "OptionB": "Слогови",
-      "OptionC": "Зборови",
-      "OptionD": "Согласки",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Зборот „ученик“ има колку слогови?",
-      "OptionA": "Еден",
-      "OptionB": "Два",
-      "OptionC": "Четири",
-      "OptionD": "Три",
-      "CorrectAnswer": "OptionD"
+      "OptionD": "Еден",
+      "CorrectAnswer": "OptionC"
     }
   ]
 }

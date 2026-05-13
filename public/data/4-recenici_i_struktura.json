@@ -1,804 +1,804 @@
 ﻿{
-	"Questions": [
-		{
-			"Question": "Што претставува реченицата според учебникот?",
-			"OptionA": "Единство од зборови што имаат смисла.",
-			"OptionB": "Група на случајни зборови без значење.",
-			"OptionC": "Низа од самогласки и согласки.",
-			"OptionD": "Список на непознати поими.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Со каква буква секогаш почнува секоја реченица?",
-			"OptionA": "Со голема буква.",
-			"OptionB": "Со мала буква.",
-			"OptionC": "Со бројка.",
-			"OptionD": "Со коса буква.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој знак се става на крајот на расказна реченица?",
-			"OptionA": "Точка (.).",
-			"OptionB": "Прашалник (?).",
-			"OptionC": "Извичник (!).",
-			"OptionD": "Запирка (,).",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кога се користи прашалната реченица?",
-			"OptionA": "Кога сакаме нешто да прашаме.",
-			"OptionB": "Кога сме многу лути.",
-			"OptionC": "Кога само соопштуваме информација.",
-			"OptionD": "Кога опишуваме некое својство.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој од следниве зборови е прашален збор?",
-			"OptionA": "Зошто.",
-			"OptionB": "Брзо.",
-			"OptionC": "Црвено.",
-			"OptionD": "Трча.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој знак стои на крајот на извичната реченица?",
-			"OptionA": "Извичник (!).",
-			"OptionB": "Две точки (:).",
-			"OptionC": "Прашалник (?).",
-			"OptionD": "Точка (.).",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што се искажува со извичната реченица?",
-			"OptionA": "Радост, лутина, страв или инает.",
-			"OptionB": "Само суви факти и бројки.",
-			"OptionC": "Прашање за времето.",
-			"OptionD": "Името на некој град.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој е носителот на слогот во зборот?",
-			"OptionA": "Самогласката.",
-			"OptionB": "Согласката.",
-			"OptionC": "Интерпункцискиот знак.",
-			"OptionD": "Големата буква.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што е прирок во реченицата?",
-			"OptionA": "Дел што го означува дејството (што се прави).",
-			"OptionB": "Името на главниот лик.",
-			"OptionC": "Знак за прашање.",
-			"OptionD": "Првиот збор во реченицата.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што е подмет во реченицата?",
-			"OptionA": "Вршителот на дејството (кој го прави дејството).",
-			"OptionB": "Местото каде се случува дејството.",
-			"OptionC": "Времето кога се случило нешто.",
-			"OptionD": "Зборот што стои по точката.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Како се викаат зборовите со кои означуваме дејство?",
-			"OptionA": "Глаголи.",
-			"OptionB": "Именки.",
-			"OptionC": "Придавки.",
-			"OptionD": "Заменки.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Која од наведените е извична реченица?",
-			"OptionA": "Ме боли!",
-			"OptionB": "Како си?",
-			"OptionC": "Јас учам.",
-			"OptionD": "Денес е сонце.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што е „покана“ според учебникот?",
-			"OptionA": "Краток информативен текст за важен настан.",
-			"OptionB": "Долг расказ за војна.",
-			"OptionC": "Песна за татковината.",
-			"OptionD": "Вид на овошје.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој збор е глагол во реченицата: „Детето трча“?",
-			"OptionA": "Трча.",
-			"OptionB": "Детето.",
-			"OptionC": "Нема глагол.",
-			"OptionD": "Точката.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Како се дели зборот „маса“ на слогови?",
-			"OptionA": "ма-са.",
-			"OptionB": "м-а-с-а.",
-			"OptionC": "мас-а.",
-			"OptionD": "маса.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што се описни придавки?",
-			"OptionA": "Зборови со кои именуваме особини и својства.",
-			"OptionB": "Зборови што означуваат движење.",
-			"OptionC": "Зборови што заменуваат имиња.",
-			"OptionD": "Броеви до десет.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Која информација ТРЕБА да ја содржи една покана?",
-			"OptionA": "Кој, каде, што, кога и зошто поканува.",
-			"OptionB": "Колку тежи поканата во грамови.",
-			"OptionC": "Опис на сите планини во Македонија.",
-			"OptionD": "Рецепт за каша.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што означува зборот „промоција“?",
-			"OptionA": "Претставување на нешто во јавност.",
-			"OptionB": "Криење на информации.",
-			"OptionC": "Вид на спортска игра.",
-			"OptionD": "Готвење на ручек.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој е подмет во реченицата: „Ана чита книга“?",
-			"OptionA": "Ана.",
-			"OptionB": "Чита.",
-			"OptionC": "Книга.",
-			"OptionD": "Чита книга.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој е прирок во реченицата: „Мама погледна низ прозорецот“?",
-			"OptionA": "Погледна.",
-			"OptionB": "Мама.",
-			"OptionC": "Прозорецот.",
-			"OptionD": "Низ.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Што се „известување“?",
-			"OptionA": "Начин на пренесување информации за некој настан.",
-			"OptionB": "Лична тајна на авторот.",
-			"OptionC": "Вид на народна песна.",
-			"OptionD": "Цртеж на мапа.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Зборот „ученик“ е:",
-			"OptionA": "Именка.",
-			"OptionB": "Глагол.",
-			"OptionC": "Придавка.",
-			"OptionD": "Предлог.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој збор е придавка во „бистра планинска река“?",
-			"OptionA": "Бистра.",
-			"OptionB": "Река.",
-			"OptionC": "Си лежи.",
-			"OptionD": "Нашето.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Во кое време е глаголот „читав“?",
-			"OptionA": "Минато време.",
-			"OptionB": "Сегашно време.",
-			"OptionC": "Идно време.",
-			"OptionD": "Нема време.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Во кое време е глаголот „ќе одам“?",
-			"OptionA": "Идно време.",
-			"OptionB": "Минато време.",
-			"OptionC": "Сегашно време.",
-			"OptionD": "Далечно минато.",
-			"CorrectAnswer": "OptionA"
-		},
-		{
-			"Question": "Кој е подмет во реченицата: „Бабата ги каснала јагодите“?",
-			"OptionA": "Јагодите.",
-			"OptionB": "Бабата.",
-			"OptionC": "Каснала.",
-			"OptionD": "Ги.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Кој е прирок во реченицата: „Грнето почна да вари“?",
-			"OptionA": "Грнето.",
-			"OptionB": "Почна да вари.",
-			"OptionC": "Вари грнче.",
-			"OptionD": "Три.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Зборот „планина“ е поделен на слогови како:",
-			"OptionA": "пла-нин-а.",
-			"OptionB": "пла-ни-на.",
-			"OptionC": "п-л-а-н-и-н-а.",
-			"OptionD": "план-ина.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Именката „сонце“ е од кој род?",
-			"OptionA": "Машки род.",
-			"OptionB": "Среден род.",
-			"OptionC": "Женски род.",
-			"OptionD": "Нема род.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Именката „брег“ е од кој род?",
-			"OptionA": "Женски род.",
-			"OptionB": "Машки род.",
-			"OptionC": "Среден род.",
-			"OptionD": "Множина.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Именката „сликовница“ е од кој род?",
-			"OptionA": "Среден род.",
-			"OptionB": "Женски род.",
-			"OptionC": "Машки род.",
-			"OptionD": "Еднина.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Како гласи множината од именката „чаша“?",
-			"OptionA": "Чашот.",
-			"OptionB": "Чаши.",
-			"OptionC": "Чашиња.",
-			"OptionD": "Чашиве.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Зборот „среќа“ е каква именка?",
-			"OptionA": "Конкретна.",
-			"OptionB": "Апстрактна.",
-			"OptionC": "Сопствена.",
-			"OptionD": "Глаголска.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Зборот „телефон“ е каква именка?",
-			"OptionA": "Апстрактна.",
-			"OptionB": "Конкретна.",
-			"OptionC": "Сопствена.",
-			"OptionD": "Женска.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Која од следниве реченици е прашална?",
-			"OptionA": "Врне дожд.",
-			"OptionB": "Кога ќе одиме?",
-			"OptionC": "Оди си!",
-			"OptionD": "Колку убав ден.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Што ставаме на крајот од реченицата „Дали си подготвен“?",
-			"OptionA": "Точка.",
-			"OptionB": "Прашалник.",
-			"OptionC": "Извичник.",
-			"OptionD": "Запирка.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Кој е глагол во реченицата: „Учениците играат фудбал“?",
-			"OptionA": "Учениците.",
-			"OptionB": "Играат.",
-			"OptionC": "Фудбал.",
-			"OptionD": "На терен.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Што означуваат придавките?",
-			"OptionA": "Дејство или состојба.",
-			"OptionB": "Особина, својство или карактеристика.",
-			"OptionC": "Име на човек.",
-			"OptionD": "Повик за помош.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Во реченицата „Тој е многу вреден“, зборот „вреден“ е:",
-			"OptionA": "Именка.",
-			"OptionB": "Придавка.",
-			"OptionC": "Глагол.",
-			"OptionD": "Заменка.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Која е основната задача на подметот?",
-			"OptionA": "Да каже што се случува.",
-			"OptionB": "Да покаже кој е вршител на дејството.",
-			"OptionC": "Да ја заврши реченицата.",
-			"OptionD": "Да биде секогаш глагол.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Која е основната задача на прирокот?",
-			"OptionA": "Да каже кој е главниот лик.",
-			"OptionB": "Да каже што прави подметот.",
-			"OptionC": "Да го опише подметот со боја.",
-			"OptionD": "Да постави прашање.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Реченицата „Дојди овде веднаш!“ е:",
-			"OptionA": "Расказна.",
-			"OptionB": "Заповедна (извична).",
-			"OptionC": "Прашална.",
-			"OptionD": "Описна.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Што се користи за делење на зборовите на слогови?",
-			"OptionA": "Точка.",
-			"OptionB": "Цртичка.",
-			"OptionC": "Извичник.",
-			"OptionD": "Голема буква.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Каков вид на текст е „Кралот лав“ според најавата во учебникот?",
-			"OptionA": "Песна.",
-			"OptionB": "Филм.",
-			"OptionC": "Вежби по математика.",
-			"OptionD": "Мапа на градот.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Како се вика авторот на учебникот по Македонски јазик за 4 одделение?",
-			"OptionA": "Васил Мукаетов.",
-			"OptionB": "Јасмина Делчева-Диздаревиќ.",
-			"OptionC": "Младен Јакимовски.",
-			"OptionD": "Дејан Василевски.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Кој град е наведен како место на издавање на учебникот?",
-			"OptionA": "Охрид.",
-			"OptionB": "Скопје.",
-			"OptionC": "Битола.",
-			"OptionD": "Велес.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Зборот „врата“ има колку слогови?",
-			"OptionA": "Еден.",
-			"OptionB": "Два.",
-			"OptionC": "Три.",
-			"OptionD": "Четири.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Што треба да биде едно известување?",
-			"OptionA": "Долго и досадно.",
-			"OptionB": "Точно, јасно и кратко.",
-			"OptionC": "Напишано со тајни знаци.",
-			"OptionD": "Само на англиски јазик.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Во реченицата „Дарко пишува“, „Дарко“ е:",
-			"OptionA": "Прирок.",
-			"OptionB": "Подмет.",
-			"OptionC": "Глагол.",
-			"OptionD": "Придавка.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Глаголот „пее“ во множина, второ лице (вие) гласи:",
-			"OptionA": "Пееме.",
-			"OptionB": "Пеете.",
-			"OptionC": "Пеат.",
-			"OptionD": "Пеевте.",
-			"CorrectAnswer": "OptionB"
-		},
-		{
-			"Question": "Кој дел од зборот се изговара со едно издишување на воздухот?",
-			"OptionA": "Гласот.",
-			"OptionB": "Буквата.",
-			"OptionC": "Слогот.",
-			"OptionD": "Реченицата.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Колку слогови има зборот „тетратка“?",
-			"OptionA": "Еден.",
-			"OptionB": "Два.",
-			"OptionC": "Три.",
-			"OptionD": "Четири.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Зборот „црв“ е:",
-			"OptionA": "Повеќесложен.",
-			"OptionB": "Двосложен.",
-			"OptionC": "Едносложен.",
-			"OptionD": "Трисложен.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Која од наведените именки е во множина?",
-			"OptionA": "Училиште.",
-			"OptionB": "Ранец.",
-			"OptionC": "Списанија.",
-			"OptionD": "Молив.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Како се вика делот од реченицата што одговара на прашањето „Што прави подметот?“",
-			"OptionA": "Именка.",
-			"OptionB": "Подмет.",
-			"OptionC": "Прирок.",
-			"OptionD": "Придавка.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Кој од следните зборови е прирок во реченицата: „Ветерот силно дува“?",
-			"OptionA": "Ветерот.",
-			"OptionB": "Силно.",
-			"OptionC": "Дува.",
-			"OptionD": "Нема прирок.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Придавката „планинска“ го опишува својството на:",
-			"OptionA": "Детето.",
-			"OptionB": "Филмот.",
-			"OptionC": "Реката.",
-			"OptionD": "Гласот.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Што се сопствени именки?",
-			"OptionA": "Имиња на предмети.",
-			"OptionB": "Имиња на чувства.",
-			"OptionC": "Имиња на луѓе, градови, реки.",
-			"OptionD": "Зборови за бои.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Во реченицата „Јас учам македонски“, „Јас“ е:",
-			"OptionA": "Прирок.",
-			"OptionB": "Придавка.",
-			"OptionC": "Подмет.",
-			"OptionD": "Глагол.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Која е функцијата на прашалникот (?)?",
-			"OptionA": "Да изрази чудење.",
-			"OptionB": "Да означи крај на раскажување.",
-			"OptionC": "Да означи крај на прашање.",
-			"OptionD": "Да ги одвои зборовите.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Глаголот „работи“ во идно време е:",
-			"OptionA": "Работеше.",
-			"OptionB": "Работев.",
-			"OptionC": "Ќе работи.",
-			"OptionD": "Работиш.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Именката „радост“ е:",
-			"OptionA": "Машки род.",
-			"OptionB": "Среден род.",
-			"OptionC": "Женски род.",
-			"OptionD": "Нема род.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Зборот „библиотека“ е:",
-			"OptionA": "Едносложен.",
-			"OptionB": "Двосложен.",
-			"OptionC": "Повеќесложен.",
-			"OptionD": "Глагол.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Кој е подмет во „Сонцето силно грее“?",
-			"OptionA": "Силно.",
-			"OptionB": "Грее.",
-			"OptionC": "Сонцето.",
-			"OptionD": "Небото.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Што означува глаголот во минато време?",
-			"OptionA": "Дејство што ќе се случи.",
-			"OptionB": "Дејство што се случува сега.",
-			"OptionC": "Дејство што веќе се случило.",
-			"OptionD": "Својство на предметот.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Кој е глагол во реченицата „Тие пеат песна“?",
-			"OptionA": "Тие.",
-			"OptionB": "Песна.",
-			"OptionC": "Пеат.",
-			"OptionD": "Убаво.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Што се „општи именки“?",
-			"OptionA": "Имиња на конкретни луѓе.",
-			"OptionB": "Имиња на држави.",
-			"OptionC": "Заеднички имиња за сите предмети од ист вид.",
-			"OptionD": "Само зборови за животни.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Каков е гласот на крајот на извичната реченица?",
-			"OptionA": "Се снижува.",
-			"OptionB": "Останува ист.",
-			"OptionC": "Се извишува.",
-			"OptionD": "Шепоти.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Кој збор е подмет во „Птиците летаат на југ“?",
-			"OptionA": "Летаат.",
-			"OptionB": "Југ.",
-			"OptionC": "Птиците.",
-			"OptionD": "На.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Што значи „забошоти“ според текстот „Круг“?",
-			"OptionA": "Да врати веднаш.",
-			"OptionB": "Да поправи нешто.",
-			"OptionC": "Да задржи за себе нешто позајмено.",
-			"OptionD": "Да купи нов стрип.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Реченицата „Колку е убаво овде!“ е:",
-			"OptionA": "Расказна.",
-			"OptionB": "Прашална.",
-			"OptionC": "Извична.",
-			"OptionD": "Нецелосна.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Во поканата, каде стои потписот?",
-			"OptionA": "На почетокот.",
-			"OptionB": "Во средината.",
-			"OptionC": "На крајот.",
-			"OptionD": "На задната страна.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Каков вид е зборот „висока“ во „висока зграда“?",
-			"OptionA": "Глагол.",
-			"OptionB": "Подмет.",
-			"OptionC": "Придавка.",
-			"OptionD": "Точка.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Именката „езеро“ е од кој род?",
-			"OptionA": "Машки.",
-			"OptionB": "Женски.",
-			"OptionC": "Среден.",
-			"OptionD": "Множина.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Прирокот во реченицата најчесто е:",
-			"OptionA": "Именка.",
-			"OptionB": "Заменка.",
-			"OptionC": "Глагол.",
-			"OptionD": "Предлог.",
-			"CorrectAnswer": "OptionC"
-		},
-		{
-			"Question": "Кој збор е подмет во реченицата: „Тој замина дома“?",
-			"OptionA": "Замина.",
-			"OptionB": "Дома.",
-			"OptionC": "Нема подмет.",
-			"OptionD": "Тој.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој знак стои на крајот на оваа реченица: „Каде живееш“?",
-			"OptionA": "Точка.",
-			"OptionB": "Извичник.",
-			"OptionC": "Запирка.",
-			"OptionD": "Прашалник.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Зборот „компјутер“ е:",
-			"OptionA": "Едносложен.",
-			"OptionB": "Двосложен.",
-			"OptionC": "Придавка.",
-			"OptionD": "Трисложен.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Што се искажува со расказната реченица?",
-			"OptionA": "Прашање.",
-			"OptionB": "Силно чувство.",
-			"OptionC": "Наредба.",
-			"OptionD": "Соопштување на информација.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој збор е прирок во „Децата играат“?",
-			"OptionA": "Децата.",
-			"OptionB": "Убаво.",
-			"OptionC": "Нивните.",
-			"OptionD": "Играат.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Придавката во фразата „црвено јаболко“ е:",
-			"OptionA": "Јаболко.",
-			"OptionB": "Многу.",
-			"OptionC": "Слатко.",
-			"OptionD": "Црвено.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Именката „градови“ е во:",
-			"OptionA": "Машки род, еднина.",
-			"OptionB": "Женски род, множина.",
-			"OptionC": "Среден род, еднина.",
-			"OptionD": "Машки род, множина.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Во реченицата „Мачката спие на столот“, „Мачката“ е:",
-			"OptionA": "Прирок.",
-			"OptionB": "Глагол.",
-			"OptionC": "Придавка.",
-			"OptionD": "Подмет.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој е глагол во реченицата: „Марко ќе купи леб“?",
-			"OptionA": "Марко.",
-			"OptionB": "Леб.",
-			"OptionC": "Нов.",
-			"OptionD": "Ќе купи.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Зборот „врати“ (множина од врата) е:",
-			"OptionA": "Машки род.",
-			"OptionB": "Среден род.",
-			"OptionC": "Глагол.",
-			"OptionD": "Женски род.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Како почнува секоја правилно напишана реченица?",
-			"OptionA": "Со извичник.",
-			"OptionB": "Со мала буква.",
-			"OptionC": "Со името на авторот.",
-			"OptionD": "Со голема буква.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Прашалната реченица завршува со:",
-			"OptionA": "Точка.",
-			"OptionB": "Извичник.",
-			"OptionC": "Запирка.",
-			"OptionD": "Прашалник.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Која од наведените е именка?",
-			"OptionA": "Трча.",
-			"OptionB": "Зелено.",
-			"OptionC": "Пее.",
-			"OptionD": "Училиште.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Што е „глас“ според учебникот?",
-			"OptionA": "Најдолгиот дел од реченицата.",
-			"OptionB": "Збир од сите самогласки.",
-			"OptionC": "Вид на глагол.",
-			"OptionD": "Најмалиот дел од реченицата што може да се изговори.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој збор е прирок во „Баба ми прави колачи“?",
-			"OptionA": "Баба.",
-			"OptionB": "Ми.",
-			"OptionC": "Колачи.",
-			"OptionD": "Прави.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Што се опишува со придавката „планинска“?",
-			"OptionA": "Човек.",
-			"OptionB": "Град.",
-			"OptionC": "Животно.",
-			"OptionD": "Река.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Во реченицата „Учителката објаснува“, подмет е:",
-			"OptionA": "Објаснува.",
-			"OptionB": "Лекција.",
-			"OptionC": "Добро.",
-			"OptionD": "Учителката.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој од овие зборови е повеќесложен?",
-			"OptionA": "Црв.",
-			"OptionB": "Куќа.",
-			"OptionC": "Маса.",
-			"OptionD": "Телевизор.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Глаголот „напишав“ означува дејство во:",
-			"OptionA": "Сегашно време.",
-			"OptionB": "Идно време.",
-			"OptionC": "Неодредено време.",
-			"OptionD": "Минато време.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Реченицата „Помогни ми!“ завршува со:",
-			"OptionA": "Прашалник.",
-			"OptionB": "Точка.",
-			"OptionC": "Две точки.",
-			"OptionD": "Извичник.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој е подмет во „Малите деца се смеат“?",
-			"OptionA": "Малите.",
-			"OptionB": "Се смеат.",
-			"OptionC": "Гласно.",
-			"OptionD": "Деца.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој е прирок во „Јас пишувам домашно“?",
-			"OptionA": "Јас.",
-			"OptionB": "Домашно.",
-			"OptionC": "Сега.",
-			"OptionD": "Пишувам.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Зборот „бистра“ е:",
-			"OptionA": "Именка.",
-			"OptionB": "Глагол.",
-			"OptionC": "Подмет.",
-			"OptionD": "Придавка.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Колку самогласки мора да има во секој слог?",
-			"OptionA": "Нула.",
-			"OptionB": "Две.",
-			"OptionC": "Три.",
-			"OptionD": "Најмалку една.",
-			"CorrectAnswer": "OptionD"
-		},
-		{
-			"Question": "Кој е вршител на дејството во реченицата?",
-			"OptionA": "Прирокот.",
-			"OptionB": "Глаголот.",
-			"OptionC": "Придавката.",
-			"OptionD": "Подметот.",
-			"CorrectAnswer": "OptionD"
-		}
-	]
+  "Questions": [
+    {
+      "Question": "Со што ја искажуваме информацијата или некоја содржина?",
+      "OptionA": "Со буква.",
+      "OptionB": "Со збор.",
+      "OptionC": "Со реченица.",
+      "OptionD": "Со слог.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "При пишувањето, со каква буква почнува секоја реченица?",
+      "OptionA": "Со мала буква.",
+      "OptionB": "Со голема буква.",
+      "OptionC": "Со коса буква.",
+      "OptionD": "Со печатна буква.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои интерпункциски знаци може да стојат на крајот од реченицата?",
+      "OptionA": "Запирка, точка, прашалник.",
+      "OptionB": "Точка, прашалник, извичник.",
+      "OptionC": "Две точки, точка, заграда.",
+      "OptionD": "Цртичка, точка, извичник.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика реченицата со која само сакаме да соопштиме нешто?",
+      "OptionA": "Прашална реченица.",
+      "OptionB": "Извична реченица.",
+      "OptionC": "Расказна реченица.",
+      "OptionD": "Поттикнувачка реченица.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак се става на крајот од секоја расказна реченица?",
+      "OptionA": "Прашалник (?).",
+      "OptionB": "Точка (.).",
+      "OptionC": "Извичник (!).",
+      "OptionD": "Запирка (,).",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кога користиме прашална реченица?",
+      "OptionA": "Кога нешто соопштуваме.",
+      "OptionB": "Кога сме изненадени.",
+      "OptionC": "Кога нешто прашуваме.",
+      "OptionD": "Кога заповедаме.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак се става на крајот од прашалната реченица?",
+      "OptionA": "Точка (.).",
+      "OptionB": "Извичник (!).",
+      "OptionC": "Прашалник (?).",
+      "OptionD": "Две точки (:).",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика реченицата со која искажуваме некое чувство (радост, страв, изненадување)?",
+      "OptionA": "Расказна реченица.",
+      "OptionB": "Прашална реченица.",
+      "OptionC": "Потврдна реченица.",
+      "OptionD": "Извична реченица.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој знак се става на крајот од извичната реченица?",
+      "OptionA": "Извичник (!).",
+      "OptionB": "Точка (.).",
+      "OptionC": "Прашалник (?).",
+      "OptionD": "Запирка (,).",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од што е составена секоја реченица?",
+      "OptionA": "Од букви.",
+      "OptionB": "Од реченични членови.",
+      "OptionC": "Од наслови.",
+      "OptionD": "Од параграфи.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои се главните реченични членови?",
+      "OptionA": "Именка и придавка.",
+      "OptionB": "Подмет и прирок.",
+      "OptionC": "Глагол и заменка.",
+      "OptionD": "Предмет и околност.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува подметот во реченицата?",
+      "OptionA": "Што се работи.",
+      "OptionB": "Кој ја врши работата или за кого се зборува.",
+      "OptionC": "Каде се врши работата.",
+      "OptionD": "Времето на дејството.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кои прашања одговара подметот?",
+      "OptionA": "Каде? Кога?",
+      "OptionB": "Што? Како?",
+      "OptionC": "Кој? Што?",
+      "OptionD": "Зошто? Колку?",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што означува прирокот во реченицата?",
+      "OptionA": "Лицето што работи.",
+      "OptionB": "Она што се кажува за подметот.",
+      "OptionC": "Предметот на работа.",
+      "OptionD": "Местото на случување.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кои прашања одговара прирокот?",
+      "OptionA": "Што прави? Што се случува?",
+      "OptionB": "Кој е? Каков е?",
+      "OptionC": "Каде оди? Како е?",
+      "OptionD": "Чиј е? Колку е?",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни ја дефиницијата: При пишувањето, секоја реченица почнува со ________ буква.",
+      "OptionA": "закосена",
+      "OptionB": "мала",
+      "OptionC": "голема",
+      "OptionD": "подвлечена",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни ја дефиницијата: Ако сакаме само да соопштиме нешто, кажуваме ________ реченица.",
+      "OptionA": "извична",
+      "OptionB": "прашална",
+      "OptionC": "расказна",
+      "OptionD": "одречна",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни ја дефиницијата: Со ________ реченица искажуваме некое чувство.",
+      "OptionA": "расказна",
+      "OptionB": "извична",
+      "OptionC": "прашална",
+      "OptionD": "долга",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни ја дефиницијата: Реченичниот член што покажува кој ја врши работата се вика ________.",
+      "OptionA": "прирок",
+      "OptionB": "именка",
+      "OptionC": "подмет",
+      "OptionD": "придавка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни ја дефиницијата: Реченичниот член што покажува што се кажува за подметот се вика ________.",
+      "OptionA": "подмет",
+      "OptionB": "прирок",
+      "OptionC": "глагол",
+      "OptionD": "дополнување",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Реченицата завршува со интерпункциски знак.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај расказните",
+      "OptionD": "Само кај извичните",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Прирокот секогаш е подмет во реченицата.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Понекогаш",
+      "OptionD": "Само во прашални реченици",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Прашална реченица завршува со извичник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Понекогаш",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Реченицата е составена од реченични членови.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само долгите реченици",
+      "OptionD": "Само расказните реченици",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Подметот одговара на прашањето: Што прави?",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од глаголот",
+      "OptionD": "Само ако е животно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се става на крајот од реченицата во зависност од тоа што се искажува?",
+      "OptionA": "Голема буква.",
+      "OptionB": "Интерпункциски знаци.",
+      "OptionC": "Загради.",
+      "OptionD": "Цртички.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која реченица содржи информација?",
+      "OptionA": "Секоја реченица.",
+      "OptionB": "Ниедна реченица.",
+      "OptionC": "Само онаа со точка.",
+      "OptionD": "Само онаа со прашалник.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се викаат членовите: подмет и прирок?",
+      "OptionA": "Споредни реченични членови.",
+      "OptionB": "Главни реченични членови.",
+      "OptionC": "Неважни реченични членови.",
+      "OptionD": "Почетни реченични членови.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува членот што одговара на прашањето 'Кој?'?",
+      "OptionA": "Прирок.",
+      "OptionB": "Подмет.",
+      "OptionC": "Предмет.",
+      "OptionD": "Време.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува членот што одговара на прашањето 'Што се случува?'?",
+      "OptionA": "Подмет.",
+      "OptionB": "Прирок.",
+      "OptionC": "Место.",
+      "OptionD": "Начин.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак стои по реченицата: 'Како си'?",
+      "OptionA": "Точка.",
+      "OptionB": "Извичник.",
+      "OptionC": "Прашалник.",
+      "OptionD": "Две точки.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак стои по реченицата: 'Ура, победивме'?",
+      "OptionA": "Точка.",
+      "OptionB": "Извичник.",
+      "OptionC": "Прашалник.",
+      "OptionD": "Запирка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак стои по реченицата: 'Денес е убав ден'?",
+      "OptionA": "Извичник.",
+      "OptionB": "Точка.",
+      "OptionC": "Прашалник.",
+      "OptionD": "Коса црта.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се искажува со извичната реченица?",
+      "OptionA": "Само радост.",
+      "OptionB": "Некое чувство.",
+      "OptionC": "Само прашање.",
+      "OptionD": "Само заповед.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика подметот и прирокот со еден збор?",
+      "OptionA": "Граматика.",
+      "OptionB": "Структура на реченица.",
+      "OptionC": "Правопис.",
+      "OptionD": "Стиристика.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со реченицата искажуваме некоја _________.",
+      "OptionA": "песна",
+      "OptionB": "информација",
+      "OptionC": "буква",
+      "OptionD": "цртичка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: На крајот на секоја расказна реченица ставаме _________.",
+      "OptionA": "прашалник",
+      "OptionB": "точка",
+      "OptionC": "извичник",
+      "OptionD": "запирка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Кога нешто прашуваме, користиме _________ реченица.",
+      "OptionA": "расказна",
+      "OptionB": "прашална",
+      "OptionC": "извична",
+      "OptionD": "кратка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: На крајот од извичната реченица стои _________.",
+      "OptionA": "точка",
+      "OptionB": "извичник",
+      "OptionC": "прашалник",
+      "OptionD": "две точки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Подметот и прирокот се _________ реченични членови.",
+      "OptionA": "споредни",
+      "OptionB": "главни",
+      "OptionC": "непотребни",
+      "OptionD": "дополнителни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Секоја реченица почнува со мала буква.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во средина на текстот",
+      "OptionD": "Ако е кратка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Точка се става на крајот од расказна реченица.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само понекогаш",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Подметот покажува што се работи во реченицата.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само ако е глагол",
+      "OptionD": "Во некои случаи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Прирокот покажува што се кажува за подметот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Ако е именка",
+      "OptionD": "Само во долги реченици",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Извична реченица се користи за искажување чувства.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за страв",
+      "OptionD": "Само за радост",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како завршува секоја реченица при пишувањето?",
+      "OptionA": "Со голема буква.",
+      "OptionB": "Со интерпункциски знак.",
+      "OptionC": "Со збор.",
+      "OptionD": "Со празно место.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што искажуваме со расказна реченица?",
+      "OptionA": "Некое чувство.",
+      "OptionB": "Прашање.",
+      "OptionC": "Некое соопштение (информација).",
+      "OptionD": "Заповед.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е главниот дел во реченицата што одговара на 'Што се случува?'?",
+      "OptionA": "Подмет.",
+      "OptionB": "Прирок.",
+      "OptionC": "Предмет.",
+      "OptionD": "Придавка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој член во реченицата означува за кого се зборува?",
+      "OptionA": "Прирок.",
+      "OptionB": "Подмет.",
+      "OptionC": "Глагол.",
+      "OptionD": "Прилог.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои се најважните членови во структурата на реченицата?",
+      "OptionA": "Именки и придавки.",
+      "OptionB": "Подмет и прирок.",
+      "OptionC": "Букви и гласови.",
+      "OptionD": "Наслови и поднаслови.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак означува дека реченицата е прашална?",
+      "OptionA": "Точка.",
+      "OptionB": "Прашалник.",
+      "OptionC": "Извичник.",
+      "OptionD": "Запирка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак означува дека реченицата е извична?",
+      "OptionA": "Точка.",
+      "OptionB": "Извичник.",
+      "OptionC": "Прашалник.",
+      "OptionD": "Две точки.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се викаат сите делови од кои е составена реченицата?",
+      "OptionA": "Зборови.",
+      "OptionB": "Реченични членови.",
+      "OptionC": "Букви.",
+      "OptionD": "Слогови.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кои прашања одговара подметот во реченицата?",
+      "OptionA": "Каде? Како?",
+      "OptionB": "Кој? Што?",
+      "OptionC": "Што прави? Каде е?",
+      "OptionD": "Зошто? Кога?",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кои прашања одговара прирокот во реченицата?",
+      "OptionA": "Кој е? Што е?",
+      "OptionB": "Што прави? Што се случува?",
+      "OptionC": "Каде? Кога?",
+      "OptionD": "Каков е? Чиј е?",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Реченицата почнува со ________ буква.",
+      "OptionA": "мала",
+      "OptionB": "голема",
+      "OptionC": "подвлечена",
+      "OptionD": "ракописна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со ________ реченица само соопштуваме нешто.",
+      "OptionA": "прашална",
+      "OptionB": "расказна",
+      "OptionC": "извична",
+      "OptionD": "долга",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: На крајот од прашалната реченица се става ________.",
+      "OptionA": "точка",
+      "OptionB": "прашалник",
+      "OptionC": "извичник",
+      "OptionD": "запирка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Подметот е член што покажува кој ја ________ работата.",
+      "OptionA": "гледа",
+      "OptionB": "врши",
+      "OptionC": "сака",
+      "OptionD": "пишува",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Прирокот е член што покажува што се ________ за подметот.",
+      "OptionA": "крие",
+      "OptionB": "кажува",
+      "OptionC": "мисли",
+      "OptionD": "црта",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Реченицата е составена само од подмет.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Во некои случаи",
+      "OptionD": "Само ако е кратка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Извичник се става кај реченици со кои искажуваме чувство.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Никогаш",
+      "OptionD": "Само на почеток",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Расказната реченица завршува со прашалник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Ако е во дијалог",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Подметот одговара на прашањето 'Кој?'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за предмети",
+      "OptionD": "Понекогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Прирокот одговара на прашањето 'Што прави?'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за луѓе",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е основната единица со која искажуваме мисла или информација?",
+      "OptionA": "Збор.",
+      "OptionB": "Реченица.",
+      "OptionC": "Слог.",
+      "OptionD": "Глас.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што стои на крајот од секоја реченица?",
+      "OptionA": "Голема буква.",
+      "OptionB": "Интерпункциски знак.",
+      "OptionC": "Запирка.",
+      "OptionD": "Цртичка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која реченица завршува со знак прашалник?",
+      "OptionA": "Расказна.",
+      "OptionB": "Прашална.",
+      "OptionC": "Извична.",
+      "OptionD": "Заповедна.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која реченица завршува со извичник?",
+      "OptionA": "Расказна.",
+      "OptionB": "Извична.",
+      "OptionC": "Прашална.",
+      "OptionD": "Долга.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која реченица завршува со точка?",
+      "OptionA": "Прашална.",
+      "OptionB": "Расказна.",
+      "OptionC": "Извична.",
+      "OptionD": "Никоја.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се викаат деловите 'подмет' и 'прирок'?",
+      "OptionA": "Реченични членови.",
+      "OptionB": "Букви.",
+      "OptionC": "Слогови.",
+      "OptionD": "Зборови.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е подмет?",
+      "OptionA": "Тоа што се работи.",
+      "OptionB": "Тој што ја врши работата.",
+      "OptionC": "Местото на работата.",
+      "OptionD": "Времето на работата.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е прирок?",
+      "OptionA": "Вршителот на дејството.",
+      "OptionB": "Тоа што се кажува за подметот.",
+      "OptionC": "Описот на подметот.",
+      "OptionD": "Името на подметот.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кои прашања одговара подметот?",
+      "OptionA": "Каде? Како?",
+      "OptionB": "Кој? Што?",
+      "OptionC": "Чиј? Каков?",
+      "OptionD": "Кога? Зошто?",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кои прашања одговара прирокот?",
+      "OptionA": "Кој? Што?",
+      "OptionB": "Што прави? Што се случува?",
+      "OptionC": "Како? Каде?",
+      "OptionD": "Чиј? Кога?",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Реченицата секогаш почнува со ________.",
+      "OptionA": "мала буква",
+      "OptionB": "голема буква",
+      "OptionC": "точка",
+      "OptionD": "запирка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со расказна реченица ________ нешто.",
+      "OptionA": "прашуваме",
+      "OptionB": "соопштуваме",
+      "OptionC": "пееме",
+      "OptionD": "цртаме",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со извична реченица искажуваме ________.",
+      "OptionA": "прашање",
+      "OptionB": "чувство",
+      "OptionC": "тишина",
+      "OptionD": "број",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Подметот и прирокот се ________ делови на реченицата.",
+      "OptionA": "неважни",
+      "OptionB": "главни",
+      "OptionC": "мали",
+      "OptionD": "последна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Подметот одговара на прашањето ________.",
+      "OptionA": "Како?",
+      "OptionB": "Кој?",
+      "OptionC": "Каде?",
+      "OptionD": "Зошто?",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Речениците се делат на расказни, прашални и извични.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само на две групи",
+      "OptionD": "Ако се кратки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Точка се става на крајот од секоја реченица.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Ако е прашална",
+      "OptionD": "Ако е долга",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Подметот е реченичен член.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во поезија",
+      "OptionD": "Понекогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Прирокот е спореден реченичен член.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од реченицата",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Извична реченица завршува со извичник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Ако има прашање",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се користи за да се означи крајот на реченицата?",
+      "OptionA": "Само точка.",
+      "OptionB": "Интерпункциски знаци (., ?, !).",
+      "OptionC": "Запирка.",
+      "OptionD": "Ништо.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што искажуваме со прашална реченица?",
+      "OptionA": "Радост.",
+      "OptionB": "Прашање.",
+      "OptionC": "Соопштение.",
+      "OptionD": "Страв.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој член во реченицата покажува што се работи?",
+      "OptionA": "Подмет.",
+      "OptionB": "Прирок.",
+      "OptionC": "Именка.",
+      "OptionD": "Придавка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој член во реченицата покажува за кого се зборува?",
+      "OptionA": "Прирок.",
+      "OptionB": "Подмет.",
+      "OptionC": "Глагол.",
+      "OptionD": "Запирка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои се двете основни компоненти на реченицата?",
+      "OptionA": "Буква и глас.",
+      "OptionB": "Подмет и прирок.",
+      "OptionC": "Слог и збор.",
+      "OptionD": "Точка и запирка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак оди со расказна реченица?",
+      "OptionA": "Извичник.",
+      "OptionB": "Точка.",
+      "OptionC": "Прашалник.",
+      "OptionD": "Две точки.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак оди со прашална реченица?",
+      "OptionA": "Точка.",
+      "OptionB": "Прашалник.",
+      "OptionC": "Извичник.",
+      "OptionD": "Запирка.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак оди со извична реченица?",
+      "OptionA": "Точка.",
+      "OptionB": "Извичник.",
+      "OptionC": "Прашалник.",
+      "OptionD": "Заграда.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика структурата на реченицата?",
+      "OptionA": "Реченичен состав.",
+      "OptionB": "Структура на реченица.",
+      "OptionC": "Граматички ред.",
+      "OptionD": "Правописен знак.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се реченични членови?",
+      "OptionA": "Делови од зборот.",
+      "OptionB": "Делови од реченицата.",
+      "OptionC": "Делови од буквата.",
+      "OptionD": "Делови од книгата.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со реченицата искажуваме ________ содржина.",
+      "OptionA": "некоја",
+      "OptionB": "празна",
+      "OptionC": "тиха",
+      "OptionD": "голема",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Реченицата секогаш ________ со голема буква.",
+      "OptionA": "завршува",
+      "OptionB": "почнува",
+      "OptionC": "стои",
+      "OptionD": "мисли",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Расказна реченица завршува со ________.",
+      "OptionA": "запирка",
+      "OptionB": "точка",
+      "OptionC": "прашалник",
+      "OptionD": "извичник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Подметот покажува кој ја ________ работата.",
+      "OptionA": "гледа",
+      "OptionB": "врши",
+      "OptionC": "знае",
+      "OptionD": "сака",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Прирокот покажува што се ________ за подметот.",
+      "OptionA": "пишува",
+      "OptionB": "кажува",
+      "OptionC": "крие",
+      "OptionD": "пее",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
 }

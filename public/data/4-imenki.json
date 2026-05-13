@@ -1,804 +1,796 @@
 ﻿{
   "Questions": [
     {
-      "Question": "Што означуваат именките?",
-      "OptionA": "Битија, предмети, поими и појави.",
-      "OptionB": "Само дејства што се вршат.",
-      "OptionC": "Особини на предметите.",
-      "OptionD": "Броеви и количини.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кои се сопствени именки?",
-      "OptionA": "Имиња на луѓе, градови, планини, реки.",
-      "OptionB": "Заеднички имиња за предмети од ист вид.",
-      "OptionC": "Зборови што означуваат чувства.",
-      "OptionD": "Зборови што означуваат движење.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Како се пишуваат сопствените именки?",
-      "OptionA": "Секогаш со голема почетна буква.",
-      "OptionB": "Секогаш со мала буква.",
-      "OptionC": "Само со печатни букви.",
-      "OptionD": "Со коси букви.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која од наведените именки е сопствена?",
-      "OptionA": "Македонија",
-      "OptionB": "Држава",
-      "OptionC": "Планина",
-      "OptionD": "Езеро",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Што се општи именки?",
-      "OptionA": "Имиња на сите суштества или предмети од ист вид.",
-      "OptionB": "Имиња на конкретни личности.",
-      "OptionC": "Само имиња на празници.",
-      "OptionD": "Зборови што означуваат време.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој збор е општа именка?",
-      "OptionA": "Училиште",
-      "OptionB": "Скопје",
-      "OptionC": "Вардар",
-      "OptionD": "Марко",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Колку рода има кај именките во македонскиот јазик?",
-      "OptionA": "Три",
-      "OptionB": "Два",
-      "OptionC": "Четири",
-      "OptionD": "Еден",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој е членот за машки род во еднина?",
-      "OptionA": "-от",
-      "OptionB": "-та",
-      "OptionC": "-то",
-      "OptionD": "-те",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која именка е од женски род?",
-      "OptionA": "Книга",
-      "OptionB": "Молив",
-      "OptionC": "Дете",
-      "OptionD": "Прозорец",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Именката „татко“ е од кој род?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Среден род",
-      "OptionD": "Нема род",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кои се конкретни именки?",
-      "OptionA": "Именки за нешта што можеме да ги видиме или допреме.",
-      "OptionB": "Именки за нешта што само ги замислуваме.",
-      "OptionC": "Именки што означуваат само дејство.",
-      "OptionD": "Именки што се пишуваат само во множина.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која е конкретна именка?",
-      "OptionA": "Маса",
-      "OptionB": "Љубов",
-      "OptionC": "Радост",
-      "OptionD": "Мисла",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Што означуваат апстрактните именки?",
-      "OptionA": "Чувства, мисли и состојби.",
-      "OptionB": "Предмети направени од дрво.",
-      "OptionC": "Имиња на животни.",
-      "OptionD": "Делови од телото.",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која е апстрактна именка?",
-      "OptionA": "Среќа",
-      "OptionB": "Леб",
-      "OptionC": "Вода",
-      "OptionD": "Камен",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој е бројот на именката кога означува еден предмет?",
-      "OptionA": "Еднина",
-      "OptionB": "Множина",
-      "OptionC": "Збир",
-      "OptionD": "Двоина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој е бројот на именката „ученици“?",
-      "OptionA": "Множина",
-      "OptionB": "Еднина",
-      "OptionC": "Машки род",
-      "OptionD": "Среден род",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Како гласи множината од именката „рака“?",
-      "OptionA": "Раце",
-      "OptionB": "Раки",
-      "OptionC": "Рако",
-      "OptionD": "Раката",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој збор е во еднина?",
-      "OptionA": "Дрво",
-      "OptionB": "Дрвја",
-      "OptionC": "Дрва",
-      "OptionD": "Дрвцата",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Каков вид на именка е „Шар Планина“?",
-      "OptionA": "Сопствена",
-      "OptionB": "Општа",
-      "OptionC": "Апстрактна",
-      "OptionD": "Збирна",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој збор е именка во реченицата: „Детето трча брзо“?",
-      "OptionA": "Детето",
-      "OptionB": "Трча",
-      "OptionC": "Брзо",
-      "OptionD": "Нема именка",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Кој е родот на именката „сонце“?",
-      "OptionA": "Среден род",
-      "OptionB": "Машки род",
-      "OptionC": "Женски род",
-      "OptionD": "Заеднички род",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која од наведените именки означува предмет?",
-      "OptionA": "Стол",
-      "OptionB": "Ана",
-      "OptionC": "Пее",
-      "OptionD": "Убаво",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која именка е од машки род?",
-      "OptionA": "Брег",
-      "OptionB": "Река",
-      "OptionC": "Поле",
-      "OptionD": "Планина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која е множината на именката „град“?",
-      "OptionA": "Градови",
-      "OptionB": "Градци",
-      "OptionC": "Града",
-      "OptionD": "Градот",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која од наведените е општа именка?",
-      "OptionA": "Списание",
-      "OptionB": "Петар",
-      "OptionC": "Охрид",
-      "OptionD": "Битола",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Именката „врата“ е од кој род?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Среден род",
-      "OptionD": "Нема род",
+      "Question": "Дополни ја дефиницијата: Именките се зборови со кои се __________ лица, суштества, предмети, појави и поими.",
+      "OptionA": "Опишуваат",
+      "OptionB": "ИМЕНУВААТ",
+      "OptionC": "Групираат",
+      "OptionD": "Разликуваат",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која именка е во множина?",
-      "OptionA": "Прозорец",
-      "OptionB": "Прозорци",
-      "OptionC": "Прозорецот",
-      "OptionD": "Прозорецов",
-      "CorrectAnswer": "OptionB"
+      "Question": "Дополни: Зборови што означуваат име на нешто се викаат __________.",
+      "OptionA": "ИМЕНКИ",
+      "OptionB": "Глаголи",
+      "OptionC": "Придавки",
+      "OptionD": "Заменки",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Каков вид на именка е „пријателство“?",
-      "OptionA": "Конкретна",
-      "OptionB": "Апстрактна",
-      "OptionC": "Сопствена",
-      "OptionD": "Машка",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која од овие е сопствена именка?",
-      "OptionA": "Пес",
-      "OptionB": "Шарко",
-      "OptionC": "Мачка",
-      "OptionD": "Животно",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој е родот на именката „дете“?",
-      "OptionA": "Машки род",
-      "OptionB": "Среден род",
-      "OptionC": "Женски род",
-      "OptionD": "Неопределен род",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која именка е од машки род?",
-      "OptionA": "Табла",
-      "OptionB": "Ранец",
-      "OptionC": "Тедратка",
-      "OptionD": "Гума",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Што означува бројот кај именките?",
-      "OptionA": "Колку е голем предметот.",
-      "OptionB": "Дали станува збор за еден или повеќе предмети.",
-      "OptionC": "Бојата на предметот.",
-      "OptionD": "Местото на предметот.",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој збор е во еднина?",
-      "OptionA": "Птици",
-      "OptionB": "Птица",
-      "OptionC": "Птиците",
-      "OptionD": "Птициве",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која именка е апстрактна?",
-      "OptionA": "Облак",
-      "OptionB": "Страв",
-      "OptionC": "Дожд",
-      "OptionD": "Сонце",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Именката „Охридско Езеро“ е:",
-      "OptionA": "Општа именка",
-      "OptionB": "Сопствена именка",
-      "OptionC": "Апстрактна именка",
-      "OptionD": "Именка во множина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој е женски род од именката „лав“?",
-      "OptionA": "Лавови",
-      "OptionB": "Лавица",
-      "OptionC": "Лавче",
-      "OptionD": "Лаве",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која од следниве е конкретна именка?",
-      "OptionA": "Тага",
-      "OptionB": "Телефон",
-      "OptionC": "Идеја",
-      "OptionD": "Слобода",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Именката „цвеќе“ е од кој род?",
-      "OptionA": "Женски род",
-      "OptionB": "Среден род",
-      "OptionC": "Машки род",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која е множината на именката „син“?",
-      "OptionA": "Синот",
-      "OptionB": "Синови",
-      "OptionC": "Синовци",
-      "OptionD": "Сината",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Зборот „брат“ е во:",
-      "OptionA": "Женски род",
-      "OptionB": "Машки род",
-      "OptionC": "Среден род",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Како се викаат именките што ги чувствуваме со сетилата?",
-      "OptionA": "Апстрактни",
-      "OptionB": "Конкретни",
-      "OptionC": "Мисловни",
-      "OptionD": "Невидливи",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Именката „Европа“ е:",
-      "OptionA": "Општа именка",
-      "OptionB": "Сопствена именка",
-      "OptionC": "Заедничка именка",
-      "OptionD": "Именка во множина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој е машкиот род на именката „учителка“?",
-      "OptionA": "Училиште",
-      "OptionB": "Учител",
-      "OptionC": "Ученик",
-      "OptionD": "Учење",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која именка е во еднина?",
-      "OptionA": "Коли",
-      "OptionB": "Кола",
-      "OptionC": "Колите",
-      "OptionD": "Коливе",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој е родот на именката „село“?",
-      "OptionA": "Машки род",
-      "OptionB": "Среден род",
-      "OptionC": "Женски род",
-      "OptionD": "Заеднички род",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која од овие е општа именка?",
-      "OptionA": "Александар",
-      "OptionB": "Дете",
-      "OptionC": "Македонија",
-      "OptionD": "Вардар",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Именката „желба“ е:",
-      "OptionA": "Конкретна",
-      "OptionB": "Апстрактна",
-      "OptionC": "Сопствена",
-      "OptionD": "Машки род",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која е множината на именката „ранец“?",
-      "OptionA": "Ранеци",
-      "OptionB": "Ранци",
-      "OptionC": "Ранецот",
-      "OptionD": "Ранчиња",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Именката „улица“ е од:",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Среден род",
-      "OptionD": "Еднина машки род",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Именката „планина“ е:",
-      "OptionA": "Сопствена",
-      "OptionB": "Општа",
-      "OptionC": "Апстрактна",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој е родот на именката „маса“?",
-      "OptionA": "Машки род",
-      "OptionB": "Среден род",
-      "OptionC": "Женски род",
-      "OptionD": "Нема род",
+      "Question": "Како се дефинирани општите именки во книгата?",
+      "OptionA": "Именки што означуваат имиња на луѓе и животни.",
+      "OptionB": "Именки што означуваат нешта што не се материјални.",
+      "OptionC": "Именки што означуваат имиња на предмети или суштества кои имаат заеднички, општи карактеристики.",
+      "OptionD": "Именки што означуваат единечни предмети и суштества.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која именка е во множина?",
-      "OptionA": "Дете",
-      "OptionB": "Мајка",
-      "OptionC": "Деца",
-      "OptionD": "Татко",
+      "Question": "Која е точната дефиниција за сопствени именки според учебникот?",
+      "OptionA": "Именуваат нешта што не можат да се допрат.",
+      "OptionB": "Именки што означуваат имиња на предмети или суштества кои имаат заеднички карактеристики.",
+      "OptionC": "Именки што означуваат предмети што се материјални.",
+      "OptionD": "Именки што означуваат единечни предмети и суштества.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни ја дефиницијата: __________ именуваат предмети и суштества што можат да се допрат и кои се материјални.",
+      "OptionA": "Апстрактни именки",
+      "OptionB": "Конкретни именки",
+      "OptionC": "Сопствени именки",
+      "OptionD": "Општи именки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е дефиницијата за апстрактни именки според текстот?",
+      "OptionA": "Именуваат нешта што не можат да се допрат ниту да се видат.",
+      "OptionB": "Именуваат предмети што можат да се видат.",
+      "OptionC": "Именуваат суштества кои се материјални.",
+      "OptionD": "Именуваат географски поими.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Сопствените именки се пишуваат со голема буква.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само на почеток на реченица",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се претставува бројот на лицата, предметите и појавите од стварноста?",
+      "OptionA": "Со родот кај именките.",
+      "OptionB": "Со видот на именките.",
+      "OptionC": "Со БРОЈОТ кај именките.",
+      "OptionD": "Со големината на именките.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Каков вид на именка е „радост“?",
-      "OptionA": "Конкретна",
-      "OptionB": "Сопствена",
-      "OptionC": "Апстрактна",
-      "OptionD": "Именка во множина",
+      "Question": "Колку рода имаат именките во македонскиот јазик според учебникот?",
+      "OptionA": "Два рода: машки и женски.",
+      "OptionB": "Четири рода.",
+      "OptionC": "Еден род.",
+      "OptionD": "Три рода: машки, женски и среден.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кои два броја ги имаат именките во македонскиот јазик?",
+      "OptionA": "Еднина и двоина.",
+      "OptionB": "Множина и група.",
+      "OptionC": "Еднина и множина.",
+      "OptionD": "Машки и женски.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е машкиот род на именката „мачка“?",
-      "OptionA": "Маче",
-      "OptionB": "Мачки",
-      "OptionC": "Мачор",
-      "OptionD": "Мачиња",
+      "Question": "Именката 'Маја' припаѓа во групата на:",
+      "OptionA": "Општи именки.",
+      "OptionB": "Апстрактни именки.",
+      "OptionC": "Среден род.",
+      "OptionD": "Сопствени именки.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што означуваат сопствените именки како 'Вардар, Водно, Скопје'?",
+      "OptionA": "Географски поими.",
+      "OptionB": "Празници.",
+      "OptionC": "Институции.",
+      "OptionD": "Уметнички дела.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Именките 'љубов, воздух, среќа, тага' се конкретни именки.",
+      "OptionA": "Точно",
+      "OptionB": "Само 'воздух' е конкретна",
+      "OptionC": "Неточно",
+      "OptionD": "Зависи од контекстот",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која од наведените именки е во среден род?",
-      "OptionA": "Човек",
-      "OptionB": "Жена",
-      "OptionC": "Поле",
-      "OptionD": "Планина",
+      "Question": "Именката 'маса' според поделбата е:",
+      "OptionA": "Апстрактна именка.",
+      "OptionB": "Конкретна именка.",
+      "OptionC": "Сопствена именка.",
+      "OptionD": "Географски поим.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е сопствена именка за празник?",
+      "OptionA": "Основно училиште.",
+      "OptionB": "Нова Македонија.",
+      "OptionC": "Божиќ.",
+      "OptionD": "Камен мост.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Каков вид на именка е „река“?",
-      "OptionA": "Сопствена",
-      "OptionB": "Апстрактна",
-      "OptionC": "Општа",
-      "OptionD": "Збирна",
+      "Question": "Именката 'училиште' во примерот 'Основно училиште Јан Амос Коменски' означува:",
+      "OptionA": "Институција.",
+      "OptionB": "Географски поим.",
+      "OptionC": "Уметничко дело.",
+      "OptionD": "Појава.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Именките што означуваат предмети, географски поими и појави припаѓаат на некој РОД.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само географските поими",
+      "OptionD": "Само предметите",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Примерот 'маса – маси' во книгата го објаснува:",
+      "OptionA": "Родот кај именките.",
+      "OptionB": "Видот на именките.",
+      "OptionC": "Бројот кај именките.",
+      "OptionD": "Правописот на именките.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која е множината на именката „молив“?",
-      "OptionA": "Моливот",
-      "OptionB": "Молививе",
-      "OptionC": "Моливи",
-      "OptionD": "Моливчиња",
+      "Question": "Која од наведените именки е од женски род според примерите?",
+      "OptionA": "Молив.",
+      "OptionB": "Град.",
+      "OptionC": "Море.",
+      "OptionD": "Книга.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој од следните примери за среден род е наведен во темата?",
+      "OptionA": "Дожд.",
+      "OptionB": "Невреме.",
+      "OptionC": "Град.",
+      "OptionD": "Молив.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Именките 'Сказна за детето Вилен', 'Нова Македонија' се сопствени имиња на __________.",
+      "OptionA": "Уметнички дела, весници, емисии.",
+      "OptionB": "Географски поими.",
+      "OptionC": "Институции.",
+      "OptionD": "Објекти.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Именката 'Вардар' е пример за:",
+      "OptionA": "Општа именка.",
+      "OptionB": "Апстрактна именка.",
+      "OptionC": "Сопствена именка.",
+      "OptionD": "Среден род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е родот на именката „радост“?",
-      "OptionA": "Машки род",
-      "OptionB": "Среден род",
-      "OptionC": "Женски род",
-      "OptionD": "Нема род",
+      "Question": "Точно/Неточно: Именката 'дете' е конкретна именка бидејќи означува суштество што може да се допре.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Апстрактна е",
+      "OptionD": "Не е именка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која именка е пример за апстрактна во учебникот?",
+      "OptionA": "Вода.",
+      "OptionB": "Камен.",
+      "OptionC": "Воздух.",
+      "OptionD": "Планина.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која од овие е апстрактна именка?",
-      "OptionA": "Вода",
-      "OptionB": "Воздух",
-      "OptionC": "Мисла",
-      "OptionD": "Прашина",
+      "Question": "Именката 'Камен мост' припаѓа во категоријата:",
+      "OptionA": "Празници.",
+      "OptionB": "Институции.",
+      "OptionC": "Географски поими.",
+      "OptionD": "Имиња на објекти.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку броја имаат именките според текстот?",
+      "OptionA": "Три.",
+      "OptionB": "Еден.",
+      "OptionC": "Два.",
+      "OptionD": "Немаат број.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Именката „Скопје“ е:",
-      "OptionA": "Општа именка",
-      "OptionB": "Апстрактна именка",
-      "OptionC": "Сопствена именка",
-      "OptionD": "Именка во множина",
+      "Question": "Точно/Неточно: Кај именките што означуваат имиња на луѓе и животни лесно може да се определи на кој род припаѓаат.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај луѓето",
+      "OptionD": "Само кај животните",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Именката 'молив' е во еднина. Како гласи нејзината множина според примерот?",
+      "OptionA": "Моливче.",
+      "OptionB": "Моливи.",
+      "OptionC": "Моливот.",
+      "OptionD": "Моливите.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е сопствена именка за институција?",
+      "OptionA": "Божиќ.",
+      "OptionB": "Вардар.",
+      "OptionC": "Основно училиште „Јан Амос Коменски“.",
+      "OptionD": "Кале.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која е еднината на именката „луѓе“?",
-      "OptionA": "Луѓето",
-      "OptionB": "Човеци",
-      "OptionC": "Човек",
-      "OptionD": "Лице",
+      "Question": "Што се именува со именките 'љубов, среќа, тага'?",
+      "OptionA": "Материјални нешта.",
+      "OptionB": "Нешта што не можат да се допрат ниту да се видат.",
+      "OptionC": "Географски поими.",
+      "OptionD": "Празници.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно/Неточно: 'Вода' е пример за апстрактна именка бидејќи е течност.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Делумно точно",
+      "OptionD": "Само ако е во облак",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именките 'молив, книга, невреме' се примери за:",
+      "OptionA": "Род кај именките.",
+      "OptionB": "Број кај именките.",
+      "OptionC": "Сопствени именки.",
+      "OptionD": "Апстрактни именки.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој географски поим е наведен во примерите за сопствени именки?",
+      "OptionA": "Планина.",
+      "OptionB": "Вардар.",
+      "OptionC": "Град.",
+      "OptionD": "Река.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Именките се делат на општи и __________.",
+      "OptionA": "Конкретни.",
+      "OptionB": "Сопствени.",
+      "OptionC": "Апстрактни.",
+      "OptionD": "Заеднички.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'ресторан Букет' е пример за:",
+      "OptionA": "Име на објект.",
+      "OptionB": "Празник.",
+      "OptionC": "Географски поим.",
+      "OptionD": "Институција.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Сите именки во македонскиот јазик имаат два рода.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само машки и женски",
+      "OptionD": "Имаат три рода",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените именки е од среден род?",
+      "OptionA": "Град.",
+      "OptionB": "Море.",
+      "OptionC": "Книга.",
+      "OptionD": "Молив.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Општите именки се делат на:",
+      "OptionA": "Машки и женски.",
+      "OptionB": "Еднина и множина.",
+      "OptionC": "Конкретни и апстрактни.",
+      "OptionD": "Големи и мали.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која именка е од среден род?",
-      "OptionA": "Ученик",
-      "OptionB": "Учителка",
-      "OptionC": "Училиште",
-      "OptionD": "Училница",
+      "Question": "Која именка означува име на суштество?",
+      "OptionA": "Авион.",
+      "OptionB": "Книга.",
+      "OptionC": "Дете.",
+      "OptionD": "Семафор.",
       "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Именката 'среќа' е:",
+      "OptionA": "Конкретна именка.",
+      "OptionB": "Апстрактна именка.",
+      "OptionC": "Сопствена именка.",
+      "OptionD": "Машки род.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно/Неточно: Именката 'планина' е конкретна именка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Апстрактна е",
+      "OptionD": "Сопствена е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Каков поим е '11 Октомври' според поделбата во книгата?",
+      "OptionA": "Институција.",
+      "OptionB": "Уметничко дело.",
+      "OptionC": "Празник.",
+      "OptionD": "Објект.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Именката 'Јана' е __________ име на човек.",
+      "OptionA": "Општо",
+      "OptionB": "Сопствено",
+      "OptionC": "Апстрактно",
+      "OptionD": "Средно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е сопствена именка за животно?",
+      "OptionA": "Мачка.",
+      "OptionB": "Куче.",
+      "OptionC": "Снупи.",
+      "OptionD": "Птица.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Именката 'вода' е:",
+      "OptionA": "Конкретна именка.",
+      "OptionB": "Апстрактна именка.",
+      "OptionC": "Сопствена именка.",
+      "OptionD": "Женски род.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Општите именки се пишуваат со голема буква.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само на почеток на реченица",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionB"
     },
     {
       "Question": "Која именка означува појава?",
-      "OptionA": "Книга",
-      "OptionB": "Дете",
-      "OptionC": "Грмотевица",
-      "OptionD": "Скопје",
+      "OptionA": "Книга.",
+      "OptionB": "Ветер.",
+      "OptionC": "Улица.",
+      "OptionD": "Авион.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'Скопје' е:",
+      "OptionA": "Општа именка.",
+      "OptionB": "Апстрактна именка.",
+      "OptionC": "Сопствена именка.",
+      "OptionD": "Женски род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Што се именките според значењето?",
-      "OptionA": "Само сопствени.",
-      "OptionB": "Само општи.",
-      "OptionC": "Сопствени и општи.",
-      "OptionD": "Само машки и женски.",
+      "Question": "Каков вид именка е 'воздух'?",
+      "OptionA": "Апстрактна.",
+      "OptionB": "Конкретна.",
+      "OptionC": "Сопствена.",
+      "OptionD": "Женски род.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: 'Кале' е сопствено име на објект.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Општа именка е",
+      "OptionD": "Апстрактна именка е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Именката 'чаша' е:",
+      "OptionA": "Апстрактна именка.",
+      "OptionB": "Сопствена именка.",
+      "OptionC": "Конкретна именка.",
+      "OptionD": "Машки род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која е множината на именката „нога“?",
-      "OptionA": "Ноги",
-      "OptionB": "Ногата",
-      "OptionC": "Нозе",
-      "OptionD": "Нозете",
+      "Question": "Која од наведените е општа именка?",
+      "OptionA": "Ана.",
+      "OptionB": "Тео.",
+      "OptionC": "Дрво.",
+      "OptionD": "Вардар.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е родот на именката „небо“?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Среден род",
-      "OptionD": "Нема род",
+      "Question": "Дополни: Именките што означуваат нешта што не можат да се допрат се __________.",
+      "OptionA": "Конкретни.",
+      "OptionB": "Материјални.",
+      "OptionC": "Апстрактни.",
+      "OptionD": "Сопствени.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која од наведените именки е конкретна?",
-      "OptionA": "Среќа",
-      "OptionB": "Тага",
-      "OptionC": "Јаболко",
-      "OptionD": "Љубов",
+      "Question": "Именката 'град' е:",
+      "OptionA": "Општа именка.",
+      "OptionB": "Сопствена именка.",
+      "OptionC": "Среден род.",
+      "OptionD": "Апстрактна именка.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Именката 'море' е од машки род.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Среден род е",
+      "OptionD": "Женски род е",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се викаат зборовите со кои се именуваат појави и поими?",
+      "OptionA": "Глаголи.",
+      "OptionB": "ИМЕНКИ.",
+      "OptionC": "Придавки.",
+      "OptionD": "Заменки.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'тага' е:",
+      "OptionA": "Конкретна.",
+      "OptionB": "Апстрактна.",
+      "OptionC": "Сопствена.",
+      "OptionD": "Машки род.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој поим означува име на емисија во книгата?",
+      "OptionA": "Нова Македонија.",
+      "OptionB": "Бекстејџ.",
+      "OptionC": "Божиќ.",
+      "OptionD": "Вардар.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со __________ се пишуваат имињата на луѓе, животни и географски поими.",
+      "OptionA": "Мала буква.",
+      "OptionB": "Црвена боја.",
+      "OptionC": "Голема буква.",
+      "OptionD": "Посебен знак.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Именката „Блаже Конески“ е:",
-      "OptionA": "Општа именка",
-      "OptionB": "Апстрактна именка",
-      "OptionC": "Сопствена именка",
-      "OptionD": "Множина",
+      "Question": "Точно/Неточно: 'Водно' е сопствена именка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Општа именка е",
+      "OptionD": "Среден род е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Именката 'авион' е:",
+      "OptionA": "Апстрактна именка.",
+      "OptionB": "Сопствена именка.",
+      "OptionC": "Конкретна именка.",
+      "OptionD": "Географски поим.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која е множината на именката „срце“?",
-      "OptionA": "Срцето",
-      "OptionB": "Срцеви",
-      "OptionC": "Срца",
-      "OptionD": "Срцата",
+      "Question": "Која од наведените именки е во множина?",
+      "OptionA": "Маса.",
+      "OptionB": "Молив.",
+      "OptionC": "Маси.",
+      "OptionD": "Книга.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е женски род од именката „волк“?",
-      "OptionA": "Волци",
-      "OptionB": "Волче",
-      "OptionC": "Волчица",
-      "OptionD": "Волчи",
+      "Question": "Именката 'дожд' е:",
+      "OptionA": "Машки род.",
+      "OptionB": "Женски род.",
+      "OptionC": "Среден род.",
+      "OptionD": "Нема род.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: 'Именка' е збор што означува дејство.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во множина",
+      "OptionD": "Делумно точно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која именка е сопствено име на животно во учебникот?",
+      "OptionA": "Шарец.",
+      "OptionB": "Снупи.",
+      "OptionC": "Белка.",
+      "OptionD": "Мики.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'камен' е:",
+      "OptionA": "Апстрактна.",
+      "OptionB": "Сопствена.",
+      "OptionC": "Конкретна.",
+      "OptionD": "Женски род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Именката „време“ е од кој род?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Среден род",
-      "OptionD": "Множина",
+      "Question": "Дополни: Именката 'автомобил' е __________ именка.",
+      "OptionA": "Сопствена.",
+      "OptionB": "Општа.",
+      "OptionC": "Апстрактна.",
+      "OptionD": "Невидлива.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'невреме' е од:",
+      "OptionA": "Машки род.",
+      "OptionB": "Женски род.",
+      "OptionC": "Среден род.",
+      "OptionD": "Апстрактен род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која именка е во еднина?",
-      "OptionA": "Цвеќиња",
-      "OptionB": "Цветови",
-      "OptionC": "Цвет",
-      "OptionD": "Цветовите",
+      "Question": "Точно/Неточно: 'Вардар' е општа именка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Сопствена е",
+      "OptionD": "Женски род е",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'улица' е:",
+      "OptionA": "Женски род.",
+      "OptionB": "Машки род.",
+      "OptionC": "Среден род.",
+      "OptionD": "Сопствена именка.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од наведените именки е апстрактна според текстот?",
+      "OptionA": "Светлина.",
+      "OptionB": "Среќа.",
+      "OptionC": "Семафор.",
+      "OptionD": "Дрво.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Именката 'Ване' е:",
+      "OptionA": "Општа именка.",
+      "OptionB": "Апстрактна именка.",
+      "OptionC": "Сопствена именка.",
+      "OptionD": "Среден род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е машки род од именката „баба“?",
-      "OptionA": "Татко",
-      "OptionB": "Вујко",
-      "OptionC": "Дедо",
-      "OptionD": "Син",
+      "Question": "Точно/Неточно: Именката 'луѓе' е во еднина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Множина е",
+      "OptionD": "Машки род е",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Именките се зборови што се __________ во реченицата.",
+      "OptionA": "Глаголи",
+      "OptionB": "Користат",
+      "OptionC": "Означуваат имиња",
+      "OptionD": "ИМЕНУВААТ",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Именката 'книга' е:",
+      "OptionA": "Конкретна.",
+      "OptionB": "Апстрактна.",
+      "OptionC": "Сопствена.",
+      "OptionD": "Машки род.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Именката 'Божиќ' означува:",
+      "OptionA": "Географски поим.",
+      "OptionB": "Институција.",
+      "OptionC": "Празник.",
+      "OptionD": "Објект.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која од наведените е апстрактна именка?",
-      "OptionA": "Маса",
-      "OptionB": "Стол",
-      "OptionC": "Знаење",
-      "OptionD": "Книга",
+      "Question": "Точно/Неточно: Апстрактните именки се материјални.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само воздухот",
+      "OptionD": "Делумно точно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е родот на именката 'град'?",
+      "OptionA": "Женски.",
+      "OptionB": "Среден.",
+      "OptionC": "Машки.",
+      "OptionD": "Нема род.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е родот на именката „езеро“?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Среден род",
-      "OptionD": "Заеднички род",
+      "Question": "Именката 'Вардар' се пишува со:",
+      "OptionA": "Мала буква.",
+      "OptionB": "Голема буква.",
+      "OptionC": "Две букви.",
+      "OptionD": "Закосени букви.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која именка е од среден род во примерот?",
+      "OptionA": "Невреме.",
+      "OptionB": "Дожд.",
+      "OptionC": "Ветер.",
+      "OptionD": "Сонце.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно/Неточно: Именката 'среќа' може да се допре.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Апстрактна е",
+      "OptionD": "Конкретна е",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Именката 'чаша' е __________.",
+      "OptionA": "Апстрактна.",
+      "OptionB": "Сопствена.",
+      "OptionC": "Конкретна.",
+      "OptionD": "Жива.",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која именка е од машки род?",
-      "OptionA": "Врата",
-      "OptionB": "Прозорец",
-      "OptionC": "Слика",
-      "OptionD": "Ѕид",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'Јане' е:",
+      "OptionA": "Сопствена.",
+      "OptionB": "Општа.",
+      "OptionC": "Апстрактна.",
+      "OptionD": "Среден род.",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која именка е во множина?",
-      "OptionA": "Книга",
-      "OptionB": "Тетратка",
-      "OptionC": "Молив",
-      "OptionD": "Листови",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'молив' во множина е:",
+      "OptionA": "Моливчиња.",
+      "OptionB": "Моливи.",
+      "OptionC": "Моливот.",
+      "OptionD": "Моливите.",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која од наведените е сопствена именка?",
-      "OptionA": "Река",
-      "OptionB": "Езеро",
-      "OptionC": "Море",
-      "OptionD": "Вардар",
-      "CorrectAnswer": "OptionD"
+      "Question": "Точно/Неточно: Именката 'планина' е од женски род.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Машки род е",
+      "OptionD": "Среден род е",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Каков вид на именка е „тага“?",
-      "OptionA": "Конкретна",
-      "OptionB": "Сопствена",
-      "OptionC": "Општа машка",
-      "OptionD": "Апстрактна",
-      "CorrectAnswer": "OptionD"
+      "Question": "Кој од примерите е сопствена именка за емисија?",
+      "OptionA": "Бекстејџ.",
+      "OptionB": "Нова Македонија.",
+      "OptionC": "Божиќ.",
+      "OptionD": "Водно.",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Кој е родот на именката „море“?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Множина",
-      "OptionD": "Среден род",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'воздух' е:",
+      "OptionA": "Конкретна.",
+      "OptionB": "Апстрактна.",
+      "OptionC": "Сопствена.",
+      "OptionD": "Машки род.",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која е множината на именката „око“?",
-      "OptionA": "Окото",
-      "OptionB": "Оковци",
-      "OptionC": "Ока",
-      "OptionD": "Очи",
-      "CorrectAnswer": "OptionD"
+      "Question": "Дополни: Именките се делат на конкретни и __________.",
+      "OptionA": "Сопствени.",
+      "OptionB": "Општи.",
+      "OptionC": "Апстрактни.",
+      "OptionD": "Материјални.",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Како гласи множината од именката „уво“?",
-      "OptionA": "Увото",
-      "OptionB": "Ува",
-      "OptionC": "Увца",
-      "OptionD": "Уши",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'семафор' е:",
+      "OptionA": "Машки род.",
+      "OptionB": "Женски род.",
+      "OptionC": "Среден род.",
+      "OptionD": "Сопствена именка.",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која именка е од женски род?",
-      "OptionA": "Леб",
-      "OptionB": "Месо",
-      "OptionC": "Овошје",
-      "OptionD": "Храна",
-      "CorrectAnswer": "OptionD"
+      "Question": "Точно/Неточно: Именката 'Скопје' се пишува со голема буква.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само ако е на почеток",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која од наведените е конкретна именка?",
-      "OptionA": "Мисла",
-      "OptionB": "Идеја",
-      "OptionC": "Среќа",
-      "OptionD": "Камен",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'авион' е:",
+      "OptionA": "Општа.",
+      "OptionB": "Сопствена.",
+      "OptionC": "Апстрактна.",
+      "OptionD": "Женски род.",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Именката „Македонец“ е:",
-      "OptionA": "Апстрактна именка",
-      "OptionB": "Среден род",
-      "OptionC": "Општа именка",
-      "OptionD": "Сопствена именка",
-      "CorrectAnswer": "OptionD"
+      "Question": "Која од наведените именки е во еднина?",
+      "OptionA": "Маси.",
+      "OptionB": "Моливи.",
+      "OptionC": "Маса.",
+      "OptionD": "Луѓе.",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која именка е во еднина?",
-      "OptionA": "Празници",
-      "OptionB": "Денови",
-      "OptionC": "Месеци",
-      "OptionD": "Година",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'дете' е:",
+      "OptionA": "Машки род.",
+      "OptionB": "Женски род.",
+      "OptionC": "Среден род.",
+      "OptionD": "Апстрактна именка.",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој е родот на именката „име“?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Множина",
-      "OptionD": "Среден род",
-      "CorrectAnswer": "OptionD"
+      "Question": "Точно/Неточно: Именката 'маса' е апстрактна.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Конкретна е",
+      "OptionD": "Невидлива е",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која именка означува суштество?",
-      "OptionA": "Камен",
-      "OptionB": "Вода",
-      "OptionC": "Воздух",
-      "OptionD": "Птица",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'љубов' е:",
+      "OptionA": "Апстрактна.",
+      "OptionB": "Конкретна.",
+      "OptionC": "Сопствена.",
+      "OptionD": "Географски поим.",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Што се именките според видот?",
-      "OptionA": "Само конкретни.",
-      "OptionB": "Само апстрактни.",
-      "OptionC": "Само сопствени.",
-      "OptionD": "Конкретни и апстрактни.",
-      "CorrectAnswer": "OptionD"
+      "Question": "Дополни: Именките што именуваат единечни предмети се __________.",
+      "OptionA": "Општи.",
+      "OptionB": "Сопствени.",
+      "OptionC": "Конкретни.",
+      "OptionD": "Апстрактни.",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која е множината на именката „лист“ (од дрво)?",
-      "OptionA": "Листот",
-      "OptionB": "Листови",
-      "OptionC": "Листа",
-      "OptionD": "Лисја",
-      "CorrectAnswer": "OptionD"
+      "Question": "Именката 'Вардар' е:",
+      "OptionA": "Географски поим.",
+      "OptionB": "Институција.",
+      "OptionC": "Празник.",
+      "OptionD": "Емисија.",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Кој е машки род од именката „ќерка“?",
-      "OptionA": "Брат",
-      "OptionB": "Татко",
-      "OptionC": "Вујко",
-      "OptionD": "Син",
-      "CorrectAnswer": "OptionD"
+      "Question": "Кој е родот на именката 'книга'?",
+      "OptionA": "Машки.",
+      "OptionB": "Среден.",
+      "OptionC": "Женски.",
+      "OptionD": "Нема род.",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Именката „љубов“ е:",
-      "OptionA": "Конкретна",
-      "OptionB": "Сопствена",
-      "OptionC": "Машки род",
-      "OptionD": "Апстрактна",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која од овие е сопствена именка?",
-      "OptionA": "Град",
-      "OptionB": "Држава",
-      "OptionC": "Континент",
-      "OptionD": "Азија",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која именка е од среден род?",
-      "OptionA": "Сенка",
-      "OptionB": "Сонце",
-      "OptionC": "Зрак",
-      "OptionD": "Небо",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која е множината на именката „рамо“?",
-      "OptionA": "Рамото",
-      "OptionB": "Рама",
-      "OptionC": "Рамена",
-      "OptionD": "Рамиња",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Кој е родот на именката „дожд“?",
-      "OptionA": "Среден род",
-      "OptionB": "Женски род",
-      "OptionC": "Множина",
-      "OptionD": "Машки род",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која именка е во еднина?",
-      "OptionA": "Ѕвезди",
-      "OptionB": "Планети",
-      "OptionC": "Комети",
-      "OptionD": "Месечина",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која од наведените е апстрактна именка?",
-      "OptionA": "Парк",
-      "OptionB": "Клупа",
-      "OptionC": "Дрво",
-      "OptionD": "Мир",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Кој е родот на именката „знаење“?",
-      "OptionA": "Машки род",
-      "OptionB": "Женски род",
-      "OptionC": "Неопределен род",
-      "OptionD": "Среден род",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која е множината на именката „човек“?",
-      "OptionA": "Човеци",
-      "OptionB": "Човекот",
-      "OptionC": "Лица",
-      "OptionD": "Луѓе",
-      "CorrectAnswer": "OptionD"
+      "Question": "Точно/Неточно: Сопствените именки се ИМЕНКИ.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Глаголи се",
+      "OptionD": "Придавки се",
+      "CorrectAnswer": "OptionA"
     }
   ]
 }

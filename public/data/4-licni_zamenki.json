@@ -1,803 +1,795 @@
 ﻿{
   "Questions": [
     {
-      "Question": "Која од наведените зборови е лична заменка во еднина?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Ти",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Како гласи личната заменка за Прво лице множина?",
-      "OptionA": "Јас",
-      "OptionB": "Ние",
-      "OptionC": "Тие",
-      "OptionD": "Вие",
+      "Question": "Која е точната дефиниција за заменки според учебникот?",
+      "OptionA": "Зборови што означуваат дејство или состојба.",
+      "OptionB": "Зборови што се употребуваат за означување или за заменување на имиња за лица, предмети или појави.",
+      "OptionC": "Зборови што означуваат карактеристики на предметите.",
+      "OptionD": "Зборови што означуваат само имиња на предмети.",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која заменка се користи за трето лице еднина, машки род?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Заменката 'Таа' означува:",
-      "OptionA": "Трето лице еднина, машки род",
-      "OptionB": "Второ лице еднина",
-      "OptionC": "Прво лице множина",
-      "OptionD": "Трето лице еднина, женски род",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која лична заменка ја користиме кога зборуваме за себе?",
-      "OptionA": "Ти",
-      "OptionB": "Ние",
-      "OptionC": "Јас",
-      "OptionD": "Тој",
+      "Question": "Дополни ја дефиницијата: Личните заменки ги заменуваат _________ на лицата.",
+      "OptionA": "броевите",
+      "OptionB": "придавките",
+      "OptionC": "имињата",
+      "OptionD": "глаголите",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која заменка е во Второ лице множина?",
-      "OptionA": "Вие",
-      "OptionB": "Тие",
-      "OptionC": "Ние",
-      "OptionD": "Ти",
+      "Question": "Точно или неточно: Заменката 'јас' се користи за прво лице еднина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во множина",
+      "OptionD": "Ниту едно од наведените",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Личната заменка 'Тоа' припаѓа на:",
+      "Question": "Која лична заменка се користи за второ лице еднина?",
+      "OptionA": "Ние",
+      "OptionB": "Тие",
+      "OptionC": "Тој",
+      "OptionD": "Ти",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која заменка е во трето лице еднина, машки род?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
+      "OptionD": "Јас",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Заменката 'ние' означува прво лице множина.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Означува еднина",
+      "OptionD": "Се користи за трето лице",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Кога се обраќаме на едно лице од почит, ја користиме заменката _________.",
+      "OptionA": "Тие",
+      "OptionB": "Ние",
+      "OptionC": "Вие",
+      "OptionD": "Јас",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се пишува заменката 'Вие' при ужливо обраќање кон едно лице?",
+      "OptionA": "Со мали букви",
+      "OptionB": "Со коси букви",
+      "OptionC": "Со голема почетна буква",
+      "OptionD": "Подвлечено",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која од наведените е заменка за трето лице еднина, среден род?",
+      "OptionA": "Таа",
+      "OptionB": "Тој",
+      "OptionC": "Тоа",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која заменка одговара на примерот: '______ сум надвор и мене ми е студено'?",
+      "OptionA": "Тој",
+      "OptionB": "Ние",
+      "OptionC": "Ти",
+      "OptionD": "Јас",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 'Тие' е заменка за трето лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Означува прво лице",
+      "OptionD": "Означува женски род еднина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата 'Тебе ти се допаѓаат сите книги', која е личната заменка?",
+      "OptionA": "Сите",
+      "OptionB": "Книги",
+      "OptionC": "Допаѓаат",
+      "OptionD": "Тебе",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која форма се користи со заменката 'тој' во примерот: 'Него не ___ убедив да остане'?",
+      "OptionA": "ми",
+      "OptionB": "го",
+      "OptionC": "ја",
+      "OptionD": "ти",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Заменките 'јас, ти, тој, таа, тоа' се заменки во _________.",
+      "OptionA": "множина",
+      "OptionB": "минато време",
+      "OptionC": "еднина",
+      "OptionD": "иднина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која заменка се користи во ужливо обраќање во дијалогот со наставничката?",
+      "OptionA": "Ти",
+      "OptionB": "Вие",
+      "OptionC": "Ние",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Заменките 'ние, вие, тие' се заменки во множина.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Означуваат само машки род",
+      "OptionD": "Се користат само за предмети",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата 'Нам не ни е страв', кој збор е лична заменка?",
+      "OptionA": "Страв",
+      "OptionB": "Нам",
+      "OptionC": "Не",
+      "OptionD": "Е",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "За кој род се користи заменката 'таа'?",
       "OptionA": "Машки род",
       "OptionB": "Среден род",
       "OptionC": "Женски род",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionB"
+      "OptionD": "За сите родови",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која заменка ќе ја употребиш за група луѓе во која не си ти, а им се обраќаш директно?",
-      "OptionA": "Тие",
-      "OptionB": "Ние",
+      "Question": "Која заменка недостасува: '______ купија влезници за натпреварот'?",
+      "OptionA": "Ние",
+      "OptionB": "Вие",
       "OptionC": "Јас",
-      "OptionD": "Вие",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Дополни ја реченицата: '____ одиме во училиште.'",
-      "OptionA": "Ние",
-      "OptionB": "Јас",
-      "OptionC": "Тој",
-      "OptionD": "Таа",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која лична заменка се користи за Трето лице множина?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која од овие заменки НЕ е во еднина?",
-      "OptionA": "Јас",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Ние",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката 'Ти' е во:",
-      "OptionA": "Прво лице еднина",
-      "OptionB": "Второ лице еднина",
-      "OptionC": "Трето лице еднина",
-      "OptionD": "Второ лице множина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Со која заменка ќе го замениш името 'Марко'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
       "OptionD": "Тие",
-      "CorrectAnswer": "OptionA"
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Со која заменка ќе ги замениш имињата 'Ана и Марија'?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Таа",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка означува Прво лице еднина?",
+      "Question": "Дополни: Личната заменка за второ лице множина е _________.",
       "OptionA": "Вие",
-      "OptionB": "Ти",
+      "OptionB": "Ние",
+      "OptionC": "Тие",
+      "OptionD": "Ти",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Заменката 'мене' е форма на заменката 'ти'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во еднина",
+      "OptionD": "Само во разговорниот јазик",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е заменката во примерот: 'Вам ви зборувам'?",
+      "OptionA": "Зборувам",
+      "OptionB": "Ви",
+      "OptionC": "Вам",
+      "OptionD": "Вам и ви",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор е заменка во реченицата: 'Неа ја видов во паркот'?",
+      "OptionA": "Паркот",
+      "OptionB": "Видов",
+      "OptionC": "Неа",
+      "OptionD": "Во",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Прво лице множина е заменката _________.",
+      "OptionA": "Тие",
+      "OptionB": "Вие",
       "OptionC": "Ние",
       "OptionD": "Јас",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Личните заменки имаат три лица во еднина и множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Имаат само две лица",
+      "OptionD": "Имаат пет лица",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која заменка се користи за женски род во 3 лице еднина?",
+      "OptionA": "Тој",
+      "OptionB": "Тоа",
+      "OptionC": "Таа",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во реченицата 'Ним фудбалот им е сè', која е заменката?",
+      "OptionA": "Фудбалот",
+      "OptionB": "Сè",
+      "OptionC": "Е",
+      "OptionD": "Ним",
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Дополни: '____ сте вредни ученици.'",
-      "OptionA": "Ти",
+      "Question": "Дополни ја реченицата: 'Ти си многу интересен, _____ ти се допаѓаат сите книги'.",
+      "OptionA": "мене",
+      "OptionB": "тебе",
+      "OptionC": "нему",
+      "OptionD": "нам",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Заменката 'Вие' со голема буква се користи само за множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од глаголот",
+      "OptionD": "Секогаш е точно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка заменува 'детето' во трето лице еднина?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се вика заменувањето на имињата на лицата според учебникот?",
+      "OptionA": "Именки",
+      "OptionB": "Лични заменки",
+      "OptionC": "Придавки",
+      "OptionD": "Броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: '______ сме сами, нам не ни е страв'.",
+      "OptionA": "Тие",
       "OptionB": "Вие",
       "OptionC": "Ние",
+      "OptionD": "Јас",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 'Нас' е форма на заменката 'ние'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Означува второ лице",
+      "OptionD": "Означува еднина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е заменката во 'Вас ве баравме'?",
+      "OptionA": "Баравме",
+      "OptionB": "Ве",
+      "OptionC": "Вас",
+      "OptionD": "Вас и ве",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која заменка е во 2 лице множина?",
+      "OptionA": "Ти",
+      "OptionB": "Тие",
+      "OptionC": "Вие",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 'Тој си замина дома, ______ не го убедив'.",
+      "OptionA": "него",
+      "OptionB": "мене",
+      "OptionC": "неа",
+      "OptionD": "тебе",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Во македонскиот јазик има само три лични заменки.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има десет заменки",
+      "OptionD": "Има само множински заменки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка одговара на 'Марко и јас'?",
+      "OptionA": "Тие",
+      "OptionB": "Вие",
+      "OptionC": "Ние",
+      "OptionD": "Тој",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој збор е заменка во реченицата: 'Таа чита книга'?",
+      "OptionA": "Чита",
+      "OptionB": "Книга",
+      "OptionC": "Таа",
+      "OptionD": "Чита книга",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Трето лице множина е _________.",
+      "OptionA": "Тие",
+      "OptionB": "Вие",
+      "OptionC": "Ние",
+      "OptionD": "Тој",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Заменките за трето лице еднина се менуваат по род.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во множина",
+      "OptionD": "Само за предмети",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која форма одговара на 'ние' во реченицата: '______ ни дадоа книги'?",
+      "OptionA": "Ми",
+      "OptionB": "Ти",
+      "OptionC": "Ни",
+      "OptionD": "Го",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во реченицата 'Вие сте големи', која е заменката?",
+      "OptionA": "Сте",
+      "OptionB": "Големи",
+      "OptionC": "Вие",
+      "OptionD": "Вие сте",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Личната заменка за 1 лице еднина е _________.",
+      "OptionA": "Јас",
+      "OptionB": "Ти",
+      "OptionC": "Тој",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 'Вие' со мала буква се користи кога се обраќаме на повеќе лица.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Секогаш е со голема буква",
+      "OptionD": "Секогаш е со мала буква",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка ја користиме за 'Ана'?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
       "OptionD": "Јас",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој род е заменката 'Тој'?",
-      "OptionA": "Женски",
-      "OptionB": "Среден",
-      "OptionC": "Машки",
-      "OptionD": "Нема род",
+      "Question": "Која е заменката во: 'Ним им е сеедно'?",
+      "OptionA": "Сеедно",
+      "OptionB": "Им",
+      "OptionC": "Ним",
+      "OptionD": "Е",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која заменка е точна за 'детето'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тие",
-      "OptionD": "Тоа",
-      "CorrectAnswer": "OptionD"
+      "Question": "Дополни: Заменките ги заменуваат _________ за лица, предмети или појави.",
+      "OptionA": "дејствата",
+      "OptionB": "броевите",
+      "OptionC": "имињата",
+      "OptionD": "својствата",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Заменката 'Ние' е:",
-      "OptionA": "Прво лице множина",
-      "OptionB": "Второ лице множина",
-      "OptionC": "Трето лице множина",
-      "OptionD": "Прво лице еднина",
+      "Question": "Точно или неточно: Заменката 'ти' е во второ лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кога е со почит",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка одговара на 'Петар и Мила'?",
+      "OptionA": "Ние",
+      "OptionB": "Вие",
+      "OptionC": "Тие",
+      "OptionD": "Таа",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која заменка е употребена во: 'Јас пеам'?",
+      "OptionA": "Пеам",
+      "OptionB": "Јас",
+      "OptionC": "Ти",
+      "OptionD": "Нема заменка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Формата 'мене ми' е поврзана со заменката _________.",
+      "OptionA": "Ние",
+      "OptionB": "Ти",
+      "OptionC": "Јас",
+      "OptionD": "Тој",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Заменките 'јас' и 'ти' немаат род.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Имаат машки род",
+      "OptionD": "Имаат само множина",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која заменка се користи за обраќање кон едно лице?",
+      "Question": "Која заменка ја заменува 'прозорецот'?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во 'Нам ни рекоа', која е личната заменка?",
+      "OptionA": "Рекоа",
+      "OptionB": "Ни",
+      "OptionC": "Нам",
+      "OptionD": "Нам и ни",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Личната заменка за 2 лице еднина е _________.",
       "OptionA": "Ти",
       "OptionB": "Јас",
       "OptionC": "Вие",
-      "OptionD": "Тие",
+      "OptionD": "Тој",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која од овие заменки е во трето лице?",
-      "OptionA": "Јас",
-      "OptionB": "Ние",
-      "OptionC": "Вие",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката за Трето лице еднина среден род е:",
-      "OptionA": "Тој",
-      "OptionB": "Тоа",
-      "OptionC": "Таа",
-      "OptionD": "Ние",
+      "Question": "Точно или неточно: 'Тоа' се користи само за женски род.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за множина",
+      "OptionD": "Само за луѓе",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која заменка ја заменува именката 'книга'?",
-      "OptionA": "Тој",
-      "OptionB": "Тоа",
-      "OptionC": "Таа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Дополни: '____ цртам убава слика.'",
-      "OptionA": "Ти",
-      "OptionB": "Тој",
-      "OptionC": "Вие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која заменка е во Второ лице еднина?",
-      "OptionA": "Ти",
-      "OptionB": "Вие",
-      "OptionC": "Јас",
-      "OptionD": "Ние",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Личните заменки заменуваат:",
-      "OptionA": "Придавки",
-      "OptionB": "Глаголи",
-      "OptionC": "Лица или предмети",
-      "OptionD": "Броеви",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка е за Трето лице множина?",
-      "OptionA": "Ние",
-      "OptionB": "Тие",
-      "OptionC": "Вие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Заменката 'Вие' означува:",
-      "OptionA": "Второ лице множина",
-      "OptionB": "Прво лице множина",
-      "OptionC": "Трето лице множина",
-      "OptionD": "Второ лице еднина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која заменка е соодветна за 'татко ми'?",
+      "Question": "Која заменка одговара за 'наставникот'?",
       "OptionA": "Таа",
       "OptionB": "Тоа",
-      "OptionC": "Тие",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionD"
+      "OptionC": "Тој",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Личната заменка 'Таа' е во кој род?",
-      "OptionA": "Машки",
-      "OptionB": "Женски",
-      "OptionC": "Среден",
-      "OptionD": "Нема род",
+      "Question": "Кој збор е заменка во: 'Ние одиме'?",
+      "OptionA": "Одиме",
+      "OptionB": "Ние",
+      "OptionC": "Јас",
+      "OptionD": "Одиме во школа",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Дополни: '____ играат фудбал.'",
+      "Question": "Дополни: '____ ти реков' (за второ лице еднина).",
+      "OptionA": "Тебе",
+      "OptionB": "Мене",
+      "OptionC": "Нему",
+      "OptionD": "Нам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Заменките за трето лице еднина се 'тој, таа, тоа'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во машки род",
+      "OptionD": "Само во среден род",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која заменка се однесува на говорникот?",
+      "OptionA": "Ти",
+      "OptionB": "Тој",
+      "OptionC": "Јас",
+      "OptionD": "Вие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 'Него го знам', кој збор е заменка?",
+      "OptionA": "Знам",
+      "OptionB": "Го",
+      "OptionC": "Него",
+      "OptionD": "Него и го",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Множинската форма на 'јас' е _________.",
+      "OptionA": "Ние",
+      "OptionB": "Вие",
+      "OptionC": "Тие",
+      "OptionD": "Ти",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Во македонскиот јазик заменката 'ти' се користи за ужливо обраќање.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за наставници",
+      "OptionD": "Само во писма",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка одговара на 'децата'?",
+      "OptionA": "Ние",
+      "OptionB": "Вие",
+      "OptionC": "Тие",
+      "OptionD": "Таа",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е заменката во: 'Тој трча'?",
+      "OptionA": "Трча",
+      "OptionB": "Тој",
+      "OptionC": "Таа",
+      "OptionD": "Трча брзо",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: '______ ви кажав' (за второ лице множина).",
+      "OptionA": "Вам",
+      "OptionB": "Нам",
+      "OptionC": "Ним",
+      "OptionD": "Мене",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 'Јас' е прво лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Означува женски род",
+      "OptionD": "Секогаш е точно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка се однесува на соговорникот?",
+      "OptionA": "Јас",
+      "OptionB": "Тој",
+      "OptionC": "Ти",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 'Нас нè викаат', која е заменката?",
+      "OptionA": "Викаат",
+      "OptionB": "Нè",
+      "OptionC": "Нас",
+      "OptionD": "Нас и нè",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Множинската форма на 'ти' е _________.",
+      "OptionA": "Вие",
+      "OptionB": "Тие",
+      "OptionC": "Ние",
+      "OptionD": "Јас",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Заменката 'тоа' е во среден род.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во множина",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која заменка одговара на 'мајка ми'?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е заменката во: 'Вие учите'?",
+      "OptionA": "Учите",
+      "OptionB": "Вие",
+      "OptionC": "Ти",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: '______ им дадовме' (за трето лице множина).",
+      "OptionA": "Ним",
+      "OptionB": "Вам",
+      "OptionC": "Нам",
+      "OptionD": "Нему",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 'Ние' е прво лице еднина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Означува само машки род",
+      "OptionD": "Означува женски род",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка се користи за лице за кое се зборува (машки род)?",
+      "OptionA": "Јас",
+      "OptionB": "Ти",
+      "OptionC": "Тој",
+      "OptionD": "Таа",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во 'Мене ми велат', кој збор е заменка?",
+      "OptionA": "Велат",
+      "OptionB": "Ми",
+      "OptionC": "Мене",
+      "OptionD": "Мене и ми",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Множинската форма на 'тој' е _________.",
       "OptionA": "Тие",
       "OptionB": "Ние",
       "OptionC": "Вие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која од овие заменки е во еднина?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Тоа",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката за Прво лице еднина е:",
-      "OptionA": "Ти",
-      "OptionB": "Јас",
-      "OptionC": "Ние",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка се однесува на Второ лице множина?",
-      "OptionA": "Ти",
-      "OptionB": "Ние",
-      "OptionC": "Вие",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Со која заменка се заменува 'кучето'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Личната заменка 'Јас' е:",
-      "OptionA": "Второ лице еднина",
-      "OptionB": "Трето лице еднина",
-      "OptionC": "Прво лице множина",
-      "OptionD": "Прво лице еднина",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Дополни: '____ си мојот најдобар другар.'",
-      "OptionA": "Ти",
-      "OptionB": "Јас",
-      "OptionC": "Вие",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која заменка е Трето лице еднина женски род?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Заменката 'Ние' се користи кога зборуваме за:",
-      "OptionA": "Други луѓе",
-      "OptionB": "Себеси и уште некој",
-      "OptionC": "Само за себе",
-      "OptionD": "За лицата на кои им се обраќаме",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'сонце'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка е во Трето лице еднина машки род?",
-      "OptionA": "Јас",
-      "OptionB": "Ти",
-      "OptionC": "Тоа",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Дополни: '____ пеете прекрасно.'",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка означува Прво лице множина?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Заменката 'Ти' е во:",
-      "OptionA": "Множина",
-      "OptionB": "Трето лице",
-      "OptionC": "Второ лице еднина",
-      "OptionD": "Прво лице",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'мајка'?",
-      "OptionA": "Тој",
-      "OptionB": "Тоа",
-      "OptionC": "Тие",
       "OptionD": "Таа",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката 'Тие' е:",
-      "OptionA": "Второ лице множина",
-      "OptionB": "Трето лице множина",
-      "OptionC": "Прво лице множина",
-      "OptionD": "Трето лице еднина",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка е за Трето лице еднина среден род?",
-      "OptionA": "Тоа",
-      "OptionB": "Тој",
-      "OptionC": "Таа",
-      "OptionD": "Ние",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Дополни: '____ чита расказ.' (за девојче)",
-      "OptionA": "Тој",
-      "OptionB": "Тоа",
-      "OptionC": "Таа",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка е Прво лице еднина?",
-      "OptionA": "Ти",
-      "OptionB": "Тој",
-      "OptionC": "Ние",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Личната заменка 'Вие' се користи за:",
-      "OptionA": "Множина",
-      "OptionB": "Еднина",
-      "OptionC": "Трето лице",
-      "OptionD": "Прво лице",
+      "Question": "Точно или неточно: 'Вие' (со голема буква) е знак на почит.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за мали деца",
+      "OptionD": "Никогаш",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која заменка ја заменува именката 'прозорец'?",
+      "Question": "Која заменка одговара на 'сонцето'?",
       "OptionA": "Тој",
       "OptionB": "Таа",
       "OptionC": "Тоа",
       "OptionD": "Тие",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Заменката 'Тоа' е во кој број?",
-      "OptionA": "Множина",
-      "OptionB": "Еднина",
-      "OptionC": "И двата",
-      "OptionD": "Ниту еден",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Дополни: '____ се моите родители.'",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тие",
-      "OptionD": "Ние",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која заменка означува Второ лице множина?",
-      "OptionA": "Ние",
+      "Question": "Која е заменката во: 'Тие играат'?",
+      "OptionA": "Играат",
       "OptionB": "Тие",
       "OptionC": "Вие",
-      "OptionD": "Ти",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Заменката 'Јас' е секогаш во:",
-      "OptionA": "Прво лице",
-      "OptionB": "Второ лице",
-      "OptionC": "Трето лице",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'село'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Ние",
-      "OptionD": "Тоа",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката 'Ти' се користи за:",
-      "OptionA": "Трето лице",
-      "OptionB": "Второ лице еднина",
-      "OptionC": "Прво лице множина",
-      "OptionD": "Второ лице множина",
+      "OptionD": "Играат фудбал",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која од овие заменки означува род?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
+      "Question": "Дополни: 'Неа ___ видов' (за женски род еднина).",
+      "OptionA": "ја",
+      "OptionB": "го",
+      "OptionC": "им",
+      "OptionD": "ми",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 'Тие' е второ лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Означува женски род",
+      "OptionD": "Означува среден род",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка се користи за лице за кое се зборува (женски род)?",
+      "OptionA": "Таа",
+      "OptionB": "Тој",
+      "OptionC": "Тоа",
+      "OptionD": "Ти",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во 'Вас ве повикаа', која е заменката?",
+      "OptionA": "Повикаа",
+      "OptionB": "Ве",
+      "OptionC": "Вас",
+      "OptionD": "Вас и ве",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Множинската форма на 'таа' е _________.",
+      "OptionA": "Тие",
+      "OptionB": "Ние",
+      "OptionC": "Вие",
+      "OptionD": "Тој",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 'Нам' е исто што и 'мене'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во еднина",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка одговара на 'татко ми'?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е заменката во: 'Ти слушаш'?",
+      "OptionA": "Слушаш",
+      "OptionB": "Ти",
+      "OptionC": "Јас",
+      "OptionD": "Слушаш музика",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 'Нас ___ чекаат' (за прво лице множина).",
+      "OptionA": "нè",
+      "OptionB": "ве",
+      "OptionC": "ги",
+      "OptionD": "ја",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 'Вие' е прво лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Означува само женски род",
+      "OptionD": "Означува машки род",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка се користи за предмет во трето лице еднина?",
+      "OptionA": "Тоа",
+      "OptionB": "Таа",
       "OptionC": "Тој",
       "OptionD": "Тие",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во 'Нив ги видовме', кој збор е заменка?",
+      "OptionA": "Видовме",
+      "OptionB": "Ги",
+      "OptionC": "Нив",
+      "OptionD": "Нив и ги",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Дополни: '____ сакаме сладолед.'",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Јас",
+      "Question": "Дополни: Множинската форма на 'тоа' е _________.",
+      "OptionA": "Тие",
+      "OptionB": "Ние",
+      "OptionC": "Вие",
+      "OptionD": "Тој",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која заменка е Трето лице еднина женски род?",
-      "OptionA": "Таа",
-      "OptionB": "Тој",
-      "OptionC": "Тоа",
-      "OptionD": "Ние",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Заменката 'Тие' заменува:",
-      "OptionA": "Едно лице",
-      "OptionB": "Две или повеќе лица",
-      "OptionC": "Само себеси",
-      "OptionD": "Лицето на кое му зборуваме",
+      "Question": "Точно или неточно: 'Тебе' е исто што и 'вас'.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во множина",
+      "OptionD": "Никогаш",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која заменка е во Второ лице множина?",
-      "OptionA": "Ти",
-      "OptionB": "Ние",
-      "OptionC": "Вие",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Со која заменка се заменува 'моливот'?",
+      "Question": "Која заменка одговара на 'кучето'?",
       "OptionA": "Тој",
       "OptionB": "Таа",
       "OptionC": "Тоа",
       "OptionD": "Тие",
-      "CorrectAnswer": "OptionA"
+      "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Дополни: '____ пишуваш домашна.'",
-      "OptionA": "Јас",
+      "Question": "Која е заменката во: 'Тој пишува'?",
+      "OptionA": "Пишува",
       "OptionB": "Тој",
       "OptionC": "Таа",
-      "OptionD": "Ти",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката 'Тоа' е:",
-      "OptionA": "Трето лице еднина среден род",
-      "OptionB": "Трето лице еднина машки род",
-      "OptionC": "Трето лице еднина женски род",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која заменка е Прво лице множина?",
-      "OptionA": "Јас",
-      "OptionB": "Ние",
-      "OptionC": "Вие",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'цвеќе'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Заменката 'Јас' е во број:",
-      "OptionA": "Еднина",
-      "OptionB": "Множина",
-      "OptionC": "И двата",
-      "OptionD": "Ниту еден",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Дополни: '____ оди на пазар.' (за машко)",
-      "OptionA": "Таа",
-      "OptionB": "Тој",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка означува Трето лице множина?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Заменката 'Вие' е во:",
-      "OptionA": "Прво лице",
-      "OptionB": "Второ лице еднина",
-      "OptionC": "Трето лице",
-      "OptionD": "Второ лице множина",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'наставничка'?",
-      "OptionA": "Таа",
-      "OptionB": "Тој",
-      "OptionC": "Тоа",
-      "OptionD": "Вие",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Личната заменка 'Ти' е во број:",
-      "OptionA": "Множина",
-      "OptionB": "Еднина",
-      "OptionC": "Нема број",
-      "OptionD": "Среден",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Дополни: '____ гледате телевизија.'",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Јас",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка е Трето лице еднина машки род?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Заменката 'Ние' е во број:",
-      "OptionA": "Еднина",
-      "OptionB": "Среден",
-      "OptionC": "Множина",
-      "OptionD": "Машки",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'училиште'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Дополни: '____ трчаат во паркот.'",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Ти",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката 'Јас' се однесува на:",
-      "OptionA": "Говорникот",
-      "OptionB": "Слушателот",
-      "OptionC": "Некој друг",
-      "OptionD": "Повеќе луѓе",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која заменка означува Второ лице еднина?",
-      "OptionA": "Ти",
-      "OptionB": "Јас",
-      "OptionC": "Вие",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Заменката 'Таа' е во број:",
-      "OptionA": "Множина",
-      "OptionB": "Еднина",
-      "OptionC": "Машки",
-      "OptionD": "Среден",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'автомобил'?",
-      "OptionA": "Таа",
-      "OptionB": "Тој",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Дополни: '____ учам македонски јазик.'",
-      "OptionA": "Ти",
-      "OptionB": "Тој",
-      "OptionC": "Јас",
-      "OptionD": "Ние",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Заменката 'Тие' е во лице:",
-      "OptionA": "Прво лице",
-      "OptionB": "Второ лице",
-      "OptionC": "Трето лице",
-      "OptionD": "Нема лице",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка е Трето лице еднина среден род?",
-      "OptionA": "Тој",
-      "OptionB": "Тоа",
-      "OptionC": "Таа",
-      "OptionD": "Ние",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Со која заменка се заменува 'баба ми'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Ние",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Заменката 'Вие' е секогаш во:",
-      "OptionA": "Множина",
-      "OptionB": "Еднина",
-      "OptionC": "Прво лице",
-      "OptionD": "Трето лице",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Дополни: '____ ќе дојдеме кај вас.'",
-      "OptionA": "Јас",
-      "OptionB": "Ние",
-      "OptionC": "Тие",
-      "OptionD": "Вие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'небо'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тие",
-      "OptionD": "Тоа",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Заменката 'Тој' означува лице кое е:",
-      "OptionA": "Говорник",
-      "OptionB": "Слушател",
-      "OptionC": "Отсутно или за кое се зборува",
-      "OptionD": "Група луѓе",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка е Второ лице еднина?",
-      "OptionA": "Јас",
-      "OptionB": "Ти",
-      "OptionC": "Ние",
-      "OptionD": "Вие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Личната заменка 'Ние' е:",
-      "OptionA": "Прво лице множина",
-      "OptionB": "Прво лице еднина",
-      "OptionC": "Второ лице множина",
-      "OptionD": "Трето лице множина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Дополни: '____ сте моите пријатели.'",
-      "OptionA": "Ние",
-      "OptionB": "Тие",
-      "OptionC": "Вие",
-      "OptionD": "Ти",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која заменка ја заменува именката 'врата'?",
-      "OptionA": "Тој",
-      "OptionB": "Таа",
-      "OptionC": "Тоа",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Заменката 'Ти' се однесува на:",
-      "OptionA": "Лицето на кое му зборуваме",
-      "OptionB": "Лицето кое зборува",
-      "OptionC": "Некое трето лице",
-      "OptionD": "Група луѓе",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Која заменка е Трето лице множина?",
-      "OptionA": "Ние",
-      "OptionB": "Вие",
-      "OptionC": "Тие",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Заменката 'Јас' заменува:",
-      "OptionA": "Име на говорникот",
-      "OptionB": "Име на слушателот",
-      "OptionC": "Предмет",
-      "OptionD": "Множина",
-      "CorrectAnswer": "OptionA"
-    },
-    {
-      "Question": "Дополни: '____ патува со воз.' (за машко)",
-      "OptionA": "Таа",
-      "OptionB": "Тоа",
-      "OptionC": "Тие",
-      "OptionD": "Тој",
-      "CorrectAnswer": "OptionD"
-    },
-    {
-      "Question": "Која заменка е Прво лице множина?",
-      "OptionA": "Јас",
-      "OptionB": "Ние",
-      "OptionC": "Ти",
-      "OptionD": "Тие",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Заменката 'Вие' е во број:",
-      "OptionA": "Еднина",
-      "OptionB": "Множина",
-      "OptionC": "Среден",
-      "OptionD": "Нема број",
+      "OptionD": "Пишува домашна",
       "CorrectAnswer": "OptionB"
     }
   ]
