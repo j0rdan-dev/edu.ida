@@ -440,6 +440,14 @@ export const grades: Grade[] = [
             color: "46 68% 40%",
           },
           {
+            id: "struktura-imenki-zamenki-glagoli-pridavki-4",
+            label: "Структура на реченица, именки, лични заменки, глаголи и придавки",
+            description: "Повеќе теми",
+            file: `${import.meta.env.BASE_URL}data/4-struktura_imenki_zamenki_glagoli_pridavki.json`,
+            icon: BookOpen,
+            color: "60 80% 40%",
+          },
+          {
             id: "interpunkciski-znaci-4",
             label: "Интерпункциски знаци",
             description: "Цела тема",

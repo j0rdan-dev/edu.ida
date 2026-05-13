@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Дополни ја дефиницијата: Именките се зборови со кои се __________ лица, суштества, предмети, појави и поими.",
+      "OptionA": "Опишуваат",
+      "OptionB": "ИМЕНУВААТ",
+      "OptionC": "Бројат",
+      "OptionD": "Покажуваат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кои именки означуваат имиња на предмети или суштества кои имаат заеднички карактеристики?",
+      "OptionA": "Општи именки",
+      "OptionB": "Сопствени именки",
+      "OptionC": "Апстрактни именки",
+      "OptionD": "Збирни именки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Сопствените именки се пишуваат со голема буква.",
+      "OptionA": "Неточно",
+      "OptionB": "Зависи од реченицата",
+      "OptionC": "Точно",
+      "OptionD": "Само на почеток на реченица",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се викаат именките што именуваат нешта што не можат да се допрат ниту да се видат?",
+      "OptionA": "Конкретни именки",
+      "OptionB": "Општи именки",
+      "OptionC": "Сопствени именки",
+      "OptionD": "Апстрактни именки",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која од наведените именки е конкретна?",
+      "OptionA": "Маса",
+      "OptionB": "Љубов",
+      "OptionC": "Среќа",
+      "OptionD": "Тага",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е точниот род на именката 'книга'?",
+      "OptionA": "Машки род",
+      "OptionB": "Женски род",
+      "OptionC": "Среден род",
+      "OptionD": "Нема род",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Именките во македонскиот јазик имаат два броја: еднина и __________.",
+      "OptionA": "Множина",
+      "OptionB": "Двоина",
+      "OptionC": "Троина",
+      "OptionD": "Големина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од следните е сопствена именка за географски поим?",
+      "OptionA": "Река",
+      "OptionB": "Скопје",
+      "OptionC": "Планина",
+      "OptionD": "Град",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Именката 'дете' е од среден род.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Машки род е",
+      "OptionD": "Женски род е",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените именки е апстрактна?",
+      "OptionA": "Вода",
+      "OptionB": "Камен",
+      "OptionC": "Воздух",
+      "OptionD": "Сонце",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се придавките според книгата?",
+      "OptionA": "Зборови за дејство",
+      "OptionB": "Зборови со кои се именуваат лица",
+      "OptionC": "Зборови со кои опишуваме особина, својство или карактеристика",
+      "OptionD": "Зборови што заменуваат имиња",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се викаат придавките што означуваат карактеристика на предметот (пр. 'мала количка')?",
+      "OptionA": "Сопствени придавки",
+      "OptionB": "Описни придавки",
+      "OptionC": "Бројни придавки",
+      "OptionD": "Заменски придавки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со __________ придавки се означува некоја карактеристика на предметот или суштеството.",
+      "OptionA": "Описните",
+      "OptionB": "Општите",
+      "OptionC": "Личните",
+      "OptionD": "Глаголските",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Зборот 'високата' во реченицата 'Високата зелена топола' е придавка.",
+      "OptionA": "Неточно",
+      "OptionB": "Глагол е",
+      "OptionC": "Именка е",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој збор е придавка во фразата 'жешкото сонце'?",
+      "OptionA": "Сонце",
+      "OptionB": "Жешкото",
+      "OptionC": "И двата",
+      "OptionD": "Ниеден",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавките се менуваат по род и број во согласност со:",
+      "OptionA": "Глаголот",
+      "OptionB": "Заменката",
+      "OptionC": "Именката до која стојат",
+      "OptionD": "Интерпункцијата",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 'Умно дете' е пример каде 'умно' е описна придавка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Умно е именка",
+      "OptionD": "Дете е придавка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата 'Маја има меко мало мече', колку придавки има?",
+      "OptionA": "Една",
+      "OptionB": "Две",
+      "OptionC": "Три",
+      "OptionD": "Ниедна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Придавката 'кафена' се однесува на кој род?",
+      "OptionA": "Машки",
+      "OptionB": "Среден",
+      "OptionC": "Женски",
+      "OptionD": "Нема род",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Каков вид збор е 'страшната'?",
+      "OptionA": "Именка",
+      "OptionB": "Придавка",
+      "OptionC": "Глагол",
+      "OptionD": "Заменка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се нарекуваат зборовите што означуваат или посочуваат лица, суштества, предмети и појави?",
+      "OptionA": "Придавки",
+      "OptionB": "Глаголи",
+      "OptionC": "Заменки",
+      "OptionD": "Именки",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Заменките што обично означуваат или посочуваат лица се викаат:",
+      "OptionA": "Општи заменки",
+      "OptionB": "Лични заменки",
+      "OptionC": "Сопствени заменки",
+      "OptionD": "Показни заменки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е личната заменка за 1. лице еднина?",
+      "OptionA": "Ти",
+      "OptionB": "Тој",
+      "OptionC": "Ние",
+      "OptionD": "Јас",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е личната заменка за 2. лице множина?",
+      "OptionA": "Вие",
+      "OptionB": "Тие",
+      "OptionC": "Ние",
+      "OptionD": "Ти",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Личните заменки 'јас, ти, тој' се во еднина.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само 'јас' е еднина",
+      "OptionD": "Тие се множина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е кратката форма на личната заменка 'мене'(за индиректен предмет)?",
+      "OptionA": "Ме",
+      "OptionB": "Ми",
+      "OptionC": "Те",
+      "OptionD": "Му",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Личните заменки во македонскиот јазик имаат кратки и __________ форми.",
+      "OptionA": "Тешки",
+      "OptionB": "Брзи",
+      "OptionC": "Долги",
+      "OptionD": "Широки",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која заменка се користи за 3. лице множина?",
+      "OptionA": "Ние",
+      "OptionB": "Вие",
+      "OptionC": "Ти",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 'Ние' е лична заменка за 1. лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тоа е 2. лице",
+      "OptionD": "Тоа е еднина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата 'Ти си добар другар', која е личната заменка?",
+      "OptionA": "Добар",
+      "OptionB": "Другар",
+      "OptionC": "Ти",
+      "OptionD": "Си",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се глаголи според учебникот?",
+      "OptionA": "Зборови за именување лица",
+      "OptionB": "Зборови со кои е изразено дејството или работата",
+      "OptionC": "Зборови за опис на предмети",
+      "OptionD": "Интерпункциски знаци",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од следните зборови е глагол?",
+      "OptionA": "Работник",
+      "OptionB": "Работилница",
+      "OptionC": "Работи",
+      "OptionD": "Работа",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Глаголите се менуваат по лица. Колку лица разликуваме во говорната ситуација?",
+      "OptionA": "Едно",
+      "OptionB": "Две",
+      "OptionC": "Три",
+      "OptionD": "Четири",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Дејството може да се врши сега, во минатото или во __________.",
+      "OptionA": "Сонот",
+      "OptionB": "Иднина",
+      "OptionC": "Книгата",
+      "OptionD": "Просторот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во кое лице е глаголот во реченицата 'Јас гледам филм'?",
+      "OptionA": "Прво лице еднина",
+      "OptionB": "Второ лице еднина",
+      "OptionC": "Трето лице еднина",
+      "OptionD": "Прво лице множина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Глаголот 'пишуваат' е во 3. лице множина.",
+      "OptionA": "Неточно",
+      "OptionB": "Тоа е 1. лице",
+      "OptionC": "Точно",
+      "OptionD": "Тоа е еднина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кое време е изразено во реченицата 'Вчера читав два часа'?",
+      "OptionA": "Сегашно време",
+      "OptionB": "Минато време",
+      "OptionC": "Идно време",
+      "OptionD": "Неопределено време",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која честичка се користи за образување идно време кај глаголите?",
+      "OptionA": "Да",
+      "OptionB": "Не",
+      "OptionC": "Би",
+      "OptionD": "Ќе",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Глаголот 'пее' е во сегашно време.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Минато е",
+      "OptionD": "Идно е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата 'Вие гледате', глаголот е во кое лице?",
+      "OptionA": "2. лице еднина",
+      "OptionB": "1. лице множина",
+      "OptionC": "2. лице множина",
+      "OptionD": "3. лице множина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што искажуваме со реченицата според учебникот?",
+      "OptionA": "Само зборови",
+      "OptionB": "Некоја информација или содржина",
+      "OptionC": "Само имиња",
+      "OptionD": "Букви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика делот од реченицата со кој се изразува кој го врши дејството?",
+      "OptionA": "Прирок",
+      "OptionB": "Дополнување",
+      "OptionC": "Подмет",
+      "OptionD": "Придавка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што претставува ПРИРОКОТ во реченицата?",
+      "OptionA": "Вршителот на дејството",
+      "OptionB": "Дејството што се врши",
+      "OptionC": "Името на лицето",
+      "OptionD": "Особината на предметот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој член на реченицата се смета за 'создавачки член'?",
+      "OptionA": "Подметот",
+      "OptionB": "Прирокот (глаголот)",
+      "OptionC": "Точката",
+      "OptionD": "Големата буква",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата 'Андреј игра на игралиште', кој е подметот?",
+      "OptionA": "Игра",
+      "OptionB": "На игралиште",
+      "OptionC": "Андреј",
+      "OptionD": "Нема подмет",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во реченицата 'Мачето избега низ прозорецот', кој е прирокот?",
+      "OptionA": "Мачето",
+      "OptionB": "Избега",
+      "OptionC": "Низ прозорецот",
+      "OptionD": "Прозорецот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Секоја реченица мора да има глагол за да се разбере.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ако е долга",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој интерпункциски знак стои на крајот од прашална реченица?",
+      "OptionA": "Точка",
+      "OptionB": "Извичник",
+      "OptionC": "Прашалник",
+      "OptionD": "Запирка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кога користиме ИЗВИЧНИК на крајот од реченицата?",
+      "OptionA": "Кога прашуваме нешто",
+      "OptionB": "Кога изразуваме изненадување, радост или страв",
+      "OptionC": "Само на крајот од расказ",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Вториот главен член на реченицата е __________ или оној што го врши дејството.",
+      "OptionA": "Прирокот",
+      "OptionB": "Подметот",
+      "OptionC": "Придавката",
+      "OptionD": "Заменката",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е сопствена именка за институција?",
+      "OptionA": "Училиште",
+      "OptionB": "ОУ „Јан Амос Коменски“",
+      "OptionC": "Зграда",
+      "OptionD": "Болница",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е множината од именката 'маса'?",
+      "OptionA": "Масата",
+      "OptionB": "Маси",
+      "OptionC": "Масичка",
+      "OptionD": "Масовно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е еднината од именката 'моливи'?",
+      "OptionA": "Молив",
+      "OptionB": "Моливче",
+      "OptionC": "Моливот",
+      "OptionD": "Моливира",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Именката 'љубов' е конкретна именка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Материјална е",
+      "OptionD": "Се допира",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означуваат сопствените именки?",
+      "OptionA": "Општи карактеристики",
+      "OptionB": "Единечни предмети и суштества",
+      "OptionC": "Само животни",
+      "OptionD": "Само предмети",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој род е именката 'море'?",
+      "OptionA": "Машки род",
+      "OptionB": "Женски род",
+      "OptionC": "Среден род",
+      "OptionD": "Нема род",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Именките што именуваат предмети што можат да се допрат се __________.",
+      "OptionA": "Конкретни",
+      "OptionB": "Апстрактни",
+      "OptionC": "Општи",
+      "OptionD": "Сопствени",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Именката 'празник' е:",
+      "OptionA": "Општа именка",
+      "OptionB": "Сопствена именка",
+      "OptionC": "Апстрактна именка",
+      "OptionD": "Глагол",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се пишуваат имињата на весниците (пр. 'Нова Македонија')?",
+      "OptionA": "Со мала буква",
+      "OptionB": "Со голема буква",
+      "OptionC": "Само првиот збор",
+      "OptionD": "По желба",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е сопствена именка?",
+      "OptionA": "Град",
+      "OptionB": "Вардар",
+      "OptionC": "Река",
+      "OptionD": "Езеро",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка одговара на именката 'орев'?",
+      "OptionA": "Бистра",
+      "OptionB": "Кршлив",
+      "OptionC": "Топло",
+      "OptionD": "Умно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 'Црна птица' е пример за описна придавка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Птица е придавка",
+      "OptionD": "Црна е именка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој збор е придавка во 'мала количка'?",
+      "OptionA": "Количка",
+      "OptionB": "Мала",
+      "OptionC": "И двата",
+      "OptionD": "Ниеден",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со придавките го __________ предметот или појавата.",
+      "OptionA": "Јадеме",
+      "OptionB": "Опишуваме",
+      "OptionC": "Бришеме",
+      "OptionD": "Фрламе",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која придавка ја опишува именката 'река' во песната 'Село'?",
+      "OptionA": "Бистра",
+      "OptionB": "Широко",
+      "OptionC": "Бела",
+      "OptionD": "Ново",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Придавката 'ниска' е во кој род?",
+      "OptionA": "Машки",
+      "OptionB": "Среден",
+      "OptionC": "Женски",
+      "OptionD": "Нема род",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што означува придавката 'шарена' кај именката 'топка'?",
+      "OptionA": "Број",
+      "OptionB": "Вршител",
+      "OptionC": "Особина/карактеристика",
+      "OptionD": "Дејство",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во реченицата 'Стево чита интересни приказни', која е придавката?",
+      "OptionA": "Стево",
+      "OptionB": "Чита",
+      "OptionC": "Интересни",
+      "OptionD": "Приказни",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Придавките секогаш стојат до глаголи.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во прашања",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е придавка?",
+      "OptionA": "Убаво",
+      "OptionB": "Дете",
+      "OptionC": "Пее",
+      "OptionD": "Тој",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е заменката за 3. лице еднина (машки род)?",
+      "OptionA": "Таа",
+      "OptionB": "Тоа",
+      "OptionC": "Тој",
+      "OptionD": "Тие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е заменката за 3. лице еднина (среден род)?",
+      "OptionA": "Тој",
+      "OptionB": "Таа",
+      "OptionC": "Тоа",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Личните заменки заменуваат:",
+      "OptionA": "Глаголи",
+      "OptionB": "Имиња на лица, суштества, предмети",
+      "OptionC": "Точки и запирки",
+      "OptionD": "Само броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е кратката форма на заменката 'тебе'?",
+      "OptionA": "Ти",
+      "OptionB": "Те",
+      "OptionC": "Ми",
+      "OptionD": "Ме",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е кратката форма на заменката 'него'?",
+      "OptionA": "Го",
+      "OptionB": "Ја",
+      "OptionC": "Му",
+      "OptionD": "Ѝ",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во реченицата 'Ние сме добри во навивање', која е личната заменка?",
+      "OptionA": "Добри",
+      "OptionB": "Навивање",
+      "OptionC": "Ние",
+      "OptionD": "Сме",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 'Вие' е заменка за 2. лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Еднина е",
+      "OptionD": "3. лице е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика заменката за 1. лице множина?",
+      "OptionA": "Јас",
+      "OptionB": "Тие",
+      "OptionC": "Ние",
+      "OptionD": "Вие",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е долгата форма за 1. лице множина?",
+      "OptionA": "Вам",
+      "OptionB": "Нам",
+      "OptionC": "Ним",
+      "OptionD": "Нив",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која заменка ја користиме кога се обраќаме на наставничка (од почит)?",
+      "OptionA": "Ти",
+      "OptionB": "Вие",
+      "OptionC": "Таа",
+      "OptionD": "Ние",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Глаголот 'плива' е во кое лице?",
+      "OptionA": "1. лице еднина",
+      "OptionB": "2. лице еднина",
+      "OptionC": "3. лице еднина",
+      "OptionD": "1. лице множина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како гласи глаголот 'јаде' во 1. лице еднина, минато време?",
+      "OptionA": "Јадам",
+      "OptionB": "Јадев",
+      "OptionC": "Ќе јадам",
+      "OptionD": "Јадат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од следните зборови е глагол?",
+      "OptionA": "Вози",
+      "OptionB": "Возач",
+      "OptionC": "Велосипед",
+      "OptionD": "Пат",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Глаголите ги менуваме по лица во зависност од тоа кој го __________ дејството.",
+      "OptionA": "Пишува",
+      "OptionB": "Врши",
+      "OptionC": "Брише",
+      "OptionD": "Гледа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во кое време е глаголот 'ќе патувам'?",
+      "OptionA": "Сегашно време",
+      "OptionB": "Минато време",
+      "OptionC": "Идно време",
+      "OptionD": "Неопределено време",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Глаголот 'свириме' е во 1. лице множина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "2. лице е",
+      "OptionD": "Еднина е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е 2. лице еднина форма на глаголот 'гледа'?",
+      "OptionA": "Гледаш",
+      "OptionB": "Гледам",
+      "OptionC": "Гледаат",
+      "OptionD": "Гледаме",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како гласи идно време на глаголот 'чита' за 1. лице еднина?",
+      "OptionA": "Читав",
+      "OptionB": "Ќе читам",
+      "OptionC": "Читам",
+      "OptionD": "Прочитав",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Глаголите означуваат предмети.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само понекогаш",
+      "OptionD": "Во посебни случаи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата 'Марко вози велосипед', кој збор е глаголот?",
+      "OptionA": "Марко",
+      "OptionB": "Вози",
+      "OptionC": "Велосипед",
+      "OptionD": "Нема глагол",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика делот од реченицата што кажува ШТО ПРАВИ подметот?",
+      "OptionA": "Подмет",
+      "OptionB": "Придавка",
+      "OptionC": "Заменка",
+      "OptionD": "Прирок",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што означува прашалникот на крајот од реченицата?",
+      "OptionA": "Дека реченицата е завршена",
+      "OptionB": "Дека нешто се прашува",
+      "OptionC": "Дека некој вика",
+      "OptionD": "Дека има набројување",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата 'Бојана и Петар седеа на клупата', кој е подметот?",
+      "OptionA": "Седеа",
+      "OptionB": "Бојана и Петар",
+      "OptionC": "На клупата",
+      "OptionD": "Клупата",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој збор е ПРИРОК во 'Сања ќе купи сендвич'?",
+      "OptionA": "Сања",
+      "OptionB": "Ќе купи",
+      "OptionC": "Сендвич",
+      "OptionD": "За неа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Подметот секогаш е глагол.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во идно време",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Со секоја реченица се изразува некаква __________.",
+      "OptionA": "Боја",
+      "OptionB": "Содржина",
+      "OptionC": "Форма",
+      "OptionD": "Должина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак стои на крајот од расказна реченица?",
+      "OptionA": "Прашалник",
+      "OptionB": "Извичник",
+      "OptionC": "Точка",
+      "OptionD": "Запирка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како почнува секоја реченица при пишување?",
+      "OptionA": "Со мала буква",
+      "OptionB": "Со голема буква",
+      "OptionC": "Со бројка",
+      "OptionD": "Со запирка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во реченицата 'Виолинистката свири на виолина', кој е подметот?",
+      "OptionA": "Свири",
+      "OptionB": "На виолина",
+      "OptionC": "Виолинистката",
+      "OptionD": "Виолина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се викаат речениците со кои се соопштува нешто?",
+      "OptionA": "Прашални реченици",
+      "OptionB": "Извични реченици",
+      "OptionC": "Расказни реченици",
+      "OptionD": "Заповедни реченици",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}
