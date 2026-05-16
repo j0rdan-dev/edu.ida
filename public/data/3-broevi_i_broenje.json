@@ -1,100 +1,804 @@
 {
   "Questions": [
     {
-      "Question": "Кој број доаѓа по 399?",
-      "OptionA": "398",
-      "OptionB": "400",
-      "OptionC": "409",
-      "OptionD": "390",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој број е најмал: 507, 570, 750 или 705?",
-      "OptionA": "507",
-      "OptionB": "570",
-      "OptionC": "750",
-      "OptionD": "705",
+      "Question": "Кој број е претставен со 3 стотки, 4 десетки и 7 единици?",
+      "OptionA": "347",
+      "OptionB": "743",
+      "OptionC": "374",
+      "OptionD": "437",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку десетки има бројот 340?",
-      "OptionA": "3",
-      "OptionB": "34",
-      "OptionC": "40",
-      "OptionD": "340",
+      "Question": "Точно или неточно: Бројот 508 со зборови се пишува како петстотини и осум.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се пишува петстотини и осумдесет",
+      "OptionD": "Се пишува петстотини и осумнаесет",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој број е парен?",
-      "OptionA": "125",
-      "OptionB": "341",
-      "OptionC": "508",
-      "OptionD": "777",
+      "Question": "Дополни: Бројот што доаѓа непосредно по 699 е ____.",
+      "OptionA": "698",
+      "OptionB": "600",
+      "OptionC": "700",
+      "OptionD": "701",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Заокружи 468 на најблиска стотка.",
+      "Question": "Кој од следниве броеви е најголем?",
+      "OptionA": "889",
+      "OptionB": "898",
+      "OptionC": "988",
+      "OptionD": "998",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е месната вредност на цифрата 5 во бројот 521?",
+      "OptionA": "Стотки",
+      "OptionB": "Десетки",
+      "OptionC": "Единици",
+      "OptionD": "Илјади",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 1000 е најмалиот четирицифрен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Најмалиот е 100",
+      "OptionD": "Најголемиот е 1000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува во низата: 210, 220, 230, ____, 250?",
+      "OptionA": "231",
+      "OptionB": "235",
+      "OptionC": "240",
+      "OptionD": "260",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број се наоѓа помеѓу 456 и 458?",
+      "OptionA": "455",
+      "OptionB": "459",
+      "OptionC": "460",
+      "OptionD": "457",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Бројот 430 заокружен на најблиската стотка е ____.",
       "OptionA": "400",
-      "OptionB": "450",
+      "OptionB": "430",
       "OptionC": "500",
-      "OptionD": "470",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Кој е римскиот број за 10?",
-      "OptionA": "V",
-      "OptionB": "X",
-      "OptionC": "L",
-      "OptionD": "I",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку единици има 6 стотки, 2 десетки и 5 единици?",
-      "OptionA": "625",
-      "OptionB": "652",
-      "OptionC": "562",
-      "OptionD": "526",
+      "OptionD": "300",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Кој број е помеѓу 899 и 901?",
-      "OptionA": "890",
-      "OptionB": "900",
-      "OptionC": "910",
-      "OptionD": "8990",
+      "Question": "Точно или неточно: Бројот 76 е парен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тоа е непарен број",
+      "OptionD": "Завршува на непарна цифра",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој број е поголем?",
-      "OptionA": "438",
-      "OptionB": "483",
-      "OptionC": "348",
-      "OptionD": "384",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку броеви има од 1 до 100?",
-      "OptionA": "99",
-      "OptionB": "100",
-      "OptionC": "101",
-      "OptionD": "10",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој број е непарен?",
-      "OptionA": "264",
-      "OptionB": "902",
-      "OptionC": "715",
-      "OptionD": "480",
+      "Question": "Кој број има 9 стотки и 2 единици?",
+      "OptionA": "920",
+      "OptionB": "92",
+      "OptionC": "902",
+      "OptionD": "209",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која низа е растечка?",
-      "OptionA": "410, 405, 400",
-      "OptionB": "198, 208, 218",
-      "OptionC": "600, 590, 580",
-      "OptionD": "50, 40, 30",
+      "Question": "Дополни: 854 ____ 845 (користи го соодветниот знак).",
+      "OptionA": "<",
+      "OptionB": "=",
+      "OptionC": "+",
+      "OptionD": ">",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е петтиот парен број по ред, почнувајќи од 2?",
+      "OptionA": "10",
+      "OptionB": "5",
+      "OptionC": "12",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Редните броеви означуваат ред или положба.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Означуваат само количество",
+      "OptionD": "Важат само за десетки",
       "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 1 поголем од најголемиот двоцифрен број?",
+      "OptionA": "101",
+      "OptionB": "98",
+      "OptionC": "100",
+      "OptionD": "90",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 67 заокружен на најблиската десетка е ____.",
+      "OptionA": "60",
+      "OptionB": "65",
+      "OptionC": "75",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број содржи 0 стотки, 5 десетки и 3 единици?",
+      "OptionA": "53",
+      "OptionB": "503",
+      "OptionC": "350",
+      "OptionD": "530",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Броевите кои завршуваат на 1, 3, 5, 7 или 9 се непарни.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тие се парни броеви",
+      "OptionD": "Важи само за едноцифрени броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е претходник на бројот 800?",
+      "OptionA": "801",
+      "OptionB": "700",
+      "OptionC": "799",
+      "OptionD": "790",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Во бројот 912, цифрата ____ ја претставува месната вредност на десетките.",
+      "OptionA": "9",
+      "OptionB": "2",
+      "OptionC": "0",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој од овие броеви е парен?",
+      "OptionA": "432",
+      "OptionB": "431",
+      "OptionC": "433",
+      "OptionD": "435",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 250 е на средина помеѓу 200 и 300.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Поблиску е до 200",
+      "OptionD": "Поблиску е до 300",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува во низата: 997, 998, 999, ____?",
+      "OptionA": "1001",
+      "OptionB": "900",
+      "OptionC": "1000",
+      "OptionD": "1100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Редниот број 12. со зборови се пишува како ____.",
+      "OptionA": "Дванаесет",
+      "OptionB": "Втор",
+      "OptionC": "Дваесетти",
+      "OptionD": "Дванаесетти",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку стотки има во бројот 741?",
+      "OptionA": "7",
+      "OptionB": "4",
+      "OptionC": "1",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 145 е непарен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Завршува на парна цифра",
+      "OptionD": "Тоа е парен број",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е најмалиот трицифрен број што можеш да го составиш од цифрите 3, 1 и 8?",
+      "OptionA": "318",
+      "OptionB": "831",
+      "OptionC": "138",
+      "OptionD": "183",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 899 е за 1 помал од ____.",
+      "OptionA": "898",
+      "OptionB": "890",
+      "OptionC": "1000",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број има месна вредност 6 десетки?",
+      "OptionA": "165",
+      "OptionB": "615",
+      "OptionC": "516",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 342 > 432.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Броевите се еднакви",
+      "OptionD": "Важи само за единиците",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број со зборови се пишува како седумстотини и педесет?",
+      "OptionA": "705",
+      "OptionB": "715",
+      "OptionC": "750",
+      "OptionD": "755",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 200 + 40 + 6 = ____.",
+      "OptionA": "2046",
+      "OptionB": "2406",
+      "OptionC": "264",
+      "OptionD": "246",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е следбеник на бројот 419?",
+      "OptionA": "420",
+      "OptionB": "418",
+      "OptionC": "410",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Сите парни броеви се делат на два еднакви дела.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само броевите до 100",
+      "OptionD": "Само броевите што завршуваат на 0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој ред на броеви е правилно подреден од најмал до најголем?",
+      "OptionA": "123, 132, 213",
+      "OptionB": "213, 132, 123",
+      "OptionC": "132, 123, 213",
+      "OptionD": "312, 213, 132",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Бројот 950 заокружен на најблиската стотка е ____.",
+      "OptionA": "900",
+      "OptionB": "960",
+      "OptionC": "1000",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е вредноста на цифрата 0 во бројот 407?",
+      "OptionA": "0 десетки",
+      "OptionB": "0 стотки",
+      "OptionC": "0 единици",
+      "OptionD": "Нема вредност",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 10 е парен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тоа е непарен број",
+      "OptionD": "Завршува на 1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку десетки има во бројот 100?",
+      "OptionA": "0",
+      "OptionB": "1",
+      "OptionC": "10",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 700 + ____ + 3 = 783.",
+      "OptionA": "8",
+      "OptionB": "800",
+      "OptionC": "10",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е за 10 поголем од 390?",
+      "OptionA": "400",
+      "OptionB": "380",
+      "OptionC": "391",
+      "OptionD": "410",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот петстотини и два се пишува 502.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се пишува 520",
+      "OptionD": "Се пишува 52",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е заокружен на 300 како најблиска стотка?",
+      "OptionA": "380",
+      "OptionB": "210",
+      "OptionC": "320",
+      "OptionD": "240",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 1000 се состои од ____ стотки.",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "0",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој од овие броеви е непарен?",
+      "OptionA": "777",
+      "OptionB": "222",
+      "OptionC": "444",
+      "OptionD": "888",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 0 е парен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Не е ниту парен ниту непарен",
+      "OptionD": "Важи само за собирање",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува: 500, 600, 700, ____, 900?",
+      "OptionA": "750",
+      "OptionB": "710",
+      "OptionC": "800",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Цифрата на единиците во бројот 459 е ____.",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "45",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е најблизу до 200 на бројната оска?",
+      "OptionA": "198",
+      "OptionB": "190",
+      "OptionC": "210",
+      "OptionD": "250",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 999 е најголемиот трицифрен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Најголемиот е 1000",
+      "OptionD": "Најголемиот е 900",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку единици има во 5 стотки?",
+      "OptionA": "5",
+      "OptionB": "50",
+      "OptionC": "500",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 600 + 30 = ____.",
+      "OptionA": "603",
+      "OptionB": "63",
+      "OptionC": "360",
+      "OptionD": "630",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој од следниве е непарен број?",
+      "OptionA": "103",
+      "OptionB": "100",
+      "OptionC": "102",
+      "OptionD": "104",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 125 е поблиску до 100 отколку до 200.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "На средина е",
+      "OptionD": "Поблиску е до 200",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е претставен со 2 стотки, 0 десетки и 9 единици?",
+      "OptionA": "290",
+      "OptionB": "29",
+      "OptionC": "209",
+      "OptionD": "902",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Редниот број 20. со зборови се пишува како ____.",
+      "OptionA": "Дваесет",
+      "OptionB": "Втор",
+      "OptionC": "Дванаесетти",
+      "OptionD": "Дваесетти",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е за 10 помал од 505?",
+      "OptionA": "495",
+      "OptionB": "515",
+      "OptionC": "490",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 888 < 889.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Броевите се еднакви",
+      "OptionD": "888 е поголем",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број има месна вредност 4 стотки?",
+      "OptionA": "142",
+      "OptionB": "214",
+      "OptionC": "431",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот за месна вредност на 716: 700 + ____ + 6.",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "16",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број со зборови е запишан како осумстотини и осумнаесет?",
+      "OptionA": "818",
+      "OptionB": "880",
+      "OptionC": "808",
+      "OptionD": "881",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 66 е непарен број.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Завршува на 6",
+      "OptionD": "66 е парен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува: 10, 20, 30, 40, ____?",
+      "OptionA": "41",
+      "OptionB": "45",
+      "OptionC": "50",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 1000 е за 1 поголем од ____.",
+      "OptionA": "1001",
+      "OptionB": "900",
+      "OptionC": "990",
+      "OptionD": "999",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е за 100 поголем од 250?",
+      "OptionA": "350",
+      "OptionB": "260",
+      "OptionC": "150",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 333 со зборови е тристотини триесет и три.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се пишува тристотини три",
+      "OptionD": "Се пишува триесет и три",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е најголемиот парен едноцифрен број?",
+      "OptionA": "9",
+      "OptionB": "7",
+      "OptionC": "8",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот што доаѓа непосредно пред 500 е ____.",
+      "OptionA": "501",
+      "OptionB": "400",
+      "OptionC": "490",
+      "OptionD": "499",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку десетки и единици има во бројот 84?",
+      "OptionA": "8 десетки и 4 единици",
+      "OptionB": "4 десетки и 8 единици",
+      "OptionC": "80 десетки и 4 единици",
+      "OptionD": "8 единици и 4 десетки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 200 заокружен на најблиската стотка е 200.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се заокружува на 100",
+      "OptionD": "Се заокружува на 300",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е поголем од 678?",
+      "OptionA": "677",
+      "OptionB": "578",
+      "OptionC": "687",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 35 заокружен на најблиската десетка е ____.",
+      "OptionA": "30",
+      "OptionB": "35",
+      "OptionC": "45",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број има 1 стотка, 1 десетка и 1 единица?",
+      "OptionA": "111",
+      "OptionB": "101",
+      "OptionC": "110",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Редниот број 1. се чита прв.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се чита еден",
+      "OptionD": "Се чита првиот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку стотки има во бројот 900?",
+      "OptionA": "0",
+      "OptionB": "90",
+      "OptionC": "9",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 5 стотки + 3 десетки = ____.",
+      "OptionA": "53",
+      "OptionB": "503",
+      "OptionC": "350",
+      "OptionD": "530",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е помеѓу 898 и 900?",
+      "OptionA": "899",
+      "OptionB": "897",
+      "OptionC": "901",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Броевите до 1000 можат да бидат само парни.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само броевите до 100 се непарни",
+      "OptionD": "Нема непарни броеви во трето одделение",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од броевите има најмала вредност?",
+      "OptionA": "451",
+      "OptionB": "541",
+      "OptionC": "145",
+      "OptionD": "154",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Редниот број 5. со зборови се пишува како ____.",
+      "OptionA": "Пет",
+      "OptionB": "Педесетти",
+      "OptionC": "Петнаесетти",
+      "OptionD": "Петти",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е за 1 помал од 1000?",
+      "OptionA": "999",
+      "OptionB": "990",
+      "OptionC": "900",
+      "OptionD": "1001",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 700 е парен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тоа е непарен број",
+      "OptionD": "Завршува на 7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува: 960, 970, 980, ____, 1000?",
+      "OptionA": "981",
+      "OptionB": "985",
+      "OptionC": "990",
+      "OptionD": "1010",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 400 + 0 + 2 = ____.",
+      "OptionA": "420",
+      "OptionB": "42",
+      "OptionC": "4002",
+      "OptionD": "402",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е месната вредност на 9 во бројот 129?",
+      "OptionA": "Единици",
+      "OptionB": "Десетки",
+      "OptionC": "Стотки",
+      "OptionD": "Илјади",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 100 е за 1 поголем од 99.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "За 10 е поголем",
+      "OptionD": "За 1 е помал",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е најблизок до стотката 800?",
+      "OptionA": "840",
+      "OptionB": "860",
+      "OptionC": "810",
+      "OptionD": "750",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 405 со зборови е ____.",
+      "OptionA": "Четириесет и пет",
+      "OptionB": "Четириесет и петстотини",
+      "OptionC": "Четиристотини и педесет",
+      "OptionD": "Четиристотини и пет",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој од броевите е непарен?",
+      "OptionA": "91",
+      "OptionB": "90",
+      "OptionC": "92",
+      "OptionD": "94",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 555 е непарен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тоа е парен број",
+      "OptionD": "Завршува на 0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку стотки има во бројот 240?",
+      "OptionA": "4",
+      "OptionB": "0",
+      "OptionC": "2",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Во бројот 678 цифрата 7 има вредност ____.",
+      "OptionA": "7",
+      "OptionB": "700",
+      "OptionC": "78",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број содржи 6 стотки и 6 десетки?",
+      "OptionA": "660",
+      "OptionB": "606",
+      "OptionC": "66",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 1000 е трицифрен број.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има 3 нули, значи е трицифрен",
+      "OptionD": "Важи само во математика за второ одделение",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 1 помал од најмалиот трицифрен број?",
+      "OptionA": "90",
+      "OptionB": "101",
+      "OptionC": "99",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Редниот број десетти се пишува како ____.",
+      "OptionA": "10",
+      "OptionB": "100.",
+      "OptionC": "01.",
+      "OptionD": "10.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е претходник на 101?",
+      "OptionA": "100",
+      "OptionB": "102",
+      "OptionC": "99",
+      "OptionD": "110",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Броевите 100, 200, 300 се полни стотки.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само 100 е полна стотка",
+      "OptionD": "Важи само до 500",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 2 поголем од 998?",
+      "OptionA": "999",
+      "OptionB": "1001",
+      "OptionC": "1000",
+      "OptionD": "1100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот 749 заокружен на најблиската стотка е ____.",
+      "OptionA": "750",
+      "OptionB": "800",
+      "OptionC": "740",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionD"
     }
   ]
 }

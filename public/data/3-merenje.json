@@ -1,100 +1,804 @@
 {
   "Questions": [
     {
-      "Question": "Колку сантиметри има 1 метар?",
-      "OptionA": "10",
-      "OptionB": "100",
-      "OptionC": "1000",
-      "OptionD": "50",
+      "Question": "Точно или неточно: Основна единица мерка за должина е метарот (m).",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Важи само за течности",
+      "OptionD": "Важи само за маса",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку минути има 1 час?",
-      "OptionA": "30",
-      "OptionB": "45",
-      "OptionC": "60",
-      "OptionD": "90",
+      "Question": "Дополни го изразот за да биде точен: 1 m = ____ cm.",
+      "OptionA": "10 cm",
+      "OptionB": "1000 cm",
+      "OptionC": "100 cm",
+      "OptionD": "50 cm",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Колку часа има 1 ден?",
-      "OptionA": "12",
-      "OptionB": "18",
-      "OptionC": "24",
-      "OptionD": "48",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Што е потешко?",
-      "OptionA": "1 килограм",
-      "OptionB": "500 грама",
-      "OptionC": "250 грама",
-      "OptionD": "100 грама",
+      "Question": "Која единица мерка е помала од сантиметарот?",
+      "OptionA": "Милиметар (mm)",
+      "OptionB": "Километар (km)",
+      "OptionC": "Дециметар (dm)",
+      "OptionD": "Метар (m)",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку денари се 5 монети по 10 денари?",
-      "OptionA": "40",
-      "OptionB": "50",
-      "OptionC": "60",
-      "OptionD": "70",
+      "Question": "Дополни го изразот: 1 dm = ____ cm.",
+      "OptionA": "100 cm",
+      "OptionB": "1 cm",
+      "OptionC": "5 cm",
+      "OptionD": "10 cm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Со милиметри (mm) мериме многу мали должини.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се користи за мерење тежина",
+      "OptionD": "Се користи за мерење време",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој инструмент го користиме за мерење должина на отсечка во тетратката?",
+      "OptionA": "Вага",
+      "OptionB": "Линијар",
+      "OptionC": "Часовник",
+      "OptionD": "Термометар",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку милиметри има 1 сантиметар?",
+      "Question": "Дополни го изразот: 1 cm = ____ mm.",
+      "OptionA": "10 mm",
+      "OptionB": "100 mm",
+      "OptionC": "1 mm",
+      "OptionD": "1000 mm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 10 dm се еднакви на 1 m.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Еднакви се на 1 cm",
+      "OptionD": "Еднакви се на 1 km",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица мерка ја користиме за мерење на растојание меѓу два града?",
+      "OptionA": "Милиметар",
+      "OptionB": "Сантиметар",
+      "OptionC": "Километар (km)",
+      "OptionD": "Дециметар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 1 km = ____ m.",
+      "OptionA": "100 m",
+      "OptionB": "10 m",
+      "OptionC": "1000 m",
+      "OptionD": "500 m",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што мериме со мерната единица килограм (kg)?",
+      "OptionA": "Должина",
+      "OptionB": "Време",
+      "OptionC": "Течност",
+      "OptionD": "Маса",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Помала единица мерка од килограмот е грамот (g).",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Грамот е поголем",
+      "OptionD": "Тие се еднакви",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 1 kg = ____ g.",
+      "OptionA": "10 g",
+      "OptionB": "1000 g",
+      "OptionC": "100 g",
+      "OptionD": "500 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој инструмент се користи за мерење маса?",
+      "OptionA": "Метар",
+      "OptionB": "Линијар",
+      "OptionC": "Вага",
+      "OptionD": "Часовник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Течностите (вода, млеко) ги мериме со литар (l).",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се мерат со килограм",
+      "OptionD": "Се мерат со метар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 1 l = ____ ml.",
+      "OptionA": "100 ml",
+      "OptionB": "10 ml",
+      "OptionC": "1000 ml",
+      "OptionD": "500 ml",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што означува кратенката 'ml'?",
+      "OptionA": "Милиметар",
+      "OptionB": "Милилитар",
+      "OptionC": "Милиграм",
+      "OptionD": "Минута",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку милилитри има во половина литар (1/2 l)?",
+      "OptionA": "500 ml",
+      "OptionB": "200 ml",
+      "OptionC": "100 ml",
+      "OptionD": "1000 ml",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Еден час има 60 минути.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Има 100 минути",
+      "OptionD": "Има 24 минути",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 1 минута = ____ секунди.",
+      "OptionA": "10 секунди",
+      "OptionB": "100 секунди",
+      "OptionC": "60 секунди",
+      "OptionD": "30 секунди",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часови има едно деноноќие?",
+      "OptionA": "12 часови",
+      "OptionB": "24 часови",
+      "OptionC": "60 часови",
+      "OptionD": "48 часови",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Една седмица има 7 дена.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има 5 дена",
+      "OptionD": "Има 10 дена",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е третиот месец во годината?",
+      "OptionA": "Јануари",
+      "OptionB": "Март",
+      "OptionC": "Април",
+      "OptionD": "Февруари",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Една година има ____ месеци.",
+      "OptionA": "10 месеци",
+      "OptionB": "12 месеци",
+      "OptionC": "7 месеци",
+      "OptionD": "24 месеци",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е основната парична единица во Република Северна Македонија?",
+      "OptionA": "Евро",
+      "OptionB": "Долар",
+      "OptionC": "Денар",
+      "OptionD": "Лека",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 100 денари може да се заменат со две банкноти од по 50 денари.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Може само со монети",
+      "OptionD": "Не постои банкнота од 50 денари",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако една тетратка чини 35 денари, а молив 15 денари, колку вкупно ќе платиш?",
+      "OptionA": "40 денари",
+      "OptionB": "60 денари",
+      "OptionC": "50 денари",
+      "OptionD": "45 денари",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 5 m + 20 cm = ____ cm.",
+      "OptionA": "520 cm",
+      "OptionB": "25 cm",
+      "OptionC": "502 cm",
+      "OptionD": "70 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку грама има во 2 килограми?",
+      "OptionA": "200 g",
+      "OptionB": "20 g",
+      "OptionC": "2000 g",
+      "OptionD": "20000 g",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Поголема единица мерка од метарот е километарот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Сантиметарот е поголем",
+      "OptionD": "Милиметарот е поголем",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што покажува малата стрелка на часовникот?",
+      "OptionA": "Минутите",
+      "OptionB": "Часовите",
+      "OptionC": "Секундите",
+      "OptionD": "Деновите",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Половина час е исто што и ____ минути.",
+      "OptionA": "20 минути",
+      "OptionB": "15 минути",
+      "OptionC": "45 минути",
+      "OptionD": "30 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Месецот февруари секогаш има 31 ден.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има 30 дена",
+      "OptionD": "Има 12 дена",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку денари се 5 монети од по 10 денари?",
+      "OptionA": "15 денари",
+      "OptionB": "50 денари",
+      "OptionC": "100 денари",
+      "OptionD": "25 денари",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 300 cm = ____ m.",
+      "OptionA": "30 m",
+      "OptionB": "3000 m",
+      "OptionC": "3 m",
+      "OptionD": "13 m",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е кратенката за метар?",
+      "OptionA": "mt",
+      "OptionB": "m",
+      "OptionC": "me",
+      "OptionD": "mtr",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Зафатнина на базен се мери во литри.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се мери во грамови",
+      "OptionD": "Се мери во сантиметри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 4 kg + 500 g = ____ g.",
+      "OptionA": "450 g",
+      "OptionB": "4500 g",
+      "OptionC": "540 g",
+      "OptionD": "900 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку минути поминале ако големата стрелка се поместила од 12 до 3?",
+      "OptionA": "5 минути",
+      "OptionB": "10 минути",
+      "OptionC": "15 минути",
+      "OptionD": "20 минути",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1 километар е пократок од 1 метар.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од времето",
+      "OptionD": "Тие се еднакви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што мериме со милилитри (ml)?",
+      "OptionA": "Мали количества течност",
+      "OptionB": "Големи растојанија",
+      "OptionC": "Тежина на камион",
+      "OptionD": "Висина на зграда",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 2 dm = ____ mm.",
+      "OptionA": "20 mm",
+      "OptionB": "200 mm",
+      "OptionC": "2000 mm",
+      "OptionD": "2 mm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој месец доаѓа по јуни?",
+      "OptionA": "Мај",
+      "OptionB": "Август",
+      "OptionC": "Септември",
+      "OptionD": "Јули",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1000 g е исто што и 1 kg.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Важи само за вода",
+      "OptionD": "Важи само за овошје",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Еден ден има ____ часа.",
+      "OptionA": "12",
+      "OptionB": "48",
+      "OptionC": "24",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која од овие е монета?",
+      "OptionA": "10 денари",
+      "OptionB": "100 денари",
+      "OptionC": "500 денари",
+      "OptionD": "1000 денари",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри има во 8 дециметри?",
+      "OptionA": "8 cm",
+      "OptionB": "80 cm",
+      "OptionC": "800 cm",
+      "OptionD": "18 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Сантиметарот е 10 пати поголем од милиметарот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Помал е",
+      "OptionD": "Ист е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 750 ml + ____ ml = 1 l.",
+      "OptionA": "150 ml",
+      "OptionB": "200 ml",
+      "OptionC": "350 ml",
+      "OptionD": "250 ml",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку денови има обично во месец април?",
+      "OptionA": "28",
+      "OptionB": "30",
+      "OptionC": "31",
+      "OptionD": "29",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Масата на едно јаболко ја мериме во килограми.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се мери во литри",
+      "OptionD": "Се мери во метри",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 2 m = ____ dm.",
+      "OptionA": "20 dm",
+      "OptionB": "2 dm",
+      "OptionC": "200 dm",
+      "OptionD": "12 dm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што означува кратенката 'g'?",
+      "OptionA": "Година",
+      "OptionB": "Град",
+      "OptionC": "Грам",
+      "OptionD": "Група",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути има во 2 часа?",
+      "OptionA": "100 минути",
+      "OptionB": "120 минути",
+      "OptionC": "80 минути",
+      "OptionD": "60 минути",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Линијарот е долг 1 километар.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тој е 1 метар",
+      "OptionD": "Тој е 1 милиметар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 1000 ml е еднакво на ____ l.",
+      "OptionA": "10 l",
+      "OptionB": "100 l",
+      "OptionC": "1 l",
+      "OptionD": "5 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е најголемата банкнота во денари спомената во учебникот?",
+      "OptionA": "100 денари",
+      "OptionB": "2000 денари",
+      "OptionC": "500 денари",
+      "OptionD": "1000 денари",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 dm е исто што и 10 cm.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "1 dm е 100 cm",
+      "OptionD": "1 dm е 1 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 60 s = ____ min.",
+      "OptionA": "6 min",
+      "OptionB": "10 min",
+      "OptionC": "1 min",
+      "OptionD": "2 min",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој инструмент мери температура?",
+      "OptionA": "Вага",
+      "OptionB": "Линијар",
+      "OptionC": "Термометар",
+      "OptionD": "Часовник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Понеделник е првиот ден во седмицата.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Недела е првиот",
+      "OptionD": "Сабота е првиот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 500 g е ____ од килограмот.",
+      "OptionA": "Половина",
+      "OptionB": "Четвртина",
+      "OptionC": "Целина",
+      "OptionD": "Двојно повеќе",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри има во 10 милиметри?",
+      "OptionA": "10 cm",
+      "OptionB": "1 cm",
+      "OptionC": "100 cm",
+      "OptionD": "0 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Со килограми мериме колку е тежок еден камион.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се мери со литри",
+      "OptionD": "Се мери со метри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 90 min = 1 h и ____ min.",
+      "OptionA": "10 min",
+      "OptionB": "20 min",
+      "OptionC": "30 min",
+      "OptionD": "40 min",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку месеци имаат 2 години?",
+      "OptionA": "20 месеци",
+      "OptionB": "24 месеци",
+      "OptionC": "12 месеци",
+      "OptionD": "30 месеци",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Квартал од час е 15 минути.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тоа се 20 минути",
+      "OptionD": "Тоа се 30 минути",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 10 m = ____ cm.",
+      "OptionA": "100 cm",
+      "OptionB": "1000 cm",
+      "OptionC": "10 cm",
+      "OptionD": "500 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што користиме за да измериме течност за лек (сируп)?",
+      "OptionA": "Литар",
+      "OptionB": "Милилитар",
+      "OptionC": "Килограм",
+      "OptionD": "Метар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Декември е последен месец во годината.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Ноември е последен",
+      "OptionD": "Јануари е последен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку секунди има во половина минута?",
+      "OptionA": "30 s",
+      "OptionB": "15 s",
+      "OptionC": "60 s",
+      "OptionD": "10 s",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 3 km = ____ m.",
+      "OptionA": "300 m",
+      "OptionB": "30 m",
+      "OptionC": "3000 m",
+      "OptionD": "30000 m",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Монета од 50 денари постои во Македонија.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Постои само банкнота",
+      "OptionD": "Постои само од 100 денари",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која единица мерка би ја користеле за должина на молив?",
+      "OptionA": "Километар",
+      "OptionB": "Метар",
+      "OptionC": "Сантиметар",
+      "OptionD": "Литар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 1000 g - 200 g = ____ g.",
+      "OptionA": "800 g",
+      "OptionB": "700 g",
+      "OptionC": "900 g",
+      "OptionD": "1200 g",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку часови има во два дена?",
+      "OptionA": "24 часа",
+      "OptionB": "48 часа",
+      "OptionC": "12 часа",
+      "OptionD": "60 часа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 метар е еднаков на 100 сантиметри.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Еднаков е на 10 cm",
+      "OptionD": "Еднаков е на 1000 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што мериме со мерната единица 'ден'?",
+      "OptionA": "Должина",
+      "OptionB": "Маса",
+      "OptionC": "Време",
+      "OptionD": "Зафатнина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 250 ml + 250 ml = ____ l.",
+      "OptionA": "1 l",
+      "OptionB": "Половина l (500 ml)",
+      "OptionC": "2 l",
+      "OptionD": "0.1 l",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку седмици има еден месец (приближно)?",
       "OptionA": "2",
-      "OptionB": "5",
-      "OptionC": "10",
+      "OptionB": "4",
+      "OptionC": "6",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Еден километар е 1000 пати поголем од еден метар.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "10 пати е поголем",
+      "OptionD": "100 пати е поголем",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 50 денари + 20 денари + 10 денари = ____ денари.",
+      "OptionA": "70",
+      "OptionB": "90",
+      "OptionC": "80",
       "OptionD": "100",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кое време покажува 14:00?",
-      "OptionA": "2 часот попладне",
-      "OptionB": "4 часот попладне",
-      "OptionC": "12 часот напладне",
-      "OptionD": "10 часот наутро",
+      "Question": "Која е кратенката за милиметар?",
+      "OptionA": "ml",
+      "OptionB": "mm",
+      "OptionC": "cm",
+      "OptionD": "m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Масата на еден лист хартија се мери во грамови.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се мери во килограми",
+      "OptionD": "Се мери во литри",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку литри има во 2 садови по 1 литар?",
-      "OptionA": "1",
-      "OptionB": "2",
-      "OptionC": "3",
-      "OptionD": "4",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Кој е подолг?",
-      "OptionA": "80 см",
-      "OptionB": "1 м",
-      "OptionC": "90 см",
-      "OptionD": "95 см",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку е половина од 1 час?",
-      "OptionA": "20 минути",
-      "OptionB": "30 минути",
-      "OptionC": "40 минути",
-      "OptionD": "50 минути",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку грама има 1 килограм?",
-      "OptionA": "100",
-      "OptionB": "500",
-      "OptionC": "1000",
-      "OptionD": "2000",
+      "Question": "Дополни: 1 час и 15 минути = ____ минути.",
+      "OptionA": "60",
+      "OptionB": "70",
+      "OptionC": "75",
+      "OptionD": "115",
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Ако е 08:15, колку минути поминале од 08:00?",
-      "OptionA": "10",
-      "OptionB": "15",
-      "OptionC": "20",
-      "OptionD": "25",
+      "Question": "Кој е осмиот месец во годината?",
+      "OptionA": "Јули",
+      "OptionB": "Август",
+      "OptionC": "Септември",
+      "OptionD": "Октомври",
       "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 сантиметар има 10 милиметри.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Има 100 милиметри",
+      "OptionD": "Има 5 милиметри",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува големата стрелка на часовникот?",
+      "OptionA": "Минутите",
+      "OptionB": "Часовите",
+      "OptionC": "Деновите",
+      "OptionD": "Месеците",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 400 ml + ____ ml = 1000 ml.",
+      "OptionA": "500 ml",
+      "OptionB": "400 ml",
+      "OptionC": "600 ml",
+      "OptionD": "700 ml",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку дена има една престапна година?",
+      "OptionA": "365",
+      "OptionB": "366",
+      "OptionC": "360",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Дециметарот е единица за маса.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Единица е за течност",
+      "OptionD": "Единица е за време",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку грама има во половина килограм?",
+      "OptionA": "500 g",
+      "OptionB": "250 g",
+      "OptionC": "100 g",
+      "OptionD": "750 g",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 2 m = ____ cm.",
+      "OptionA": "20 cm",
+      "OptionB": "200 cm",
+      "OptionC": "2000 cm",
+      "OptionD": "22 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува кратенката 'km'?",
+      "OptionA": "Килограм",
+      "OptionB": "Километар",
+      "OptionC": "Краток метар",
+      "OptionD": "Квадратен метар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 литар е еднаков на 1000 милилитри.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Еднаков е на 100 ml",
+      "OptionD": "Еднаков е на 10 ml",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој инструмент го користиме за да видиме колку е часот?",
+      "OptionA": "Линијар",
+      "OptionB": "Вага",
+      "OptionC": "Часовник",
+      "OptionD": "Термометар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: ____ минути го сочинуваат еден час.",
+      "OptionA": "30",
+      "OptionB": "100",
+      "OptionC": "60",
+      "OptionD": "24",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку денари се 2 банкноти од по 100 денари?",
+      "OptionA": "102 денари",
+      "OptionB": "200 денари",
+      "OptionC": "50 денари",
+      "OptionD": "120 денари",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 минута е подолга од 1 час.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тие се еднакви",
+      "OptionD": "Зависи од денот",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 1 седмица = ____ дена.",
+      "OptionA": "5",
+      "OptionB": "10",
+      "OptionC": "7",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionC"
     }
   ]
 }

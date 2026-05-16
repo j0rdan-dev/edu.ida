@@ -1,100 +1,804 @@
 {
   "Questions": [
     {
-      "Question": "Колку страни има триаголник?",
-      "OptionA": "2",
-      "OptionB": "3",
-      "OptionC": "4",
-      "OptionD": "5",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која фигура има 4 еднакви страни и 4 прави агли?",
-      "OptionA": "Круг",
-      "OptionB": "Правоаголник",
-      "OptionC": "Квадрат",
-      "OptionD": "Триаголник",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку темиња има правоаголник?",
-      "OptionA": "2",
-      "OptionB": "3",
-      "OptionC": "4",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која фигура нема агли?",
-      "OptionA": "Квадрат",
-      "OptionB": "Круг",
-      "OptionC": "Триаголник",
-      "OptionD": "Петаголник",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку страни има петаголник?",
-      "OptionA": "4",
-      "OptionB": "5",
-      "OptionC": "6",
-      "OptionD": "8",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Паралелни прави се прави што...",
-      "OptionA": "се сечат",
-      "OptionB": "никогаш не се сечат",
-      "OptionC": "се криви",
-      "OptionD": "се допираат во една точка",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Колку агли има квадрат?",
-      "OptionA": "3",
-      "OptionB": "4",
-      "OptionC": "5",
-      "OptionD": "6",
-      "CorrectAnswer": "OptionB"
-    },
-    {
-      "Question": "Која е 3D фигура?",
-      "OptionA": "Квадрат",
-      "OptionB": "Круг",
-      "OptionC": "Коцка",
-      "OptionD": "Триаголник",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Колку лица има коцка?",
-      "OptionA": "4",
-      "OptionB": "5",
-      "OptionC": "6",
-      "OptionD": "8",
-      "CorrectAnswer": "OptionC"
-    },
-    {
-      "Question": "Која фигура е правоаголник?",
-      "OptionA": "Фигура со 4 страни и 4 прави агли",
-      "OptionB": "Фигура со 3 страни",
-      "OptionC": "Фигура без страни",
-      "OptionD": "Фигура со 5 страни",
+      "Question": "Точно или неточно: Отсечката е дел од права линија која има почеток и крај.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Важи само за криви линии",
+      "OptionD": "Отсечката нема крај",
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Што е отсечка?",
-      "OptionA": "Линија без краеви",
-      "OptionB": "Дел од права со два краја",
-      "OptionC": "Крива линија",
-      "OptionD": "Само една точка",
+      "Question": "Дополни: Триаголникот е 2Д форма која има ________ темиња.",
+      "OptionA": "Три",
+      "OptionB": "Четири",
+      "OptionC": "Две",
+      "OptionD": "Пет",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се означува една точка во геометријата?",
+      "OptionA": "Со голема латинична буква",
+      "OptionB": "Со бројка",
+      "OptionC": "Со мала буква",
+      "OptionD": "Со знак прашалник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Квадратот има четири еднакви страни.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само две страни се еднакви",
+      "OptionD": "Страните му се криви",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од наведените е 3Д форма?",
+      "OptionA": "Коцка",
+      "OptionB": "Квадрат",
+      "OptionC": "Триаголник",
+      "OptionD": "Отсечка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Линијата на симетрија ја дели формата на два ________ дела.",
+      "OptionA": "Еднакви (идентични)",
+      "OptionB": "Различни",
+      "OptionC": "Многу мали",
+      "OptionD": "Тркалезни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку страни (ѕидови) има коцката?",
+      "OptionA": "6",
+      "OptionB": "4",
+      "OptionC": "8",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Кругот има темиња.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Има три темиња",
+      "OptionD": "Има едно теме",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што користиме за да нацртаме права линија?",
+      "OptionA": "Линијар",
+      "OptionB": "Гума",
+      "OptionC": "Шестар",
+      "OptionD": "Лепак",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Топката е 3Д форма која нема ________.",
+      "OptionA": "Рамни површини и темиња",
+      "OptionB": "Боја",
+      "OptionC": "Големина",
+      "OptionD": "Име",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која 2Д форма има четири страни, но само спротивните страни се еднакви?",
+      "OptionA": "Правоаголник",
+      "OptionB": "Квадрат",
+      "OptionC": "Круг",
+      "OptionD": "Триаголник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Конусот има една заоблена и една рамна површина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има само рамни површини",
+      "OptionD": "Има пет темиња",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика местото каде што се сечат две страни кај 2Д форма?",
+      "OptionA": "Теме",
+      "OptionB": "Линија",
+      "OptionC": "Средина",
+      "OptionD": "Агол",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Оската на симетрија може да биде вертикална или ________.",
+      "OptionA": "Хоризонтална",
+      "OptionB": "Кружна",
+      "OptionC": "Точкаста",
+      "OptionD": "Невидлива",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која 3Д форма изгледа како кутија за чевли?",
+      "OptionA": "Квадар",
+      "OptionB": "Топка",
+      "OptionC": "Цилиндер",
+      "OptionD": "Пирамида",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Правата линија може да се продолжува во двете насоки бесконечно.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во една насока",
+      "OptionD": "Никогаш не се продолжува",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку темиња има правоаголникот?",
+      "OptionA": "4",
+      "OptionB": "3",
+      "OptionC": "5",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Цилиндерот има две рамни површини во форма на ________.",
+      "OptionA": "Круг",
+      "OptionB": "Квадрат",
+      "OptionC": "Триаголник",
+      "OptionD": "Правоаголник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој предмет има форма на топка?",
+      "OptionA": "Портокал",
+      "OptionB": "Учебник",
+      "OptionC": "Молив",
+      "OptionD": "Линијар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Ако една форма ја преклопиме по линијата на симетрија, деловите ќе се совпаднат.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај квадратот",
+      "OptionD": "Деловите ќе бидат различни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку оски на симетрија има буквата 'А'?",
+      "OptionA": "1",
+      "OptionB": "2",
+      "OptionC": "0",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Растојанието меѓу две точки А и В се вика ________.",
+      "OptionA": "Должина на отсечка",
+      "OptionB": "Крива",
+      "OptionC": "Агол",
+      "OptionD": "Мрежа",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е пирамида?",
+      "OptionA": "3Д форма",
+      "OptionB": "2Д форма",
+      "OptionC": "Линија",
+      "OptionD": "Точка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Квадратната мрежа ни помага да ја одредиме положбата на предметите.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Служи само за боење",
+      "OptionD": "Мрежата е само за 3Д форми",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од овие е крива линија?",
+      "OptionA": "Кружница",
+      "OptionB": "Отсечка",
+      "OptionC": "Страна на квадрат",
+      "OptionD": "Раб на коцка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Полуправата има почеток, но нема крај.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Има и почеток и крај",
+      "OptionD": "Нема ниту почеток",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку страни има шестоаголник?",
-      "OptionA": "5",
-      "OptionB": "6",
-      "OptionC": "7",
-      "OptionD": "8",
+      "Question": "Дополни: Една коцка има ________ темиња.",
+      "OptionA": "4",
+      "OptionB": "8",
+      "OptionC": "6",
+      "OptionD": "12",
       "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која форма има три страни и три темиња?",
+      "OptionA": "Квадрат",
+      "OptionB": "Триаголник",
+      "OptionC": "Круг",
+      "OptionD": "Правоаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Сите страни на правоаголникот се еднакви.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај големи правоаголници",
+      "OptionD": "Правоаголникот нема страни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика линијата на која се спојуваат два ѕида кај 3Д форма?",
+      "OptionA": "Теме",
+      "OptionB": "Раб",
+      "OptionC": "Површина",
+      "OptionD": "Точка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Квадратот е ________ форма.",
+      "OptionA": "3Д",
+      "OptionB": "2Д",
+      "OptionC": "Линиска",
+      "OptionD": "Зафатнинска",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку оски на симетрија има квадратот?",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "1",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Пирамидата секогаш мора да има основа во форма на круг.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Пирамидата нема основа",
+      "OptionD": "Основата е секогаш линија",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што претставува ознаката (А, 3) во квадратна мрежа?",
+      "OptionA": "Боја",
+      "OptionB": "Положба (координати)",
+      "OptionC": "Големина",
+      "OptionD": "Должина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Тркалото има форма на ________.",
+      "OptionA": "Триаголник",
+      "OptionB": "Круг",
+      "OptionC": "Квадрат",
+      "OptionD": "Правоаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 3Д форма има два кружни ѕида и еден заоблен ѕид?",
+      "OptionA": "Коцка",
+      "OptionB": "Цилиндер",
+      "OptionC": "Топка",
+      "OptionD": "Квадар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Буквата 'О' има оска на симетрија.",
+      "OptionA": "Нема симетрија",
+      "OptionB": "Точно",
+      "OptionC": "Само ако е мала",
+      "OptionD": "Неточно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку рабови има коцката?",
+      "OptionA": "8",
+      "OptionB": "12",
+      "OptionC": "6",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Остриот врв кај конусот се вика ________.",
+      "OptionA": "Раб",
+      "OptionB": "Теме",
+      "OptionC": "Страна",
+      "OptionD": "Основа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која форма можеме да ја добиеме ако ги поврземе ѕидовите на една коцка?",
+      "OptionA": "Триаголник",
+      "OptionB": "Квадрат",
+      "OptionC": "Круг",
+      "OptionD": "Правоаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Точката означува точно место во просторот.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точката е долга линија",
+      "OptionD": "Точката е круг со дупка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку темиња има конусот?",
+      "OptionA": "0",
+      "OptionB": "1",
+      "OptionC": "2",
+      "OptionD": "3",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Предметите што зафаќаат простор се викаат ________ форми.",
+      "OptionA": "Рамни",
+      "OptionB": "3Д (просторни)",
+      "OptionC": "Тенки",
+      "OptionD": "Невидливи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која линија е нацртана со помош на линијар?",
+      "OptionA": "Крива",
+      "OptionB": "Права",
+      "OptionC": "Искршена само со рака",
+      "OptionD": "Тркалезна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Секој правоаголник е квадрат.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само ако е обоен",
+      "OptionD": "Да, во сите случаи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој дијаграм ни помага да класифицираме форми според својства?",
+      "OptionA": "Пиктограм",
+      "OptionB": "Венов или Керолов дијаграм",
+      "OptionC": "Столбест дијаграм",
+      "OptionD": "Линиски дијаграм",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Движењето во квадратна мрежа може да биде нагоре, надолу, лево и ________.",
+      "OptionA": "Наназад",
+      "OptionB": "Десно",
+      "OptionC": "Кружно",
+      "OptionD": "Високо",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која 2Д форма нема агли?",
+      "OptionA": "Квадрат",
+      "OptionB": "Круг",
+      "OptionC": "Триаголник",
+      "OptionD": "Правоаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Цилиндерот може да се тркала.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ако е коцка",
+      "OptionD": "Никогаш не се движи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се означува отсечка со почеток А и крај В?",
+      "OptionA": "А+В",
+      "OptionB": "АВ",
+      "OptionC": "А-В",
+      "OptionD": "А/В",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Квадарот има само квадратни ѕидови.",
+      "OptionA": "Точно",
+      "OptionB": "Може да биде и триаголник",
+      "OptionC": "Неточно",
+      "OptionD": "Квадарот нема ѕидови",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Бројот на темиња кај триаголникот е ________.",
+      "OptionA": "4",
+      "OptionB": "2",
+      "OptionC": "3",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која 3Д форма има шест правоаголни ѕидови?",
+      "OptionA": "Топка",
+      "OptionB": "Конус",
+      "OptionC": "Квадар",
+      "OptionD": "Цилиндер",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Буквата 'М' има хоризонтална оска на симетрија.",
+      "OptionA": "Точно",
+      "OptionB": "Има три оски",
+      "OptionC": "Неточно",
+      "OptionD": "Буквата М не е симетрична",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се викаат страните на една 3Д форма?",
+      "OptionA": "Рабови",
+      "OptionB": "Темиња",
+      "OptionC": "Ѕидови (површини)",
+      "OptionD": "Линии",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Рамните форми што ги учиме (квадрат, круг) се нарекуваат ________ форми.",
+      "OptionA": "Дебели",
+      "OptionB": "Тркалезни",
+      "OptionC": "2Д",
+      "OptionD": "3Д",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку темиња има квадарот?",
+      "OptionA": "4",
+      "OptionB": "6",
+      "OptionC": "8",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Топката има остри рабови.",
+      "OptionA": "Точно",
+      "OptionB": "Има само еден раб",
+      "OptionC": "Неточно",
+      "OptionD": "Има 12 рабови",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која 2Д форма ја користиме за да нацртаме ѕидови на пирамида?",
+      "OptionA": "Круг",
+      "OptionB": "Квадрат",
+      "OptionC": "Триаголник",
+      "OptionD": "Петоаголник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Линијата што не е права се вика ________ линија.",
+      "OptionA": "Цврста",
+      "OptionB": "Долга",
+      "OptionC": "Крива",
+      "OptionD": "Куса",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој предмет има форма на цилиндер?",
+      "OptionA": "Коцка за играње",
+      "OptionB": "Книга",
+      "OptionC": "Лименка сок",
+      "OptionD": "Топче за тенис",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Правоаголникот има 4 темиња.",
+      "OptionA": "Неточно",
+      "OptionB": "Има 3 темиња",
+      "OptionC": "Точно",
+      "OptionD": "Има 0 темиња",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е заедничко за коцката и квадарот?",
+      "OptionA": "Двете се 2Д форми",
+      "OptionB": "Двете имаат кружна основа",
+      "OptionC": "Двете имаат 8 темиња",
+      "OptionD": "Двете немаат рабови",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Ако се движиме од А1 до А2, сме направиле еден чекор ________.",
+      "OptionA": "Десно",
+      "OptionB": "Лево",
+      "OptionC": "Нагоре (или надолу зависно од мрежата)",
+      "OptionD": "Во круг",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која форма има најмногу темиња?",
+      "OptionA": "Триаголник",
+      "OptionB": "Круг",
+      "OptionC": "Квадрат",
+      "OptionD": "Линија",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Две отсечки можат да имаат иста должина.",
+      "OptionA": "Неточно",
+      "OptionB": "Само ако се искршени",
+      "OptionC": "Точно",
+      "OptionD": "Важи само за криви линии",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку оски на симетрија има кругот?",
+      "OptionA": "1",
+      "OptionB": "4",
+      "OptionC": "Бесконечно многу",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Квадрат со страна 5cm има сите четири страни со должина ________.",
+      "OptionA": "2cm",
+      "OptionB": "10cm",
+      "OptionC": "5cm",
+      "OptionD": "0cm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој геометриски елемент нема димензии (ниту должина, ниту ширина)?",
+      "OptionA": "Линија",
+      "OptionB": "Рамнина",
+      "OptionC": "Точка",
+      "OptionD": "Отсечка",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Коцката е составена од 6 еднакви квадрати.",
+      "OptionA": "Неточно",
+      "OptionB": "Составена е од кругови",
+      "OptionC": "Точно",
+      "OptionD": "Составена е од 4 квадрати",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се користи за мерење на должина на отсечка?",
+      "OptionA": "Тегови",
+      "OptionB": "Часовник",
+      "OptionC": "Линијар со сантиметри",
+      "OptionD": "Термометар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Триаголникот што има симетрија се вика ________ триаголник.",
+      "OptionA": "Крив",
+      "OptionB": "Голем",
+      "OptionC": "Симетричен",
+      "OptionD": "Тркалезен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која од овие е права линија?",
+      "OptionA": "Бран",
+      "OptionB": "Облак",
+      "OptionC": "Хоризонтална линија нацртана со линијар",
+      "OptionD": "Спирала",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Линијата на симетрија може да биде коса.",
+      "OptionA": "Неточно",
+      "OptionB": "Само кај триаголници",
+      "OptionC": "Точно",
+      "OptionD": "Никогаш не е коса",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 3Д формата која личи на сладолед во корнет е ________.",
+      "OptionA": "Коцка",
+      "OptionB": "Квадар",
+      "OptionC": "Топка",
+      "OptionD": "Конус",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Сите 3Д форми имаат темиња.",
+      "OptionA": "Точно",
+      "OptionB": "Само коцката има",
+      "OptionC": "Важи само за топката",
+      "OptionD": "Неточно (топката нема)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку оски на симетрија има правоаголникот (кој не е квадрат)?",
+      "OptionA": "4",
+      "OptionB": "1",
+      "OptionC": "3",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Отсечката АВ и отсечката ВА се ________.",
+      "OptionA": "Различни",
+      "OptionB": "Криви",
+      "OptionC": "Точки",
+      "OptionD": "Истата отсечка",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која форма има две димензии (должина и ширина)?",
+      "OptionA": "Точка",
+      "OptionB": "3Д форма",
+      "OptionC": "Линија",
+      "OptionD": "2Д форма",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Буквата 'S' (латинична) е симетрична.",
+      "OptionA": "Точно",
+      "OptionB": "Има една оска",
+      "OptionC": "Има две оски",
+      "OptionD": "Неточно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се вика цртежот со квадрати означени со букви и бројки?",
+      "OptionA": "Слика",
+      "OptionB": "Табела за множење",
+      "OptionC": "Пиктограм",
+      "OptionD": "Квадратна мрежа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Триаголникот има 3 страни, а квадратот има ________ страни.",
+      "OptionA": "3",
+      "OptionB": "2",
+      "OptionC": "5",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која 3Д форма нема ниту едно теме?",
+      "OptionA": "Коцка",
+      "OptionB": "Пирамида",
+      "OptionC": "Конус",
+      "OptionD": "Топка или Цилиндер",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Две точки определуваат само една права линија.",
+      "OptionA": "Неточно",
+      "OptionB": "Може три линии",
+      "OptionC": "Зависи од бојата",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку ѕидови има квадарот?",
+      "OptionA": "4",
+      "OptionB": "8",
+      "OptionC": "12",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Предметот што не е симетричен се вика ________.",
+      "OptionA": "Убав",
+      "OptionB": "Симетричен",
+      "OptionC": "2Д форма",
+      "OptionD": "Асиметричен (несиметричен)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која 2Д форма може да биде основа на пирамида?",
+      "OptionA": "Круг",
+      "OptionB": "Линија",
+      "OptionC": "Точка",
+      "OptionD": "Квадрат или триаголник",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Коцката и квадарот имаат ист број на темиња.",
+      "OptionA": "Неточно",
+      "OptionB": "Коцката има повеќе",
+      "OptionC": "Квадарот има повеќе",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што добиваме кога ќе споиме повеќе отсечки една по друга?",
+      "OptionA": "Круг",
+      "OptionB": "Точка",
+      "OptionC": "Топка",
+      "OptionD": "Искршена линија",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Површината на масата е модел за ________.",
+      "OptionA": "Линија",
+      "OptionB": "Точка",
+      "OptionC": "3Д форма",
+      "OptionD": "Рамнина (дел од рамнина)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која буква е симетрична по хоризонтална оска?",
+      "OptionA": "А",
+      "OptionB": "М",
+      "OptionC": "Т",
+      "OptionD": "Е",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Еден квадрат може да се подели на два триаголника.",
+      "OptionA": "Неточно",
+      "OptionB": "Само со крива линија",
+      "OptionC": "Никогаш",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку темиња има коцката на горната страна?",
+      "OptionA": "6",
+      "OptionB": "8",
+      "OptionC": "2",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Ако преклопиме лист хартија на половина, работ на преклопот е ________.",
+      "OptionA": "Круг",
+      "OptionB": "Точка",
+      "OptionC": "Крива линија",
+      "OptionD": "Оска на симетрија",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која 3Д форма има најмногу темиња од понудените?",
+      "OptionA": "Цилиндер",
+      "OptionB": "Конус",
+      "OptionC": "Топка",
+      "OptionD": "Коцка",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Триаголникот може да има две лини на симетрија.",
+      "OptionA": "Никогаш",
+      "OptionB": "Само ако е круг",
+      "OptionC": "Неточно (или 1 или 3 или 0)",
+      "OptionD": "Точно (кај рамнокрак е 1, рамностран 3)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што користиме за да означиме теме на форма?",
+      "OptionA": "Број",
+      "OptionB": "Боја",
+      "OptionC": "Слика",
+      "OptionD": "Точка и буква",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Цилиндерот има ________ заоблена површина.",
+      "OptionA": "Две",
+      "OptionB": "Три",
+      "OptionC": "Ниту една",
+      "OptionD": "Една",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која форма е нацртана со затворена крива линија?",
+      "OptionA": "Квадрат",
+      "OptionB": "Правоаголник",
+      "OptionC": "Триаголник",
+      "OptionD": "Круг",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Во мрежата, положбата (Б, 2) е иста со (2, Б).",
+      "OptionA": "Точно",
+      "OptionB": "Секогаш",
+      "OptionC": "Зависи од играта",
+      "OptionD": "Неточно (редот е важен)",
+      "CorrectAnswer": "OptionD"
     }
   ]
 }
