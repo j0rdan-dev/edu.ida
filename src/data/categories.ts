@@ -1,4 +1,4 @@
-import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3, Home, Flag } from "lucide-react";
+import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3, Home, Flag, Clock } from "lucide-react";
 
 export interface Category {
   id: string;
@@ -190,6 +190,38 @@ export const grades: Grade[] = [
             file: `${import.meta.env.BASE_URL}data/3-merenje.json`,
             icon: Ruler,
             color: "40 80% 50%",
+          },
+          {
+            id: "merenje-dolzina-3",
+            label: "4.1. Мерење должина",
+            description: "Мерење должина - метар, сантиметар, милиметар",
+            file: `${import.meta.env.BASE_URL}data/3-merenje_dolzina.json`,
+            icon: Ruler,
+            color: "30 75% 50%",
+          },
+          {
+            id: "merenje-masa-3",
+            label: "4.2. Мерење маса",
+            description: "Мерење маса - килограм, грам",
+            file: `${import.meta.env.BASE_URL}data/3-merenje_masa.json`,
+            icon: Ruler,
+            color: "20 70% 50%",
+          },
+          {
+            id: "merenje-zafatnina-3",
+            label: "4.3. Мерење зафатнина",
+            description: "Мерење зафатнина - литар, милилитар",
+            file: `${import.meta.env.BASE_URL}data/3-merenje_zafatnina.json`,
+            icon: FlaskConical,
+            color: "195 80% 50%",
+          },
+          {
+            id: "merenje-vreme-3",
+            label: "4.4. Мерење време",
+            description: "Мерење време - часови, минути, секунди",
+            file: `${import.meta.env.BASE_URL}data/3-merenje_vreme.json`,
+            icon: Clock,
+            color: "190 70% 50%",
           },
           {
             id: "rabota-so-podatoci-3",

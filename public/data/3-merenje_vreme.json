@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Точно или неточно: Еден час има точно 60 минути.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само во текот на денот",
+      "OptionD": "Само во текот на ноќта",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Една минута има ________ секунди.",
+      "OptionA": "10",
+      "OptionB": "60",
+      "OptionC": "100",
+      "OptionD": "24",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој месец е првиот месец во календарската година?",
+      "OptionA": "Март",
+      "OptionB": "Декември",
+      "OptionC": "Јануари",
+      "OptionD": "Април",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку години претставува една деценија?",
+      "OptionA": "1 година",
+      "OptionB": "100 години",
+      "OptionC": "5 години",
+      "OptionD": "10 години",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Малата стрелка на часовникот ги покажува минутите.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Понекогаш",
+      "OptionD": "Само на дигитален часовник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Денот и ноќта заедно траат ________ часа.",
+      "OptionA": "12",
+      "OptionB": "24",
+      "OptionC": "60",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку денови има една вообичаена година?",
+      "OptionA": "30",
+      "OptionB": "12",
+      "OptionC": "365",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако денес е понеделник, кој ден беше вчера?",
+      "OptionA": "Вторник",
+      "OptionB": "Среда",
+      "OptionC": "Сабота",
+      "OptionD": "Недела",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Септември има 31 ден.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само во престапна година",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Помеѓу два броја на часовникот има ________ минути.",
+      "OptionA": "1",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку месеци има во една календарска година?",
+      "OptionA": "7",
+      "OptionB": "10",
+      "OptionC": "12",
+      "OptionD": "24",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку секунди поминале ако поминале 2 минути?",
+      "OptionA": "60 секунди",
+      "OptionB": "100 секунди",
+      "OptionC": "20 секунди",
+      "OptionD": "120 секунди",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Една седмица има 7 денови.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "8 денови",
+      "OptionD": "5 денови",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Половина час е исто што и ________ минути.",
+      "OptionA": "15",
+      "OptionB": "30",
+      "OptionC": "45",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е последниот месец во годината?",
+      "OptionA": "Ноември",
+      "OptionB": "Јануари",
+      "OptionC": "Декември",
+      "OptionD": "Август",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако училишниот час започнува во 8:00 и трае 40 минути, кога завршува?",
+      "OptionA": "8:30",
+      "OptionB": "9:00",
+      "OptionC": "8:50",
+      "OptionD": "8:40",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Февруари секогаш има 30 денови.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Секоја втора година",
+      "OptionD": "Само во лето",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Четврт час е исто што и ________ минути.",
+      "OptionA": "10",
+      "OptionB": "15",
+      "OptionC": "25",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку децении има во 30 години?",
+      "OptionA": "10 децении",
+      "OptionB": "1 деценија",
+      "OptionC": "3 децении",
+      "OptionD": "30 децении",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што покажува долгата и тенка стрелка која најбрзо се движи на часовникот?",
+      "OptionA": "Часови",
+      "OptionB": "Денови",
+      "OptionC": "Минути",
+      "OptionD": "Секунди",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: По мај доаѓа месецот јуни.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Доаѓа април",
+      "OptionD": "Доаѓа јули",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Во два часа има вкупно ________ минути.",
+      "OptionA": "100",
+      "OptionB": "120",
+      "OptionC": "200",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој месец има 28 или 29 денови?",
+      "OptionA": "Март",
+      "OptionB": "Јуни",
+      "OptionC": "Февруари",
+      "OptionD": "Октомври",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часови поминале од 10 часот наутро до 14 часот попладне?",
+      "OptionA": "2 часа",
+      "OptionB": "1 час",
+      "OptionC": "10 часа",
+      "OptionD": "4 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Една година има 10 месеци.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само на училиште",
+      "OptionD": "Во деценија",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: По пладне, 13 часот е исто што и ________ часот.",
+      "OptionA": "3",
+      "OptionB": "1",
+      "OptionC": "10",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од следниве месеци има 31 ден?",
+      "OptionA": "Април",
+      "OptionB": "Ноември",
+      "OptionC": "Август",
+      "OptionD": "Септември",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се 1 час и 10 минути?",
+      "OptionA": "110 минути",
+      "OptionB": "60 минути",
+      "OptionC": "100 минути",
+      "OptionD": "70 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Часовникот со стрелки се нарекува аналоген часовник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се нарекува дигитален",
+      "OptionD": "Се нарекува песочен",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: За големата стрелка да направи еден цел круг на часовникот е потребен ________ час.",
+      "OptionA": "12",
+      "OptionB": "1",
+      "OptionC": "24",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку денови има во месец јуни?",
+      "OptionA": "28",
+      "OptionB": "31",
+      "OptionC": "30",
+      "OptionD": "29",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако сега е 15:30 часот, колку часот ќе биде по 30 минути?",
+      "OptionA": "15:00",
+      "OptionB": "16:30",
+      "OptionC": "15:60",
+      "OptionD": "16:00",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Престапната година се случува на секои 4 години.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "На секои 10 години",
+      "OptionD": "Секоја година",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Малата стрелка на часовникот се поместува од еден број до друг за точно ________ час.",
+      "OptionA": "24",
+      "OptionB": "1",
+      "OptionC": "12",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој ден е помеѓу среда и петок?",
+      "OptionA": "Вторник",
+      "OptionB": "Сабота",
+      "OptionC": "Четврток",
+      "OptionD": "Понеделник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути поминале ако големата стрелка се поместила од бројот 12 до бројот 3?",
+      "OptionA": "3 минути",
+      "OptionB": "5 минути",
+      "OptionC": "10 минути",
+      "OptionD": "15 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Есенските месеци се септември, октомври и ноември.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само септември",
+      "OptionD": "Јануари и февруари",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Една деценија има вкупно ________ месеци.",
+      "OptionA": "10",
+      "OptionB": "120",
+      "OptionC": "100",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е кратенката за мерната единица минута?",
+      "OptionA": "ч",
+      "OptionB": "сек",
+      "OptionC": "мин",
+      "OptionD": "д",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часа трае половина деноноќие?",
+      "OptionA": "6 часа",
+      "OptionB": "24 часа",
+      "OptionC": "10 часа",
+      "OptionD": "12 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Дигиталните часовници го покажуваат времето само со стрелки.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ноќе",
+      "OptionD": "Само ако се стари",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ако големата стрелка е на 6, а малата е помеѓу 2 и 3, времето е ________ часот и 30 минути.",
+      "OptionA": "3",
+      "OptionB": "2",
+      "OptionC": "6",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој месец доаѓа по октомври?",
+      "OptionA": "Септември",
+      "OptionB": "Декември",
+      "OptionC": "Ноември",
+      "OptionD": "Август",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку денови имаат заедно месеците јануари и февруари (во обична година)?",
+      "OptionA": "61 ден",
+      "OptionB": "60 денови",
+      "OptionC": "58 денови",
+      "OptionD": "59 денови",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Часот е поголема мерна единица од минутата.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Исти се",
+      "OptionD": "Само во лето",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Во 3 минути има вкупно ________ секунди.",
+      "OptionA": "60",
+      "OptionB": "180",
+      "OptionC": "100",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број на часовникот ја покажува позицијата за 45 минути?",
+      "OptionA": "3",
+      "OptionB": "6",
+      "OptionC": "9",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку години се 5 децении?",
+      "OptionA": "5 години",
+      "OptionB": "15 години",
+      "OptionC": "100 години",
+      "OptionD": "50 години",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Април е пролетен месец.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зимен месец е",
+      "OptionD": "Летен месец е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 240 секунди се еднакви на ________ минути.",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "6",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку часа има во 2 деноноќија?",
+      "OptionA": "24 часа",
+      "OptionB": "12 часа",
+      "OptionC": "48 часа",
+      "OptionD": "60 часа",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако Марко трчал 120 секунди, колку минути трчал?",
+      "OptionA": "1 минута",
+      "OptionB": "3 минути",
+      "OptionC": "5 минути",
+      "OptionD": "2 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 12 часот на полноќ се запишува како 00:00 или 24:00.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се запишува 12:12",
+      "OptionD": "Само на аналоген часовник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ако големата стрелка е на бројот 1, поминале ________ минути од полниот час.",
+      "OptionA": "1",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од наведениве е летен месец?",
+      "OptionA": "Јануари",
+      "OptionB": "Октомври",
+      "OptionC": "Јули",
+      "OptionD": "Март",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути остануваат до полн час ако сега е 10:40?",
+      "OptionA": "40 минути",
+      "OptionB": "10 минути",
+      "OptionC": "30 минути",
+      "OptionD": "20 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Во престапна година, февруари има 29 денови.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има 28 денови",
+      "OptionD": "Има 30 денови",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Три седмици имаат вкупно ________ денови.",
+      "OptionA": "7",
+      "OptionB": "21",
+      "OptionC": "14",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која стрелка на часовникот е најкратка?",
+      "OptionA": "Стрелката за минути",
+      "OptionB": "Стрелката за секунди",
+      "OptionC": "Стрелката за часови",
+      "OptionD": "Стрелката за денови",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку месеци поминале ако поминала една и пол година?",
+      "OptionA": "12 месеци",
+      "OptionB": "6 месеци",
+      "OptionC": "24 месеци",
+      "OptionD": "18 месеци",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: По декември започнува нов месец јануари и нова година.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Започнува ноември",
+      "OptionD": "Започнува јуни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Еден век има ________ децении.",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број на часовникот покажува 20 минути?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако Ана почнала да учи во 14:15 и завршила во 15:15, колку време учела?",
+      "OptionA": "30 минути",
+      "OptionB": "2 часа",
+      "OptionC": "15 минути",
+      "OptionD": "1 час",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Минутата е помала мерна единица од секундата.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Исти се",
+      "OptionD": "Само кај дигиталните часовници",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Бројот 12 на часовникот означува почеток на нов ________.",
+      "OptionA": "Ден",
+      "OptionB": "Час",
+      "OptionC": "Месец",
+      "OptionD": "Век",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој месец доаѓа пред август?",
+      "OptionA": "Септември",
+      "OptionB": "Јуни",
+      "OptionC": "Јули",
+      "OptionD": "Мај",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часови има во три дена?",
+      "OptionA": "24 часа",
+      "OptionB": "48 часа",
+      "OptionC": "60 часа",
+      "OptionD": "72 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Март има исто толку денови колку и мај.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Март има повеќе",
+      "OptionD": "Мај има помалку",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ако големата стрелка е на 9, а малата е скоро кај 5, часот е 4 и ________ минути.",
+      "OptionA": "15",
+      "OptionB": "45",
+      "OptionC": "30",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку минути се 3 часа?",
+      "OptionA": "100 минути",
+      "OptionB": "60 минути",
+      "OptionC": "180 минути",
+      "OptionD": "150 минути",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој ден е два дена по петок?",
+      "OptionA": "Сабота",
+      "OptionB": "Понеделник",
+      "OptionC": "Вторник",
+      "OptionD": "Недела",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Попладне, 17 часот е исто што и 5 часот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Е 7 часот",
+      "OptionD": "Е 3 часот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Во 300 секунди има вкупно ________ минути.",
+      "OptionA": "3",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број на часовникот покажува точно половина поминат час?",
+      "OptionA": "3",
+      "OptionB": "12",
+      "OptionC": "6",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако еден воз тргнал во 12:00 и патувал 4 часа, во колку часот стигнал?",
+      "OptionA": "14:00",
+      "OptionB": "15:00",
+      "OptionC": "13:00",
+      "OptionD": "16:00",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Јуни и јули се летни месеци.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само јули",
+      "OptionD": "Тие се есенски месеци",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Еден ден има ________ часа.",
+      "OptionA": "12",
+      "OptionB": "24",
+      "OptionC": "48",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку денови има месец април?",
+      "OptionA": "31",
+      "OptionB": "28",
+      "OptionC": "30",
+      "OptionD": "29",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку секунди се 1 минута и 30 секунди?",
+      "OptionA": "60 секунди",
+      "OptionB": "130 секунди",
+      "OptionC": "100 секунди",
+      "OptionD": "90 секунди",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Зимските месеци се декември, јануари и февруари.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само декември",
+      "OptionD": "Август и септември",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Две години имаат вкупно ________ месеци.",
+      "OptionA": "12",
+      "OptionB": "24",
+      "OptionC": "30",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што означува бројот 22 на дигитален часовник?",
+      "OptionA": "10 часот наутро",
+      "OptionB": "8 часот навечер",
+      "OptionC": "10 часот навечер",
+      "OptionD": "12 часот на полноќ",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку минути се 1 час и половина?",
+      "OptionA": "60 минути",
+      "OptionB": "30 минути",
+      "OptionC": "100 минути",
+      "OptionD": "90 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Малата стрелка се движи побрзо од големата стрелка.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само наутро",
+      "OptionD": "Исти се",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Месецот што доаѓа веднаш по јуни е ________.",
+      "OptionA": "Август",
+      "OptionB": "Јули",
+      "OptionC": "Мај",
+      "OptionD": "Септември",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку денови имаат заедно две вообичаени недели?",
+      "OptionA": "10 денови",
+      "OptionB": "7 денови",
+      "OptionC": "14 денови",
+      "OptionD": "21 ден",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако филмот завршил во 20:00 и траел 2 часа, кога започнал?",
+      "OptionA": "19:00",
+      "OptionB": "17:00",
+      "OptionC": "22:00",
+      "OptionD": "18:00",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Ноември има 30 денови.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има 31 ден",
+      "OptionD": "Само во зима",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ако големата стрелка е на 12, а малата е на 7, часот е точно ________.",
+      "OptionA": "12",
+      "OptionB": "7",
+      "OptionC": "19",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку секунди има во половина минута?",
+      "OptionA": "60 секунди",
+      "OptionB": "10 секунди",
+      "OptionC": "30 секунди",
+      "OptionD": "15 секунди",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која година е престапна ако знаеме дека се повторува на 4 години?",
+      "OptionA": "2021",
+      "OptionB": "2022",
+      "OptionC": "2023",
+      "OptionD": "2024",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Еден час по 11:30 е 12:30.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Е 11:45",
+      "OptionD": "Е 1:00",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Помеѓу 14:00 и 16:00 поминале ________ часа.",
+      "OptionA": "1",
+      "OptionB": "2",
+      "OptionC": "3",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој месец има 31 ден?",
+      "OptionA": "Јуни",
+      "OptionB": "Септември",
+      "OptionC": "Октомври",
+      "OptionD": "Април",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку часови поминале ако поминала една четвртина од денот?",
+      "OptionA": "12 часа",
+      "OptionB": "4 часа",
+      "OptionC": "8 часа",
+      "OptionD": "6 часа",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 60 минути се исто што и 1 час.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај аналогни часовници",
+      "OptionD": "60 минути се 10 часа",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Десет децении се еднакви на ________ години.",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "1000",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку минути поминале ако големата стрелка се поместила од 12 до 2?",
+      "OptionA": "2 минути",
+      "OptionB": "5 минути",
+      "OptionC": "10 минути",
+      "OptionD": "20 минути",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако денес е 31-ви декември, кој е датумот утре?",
+      "OptionA": "32 декември",
+      "OptionB": "1 декември",
+      "OptionC": "30 декември",
+      "OptionD": "1 јануари",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

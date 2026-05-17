@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Дополни: 1 метар (m) има точно ________ сантиметри (cm).",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1000",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е основната единица мерка за должина?",
+      "OptionA": "Метар",
+      "OptionB": "Килограм",
+      "OptionC": "Литар",
+      "OptionD": "Час",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 1 дециметар (dm) е подолг од 1 метар (m).",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тие се еднакви",
+      "OptionD": "Зависи од линијарот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 50 cm е исто што и ________ dm.",
+      "OptionA": "5",
+      "OptionB": "50",
+      "OptionC": "500",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој инструмент го користиме за мерење на мали должини во тетратката?",
+      "OptionA": "Линијар",
+      "OptionB": "Вага",
+      "OptionC": "Часовник",
+      "OptionD": "Термометар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 10 dm = 1 m.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "10 dm = 10 m",
+      "OptionD": "10 dm = 1 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри има во 2 дециметри?",
+      "OptionA": "20 cm",
+      "OptionB": "2 cm",
+      "OptionC": "200 cm",
+      "OptionD": "10 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Должината на една училница е најдобро да се мери во ________.",
+      "OptionA": "Метри",
+      "OptionB": "Минути",
+      "OptionC": "Грамови",
+      "OptionD": "Литри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 1 cm е помал од 1 dm.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тие се со иста должина",
+      "OptionD": "1 cm е поголем",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако една отсечка е долга 8 dm, колку сантиметри е таа?",
+      "OptionA": "80 cm",
+      "OptionB": "8 cm",
+      "OptionC": "18 cm",
+      "OptionD": "800 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 3 m и 20 cm изразено само во сантиметри е ________ cm.",
+      "OptionA": "320",
+      "OptionB": "32",
+      "OptionC": "302",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Половина метар е 50 сантиметри.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Половина метар е 10 cm",
+      "OptionD": "Половина метар е 100 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку дециметри има во 90 сантиметри?",
+      "OptionA": "9 dm",
+      "OptionB": "90 dm",
+      "OptionC": "19 dm",
+      "OptionD": "1 dm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот за да биде точен: 1 m > ________.",
+      "OptionA": "80 cm",
+      "OptionB": "120 cm",
+      "OptionC": "10 dm",
+      "OptionD": "2 m",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Марко е висок 1 m и 35 cm. Колку сантиметри е неговата висина?",
+      "OptionA": "135 cm",
+      "OptionB": "1035 cm",
+      "OptionC": "35 cm",
+      "OptionD": "153 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 40 dm = 4 m.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "40 dm = 400 m",
+      "OptionD": "40 dm = 1 m",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која кратенка се користи за дециметар?",
+      "OptionA": "dm",
+      "OptionB": "m",
+      "OptionC": "cm",
+      "OptionD": "kg",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 7 dm и 5 cm има вкупно ________ cm.",
+      "OptionA": "75",
+      "OptionB": "705",
+      "OptionC": "12",
+      "OptionD": "57",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Должината на моливот се мери во метри.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Зависи колку е голем моливот",
+      "OptionD": "Се мери во литри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку метри се 60 дециметри?",
+      "OptionA": "6 m",
+      "OptionB": "60 m",
+      "OptionC": "600 m",
+      "OptionD": "16 m",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 1 m - 30 cm = ________ cm.",
+      "OptionA": "70",
+      "OptionB": "130",
+      "OptionC": "100",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број недостасува: 10 cm = ____ dm?",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 100 cm и 10 dm претставуваат иста должина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "100 cm е многу подолго",
+      "OptionD": "10 dm е подолго",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри треба да додадеме на 80 cm за да добиеме 1 m?",
+      "OptionA": "20 cm",
+      "OptionB": "10 cm",
+      "OptionC": "80 cm",
+      "OptionD": "100 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 4 m = ________ dm.",
+      "OptionA": "40",
+      "OptionB": "400",
+      "OptionC": "4",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку сантиметри има во 6 дециметри?",
+      "OptionA": "6 cm",
+      "OptionB": "60 cm",
+      "OptionC": "600 cm",
+      "OptionD": "16 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 200 cm = 1 m.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "200 cm = 20 m",
+      "OptionD": "200 cm = 10 dm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 1 dm = ________ cm.",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица е најмала од наведените?",
+      "OptionA": "Метар",
+      "OptionB": "Сантиметар",
+      "OptionC": "Дециметар",
+      "OptionD": "Километар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Растојанието од Скопје до Охрид се мери во сантиметри.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само со линијар",
+      "OptionD": "Се мери во дециметри",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 2 m и 5 dm е исто што и ________ dm.",
+      "OptionA": "20",
+      "OptionB": "25",
+      "OptionC": "205",
+      "OptionD": "52",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку дециметри треба да додадеме на 3 dm за да добиеме 1 m?",
+      "OptionA": "10 dm",
+      "OptionB": "7 dm",
+      "OptionC": "3 dm",
+      "OptionD": "70 dm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 15 cm > 2 dm.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "15 cm е исто што и 2 dm",
+      "OptionD": "2 dm има 2 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 100 cm - 10 cm = ________ cm.",
+      "OptionA": "100",
+      "OptionB": "90",
+      "OptionC": "110",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако една панделка е долга 40 cm, а друга 60 cm, колку се долги заедно?",
+      "OptionA": "10 cm",
+      "OptionB": "1 m",
+      "OptionC": "2 m",
+      "OptionD": "100 dm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Должината на тетратката е околу 2 метри.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тетратката е долга 20 метри",
+      "OptionD": "Се мери во килограми",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број недостасува: 30 dm = ____ m?",
+      "OptionA": "300",
+      "OptionB": "3",
+      "OptionC": "30",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Ознаката за метар е буквата ________.",
+      "OptionA": "cm",
+      "OptionB": "m",
+      "OptionC": "dm",
+      "OptionD": "km",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку сантиметри има во половина дециметар?",
+      "OptionA": "10 cm",
+      "OptionB": "5 cm",
+      "OptionC": "50 cm",
+      "OptionD": "1 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 m = 100 dm.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "1 m = 1 dm",
+      "OptionD": "1 m = 1000 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 80 cm = ________ dm.",
+      "OptionA": "80",
+      "OptionB": "8",
+      "OptionC": "800",
+      "OptionD": "18",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1 m минус 2 dm?",
+      "OptionA": "98 cm",
+      "OptionB": "8 dm",
+      "OptionC": "12 dm",
+      "OptionD": "8 m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Висината на една врата е околу 2 метри.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Вратата е висока 2 сантиметри",
+      "OptionD": "Вратата е висока 200 метри",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е поголем: 45 cm или 5 dm?",
+      "OptionA": "45 cm",
+      "OptionB": "5 dm",
+      "OptionC": "Тие се еднакви",
+      "OptionD": "Ниту еден",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 6 m и 2 dm = ________ dm.",
+      "OptionA": "60",
+      "OptionB": "62",
+      "OptionC": "620",
+      "OptionD": "26",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако отсечеш 20 cm од панделка долга 1 m, колку сантиметри ќе останат?",
+      "OptionA": "120 cm",
+      "OptionB": "80 cm",
+      "OptionC": "20 cm",
+      "OptionD": "100 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 7 dm = 700 cm.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "7 dm = 7 cm",
+      "OptionD": "7 dm = 1 m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: За да измериме должина на ткаенина, користиме ________.",
+      "OptionA": "Чаша",
+      "OptionB": "Метарска лента",
+      "OptionC": "Лажица",
+      "OptionD": "Огледало",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку сантиметри има во 10 дециметри?",
+      "OptionA": "10 cm",
+      "OptionB": "100 cm",
+      "OptionC": "1000 cm",
+      "OptionD": "1 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 3 dm + 7 dm = 1 m.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "3 dm + 7 dm = 10 m",
+      "OptionD": "3 dm + 7 dm = 100 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку дециметри има во 1 метар?",
+      "OptionA": "100 dm",
+      "OptionB": "1 dm",
+      "OptionC": "10 dm",
+      "OptionD": "5 dm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 200 cm = ________ m.",
+      "OptionA": "20",
+      "OptionB": "200",
+      "OptionC": "2",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 5 dm = 5 cm.",
+      "OptionA": "Точно",
+      "OptionB": "5 dm е помало",
+      "OptionC": "Неточно",
+      "OptionD": "Тоа е исто",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 3 dm = ________ cm.",
+      "OptionA": "3",
+      "OptionB": "300",
+      "OptionC": "30",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој предмет е најдобро да се мери со сантиметри?",
+      "OptionA": "Пат меѓу два града",
+      "OptionB": "Нива",
+      "OptionC": "Гума за бришење",
+      "OptionD": "Училиштен двор",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1 m - 5 dm = 5 dm.",
+      "OptionA": "Неточно",
+      "OptionB": "1 m - 5 dm = 10 dm",
+      "OptionC": "Точно",
+      "OptionD": "1 m - 5 dm = 0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 9 dm и 1 cm = ________ cm.",
+      "OptionA": "19",
+      "OptionB": "90",
+      "OptionC": "91",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 40 cm + 60 cm?",
+      "OptionA": "10 cm",
+      "OptionB": "100 dm",
+      "OptionC": "1 m",
+      "OptionD": "2 m",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 100 cm > 1 m.",
+      "OptionA": "Точно",
+      "OptionB": "100 cm е помало",
+      "OptionC": "Неточно (тие се еднакви)",
+      "OptionD": "Точно само за дрвени метри",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Кратенката 'cm' означува ________.",
+      "OptionA": "Цел метар",
+      "OptionB": "Силен метар",
+      "OptionC": "Сантиметар",
+      "OptionD": "Стар метар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку сантиметри има во 4 дециметри и 2 сантиметри?",
+      "OptionA": "6 cm",
+      "OptionB": "402 cm",
+      "OptionC": "42 cm",
+      "OptionD": "24 cm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Ако Ана е висока 120 cm, таа е повисока од 1 m.",
+      "OptionA": "Неточно",
+      "OptionB": "Тие се исто високи",
+      "OptionC": "Точно",
+      "OptionD": "Ана е пониска",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 70 dm = ________ m.",
+      "OptionA": "700",
+      "OptionB": "70",
+      "OptionC": "7",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку сантиметри има во 1 метар?",
+      "OptionA": "10",
+      "OptionB": "50",
+      "OptionC": "100",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 10 dm = ________ cm.",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "100",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1 m = 50 cm + 50 cm.",
+      "OptionA": "Неточно",
+      "OptionB": "1 m = 10 cm",
+      "OptionC": "Точно",
+      "OptionD": "1 m = 150 cm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која единица мерка е 10 пати помала од метарот?",
+      "OptionA": "Сантиметар",
+      "OptionB": "Километар",
+      "OptionC": "Дециметар",
+      "OptionD": "Милиметар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 45 cm + ________ cm = 1 m.",
+      "OptionA": "65",
+      "OptionB": "45",
+      "OptionC": "55",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако една линија е долга 3 dm, а друга 20 cm, која е подолга?",
+      "OptionA": "Втората",
+      "OptionB": "Исти се",
+      "OptionC": "Првата (3 dm)",
+      "OptionD": "Ниту една",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 80 cm < 9 dm.",
+      "OptionA": "Неточно",
+      "OptionB": "Тие се еднакви",
+      "OptionC": "Точно",
+      "OptionD": "80 cm е поголемо",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 5 m = ________ cm.",
+      "OptionA": "50",
+      "OptionB": "5",
+      "OptionC": "500",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку дециметри се 100 сантиметри?",
+      "OptionA": "1 dm",
+      "OptionB": "100 dm",
+      "OptionC": "10 dm",
+      "OptionD": "1000 dm",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Растојанието што го поминуваме со еден голем чекор е околу 1 метар.",
+      "OptionA": "Неточно",
+      "OptionB": "Чекорот е 1 сантиметар",
+      "OptionC": "Точно",
+      "OptionD": "Чекорот е 10 метри",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1 m - 8 dm?",
+      "OptionA": "92 cm",
+      "OptionB": "2 cm",
+      "OptionC": "20 cm",
+      "OptionD": "2 m",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 1 dm - 2 cm = ________ cm.",
+      "OptionA": "12",
+      "OptionB": "10",
+      "OptionC": "8",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 4 дециметри имаат точно ________ сантиметри.",
+      "OptionA": "4",
+      "OptionB": "400",
+      "OptionC": "14",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку сантиметри има во 10 дециметри?",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "1000",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 метар е исто што и 100 дециметри.",
+      "OptionA": "Точно",
+      "OptionB": "1 метар е 1000 дециметри",
+      "OptionC": "1 метар е 1 дециметар",
+      "OptionD": "Неточно (1 метар е 10 дециметри)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 60 cm = ________ dm.",
+      "OptionA": "60",
+      "OptionB": "600",
+      "OptionC": "16",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку метри има во 50 дециметри?",
+      "OptionA": "50",
+      "OptionB": "500",
+      "OptionC": "15",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 25 cm + 75 cm = 1 m.",
+      "OptionA": "Неточно",
+      "OptionB": "Збирот е 10 cm",
+      "OptionC": "Збирот е 100 m",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако една табла е долга 2 метра, колку дециметри е тоа?",
+      "OptionA": "2 dm",
+      "OptionB": "200 dm",
+      "OptionC": "12 dm",
+      "OptionD": "20 dm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 1 m и 4 dm = ________ dm.",
+      "OptionA": "10",
+      "OptionB": "4",
+      "OptionC": "41",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 cm е десет пати помал од 1 dm.",
+      "OptionA": "Неточно",
+      "OptionB": "1 cm е поголем",
+      "OptionC": "Тие не се поврзани",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку сантиметри треба да додадеме на 6 dm за да добиеме 1 m?",
+      "OptionA": "60 cm",
+      "OptionB": "4 cm",
+      "OptionC": "10 cm",
+      "OptionD": "40 cm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Ознаката за дециметар е ________.",
+      "OptionA": "m",
+      "OptionB": "cm",
+      "OptionC": "mm",
+      "OptionD": "dm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако должината на една книга е 2 dm, колку сантиметри е тоа?",
+      "OptionA": "2 cm",
+      "OptionB": "200 cm",
+      "OptionC": "12 cm",
+      "OptionD": "20 cm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 100 cm = 10 dm.",
+      "OptionA": "Неточно",
+      "OptionB": "100 cm е помало",
+      "OptionC": "100 cm е поголемо",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 9 m = ________ dm.",
+      "OptionA": "9",
+      "OptionB": "900",
+      "OptionC": "19",
+      "OptionD": "90",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 1 m минус 40 cm?",
+      "OptionA": "140 cm",
+      "OptionB": "40 cm",
+      "OptionC": "100 cm",
+      "OptionD": "60 cm",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Должината на твојот чекор е околу 1 дециметар.",
+      "OptionA": "Точно",
+      "OptionB": "Чекорот е 1 сантиметар",
+      "OptionC": "Чекорот е 10 метри",
+      "OptionD": "Неточно (чекорот е поголем)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот за да биде точен: 5 dm = ________ cm.",
+      "OptionA": "5",
+      "OptionB": "500",
+      "OptionC": "15",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој број е еднаков на 300 сантиметри?",
+      "OptionA": "3 dm",
+      "OptionB": "30 m",
+      "OptionC": "30 dm",
+      "OptionD": "3 m",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 dm е составен од 10 cm.",
+      "OptionA": "Неточно",
+      "OptionB": "Од 100 cm",
+      "OptionC": "Од 1 cm",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 1 m - 1 dm = ________ dm.",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "11",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако имаш две летви од по 5 dm, колку метри се тие заедно?",
+      "OptionA": "10 m",
+      "OptionB": "5 m",
+      "OptionC": "2 m",
+      "OptionD": "1 m",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 m и 2 cm е исто што и 12 cm.",
+      "OptionA": "Точно",
+      "OptionB": "1 m и 2 cm е 120 cm",
+      "OptionC": "1 m и 2 cm е 200 cm",
+      "OptionD": "Неточно (тоа е 102 cm)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: За мерење на висина на дете користиме ________.",
+      "OptionA": "Часовник",
+      "OptionB": "Вага",
+      "OptionC": "Термометар",
+      "OptionD": "Метар",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку сантиметри има во 8 дециметри?",
+      "OptionA": "8",
+      "OptionB": "800",
+      "OptionC": "18",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 100 cm - 5 dm = 50 cm.",
+      "OptionA": "Неточно",
+      "OptionB": "Разликата е 95 cm",
+      "OptionC": "Разликата е 0",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

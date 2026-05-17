@@ -1,0 +1,796 @@
+{
+  "Questions": [
+    {
+      "Question": "Која е основната мерна единица за маса?",
+      "OptionA": "Килограм",
+      "OptionB": "Метар",
+      "OptionC": "Литар",
+      "OptionD": "Секунда",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Со кој инструмент се мери масата на предметите?",
+      "OptionA": "Вага",
+      "OptionB": "Линијар",
+      "OptionC": "Термометар",
+      "OptionD": "Часовник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е кратенката за мерната единица грам?",
+      "OptionA": "g",
+      "OptionB": "kg",
+      "OptionC": "gr",
+      "OptionD": "gm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку грама има во еден килограм?",
+      "OptionA": "1000 g",
+      "OptionB": "100 g",
+      "OptionC": "10 g",
+      "OptionD": "500 g",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Масата на еден леб обично е околу 500 грама.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Лебот се мери во метри",
+      "OptionD": "Лебот нема маса",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е потешко: 1 kg железо или 1 kg памук?",
+      "OptionA": "Имаат иста маса",
+      "OptionB": "Железото",
+      "OptionC": "Памукот",
+      "OptionD": "Зависи од денот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 2 kg се еднакви на ________ грама.",
+      "OptionA": "2000",
+      "OptionB": "200",
+      "OptionC": "20",
+      "OptionD": "250",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој од следниве предмети има најмала маса?",
+      "OptionA": "Спојувалка",
+      "OptionB": "Училишна чанта",
+      "OptionC": "Велосипед",
+      "OptionD": "Автомобил",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 1000 грама е исто што и 1 килограм.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "1000 грама е 10 килограми",
+      "OptionD": "Грамот е поголем од килограмот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 500 g + 500 g = ________ kg.",
+      "OptionA": "1",
+      "OptionB": "1000",
+      "OptionC": "2",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако една јаболка тежи 150 g, колку ќе тежат две исти такви јаболка?",
+      "OptionA": "300 g",
+      "OptionB": "150 g",
+      "OptionC": "200 g",
+      "OptionD": "1 kg",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што мериме кога велиме дека некој предмет е 'тежок'?",
+      "OptionA": "Маса",
+      "OptionB": "Должина",
+      "OptionC": "Висина",
+      "OptionD": "Време",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Дигиталната вага покажува попрецизни резултати во грамови.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Вагата мери само во килограми",
+      "OptionD": "Дигиталните ваги не мерат маса",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Половина килограм има ________ грама.",
+      "OptionA": "500",
+      "OptionB": "250",
+      "OptionC": "100",
+      "OptionD": "750",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако мачката тежи 4 kg, а кучето 10 kg, колку килограми тежат заедно?",
+      "OptionA": "14 kg",
+      "OptionB": "6 kg",
+      "OptionC": "40 kg",
+      "OptionD": "20 kg",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која единица е соодветна за мерење на масата на еден слон?",
+      "OptionA": "Килограм",
+      "OptionB": "Грам",
+      "OptionC": "Сантиметар",
+      "OptionD": "Милилитар",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 350 g е помалку од 1 kg.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тие се еднакви",
+      "OptionD": "350 g е повеќе од 2 kg",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 1 kg - 200 g = ________ g.",
+      "OptionA": "800",
+      "OptionB": "200",
+      "OptionC": "1000",
+      "OptionD": "1200",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку тегови од 100 g се потребни за да се добие 1 kg?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "5",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е пополесно: 250 g шеќер или 500 g брашно?",
+      "OptionA": "250 g шеќер",
+      "OptionB": "500 g брашно",
+      "OptionC": "Имаат иста маса",
+      "OptionD": "Брашното е секогаш полесно",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ако Јана има 32 kg, а Марко 35 kg, тогаш ________ е потежок.",
+      "OptionA": "Марко",
+      "OptionB": "Јана",
+      "OptionC": "Имаат иста маса",
+      "OptionD": "Ниту еден",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е кратенката за килограм?",
+      "OptionA": "kg",
+      "OptionB": "km",
+      "OptionC": "kl",
+      "OptionD": "k",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Масата на едно чоколадо е обично околу 100 g.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Чоколадото тежи 100 kg",
+      "OptionD": "Чоколадото нема маса",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 3 kg и 250 g изразено во грамови е ________ g.",
+      "OptionA": "3250",
+      "OptionB": "3000",
+      "OptionC": "250",
+      "OptionD": "325",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако имаме 4 пакувања ориз од по 250 g, колку вкупно килограми имаме?",
+      "OptionA": "1 kg",
+      "OptionB": "4 kg",
+      "OptionC": "1000 kg",
+      "OptionD": "2 kg",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 4 kg се исто што и ________ g.",
+      "OptionA": "400",
+      "OptionB": "4000",
+      "OptionC": "40",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што користиме за да измериме колку сме тешки?",
+      "OptionA": "Термометар",
+      "OptionB": "Вага",
+      "OptionC": "Метро",
+      "OptionD": "Тријаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg е помал од 500 g.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тие се еднакви",
+      "OptionD": "1 kg е исто што и 10 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 1 kg - 500 g = ________ g.",
+      "OptionA": "100",
+      "OptionB": "500",
+      "OptionC": "1000",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку грама има во три четвртини од килограмот (750 g)?",
+      "OptionA": "250 g",
+      "OptionB": "750 g",
+      "OptionC": "1000 g",
+      "OptionD": "500 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што има поголема маса: едно јајце или една лубеница?",
+      "OptionA": "Јајцето",
+      "OptionB": "Лубеницата",
+      "OptionC": "Исти се",
+      "OptionD": "Зависи од кокошката",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Килограмот се користи за мерење на поголеми маси од грамот.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Грамот е поголем од килограмот",
+      "OptionD": "Тие не се поврзани",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 800 g + ________ g = 1 kg.",
+      "OptionA": "100",
+      "OptionB": "200",
+      "OptionC": "800",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако од 1 kg брашно потрошиме 300 g, колку грама ќе останат?",
+      "OptionA": "1300 g",
+      "OptionB": "700 g",
+      "OptionC": "300 g",
+      "OptionD": "1000 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е мерната единица за маса на лекови (апчиња)?",
+      "OptionA": "Килограм",
+      "OptionB": "Грам",
+      "OptionC": "Литар",
+      "OptionD": "Метар",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Кујнската вага служи за мерење на состојки за готвење.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Служи за мерење должина",
+      "OptionD": "Служи за мерење време",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 10 kg е ________ од 1000 g.",
+      "OptionA": "Помало",
+      "OptionB": "Поголемо",
+      "OptionC": "Еднакво",
+      "OptionD": "Исто",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако купиме 3 kg компири и 2 kg моркови, колку вкупно kg зеленчук имаме?",
+      "OptionA": "1 kg",
+      "OptionB": "5 kg",
+      "OptionC": "6 kg",
+      "OptionD": "10 kg",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се мери во грамови?",
+      "OptionA": "Маса на човек",
+      "OptionB": "Маса на еден зачин",
+      "OptionC": "Должина на пат",
+      "OptionD": "Количина на вода",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg е исто што и 1000 cm.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "cm е за маса",
+      "OptionD": "1 kg е 100 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 5 kg = ________ g.",
+      "OptionA": "500",
+      "OptionB": "5000",
+      "OptionC": "50",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку тегови од 500 g се потребни за да се измери 2 kg?",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "1",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Грамот е помала единица од килограмот.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Тие се еднакви",
+      "OptionD": "Грамот е најголема единица",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 1 kg - 1 g = ________ g.",
+      "OptionA": "0",
+      "OptionB": "999",
+      "OptionC": "1001",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако празната кошница тежи 1 kg, а јаболката во неа 5 kg, колку тежи полната кошница?",
+      "OptionA": "4 kg",
+      "OptionB": "6 kg",
+      "OptionC": "5 kg",
+      "OptionD": "1 kg",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој предмет би го мереле во килограми?",
+      "OptionA": "Едно зрно ориз",
+      "OptionB": "Чанта со книги",
+      "OptionC": "Една игла",
+      "OptionD": "Едно копче",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 2 kg > 1500 g.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "1500 g е поголемо",
+      "OptionD": "Тие се еднакви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 600 g + ________ g = 1 kg.",
+      "OptionA": "600",
+      "OptionB": "400",
+      "OptionC": "1000",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку грама има во една десетка од килограмот (1/10 kg)?",
+      "OptionA": "10 g",
+      "OptionB": "100 g",
+      "OptionC": "1000 g",
+      "OptionD": "500 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Кога вагата е во рамнотежа, масите на двата таса се еднакви.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Едниот тас мора да е потежок",
+      "OptionD": "Вагата не покажува рамнотежа",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 7000 g е исто што и ________ kg.",
+      "OptionA": "700",
+      "OptionB": "70",
+      "OptionC": "7",
+      "OptionD": "7000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако бебето тежи 3 kg и 500 g, колку грама е тоа?",
+      "OptionA": "350 g",
+      "OptionB": "3000 g",
+      "OptionC": "3500 g",
+      "OptionD": "500 g",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg шеќер има иста маса како 10 пакувања од 100 g.",
+      "OptionA": "Неточно",
+      "OptionB": "Шеќерот тежи повеќе",
+      "OptionC": "Точно",
+      "OptionD": "10 пакувања се 10 kg",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 2 kg - 1 kg = ________ g.",
+      "OptionA": "1",
+      "OptionB": "2000",
+      "OptionC": "1000",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е потешко: 500 g праски или 1 kg круши?",
+      "OptionA": "Праските",
+      "OptionB": "Исти се",
+      "OptionC": "Крушите",
+      "OptionD": "Зависи од овошјето",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која единица би ја користеле за маса на велосипед?",
+      "OptionA": "Грам",
+      "OptionB": "Милиметар",
+      "OptionC": "Килограм",
+      "OptionD": "Литар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 250 g е четвртина од килограмот.",
+      "OptionA": "Неточно",
+      "OptionB": "Половина е",
+      "OptionC": "Точно",
+      "OptionD": "250 g е 1 kg",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: За да измериме 1 kg, ни требаат ________ тегови од по 250 g.",
+      "OptionA": "2",
+      "OptionB": "10",
+      "OptionC": "4",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако едно чоколадо тежи 100 g, колку ќе тежат 5 такви чоколади?",
+      "OptionA": "100 g",
+      "OptionB": "1 kg",
+      "OptionC": "500 g",
+      "OptionD": "5 kg",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број недостасува: 450 g + ________ g = 500 g?",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "50",
+      "OptionD": "450",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Масата на децата во училиште се мери во грамови.",
+      "OptionA": "Точно",
+      "OptionB": "Децата немаат маса",
+      "OptionC": "Неточно (се мери во килограми)",
+      "OptionD": "Се мери во метри",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 1 kg е за ________ g поголем од 900 g.",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "100",
+      "OptionD": "900",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако во една торба има 2 kg брашно и 3 kg шеќер, колку тежи торбата (без масата на торбата)?",
+      "OptionA": "2 kg",
+      "OptionB": "3 kg",
+      "OptionC": "5 kg",
+      "OptionD": "1 kg",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што има најмала маса од наведеното?",
+      "OptionA": "1 kg сол",
+      "OptionB": "500 g бибер",
+      "OptionC": "50 g ким",
+      "OptionD": "200 g ориз",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1000 kg е многу поголема маса од 1000 g.",
+      "OptionA": "Неточно",
+      "OptionB": "Тие се еднакви",
+      "OptionC": "Точно",
+      "OptionD": "Грамот е поголем",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 6 kg и 50 g во грамови е ________ g.",
+      "OptionA": "650",
+      "OptionB": "6500",
+      "OptionC": "6050",
+      "OptionD": "6005",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако имаме тегови од 500 g, 200 g и 100 g, колку вкупно грама имаме?",
+      "OptionA": "700 g",
+      "OptionB": "500 g",
+      "OptionC": "800 g",
+      "OptionD": "1000 g",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која мерка е еднаква на половина килограм?",
+      "OptionA": "100 g",
+      "OptionB": "250 g",
+      "OptionC": "500 g",
+      "OptionD": "750 g",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Кујнските ваги често мерат до 5 kg.",
+      "OptionA": "Неточно",
+      "OptionB": "Мерат само до 5 g",
+      "OptionC": "Точно",
+      "OptionD": "Нема такви ваги",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 9 kg = ________ g.",
+      "OptionA": "90",
+      "OptionB": "900",
+      "OptionC": "9000",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако од 2 kg јаболка изедеме 500 g, колку грама ни остануваат?",
+      "OptionA": "1000 g",
+      "OptionB": "500 g",
+      "OptionC": "1500 g",
+      "OptionD": "2000 g",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 750 g + 250 g = 1 kg.",
+      "OptionA": "Неточно",
+      "OptionB": "Збирот е 500 g",
+      "OptionC": "Точно",
+      "OptionD": "Збирот е 10 kg",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 1 kg > ________ g.",
+      "OptionA": "1500",
+      "OptionB": "2000",
+      "OptionC": "999",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку грама има во две пакувања путер од по 250 g?",
+      "OptionA": "250 g",
+      "OptionB": "100 g",
+      "OptionC": "500 g",
+      "OptionD": "1000 g",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg е десет пати поголем од 100 g.",
+      "OptionA": "Неточно",
+      "OptionB": "Сто пати е поголем",
+      "OptionC": "Точно",
+      "OptionD": "Тие се еднакви",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 10 kg се еднакви на ________ грама.",
+      "OptionA": "100",
+      "OptionB": "1000",
+      "OptionC": "100000",
+      "OptionD": "10000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што од наведеното има маса од околу 1 грам?",
+      "OptionA": "Еден компир",
+      "OptionB": "Една книга",
+      "OptionC": "Едно јаболко",
+      "OptionD": "Една спојувалка",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg = 100 g.",
+      "OptionA": "Точно",
+      "OptionB": "1 kg е 10 g",
+      "OptionC": "1 kg е 500 g",
+      "OptionD": "Неточно (1 kg е 1000 g)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 250 g + 250 g + 500 g = ________ kg.",
+      "OptionA": "1000",
+      "OptionB": "2",
+      "OptionC": "5",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако една кутија со бисквити тежи 400 g, а друга 600 g, колку тежат заедно?",
+      "OptionA": "200 g",
+      "OptionB": "100 g",
+      "OptionC": "10 kg",
+      "OptionD": "1 kg",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Масата на еден камион се мери во грамови.",
+      "OptionA": "Точно",
+      "OptionB": "Камионот нема маса",
+      "OptionC": "Се мери во сантиметри",
+      "OptionD": "Неточно (се мери во многу килограми/тони)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Ако на вагата има 1 kg шеќер, за да биде во рамнотежа, од другата страна треба да ставиме ________ g.",
+      "OptionA": "1",
+      "OptionB": "100",
+      "OptionC": "500",
+      "OptionD": "1000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако од пакување од 1 kg брашно потрошиме 750 g, колку грама ќе останат?",
+      "OptionA": "750 g",
+      "OptionB": "500 g",
+      "OptionC": "1000 g",
+      "OptionD": "250 g",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg = 500 g + 200 g + 200 g + 100 g.",
+      "OptionA": "Неточно",
+      "OptionB": "Збирот е 800 g",
+      "OptionC": "Збирот е 2 kg",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку килограми има во 5000 грама?",
+      "OptionA": "50 kg",
+      "OptionB": "500 kg",
+      "OptionC": "1 kg",
+      "OptionD": "5 kg",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 1 kg - 400 g = ________ g.",
+      "OptionA": "400",
+      "OptionB": "1000",
+      "OptionC": "200",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако купиме 4 пакувања кафе од по 250 g, колку вкупно грама кафе сме купиле?",
+      "OptionA": "250 g",
+      "OptionB": "500 g",
+      "OptionC": "750 g",
+      "OptionD": "1000 g",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 3 kg е потешко од 2900 g.",
+      "OptionA": "Неточно",
+      "OptionB": "Тие се еднакви",
+      "OptionC": "2900 g е потешко",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 2 kg и 5 g е исто што и ________ g.",
+      "OptionA": "25",
+      "OptionB": "250",
+      "OptionC": "2050",
+      "OptionD": "2005",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој предмет би имал маса од околу 2 kg?",
+      "OptionA": "Молив",
+      "OptionB": "Гума за бришење",
+      "OptionC": "Лист хартија",
+      "OptionD": "Две пакувања шеќер",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Масата не се менува ако предметот го преместиме на друго место.",
+      "OptionA": "Неточно",
+      "OptionB": "Масата зависи од местото",
+      "OptionC": "Масата исчезнува",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 1000 g - 250 g = ________ g.",
+      "OptionA": "250",
+      "OptionB": "500",
+      "OptionC": "1000",
+      "OptionD": "750",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку грама тежат три тега од по 200 g?",
+      "OptionA": "200 g",
+      "OptionB": "400 g",
+      "OptionC": "800 g",
+      "OptionD": "600 g",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Вагата со тасови користи тегови за мерење на масата.",
+      "OptionA": "Неточно",
+      "OptionB": "Користи линијар",
+      "OptionC": "Користи вода",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: За да измериме 3 kg, ни требаат ________ пакувања од по 500 g.",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "3",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако една диња тежи 2 kg и 300 g, а друга 1 kg и 700 g, колку тежат заедно?",
+      "OptionA": "3 kg",
+      "OptionB": "3 kg и 300 g",
+      "OptionC": "10 kg",
+      "OptionD": "4 kg",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 kg брашно и 1 kg памук ја зафаќаат истата големина (волумен).",
+      "OptionA": "Точно",
+      "OptionB": "Памукот зафаќа помалку",
+      "OptionC": "Брашното зафаќа повеќе",
+      "OptionD": "Неточно (иако имаат иста маса, памукот зафаќа многу повеќе простор)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 8 kg = ________ g.",
+      "OptionA": "80",
+      "OptionB": "800",
+      "OptionC": "8",
+      "OptionD": "8000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку грама треба да додадеме на 150 g за да добиеме 1 kg?",
+      "OptionA": "150 g",
+      "OptionB": "500 g",
+      "OptionC": "750 g",
+      "OptionD": "850 g",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

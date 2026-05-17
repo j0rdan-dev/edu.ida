@@ -1,0 +1,796 @@
+{
+  "Questions": [
+    {
+      "Question": "Која е основната мерна единица за зафатнина на течност?",
+      "OptionA": "Литар",
+      "OptionB": "Метар",
+      "OptionC": "Килограм",
+      "OptionD": "Грам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Зафатнина е количеството течност што го зафаќа еден сад.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Важи само за цврсти тела",
+      "OptionD": "Се мери во сантиметри",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 1 литар е еднаков на ________ децилитри.",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "5",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е кратенката за мерната единица литар?",
+      "OptionA": "l",
+      "OptionB": "dl",
+      "OptionC": "m",
+      "OptionD": "kg",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што има поголема зафатнина: 10 dl или 1 l?",
+      "OptionA": "Имаат иста зафатнина",
+      "OptionB": "10 dl",
+      "OptionC": "1 l",
+      "OptionD": "Ниту едното",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако во еден сад има 3 l вода и додадеме уште 2 l, колку вкупно литри ќе има?",
+      "OptionA": "5 l",
+      "OptionB": "1 l",
+      "OptionC": "6 l",
+      "OptionD": "10 l",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Половина литар е исто што и ________ dl.",
+      "OptionA": "5",
+      "OptionB": "10",
+      "OptionC": "2",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Со мензура можеме точно да ја измериме зафатнината на течноста.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Мензурата мери само должина",
+      "OptionD": "Мензурата мери тежина",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку децилитри има во 2 литри?",
+      "OptionA": "20 dl",
+      "OptionB": "2 dl",
+      "OptionC": "200 dl",
+      "OptionD": "12 dl",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 40 dl = ________ l.",
+      "OptionA": "4",
+      "OptionB": "40",
+      "OptionC": "400",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако од 10 l сок испиеме 4 l, колку литри ќе останат?",
+      "OptionA": "6 l",
+      "OptionB": "14 l",
+      "OptionC": "4 l",
+      "OptionD": "5 l",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Чаша од 2 dl е помала од шише од 1 l.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Исти се",
+      "OptionD": "Чашата е поголема",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку литри се 5 dl + 5 dl?",
+      "OptionA": "1 l",
+      "OptionB": "10 l",
+      "OptionC": "55 l",
+      "OptionD": "2 l",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни го изразот: 7 l + ________ l = 10 l.",
+      "OptionA": "3",
+      "OptionB": "17",
+      "OptionC": "70",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што користиме за мерење зафатнина на сируп за кашлица?",
+      "OptionA": "Мала лажичка (ml/dl)",
+      "OptionB": "Голем кофа",
+      "OptionC": "Линијар",
+      "OptionD": "Вага",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 3 l > 20 dl.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Еднакви се",
+      "OptionD": "20 dl е поголемо",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако едно шише собира 2 l, колку такви шишиња ни требаат за 10 l вода?",
+      "OptionA": "5",
+      "OptionB": "2",
+      "OptionC": "10",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 8 l = ________ dl.",
+      "OptionA": "80",
+      "OptionB": "8",
+      "OptionC": "800",
+      "OptionD": "18",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 15 dl - 5 dl?",
+      "OptionA": "10 dl (или 1 l)",
+      "OptionB": "20 dl",
+      "OptionC": "5 dl",
+      "OptionD": "1 l",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Во кофа од 5 литри може да собере 60 децилитри вода.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Може да собере 100 dl",
+      "OptionD": "Кофата не мери dl",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако Марко купил 2 l млеко, а Ана купила 20 dl, кој купил повеќе?",
+      "OptionA": "Купиле исто",
+      "OptionB": "Марко",
+      "OptionC": "Ана",
+      "OptionD": "Никој не купил млеко",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 1 l - 2 dl = ________ dl.",
+      "OptionA": "8",
+      "OptionB": "12",
+      "OptionC": "10",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која од овие зафатнини е најмала?",
+      "OptionA": "1 dl",
+      "OptionB": "1 l",
+      "OptionC": "10 dl",
+      "OptionD": "5 l",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Помала мерна единица од литар е децилитар.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Килограм е помал",
+      "OptionD": "Метар е помал",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ако во еден аквариум има 15 l вода, а во друг 25 l, колку има вкупно?",
+      "OptionA": "40 l",
+      "OptionB": "10 l",
+      "OptionC": "30 l",
+      "OptionD": "50 l",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е кратенката за децилитар?",
+      "OptionA": "l",
+      "OptionB": "dl",
+      "OptionC": "cl",
+      "OptionD": "ml",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 5 литри се еднакви на ________ децилитри.",
+      "OptionA": "5",
+      "OptionB": "50",
+      "OptionC": "500",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 100 dl е исто што и 1 l.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "100 dl е 100 l",
+      "OptionD": "100 dl е 10 l",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако имаме 3 садови од по 2 dl, колку вкупно течност имаме?",
+      "OptionA": "5 dl",
+      "OptionB": "6 dl",
+      "OptionC": "1 l",
+      "OptionD": "2 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни го изразот: 10 dl - ________ dl = 4 dl.",
+      "OptionA": "4",
+      "OptionB": "6",
+      "OptionC": "10",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку литри вода собира кофа ако во неа ставиме 30 dl?",
+      "OptionA": "30 l",
+      "OptionB": "3 l",
+      "OptionC": "300 l",
+      "OptionD": "13 l",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Зафатнина на млеко во тетрапак обично е 1 l.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Се мери во kg",
+      "OptionD": "Се мери во m",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако во чаша има 2 dl сок, колку такви чаши ќе наполнат 1 l?",
+      "OptionA": "2",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 9 l = ________ dl.",
+      "OptionA": "9",
+      "OptionB": "90",
+      "OptionC": "900",
+      "OptionD": "19",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 4 dl + 6 dl?",
+      "OptionA": "10 l",
+      "OptionB": "1 l (или 10 dl)",
+      "OptionC": "2 dl",
+      "OptionD": "46 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 1 l е помал од 5 dl.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Еднакви се",
+      "OptionD": "1 l е 2 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во тенџере имало 5 l вода. Истуриле 20 dl. Колку литри останале?",
+      "OptionA": "5 l",
+      "OptionB": "3 l",
+      "OptionC": "2 l",
+      "OptionD": "4 l",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 60 dl = ________ l.",
+      "OptionA": "60",
+      "OptionB": "6",
+      "OptionC": "600",
+      "OptionD": "16",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој сад зафаќа најмногу течност?",
+      "OptionA": "Чаша (2 dl)",
+      "OptionB": "Кофа (10 l)",
+      "OptionC": "Лажица (0.1 dl)",
+      "OptionD": "Шише (1 l)",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 2 l = 20 dl.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "2 l е 200 dl",
+      "OptionD": "2 l е 5 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако пиеш по 2 dl чај секој ден, колку ќе испиеш за 5 дена?",
+      "OptionA": "7 dl",
+      "OptionB": "10 dl (1 l)",
+      "OptionC": "2 dl",
+      "OptionD": "5 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 3 l + 20 dl = ________ l.",
+      "OptionA": "23",
+      "OptionB": "5",
+      "OptionC": "50",
+      "OptionD": "32",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку литри се 80 децилитри?",
+      "OptionA": "80 l",
+      "OptionB": "8 l",
+      "OptionC": "800 l",
+      "OptionD": "18 l",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Во едно кафено филџанче собира околу 1 l кафе.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Собира 10 l",
+      "OptionD": "Собира 100 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ако во кофа од 10 l има 3 l вода, уште колку треба за да се наполни?",
+      "OptionA": "13 l",
+      "OptionB": "7 l",
+      "OptionC": "3 l",
+      "OptionD": "10 l",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 10 l - 50 dl = ________ l.",
+      "OptionA": "10",
+      "OptionB": "5",
+      "OptionC": "50",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која единица е соодветна за зафатнина на базен?",
+      "OptionA": "Децилитар",
+      "OptionB": "Литар",
+      "OptionC": "Метар",
+      "OptionD": "Килограм",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Литар е поголема единица од децилитар.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Исти се",
+      "OptionD": "Литар е 10 пати помал",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку децилитри се 0 литри?",
+      "OptionA": "10 dl",
+      "OptionB": "0 dl",
+      "OptionC": "1 dl",
+      "OptionD": "100 dl",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: 70 dl = ________ l.",
+      "OptionA": "70",
+      "OptionB": "7",
+      "OptionC": "700",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку децилитри има во 4 литри?",
+      "OptionA": "4 dl",
+      "OptionB": "400 dl",
+      "OptionC": "40 dl",
+      "OptionD": "14 dl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 1 l = 5 dl + ________ dl.",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "5",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 50 dl = 5 l.",
+      "OptionA": "Неточно",
+      "OptionB": "50 dl е 50 l",
+      "OptionC": "Точно",
+      "OptionD": "50 dl е 1 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако мама купи 3 шишиња сок од по 1 l, колку децилитри сок има?",
+      "OptionA": "3 dl",
+      "OptionB": "13 dl",
+      "OptionC": "30 dl",
+      "OptionD": "300 dl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: 15 l + 5 l = ________ l.",
+      "OptionA": "10",
+      "OptionB": "155",
+      "OptionC": "20",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што се мери со мерната единица децилитар?",
+      "OptionA": "Тежина на јаболка",
+      "OptionB": "Должина на пат",
+      "OptionC": "Зафатнина на течност",
+      "OptionD": "Време на трчање",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 25 dl > 3 l.",
+      "OptionA": "Точно",
+      "OptionB": "Еднакви се",
+      "OptionC": "Неточно (3 l е 30 dl)",
+      "OptionD": "25 dl е 250 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку литри се 100 dl?",
+      "OptionA": "1 l",
+      "OptionB": "100 l",
+      "OptionC": "10 l",
+      "OptionD": "1000 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 2 l - 10 dl = ________ l.",
+      "OptionA": "2",
+      "OptionB": "12",
+      "OptionC": "1",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако во буре има 50 l вода и истуриме 20 l, колку останува?",
+      "OptionA": "70 l",
+      "OptionB": "20 l",
+      "OptionC": "30 l",
+      "OptionD": "50 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Еден голем балон за вода собира 5 l.",
+      "OptionA": "Неточно",
+      "OptionB": "Собира 5 dl",
+      "OptionC": "Точно",
+      "OptionD": "Собира 5 ml",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 12 dl = 1 l и ________ dl.",
+      "OptionA": "12",
+      "OptionB": "10",
+      "OptionC": "2",
+      "OptionD": "22",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 20 l + 30 l?",
+      "OptionA": "10 l",
+      "OptionB": "230 l",
+      "OptionC": "50 l",
+      "OptionD": "5 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е најголема зафатнина?",
+      "OptionA": "9 dl",
+      "OptionB": "1 l",
+      "OptionC": "2 l",
+      "OptionD": "10 dl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1 l млеко може да се подели на 5 чаши од по 2 dl.",
+      "OptionA": "Неточно",
+      "OptionB": "Може на 10 чаши",
+      "OptionC": "Точно",
+      "OptionD": "Не може да се дели",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 4 l + 10 dl = ________ l.",
+      "OptionA": "14",
+      "OptionB": "41",
+      "OptionC": "5",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако испиеш 3 dl вода наутро и 4 dl навечер, колку вкупно си испил?",
+      "OptionA": "1 l",
+      "OptionB": "1 dl",
+      "OptionC": "7 dl",
+      "OptionD": "12 dl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку литри се 10 децилитри?",
+      "OptionA": "10 l",
+      "OptionB": "100 l",
+      "OptionC": "1 l",
+      "OptionD": "0 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Зафатнина на кофа се мери во литри.",
+      "OptionA": "Неточно",
+      "OptionB": "Се мери во грамови",
+      "OptionC": "Точно",
+      "OptionD": "Се мери во часови",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 6 l = ________ dl.",
+      "OptionA": "6",
+      "OptionB": "16",
+      "OptionC": "60",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако во 1 l има 10 dl, колку има во 0.5 l?",
+      "OptionA": "1 dl",
+      "OptionB": "10 dl",
+      "OptionC": "5 dl",
+      "OptionD": "50 dl",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 15 dl е помалку од 1 l.",
+      "OptionA": "Точно",
+      "OptionB": "Еднакви се",
+      "OptionC": "Неточно",
+      "OptionD": "15 dl е 0 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни го изразот: ________ l = 30 dl.",
+      "OptionA": "30",
+      "OptionB": "300",
+      "OptionC": "3",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку литри се 20 dl + 20 dl?",
+      "OptionA": "40 l",
+      "OptionB": "2 l",
+      "OptionC": "4 l",
+      "OptionD": "22 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Шише од 1.5 l собира 15 dl.",
+      "OptionA": "Неточно",
+      "OptionB": "Собира 1 l",
+      "OptionC": "Точно",
+      "OptionD": "Собира 150 l",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку литри има во 80 dl?",
+      "OptionA": "80 l",
+      "OptionB": "800 l",
+      "OptionC": "18 l",
+      "OptionD": "8 l",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 1 l - 5 dl = ________ dl.",
+      "OptionA": "15",
+      "OptionB": "1",
+      "OptionC": "10",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Литар е мерна единица за должина.",
+      "OptionA": "Точно",
+      "OptionB": "Литар е за тежина",
+      "OptionC": "Литар е за време",
+      "OptionD": "Неточно (Литар е за зафатнина)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако во канистер има 5 l бензин, а во друг 10 l, колку има вкупно?",
+      "OptionA": "5 l",
+      "OptionB": "10 l",
+      "OptionC": "510 l",
+      "OptionD": "15 l",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 10 l - ________ l = 2 l.",
+      "OptionA": "2",
+      "OptionB": "12",
+      "OptionC": "5",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што има најголема зафатнина од наведените?",
+      "OptionA": "10 dl",
+      "OptionB": "2 l",
+      "OptionC": "15 dl",
+      "OptionD": "3 l",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 dl е десетти дел од 1 l.",
+      "OptionA": "Неточно",
+      "OptionB": "1 dl е поголем од 1 l",
+      "OptionC": "Исти се",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако пиеш по 1 dl вода секој час, колку ќе испиеш за 10 часа?",
+      "OptionA": "1 dl",
+      "OptionB": "100 dl",
+      "OptionC": "20 dl",
+      "OptionD": "10 dl (1 l)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 7 l = ________ dl.",
+      "OptionA": "7",
+      "OptionB": "17",
+      "OptionC": "700",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку децилитри се 3 l и 2 dl?",
+      "OptionA": "5 dl",
+      "OptionB": "30 dl",
+      "OptionC": "23 dl",
+      "OptionD": "32 dl",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 40 dl е помалку од 5 l.",
+      "OptionA": "Неточно",
+      "OptionB": "Еднакви се",
+      "OptionC": "40 dl е повеќе",
+      "OptionD": "Точно (40 dl = 4 l)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во базен има 100 l вода. Додале уште 50 l. Колку има сега?",
+      "OptionA": "50 l",
+      "OptionB": "100 l",
+      "OptionC": "1500 l",
+      "OptionD": "150 l",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 20 l = ________ dl.",
+      "OptionA": "20",
+      "OptionB": "2",
+      "OptionC": "2000",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој инструмент се користи за мерење течности?",
+      "OptionA": "Вага",
+      "OptionB": "Линијар",
+      "OptionC": "Часовник",
+      "OptionD": "Мерен сад со скала (Мензура)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1 l сок тежи исто колку 1 l вода (приближно).",
+      "OptionA": "Неточно",
+      "OptionB": "Сокот е многу потежок",
+      "OptionC": "Водата нема зафатнина",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако од 2 l млеко истуриме 5 dl, колку децилитри остануваат?",
+      "OptionA": "10 dl",
+      "OptionB": "25 dl",
+      "OptionC": "5 dl",
+      "OptionD": "15 dl",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: ________ dl = 10 l.",
+      "OptionA": "10",
+      "OptionB": "1000",
+      "OptionC": "1",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку литри се 50 dl + 50 dl?",
+      "OptionA": "50 l",
+      "OptionB": "5 l",
+      "OptionC": "100 l",
+      "OptionD": "10 l",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Половина од 10 dl е 5 dl.",
+      "OptionA": "Неточно",
+      "OptionB": "Половина е 1 dl",
+      "OptionC": "Половина е 2 dl",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни го изразот: 1 l - ________ dl = 0 dl.",
+      "OptionA": "1",
+      "OptionB": "0",
+      "OptionC": "5",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку децилитри сок има во 6 пакувања од по 1 dl?",
+      "OptionA": "1 dl",
+      "OptionB": "10 dl",
+      "OptionC": "16 dl",
+      "OptionD": "6 dl",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 10 l е исто што и 100 dl.",
+      "OptionA": "Неточно",
+      "OptionB": "10 l е 10 dl",
+      "OptionC": "10 l е 1000 dl",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 30 l - 10 l = ________ l.",
+      "OptionA": "40",
+      "OptionB": "10",
+      "OptionC": "310",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ако едно шише собира 5 dl, колку шишиња ни требаат за 1 l?",
+      "OptionA": "5",
+      "OptionB": "1",
+      "OptionC": "4",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}
