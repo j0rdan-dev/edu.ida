@@ -88,7 +88,6 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
     xhr.open("GET", book.url);
     xhr.send();
   };
-  };
 
   return (
     <>
