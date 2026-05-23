@@ -34,35 +34,57 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
         const blob = new Blob([xhr.response], { type: "application/pdf" });
         const blobUrl = URL.createObjectURL(blob);
         
-        // Create a temporary link element and click it
-        // This method works across all browsers and devices, and is not blocked by popup blockers
-        const link = document.createElement("a");
-        link.href = blobUrl;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.style.display = "none";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        // Open the blob URL using window.location or link click based on browser
+        // This approach works reliably on iOS Safari and other browsers
+        try {
+          // Try using window.location first (more reliable on iOS Safari)
+          const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+          
+          if (isIOS) {
+            // iOS Safari: use window.location.href
+            window.location.href = blobUrl;
+          } else {
+            // Desktop and Android: use link click approach
+            const link = document.createElement("a");
+            link.href = blobUrl;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.style.display = "none";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }
+        } catch (e) {
+          // Fallback: try direct URL if blob URL fails
+          window.location.href = book.url;
+        }
         
-        // Clean up the blob URL after a short delay
+        // Clean up the blob URL after a delay
         setTimeout(() => {
           URL.revokeObjectURL(blobUrl);
-        }, 100);
+        }, 1000);
         
         // Close the loading dialog
         setLoadingBook(null);
         setDownloadProgress(0);
       } else {
         // Fallback to direct link if download fails
-        const link = document.createElement("a");
-        link.href = book.url;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.style.display = "none";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+        
+        if (isIOS) {
+          // iOS Safari: use window.location.href
+          window.location.href = book.url;
+        } else {
+          // Desktop and Android: use link click approach
+          const link = document.createElement("a");
+          link.href = book.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.style.display = "none";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }
         
         setLoadingBook(null);
         setDownloadProgress(0);
@@ -71,14 +93,22 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
 
     xhr.addEventListener("error", () => {
       // Fallback to direct link if download fails
-      const link = document.createElement("a");
-      link.href = book.url;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.style.display = "none";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+      
+      if (isIOS) {
+        // iOS Safari: use window.location.href
+        window.location.href = book.url;
+      } else {
+        // Desktop and Android: use link click approach
+        const link = document.createElement("a");
+        link.href = book.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.style.display = "none";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
       
       setLoadingBook(null);
       setDownloadProgress(0);
