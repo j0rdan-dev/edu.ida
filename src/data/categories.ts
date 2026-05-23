@@ -47,7 +47,7 @@ export const grades: Grade[] = [
       },
       {
         id: "prirodni-nauki-1",
-        label: "Природни Науки",
+        label: "Природни Науки (soon)",
         icon: Leaf,
         color: "120 65% 45%",
         categories: [
