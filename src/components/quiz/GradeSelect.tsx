@@ -40,7 +40,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
               <div className="min-w-0">
                 <p className={`font-semibold text-base ${i < 2 ? "text-muted-foreground" : "text-foreground"}`}>{grade.label}</p>
                 <p className="text-sm text-muted-foreground">
-                  {grade.subjects.length} {grade.subjects.length === 1 ? "предмет" : "предмети"}
+                  {grade.subjects.length === 0 ? "само учебници" : (grade.subjects.length === 1 ? "тестови по " + grade.subjects.length + " предмет и учебници" : "тестови по " + grade.subjects.length + " предмети и учебници")}
                 </p>
               </div>
             </button>
@@ -60,7 +60,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
             <div className="min-w-0">
               <p className="font-semibold text-base text-violet-900">Квизовите на Срна</p>
               <p className="text-sm text-violet-700">
-                Математички забавни тестови
+                Интерактивни тестови за подобрување на математички вештини 
               </p>
             </div>
           </a>

@@ -28,125 +28,12 @@ export const grades: Grade[] = [
   {
     id: "grade1",
     label: "Прво Одделение",
-    subjects: [
-      {
-        id: "matematika-1",
-        label: "Математика",
-        icon: Calculator,
-        color: "340 65% 50%",
-        categories: [
-          {
-            id: "broevi-sobiranje-1",
-            label: "Броеви и собирање",
-            description: "Собирање и одземање до 20",
-            file: `${import.meta.env.BASE_URL}data/matematika-1.json`,
-            icon: Calculator,
-            color: "340 65% 50%",
-          },
-        ],
-      },
-      {
-        id: "prirodni-nauki-1",
-        label: "Природни Науки (soon)",
-        icon: Leaf,
-        color: "120 65% 45%",
-        categories: [
-          {
-            id: "priroda-okolina-1",
-            label: "Природа и околина",
-            description: "Животни, растенија, годишни времиња",
-            file: `${import.meta.env.BASE_URL}data/priroda-1.json`,
-            icon: Leaf,
-            color: "120 65% 45%",
-          },
-        ],
-      },
-      {
-        id: "opstestvo-1",
-        label: "Општество",
-        icon: Globe,
-        color: "220 65% 55%",
-        categories: [
-          {
-            id: "semejstvo-zaednica-1",
-            label: "Семејство и заедница",
-            description: "Дом, училиште, сообраќај, празници",
-            file: `${import.meta.env.BASE_URL}data/opstestvo-1.json`,
-            icon: Globe,
-            color: "220 65% 55%",
-          },
-        ],
-      },
-    ],
+    subjects: [],
   },
   {
     id: "grade2",
     label: "Второ Одделение",
     subjects: [
-      {
-        id: "matematika-2",
-        label: "Математика",
-        icon: Calculator,
-        color: "340 65% 50%",
-        categories: [
-          {
-            id: "mnozenje-delenje-2",
-            label: "Множење и делење",
-            description: "Множење, делење, собирање до 100",
-            file: `${import.meta.env.BASE_URL}data/matematika-2.json`,
-            icon: Calculator,
-            color: "340 65% 50%",
-          },
-        ],
-      },
-      {
-        id: "prirodni-nauki-2",
-        label: "Природни Науки",
-        icon: Microscope,
-        color: "259 78% 51%",
-        categories: [
-          {
-            id: "voda",
-            label: "Вода и материја",
-            description: "Агрегатни состојби, испарување, кружење на водата",
-            file: `${import.meta.env.BASE_URL}data/sample.json`,
-            icon: Droplets,
-            color: "196 80% 50%",
-          },
-          {
-            id: "zivotni-rastenija-2",
-            label: "Животни и растенија",
-            description: "Цицачи, влечуги, водоземци, делови на растенија",
-            file: `${import.meta.env.BASE_URL}data/priroda-2.json`,
-            icon: Bug,
-            color: "48 85% 50%",
-          },
-        ],
-      },
-      {
-        id: "opstestvo-2",
-        label: "Општество",
-        icon: Globe,
-        color: "220 65% 55%",
-        categories: [
-          {
-            id: "geografija-2",
-            label: "Географија",
-            description: "Македонија, континенти, реки, езера",
-            file: `${import.meta.env.BASE_URL}data/opstestvo-2.json`,
-            icon: Globe,
-            color: "220 65% 55%",
-          },
-          {
-            id: "vselena",
-            label: "Вселена",
-            description: "Планети, ѕвезди, Сончев систем",
-            file: `${import.meta.env.BASE_URL}data/вселена.json`,
-            icon: Rocket,
-            color: "262 60% 55%",
-          },
-        ],
-      },
     ],
   },
   {
