@@ -34,15 +34,36 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
         const blob = new Blob([xhr.response], { type: "application/pdf" });
         const blobUrl = URL.createObjectURL(blob);
         
-        // Open the PDF in a new tab
-        window.open(blobUrl, "_blank", "noopener,noreferrer");
+        // Create a temporary link element and click it
+        // This method works across all browsers and devices, and is not blocked by popup blockers
+        const link = document.createElement("a");
+        link.href = blobUrl;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.style.display = "none";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
         
-        // Clean up
+        // Clean up the blob URL after a short delay
+        setTimeout(() => {
+          URL.revokeObjectURL(blobUrl);
+        }, 100);
+        
+        // Close the loading dialog
         setLoadingBook(null);
         setDownloadProgress(0);
       } else {
         // Fallback to direct link if download fails
-        window.open(book.url, "_blank", "noopener,noreferrer");
+        const link = document.createElement("a");
+        link.href = book.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.style.display = "none";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
         setLoadingBook(null);
         setDownloadProgress(0);
       }
@@ -50,7 +71,15 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
 
     xhr.addEventListener("error", () => {
       // Fallback to direct link if download fails
-      window.open(book.url, "_blank", "noopener,noreferrer");
+      const link = document.createElement("a");
+      link.href = book.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.style.display = "none";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
       setLoadingBook(null);
       setDownloadProgress(0);
     });
@@ -58,6 +87,7 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
     xhr.responseType = "arraybuffer";
     xhr.open("GET", book.url);
     xhr.send();
+  };
   };
 
   return (
