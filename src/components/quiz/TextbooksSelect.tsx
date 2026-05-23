@@ -11,17 +11,53 @@ interface TextbooksSelectProps {
 const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
   const textbooks = textbooksByGrade[grade.id] || [];
   const [loadingBook, setLoadingBook] = useState<string | null>(null);
+  const [downloadProgress, setDownloadProgress] = useState(0);
 
   const handleBookClick = (e: React.MouseEvent<HTMLAnchorElement>, book: (typeof textbooks)[0]) => {
     e.preventDefault();
     setLoadingBook(book.id);
+    setDownloadProgress(0);
     
-    // Open the PDF and close the dialog after it has time to load
-    // Using 3 seconds to allow the PDF to start loading in the browser
-    setTimeout(() => {
+    // Download the PDF with progress tracking
+    const xhr = new XMLHttpRequest();
+    
+    xhr.addEventListener("progress", (event) => {
+      if (event.lengthComputable) {
+        const percentComplete = (event.loaded / event.total) * 100;
+        setDownloadProgress(percentComplete);
+      }
+    });
+
+    xhr.addEventListener("load", () => {
+      if (xhr.status === 200) {
+        // Create a blob from the downloaded PDF
+        const blob = new Blob([xhr.response], { type: "application/pdf" });
+        const blobUrl = URL.createObjectURL(blob);
+        
+        // Open the PDF in a new tab
+        window.open(blobUrl, "_blank", "noopener,noreferrer");
+        
+        // Clean up
+        setLoadingBook(null);
+        setDownloadProgress(0);
+      } else {
+        // Fallback to direct link if download fails
+        window.open(book.url, "_blank", "noopener,noreferrer");
+        setLoadingBook(null);
+        setDownloadProgress(0);
+      }
+    });
+
+    xhr.addEventListener("error", () => {
+      // Fallback to direct link if download fails
       window.open(book.url, "_blank", "noopener,noreferrer");
       setLoadingBook(null);
-    }, 3000);
+      setDownloadProgress(0);
+    });
+
+    xhr.responseType = "arraybuffer";
+    xhr.open("GET", book.url);
+    xhr.send();
   };
 
   return (
@@ -74,7 +110,8 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
       <LoadingDialog
         isOpen={loadingBook !== null}
         message="Учебникот се вчитува ..."
-        description="Ве молиме почекајте додека документот се вчитува во вашиот прелистувач."
+        description="Ве молиме почекајте додека документот се преземе."
+        progress={downloadProgress}
       />
     </>
   );
