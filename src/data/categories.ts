@@ -22,6 +22,7 @@ export interface Grade {
   id: string;
   label: string;
   subjects: Subject[];
+  enabled?: boolean;
 }
 
 export const grades: Grade[] = [
@@ -29,16 +30,18 @@ export const grades: Grade[] = [
     id: "grade1",
     label: "Прво Одделение",
     subjects: [],
+    enabled: true,
   },
   {
     id: "grade2",
     label: "Второ Одделение",
-    subjects: [
-    ],
+    subjects: [],
+    enabled: true,
   },
   {
     id: "grade3",
     label: "Трето Одделение",
+    enabled: true,
     subjects: [
       {
         id: "matematika-3",
@@ -214,6 +217,7 @@ export const grades: Grade[] = [
   {
     id: "grade4",
     label: "Четврто Одделение",
+    enabled: true,
     subjects: [
       {
         id: "matematika-4",
@@ -469,6 +473,7 @@ export const grades: Grade[] = [
   {
     id: "grade5",
     label: "Петто Одделение [во изработка]",
+    enabled: false,
     subjects: [
       {
         id: "matematika-5",

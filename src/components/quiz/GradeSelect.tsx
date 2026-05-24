@@ -24,21 +24,21 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
             <button
               key={grade.id}
               onClick={() => onSelect(grade)}
-              disabled={i < 2}
+              disabled={!grade.enabled}
               className={`group flex items-center gap-4 w-full rounded-xl border-2 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up ${
-                i < 2
+                !grade.enabled
                   ? "border-muted bg-muted/30 cursor-not-allowed opacity-50"
                   : "border-border bg-card hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98]"
               }`}
               style={{ animationDelay: `${100 + i * 80}ms` }}
             >
               <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-transform duration-200 ${
-                i < 2 ? "bg-muted/30" : "bg-primary/10 group-hover:scale-105"
+                !grade.enabled ? "bg-muted/30" : "bg-primary/10 group-hover:scale-105"
               }`}>
-                <BookOpen className={`h-6 w-6 ${i < 2 ? "text-muted-foreground" : "text-primary"}`} />
+                <BookOpen className={`h-6 w-6 ${!grade.enabled ? "text-muted-foreground" : "text-primary"}`} />
               </div>
               <div className="min-w-0">
-                <p className={`font-semibold text-base ${i < 2 ? "text-muted-foreground" : "text-foreground"}`}>{grade.label}</p>
+                <p className={`font-semibold text-base ${!grade.enabled ? "text-muted-foreground" : "text-foreground"}`}>{grade.label}</p>
                 <p className="text-sm text-muted-foreground">
                   {grade.subjects.length === 0 ? "само учебници" : (grade.subjects.length === 1 ? "тестови по " + grade.subjects.length + " предмет и учебници" : "тестови по " + grade.subjects.length + " предмети и учебници")}
                 </p>
