@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { QuizQuestion, OptionKey } from "@/types/quiz";
 import { Check, X, Timer } from "lucide-react";
-import CharacterBuddy from "./CharacterBuddy";
-import CharacterPickerDialog from "@/components/CharacterPickerDialog";
+import { useBuddy } from "@/context/BuddyContext";
 
 interface QuestionCardProps {
   question: QuizQuestion;
@@ -50,12 +49,11 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
   const [selected, setSelected] = useState<OptionKey | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(timeLimit);
-  const [puppyCelebrateKey, setPuppyCelebrateKey] = useState(0);
-  const [isCharacterDialogOpen, setIsCharacterDialogOpen] = useState(false);
   const questionImageSrc = useMemo(() => getQuestionImageSrc(question.image), [question.image]);
   const [showImage, setShowImage] = useState(Boolean(questionImageSrc));
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const hasAnswered = useRef(false);
+  const { triggerCelebrate } = useBuddy();
 
   const stopTimer = useCallback(() => {
     if (timerRef.current) {
@@ -95,7 +93,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
     hasAnswered.current = true;
     stopTimer();
     if (key === question.CorrectAnswer) {
-      setPuppyCelebrateKey((value) => value + 1);
+      triggerCelebrate();
     }
     setSelected(key);
     setRevealed(true);
@@ -131,8 +129,6 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
-      <CharacterBuddy celebrateKey={puppyCelebrateKey} onActivate={() => setIsCharacterDialogOpen(true)} />
-      <CharacterPickerDialog open={isCharacterDialogOpen} onOpenChange={setIsCharacterDialogOpen} />
       <div className="w-full max-w-lg opacity-0 animate-fade-up">
         {/* Quiz Title */}
         <div className="mb-6">
