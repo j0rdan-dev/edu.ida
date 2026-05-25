@@ -1,60 +1,67 @@
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { useCharacter } from "@/context/CharacterContext";
-import { type CharacterId } from "@/context/CharacterContext";
-import { cn } from "@/lib/utils";
+import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 
-interface CharacterPickerDialogProps {
-  open: boolean;
-  onOpenChange: (open: boolean) => void;
+export type CharacterId = "puppy" | "cat" | "girl" | "boy";
+
+interface CharacterOption {
+  id: CharacterId;
+  label: string;
+  description: string;
 }
 
-const characterEmojis: Record<CharacterId, string> = {
-  puppy: "🐶",
-  cat: "🐱",
-  girl: "👧",
-  boy: "👦",
-};
+interface CharacterContextValue {
+  selectedCharacter: CharacterId;
+  setSelectedCharacter: (id: CharacterId) => void;
+  options: CharacterOption[];
+}
 
-const CharacterPickerDialog = ({ open, onOpenChange }: CharacterPickerDialogProps) => {
-  const { selectedCharacter, setSelectedCharacter, options } = useCharacter();
+const CHARACTER_STORAGE_KEY = "edu.ida.selected-character";
 
-  return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-xl">
-        <DialogHeader>
-          <DialogTitle>Избери лик за поддршка</DialogTitle>
-          <DialogDescription>
-            Избери кој лик ќе те бодри кога ќе одговориш точно.
-          </DialogDescription>
-        </DialogHeader>
+const characterOptions: CharacterOption[] = [
+  { id: "puppy", label: "Кутре", description: "Весело и разиграно" },
+  { id: "cat", label: "Маче", description: "Слатко и љубопитно" },
+  { id: "girl", label: "Девојче", description: "Нежно и охрабрувачко" },
+  { id: "boy", label: "Момче", description: "Пријателско и бодро" },
+];
 
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {options.map((option) => {
-            const isSelected = selectedCharacter === option.id;
-            return (
-              <button
-                key={option.id}
-                type="button"
-                onClick={() => {
-                  setSelectedCharacter(option.id);
-                  onOpenChange(false);
-                }}
-                className={cn(
-                  "rounded-xl border-2 p-4 text-left transition-all duration-200",
-                  "hover:border-primary/70 hover:bg-accent/40",
-                  isSelected ? "border-primary bg-primary/10 shadow-sm" : "border-border bg-card"
-                )}
-              >
-                <div className="mb-2 text-2xl" aria-hidden="true">{characterEmojis[option.id]}</div>
-                <p className="text-base font-semibold text-foreground">{option.label}</p>
-                <p className="text-sm text-muted-foreground">{option.description}</p>
-              </button>
-            );
-          })}
-        </div>
-      </DialogContent>
-    </Dialog>
+const CharacterContext = createContext<CharacterContextValue | undefined>(undefined);
+
+function isCharacterId(value: string): value is CharacterId {
+  return value === "puppy" || value === "cat" || value === "girl" || value === "boy";
+}
+
+export const CharacterProvider = ({ children }: { children: ReactNode }) => {
+  const [selectedCharacter, setSelectedCharacter] = useState<CharacterId>(() => {
+    if (typeof window === "undefined") return "puppy";
+
+    const stored = window.localStorage.getItem(CHARACTER_STORAGE_KEY);
+    if (stored && isCharacterId(stored)) {
+      return stored;
+    }
+    return "puppy";
+  });
+
+  useEffect(() => {
+    window.localStorage.setItem(CHARACTER_STORAGE_KEY, selectedCharacter);
+  }, [selectedCharacter]);
+
+  const value = useMemo<CharacterContextValue>(
+    () => ({
+      selectedCharacter,
+      setSelectedCharacter,
+      options: characterOptions,
+    }),
+    [selectedCharacter]
   );
+
+  return <CharacterContext.Provider value={value}>{children}</CharacterContext.Provider>;
 };
 
-export default CharacterPickerDialog;
+export function useCharacter() {
+  const context = useContext(CharacterContext);
+
+  if (!context) {
+    throw new Error("useCharacter must be used within CharacterProvider");
+  }
+
+  return context;
+}
