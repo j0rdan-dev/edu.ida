@@ -1,0 +1,268 @@
+.character-buddy-wrapper,
+.puppy-buddy-wrapper {
+  position: fixed;
+  right: 1rem;
+  bottom: 0.8rem;
+  z-index: 40;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.puppy-character {
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 25% 20%, #ffffff 0%, #ffe6c4 65%, #f5cca1 100%);
+  box-shadow: 0 14px 32px rgba(33, 30, 25, 0.18);
+  animation: puppy-float 3.1s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.cat-character,
+.girl-character,
+.boy-character {
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  box-shadow: 0 14px 32px rgba(33, 30, 25, 0.18);
+  animation: puppy-float 3.1s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.cat-character {
+  background: radial-gradient(circle at 26% 20%, #ffffff 0%, #eceef7 70%, #d9dced 100%);
+}
+
+.girl-character {
+  background: radial-gradient(circle at 28% 20%, #fff8f5 0%, #ffe6d7 68%, #f6c7b2 100%);
+}
+
+.boy-character {
+  background: radial-gradient(circle at 28% 20%, #ffffff 0%, #edf3ff 70%, #d8e4ff 100%);
+}
+
+.character-click-target {
+  pointer-events: auto;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.character-click-target:hover {
+  transform: translateY(-1px);
+}
+
+.character-click-target:focus-visible {
+  outline: 3px solid #79c89d;
+  outline-offset: 2px;
+}
+
+.puppy-character.puppy-cheer {
+  animation: puppy-cheer 0.45s ease-in-out 3;
+}
+
+.cat-character.cat-cheer,
+.girl-character.girl-cheer,
+.boy-character.boy-cheer {
+  animation: puppy-cheer 0.45s ease-in-out 3;
+}
+
+.puppy-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.puppy-eye,
+.puppy-smile,
+.puppy-blush,
+.puppy-eye-sparkle {
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+}
+
+.puppy-eye-happy {
+  transform: scale(0.9) translateY(-1px);
+  filter: brightness(1.08);
+}
+
+.puppy-smile-happy {
+  transform: translateY(1px);
+}
+
+.puppy-eye-happy + .puppy-eye,
+.puppy-eye + .puppy-eye-happy {
+  transform: scale(0.9) translateY(-1px);
+}
+
+.puppy-blush-happy {
+  opacity: 1;
+  transform: scale(1.2);
+  filter: saturate(1.2);
+}
+
+.puppy-cheer .puppy-eye-sparkle {
+  animation: puppy-sparkle 0.5s ease-in-out 3;
+}
+
+.cat-eye,
+.cat-smile,
+.cat-eye-sparkle,
+.girl-smile,
+.girl-blush,
+.girl-eye-sparkle,
+.girl-heart,
+.boy-smile,
+.boy-blush,
+.boy-eye-sparkle {
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+}
+
+.cat-eye-happy {
+  transform: scale(0.9) translateY(-1px);
+  filter: brightness(1.12);
+}
+
+.cat-smile-happy,
+.girl-smile-happy {
+  transform: translateY(1px);
+}
+
+.cat-cheer .cat-eye-sparkle,
+.girl-cheer .girl-eye-sparkle,
+.boy-cheer .boy-eye-sparkle {
+  animation: puppy-sparkle 0.5s ease-in-out 3;
+}
+
+.girl-blush-happy {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.girl-cheer .girl-heart {
+  animation: girl-heart-bounce 0.55s ease-in-out 3;
+}
+
+.boy-smile-happy {
+  transform: translateY(1px);
+}
+
+.boy-blush-happy {
+  opacity: 1;
+  transform: scale(1.18);
+}
+
+.puppy-tail {
+  transform-origin: 148px 133px;
+  animation: puppy-tail-wag 0.55s ease-in-out infinite;
+}
+
+.cat-tail {
+  transform-origin: 136px 125px;
+  animation: puppy-tail-wag 0.6s ease-in-out infinite;
+}
+
+.puppy-bubble {
+  max-width: 215px;
+  border-radius: 0.85rem;
+  background: #fff;
+  color: #15543a;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.25;
+  border: 2px solid #79c89d;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  transform: translateY(10px) scale(0.95);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.puppy-bubble-show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@media (max-width: 640px) {
+  .character-buddy-wrapper,
+  .puppy-buddy-wrapper {
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .puppy-character,
+  .cat-character,
+  .girl-character,
+  .boy-character {
+    width: 96px;
+    height: 96px;
+  }
+
+  .puppy-bubble {
+    max-width: 170px;
+    font-size: 0.78rem;
+  }
+}
+
+@keyframes puppy-tail-wag {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(14deg);
+  }
+}
+
+@keyframes puppy-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes puppy-cheer {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  40% {
+    transform: translateY(-9px) scale(1.03);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes puppy-sparkle {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+}
+
+@keyframes girl-heart-bounce {
+  0%,
+  100% {
+    transform: translate(-18px, 8px) scale(0.45);
+  }
+
+  50% {
+    transform: translate(-18px, 5px) scale(0.52);
+  }
+}
