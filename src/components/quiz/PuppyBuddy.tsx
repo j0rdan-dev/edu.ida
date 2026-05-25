@@ -9,8 +9,8 @@ interface PuppyBuddyProps {
 const cheeringMessages = [
   "Браво! Одлично!",
   "Супер! Продолжи така!",
-  "Ти си шампион!",
-  "Точно! Се гордеам со тебе!",
+  "Ав ав! Точен одговор!",
+  "И јас учам од тебе! Ав ав!",
 ];
 
 const PuppyBuddy = ({ celebrateKey, onActivate }: PuppyBuddyProps) => {
