@@ -13,6 +13,7 @@ const characterEmojis: Record<CharacterId, string> = {
   cat: "🐱",
   girl: "👧",
   boy: "👦",
+  teacher: "🧑‍🏫",
 };
 
 const CharacterPickerDialog = ({ open, onOpenChange }: CharacterPickerDialogProps) => {
