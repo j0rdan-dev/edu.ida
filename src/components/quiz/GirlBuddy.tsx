@@ -47,21 +47,20 @@ const GirlBuddy = ({ celebrateKey, onActivate }: GirlBuddyProps) => {
         onClick={onActivate}
       >
         <svg viewBox="0 0 180 180" className="puppy-svg" role="img" aria-hidden="true">
-          <circle cx="90" cy="91" r="34" fill="#fae8d8" />
-          <path d="M56 92 Q58 47 90 44 Q122 47 124 92 L124 106 Q118 124 103 131 H77 Q62 124 56 106 Z" fill="#f0c14f" />
-          <path d="M67 46 Q90 29 113 46" fill="none" stroke="#f0c14f" strokeWidth="10" strokeLinecap="round" />
-          <circle cx="64" cy="122" r="9" fill="#f0c14f" />
-          <circle cx="116" cy="122" r="9" fill="#f0c14f" />
-          <ellipse cx="70" cy="88" rx="5.5" ry="6.5" fill="#2f5fa2" />
-          <ellipse cx="110" cy="88" rx="5.5" ry="6.5" fill="#2f5fa2" />
+          <path d="M50 114 Q52 70 74 58 L76 130 Q58 130 50 114" fill="#f1c24e" />
+          <path d="M130 114 Q128 70 106 58 L104 130 Q122 130 130 114" fill="#f1c24e" />
+          <circle cx="90" cy="94" r="33" fill="#fae8d8" />
+          <path d="M58 84 Q60 50 90 46 Q120 50 122 84 Q114 68 90 68 Q66 68 58 84" fill="#f1c24e" />
+          <path d="M62 60 Q88 39 118 58" fill="none" stroke="#f1c24e" strokeWidth="8" strokeLinecap="round" />
+          <ellipse cx="74" cy="92" rx="5.5" ry="6.5" fill="#2f5fa2" />
+          <ellipse cx="106" cy="92" rx="5.5" ry="6.5" fill="#2f5fa2" />
           <circle className="girl-eye-sparkle" cx="72" cy="85" r="2" fill="#fff" />
           <circle className="girl-eye-sparkle" cx="112" cy="85" r="2" fill="#fff" />
-          <path className={`girl-smile ${isCheering ? "girl-smile-happy" : ""}`} d={isCheering ? "M74 104 Q90 122 106 104" : "M76 106 Q90 116 104 106"} fill="none" stroke="#7f3e2e" strokeWidth={isCheering ? 5 : 4} strokeLinecap="round" />
+          <path className={`girl-smile ${isCheering ? "girl-smile-happy" : ""}`} d={isCheering ? "M74 108 Q90 126 106 108" : "M76 110 Q90 119 104 110"} fill="none" stroke="#955136" strokeWidth={isCheering ? 5 : 4} strokeLinecap="round" />
           <circle className={`girl-blush ${isCheering ? "girl-blush-happy" : ""}`} cx="63" cy="99" r="6" fill="#ee9ea3" opacity="0.72" />
           <circle className={`girl-blush ${isCheering ? "girl-blush-happy" : ""}`} cx="117" cy="99" r="6" fill="#ee9ea3" opacity="0.72" />
-          <path d="M66 60 H80" stroke="#7d5b12" strokeWidth="3" strokeLinecap="round" />
-          <path d="M100 60 H114" stroke="#7d5b12" strokeWidth="3" strokeLinecap="round" />
-          <path className="girl-heart" d="M141 83 C141 77 146 73 151 73 C155 73 158 75 160 78 C162 75 165 73 169 73 C174 73 179 77 179 83 C179 92 170 99 160 106 C150 99 141 92 141 83 Z" fill="#f45d86" transform="translate(-18 8) scale(0.45)" />
+          <rect x="67" y="128" width="46" height="30" rx="12" fill="#ef77b6" />
+          <circle cx="90" cy="149" r="3" fill="#ffe9f4" />
         </svg>
       </button>
     </div>
