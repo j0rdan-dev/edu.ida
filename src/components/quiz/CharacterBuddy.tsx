@@ -2,6 +2,7 @@ import CatBuddy from "./CatBuddy";
 import BoyBuddy from "./BoyBuddy";
 import GirlBuddy from "./GirlBuddy";
 import PuppyBuddy from "./PuppyBuddy";
+import TeacherBuddy from "./TeacherBuddy";
 import { useCharacter } from "@/context/CharacterContext";
 
 interface CharacterBuddyProps {
@@ -22,6 +23,10 @@ const CharacterBuddy = ({ celebrateKey, onActivate }: CharacterBuddyProps) => {
 
   if (selectedCharacter === "boy") {
     return <BoyBuddy celebrateKey={celebrateKey} onActivate={onActivate} />;
+  }
+
+  if (selectedCharacter === "teacher") {
+    return <TeacherBuddy celebrateKey={celebrateKey} onActivate={onActivate} />;
   }
 
   return <PuppyBuddy celebrateKey={celebrateKey} onActivate={onActivate} />;

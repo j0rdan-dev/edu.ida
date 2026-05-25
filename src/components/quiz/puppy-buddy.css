@@ -23,7 +23,8 @@
 
 .cat-character,
 .girl-character,
-.boy-character {
+.boy-character,
+.teacher-character {
   width: 130px;
   height: 130px;
   border-radius: 999px;
@@ -42,6 +43,10 @@
 
 .boy-character {
   background: radial-gradient(circle at 28% 20%, #ffffff 0%, #edf3ff 70%, #d8e4ff 100%);
+}
+
+.teacher-character {
+  background: radial-gradient(circle at 28% 20%, #fdfdfd 0%, #eceff4 70%, #d8dde6 100%);
 }
 
 .character-click-target {
@@ -68,7 +73,8 @@
 
 .cat-character.cat-cheer,
 .girl-character.girl-cheer,
-.boy-character.boy-cheer {
+.boy-character.boy-cheer,
+.teacher-character.teacher-cheer {
   animation: puppy-cheer 0.45s ease-in-out 3;
 }
 
@@ -116,7 +122,9 @@
 .girl-eye-sparkle,
 .boy-smile,
 .boy-blush,
-.boy-eye-sparkle {
+.boy-eye-sparkle,
+.teacher-smile,
+.teacher-brow {
   transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
 }
 
@@ -127,7 +135,12 @@
 
 .cat-smile-happy,
 .girl-smile-happy,
-.boy-smile-happy {
+.boy-smile-happy,
+.teacher-smile-happy {
+  transform: translateY(1px);
+}
+
+.teacher-brow-happy {
   transform: translateY(1px);
 }
 
@@ -145,6 +158,12 @@
 .boy-blush-happy {
   opacity: 1;
   transform: scale(1.18);
+}
+
+.teacher-bubble {
+  color: #3f2d22;
+  border-color: #bba78f;
+  background: #fffaf4;
 }
 
 .puppy-tail {
@@ -188,7 +207,8 @@
   .puppy-character,
   .cat-character,
   .girl-character,
-  .boy-character {
+  .boy-character,
+  .teacher-character {
     width: 96px;
     height: 96px;
   }

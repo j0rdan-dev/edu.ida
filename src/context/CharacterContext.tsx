@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 
-export type CharacterId = "puppy" | "cat" | "girl" | "boy";
+export type CharacterId = "puppy" | "cat" | "girl" | "boy" | "teacher";
 
 interface CharacterOption {
   id: CharacterId;
@@ -21,12 +21,13 @@ const characterOptions: CharacterOption[] = [
   { id: "cat", label: "Маче", description: "Слатко и љубопитно" },
   { id: "girl", label: "Девојче", description: "Нежно и охрабрувачко" },
   { id: "boy", label: "Момче", description: "Пријателско и бодро" },
+  { id: "teacher", label: "Наставник", description: "Намќорест, со саркастична пофалба" },
 ];
 
 const CharacterContext = createContext<CharacterContextValue | undefined>(undefined);
 
 function isCharacterId(value: string): value is CharacterId {
-  return value === "puppy" || value === "cat" || value === "girl" || value === "boy";
+  return value === "puppy" || value === "cat" || value === "girl" || value === "boy" || value === "teacher";
 }
 
 export const CharacterProvider = ({ children }: { children: ReactNode }) => {
