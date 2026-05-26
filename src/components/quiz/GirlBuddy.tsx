@@ -3,6 +3,7 @@ import "./puppy-buddy.css";
 
 interface GirlBuddyProps {
   celebrateKey: number;
+  dissatisfiedKey: number;
   onActivate?: () => void;
 }
 
@@ -13,8 +14,9 @@ const cheeringMessages = [
   "Точно! Горда сум на тебе!",
 ];
 
-const GirlBuddy = ({ celebrateKey, onActivate }: GirlBuddyProps) => {
+const GirlBuddy = ({ celebrateKey, dissatisfiedKey, onActivate }: GirlBuddyProps) => {
   const [isCheering, setIsCheering] = useState(false);
+  const [isDissatisfied, setIsDissatisfied] = useState(false);
 
   const message = useMemo(
     () => cheeringMessages[Math.floor(Math.random() * cheeringMessages.length)],
@@ -24,6 +26,7 @@ const GirlBuddy = ({ celebrateKey, onActivate }: GirlBuddyProps) => {
   useEffect(() => {
     if (celebrateKey === 0) return;
 
+    setIsDissatisfied(false);
     setIsCheering(true);
     const timeoutId = window.setTimeout(() => {
       setIsCheering(false);
@@ -34,15 +37,31 @@ const GirlBuddy = ({ celebrateKey, onActivate }: GirlBuddyProps) => {
     };
   }, [celebrateKey]);
 
+  useEffect(() => {
+    if (dissatisfiedKey === 0) return;
+
+    setIsCheering(false);
+    setIsDissatisfied(true);
+    const timeoutId = window.setTimeout(() => {
+      setIsDissatisfied(false);
+    }, 1200);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [dissatisfiedKey]);
+
+  const isDissatisfiedActive = isDissatisfied && !isCheering;
+
   return (
     <div className="character-buddy-wrapper" aria-live="polite" aria-atomic="true">
-      <div className={`puppy-bubble ${isCheering ? "puppy-bubble-show" : ""}`} role="status">
+      <div className={`puppy-bubble ${isCheering && !isDissatisfiedActive ? "puppy-bubble-show" : ""}`} role="status">
         {message}
       </div>
 
       <button
         type="button"
-        className={`character-click-target girl-character ${isCheering ? "girl-cheer" : ""}`}
+        className={`character-click-target girl-character ${isCheering ? "girl-cheer" : ""} ${isDissatisfiedActive ? "girl-dissatisfied" : ""}`}
         aria-label="Поддржувачко бело девојче. Кликни за избор на лик"
         onClick={onActivate}
       >
@@ -56,7 +75,7 @@ const GirlBuddy = ({ celebrateKey, onActivate }: GirlBuddyProps) => {
           <ellipse cx="106" cy="92" rx="5.5" ry="6.5" fill="#2f5fa2" />
           <circle className="girl-eye-sparkle" cx="72" cy="85" r="2" fill="#fff" />
           <circle className="girl-eye-sparkle" cx="112" cy="85" r="2" fill="#fff" />
-          <path className={`girl-smile ${isCheering ? "girl-smile-happy" : ""}`} d={isCheering ? "M74 108 Q90 126 106 108" : "M76 110 Q90 119 104 110"} fill="none" stroke="#955136" strokeWidth={isCheering ? 5 : 4} strokeLinecap="round" />
+          <path className={`girl-smile ${isCheering ? "girl-smile-happy" : ""} ${isDissatisfiedActive ? "girl-smile-dissatisfied" : ""}`} d={isCheering ? "M74 108 Q90 126 106 108" : isDissatisfiedActive ? "M76 116 Q90 109 104 116" : "M76 110 Q90 119 104 110"} fill="none" stroke="#955136" strokeWidth={isCheering ? 5 : 4} strokeLinecap="round" />
           <circle className={`girl-blush ${isCheering ? "girl-blush-happy" : ""}`} cx="63" cy="99" r="6" fill="#ee9ea3" opacity="0.72" />
           <circle className={`girl-blush ${isCheering ? "girl-blush-happy" : ""}`} cx="117" cy="99" r="6" fill="#ee9ea3" opacity="0.72" />
           <rect x="67" y="128" width="46" height="30" rx="12" fill="#ef77b6" />

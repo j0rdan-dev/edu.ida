@@ -3,6 +3,7 @@ import "./puppy-buddy.css";
 
 interface TeacherBuddyProps {
   celebrateKey: number;
+  dissatisfiedKey: number;
   onActivate?: () => void;
 }
 
@@ -13,8 +14,9 @@ const sarcasticMessages = [
   "Браво, одговори едно лесно прашање.",
 ];
 
-const TeacherBuddy = ({ celebrateKey, onActivate }: TeacherBuddyProps) => {
+const TeacherBuddy = ({ celebrateKey, dissatisfiedKey, onActivate }: TeacherBuddyProps) => {
   const [isCheering, setIsCheering] = useState(false);
+  const [isDissatisfied, setIsDissatisfied] = useState(false);
 
   const message = useMemo(
     () => sarcasticMessages[Math.floor(Math.random() * sarcasticMessages.length)],
@@ -24,6 +26,7 @@ const TeacherBuddy = ({ celebrateKey, onActivate }: TeacherBuddyProps) => {
   useEffect(() => {
     if (celebrateKey === 0) return;
 
+    setIsDissatisfied(false);
     setIsCheering(true);
     const timeoutId = window.setTimeout(() => {
       setIsCheering(false);
@@ -34,15 +37,31 @@ const TeacherBuddy = ({ celebrateKey, onActivate }: TeacherBuddyProps) => {
     };
   }, [celebrateKey]);
 
+  useEffect(() => {
+    if (dissatisfiedKey === 0) return;
+
+    setIsCheering(false);
+    setIsDissatisfied(true);
+    const timeoutId = window.setTimeout(() => {
+      setIsDissatisfied(false);
+    }, 1200);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [dissatisfiedKey]);
+
+  const isDissatisfiedActive = isDissatisfied && !isCheering;
+
   return (
     <div className="character-buddy-wrapper" aria-live="polite" aria-atomic="true">
-      <div className={`puppy-bubble teacher-bubble ${isCheering ? "puppy-bubble-show" : ""}`} role="status">
+      <div className={`puppy-bubble teacher-bubble ${isCheering && !isDissatisfiedActive ? "puppy-bubble-show" : ""}`} role="status">
         {message}
       </div>
 
       <button
         type="button"
-        className={`character-click-target teacher-character ${isCheering ? "teacher-cheer" : ""}`}
+        className={`character-click-target teacher-character ${isCheering ? "teacher-cheer" : ""} ${isDissatisfiedActive ? "teacher-dissatisfied" : ""}`}
         aria-label="Намќорест наставник. Кликни за избор на лик"
         onClick={onActivate}
       >
@@ -53,11 +72,11 @@ const TeacherBuddy = ({ celebrateKey, onActivate }: TeacherBuddyProps) => {
           <rect x="68" y="88" width="12" height="10" rx="4" fill="none" stroke="#2f3542" strokeWidth="2.5" />
           <rect x="100" y="88" width="12" height="10" rx="4" fill="none" stroke="#2f3542" strokeWidth="2.5" />
           <line x1="80" y1="93" x2="100" y2="93" stroke="#2f3542" strokeWidth="2" />
-          <path className={`teacher-brow ${isCheering ? "teacher-brow-happy" : ""}`} d="M69 84 L81 82" stroke="#2f3542" strokeWidth="3.2" strokeLinecap="round" />
-          <path className={`teacher-brow ${isCheering ? "teacher-brow-happy" : ""}`} d="M99 82 L111 84" stroke="#2f3542" strokeWidth="3.2" strokeLinecap="round" />
+          <path className={`teacher-brow ${isCheering ? "teacher-brow-happy" : ""} ${isDissatisfiedActive ? "teacher-brow-dissatisfied" : ""}`} d="M69 84 L81 82" stroke="#2f3542" strokeWidth="3.2" strokeLinecap="round" />
+          <path className={`teacher-brow ${isCheering ? "teacher-brow-happy" : ""} ${isDissatisfiedActive ? "teacher-brow-dissatisfied" : ""}`} d="M99 82 L111 84" stroke="#2f3542" strokeWidth="3.2" strokeLinecap="round" />
           <ellipse cx="74" cy="94" rx="3.6" ry="4.8" fill="#252a36" />
           <ellipse cx="106" cy="94" rx="3.6" ry="4.8" fill="#252a36" />
-          <path className={`teacher-smile ${isCheering ? "teacher-smile-happy" : ""}`} d={isCheering ? "M74 108 Q90 121 106 108" : "M76 110 Q90 106 104 110"} fill="none" stroke="#72493a" strokeWidth={isCheering ? 4.6 : 4} strokeLinecap="round" />
+          <path className={`teacher-smile ${isCheering ? "teacher-smile-happy" : ""} ${isDissatisfiedActive ? "teacher-smile-dissatisfied" : ""}`} d={isCheering ? "M74 108 Q90 121 106 108" : isDissatisfiedActive ? "M76 114 Q90 108 104 114" : "M76 110 Q90 106 104 110"} fill="none" stroke="#72493a" strokeWidth={isCheering ? 4.6 : 4} strokeLinecap="round" />
           <path d="M84 103 Q90 107 96 103" fill="none" stroke="#8a5a48" strokeWidth="2.8" strokeLinecap="round" />
           <rect x="63" y="128" width="54" height="30" rx="12" fill="#6b7280" />
           <rect x="86" y="128" width="8" height="30" rx="3" fill="#b7c0cf" />

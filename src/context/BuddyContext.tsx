@@ -2,24 +2,33 @@ import { createContext, useCallback, useContext, useMemo, useState, type ReactNo
 
 interface BuddyContextValue {
   celebrateKey: number;
+  dissatisfiedKey: number;
   triggerCelebrate: () => void;
+  triggerDissatisfied: () => void;
 }
 
 const BuddyContext = createContext<BuddyContextValue | undefined>(undefined);
 
 export const BuddyProvider = ({ children }: { children: ReactNode }) => {
   const [celebrateKey, setCelebrateKey] = useState(0);
+  const [dissatisfiedKey, setDissatisfiedKey] = useState(0);
 
   const triggerCelebrate = useCallback(() => {
     setCelebrateKey((value) => value + 1);
   }, []);
 
+  const triggerDissatisfied = useCallback(() => {
+    setDissatisfiedKey((value) => value + 1);
+  }, []);
+
   const value = useMemo(
     () => ({
       celebrateKey,
+      dissatisfiedKey,
       triggerCelebrate,
+      triggerDissatisfied,
     }),
-    [celebrateKey, triggerCelebrate]
+    [celebrateKey, dissatisfiedKey, triggerCelebrate, triggerDissatisfied]
   );
 
   return <BuddyContext.Provider value={value}>{children}</BuddyContext.Provider>;
