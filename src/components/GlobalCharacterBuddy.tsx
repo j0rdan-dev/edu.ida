@@ -5,11 +5,15 @@ import { useBuddy } from "@/context/BuddyContext";
 
 const GlobalCharacterBuddy = () => {
   const [isCharacterDialogOpen, setIsCharacterDialogOpen] = useState(false);
-  const { celebrateKey } = useBuddy();
+  const { celebrateKey, dissatisfiedKey } = useBuddy();
 
   return (
     <>
-      <CharacterBuddy celebrateKey={celebrateKey} onActivate={() => setIsCharacterDialogOpen(true)} />
+      <CharacterBuddy
+        celebrateKey={celebrateKey}
+        dissatisfiedKey={dissatisfiedKey}
+        onActivate={() => setIsCharacterDialogOpen(true)}
+      />
       <CharacterPickerDialog open={isCharacterDialogOpen} onOpenChange={setIsCharacterDialogOpen} />
     </>
   );
