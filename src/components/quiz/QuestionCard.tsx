@@ -53,7 +53,7 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
   const [showImage, setShowImage] = useState(Boolean(questionImageSrc));
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const hasAnswered = useRef(false);
-  const { triggerCelebrate } = useBuddy();
+  const { triggerCelebrate, triggerDissatisfied } = useBuddy();
 
   const stopTimer = useCallback(() => {
     if (timerRef.current) {
@@ -94,6 +94,8 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
     stopTimer();
     if (key === question.CorrectAnswer) {
       triggerCelebrate();
+    } else {
+      triggerDissatisfied();
     }
     setSelected(key);
     setRevealed(true);

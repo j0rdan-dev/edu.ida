@@ -95,7 +95,20 @@
   filter: brightness(1.08);
 }
 
+.puppy-eye-dissatisfied {
+  transform: scaleY(0.82) translateY(1px);
+  filter: brightness(0.92);
+}
+
 .puppy-smile-happy {
+  transform: translateY(1px);
+}
+
+.puppy-smile-dissatisfied,
+.cat-smile-dissatisfied,
+.girl-smile-dissatisfied,
+.boy-smile-dissatisfied,
+.teacher-smile-dissatisfied {
   transform: translateY(1px);
 }
 
@@ -133,6 +146,11 @@
   filter: brightness(1.12);
 }
 
+.cat-eye-dissatisfied {
+  transform: scaleY(0.84) translateY(1px);
+  filter: brightness(0.9);
+}
+
 .cat-smile-happy,
 .girl-smile-happy,
 .boy-smile-happy,
@@ -142,6 +160,10 @@
 
 .teacher-brow-happy {
   transform: translateY(1px);
+}
+
+.teacher-brow-dissatisfied {
+  transform: translateY(-1px) scaleX(1.03);
 }
 
 .cat-cheer .cat-eye-sparkle,
