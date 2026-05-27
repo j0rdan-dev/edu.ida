@@ -60,7 +60,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
             <div className="min-w-0">
               <p className="font-semibold text-base text-violet-900">Квизовите на Срна</p>
               <p className="text-sm text-violet-700">
-                Интерактивни тестови за подобрување на математички вештини 
+                интерактивни тестови за подобрување на математички вештини 
               </p>
             </div>
           </a>
