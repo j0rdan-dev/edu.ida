@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="100%" stop-color="#f2f4ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="992" height="992" rx="56" fill="url(#bg)" stroke="#b8c2ea" stroke-width="12"/>
+  <g transform="translate(3 -40) scale(5.7)">
+    <ellipse cx="90" cy="96" rx="50" ry="48" fill="#d7d9e8" />
+    <path d="M52 60 L72 35 L78 66 Z" fill="#bec2d8" />
+    <path d="M128 60 L108 35 L102 66 Z" fill="#bec2d8" />
+    <path d="M58 58 L71 42 L74 61 Z" fill="#f5b8c6" />
+    <path d="M122 58 L109 42 L106 61 Z" fill="#f5b8c6" />
+    <ellipse cx="90" cy="114" rx="26" ry="20" fill="#f5f6fb" />
+    <ellipse cx="72" cy="92" rx="6" ry="7" fill="#2f3445" />
+    <ellipse cx="108" cy="92" rx="6" ry="7" fill="#2f3445" />
+    <circle cx="74" cy="89" r="2" fill="#fff" />
+    <circle cx="110" cy="89" r="2" fill="#fff" />
+    <path d="M90 105 L84 113 H96 Z" fill="#f09ab5" />
+    <path d="M76 121 Q90 131 104 121" fill="none" stroke="#454b5f" stroke-width="4" stroke-linecap="round" />
+    <path d="M52 110 H74" stroke="#616981" stroke-width="3" stroke-linecap="round" />
+    <path d="M52 119 H72" stroke="#616981" stroke-width="3" stroke-linecap="round" />
+    <path d="M106 110 H128" stroke="#616981" stroke-width="3" stroke-linecap="round" />
+    <path d="M108 119 H128" stroke="#616981" stroke-width="3" stroke-linecap="round" />
+    <path d="M136 125 Q166 126 162 96" fill="none" stroke="#bec2d8" stroke-width="8" stroke-linecap="round" />
+  </g>
+  <text x="64" y="936" font-size="74" font-weight="800" font-family="'PT Sans', Arial, sans-serif" fill="#394277">EDU.IDA.MK</text>
+  <g transform="translate(804 804) scale(5)">
+    <rect x="-3" y="-3" width="39" height="39" rx="3" fill="#fff"/>
+    <path stroke="#000000" d="M4 4.5h7m1 0h2m4 0h1m3 0h7M4 5.5h1m5 0h1m3 0h4m2 0h1m1 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m3 0h1m1 0h1m2 0h1m2 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m2 0h1m4 0h1m3 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m1 0h5m3 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M13 11.5h3m1 0h1m1 0h2M4 12.5h1m1 0h1m3 0h2m3 0h3m2 0h1m2 0h1m2 0h1m1 0h1M8 13.5h1m7 0h1m2 0h1m2 0h2m1 0h1m1 0h2M5 14.5h1m3 0h4m4 0h3m2 0h1m1 0h3m1 0h1M5 15.5h1m2 0h1m3 0h1m1 0h1m3 0h1m4 0h1m1 0h1M5 16.5h1m3 0h2m1 0h1m1 0h2m1 0h4m1 0h2m4 0h1M6 17.5h1m2 0h1m1 0h1m1 0h1m3 0h7m3 0h2M4 18.5h2m3 0h2m4 0h1m3 0h2m1 0h1m2 0h2m1 0h1M8 19.5h1m2 0h1m5 0h1m2 0h2m1 0h3M4 20.5h8m3 0h3m1 0h6m2 0h1M12 21.5h1m3 0h1m3 0h1m3 0h1m3 0h1M4 22.5h7m1 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m3 0h1M4 23.5h1m5 0h1m2 0h1m1 0h2m1 0h3m3 0h1m3 0h1M4 24.5h1m1 0h3m1 0h1m3 0h1m2 0h8m2 0h2M4 25.5h1m1 0h3m1 0h1m2 0h2m2 0h3m4 0h1m1 0h2M4 26.5h1m1 0h3m1 0h1m1 0h1m2 0h1m3 0h1m1 0h1m1 0h3m1 0h2M4 27.5h1m5 0h1m2 0h1m3 0h1m2 0h5M4 28.5h7m1 0h2m1 0h3m2 0h2m3 0h1m2 0h1"/>
+  </g>
+</svg>
