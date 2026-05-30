@@ -48,7 +48,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
 
           {/* External Link Button */}
           <a
-            href="https://srna.mk/testovi.html"
+            href="https://math.srna.mk"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-4 w-full rounded-xl border-2 border-violet-400 bg-violet-50 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up hover:border-violet-500 hover:shadow-lg hover:shadow-violet-200 hover:-translate-y-0.5 active:scale-[0.98]"
