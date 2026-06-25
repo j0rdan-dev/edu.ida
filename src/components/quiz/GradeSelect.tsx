@@ -35,7 +35,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
               style={{ animationDelay: `${100 + i * 80}ms` }}
             >
               {hasAiSupport && (
-                <span className="absolute right-1 top-1 inline-flex items-center gap-0.5 rounded-lg bg-violet-50 px-1 py-0.5 text-[1.2px] font-semibold text-violet-600 border border-violet-200 shadow-sm" style={{ marginBottom: "45px" }}>
+                <span className="absolute right-1 top-1 inline-flex items-center gap-0.5 rounded-lg bg-violet-50 px-1 py-0.5 text-[12px] font-semibold text-violet-600 border border-violet-200 shadow-sm" style={{ marginBottom: "45px" }}>
                   <Brain className="h-1.6 w-1.6" />
                   AI assisted
                 </span>
