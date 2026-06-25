@@ -16,7 +16,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
             EDU.IDA
           </h1>
-          <p className="text-muted-foreground">учиме со интерактивни тестови</p>
+          <p className="text-muted-foreground font-medium tracking-wide">учиме со AI поддршка и интерактивни тестови</p>
         </div>
 
         <div className="flex flex-col gap-3">
