@@ -1,5 +1,5 @@
 import { Grade, grades } from "@/data/categories";
-import { BookOpen, GraduationCap, ExternalLink } from "lucide-react";
+import { BookOpen, GraduationCap, ExternalLink, Brain } from "lucide-react";
 
 interface GradeSelectProps {
   onSelect: (grade: Grade) => void;
@@ -20,18 +20,26 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
         </div>
 
         <div className="flex flex-col gap-3">
-          {grades.map((grade, i) => (
+          {grades.map((grade, i) => {
+            const hasAiSupport = grade.id === "grade3" || grade.id === "grade4";
+            return (
             <button
               key={grade.id}
               onClick={() => onSelect(grade)}
               disabled={!grade.enabled}
-              className={`group flex items-center gap-4 w-full rounded-xl border-2 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up ${
+              className={`group relative flex items-center gap-4 w-full rounded-xl border-2 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up ${
                 !grade.enabled
                   ? "border-muted bg-muted/30 cursor-not-allowed opacity-50"
                   : "border-border bg-card hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98]"
               }`}
               style={{ animationDelay: `${100 + i * 80}ms` }}
             >
+              {hasAiSupport && (
+                <span className="absolute right-1 top-1 inline-flex items-center gap-0.5 rounded-lg bg-violet-50 px-1 py-0.5 text-[1.2px] font-semibold text-violet-600 border border-violet-200 shadow-sm" style={{ marginBottom: "45px" }}>
+                  <Brain className="h-1.6 w-1.6" />
+                  AI assisted
+                </span>
+              )}
               <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-transform duration-200 ${
                 !grade.enabled ? "bg-muted/30" : "bg-primary/10 group-hover:scale-105"
               }`}>
@@ -44,7 +52,8 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
                 </p>
               </div>
             </button>
-          ))}
+            );
+          })}
 
           {/* External Link Button */}
           <a
