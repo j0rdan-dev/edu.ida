@@ -1,5 +1,17 @@
-import { AnswerRecord, OptionKey } from "@/types/quiz";
-import { Check, X, RotateCcw, Trophy, Target, Clock } from "lucide-react";
+import { AnswerRecord, OptionKey, QuizQuestion } from "@/types/quiz";
+import { Check, X, RotateCcw, Trophy, Target, Clock, Brain } from "lucide-react";
+
+function getAiAssistantUrl(question: QuizQuestion) {
+  const query = `На ученик од основно одделение му е потребна помош со следново прашање и темата на којашто припаѓа прашањето:
+===== START TOPIC =====
+${question.Question}
+===== END TOPIC =====
+Одговори ИСКЛУЧИВО на македонски јазик, и за контекст користи ги официјалните македонски учебници. Одговори со долг одговор во стилот на учителка од основно образование. Доколку е возможно користи графикони и цртежи да ја објасниш темата подобро.
+Одговорот започни го со:
+Прашање: ${question.Question}`;
+
+  return `https://www.google.mk/search?q=${encodeURIComponent(query)}&udm=50`;
+}
 
 interface ResultsScreenProps {
   answers: AnswerRecord[];
@@ -81,7 +93,7 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
                 }`}>
                   {record.isCorrect ? <Check className="h-3.5 w-3.5" /> : <X className="h-3.5 w-3.5" />}
                 </span>
-                <div className="min-w-0">
+                <div className="min-w-0 flex-1">
                   <p className="text-sm font-medium text-foreground leading-relaxed mb-1.5">
                     {record.question.Question}
                   </p>
@@ -99,6 +111,17 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
                     Точен одговор: <span className="text-success font-medium">{optionLabels[record.question.CorrectAnswer]} — {record.question[record.question.CorrectAnswer]}</span>
                   </p>
                 </div>
+                {!record.isCorrect && (
+                  <a
+                    href={getAiAssistantUrl(record.question)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="AI асистент"
+                    className="inline-flex h-10 w-10 items-center justify-center rounded-xl border-2 border-slate-300/70 bg-slate-50/80 text-slate-900 shadow-sm transition-all duration-200 hover:border-slate-400 hover:bg-slate-100"
+                  >
+                    <Brain className="h-5 w-5" />
+                  </a>
+                )}
               </div>
             </div>
           ))}
