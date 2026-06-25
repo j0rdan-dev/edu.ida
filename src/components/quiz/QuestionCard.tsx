@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { QuizQuestion, OptionKey } from "@/types/quiz";
-import { Check, X, Timer } from "lucide-react";
+import { Check, X, Timer, Brain } from "lucide-react";
 import { useBuddy } from "@/context/BuddyContext";
 
 interface QuestionCardProps {
@@ -129,6 +129,18 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
   const timerPercent = (timeLeft / timeLimit) * 100;
   const isUrgent = timeLeft <= 5;
 
+  const aiAssistantUrl = useMemo(() => {
+    const query = `На ученик од основно одделение му е потребна помош со следново прашање и темата на којашто припаѓа прашањето:
+===== START TOPIC =====
+${question.Question}
+===== END TOPIC =====
+Одговори ИСКЛУЧИВО на македонски јазик, и за контекст користи ги официјалните македонски учебници. Одговори со долг одговор во стилот на учителка од основно образование. Доколку е возможно користи графикони и цртежи да ја објасниш темата подобро.
+Одговорот започни го со:
+Прашање: ${question.Question}`;
+
+    return `https://www.google.mk/search?q=${encodeURIComponent(query)}&udm=50`;
+  }, [question.Question]);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg opacity-0 animate-fade-up">
@@ -205,19 +217,28 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
         </div>
 
         {/* Navigation buttons */}
-        <div className="flex gap-2 justify-center mt-8">
+        <div className="flex flex-col sm:flex-row gap-2 justify-center mt-8">
           <button
             onClick={onHome}
-            className="px-3 py-1.5 text-sm rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors font-medium"
+            className="px-4 py-2 text-base rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors font-medium"
           >
             Почетна
           </button>
           <button
             onClick={onRestart}
-            className="px-3 py-1.5 text-sm rounded-md bg-orange-500 text-white hover:bg-orange-600 transition-colors font-medium"
+            className="px-4 py-2 text-base rounded-md bg-orange-500 text-white hover:bg-orange-600 transition-colors font-medium"
           >
             Рестарт
           </button>
+          <a
+            href={aiAssistantUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-4 py-2 text-base rounded-xl border-2 border-slate-300/70 bg-slate-50/80 text-slate-900 hover:border-slate-400 hover:bg-slate-100 shadow-sm transition-all duration-200"
+          >
+            <Brain className="h-5 w-5 text-slate-700" />
+            AI Асистент
+          </a>
         </div>
       </div>
     </div>
