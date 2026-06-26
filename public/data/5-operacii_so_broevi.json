@@ -1,76 +1,479 @@
 {
   "Questions": [
     {
-      "Question": "Колку е 2345 + 1234?",
-      "OptionA": "3579",
-      "OptionB": "3589",
-      "OptionC": "3599",
-      "OptionD": "3489",
-      "CorrectAnswer": "OptionA",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "Question": "Кој е резултатот од собирањето на 10 000 + 20 000?",
+      "OptionA": "20 000",
+      "OptionB": "30 000",
+      "OptionC": "10 000",
+      "OptionD": "40 000",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку е 5000 - 1234?",
-      "OptionA": "3766",
-      "OptionB": "3776",
-      "OptionC": "3786",
-      "OptionD": "3656",
-      "CorrectAnswer": "OptionA",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "Question": "Точно или неточно: Комутативното својство значи дека редоследот на собирците не го менува збирот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за мали броеви",
+      "OptionD": "Не важи за собирање",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку е 25 × 4?",
+      "Question": "Дополни: Бројот кој се добива со одземање на два броја се вика _________.",
+      "OptionA": "Збир",
+      "OptionB": "Производ",
+      "OptionC": "Разлика",
+      "OptionD": "Количник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој број е делител на 10?",
+      "OptionA": "3",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "7",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 10 x 100?",
       "OptionA": "100",
-      "OptionB": "90",
-      "OptionC": "110",
-      "OptionD": "80",
-      "CorrectAnswer": "OptionA",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "OptionB": "1 000",
+      "OptionC": "10 000",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку е 144 ÷ 12?",
+      "Question": "Точно или неточно: Производот на било кој број со 0 е 0.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за големи броеви",
+      "OptionD": "Точно само за негативни броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е непознат собирок во изразот: 5 + x = 12?",
+      "OptionA": "5",
+      "OptionB": "12",
+      "OptionC": "7",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој од следниве броеви е делив со 2?",
+      "OptionA": "11",
+      "OptionB": "13",
+      "OptionC": "15",
+      "OptionD": "14",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 100 : 10?",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Резултатот од множењето се вика _________.",
+      "OptionA": "Збир",
+      "OptionB": "Разлика",
+      "OptionC": "Производ",
+      "OptionD": "Количник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е квадратот на бројот 5?",
       "OptionA": "10",
-      "OptionB": "11",
-      "OptionC": "12",
-      "OptionD": "13",
-      "CorrectAnswer": "OptionC",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "OptionB": "15",
+      "OptionC": "20",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Колку е 15 × 8?",
-      "OptionA": "110",
-      "OptionB": "120",
-      "OptionC": "130",
-      "OptionD": "140",
-      "CorrectAnswer": "OptionB",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "Question": "Точно или неточно: Делењето со нула е дозволено во математиката.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Точно само за големи броеви",
+      "OptionD": "Зависи од бројот",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку е 456 + 789?",
-      "OptionA": "1245",
-      "OptionB": "1255",
-      "OptionC": "1265",
-      "OptionD": "1235",
-      "CorrectAnswer": "OptionA",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "Question": "Колку е 500 : 100?",
+      "OptionA": "5",
+      "OptionB": "50",
+      "OptionC": "0.5",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку е 3000 ÷ 6?",
-      "OptionA": "500",
-      "OptionB": "400",
-      "OptionC": "600",
-      "OptionD": "700",
-      "CorrectAnswer": "OptionA",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "Question": "Што значи дистрибутивно својство кај множењето?",
+      "OptionA": "Менување на редослед",
+      "OptionB": "Множење на збир со број",
+      "OptionC": "Додавање на нула",
+      "OptionD": "Одземање на броеви",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку е 1/2 од 100?",
+      "Question": "Кој е резултатот на 100 - 50?",
       "OptionA": "25",
       "OptionB": "50",
       "OptionC": "75",
+      "OptionD": "150",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 5?",
+      "OptionA": "12",
+      "OptionB": "13",
+      "OptionC": "14",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Во изразот 10 : 2 = 5, бројот 10 е _________.",
+      "OptionA": "Деленик",
+      "OptionB": "Делител",
+      "OptionC": "Количник",
+      "OptionD": "Остаток",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Секој број делив со 10 е делив и со 5.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за мали броеви",
+      "OptionD": "Нема врска",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 20 x 20?",
+      "OptionA": "40",
+      "OptionB": "80",
+      "OptionC": "400",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е резултатот од собирањето 100 + 100 + 100?",
+      "OptionA": "200",
+      "OptionB": "300",
+      "OptionC": "400",
       "OptionD": "100",
-      "CorrectAnswer": "OptionB",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r581O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
-    }
-  ]
-}
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се добива при делење на 15 со 2?",
+      "OptionA": "7 остаток 1",
+      "OptionB": "7 остаток 0",
+      "OptionC": "8 остаток 1",
+      "OptionD": "6 остаток 3",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Асоцијативното својство на собирањето дозволува групирање на собирoците.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ако има два собирка",
+      "OptionD": "Само за множење",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 1000 - 1?",
+      "OptionA": "900",
+      "OptionB": "999",
+      "OptionC": "990",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој ги дели сите броеви без остаток е _________.",
+      "OptionA": "1",
+      "OptionB": "2",
+      "OptionC": "0",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 30 x 3?",
+      "OptionA": "60",
+      "OptionB": "33",
+      "OptionC": "90",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Производот на два парни броја е секогаш парен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само за мали броеви",
+      "OptionD": "Само за големи броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е непознат делител во 20 : x = 4?",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "5",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 400 + 600?",
+      "OptionA": "900",
+      "OptionB": "1 000",
+      "OptionC": "1 100",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 100?",
+      "OptionA": "150",
+      "OptionB": "200",
+      "OptionC": "250",
+      "OptionD": "350",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Редоследот на операциите бара прво да се решат _________.",
+      "OptionA": "Собирањата",
+      "OptionB": "Множењата",
+      "OptionC": "Заградите",
+      "OptionD": "Одземањата",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на два позитивни броја е секогаш позитивен број.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само за мали броеви",
+      "OptionD": "Зависи од цифрите",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 12 x 12?",
+      "OptionA": "124",
+      "OptionB": "144",
+      "OptionC": "132",
+      "OptionD": "142",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се добива при 80 : 8?",
+      "OptionA": "8",
+      "OptionB": "10",
+      "OptionC": "12",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој е содржател на 5 може да завршува на _________.",
+      "OptionA": "1 или 2",
+      "OptionB": "0 или 5",
+      "OptionC": "3 или 4",
+      "OptionD": "6 или 7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Множењето е повторено собирање.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само за мали броеви",
+      "OptionD": "Само за големи броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 50 x 2?",
+      "OptionA": "50",
+      "OptionB": "100",
+      "OptionC": "150",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 1000 : 100?",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "0.1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е содржател на 10?",
+      "OptionA": "15",
+      "OptionB": "20",
+      "OptionC": "25",
+      "OptionD": "35",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во изразот 5 x 4 = 20, бројот 20 е _________.",
+      "OptionA": "Множител",
+      "OptionB": "Производ",
+      "OptionC": "Собирок",
+      "OptionD": "Разлика",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Разликата на два еднакви броја е 0.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за големи броеви",
+      "OptionD": "Секогаш е 1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 25 + 25?",
+      "OptionA": "40",
+      "OptionB": "50",
+      "OptionC": "60",
+      "OptionD": "70",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 2 и 5 истовремено?",
+      "OptionA": "12",
+      "OptionB": "15",
+      "OptionC": "20",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 10 x 5?",
+      "OptionA": "40",
+      "OptionB": "50",
+      "OptionC": "60",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој се множи се вика _________.",
+      "OptionA": "Множител",
+      "OptionB": "Собирок",
+      "OptionC": "Разлика",
+      "OptionD": "Количник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Со собирање на 0 на било кој број, бројот не се менува.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за негативни броеви",
+      "OptionD": "Резултатот е секогаш 0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 60 : 3?",
+      "OptionA": "10",
+      "OptionB": "20",
+      "OptionC": "30",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е квадрат на 3?",
+      "OptionA": "6",
+      "OptionB": "9",
+      "OptionC": "12",
+      "OptionD": "3",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 100 + 900?",
+      "OptionA": "1 000",
+      "OptionB": "900",
+      "OptionC": "800",
+      "OptionD": "1 100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Делењето е обратна операција на _________.",
+      "OptionA": "Собирањето",
+      "OptionB": "Одземањето",
+      "OptionC": "Множењето",
+      "OptionD": "Ниедна",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 100 е содржател на 10.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ако се подели",
+      "OptionD": "Точно само за мали броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 5 x 5?",
+      "OptionA": "10",
+      "OptionB": "25",
+      "OptionC": "20",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е непознат намаленик во x - 10 = 20?",
+      "OptionA": "10",
+      "OptionB": "20",
+      "OptionC": "30",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1000 : 10?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "1 000",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во изразот 15 - 5 = 10, бројот 15 е _________.",
+      "OptionA": "Намаленик",
+      "OptionB": "Намалител",
+      "OptionC": "Разлика",
+      "OptionD": "Собирок",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Секој број е делив со 1.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за големи броеви",
+      "OptionD": "Точно само за парни броеви",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 40 x 5?",
+      "OptionA": "100",
+      "OptionB": "200",
+      "OptionC": "300",
+      "OptionD": "400",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 100?",
+      "OptionA": "50",
+      "OptionB": "100",
+      "OptionC": "150",
+      "OptionD": "250",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 500 - 250?",
+      "OptionA": "200",
+      "OptionB": "250",
+      "OptionC": "300",
+      "OptionD": "350",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Збирот на два парни броја е секогаш _________.",
+      "OptionA": "Непарен",
+      "OptionB": "Парен",
+      "OptionC": "Нула",
+      "OptionD": "Еден",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Комутативното својство на множењето вели дека axb=bxa.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само за мали броеви",

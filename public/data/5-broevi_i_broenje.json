@@ -1,76 +1,788 @@
 {
-  "Questions": [
-    {
-      "Question": "Кој број доаѓа по 4999?",
-      "OptionA": "4998",
-      "OptionB": "5000",
-      "OptionC": "5001",
-      "OptionD": "4990",
-      "CorrectAnswer": "OptionB",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Кој број е најголем: 5234, 5342, 5423 или 5324?",
-      "OptionA": "5234",
-      "OptionB": "5342",
-      "OptionC": "5423",
-      "OptionD": "5324",
-      "CorrectAnswer": "OptionC",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Колку стотки има бројот 3567?",
-      "OptionA": "3",
-      "OptionB": "5",
-      "OptionC": "35",
-      "OptionD": "356",
-      "CorrectAnswer": "OptionD",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Кој број е непарен?",
-      "OptionA": "2456",
-      "OptionB": "3561",
-      "OptionC": "4782",
-      "OptionD": "5008",
-      "CorrectAnswer": "OptionB",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Заокружи 4568 на најблиска илјада.",
-      "OptionA": "4000",
-      "OptionB": "4500",
-      "OptionC": "4600",
-      "OptionD": "5000",
-      "CorrectAnswer": "OptionD",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Кој е римскиот број за 50?",
-      "OptionA": "L",
-      "OptionB": "C",
-      "OptionC": "D",
-      "OptionD": "XL",
-      "CorrectAnswer": "OptionA",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Која е вредноста на цифрата 7 во бројот 37856?",
-      "OptionA": "7",
-      "OptionB": "70",
-      "OptionC": "700",
-      "OptionD": "7000",
-      "CorrectAnswer": "OptionD",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    },
-    {
-      "Question": "Колку цифри има бројот 56789?",
-      "OptionA": "4",
-      "OptionB": "5",
-      "OptionC": "6",
-      "OptionD": "7",
-      "CorrectAnswer": "OptionB",
-      "image": "https://thirdspacelearning.com/wp-content/uploads/2022/09/2D-shapes-perimeter-image-1.png"
-    }
-  ]
+	"Questions": [
+		{
+			"Question": "Кој број е најмал: 1000, 2000, 3000?",
+			"OptionA": "1000",
+			"OptionB": "2000",
+			"OptionC": "3000",
+			"OptionD": "Сите се исти",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Бројот 10 000 е:",
+			"OptionA": "трицифрен",
+			"OptionB": "четирицифрен",
+			"OptionC": "петцифрен",
+			"OptionD": "шестцифрен",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Како се чита бројот 3 274?",
+			"OptionA": "триста дваесет и седум",
+			"OptionB": "три илјади двесте седумдесет и четири",
+			"OptionC": "три илјади двесте седумдесет",
+			"OptionD": "три илјади седумдесет и четири",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 10 000 е еднакво на 10 илјади.",
+			"OptionA": "Неточно",
+			"OptionB": "Не знам",
+			"OptionC": "Точно",
+			"OptionD": "Зависи",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Дополни: Бројот 400 се чита __________.",
+			"OptionA": "четири",
+			"OptionB": "четириесет",
+			"OptionC": "четиристотини",
+			"OptionD": "четири илјади",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Кој знак се користи меѓу последните два збора при читање на број?",
+			"OptionA": "или",
+			"OptionB": "но",
+			"OptionC": "и",
+			"OptionD": "затоа што",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Колку цифри има бројот 99 999?",
+			"OptionA": "4",
+			"OptionB": "5",
+			"OptionC": "6",
+			"OptionD": "3",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Во бројот 5 234, цифрата 5 е на местото на единиците.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Нема цифра 5",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој број е поголем: 8 900 или 9 800?",
+			"OptionA": "8 900",
+			"OptionB": "Исти се",
+			"OptionC": "9 800",
+			"OptionD": "Не може да се споредат",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Дополни: Бројот 1 009 се чита __________.",
+			"OptionA": "илјада и девет",
+			"OptionB": "сто и девет",
+			"OptionC": "илјада девет",
+			"OptionD": "илјада и деведесет",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Колку стотки има во бројот 2 500?",
+			"OptionA": "2",
+			"OptionB": "25",
+			"OptionC": "5",
+			"OptionD": "250",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Негативните броеви се помали од 0.",
+			"OptionA": "Неточно",
+			"OptionB": "Понекогаш",
+			"OptionC": "Точно",
+			"OptionD": "Нема такви броеви",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Кој е наредниот број во низата: 1000, 2000, 3000, ...?",
+			"OptionA": "3500",
+			"OptionB": "4000",
+			"OptionC": "5000",
+			"OptionD": "4500",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој број следува пред 5 000?",
+			"OptionA": "4 999",
+			"OptionB": "4 900",
+			"OptionC": "4 000",
+			"OptionD": "4 990",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Колку десетки има бројот 50?",
+			"OptionA": "1",
+			"OptionB": "5",
+			"OptionC": "10",
+			"OptionD": "50",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Бројот 1 000 000 е најголем во групата на броеви до милион.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Што значи симболот Е во табелата за месни вредности?",
+			"OptionA": "стотки",
+			"OptionB": "илјади",
+			"OptionC": "десетки",
+			"OptionD": "единици",
+			"CorrectAnswer": "OptionD"
+		},
+		{
+			"Question": "Бројот 12 345 има ___ илјади.",
+			"OptionA": "1",
+			"OptionB": "12",
+			"OptionC": "2",
+			"OptionD": "3",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 0 е природен број.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Зависи",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е запишан како 5Д + 3Е?",
+			"OptionA": "53",
+			"OptionB": "35",
+			"OptionC": "503",
+			"OptionD": "530",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Која цифра е на местото на десетките во бројот 4 567?",
+			"OptionA": "4",
+			"OptionB": "5",
+			"OptionC": "6",
+			"OptionD": "7",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Дополни: Половина од 100 е __________.",
+			"OptionA": "25",
+			"OptionB": "40",
+			"OptionC": "50",
+			"OptionD": "60",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: 1/2 е еднакво на 0,5.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не е точно",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Што е поголемо: 0,5 или 0,2?",
+			"OptionA": "0,2",
+			"OptionB": "Исти се",
+			"OptionC": "0,5",
+			"OptionD": "Не може да се споредат",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Како се нарекува бројот 1/4?",
+			"OptionA": "половина",
+			"OptionB": "четвртина",
+			"OptionC": "третина",
+			"OptionD": "цело",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Колку десетинки има во 1 цело?",
+			"OptionA": "5",
+			"OptionB": "2",
+			"OptionC": "10",
+			"OptionD": "100",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: 0,25 е еднакво на 25%.",
+			"OptionA": "Неточно",
+			"OptionB": "Зависи",
+			"OptionC": "Точно",
+			"OptionD": "Не е можно",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Колку е 10% од 100?",
+			"OptionA": "1",
+			"OptionB": "5",
+			"OptionC": "10",
+			"OptionD": "20",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Бројот 1,5 има ___ десетинки.",
+			"OptionA": "1",
+			"OptionB": "5",
+			"OptionC": "15",
+			"OptionD": "0",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Кој број е поголем: 1 000 000 или 999 999?",
+			"OptionA": "999 999",
+			"OptionB": "Исти се",
+			"OptionC": "1 000 000",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: При споредување на броеви, прво ги гледаме цифрите со најголема месна вредност.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Не е важно",
+			"OptionD": "Зависи",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е помеѓу 10 и 12?",
+			"OptionA": "9",
+			"OptionB": "11",
+			"OptionC": "13",
+			"OptionD": "14",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Дополни: -5 е __________ од -2.",
+			"OptionA": "поголем",
+			"OptionB": "еднаков",
+			"OptionC": "помал",
+			"OptionD": "не е споредлив",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Како се нарекува долниот број во дропката?",
+			"OptionA": "броител",
+			"OptionB": "цел број",
+			"OptionC": "именител",
+			"OptionD": "децимала",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: 2/4 е исто што и 1/2.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не е можно",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој е броителот во 3/4?",
+			"OptionA": "1",
+			"OptionB": "3",
+			"OptionC": "4",
+			"OptionD": "7",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Колку е 0,1 + 0,1?",
+			"OptionA": "0,2",
+			"OptionB": "0,11",
+			"OptionC": "1,1",
+			"OptionD": "0,02",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Точно или Неточно: Процентите секогаш се запишуваат со знакот %.",
+			"OptionA": "Неточно",
+			"OptionB": "Можеби",
+			"OptionC": "Точно",
+			"OptionD": "Ретко",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Кој број е поголем: 0,1 или 0,01?",
+			"OptionA": "0,01",
+			"OptionB": "Исти се",
+			"OptionC": "0,1",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Колку е 50% од 200?",
+			"OptionA": "50",
+			"OptionB": "100",
+			"OptionC": "150",
+			"OptionD": "20",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Бројот 100 има три нули.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Зависи",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е децимален?",
+			"OptionA": "5",
+			"OptionB": "12",
+			"OptionC": "0,5",
+			"OptionD": "100",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Дополни: 75% е еднакво на дропката __________.",
+			"OptionA": "1/4",
+			"OptionB": "1/2",
+			"OptionC": "3/4",
+			"OptionD": "1/1",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: Децималната запирка ги одвојува целите од деловите.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Нема запирка",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Која е месната вредност на 2 во 0,2?",
+			"OptionA": "единици",
+			"OptionB": "стотинки",
+			"OptionC": "десетинки",
+			"OptionD": "десетки",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Кој број е помал од 0?",
+			"OptionA": "5",
+			"OptionB": "0,5",
+			"OptionC": "-1",
+			"OptionD": "1",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: 100% е еднакво на 1 цело.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Не знам",
+			"OptionD": "Понекогаш",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Колку стотинки има во 0,01?",
+			"OptionA": "1",
+			"OptionB": "10",
+			"OptionC": "100",
+			"OptionD": "0",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Дополни: Бројот 2,5 се чита __________.",
+			"OptionA": "два и пет",
+			"OptionB": "два цела и пет десетинки",
+			"OptionC": "дваесет и пет",
+			"OptionD": "два цела пет",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 3/3 е еднакво на 1.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој број е поголем: 0,9 или 0,1?",
+			"OptionA": "0,1",
+			"OptionB": "Исти се",
+			"OptionC": "0,9",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Колку е 25% од 400?",
+			"OptionA": "25",
+			"OptionB": "50",
+			"OptionC": "100",
+			"OptionD": "200",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: Секој природен број е поголем од негативен број.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Само некои",
+			"OptionD": "Нема правило",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Која цифра е на местото на стотинките во 0,23?",
+			"OptionA": "0",
+			"OptionB": "2",
+			"OptionC": "3",
+			"OptionD": "нема стотинки",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Дополни: 1/10 е еднакво на децималниот број __________.",
+			"OptionA": "0,1",
+			"OptionB": "0,01",
+			"OptionC": "1,0",
+			"OptionD": "0,11",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Точно или Неточно: 0,5 е исто што и 50%.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој број е помал: -10 или -1?",
+			"OptionA": "-1",
+			"OptionB": "-10",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Колку десетинки има во 0,7?",
+			"OptionA": "0",
+			"OptionB": "7",
+			"OptionC": "70",
+			"OptionD": "1",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Броевите 100 и 1000 се степенувани по 10.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Не знам",
+			"OptionD": "Понекогаш",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број доаѓа после 999 999?",
+			"OptionA": "1 000 000",
+			"OptionB": "999 998",
+			"OptionC": "100 000",
+			"OptionD": "999 000",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Дополни: Во бројот 567, цифрата 5 е на местото на __________.",
+			"OptionA": "единици",
+			"OptionB": "десетки",
+			"OptionC": "стотки",
+			"OptionD": "илјади",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Точно или Неточно: Секој број запишан со цифри е природен.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Колку е 0,1 + 0,9?",
+			"OptionA": "0,10",
+			"OptionB": "1,0",
+			"OptionC": "0,9",
+			"OptionD": "1,1",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој број е поголем: 1/2 или 3/4?",
+			"OptionA": "1/2",
+			"OptionB": "3/4",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 20% е 1/5 од целото.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е поголем: 5 555 или 5 556?",
+			"OptionA": "5 555",
+			"OptionB": "5 556",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Дополни: -3 е __________ од 0.",
+			"OptionA": "поголем",
+			"OptionB": "помал",
+			"OptionC": "еднаков",
+			"OptionD": "не е споредлив",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Децималниот број 1,2 има две децимали.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Која е месната вредност на цифрата 4 во 14 000?",
+			"OptionA": "илјади",
+			"OptionB": "десет илјади",
+			"OptionC": "стотки",
+			"OptionD": "десетки",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Колку е 5% од 100?",
+			"OptionA": "5",
+			"OptionB": "10",
+			"OptionC": "50",
+			"OptionD": "1",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Точно или Неточно: Бројот 10 000 има пет цифри.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Кој број е помал: 0,25 или 0,3?",
+			"OptionA": "0,3",
+			"OptionB": "0,25",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Дополни: Во дропката 2/5, 5 е __________.",
+			"OptionA": "броител",
+			"OptionB": "именител",
+			"OptionC": "цел број",
+			"OptionD": "децимала",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 1 цело е 100%.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е поголем: 10 000 или 9 999?",
+			"OptionA": "9 999",
+			"OptionB": "Исти се",
+			"OptionC": "10 000",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionC"
+		},
+		{
+			"Question": "Колку е 0,5 + 0,5?",
+			"OptionA": "0,1",
+			"OptionB": "1,0",
+			"OptionC": "0,55",
+			"OptionD": "1,5",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: -5 е помал од -4.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е запишан како 1С + 2Д + 3Е?",
+			"OptionA": "321",
+			"OptionB": "123",
+			"OptionC": "213",
+			"OptionD": "312",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Дополни: Децималниот број 0,05 се чита __________.",
+			"OptionA": "нула и пет",
+			"OptionB": "пет стотинки",
+			"OptionC": "пет десетинки",
+			"OptionD": "нула цела пет",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Процентот 10% е десетинка од цело.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е поголем: 0,08 или 0,1?",
+			"OptionA": "0,08",
+			"OptionB": "0,1",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Колку е 1/4 од 100?",
+			"OptionA": "20",
+			"OptionB": "25",
+			"OptionC": "50",
+			"OptionD": "75",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Бројот 0 е позитивен.",
+			"OptionA": "Неточно",
+			"OptionB": "Точно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број доаѓа после 999 999?",
+			"OptionA": "1 000 000",
+			"OptionB": "100 000",
+			"OptionC": "999 000",
+			"OptionD": "1 000",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Дополни: 2/2 е еднакво на __________.",
+			"OptionA": "0",
+			"OptionB": "1",
+			"OptionC": "2",
+			"OptionD": "0,5",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Децималната запирка секогаш е десно од единиците.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е поголем: -2 или -3?",
+			"OptionA": "-3",
+			"OptionB": "-2",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Колку е 50% од 50?",
+			"OptionA": "10",
+			"OptionB": "25",
+			"OptionC": "50",
+			"OptionD": "100",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 0,1 е исто што и 10%.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е помал: 1 100 или 1 010?",
+			"OptionA": "1 010",
+			"OptionB": "1 100",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Дополни: Во 0,75, цифрата 5 е на местото на __________.",
+			"OptionA": "десетинки",
+			"OptionB": "стотинки",
+			"OptionC": "единици",
+			"OptionD": "нема такво место",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 3/4 е помало од 1 цело.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е поголем: 0,55 или 0,5?",
+			"OptionA": "0,5",
+			"OptionB": "0,55",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Колку е 1/2 од 80?",
+			"OptionA": "20",
+			"OptionB": "40",
+			"OptionC": "60",
+			"OptionD": "80",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: Бројот 10 000 има 4 нули.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		},
+		{
+			"Question": "Кој број е помал: -7 или -6?",
+			"OptionA": "-6",
+			"OptionB": "-7",
+			"OptionC": "Исти се",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Дополни: 0,9 е __________ 0,8.",
+			"OptionA": "помал од",
+			"OptionB": "поголем од",
+			"OptionC": "еднаков на",
+			"OptionD": "не се споредува",
+			"CorrectAnswer": "OptionB"
+		},
+		{
+			"Question": "Точно или Неточно: 25% е еднакво на 0,25.",
+			"OptionA": "Точно",
+			"OptionB": "Неточно",
+			"OptionC": "Можеби",
+			"OptionD": "Не знам",
+			"CorrectAnswer": "OptionA"
+		}
+	]
 }

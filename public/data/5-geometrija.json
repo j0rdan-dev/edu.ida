@@ -1,76 +1,812 @@
 {
   "Questions": [
     {
-      "Question": "Колку странички има триаголник?",
+      "Question": "Кој агол е поголем од 0°, а помал од 90°?",
+      "OptionA": "Тап агол",
+      "OptionB": "Прав агол",
+      "OptionC": "Остар агол",
+      "OptionD": "Испружен агол",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Триаголник кој има еден прав агол се вика __________.",
+      "OptionA": "Тапоаголен",
+      "OptionB": "Правоаголен",
+      "OptionC": "Остроаголен",
+      "OptionD": "Рамнокрак",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Паралелните прави можат да се сечат во една точка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од рамнината",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се вика отсечката што поврзува две несоседни темиња кај многуаголник?",
+      "OptionA": "Страна",
+      "OptionB": "Агол",
+      "OptionC": "Дијагонала",
+      "OptionD": "Нормала",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Триаголник на кој сите страни му се со еднаква должина се вика __________.",
+      "OptionA": "Рамнокрак",
+      "OptionB": "Разностран",
+      "OptionC": "Рамнострани",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Секој правоаголен триаголник е и остроаголен.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај рамнокракиот",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој агол има точно 90°?",
+      "OptionA": "Тап агол",
+      "OptionB": "Прав агол",
+      "OptionC": "Остар агол",
+      "OptionD": "Испружен агол",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Прави кои се сечат под агол од 90° се викаат __________.",
+      "OptionA": "Паралелни прави",
+      "OptionB": "Нормални прави",
+      "OptionC": "Заемно паралелни",
+      "OptionD": "Криви линии",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Рамнокракиот триаголник има најмалку две страни со еднаква должина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само ако е правоаголен",
+      "OptionD": "Само ако е тап",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку степени има исправен (испружен) агол?",
+      "OptionA": "90°",
+      "OptionB": "45°",
+      "OptionC": "180°",
+      "OptionD": "360°",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Многуаголник со три страни се вика __________.",
+      "OptionA": "Четириаголник",
+      "OptionB": "Пентагон",
+      "OptionC": "Триаголник",
+      "OptionD": "Многуаголник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Дијагоналите се нацртани надвор од многуаголникот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај големите",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој агол е поголем од 90°, а помал од 180°?",
+      "OptionA": "Прав агол",
+      "OptionB": "Остар агол",
+      "OptionC": "Тап агол",
+      "OptionD": "Испружен агол",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Ако триаголникот има страни со различни должини, тој се вика __________.",
+      "OptionA": "Рамнокрак",
+      "OptionB": "Рамнострани",
+      "OptionC": "Разностран",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на аглите во еден триаголник е 180°.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од триаголникот",
+      "OptionD": "Повеќе од 180°",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што користиме за прецизно мерење на агли?",
+      "OptionA": "Линијар",
+      "OptionB": "Шестар",
+      "OptionC": "Агломер",
+      "OptionD": "Молив",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Прави кои се наоѓаат во иста рамнина и никогаш не се сечат се викаат __________.",
+      "OptionA": "Нормални прави",
+      "OptionB": "Паралелни прави",
+      "OptionC": "Прави кои се сечат",
+      "OptionD": "Искршени линии",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Триаголник може да има два прави агла.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Можеби",
+      "OptionD": "Секогаш",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се викаат триаголниците според големината на аглите?",
+      "OptionA": "Рамнокраки, рамнострани, разностранни",
+      "OptionB": "Остроаголни, правоаголни, тапоаголни",
+      "OptionC": "Правилни и неправилни",
+      "OptionD": "Остри и тапи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Темињата на еден многуаголник се спојуваат со __________.",
+      "OptionA": "Криви линии",
+      "OptionB": "Отсечки",
+      "OptionC": "Точки",
+      "OptionD": "Прави без крај",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Многуаголник е затворена рамнинска фигура.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само ако има многу страни",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се добива со сечење на две прави?",
+      "OptionA": "Паралелни прави",
+      "OptionB": "Агол",
+      "OptionC": "Триаголник",
+      "OptionD": "Рамнина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник кој има еден тап агол се вика __________.",
+      "OptionA": "Тапоаголен",
+      "OptionB": "Правоаголен",
+      "OptionC": "Остроаголен",
+      "OptionD": "Рамнострани",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Секој рамнострани триаголник е и рамнокрак.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку дијагонали има триаголникот?",
+      "OptionA": "0",
+      "OptionB": "1",
+      "OptionC": "2",
+      "OptionD": "3",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Рамнина е __________.",
+      "OptionA": "Ограничена површина",
+      "OptionB": "Неограничена површина",
+      "OptionC": "Линија",
+      "OptionD": "Агол",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Две нормални прави образуваат четири прави агли.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само два агла",
+      "OptionD": "Ниеден агол",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се викаат триаголниците според должината на нивните страни?",
+      "OptionA": "Остроаголни, правоаголни, тапоаголни",
+      "OptionB": "Рамнокраки, рамнострани, разностранни",
+      "OptionC": "Правилни и рамнински",
+      "OptionD": "Остри и тапи",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Агол поголем од 180° се вика __________.",
+      "OptionA": "Тап агол",
+      "OptionB": "Испружен агол",
+      "OptionC": "Неиспружен агол",
+      "OptionD": "Вдлабнат агол",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Секој четириаголник има две дијагонали.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од видот",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се добива кога ќе споиме две точки со права линија?",
+      "OptionA": "Агол",
+      "OptionB": "Отсечка",
+      "OptionC": "Многуаголник",
+      "OptionD": "Крива",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник кај кој сите агли се остри се вика __________.",
+      "OptionA": "Остроаголен",
+      "OptionB": "Правоаголен",
+      "OptionC": "Тапоаголен",
+      "OptionD": "Рамнокрак",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Правите кои се сечат мора да имаат една заедничка точка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Немаат заедничка точка",
+      "OptionD": "Имаат повеќе точки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку темиња има триаголникот?",
       "OptionA": "2",
       "OptionB": "3",
       "OptionC": "4",
       "OptionD": "5",
-      "CorrectAnswer": "OptionB",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку агли има четириаголник?",
+      "Question": "Дополни: Секој многуаголник има онолку агли колку што има __________.",
+      "OptionA": "Дијагонали",
+      "OptionB": "Темиња",
+      "OptionC": "Прави",
+      "OptionD": "Рамнини",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Многуаголник со четири страни се вика четириаголник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај правоаголник",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е агломерот?",
+      "OptionA": "Уред за цртање кругови",
+      "OptionB": "Уред за мерење агли",
+      "OptionC": "Линијар за права",
+      "OptionD": "Гума за бришење",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Ако две страни на триаголникот се еднакви, тој е __________.",
+      "OptionA": "Рамнострани",
+      "OptionB": "Разностран",
+      "OptionC": "Рамнокрак",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Паралелните прави се секогаш нормални.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку степени има полниот агол?",
+      "OptionA": "90°",
+      "OptionB": "180°",
+      "OptionC": "270°",
+      "OptionD": "360°",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Многуаголник со најмалку страни е __________.",
+      "OptionA": "Четириаголник",
+      "OptionB": "Триаголник",
+      "OptionC": "Квадрат",
+      "OptionD": "Пентагон",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Секој триаголник има три страни.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само рамнокракиот",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика агол од 180°?",
+      "OptionA": "Прав",
+      "OptionB": "Тап",
+      "OptionC": "Остар",
+      "OptionD": "Испружен",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Дијагоналите се __________.",
+      "OptionA": "Секогаш прави",
+      "OptionB": "Отсечки меѓу несоседни темиња",
+      "OptionC": "Страни на многуаголник",
+      "OptionD": "Агли",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Правите што се сечат можат да образуваат остар агол.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Секогаш е прав",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се добива при пресек на рамнина и линија?",
+      "OptionA": "Права",
+      "OptionB": "Точка",
+      "OptionC": "Агол",
+      "OptionD": "Ништо",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник со сите различни страни е __________.",
+      "OptionA": "Рамнокрак",
+      "OptionB": "Рамнострани",
+      "OptionC": "Разностран",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на аглите во четириаголник е поголем од оној во триаголник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Еднаков е",
+      "OptionD": "Помал е",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е основниот елемент на геометријата?",
+      "OptionA": "Линијата",
+      "OptionB": "Точката",
+      "OptionC": "Аголот",
+      "OptionD": "Површината",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Агол кој е еднаков на 90° се нарекува __________.",
+      "OptionA": "Остар",
+      "OptionB": "Тап",
+      "OptionC": "Прав",
+      "OptionD": "Испружен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Сите страни кај рамностраниот триаголник се еднакви.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само две се еднакви",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку агли има еден четириаголник?",
       "OptionA": "3",
       "OptionB": "4",
       "OptionC": "5",
       "OptionD": "6",
-      "CorrectAnswer": "OptionB",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој геометриски облик има 6 страни?",
-      "OptionA": "Квадрат",
+      "Question": "Дополни: Правите што се сечат имаат __________.",
+      "OptionA": "Две заеднички точки",
+      "OptionB": "Една заедничка точка",
+      "OptionC": "Немаат заеднички точки",
+      "OptionD": "Безброј заеднички точки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Тапоаголниот триаголник има само еден тап агол.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Може да има два",
+      "OptionD": "Секогаш три",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што значи терминот \"дијагонала\"?",
+      "OptionA": "Страна на фигура",
+      "OptionB": "Отсечка меѓу несоседни темиња",
+      "OptionC": "Агол на фигура",
+      "OptionD": "Точка на права",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник кој нема ниедна еднаква страна е __________.",
+      "OptionA": "Рамнокрак",
+      "OptionB": "Рамнострани",
+      "OptionC": "Разностран",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Аголот се состои од два краци.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само еден",
+      "OptionD": "Три",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се користи за поврзување на точки?",
+      "OptionA": "Линијар",
+      "OptionB": "Шестар",
+      "OptionC": "Гума",
+      "OptionD": "Острилка",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Прави кои се сечат под 90° се наречени __________.",
+      "OptionA": "Паралелни",
+      "OptionB": "Нормални",
+      "OptionC": "Криви",
+      "OptionD": "Скршени",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Триаголникот е многуаголник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Не се знае",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој агол е најмал?",
+      "OptionA": "Прав",
+      "OptionB": "Остар",
+      "OptionC": "Тап",
+      "OptionD": "Испружен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Секој многуаголник има __________.",
+      "OptionA": "Само три страни",
+      "OptionB": "Најмалку три страни",
+      "OptionC": "Безброј страни",
+      "OptionD": "Една страна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Дијагоналата е отсечка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Права е",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која фигура има најмалку темиња?",
+      "OptionA": "Четириаголник",
       "OptionB": "Триаголник",
-      "OptionC": "Хексагон",
-      "OptionD": "Пентагон",
-      "CorrectAnswer": "OptionC",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "OptionC": "Петаголник",
+      "OptionD": "Круг",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Колку темиња има коцка?",
-      "OptionA": "6",
-      "OptionB": "8",
-      "OptionC": "10",
-      "OptionD": "12",
-      "CorrectAnswer": "OptionB",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "Question": "Дополни: Збирот на аглите во триаголник е __________.",
+      "OptionA": "90°",
+      "OptionB": "180°",
+      "OptionC": "270°",
+      "OptionD": "360°",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој облик е правилен квадрат?",
-      "OptionA": "Сите страни се еднакви и сите агли се 90 степени",
-      "OptionB": "Сите страни се еднакви и сите агли се 60 степени",
-      "OptionC": "Две страни се еднакви и агли не се еднакви",
-      "OptionD": "Нема еднакви страни",
-      "CorrectAnswer": "OptionA",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ5SURBVHic7Zq7btswEEZ/80eQ8gZ2k2c9g+72AToG5GfH8U0D2Q5B70fQn2E9gA3TpgiSREiiKImU08wOBAgY+7o85kZ9g0Z8+fL/4k3x1x/sXb+3d65V3R2U0v3L8eE5gADg4s8c+8lJgA8gB1sM3QfT4H5+5+7h315xP1s77636eX0uL0G2pBv6e4s9r7JgQeYQ3YcAH6N99O5b9b/Z26v+u6dM8/GzD3T4M+5L/W8vO0f7eMhHjD98xP9+Z62O3a+8kP6YwD8r981O29w7+8b+u1pD16s4Z7h5w6h337w0g9O/w3x0Q6s58Vn7L9zTfT/Z4h/X2yH/r/lUfFk8n3u10w+3R1jG1t7Xl0oJ98A4O4V4e/uN/Xh37sO+/j17W3k8f+n37+hP7L507QeA/0L7xW57z8IQPZgVw7O6Xn/fA/cO71wT579cIftL3zXp/l5nJm5m4l8n5hG/9r21/m+XQcAhcT/e2XG8T/aO7Q/9r50H3tM4A+D7QfPj9V2/qX0XwI/2yW9a2w/Y/88/B8A3Iq0z8G7g5/QnAF5h2n+oJgG4hR9E+5Qe9gG49wK4YQ133xS5b8wFwIfc0Bw7V3z7aV/413w6X8wEANs2904dO1oA7h3WJ8H1r2i4cM5c+B3vXl4AABr94+mP1PZ/l9Jj84B77gR/bQPAg8GqR8W3KjX7z9y3A917/U2p7V2/o6sYAPZ49e1+v2vX5v+9u8/k+xG37V+Pz9YAwD+V0/F4B5/82AIA5a+wQp9h2d5+5bwe1T3oYnS8AABj+eYyE535i/oD734l7uD7Xn1w+c6m099T96V/c0b5f1s19u0J7tS9a1Zq/yP95p4l1oZt7V9x/gO7VbJp/3D9wF0B4x0L3tU/gH5z720t72vY9L9xI1zQy+Qp2qG6h3eA+9d9Wl6q9zO5+9p1vJ/J+/x33s07VfP3Hn2N76k6vP//y88y/bJ3dK+/3xX3X7a109/6g77QO5nB5Xf1a/b7Pve878o7T5l7H97L5a8BwN0P3X8h7Pfe251/6h/i4eD6wB4n2m8mP/JjX077X13o3LwMv8B65f2z09v1tP+jX67T+aN+T+z1/S/+V8/z8z5kAAAAASUVORK5CYII="
+      "Question": "Точно или неточно: Паралелните прави имаат заедничка точка.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кога се сечат",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Која е вредноста на правиот агол?",
-      "OptionA": "45 степени",
-      "OptionB": "90 степени",
-      "OptionC": "180 степени",
-      "OptionD": "360 степени",
-      "CorrectAnswer": "OptionB",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "Question": "Што се добива при пресек на две нормални прави?",
+      "OptionA": "Остри агли",
+      "OptionB": "Правни агли",
+      "OptionC": "Тапи агли",
+      "OptionD": "Испружени агли",
+      "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој геометриски облик нема страни?",
-      "OptionA": "Квадрат",
-      "OptionB": "Триаголник",
-      "OptionC": "Круг",
-      "OptionD": "Пентагон",
-      "CorrectAnswer": "OptionC",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "Question": "Дополни: Триаголник со два исти агли се вика __________.",
+      "OptionA": "Рамнокрак",
+      "OptionB": "Рамнострани",
+      "OptionC": "Разностран",
+      "OptionD": "Остроаголен",
+      "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Колку страни има призма?",
+      "Question": "Точно или неточно: Аголот е дел од рамнината.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Не е дел",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика точката каде се сечат краците на аголот?",
+      "OptionA": "Дијагонала",
+      "OptionB": "Теме",
+      "OptionC": "Страна",
+      "OptionD": "Рамнина",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Правите што се паралелни __________.",
+      "OptionA": "Се сечат во една точка",
+      "OptionB": "Никогаш не се сечат",
+      "OptionC": "Се поклопуваат",
+      "OptionD": "Се сечат под 90°",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Триаголникот може да биде рамнострани.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку страни има многуаголникот со пет темиња?",
       "OptionA": "3",
       "OptionB": "4",
       "OptionC": "5",
       "OptionD": "6",
-      "CorrectAnswer": "OptionD",
-      "image": "https://cdn.britannica.com/74/22474-050-FE855824/Shell-atomic-model-shell-shells-electrons-energy.jpg"
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Секој правоаголен триаголник има __________.",
+      "OptionA": "Еден прав агол",
+      "OptionB": "Два прави агла",
+      "OptionC": "Три прави агли",
+      "OptionD": "Ниеден прав агол",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Дијагоналите секогаш се во внатрешноста на многуаголникот.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Можеби",
+      "OptionD": "Само кај триаголник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се добива со спојување на сите страни кај многуаголникот?",
+      "OptionA": "Агол",
+      "OptionB": "Многуаголник",
+      "OptionC": "Права",
+      "OptionD": "Точка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Агол кој е поголем од 90° е __________.",
+      "OptionA": "Остар",
+      "OptionB": "Прав",
+      "OptionC": "Тап",
+      "OptionD": "Испружен",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Многуаголникот е рамнинска фигура.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Не е рамнинска",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку степени има тапиот агол?",
+      "OptionA": "Помалку од 90°",
+      "OptionB": "Точно 90°",
+      "OptionC": "Повеќе од 90°",
+      "OptionD": "Точно 180°",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Правите што се нормални сечат под агол од __________.",
+      "OptionA": "45°",
+      "OptionB": "90°",
+      "OptionC": "180°",
+      "OptionD": "360°",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Триаголникот нема дијагонали.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Има една",
+      "OptionD": "Има две",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што претставува темето на аголот?",
+      "OptionA": "Крајна точка",
+      "OptionB": "Заедничка точка на два краци",
+      "OptionC": "Права линија",
+      "OptionD": "Агол",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник со три исти агли е __________.",
+      "OptionA": "Рамнокрак",
+      "OptionB": "Рамнострани",
+      "OptionC": "Разностран",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Паралелните прави се секогаш во една рамнина.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку агли има триаголникот?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Дијагоналите се __________.",
+      "OptionA": "Степени",
+      "OptionB": "Отсечки",
+      "OptionC": "Агли",
+      "OptionD": "Рамнини",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Секој многуаголник мора да биде затворен.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи",
+      "OptionD": "Никогаш",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што се добива при пресек на многуаголникот?",
+      "OptionA": "Агли",
+      "OptionB": "Страни",
+      "OptionC": "Темиња",
+      "OptionD": "Се од наведеното",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Агол од 0° е __________.",
+      "OptionA": "Прав",
+      "OptionB": "Испружен",
+      "OptionC": "Почетен",
+      "OptionD": "Нула агол",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Триаголникот секогаш има три страни.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Може да има и две",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се викаат прави кои се сечат под 90°?",
+      "OptionA": "Паралелни",
+      "OptionB": "Нормални",
+      "OptionC": "Криви",
+      "OptionD": "Скршени",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник со еден тап агол е __________.",
+      "OptionA": "Остроаголен",
+      "OptionB": "Правоаголен",
+      "OptionC": "Тапоаголен",
+      "OptionD": "Рамнокрак",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Секој четириаголник е многуаголник.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само кај квадрат",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е аголот?",
+      "OptionA": "Дел од рамнината меѓу два краци",
+      "OptionB": "Права",
+      "OptionC": "Точка",
+      "OptionD": "Многуаголник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Дијагоналите кај четириаголникот __________.",
+      "OptionA": "Се сечат",
+      "OptionB": "Не се сечат",
+      "OptionC": "Се паралелни",
+      "OptionD": "Се нормални",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на аглите во четириаголникот е 360°.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "180°",
+      "OptionD": "90°",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика секој триаголник кој има барем две еднакви страни?",
+      "OptionA": "Рамнострани",
+      "OptionB": "Рамнокрак",
+      "OptionC": "Разностран",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Секој многуаголник е составен од __________.",
+      "OptionA": "Кругови",
+      "OptionB": "Отсечки",
+      "OptionC": "Прави",
+      "OptionD": "Точки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Аголот може да биде поголем од 360°.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Секогаш е помал",
+      "OptionD": "Можеби",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што претставува правата?",
+      "OptionA": "Дел од рамнината",
+      "OptionB": "Неограничена линија",
+      "OptionC": "Агол",
+      "OptionD": "Фигура",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник кај кој сите агли се еднакви е __________.",
+      "OptionA": "Разностран",
+      "OptionB": "Рамнострани",
+      "OptionC": "Рамнокрак",
+      "OptionD": "Правоаголен",
+      "CorrectAnswer": "OptionB"
     }
   ]
 }

@@ -1,0 +1,764 @@
+{
+  "Questions": [
+    {
+      "Question": "Кој е резултатот на пресметката: 12 500 + (8 300 - 4 200)?",
+      "OptionA": "16 600",
+      "OptionB": "15 400",
+      "OptionC": "16 400",
+      "OptionD": "17 600",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Производот на најголемиот трицифрен број и 10 е 9990.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Зависи од позицијата на цифрите",
+      "OptionD": "Не може да се пресмета",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ако деленикот е 4 800, а количникот 80, тогаш делителот е _________.",
+      "OptionA": "60",
+      "OptionB": "600",
+      "OptionC": "6",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е најмалиот природен број со кој мора да се подели 750 за да се добие број помал од 10?",
+      "OptionA": "75",
+      "OptionB": "76",
+      "OptionC": "70",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Пресметај: 25 x 4 x 13.",
+      "OptionA": "1 200",
+      "OptionB": "1 300",
+      "OptionC": "1 400",
+      "OptionD": "1 100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на првите пет непарни природни броеви е 25.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Резултатот е 20",
+      "OptionD": "Резултатот е 30",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е непознатиот собирок во: 12 345 + x = 20 000?",
+      "OptionA": "7 655",
+      "OptionB": "8 655",
+      "OptionC": "7 755",
+      "OptionD": "6 655",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој од следниве броеви е делив и со 2, и со 5, и со 10?",
+      "OptionA": "1 005",
+      "OptionB": "1 020",
+      "OptionC": "1 012",
+      "OptionD": "1 002",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1 250 : 25?",
+      "OptionA": "5",
+      "OptionB": "50",
+      "OptionC": "500",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во изразот 10 000 - (500 x 4), резултатот е _________.",
+      "OptionA": "9 500",
+      "OptionB": "8 000",
+      "OptionC": "9 000",
+      "OptionD": "6 000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е квадратот на бројот 15?",
+      "OptionA": "150",
+      "OptionB": "225",
+      "OptionC": "255",
+      "OptionD": "125",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Ако еден фактор се зголеми 2 пати, а другиот остане ист, производот се зголемува 2 пати.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Се зголемува за 2",
+      "OptionD": "Не се менува",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 3 600 : 60?",
+      "OptionA": "6",
+      "OptionB": "60",
+      "OptionC": "600",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 12 x 8 + 12 x 2?",
+      "OptionA": "100",
+      "OptionB": "120",
+      "OptionC": "144",
+      "OptionD": "96",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е за 150 поголем од производот на 20 и 30?",
+      "OptionA": "450",
+      "OptionB": "750",
+      "OptionC": "600",
+      "OptionD": "800",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој од следниве броеви е делив со 4?",
+      "OptionA": "1 022",
+      "OptionB": "1 024",
+      "OptionC": "1 026",
+      "OptionD": "1 021",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во изразот 1 000 : x = 25, x е _________.",
+      "OptionA": "4",
+      "OptionB": "40",
+      "OptionC": "400",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Остатокот при делење на било кој број со 5 може да биде 6.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ако е непарен",
+      "OptionD": "Може",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 15 x 15 - 25?",
+      "OptionA": "200",
+      "OptionB": "225",
+      "OptionC": "250",
+      "OptionD": "175",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е резултатот на (100 + 200 + 300) : 6?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "50",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се добива при делење на 1 000 со 8?",
+      "OptionA": "120",
+      "OptionB": "125",
+      "OptionC": "130",
+      "OptionD": "115",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на најмалиот четирицифрен и најголемиот трицифрен број е 1999.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Резултатот е 1099",
+      "OptionD": "Резултатот е 2000",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 50 x 50 - 50 x 40?",
+      "OptionA": "100",
+      "OptionB": "500",
+      "OptionC": "1 000",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Најголемиот број со кој можеме да поделиме 20, 30 и 40 без остаток е _________.",
+      "OptionA": "5",
+      "OptionB": "10",
+      "OptionC": "20",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 45 x 2 : 3?",
+      "OptionA": "15",
+      "OptionB": "30",
+      "OptionC": "45",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Множењето е дистрибутивно во однос на одземањето.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за позитивни",
+      "OptionD": "Само за негативни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој број е непознат намалител во: 500 - x = 325?",
+      "OptionA": "125",
+      "OptionB": "175",
+      "OptionC": "225",
+      "OptionD": "150",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 100 x 10 : 5?",
+      "OptionA": "100",
+      "OptionB": "200",
+      "OptionC": "50",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив и со 3 и со 5?",
+      "OptionA": "12",
+      "OptionB": "15",
+      "OptionC": "20",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во изразот (a + b) x c, прво се извршува _________.",
+      "OptionA": "Множењето",
+      "OptionB": "Собирањето во заградата",
+      "OptionC": "Одземањето",
+      "OptionD": "Делењето",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 100 000 поделено на 1 000 е 100.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Резултатот е 10",
+      "OptionD": "Резултатот е 1000",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 16 x 5 x 2?",
+      "OptionA": "80",
+      "OptionB": "160",
+      "OptionC": "120",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е резултат на 4 000 : 8 - 50?",
+      "OptionA": "400",
+      "OptionB": "450",
+      "OptionC": "500",
+      "OptionD": "350",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Ако еден број го помножиме со 10, тој се зголемува _________ пати.",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Секој парен број е делив со 2.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само броевите над 10",
+      "OptionD": "Нема правило",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 20 x 20 + 10?",
+      "OptionA": "400",
+      "OptionB": "410",
+      "OptionC": "500",
+      "OptionD": "210",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 1 000 - 500 : 2?",
+      "OptionA": "250",
+      "OptionB": "750",
+      "OptionC": "500",
+      "OptionD": "1 000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е содржател на 3?",
+      "OptionA": "10",
+      "OptionB": "21",
+      "OptionC": "25",
+      "OptionD": "32",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во изразот 50 - 5 x 4, резултатот е _________.",
+      "OptionA": "180",
+      "OptionB": "30",
+      "OptionC": "200",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Разликата на два непарни броја е секогаш парен број.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Секогаш е непарен",
+      "OptionD": "Нема правило",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 60 + 40 x 2?",
+      "OptionA": "200",
+      "OptionB": "140",
+      "OptionC": "120",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 360 : 6 + 40?",
+      "OptionA": "60",
+      "OptionB": "100",
+      "OptionC": "80",
+      "OptionD": "120",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 25 x 3 : 5?",
+      "OptionA": "5",
+      "OptionB": "15",
+      "OptionC": "25",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Ако еден број го поделиме со 1, резултатот е _________.",
+      "OptionA": "1",
+      "OptionB": "Самиот број",
+      "OptionC": "0",
+      "OptionD": "Не е можно",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Производот на три парни броја е парен.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Секогаш е непарен",
+      "OptionD": "Зависи од големината",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 120 - 40 x 2?",
+      "OptionA": "160",
+      "OptionB": "40",
+      "OptionC": "80",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 9?",
+      "OptionA": "10",
+      "OptionB": "18",
+      "OptionC": "20",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 8 x 8 - 4 x 4?",
+      "OptionA": "16",
+      "OptionB": "48",
+      "OptionC": "64",
+      "OptionD": "32",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој е делив со 100 мора да завршува на _________.",
+      "OptionA": "0",
+      "OptionB": "00",
+      "OptionC": "50",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на 999 и 1 е најмалиот четирицифрен број.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тоа е 999",
+      "OptionD": "Тоа е 100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 500 : 25?",
+      "OptionA": "10",
+      "OptionB": "20",
+      "OptionC": "50",
+      "OptionD": "25",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е квадрат на 6?",
+      "OptionA": "12",
+      "OptionB": "36",
+      "OptionC": "48",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 10 + 10 x 10?",
+      "OptionA": "200",
+      "OptionB": "110",
+      "OptionC": "100",
+      "OptionD": "120",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во 40 : 8 = 5, 8 е _________.",
+      "OptionA": "Деленик",
+      "OptionB": "Делител",
+      "OptionC": "Количник",
+      "OptionD": "Производ",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Множењето со 5 е исто што и множење со 10, па делење со 2.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Само за парни",
+      "OptionD": "Само за непарни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 200 - 150 : 3?",
+      "OptionA": "50",
+      "OptionB": "150",
+      "OptionC": "100",
+      "OptionD": "125",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 6?",
+      "OptionA": "10",
+      "OptionB": "12",
+      "OptionC": "14",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 5 x 8 + 6 x 2?",
+      "OptionA": "40",
+      "OptionB": "52",
+      "OptionC": "60",
+      "OptionD": "48",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој при делење со 5 дава остаток 0 се вика _________.",
+      "OptionA": "Содржател на 5",
+      "OptionB": "Делив со 5",
+      "OptionC": "Производ на 5",
+      "OptionD": "Се од наведеното",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Разликата на 100 и 1 е 99.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "Тоа е 90",
+      "OptionD": "Зависи од контекстот",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 900 : 9?",
+      "OptionA": "90",
+      "OptionB": "100",
+      "OptionC": "10",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е квадрат на 5?",
+      "OptionA": "10",
+      "OptionB": "25",
+      "OptionC": "50",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 200 + 300?",
+      "OptionA": "400",
+      "OptionB": "500",
+      "OptionC": "600",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Резултатот на 120 : 6 е _________.",
+      "OptionA": "10",
+      "OptionB": "20",
+      "OptionC": "30",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на 50 + 50 е 100.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само ако е наведен редоследот",
+      "OptionD": "Зависи од броевите",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 7 x 7?",
+      "OptionA": "14",
+      "OptionB": "49",
+      "OptionC": "56",
+      "OptionD": "63",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е содржател на 2?",
+      "OptionA": "5",
+      "OptionB": "8",
+      "OptionC": "9",
+      "OptionD": "11",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 800 : 8?",
+      "OptionA": "50",
+      "OptionB": "100",
+      "OptionC": "150",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во 60 : 12 = 5, 12 е _________.",
+      "OptionA": "Деленик",
+      "OptionB": "Делител",
+      "OptionC": "Количник",
+      "OptionD": "Производ",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Множењето со 100 значи додавање две нули.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за парни броеви",
+      "OptionD": "Точно само за непарни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 100 - 50?",
+      "OptionA": "25",
+      "OptionB": "50",
+      "OptionC": "75",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 10?",
+      "OptionA": "5",
+      "OptionB": "30",
+      "OptionC": "35",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 9 x 3?",
+      "OptionA": "18",
+      "OptionB": "27",
+      "OptionC": "30",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој го дели деленикот се вика _________.",
+      "OptionA": "Деленик",
+      "OptionB": "Делител",
+      "OptionC": "Количник",
+      "OptionD": "Остаток",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Разликата на 200 - 200 е 0.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само за броеви над 500",
+      "OptionD": "Точно само за парни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 900 : 3?",
+      "OptionA": "100",
+      "OptionB": "300",
+      "OptionC": "400",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е квадрат на 7?",
+      "OptionA": "14",
+      "OptionB": "49",
+      "OptionC": "56",
+      "OptionD": "63",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 100 + 400?",
+      "OptionA": "300",
+      "OptionB": "500",
+      "OptionC": "600",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Резултатот на 15 : 3 е _________.",
+      "OptionA": "2",
+      "OptionB": "5",
+      "OptionC": "8",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на 20 + 80 е 100.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Само за броеви под 50",
+      "OptionD": "Точно само за непарни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 8 x 8?",
+      "OptionA": "16",
+      "OptionB": "64",
+      "OptionC": "72",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е содржател на 5?",
+      "OptionA": "4",
+      "OptionB": "15",
+      "OptionC": "18",
+      "OptionD": "22",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 500 : 10?",
+      "OptionA": "25",
+      "OptionB": "50",
+      "OptionC": "75",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Во 100 : 20 = 5, 20 е _________.",
+      "OptionA": "Деленик",
+      "OptionB": "Делител",
+      "OptionC": "Количник",
+      "OptionD": "Производ",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Множењето со 1000 значи додавање три нули.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за броеви над 500",
+      "OptionD": "Точно само за непарни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 120 - 60?",
+      "OptionA": "30",
+      "OptionB": "60",
+      "OptionC": "90",
+      "OptionD": "120",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е делив со 2?",
+      "OptionA": "5",
+      "OptionB": "14",
+      "OptionC": "15",
+      "OptionD": "17",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 7 x 5?",
+      "OptionA": "25",
+      "OptionB": "35",
+      "OptionC": "40",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот кој го дели деленикот се вика _________.",
+      "OptionA": "Деленик",
+      "OptionB": "Делител",
+      "OptionC": "Количник",
+      "OptionD": "Остаток",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Разликата на 300 - 300 е 0.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за големи броеви",
+      "OptionD": "Точно само за непарни",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 400 : 2?",
+      "OptionA": "100",
+      "OptionB": "200",
+      "OptionC": "300",
+      "OptionD": "400",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој број е квадрат на 8?",
+      "OptionA": "16",
+      "OptionB": "64",
+      "OptionC": "72",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е резултатот на 500 + 500?",
+      "OptionA": "500",
+      "OptionB": "1 000",
+      "OptionC": "1 500",
+      "OptionD": "2 000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Резултатот на 200 : 5 е _________.",
+      "OptionA": "20",
+      "OptionB": "40",
+      "OptionC": "60",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Збирот на 30 + 70 е 100.",
+      "OptionA": "Неточно",
+      "OptionB": "Точно",
+      "OptionC": "Точно само за броеви под 50",
+      "OptionD": "Точно само за парни броеви",
+      "CorrectAnswer": "OptionB"
+    }
+  ]
+}

@@ -323,6 +323,15 @@ export const grades: Grade[] = [
             color: "150 90% 10%",
           },
           {
+            id: "operacii-broevi-dropki-4-napredni-tekstualni",
+            timeLimitSeconds: 150,
+            label: "3. Операции со броеви V - напредни",
+            description: "Дропки, текстуални задачи",
+            file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki_tekstualni.json`,
+            icon: Plus,
+            color: "150 90% 10%",
+          },
+          {
             id: "merenje-4",
             label: "4. Мерење",
             description: "Цела тема",
@@ -737,21 +746,21 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
   ],
   grade5: [
     {
-      id: "matematik-5",
+      id: "matematika-5",
       label: "Математика",
-      url: "#",
+      url: `${import.meta.env.BASE_URL}ucebnici/matematika_5.pdf`,
       color: "340 65% 50%",
     },
     {
       id: "prirodni-5",
       label: "Природни Науки",
-      url: "#",
+      url: `${import.meta.env.BASE_URL}ucebnici/prirodni_5.pdf`,
       color: "259 78% 51%",
     },
     {
       id: "makedonski-5",
       label: "Македонски Јазик",
-      url: "#",
+      url: `${import.meta.env.BASE_URL}ucebnici/makedonski_5.pdf`,
       color: "14 80% 45%",
     },
     {
