@@ -324,7 +324,7 @@ export const grades: Grade[] = [
           },
           {
             id: "operacii-broevi-dropki-4-napredni-tekstualni",
-            timeLimitSeconds: 150,
+            timeLimitSeconds: 300,
             label: "3. Операции со броеви V - напредни",
             description: "Дропки, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_dropki_tekstualni.json`,
