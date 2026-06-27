@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { QuizData, QuizQuestion, OptionKey, AnswerRecord } from "@/types/quiz";
 import { Category, Grade, Subject, grades } from "@/data/categories";
+import { DEFAULT_QUESTIONS_PER_QUIZ, getNumberOfQuestionsForCategory } from "@/lib/quizConfig";
 import GradeSelect from "./GradeSelect";
 import SubjectSelect from "./SubjectSelect";
 import CategorySelect from "./CategorySelect";
@@ -11,7 +12,6 @@ import TextbooksSelect from "./TextbooksSelect";
 
 type Screen = "grades" | "subjects" | "categories" | "quiz" | "results" | "textbooks";
 
-const QUESTIONS_PER_QUIZ = 10;
 const DEFAULT_TIME_PER_QUESTION = 30;
 
 const pathForGrade = (gradeId: string) => `/grade/${gradeId}`;
@@ -160,7 +160,7 @@ const QuizApp = () => {
 
       if (requestId !== loadRequestIdRef.current) return;
 
-      const picked = shuffleAndPick(data.Questions, QUESTIONS_PER_QUIZ);
+      const picked = shuffleAndPick(data.Questions, getNumberOfQuestionsForCategory(category));
       setQuizQuestions(picked);
       setCurrentIndex(0);
       setAnswers([]);
