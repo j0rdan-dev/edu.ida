@@ -282,6 +282,22 @@ export const grades: Grade[] = [
             icon: Hash,
             color: "340 65% 50%",
           },
+                    {
+            id: "broevi-i-broenje-tekstualni-4",
+            label: "1. Броеви и броење",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje_tekstualni.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+                    {
+            id: "broevi-i-broenje-tekstualni-napredni-4",
+            label: "1. Броеви и броење",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje_tekstualni_advanced.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
           {
             id: "geometrija-4",
             label: "2. Геометрија",
