@@ -351,7 +351,7 @@ export const grades: Grade[] = [
           },
           {
             id: "merenje-4",
-            label: "4. Мерење",
+            label: "4. Мерење I",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-merenje.json`,
             icon: Ruler,
@@ -359,8 +359,8 @@ export const grades: Grade[] = [
           },
           {
             id: "merenje-tekstualni-4",
-            label: "4. Мерење (текстуални задачи)",
-            description: "Цела тема",
+            label: "4. Мерење II",
+            description: "Цела тема, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-merenje_tekstualni.json`,
             icon: Ruler,
             color: "30 75% 50%",
