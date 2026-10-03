@@ -276,7 +276,7 @@ export const grades: Grade[] = [
         categories: [
           {
             id: "broevi-i-broenje-4",
-            label: "1. Броеви и броење",
+            label: "1. Броеви и броење I",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje.json`,
             icon: Hash,
@@ -284,16 +284,16 @@ export const grades: Grade[] = [
           },
                     {
             id: "broevi-i-broenje-tekstualni-4",
-            label: "1. Броеви и броење",
-            description: "Цела тема",
+            label: "1. Броеви и броење II",
+            description: "Цела тема, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje_tekstualni.json`,
             icon: Hash,
             color: "340 65% 50%",
           },
                     {
             id: "broevi-i-broenje-tekstualni-napredni-4",
-            label: "1. Броеви и броење",
-            description: "Цела тема",
+            label: "1. Броеви и броење III - напредни",
+            description: "Цела тема, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje_tekstualni_advanced.json`,
             icon: Hash,
             color: "340 65% 50%",
