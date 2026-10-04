@@ -12,7 +12,7 @@ import TextbooksSelect from "./TextbooksSelect";
 
 type Screen = "grades" | "subjects" | "categories" | "quiz" | "results" | "textbooks";
 
-const DEFAULT_TIME_PER_QUESTION = 30;
+const DEFAULT_TIME_PER_QUESTION = 45;
 
 const pathForGrade = (gradeId: string) => `/grade/${gradeId}`;
 const pathForTextbooks = (gradeId: string) => `/grade/${gradeId}/textbooks`;
