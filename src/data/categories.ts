@@ -286,6 +286,7 @@ export const grades: Grade[] = [
             id: "broevi-i-broenje-tekstualni-4",
             label: "1. Броеви и броење II",
             description: "Цела тема, текстуални задачи",
+            timeLimitSeconds: 150,
             file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje_tekstualni.json`,
             icon: Hash,
             color: "340 65% 50%",
@@ -293,6 +294,7 @@ export const grades: Grade[] = [
                     {
             id: "broevi-i-broenje-tekstualni-napredni-4",
             label: "1. Броеви и броење III - напредни",
+            timeLimitSeconds: 300,
             description: "Цела тема, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-broevi_i_broenje_tekstualni_advanced.json`,
             icon: Hash,
@@ -317,6 +319,7 @@ export const grades: Grade[] = [
                     {
             id: "operacii-broeci-tekstualni-4",
             label: "3. Операции со броеви II",
+            timeLimitSeconds: 150,
             description: "Цела тема, текстуални задачи",
             file: `${import.meta.env.BASE_URL}data/4-operacii_so_broevi_tekstualni.json`,
             icon: Plus,
