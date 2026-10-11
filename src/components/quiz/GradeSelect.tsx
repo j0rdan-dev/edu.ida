@@ -21,7 +21,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
 
         <div className="flex flex-col gap-3">
           {grades.map((grade, i) => {
-            const hasAiSupport = grade.id === "grade3" || grade.id === "grade4";
+            const hasAiSupport = grade.id === "grade3" || grade.id === "grade4" || grade.id === "grade5";
             return (
             <button
               key={grade.id}
