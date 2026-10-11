@@ -769,22 +769,22 @@ export const grades: Grade[] = [
           },
         ],
       },
-      {
-        id: "istorija-opstestvo-5",
-        label: "Историја и Општество",
-        icon: Globe,
-        color: "220 65% 55%",
-        categories: [
-          {
-            id: "istorija-opstestvo-5",
-            label: "Историја и Општество",
-            description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/sample.json`,
-            icon: Globe,
-            color: "220 65% 55%",
-          },
-        ],
-      },
+      // {
+      //   id: "istorija-opstestvo-5",
+      //   label: "Историја и Општество",
+      //   icon: Globe,
+      //   color: "220 65% 55%",
+      //   categories: [
+      //     {
+      //       id: "istorija-opstestvo-5",
+      //       label: "Историја и Општество",
+      //       description: "Цела тема",
+      //       file: `#`,
+      //       icon: Globe,
+      //       color: "220 65% 55%",
+      //     },
+      //   ],
+      // },
     ],
   },
 ];
@@ -922,7 +922,7 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
     },
     {
       id: "istorija-opstestvo-5",
-      label: "Историја и Општество",
+      label: "Историја и Општество (не е достапен)",
       url: "#",
       color: "220 65% 55%",
     },
