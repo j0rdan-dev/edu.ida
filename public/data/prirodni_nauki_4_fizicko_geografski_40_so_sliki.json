@@ -1,0 +1,332 @@
+{
+  "Questions": [
+    {
+      "Question": "Каква форма има нашата планета?",
+      "OptionA": "Приближно топчеста форма.",
+      "OptionB": "Совршено рамна форма.",
+      "OptionC": "Триаголна форма.",
+      "OptionD": "Квадратна форма.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е првиот човек кој ја видел топчестата форма на Земјата од поголема височина?",
+      "OptionA": "Јуриј Гагарин.",
+      "OptionB": "Фернандо Магелан.",
+      "OptionC": "Кристофер Колумбо.",
+      "OptionD": "Аристотел.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Како се нарекува површинскиот слој на Земјата?",
+      "OptionA": "Биосфера.",
+      "OptionB": "Литосфера.",
+      "OptionC": "Хидросфера.",
+      "OptionD": "Атмосфера.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е хидросфера?",
+      "OptionA": "Воздушна обвивка на Земјата.",
+      "OptionB": "Водена обвивка на Земјата.",
+      "OptionC": "Простор населен со живи суштества.",
+      "OptionD": "Цврста карпеста обвивка на Земјата.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е атмосфера?",
+      "OptionA": "Воздушна обвивка околу Земјата.",
+      "OptionB": "Цврста карпеста обвивка.",
+      "OptionC": "Водена обвивка на Земјата.",
+      "OptionD": "Простор населен со живи суштества.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што ја сочинува биосферата?",
+      "OptionA": "Само карпите и почвата.",
+      "OptionB": "Само водата и мразот.",
+      "OptionC": "Луѓето, растителниот и животинскиот свет.",
+      "OptionD": "Само облаците и воздухот.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку континенти има на Земјата?",
+      "OptionA": "Седум.",
+      "OptionB": "Осум.",
+      "OptionC": "Пет.",
+      "OptionD": "Шест.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Наброј ги континентите.",
+      "OptionA": "Европа, Азија, Африка, Северна Америка, Јужна Америка, Австралија и Антарктик.",
+      "OptionB": "Европа, Азија, Африка, Северна Америка, Јужна Америка, Австралија и Атлантски Океан.",
+      "OptionC": "Европа, Азија, Африка, Северна Америка, Јужна Америка, Индиски Океан и Антарктик.",
+      "OptionD": "Европа, Азија, Африка, Атлантик, Австралија, Антарктик и Тихи Океан.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Со кои океани е опколена Северна Америка?",
+      "OptionA": "Со Тихиот, Индискиот и Северниот Леден Океан.",
+      "OptionB": "Со Тихиот, Атлантскиот и Северниот Леден Океан.",
+      "OptionC": "Со Индискиот, Јужниот и Тихиот Океан.",
+      "OptionD": "Со Атлантскиот, Индискиот и Јужниот Океан.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој е најголем континент?",
+      "OptionA": "Европа.",
+      "OptionB": "Австралија.",
+      "OptionC": "Африка.",
+      "OptionD": "Азија.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој е најмал континент?",
+      "OptionA": "Африка.",
+      "OptionB": "Австралија.",
+      "OptionC": "Антарктик.",
+      "OptionD": "Европа.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На кој континент се наоѓа нашата држава?",
+      "OptionA": "Азија.",
+      "OptionB": "Африка.",
+      "OptionC": "Австралија.",
+      "OptionD": "Европа.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што е географска карта?",
+      "OptionA": "Направа за ориентација со магнетна игла.",
+      "OptionB": "Топчесто тело кое ја претставува формата на Земјата.",
+      "OptionC": "Намалена слика на планетата Земја, или дел од неа, претставена на рамна површина.",
+      "OptionD": "Односот за колку пати е намалена природна големина.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е глобус?",
+      "OptionA": "Направа со магнетна игла за ориентација.",
+      "OptionB": "Топчесто тело кое најточно ја претставува формата на планетата Земја.",
+      "OptionC": "Карта со празни контури на Земјата.",
+      "OptionD": "Намалена слика на карта на рамна површина.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Кои се главните страни на светот?",
+      "OptionA": "Само север и југ.",
+      "OptionB": "Горе, долу, напред и назад.",
+      "OptionC": "Североисток, северозапад, југоисток и југозапад.",
+      "OptionD": "Исток, запад, север и југ.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADcCAIAAACOIe9xAAAC6ElEQVR42u3dwW2kQBCGUWN1MsRCOMRBOMRCLsDBB19Glg8MI3VTXe/dbWlhvv3LsrQ77Mf5BcT07RGAgAEBAwIGAQMCBgQMCBgEDAgYEDAIGBAwIGBAwCBgQMCAgAEB5zFOs4cgYEDAtJhfIyxgQMA0+unXCAsYEDAgYK7fz65oAQMCptH8GmEBAwIGBMy797MrWsCAgAEBc+9CdkULGBAw1efXCAsYEDAgYO5dxa5oAQMCpvr8GmEBAwIGBOx+rv+1CBgQsPlt+h0QMHDHsB+np5BhnLd18UwsMCBgQMAgYEDAgIABAYOAAQEDAgYEDAIGBAwIGAQMCBgQMCBgEDAgYEDAgIBBwICAAQGDgAEBAwIGBAwCBgQMCBgQMAgYEDAgYBAwIGBAwICAQcCAgAEBg4ABAQMCBgQMAgYEDAgYEPC/xmn2ELyvcIrPgQ9B9He3rYuApUvsV5kz46JbDLKApYtBFrBuMcgCli5JBrnoFoMsYOlikBsY9uPULWlFLzl2wNIlecYhA9YtSrbAYIFljHQF/ISSO/sFw5+n0fefLu277urXSL9vxSCT56/p0vEbUjK9dttzwAaZDOn2H7BB1m33SrY3KmPpCtggo1sBG2SkK2CDrNu0/LOyPg3el4ABAQMCBgEDAgYEDAgYBAwIGBAwCBgQMCBgQMAgYEDAgIABAYOAAQEDAgYBAwIGBAwIGAQMCBgQMCBgEDAgYEDAIGBAwICAAQGDgAEBAwIGAQMCBgQMCBgEDAgYEDAgYBAwIGBAwCBgIJ5hP05PIa5xmj//Jtu6eJIWGBAwdcfT/AoYEDDVJ9T8ChgQMCBgV7T7WcCAgHnwCJtfAQMCBgTM9avY/SxgQMBUH2HzK2BAwFQfYfMrYEDAgIC5fie7nwUMCJjqI2x+BQwIGBAw169o97OAAQFTfYTNr4CBJ/J/I4EFBgQMCBgEDAgYEDAgYBAwIGBAwCBgQMCAgAEBg4ABAQMCBl79ALxVziAat9h4AAAAAElFTkSuQmCC"
+    },
+    {
+      "Question": "Што е релјеф?",
+      "OptionA": "Просторот населен со живи суштества.",
+      "OptionB": "Воздушната обвивка околу Земјата.",
+      "OptionC": "Водената обвивка на Земјата.",
+      "OptionD": "Надворешниот изглед на Земјината површина.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADcCAIAAACOIe9xAAAFUElEQVR42u3dMVIbzRaAUdTl0PaiHDhlAV4AKYFDlwJiAqdaAAvQ1mxHQOCAKhUlU7JQ90z37XtOvfRhqbu/uTOIHzaPT89XQEzFEoCAAQEDAgYBAwIGBAwIGAQMCBgQMAgYEDAgYEDAIGBAwICAAQGDgOF9/vz+ZREETOB6NSxgQMB0unk2hAUMCJjVx68hLGBm8HB/axHqbfxpFVYevwcfP322PiYwE7aNgJGogGHJp1yFC5hBXd/cteocATPc+H1X5wiY4cavIVzJx0i0d8GTrY+UTGByNY+AkaKAQfkCRoS+myVguqnPz0dKAqabJvkZwgIm5Pg1hAVM7PFrCAuYwOP3cC3Q8Jn8JBYNLPEJkJ/NMoGJN37dSJvAhB+/hrAJTOx6DWEBE/Lm+cB3swTMsoFZBAFj/BrCF/JNLEZ8+j3iu1kmMPHGb69/zgTG+G1sv9t++/7TypvAmIcmMMbv6gxhExjj1wTG+O3EEDaBCTx+fSwsYC6v149eCRgMYQFj/CJgzp979V9kv9sawgKmw/ht9aVaNXzlAy0B02X8NmnY/byAWW/QHUXbqmFDWMD0mXUN76UFDOuN34YNG8IC5lS99eP3dKXmsIAZ1zl9VjacfAgLmAXH72rPw2kbFjBDZFnTcOaPlATMIuN3/YfbnENYwISc2IawgBlu/FY2nHAIC5jG06zy5rny/56tYQEzXAAXN5zwRlrADHHz3PDrpBrCAqb/5Gz41bINYQHTZvwu8bnRxV8zzxAWMLNN9ZfLUJKGBcyg47e+YQFD53oP/8TL/9xIC5jG43fli8WZJScZwh8cXwYfv//9d0+0+nB/O/efYvG3kXLtd834Hf8/vv/3jby85on31AQ+fmRK1fCJp8SIvyvj8JrzfBNLwNld39zN93ttXpe8320nvii7hX57FmUYwql+5HDWDfVd6LePsl847GolYFvrXXvLArbfIOALKp214bTXpvneeFGvs46AXYy9cW9fwLbce7EIAm6+hc49AnYB9sYthYA77ZzTj4Bdtr14CyJghxiyBdyk3qCXAFeuWZel2CoxaFjAOKMIOMgJDpSEeudeomJ7hIGAXbm9QlspYBuDoyLg1bZk5F138XILrV6dGMICxllEwMMeX7U4OQKOvQdDbbwLSp7VK1bfCuAWGuXYSgEHX3cvAAE7uzhOyQIeZ7k7vhKXsITr6RlYSLiFFkzvl+SqkXNViyUGE1i9PV+bq1jatfUMrCsC72OxrI4XbqGd2j6vU73Jz5tbaNcaTGBJWAerLeBZT63SNCzg2CVk/t3UCBiMkOABR585/j4TeQOe48gKzyZmDHimc1//XlwF8Azs8s8Mu1AslndE3E0slinQ+1I+kQJ2XnE+PQNPsv0uZ0QKOMN51aQdnDNgJ9uC2JqoAac6rMrEM/DkDYvcVThMwA6rBSFqwGkPq0rtoFvoCU+AsDUcJmCH1QoQNWBn15rYsqgBO6mWAs/AUzWsZJfgGAE7qWg4asDqtSxEDdgxxSXYMzCYwMYvBDzhRb0Q95wX9YJbaKDDuCqTvR8wgdULMY59US/EPfyegcEttPELPRIo6gUTGOgwyUrEFw2sEbB6YdEiinohbsOegcEttPELPeoo6gUTWL3QIRPPwBC44TLgawI6BKxeWDmZol4wgYEOk6+M8CJAw90CVi/0svny46tVAM/AgIABAYOAAQEDAgaObB6fnq0CmMCAgAEBg4ABAQMCBgQMAgYEDAgYBAwIGBAwIGAQMCBgQMCAgEHAgIABAYOAAQEDAgYEDAIGBAwIGBAwCBgQMCBgEDAgYGBBfwFQQquhcnEiMgAAAABJRU5ErkJggg=="
+    },
+    {
+      "Question": "Што е време?",
+      "OptionA": "Просечна состојба на атмосферата во долг период.",
+      "OptionB": "Надворешниот изглед на Земјината површина.",
+      "OptionC": "Водената обвивка на Земјата.",
+      "OptionD": "Состојба на воздухот или атмосферата во определен момент.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што е температура?",
+      "OptionA": "Надворешниот изглед на Земјата.",
+      "OptionB": "Количината на дожд во определен период.",
+      "OptionC": "Правецот од каде што дува ветерот.",
+      "OptionD": "Степен на загреаност на воздухот која се мери со направата термометар.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADcCAIAAACOIe9xAAADoklEQVR42u3dPU7rQBSAUYyQsgDEgpCyB5QiHQ0Ni0lDQ5ciyh4isSDEAkhSUCDFkbGN4/hnZnxOhXg4jix93Bng2dn+cLwB4nTrEoCAAQEDAgYBAwIGBAwIGAQMCBgQMAgYEDAgYEDAIGBAwICAAQGDgAEBAwIGAQMCBgZx5xJE7XHxUvr5j82bizMFmSczpNStkgVMIunK2B6YFOq95kBMYHpMd7delX5+vnw1igVMuPVWpftvxhoWMGPW2yTd+ow1bA/MOC6tt90hCJjux2/rFAsH+pmWgImmXg0LmPhWztbSAiaU8RvpKRAwXU5OQ1jAgIBptrjtfGaev6BVtIABAQMCBgEDAgYEDAgYBAyExG1lyV3zdx1uEmACAyYwpqgJDAgYEDAgYBAwIGBAwCBgQMDAsPwlVqy+nhdNvuz+feNamcCAgAEBAwIGAQMCBgQMAgYEDAgYEDAIGBAwIGCYPP+dkJxHq5jAgAnMGExRExgQMCBgEDAgYEDAgIBBwICAAQGDgAEBAwIGBAwCBgQMCBgQMAgYEDAgYBAwIGBAwEApN3Yn59EqJjBgAjMGU9QEBgQMCBgEDAgYEDAgYBAwIGBAwCBgQMCAgAEBg4ABAQMCBgQMAgYEDAgYBAwIGBAwUMqN3cl5tIoJDJjAjMEUNYEBAQMCBgEDAgYEDAgYBAwIGBAwCBgQMCBgQMAgYEDAgIABAYOAAQEDAgYBAwIGBAyUcmP3yMyXr78fbGcXfP1uvXLpBEwQ6bY+VsYCJrJ0ZZy2bH84ugqhqXlK4Hb22eIFn74fqv7J85BMYIbQLt3zY2syRsCEmK6M0+bXSKGvn7uqt+oFr3moN/bAVNbbebo1G2M7YROYmOotnMIcFjAx1athAdN7VOmdDgGnPH5Hyel0UkNYwFy1ePZmELDFs4W0gJnA4tlCWsCAgI3fkNbwhrCAAQEbv4YwAgYBAwIGBGwDbBuMgEHAgIABAYOAAQEDAgYEDAIGBDxppxupB/igk9Nbcrd3AQMCBgQMAiblbbANsIABARvCxi8CBgGT/hA2fgVMNwlN6tQIOJEh7M0gYAtpi2cBM5mFtMWzgOl47TpYVOcnMn4FTEwNqzcB2f5wdBWCUrideh93fi98d1CvCUwvc7iPUaxeE5goR7F0BcyYDbfO+O8YV6+AGS3jJjFXrb2lK2ACyrj17hoBE0fG0hUwkcUsWgEDQfN7YBAwIGBAwCBgQMCAgAEBQ1p+AH/vOVcsqEkqAAAAAElFTkSuQmCC"
+    },
+    {
+      "Question": "Што е ветер?",
+      "OptionA": "Качување на водната пареа само вертикално.",
+      "OptionB": "Хоризонтално движење на воздухот од области со висок воздушен притисок кон области со низок воздушен притисок.",
+      "OptionC": "Движење на карпите по падината.",
+      "OptionD": "Движење на водата од река во океан.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што се врнежи?",
+      "OptionA": "Само струењето на воздухот.",
+      "OptionB": "Само водните капки што паѓаат од облаците.",
+      "OptionC": "Сите облици на кондензирана водна пареа.",
+      "OptionD": "Само водата во океаните.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кои се мерните метеоролошки инструменти споменати во лекцијата?",
+      "OptionA": "Карта, план и глобус.",
+      "OptionB": "Термометар, дождомер и ветроказ.",
+      "OptionC": "Мерење со сонце, облаци и ветер.",
+      "OptionD": "Компас, глобус и размер.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Што е клима?",
+      "OptionA": "Водена обвивка на Земјата.",
+      "OptionB": "Надворешниот изглед на Земјината површина.",
+      "OptionC": "Какво време е карактеристично за некое место во текот на подолг временски период.",
+      "OptionD": "Состојба на воздухот во определен момент.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Географска карта е __________ слика на планетата Земја или дел од неа, претставена на рамна површина.",
+      "OptionA": "намалена",
+      "OptionB": "топчеста",
+      "OptionC": "испарена",
+      "OptionD": "непроменета",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Глобусот е __________, односно топчесто тело кое најточно ја претставува формата на планетата Земја.",
+      "OptionA": "природно богатство",
+      "OptionB": "метеоролошки инструмент",
+      "OptionC": "географски инструмент",
+      "OptionD": "природна појава",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Планина претставува __________ возвишување на Земјината површина, додека рид е помало возвишување.",
+      "OptionA": "рамно",
+      "OptionB": "водено",
+      "OptionC": "помало",
+      "OptionD": "поголемо",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADcCAIAAACOIe9xAAAC6ElEQVR42u3dwW2kQBCGUWN1MsRCOMRBOMRCLsDBB19Glg8MI3VTXe/dbWlhvv3LsrQ77Mf5BcT07RGAgAEBAwIGAQMCBgQMCBgEDAgYEDAIGBAwIGBAwCBgQMCAgAEB5zFOs4cgYEDAtJhfIyxgQMA0+unXCAsYEDAgYK7fz65oAQMCptH8GmEBAwIGBMy797MrWsCAgAEBc+9CdkULGBAw1efXCAsYEDAgYO5dxa5oAQMCpvr8GmEBAwIGBOx+rv+1CBgQsPlt+h0QMHDHsB+np5BhnLd18UwsMCBgQMAgYEDAgIABAYOAAQEDAgYEDAIGBAwIGAQMCBgQMCBgEDAgYEDAgIBBwICAAQGDgAEBAwIGBAwCBgQMCBgQMAgYEDAgYBAwIGBAwICAQcCAgAEBg4ABAQMCBgQMAgYEDAgYEPC/xmn2ELyvcIrPgQ9B9He3rYuApUvsV5kz46JbDLKApYtBFrBuMcgCli5JBrnoFoMsYOlikBsY9uPULWlFLzl2wNIlecYhA9YtSrbAYIFljHQF/ISSO/sFw5+n0fefLu277urXSL9vxSCT56/p0vEbUjK9dttzwAaZDOn2H7BB1m33SrY3KmPpCtggo1sBG2SkK2CDrNu0/LOyPg3el4ABAQMCBgEDAgYEDAgYBAwIGBAwCBgQMCBgQMAgYEDAgIABAYOAAQEDAgYBAwIGBAwIGAQMCBgQMCBgEDAgYEDAIGBAwICAAQGDgAEBAwIGAQMCBgQMCBgEDAgYEDAgYBAwIGBAwCBgIJ5hP05PIa5xmj//Jtu6eJIWGBAwdcfT/AoYEDDVJ9T8ChgQMCBgV7T7WcCAgHnwCJtfAQMCBgTM9avY/SxgQMBUH2HzK2BAwFQfYfMrYEDAgIC5fie7nwUMCJjqI2x+BQwIGBAw169o97OAAQFTfYTNr4CBJ/J/I4EFBgQMCBgEDAgYEDAgYBAwIGBAwCBgQMCAgAEBg4ABAQMCBl79ALxVziAat9h4AAAAAElFTkSuQmCC"
+    },
+    {
+      "Question": "Дополни: Надморската височина покажува колку __________ некое место или објект се наоѓа над нивото на морето.",
+      "OptionA": "километри",
+      "OptionB": "литри",
+      "OptionC": "метри",
+      "OptionD": "степени",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е точната дефиниција за литосфера?",
+      "OptionA": "Водена обвивка на Земјата што ги опфаќа сите води.",
+      "OptionB": "Воздушна обвивка околу Земјата што е смеса од повеќе гасови.",
+      "OptionC": "Површинска камена обвивка на Земјата. Таа е цврста карпеста обвивка, составена од различни видови карпи.",
+      "OptionD": "Целокупниот простор на Земјата населен со живи суштества.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е точната дефиниција за хидросфера?",
+      "OptionA": "Водена обвивка на Земјата. Таа ги опфаќа сите води: океаните, морињата, реките, езерата, снегот, мразот, како и подземните води.",
+      "OptionB": "Воздушна обвивка околу Земјата.",
+      "OptionC": "Површинска камена обвивка на Земјата.",
+      "OptionD": "Простор населен со луѓе, растенија и животни.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е точната дефиниција за биосфера?",
+      "OptionA": "Состојба на воздухот во определен момент.",
+      "OptionB": "Водена обвивка на Земјата.",
+      "OptionC": "Целокупниот простор на Земјата што е населен со живи суштества.",
+      "OptionD": "Површинска камена обвивка.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е точната дефиниција за континент?",
+      "OptionA": "Континентите се најголеми делови од копното обиколени со океани и мориња.",
+      "OptionB": "Континентите се атмосферски врнежи.",
+      "OptionC": "Континентите се направа за ориентација во просторот.",
+      "OptionD": "Континентите се најголеми водни површини на Земјата.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е точната дефиниција за размер?",
+      "OptionA": "Направа за ориентација со магнетна игла.",
+      "OptionB": "Односот за колку пати една природна големина е намалена на глобус или на карта.",
+      "OptionC": "Топчесто тело кое ја претставува формата на Земјата.",
+      "OptionD": "Карта на која се дадени контурите и е оставена празна.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е точната дефиниција за планина?",
+      "OptionA": "Поголемо возвишување на Земјината површина.",
+      "OptionB": "Помало возвишување на Земјината површина.",
+      "OptionC": "Водена површина опкружена со копно.",
+      "OptionD": "Рамно земјиште без височини.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADcCAIAAACOIe9xAAAFUElEQVR42u3dMVIbzRaAUdTl0PaiHDhlAV4AKYFDlwJiAqdaAAvQ1mxHQOCAKhUlU7JQ90z37XtOvfRhqbu/uTOIHzaPT89XQEzFEoCAAQEDAgYBAwIGBAwIGAQMCBgQMAgYEDAgYEDAIGBAwICAAQGDgOF9/vz+ZREETOB6NSxgQMB0unk2hAUMCJjVx68hLGBm8HB/axHqbfxpFVYevwcfP322PiYwE7aNgJGogGHJp1yFC5hBXd/cteocATPc+H1X5wiY4cavIVzJx0i0d8GTrY+UTGByNY+AkaKAQfkCRoS+myVguqnPz0dKAqabJvkZwgIm5Pg1hAVM7PFrCAuYwOP3cC3Q8Jn8JBYNLPEJkJ/NMoGJN37dSJvAhB+/hrAJTOx6DWEBE/Lm+cB3swTMsoFZBAFj/BrCF/JNLEZ8+j3iu1kmMPHGb69/zgTG+G1sv9t++/7TypvAmIcmMMbv6gxhExjj1wTG+O3EEDaBCTx+fSwsYC6v149eCRgMYQFj/CJgzp979V9kv9sawgKmw/ht9aVaNXzlAy0B02X8NmnY/byAWW/QHUXbqmFDWMD0mXUN76UFDOuN34YNG8IC5lS99eP3dKXmsIAZ1zl9VjacfAgLmAXH72rPw2kbFjBDZFnTcOaPlATMIuN3/YfbnENYwISc2IawgBlu/FY2nHAIC5jG06zy5rny/56tYQEzXAAXN5zwRlrADHHz3PDrpBrCAqb/5Gz41bINYQHTZvwu8bnRxV8zzxAWMLNN9ZfLUJKGBcyg47e+YQFD53oP/8TL/9xIC5jG43fli8WZJScZwh8cXwYfv//9d0+0+nB/O/efYvG3kXLtd834Hf8/vv/3jby85on31AQ+fmRK1fCJp8SIvyvj8JrzfBNLwNld39zN93ttXpe8320nvii7hX57FmUYwql+5HDWDfVd6LePsl847GolYFvrXXvLArbfIOALKp214bTXpvneeFGvs46AXYy9cW9fwLbce7EIAm6+hc49AnYB9sYthYA77ZzTj4Bdtr14CyJghxiyBdyk3qCXAFeuWZel2CoxaFjAOKMIOMgJDpSEeudeomJ7hIGAXbm9QlspYBuDoyLg1bZk5F138XILrV6dGMICxllEwMMeX7U4OQKOvQdDbbwLSp7VK1bfCuAWGuXYSgEHX3cvAAE7uzhOyQIeZ7k7vhKXsITr6RlYSLiFFkzvl+SqkXNViyUGE1i9PV+bq1jatfUMrCsC72OxrI4XbqGd2j6vU73Jz5tbaNcaTGBJWAerLeBZT63SNCzg2CVk/t3UCBiMkOABR585/j4TeQOe48gKzyZmDHimc1//XlwF8Azs8s8Mu1AslndE3E0slinQ+1I+kQJ2XnE+PQNPsv0uZ0QKOMN51aQdnDNgJ9uC2JqoAac6rMrEM/DkDYvcVThMwA6rBSFqwGkPq0rtoFvoCU+AsDUcJmCH1QoQNWBn15rYsqgBO6mWAs/AUzWsZJfgGAE7qWg4asDqtSxEDdgxxSXYMzCYwMYvBDzhRb0Q95wX9YJbaKDDuCqTvR8wgdULMY59US/EPfyegcEttPELPRIo6gUTGOgwyUrEFw2sEbB6YdEiinohbsOegcEttPELPeoo6gUTWL3QIRPPwBC44TLgawI6BKxeWDmZol4wgYEOk6+M8CJAw90CVi/0svny46tVAM/AgIABAYOAAQEDAgaObB6fnq0CmMCAgAEBg4ABAQMCBgQMAgYEDAgYBAwIGBAwIGAQMCBgQMCAgEHAgIABAYOAAQEDAgYEDAIGBAwIGBAwCBgQMCBgEDAgYGBBfwFQQquhcnEiMgAAAABJRU5ErkJggg=="
+    },
+    {
+      "Question": "Точно или неточно: „Земјата има приближно топчеста форма.“",
+      "OptionA": "Точно само во зима.",
+      "OptionB": "Точно само во лето.",
+      "OptionC": "Точно — тврдењето е правилно.",
+      "OptionD": "Неточно — тврдењето е неправилно.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: „Хидросферата е воздушната обвивка околу Земјата.“",
+      "OptionA": "Точно — тврдењето е правилно.",
+      "OptionB": "Неточно — тврдењето е неправилно.",
+      "OptionC": "Точно само во зима.",
+      "OptionD": "Точно само во лето.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: „На Земјата има седум континенти.“",
+      "OptionA": "Неточно — тврдењето е неправилно.",
+      "OptionB": "Точно само во лето.",
+      "OptionC": "Точно само во зима.",
+      "OptionD": "Точно — тврдењето е правилно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: „Австралија е најголемиот континент.“",
+      "OptionA": "Точно — тврдењето е правилно.",
+      "OptionB": "Точно само во зима.",
+      "OptionC": "Точно само во лето.",
+      "OptionD": "Неточно — тврдењето е неправилно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: „На географската карта горе е север, а долу е југ.“",
+      "OptionA": "Неточно — тврдењето е неправилно.",
+      "OptionB": "Точно — тврдењето е правилно.",
+      "OptionC": "Точно само во лето.",
+      "OptionD": "Точно само во зима.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: „Термометарот се употребува за мерење на количината на дожд.“",
+      "OptionA": "Точно — тврдењето е правилно.",
+      "OptionB": "Точно само во зима.",
+      "OptionC": "Точно само во лето.",
+      "OptionD": "Неточно — тврдењето е неправилно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: „Маглата е облак кој ја допира површината на Земјата.“",
+      "OptionA": "Точно само во лето.",
+      "OptionB": "Неточно — тврдењето е неправилно.",
+      "OptionC": "Точно — тврдењето е правилно.",
+      "OptionD": "Точно само во зима.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: „Обновливи извори на енергија се водата, ветерот и Сонцето.“",
+      "OptionA": "Точно — тврдењето е правилно.",
+      "OptionB": "Неточно — тврдењето е неправилно.",
+      "OptionC": "Точно само во лето.",
+      "OptionD": "Точно само во зима.",
+      "CorrectAnswer": "OptionA"
+    }
+  ]
+}

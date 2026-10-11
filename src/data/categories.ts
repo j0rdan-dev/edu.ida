@@ -472,6 +472,14 @@ export const grades: Grade[] = [
             icon: Earth,
             color: "30 80% 55%",
           },
+                    {
+            id: "karakteristiki-na-zemjata-4",
+            label: "1. Физичко-географски карактеристики на Земјата",
+            description: "Визуелни задачи",
+            file: `${import.meta.env.BASE_URL}data/prirodni_nauki_4_fizicko_geografski_40_so_sliki.json`,
+            icon: Earth,
+            color: "30 80% 55%",
+          },
           {
             id: "osobini-na-zivotnite-i-rastenijata-4",
             label: "2. Особини на животните и растенијата и нивната поделба",
