@@ -647,6 +647,14 @@ export const grades: Grade[] = [
             icon: BarChart3,
             color: "260 60% 50%",
           },
+          {
+            id: "rabota-podatoci-5-analiza-grafikoni",
+            label: "5. Работа со податоци II",
+            description: "Анализа на податоци и графикони",
+            file: `${import.meta.env.BASE_URL}data/matematika_5_rabota_so_podatoci_40_analytics_with_images.json`,
+            icon: BarChart3,
+            color: "260 60% 50%",
+          },
         ],
       },
       {
