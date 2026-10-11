@@ -1,4 +1,4 @@
-import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3, Home, Flag, Clock } from "lucide-react";
+import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3, Home, Flag, Clock, Sun } from "lucide-react";
 
 export interface Category {
   id: string;
@@ -652,26 +652,26 @@ export const grades: Grade[] = [
             label: "Природно-географски карактеристики на Земјата",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema1_100_questions.json`,
-            icon: FlaskConical,
+            icon: Earth,
             color: "259 78% 51%",
           },
-                    {
+          {
             id: "prirodni-nauki-5-циклус-на-цветни-растенија",
             label: "Животен циклус на цветните растенија",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema2_100_questions.json`,
-            icon: FlaskConical,
+            icon: Sprout,
             color: "259 78% 51%",
           },
-                    {
+          {
             id: "prirodni-nauki-5-organizmi-i-zhivotnata-sredina",
             label: "Живите организми и животната средина",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema3_100_questions.json`,
-            icon: FlaskConical,
+            icon: Bug,
             color: "259 78% 51%",
           },
-                    {
+          {
             id: "prirodni-nauki-5-smesi",
             label: "Смеси",
             description: "Цела тема",
@@ -679,12 +679,12 @@ export const grades: Grade[] = [
             icon: FlaskConical,
             color: "259 78% 51%",
           },
-                    {
+          {
             id: "prirodni-nauki-5-svetlina-i-senki",
             label: "Светлина и сенки",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema5_100_questions.json`,
-            icon: FlaskConical,
+            icon: Sun,
             color: "259 78% 51%",
           }
         ],
