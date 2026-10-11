@@ -627,7 +627,7 @@ export const grades: Grade[] = [
             id: "merenje-5",
             label: "4. Мерење",
             description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/matematika_5_merenje_100_questions.json`,
+            file: `${import.meta.env.BASE_URL}data/matematika_5_merenje_100_with_images.json`,
             icon: Ruler,
             color: "40 80% 50%",
           },
