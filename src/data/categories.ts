@@ -302,9 +302,17 @@ export const grades: Grade[] = [
           },
           {
             id: "geometrija-4",
-            label: "2. Геометрија",
+            label: "2. Геометрија I",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-geometrija.json`,
+            icon: Compass,
+            color: "280 70% 50%",
+          },
+          {
+            id: "geometrija-4",
+            label: "2. Геометрија II",
+            description: "Визуелизирани задачи",
+            file: `${import.meta.env.BASE_URL}data/matematika_4_geometrija_40_analiticki_prasanja_so_sliki.json`,
             icon: Compass,
             color: "280 70% 50%",
           },
