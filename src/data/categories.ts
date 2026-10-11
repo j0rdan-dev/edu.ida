@@ -376,6 +376,14 @@ export const grades: Grade[] = [
             icon: Ruler,
             color: "30 75% 50%",
           },
+         {
+            id: "merenje-vizuelni-4",
+            label: "4. Мерење III",
+            description: "Визуелизирани задачи",
+            file: `${import.meta.env.BASE_URL}data/matematika_4_merenje_40_analiticki_prasanja_so_sliki.json`,
+            icon: Ruler,
+            color: "30 75% 50%",
+          },
           {
             id: "rabota-podatoci-4",
             label: "5. Работа со податоци I",
