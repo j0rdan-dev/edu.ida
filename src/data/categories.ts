@@ -922,8 +922,8 @@ export const textbooksByGrade: Record<string, Textbook[]> = {
     },
     {
       id: "istorija-opstestvo-5",
-      label: "Историја и Општество (не е достапен)",
-      url: "#",
+      label: "Историја и Општество",
+      url: `${import.meta.env.BASE_URL}ucebnici/istorija_opstestvo_5.pdf`,
       color: "220 65% 55%",
     },
   ],
