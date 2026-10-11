@@ -473,7 +473,7 @@ export const grades: Grade[] = [
             color: "30 80% 55%",
           },
                     {
-            id: "karakteristiki-na-zemjata-4",
+            id: "karakteristiki-na-zemjata-4-vizuelni",
             label: "1. Физичко-географски карактеристики на Земјата",
             description: "Визуелни задачи",
             file: `${import.meta.env.BASE_URL}data/prirodni_nauki_4_fizicko_geografski_40_so_sliki.json`,
