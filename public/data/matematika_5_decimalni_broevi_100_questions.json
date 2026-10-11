@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Заокружи го бројот 22,5 до најблискиот цел број.",
+      "OptionA": "21",
+      "OptionB": "22,5",
+      "OptionC": "24",
+      "OptionD": "23",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Едно цело има 100 стотинки.",
+      "OptionA": "Точно.",
+      "OptionB": "Не може да се одреди.",
+      "OptionC": "Точно е само за цели броеви.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се запишуваат 18 стотинки со децимален број?",
+      "OptionA": "0,19",
+      "OptionB": "0,018",
+      "OptionC": "0,18",
+      "OptionD": "18,0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори ја дропката 19/10 во децимален број.",
+      "OptionA": "2,9",
+      "OptionB": "1,09",
+      "OptionC": "19,0",
+      "OptionD": "1,9",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се запишуваат 14 стотинки со децимален број?",
+      "OptionA": "0,14",
+      "OptionB": "0,014",
+      "OptionC": "0,15",
+      "OptionD": "14,0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 1,04?",
+      "OptionA": "1 единици, 4 десетинки и 0 стотинки",
+      "OptionB": "1 единици, 0 десетинки и 4 стотинки",
+      "OptionC": "1 единици, 0 стотинки и 4 десетинки",
+      "OptionD": "2 единици, 0 десетинки и 4 стотинки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се запишуваат 23 стотинки со децимален број?",
+      "OptionA": "0,24",
+      "OptionB": "0,23",
+      "OptionC": "0,023",
+      "OptionD": "23,0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 6,51?",
+      "OptionA": "6 единици, 5 десетинки и 1 стотинки",
+      "OptionB": "6 единици, 1 десетинки и 5 стотинки",
+      "OptionC": "6 единици, 5 стотинки и 1 десетинки",
+      "OptionD": "7 единици, 5 десетинки и 1 стотинки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,75 и 24/32?",
+      "OptionA": "=",
+      "OptionB": "≠",
+      "OptionC": "<",
+      "OptionD": ">",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Едно цело има 100 десетинки.",
+      "OptionA": "Не може да се одреди.",
+      "OptionB": "Точно.",
+      "OptionC": "Неточно.",
+      "OptionD": "Точно е само за цели броеви.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 2 десетинки со децимален број?",
+      "OptionA": "0,02",
+      "OptionB": "0,2",
+      "OptionC": "2,0",
+      "OptionD": "0,3",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори ја дропката 13/10 во децимален број.",
+      "OptionA": "1,03",
+      "OptionB": "2,3",
+      "OptionC": "1,3",
+      "OptionD": "13,0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Заокружи го бројот 95,6 до најблискиот цел број.",
+      "OptionA": "97",
+      "OptionB": "94",
+      "OptionC": "96",
+      "OptionD": "95,6",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,21 во дропка со именител 100.",
+      "OptionA": "100/21",
+      "OptionB": "22/100",
+      "OptionC": "21/100",
+      "OptionD": "21/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,18 во дропка со именител 100.",
+      "OptionA": "18/100",
+      "OptionB": "100/18",
+      "OptionC": "18/10",
+      "OptionD": "19/100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори ја дропката 18/100 во децимален број.",
+      "OptionA": "1,18",
+      "OptionB": "18,0",
+      "OptionC": "0,18",
+      "OptionD": "0,018",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 0,03 претставува три стотинки.",
+      "OptionA": "Не може да се одреди.",
+      "OptionB": "Точно е само за цели броеви.",
+      "OptionC": "Точно.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 5 десетинки со децимален број?",
+      "OptionA": "0,6",
+      "OptionB": "0,05",
+      "OptionC": "0,5",
+      "OptionD": "5,0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,2 и 2/10?",
+      "OptionA": "≠",
+      "OptionB": "=",
+      "OptionC": "<",
+      "OptionD": ">",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се запишуваат 8 десетинки со децимален број?",
+      "OptionA": "8,0",
+      "OptionB": "0,8",
+      "OptionC": "0,9",
+      "OptionD": "0,08",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни според учебникот: „Со децимален број ги запишуваме 0,01 и претставува ________.“",
+      "OptionA": "една десетинка",
+      "OptionB": "сто единици",
+      "OptionC": "една единица",
+      "OptionD": "една стотинка",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,89 во дропка со именител 100.",
+      "OptionA": "100/89",
+      "OptionB": "89/10",
+      "OptionC": "89/100",
+      "OptionD": "90/100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори ја дропката 812/100 во децимален број.",
+      "OptionA": "8,12",
+      "OptionB": "812,0",
+      "OptionC": "8,012",
+      "OptionD": "9,12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,4 и 1/10?",
+      "OptionA": "=",
+      "OptionB": ">",
+      "OptionC": "<",
+      "OptionD": "≠",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,23 во дропка со именител 100.",
+      "OptionA": "24/100",
+      "OptionB": "100/23",
+      "OptionC": "23/10",
+      "OptionD": "23/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори ја дропката 35/100 во децимален број.",
+      "OptionA": "0,035",
+      "OptionB": "0,35",
+      "OptionC": "35,0",
+      "OptionD": "1,35",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 5,08?",
+      "OptionA": "5 единици, 0 стотинки и 8 десетинки",
+      "OptionB": "5 единици, 0 десетинки и 8 стотинки",
+      "OptionC": "6 единици, 0 десетинки и 8 стотинки",
+      "OptionD": "5 единици, 8 десетинки и 0 стотинки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се запишуваат 47 стотинки со децимален број?",
+      "OptionA": "0,47",
+      "OptionB": "0,48",
+      "OptionC": "0,047",
+      "OptionD": "47,0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,9 и 3/10?",
+      "OptionA": "=",
+      "OptionB": ">",
+      "OptionC": "<",
+      "OptionD": "≠",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни според учебникот: „Единицата има ________ еднакви делови“ кога се претставуваат десетинки.",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "100",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,1 и 9/10?",
+      "OptionA": "≠",
+      "OptionB": "<",
+      "OptionC": ">",
+      "OptionD": "=",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи го бројот 29,5 до најблискиот цел број.",
+      "OptionA": "30",
+      "OptionB": "29,5",
+      "OptionC": "31",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Според учебникот, како уште се нарекува децималниот број со едно децимално место?",
+      "OptionA": "Дропка со именител 100.",
+      "OptionB": "Дропка со именител 1.",
+      "OptionC": "Цел број.",
+      "OptionD": "Десетична дропка, или дропка со именител 10.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 2,06?",
+      "OptionA": "2 единици, 0 десетинки и 6 стотинки",
+      "OptionB": "2 единици, 6 десетинки и 0 стотинки",
+      "OptionC": "2 единици, 0 стотинки и 6 десетинки",
+      "OptionD": "3 единици, 0 десетинки и 6 стотинки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,75 и 9/12?",
+      "OptionA": ">",
+      "OptionB": "<",
+      "OptionC": "≠",
+      "OptionD": "=",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,14 во дропка со именител 100.",
+      "OptionA": "100/14",
+      "OptionB": "14/10",
+      "OptionC": "15/100",
+      "OptionD": "14/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Заокружи го бројот 68,9 до најблискиот цел број.",
+      "OptionA": "69",
+      "OptionB": "70",
+      "OptionC": "67",
+      "OptionD": "68,9",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни ја дефиницијата од учебникот: „Кога едно цело ќе го поделиме на 100 еднакви делови тогаш секој дел претставува ________ од целото.“",
+      "OptionA": "100/1",
+      "OptionB": "10/100",
+      "OptionC": "1/10",
+      "OptionD": "1/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Заокружи го бројот 60,9 до најблискиот цел број.",
+      "OptionA": "61",
+      "OptionB": "60,9",
+      "OptionC": "62",
+      "OptionD": "59",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка е еднаква на 0,5?",
+      "OptionA": "2/10",
+      "OptionB": "1/10",
+      "OptionC": "5/10",
+      "OptionD": "5/100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 7,12?",
+      "OptionA": "7 единици, 2 десетинки и 1 стотинки",
+      "OptionB": "7 единици, 1 десетинки и 2 стотинки",
+      "OptionC": "7 единици, 1 стотинки и 2 десетинки",
+      "OptionD": "8 единици, 1 десетинки и 2 стотинки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 9,85?",
+      "OptionA": "9 единици, 8 десетинки и 5 стотинки",
+      "OptionB": "9 единици, 5 десетинки и 8 стотинки",
+      "OptionC": "9 единици, 8 стотинки и 5 десетинки",
+      "OptionD": "10 единици, 8 десетинки и 5 стотинки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се запишува една стотинка како децимален број?",
+      "OptionA": "0,01",
+      "OptionB": "0,1",
+      "OptionC": "1,00",
+      "OptionD": "0,001",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 0,14 е еднаков на 14/10.",
+      "OptionA": "Не може да се одреди.",
+      "OptionB": "Точно е само за цели броеви.",
+      "OptionC": "Точно.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,95 во дропка со именител 100.",
+      "OptionA": "95/100",
+      "OptionB": "100/95",
+      "OptionC": "96/100",
+      "OptionD": "95/10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори ја дропката 135/100 во децимален број.",
+      "OptionA": "2,35",
+      "OptionB": "1,35",
+      "OptionC": "135,0",
+      "OptionD": "1,035",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори ја дропката 15/10 во децимален број.",
+      "OptionA": "1,5",
+      "OptionB": "2,5",
+      "OptionC": "1,05",
+      "OptionD": "15,0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,47 во дропка со именител 100.",
+      "OptionA": "100/47",
+      "OptionB": "48/100",
+      "OptionC": "47/100",
+      "OptionD": "47/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 6 десетинки со децимален број?",
+      "OptionA": "0,06",
+      "OptionB": "0,6",
+      "OptionC": "0,7",
+      "OptionD": "6,0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се запишува една десетинка како децимален број?",
+      "OptionA": "0,001",
+      "OptionB": "0,1",
+      "OptionC": "1,0",
+      "OptionD": "0,01",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи го бројот 62,2 до најблискиот цел број.",
+      "OptionA": "64",
+      "OptionB": "62",
+      "OptionC": "61",
+      "OptionD": "62,2",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Како се запишуваат 9 стотинки со децимален број?",
+      "OptionA": "0,009",
+      "OptionB": "0,10",
+      "OptionC": "9,0",
+      "OptionD": "0,09",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 1/10 = 0,1.",
+      "OptionA": "Не може да се одреди.",
+      "OptionB": "Точно.",
+      "OptionC": "Точно е само за цели броеви.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи го бројот 23,1 до најблискиот цел број.",
+      "OptionA": "25",
+      "OptionB": "22",
+      "OptionC": "23",
+      "OptionD": "23,1",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,4 и 6/15?",
+      "OptionA": "=",
+      "OptionB": "≠",
+      "OptionC": ">",
+      "OptionD": "<",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,6 и 6/10?",
+      "OptionA": ">",
+      "OptionB": "<",
+      "OptionC": "≠",
+      "OptionD": "=",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни според учебникот: „Единицата има ________ еднакви делови“ кога се претставуваат стотинки.",
+      "OptionA": "100",
+      "OptionB": "1",
+      "OptionC": "20",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни според учебникот: „Со децимален број ги запишуваме 0,1 и претставува ________.“",
+      "OptionA": "една единица",
+      "OptionB": "една десетинка",
+      "OptionC": "десет единици",
+      "OptionD": "една стотинка",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: При заокружување на 2,5 до најблискиот цел број се добива 3.",
+      "OptionA": "Точно е само за цели броеви.",
+      "OptionB": "Не може да се одреди.",
+      "OptionC": "Неточно.",
+      "OptionD": "Точно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Заокружи го бројот 43,8 до најблискиот цел број.",
+      "OptionA": "43,8",
+      "OptionB": "42",
+      "OptionC": "44",
+      "OptionD": "45",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,16 и 4/25?",
+      "OptionA": ">",
+      "OptionB": "<",
+      "OptionC": "=",
+      "OptionD": "≠",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори ја дропката 33/100 во децимален број.",
+      "OptionA": "33,0",
+      "OptionB": "0,33",
+      "OptionC": "1,33",
+      "OptionD": "0,033",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,17 во дропка со именител 100.",
+      "OptionA": "100/17",
+      "OptionB": "18/100",
+      "OptionC": "17/100",
+      "OptionD": "17/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Заокружи го бројот 60,7 до најблискиот цел број.",
+      "OptionA": "59",
+      "OptionB": "62",
+      "OptionC": "60,7",
+      "OptionD": "61",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се запишуваат 7 стотинки со децимален број?",
+      "OptionA": "0,08",
+      "OptionB": "0,007",
+      "OptionC": "7,0",
+      "OptionD": "0,07",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се запишуваат 7 десетинки со децимален број?",
+      "OptionA": "0,7",
+      "OptionB": "0,8",
+      "OptionC": "7,0",
+      "OptionD": "0,07",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се запишуваат 63 стотинки со децимален број?",
+      "OptionA": "0,063",
+      "OptionB": "63,0",
+      "OptionC": "0,63",
+      "OptionD": "0,64",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 4 десетинки со децимален број?",
+      "OptionA": "0,4",
+      "OptionB": "0,04",
+      "OptionC": "0,5",
+      "OptionD": "4,0",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се запишуваат 12 стотинки со децимален број?",
+      "OptionA": "0,12",
+      "OptionB": "12,0",
+      "OptionC": "0,012",
+      "OptionD": "0,13",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се запишуваат 3 стотинки со децимален број?",
+      "OptionA": "0,04",
+      "OptionB": "0,003",
+      "OptionC": "3,0",
+      "OptionD": "0,03",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,7 и 6/10?",
+      "OptionA": ">",
+      "OptionB": "≠",
+      "OptionC": "=",
+      "OptionD": "<",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 0,43?",
+      "OptionA": "0 единици, 4 стотинки и 3 десетинки",
+      "OptionB": "0 единици, 4 десетинки и 3 стотинки",
+      "OptionC": "0 единици, 3 десетинки и 4 стотинки",
+      "OptionD": "1 единици, 4 десетинки и 3 стотинки",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни ја дефиницијата од учебникот: „Кога едно цело ќе го поделиме на 10 еднакви делови тогаш секој дел претставува ________ од целото.“",
+      "OptionA": "10/10",
+      "OptionB": "1/5",
+      "OptionC": "1/10",
+      "OptionD": "1/100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Заокружи го бројот 4,5 до најблискиот цел број.",
+      "OptionA": "3",
+      "OptionB": "4,5",
+      "OptionC": "6",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 3,27?",
+      "OptionA": "3 единици, 7 десетинки и 2 стотинки",
+      "OptionB": "3 единици, 2 стотинки и 7 десетинки",
+      "OptionC": "4 единици, 2 десетинки и 7 стотинки",
+      "OptionD": "3 единици, 2 десетинки и 7 стотинки",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,7 и 5/10?",
+      "OptionA": "≠",
+      "OptionB": ">",
+      "OptionC": "<",
+      "OptionD": "=",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,3 и 7/10?",
+      "OptionA": "=",
+      "OptionB": "<",
+      "OptionC": ">",
+      "OptionD": "≠",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Заокружи го бројот 2,5 до најблискиот цел број.",
+      "OptionA": "1",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "2,5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни ја реченицата од учебникот: „Ако лентата е поделена на 10 еднакви делови тогаш секој дел претставува ________ од лентата.“",
+      "OptionA": "10/1",
+      "OptionB": "1/10",
+      "OptionC": "1/100",
+      "OptionD": "1/2",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 0,3 претставува три стотинки.",
+      "OptionA": "Неточно.",
+      "OptionB": "Точно.",
+      "OptionC": "Не може да се одреди.",
+      "OptionD": "Точно е само за цели броеви.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се запишуваат 2 стотинки со децимален број?",
+      "OptionA": "0,03",
+      "OptionB": "0,002",
+      "OptionC": "2,0",
+      "OptionD": "0,02",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,15 во дропка со именител 100.",
+      "OptionA": "16/100",
+      "OptionB": "100/15",
+      "OptionC": "15/100",
+      "OptionD": "15/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори ја дропката 17/10 во децимален број.",
+      "OptionA": "2,7",
+      "OptionB": "17,0",
+      "OptionC": "1,07",
+      "OptionD": "1,7",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се запишуваат 5 стотинки со децимален број?",
+      "OptionA": "0,06",
+      "OptionB": "0,005",
+      "OptionC": "5,0",
+      "OptionD": "0,05",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 4,70?",
+      "OptionA": "4 единици, 7 десетинки и 0 стотинки",
+      "OptionB": "5 единици, 7 десетинки и 0 стотинки",
+      "OptionC": "4 единици, 7 стотинки и 0 десетинки",
+      "OptionD": "4 единици, 0 десетинки и 7 стотинки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,12 во дропка со именител 100.",
+      "OptionA": "12/10",
+      "OptionB": "13/100",
+      "OptionC": "12/100",
+      "OptionD": "100/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,8 и 4/10?",
+      "OptionA": "=",
+      "OptionB": "<",
+      "OptionC": "≠",
+      "OptionD": ">",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Децималната запирка го одделува целиот од децималниот дел на бројот.",
+      "OptionA": "Точно е само за цели броеви.",
+      "OptionB": "Не може да се одреди.",
+      "OptionC": "Точно.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,19 во дропка со именител 100.",
+      "OptionA": "100/19",
+      "OptionB": "20/100",
+      "OptionC": "19/100",
+      "OptionD": "19/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 36 стотинки со децимален број?",
+      "OptionA": "0,036",
+      "OptionB": "36,0",
+      "OptionC": "0,37",
+      "OptionD": "0,36",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори го децималниот број 0,36 во дропка со именител 100.",
+      "OptionA": "37/100",
+      "OptionB": "100/36",
+      "OptionC": "36/100",
+      "OptionD": "36/10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1/100 = 0,1.",
+      "OptionA": "Точно.",
+      "OptionB": "Точно е само за цели броеви.",
+      "OptionC": "Не може да се одреди.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка е еднаква на 0,75?",
+      "OptionA": "75/10",
+      "OptionB": "5/100",
+      "OptionC": "7/100",
+      "OptionD": "75/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој знак треба да стои меѓу 0,5 и 3/6?",
+      "OptionA": ">",
+      "OptionB": "=",
+      "OptionC": "<",
+      "OptionD": "≠",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори ја дропката 63/100 во децимален број.",
+      "OptionA": "0,063",
+      "OptionB": "63,0",
+      "OptionC": "0,63",
+      "OptionD": "1,63",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Заокружи го бројот 79,5 до најблискиот цел број.",
+      "OptionA": "79,5",
+      "OptionB": "80",
+      "OptionC": "81",
+      "OptionD": "78",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој запис точно ги покажува месните вредности на цифрите во 8,09?",
+      "OptionA": "8 единици, 9 десетинки и 0 стотинки",
+      "OptionB": "8 единици, 0 стотинки и 9 десетинки",
+      "OptionC": "8 единици, 0 десетинки и 9 стотинки",
+      "OptionD": "9 единици, 0 десетинки и 9 стотинки",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 3 десетинки со децимален број?",
+      "OptionA": "0,4",
+      "OptionB": "0,03",
+      "OptionC": "0,3",
+      "OptionD": "3,0",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се запишуваат 9 десетинки со децимален број?",
+      "OptionA": "0,9",
+      "OptionB": "0,0",
+      "OptionC": "9,0",
+      "OptionD": "0,09",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Бројот 0,7 е помал од 0,2.",
+      "OptionA": "Точно е само за цели броеви.",
+      "OptionB": "Не може да се одреди.",
+      "OptionC": "Точно.",
+      "OptionD": "Неточно.",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

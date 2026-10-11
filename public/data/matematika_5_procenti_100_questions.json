@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Точно или неточно: 25% = 0,025.",
+      "OptionA": "Неточно — тврдењето е неточно.",
+      "OptionB": "Не може да се одреди бидејќи нема цел број.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Точно — тврдењето е точно.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 8%?",
+      "OptionA": "0,28",
+      "OptionB": "0,18",
+      "OptionC": "0,38",
+      "OptionD": "0,08",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 43%?",
+      "OptionA": "0,63",
+      "OptionB": "0,53",
+      "OptionC": "0,73",
+      "OptionD": "0,43",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 1/20?",
+      "OptionA": "5%",
+      "OptionB": "15%",
+      "OptionC": "30%",
+      "OptionD": "35%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 60%?",
+      "OptionA": "60/100",
+      "OptionB": "65/100",
+      "OptionC": "55/100",
+      "OptionD": "70/100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 45/50?",
+      "OptionA": "75%",
+      "OptionB": "65%",
+      "OptionC": "90%",
+      "OptionD": "95%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од 80 еднакви делови, 25% се обоени. Колку делови се обоени?",
+      "OptionA": "12",
+      "OptionB": "24",
+      "OptionC": "20",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 3/10?",
+      "OptionA": "30%",
+      "OptionB": "25%",
+      "OptionC": "15%",
+      "OptionD": "20%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од 100 еднакви делови, 40% се обоени. Колку делови се обоени?",
+      "OptionA": "40",
+      "OptionB": "30",
+      "OptionC": "45",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 16%?",
+      "OptionA": "0,46",
+      "OptionB": "0,26",
+      "OptionC": "0,16",
+      "OptionD": "0,36",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од 30 еднакви делови, 40% се обоени. Колку делови се обоени?",
+      "OptionA": "9",
+      "OptionB": "13",
+      "OptionC": "12",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 12%?",
+      "OptionA": "0,32",
+      "OptionB": "0,12",
+      "OptionC": "0,22",
+      "OptionD": "0,42",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 18/25?",
+      "OptionA": "72%",
+      "OptionB": "55%",
+      "OptionC": "65%",
+      "OptionD": "85%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 2/10 = 2%.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Точно — тврдењето е точно.",
+      "OptionC": "Неточно — тврдењето е неточно.",
+      "OptionD": "Не може да се одреди бидејќи нема децимален број.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 1/4 = 50%.",
+      "OptionA": "Точно — тврдењето е точно.",
+      "OptionB": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionC": "Неточно — тврдењето е неточно.",
+      "OptionD": "Не може да се одреди бидејќи нема цел број.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Производите се намалени за 1/2 од редовната цена. Колкав е процентот на намалување?",
+      "OptionA": "75%",
+      "OptionB": "50%",
+      "OptionC": "20%",
+      "OptionD": "25%",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 15%?",
+      "OptionA": "15/100",
+      "OptionB": "10/100",
+      "OptionC": "20/100",
+      "OptionD": "25/100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Иван освоил 3/4 од можните поени. Колкав процент од поените не освоил?",
+      "OptionA": "25%",
+      "OptionB": "75%",
+      "OptionC": "50%",
+      "OptionD": "30%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку еднакви делови има целото кога определуваме еден процент?",
+      "OptionA": "10",
+      "OptionB": "100",
+      "OptionC": "1 000",
+      "OptionD": "50",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од 680 еднакви делови, 25% се обоени. Колку делови се обоени?",
+      "OptionA": "204",
+      "OptionB": "102",
+      "OptionC": "170",
+      "OptionD": "238",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 3/4 = 30%.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Неточно — тврдењето е неточно.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Точно — тврдењето е точно.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 7/20?",
+      "OptionA": "35%",
+      "OptionB": "15%",
+      "OptionC": "45%",
+      "OptionD": "30%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колкав дел од целото означува 1%?",
+      "OptionA": "1/20",
+      "OptionB": "1/100",
+      "OptionC": "1/10",
+      "OptionD": "1/2",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од 100 еднакви делови, 25% се обоени. Колку делови се обоени?",
+      "OptionA": "15",
+      "OptionB": "25",
+      "OptionC": "35",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од 60 еднакви делови, 50% се обоени. Колку делови се обоени?",
+      "OptionA": "30",
+      "OptionB": "24",
+      "OptionC": "33",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 95%?",
+      "OptionA": "0,05",
+      "OptionB": "0,95",
+      "OptionC": "0,25",
+      "OptionD": "0,15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На карневал има 340 деца, од кои 25% се девојчиња. Колку момчиња има?",
+      "OptionA": "85",
+      "OptionB": "255",
+      "OptionC": "170",
+      "OptionD": "245",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 3/20?",
+      "OptionA": "15%",
+      "OptionB": "40%",
+      "OptionC": "35%",
+      "OptionD": "0%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 1/2 = 50%.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Точно — тврдењето е точно.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Неточно — тврдењето е неточно.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 1/10?",
+      "OptionA": "0%",
+      "OptionB": "40%",
+      "OptionC": "15%",
+      "OptionD": "10%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 6/25?",
+      "OptionA": "35%",
+      "OptionB": "40%",
+      "OptionC": "24%",
+      "OptionD": "30%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 5%?",
+      "OptionA": "5/100",
+      "OptionB": "0/100",
+      "OptionC": "10/100",
+      "OptionD": "15/100",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 1% = 1/100.",
+      "OptionA": "Неточно — тврдењето е неточно.",
+      "OptionB": "Точно — тврдењето е точно.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Не може да се одреди бидејќи нема цел број.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 1%?",
+      "OptionA": "0,01",
+      "OptionB": "0,31",
+      "OptionC": "0,21",
+      "OptionD": "0,11",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од 680 учесници на карневал, половината се деца. Колку се деца?",
+      "OptionA": "170",
+      "OptionB": "280",
+      "OptionC": "340",
+      "OptionD": "680",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 3/5?",
+      "OptionA": "55%",
+      "OptionB": "80%",
+      "OptionC": "60%",
+      "OptionD": "45%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Чевли чинат 2 000 денари, а 3/4 од цената покрива трошоци. Колку денари остануваат?",
+      "OptionA": "250",
+      "OptionB": "1 500",
+      "OptionC": "500",
+      "OptionD": "750",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од 1000 еднакви делови, 10% се обоени. Колку делови се обоени?",
+      "OptionA": "0",
+      "OptionB": "100",
+      "OptionC": "150",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 0,5 = 5%.",
+      "OptionA": "Точно — тврдењето е точно.",
+      "OptionB": "Не може да се одреди бидејќи нема цел број.",
+      "OptionC": "Неточно — тврдењето е неточно.",
+      "OptionD": "Не може да се одреди бидејќи нема децимален број.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 64/100 = 64%.",
+      "OptionA": "Точно — тврдењето е точно.",
+      "OptionB": "Неточно — тврдењето е неточно.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Не може да се одреди бидејќи нема цел број.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Како се вика темата во која се претвораат дропки во проценти?",
+      "OptionA": "Претворање дропка во проценти",
+      "OptionB": "Месна вредност на цифри",
+      "OptionC": "Заокружување децимален број",
+      "OptionD": "Броење по стотки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 1/25?",
+      "OptionA": "20%",
+      "OptionB": "4%",
+      "OptionC": "5%",
+      "OptionD": "15%",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 0,43 = 43%.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Точно — тврдењето е точно.",
+      "OptionC": "Неточно — тврдењето е неточно.",
+      "OptionD": "Не може да се одреди бидејќи нема децимален број.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 1/4?",
+      "OptionA": "20%",
+      "OptionB": "15%",
+      "OptionC": "25%",
+      "OptionD": "40%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 4%?",
+      "OptionA": "0,04",
+      "OptionB": "0,14",
+      "OptionC": "0,24",
+      "OptionD": "0,34",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 72%?",
+      "OptionA": "0,02",
+      "OptionB": "0,92",
+      "OptionC": "0,82",
+      "OptionD": "0,72",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 22%?",
+      "OptionA": "0,42",
+      "OptionB": "0,22",
+      "OptionC": "0,52",
+      "OptionD": "0,32",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 65%?",
+      "OptionA": "75/100",
+      "OptionB": "65/100",
+      "OptionC": "60/100",
+      "OptionD": "70/100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кое тврдење за процентите одговара на дефиницијата во учебникот?",
+      "OptionA": "1% е еден од 100 еднакви делови.",
+      "OptionB": "1% е половина од целото.",
+      "OptionC": "1% е еден од 10 еднакви делови.",
+      "OptionD": "1% е десет од 100 еднакви делови.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 80%?",
+      "OptionA": "0,8",
+      "OptionB": "0,9",
+      "OptionC": "0",
+      "OptionD": "0,1",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од 120 еднакви делови, 25% се обоени. Колку делови се обоени?",
+      "OptionA": "36",
+      "OptionB": "18",
+      "OptionC": "30",
+      "OptionD": "42",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 50%?",
+      "OptionA": "55/100",
+      "OptionB": "45/100",
+      "OptionC": "60/100",
+      "OptionD": "50/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 35%?",
+      "OptionA": "45/100",
+      "OptionB": "30/100",
+      "OptionC": "40/100",
+      "OptionD": "35/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од 400 еднакви делови, 25% се обоени. Колку делови се обоени?",
+      "OptionA": "100",
+      "OptionB": "60",
+      "OptionC": "120",
+      "OptionD": "140",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: 7/20 = 35%.",
+      "OptionA": "Точно — тврдењето е точно.",
+      "OptionB": "Неточно — тврдењето е неточно.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Не може да се одреди бидејќи нема цел број.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 1/5?",
+      "OptionA": "35%",
+      "OptionB": "40%",
+      "OptionC": "20%",
+      "OptionD": "10%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Според учебникот, што е еден процент?",
+      "OptionA": "Еден процент е половина од целото.",
+      "OptionB": "Еден процент е еден дел од целото поделено на 10 еднакви делови.",
+      "OptionC": "Еден процент е еден дел од целото поделено на 1 000 еднакви делови.",
+      "OptionD": "Еден процент е еден дел од целото поделено на 100 еднакви делови.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни ја реченицата од учебникот: Ознаката за процент е _____.",
+      "OptionA": "=",
+      "OptionB": ",",
+      "OptionC": "/",
+      "OptionD": "%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 75%?",
+      "OptionA": "70/100",
+      "OptionB": "85/100",
+      "OptionC": "80/100",
+      "OptionD": "75/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 4/5?",
+      "OptionA": "65%",
+      "OptionB": "90%",
+      "OptionC": "80%",
+      "OptionD": "70%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 64%?",
+      "OptionA": "0,84",
+      "OptionB": "0,74",
+      "OptionC": "0,94",
+      "OptionD": "0,64",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "На карневал има 340 деца, а 25% од нив се девојчиња. Колку девојчиња има?",
+      "OptionA": "100",
+      "OptionB": "75",
+      "OptionC": "170",
+      "OptionD": "85",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 2/5?",
+      "OptionA": "40%",
+      "OptionB": "30%",
+      "OptionC": "45%",
+      "OptionD": "50%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој од следните записи има иста вредност како 0,6?",
+      "OptionA": "0,6%",
+      "OptionB": "600%",
+      "OptionC": "6%",
+      "OptionD": "60%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: 6/10 = 60%.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Неточно — тврдењето е неточно.",
+      "OptionC": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionD": "Точно — тврдењето е точно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: 1% = _____.",
+      "OptionA": "10/100",
+      "OptionB": "1/2",
+      "OptionC": "1/10",
+      "OptionD": "1/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 20%?",
+      "OptionA": "25/100",
+      "OptionB": "20/100",
+      "OptionC": "15/100",
+      "OptionD": "30/100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 4/5 = 80%.",
+      "OptionA": "Неточно — тврдењето е неточно.",
+      "OptionB": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionC": "Не може да се одреди бидејќи нема цел број.",
+      "OptionD": "Точно — тврдењето е точно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 40%?",
+      "OptionA": "35/100",
+      "OptionB": "40/100",
+      "OptionC": "50/100",
+      "OptionD": "45/100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Половина од целото претставува ____ проценти.",
+      "OptionA": "50%",
+      "OptionB": "10%",
+      "OptionC": "25%",
+      "OptionD": "75%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 10%?",
+      "OptionA": "20/100",
+      "OptionB": "10/100",
+      "OptionC": "5/100",
+      "OptionD": "15/100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 90%?",
+      "OptionA": "95/100",
+      "OptionB": "85/100",
+      "OptionC": "100/100",
+      "OptionD": "90/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 45%?",
+      "OptionA": "55/100",
+      "OptionB": "50/100",
+      "OptionC": "45/100",
+      "OptionD": "40/100",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: 0,8 = 80%.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Неточно — тврдењето е неточно.",
+      "OptionC": "Точно — тврдењето е точно.",
+      "OptionD": "Не може да се одреди бидејќи нема децимален број.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 9/20?",
+      "OptionA": "60%",
+      "OptionB": "35%",
+      "OptionC": "25%",
+      "OptionD": "45%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 16/25?",
+      "OptionA": "55%",
+      "OptionB": "65%",
+      "OptionC": "80%",
+      "OptionD": "64%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од 300 еднакви делови, 30% се обоени. Колку делови се обоени?",
+      "OptionA": "120",
+      "OptionB": "90",
+      "OptionC": "60",
+      "OptionD": "105",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 25%?",
+      "OptionA": "20/100",
+      "OptionB": "30/100",
+      "OptionC": "35/100",
+      "OptionD": "25/100",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од 500 еднакви делови, 20% се обоени. Колку делови се обоени?",
+      "OptionA": "125",
+      "OptionB": "100",
+      "OptionC": "50",
+      "OptionD": "150",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во одделението има 30 ученици, од кои 40% се момчиња. Колку девојчиња има?",
+      "OptionA": "18",
+      "OptionB": "12",
+      "OptionC": "16",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 48%?",
+      "OptionA": "0,78",
+      "OptionB": "0,58",
+      "OptionC": "0,68",
+      "OptionD": "0,48",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во одделението има 30 ученици, од кои 40% се момчиња. Колку момчиња има?",
+      "OptionA": "18",
+      "OptionB": "10",
+      "OptionC": "14",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 7/10?",
+      "OptionA": "70%",
+      "OptionB": "85%",
+      "OptionC": "75%",
+      "OptionD": "65%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 32%?",
+      "OptionA": "0,52",
+      "OptionB": "0,62",
+      "OptionC": "0,32",
+      "OptionD": "0,42",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 1/2?",
+      "OptionA": "55%",
+      "OptionB": "70%",
+      "OptionC": "65%",
+      "OptionD": "50%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Од 60 еднакви делови, 10% се обоени. Колку делови се обоени?",
+      "OptionA": "12",
+      "OptionB": "6",
+      "OptionC": "9",
+      "OptionD": "0",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 25/100 = 75%.",
+      "OptionA": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionB": "Точно — тврдењето е точно.",
+      "OptionC": "Не може да се одреди бидејќи нема цел број.",
+      "OptionD": "Неточно — тврдењето е неточно.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која ознака се користи за процент?",
+      "OptionA": "/",
+      "OptionB": "‰",
+      "OptionC": "%",
+      "OptionD": "×",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 9/10?",
+      "OptionA": "90%",
+      "OptionB": "80%",
+      "OptionC": "95%",
+      "OptionD": "65%",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 30%?",
+      "OptionA": "35/100",
+      "OptionB": "30/100",
+      "OptionC": "25/100",
+      "OptionD": "40/100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од 150 еднакви делови, 40% се обоени. Колку делови се обоени?",
+      "OptionA": "75",
+      "OptionB": "45",
+      "OptionC": "60",
+      "OptionD": "67",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако 40% од учениците се момчиња, колкав процент се девојчиња?",
+      "OptionA": "50%",
+      "OptionB": "40%",
+      "OptionC": "60%",
+      "OptionD": "70%",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од 200 еднакви делови, 50% се обоени. Колку делови се обоени?",
+      "OptionA": "120",
+      "OptionB": "100",
+      "OptionC": "80",
+      "OptionD": "110",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни ја дефиницијата од учебникот: Еден процент е еден дел од целото поделено на ______.",
+      "OptionA": "1 000 еднакви делови",
+      "OptionB": "10 еднакви делови",
+      "OptionC": "100 еднакви делови",
+      "OptionD": "20 еднакви делови",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка со именител 100 е еднаква на 55%?",
+      "OptionA": "60/100",
+      "OptionB": "55/100",
+      "OptionC": "65/100",
+      "OptionD": "50/100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку проценти претставува дропката 3/4?",
+      "OptionA": "65%",
+      "OptionB": "90%",
+      "OptionC": "85%",
+      "OptionD": "75%",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 54%?",
+      "OptionA": "0,74",
+      "OptionB": "0,64",
+      "OptionC": "0,84",
+      "OptionD": "0,54",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој децимален број е еднаков на 28%?",
+      "OptionA": "0,48",
+      "OptionB": "0,38",
+      "OptionC": "0,28",
+      "OptionD": "0,58",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од 50 еднакви делови, 20% се обоени. Колку делови се обоени?",
+      "OptionA": "5",
+      "OptionB": "10",
+      "OptionC": "12",
+      "OptionD": "15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: 40% = 4/100.",
+      "OptionA": "Не може да се одреди бидејќи нема цел број.",
+      "OptionB": "Не може да се одреди бидејќи нема децимален број.",
+      "OptionC": "Неточно — тврдењето е неточно.",
+      "OptionD": "Точно — тврдењето е точно.",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

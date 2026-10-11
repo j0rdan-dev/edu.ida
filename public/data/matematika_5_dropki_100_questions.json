@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Која реченица е дадена во учебникот за броителот?",
+      "OptionA": "Броителот прикажува колкав дел од целото е претставен.",
+      "OptionB": "Броителот секогаш е поголем од именителот.",
+      "OptionC": "Броителот прикажува на колку еднакви делови е поделено целото.",
+      "OptionD": "Броителот го претставува само целото.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 2/4 и 3/4?",
+      "OptionA": "Не може да се споредат",
+      "OptionB": "2/4 < 3/4",
+      "OptionC": "2/4 = 3/4",
+      "OptionD": "2/4 > 3/4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 4/7 и 2/7?",
+      "OptionA": "4/7 = 2/7",
+      "OptionB": "4/7 < 2/7",
+      "OptionC": "4/7 > 2/7",
+      "OptionD": "Не може да се споредат",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка се запишува со зборовите „седум десетини“?",
+      "OptionA": "8/10",
+      "OptionB": "7/11",
+      "OptionC": "10/7",
+      "OptionD": "7/10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка се запишува со зборовите „девет десетини“?",
+      "OptionA": "9/10",
+      "OptionB": "10/10",
+      "OptionC": "9/11",
+      "OptionD": "10/9",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Секој мешан број содржи цел дел и правилна дропка како дел од целината.",
+      "OptionA": "И двете се точни",
+      "OptionB": "Точно",
+      "OptionC": "Неточно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Од 24 крофни, 2/3 треба да бидат со крем. Колку се тоа?",
+      "OptionA": "12",
+      "OptionB": "8",
+      "OptionC": "16",
+      "OptionD": "18",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/5 од 10000?",
+      "OptionA": "1999",
+      "OptionB": "2005",
+      "OptionC": "50000",
+      "OptionD": "2000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 6 е еднаква (еквивалентна) на 1/3?",
+      "OptionA": "2/6",
+      "OptionB": "3/6",
+      "OptionC": "2/8",
+      "OptionD": "2/7",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Дропките 1/2 и 2/4 означуваат еднаков дел од целината.",
+      "OptionA": "И двете се точни",
+      "OptionB": "Точно",
+      "OptionC": "Неточно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Во дропката 4/7 броителот е 7.",
+      "OptionA": "И двете се точни",
+      "OptionB": "Не може да се одреди",
+      "OptionC": "Неточно",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 11/8 како мешан број.",
+      "OptionA": "1 3/9",
+      "OptionB": "1 5/8",
+      "OptionC": "2 3/8",
+      "OptionD": "1 3/8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се вика цртата меѓу броителот и именителот?",
+      "OptionA": "Дробна црта",
+      "OptionB": "Бројна права",
+      "OptionC": "Мешан број",
+      "OptionD": "Цел дел",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Секој мешан број содржи ________ и правилна дропка како дел од целината.",
+      "OptionA": "именител",
+      "OptionB": "цел дел",
+      "OptionC": "дробна црта",
+      "OptionD": "само броител",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 12 е еднаква (еквивалентна) на 3/4?",
+      "OptionA": "10/12",
+      "OptionB": "9/14",
+      "OptionC": "9/12",
+      "OptionD": "9/13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 3/4 од 400?",
+      "OptionA": "304",
+      "OptionB": "533",
+      "OptionC": "100",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка се запишува со зборовите „седум осмини“?",
+      "OptionA": "7/8",
+      "OptionB": "8/8",
+      "OptionC": "7/9",
+      "OptionD": "8/7",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 1/3 и 2/3?",
+      "OptionA": "1/3 > 2/3",
+      "OptionB": "1/3 < 2/3",
+      "OptionC": "1/3 = 2/3",
+      "OptionD": "Не може да се споредат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 5/6 од 48?",
+      "OptionA": "57",
+      "OptionB": "8",
+      "OptionC": "40",
+      "OptionD": "46",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 10/6 како мешан број.",
+      "OptionA": "2 4/6",
+      "OptionB": "1 2/6",
+      "OptionC": "1 4/7",
+      "OptionD": "1 4/6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ивана имала 400 cm лента и ѝ останале 3/4. Колку сантиметри потрошила?",
+      "OptionA": "100",
+      "OptionB": "200",
+      "OptionC": "300",
+      "OptionD": "75",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 20/7 како мешан број.",
+      "OptionA": "3 6/7",
+      "OptionB": "2 6/7",
+      "OptionC": "2 6/8",
+      "OptionD": "2 1/7",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1/4 од 300?",
+      "OptionA": "1200",
+      "OptionB": "74",
+      "OptionC": "75",
+      "OptionD": "79",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 3/5 и 2/5?",
+      "OptionA": "3/5 = 2/5",
+      "OptionB": "Не може да се споредат",
+      "OptionC": "3/5 < 2/5",
+      "OptionD": "3/5 > 2/5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точно или неточно: Дропките 1/4 и 2/8 означуваат различен дел од целината.",
+      "OptionA": "Неточно",
+      "OptionB": "И двете се точни",
+      "OptionC": "Точно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 4/6 и 2/6?",
+      "OptionA": "4/6 < 2/6",
+      "OptionB": "4/6 > 2/6",
+      "OptionC": "4/6 = 2/6",
+      "OptionD": "Не може да се споредат",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Во дропката 3/5 именителот е 3.",
+      "OptionA": "Точно",
+      "OptionB": "И двете се точни",
+      "OptionC": "Неточно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 23/10 како мешан број.",
+      "OptionA": "2 7/10",
+      "OptionB": "3 3/10",
+      "OptionC": "2 3/11",
+      "OptionD": "2 3/10",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во училиште има 560 ученици, а 1/2 се девојчиња. Колку се момчиња?",
+      "OptionA": "280",
+      "OptionB": "140",
+      "OptionC": "560",
+      "OptionD": "420",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 2/3 од 24?",
+      "OptionA": "8",
+      "OptionB": "16",
+      "OptionC": "19",
+      "OptionD": "36",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1/7 од 7000?",
+      "OptionA": "49000",
+      "OptionB": "999",
+      "OptionC": "1000",
+      "OptionD": "1007",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Именителот покажува на колку еднакви делови е поделено целото.",
+      "OptionA": "И двете се точни",
+      "OptionB": "Не може да се одреди",
+      "OptionC": "Неточно",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 2/5 од 60?",
+      "OptionA": "24",
+      "OptionB": "150",
+      "OptionC": "12",
+      "OptionD": "29",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 6 е еднаква (еквивалентна) на 2/3?",
+      "OptionA": "4/7",
+      "OptionB": "4/6",
+      "OptionC": "4/8",
+      "OptionD": "5/6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1/4 од 24?",
+      "OptionA": "96",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во дропката 3/8, која цифра е именител?",
+      "OptionA": "11",
+      "OptionB": "5",
+      "OptionC": "3",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 2/5 од 45?",
+      "OptionA": "18",
+      "OptionB": "9",
+      "OptionC": "23",
+      "OptionD": "112",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 25/6 како мешан број.",
+      "OptionA": "4 5/6",
+      "OptionB": "4 1/6",
+      "OptionC": "4 1/7",
+      "OptionD": "5 1/6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 19/8 како мешан број.",
+      "OptionA": "3 3/8",
+      "OptionB": "2 5/8",
+      "OptionC": "2 3/8",
+      "OptionD": "2 3/9",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 7/3 како мешан број.",
+      "OptionA": "2 2/3",
+      "OptionB": "3 1/3",
+      "OptionC": "2 1/4",
+      "OptionD": "2 1/3",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 7/10 од 80?",
+      "OptionA": "56",
+      "OptionB": "114",
+      "OptionC": "66",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 14/4 како мешан број.",
+      "OptionA": "2 2/4",
+      "OptionB": "3 2/4",
+      "OptionC": "4 2/4",
+      "OptionD": "3 2/5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 1/3 и 4/12?",
+      "OptionA": "1/3 > 4/12",
+      "OptionB": "Не може да се споредат",
+      "OptionC": "1/3 = 4/12",
+      "OptionD": "1/3 < 4/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 1/8 и 4/8?",
+      "OptionA": "Не може да се споредат",
+      "OptionB": "1/8 > 4/8",
+      "OptionC": "1/8 = 4/8",
+      "OptionD": "1/8 < 4/8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 8 е еднаква (еквивалентна) на 1/4?",
+      "OptionA": "2/8",
+      "OptionB": "2/10",
+      "OptionC": "2/9",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 1/2 од 1000000?",
+      "OptionA": "499999",
+      "OptionB": "500000",
+      "OptionC": "2000000",
+      "OptionD": "500002",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 4 е еднаква (еквивалентна) на 1/2?",
+      "OptionA": "2/6",
+      "OptionB": "2/5",
+      "OptionC": "2/4",
+      "OptionD": "3/4",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка со именител 8 е еднаква (еквивалентна) на 1/2?",
+      "OptionA": "4/9",
+      "OptionB": "5/8",
+      "OptionC": "4/10",
+      "OptionD": "4/8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Дропките кои означуваат еднаков дел од целината, уште се нарекуваат ________ дропки.",
+      "OptionA": "еднакви (еквивалентни)",
+      "OptionB": "мешани",
+      "OptionC": "неправилни",
+      "OptionD": "различни",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 3/4 и 6/8?",
+      "OptionA": "3/4 > 6/8",
+      "OptionB": "3/4 = 6/8",
+      "OptionC": "Не може да се споредат",
+      "OptionD": "3/4 < 6/8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка со именител 12 е еднаква (еквивалентна) на 1/4?",
+      "OptionA": "3/14",
+      "OptionB": "3/13",
+      "OptionC": "3/12",
+      "OptionD": "4/12",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 2/3 и 4/6?",
+      "OptionA": "2/3 < 4/6",
+      "OptionB": "Не може да се споредат",
+      "OptionC": "2/3 > 4/6",
+      "OptionD": "2/3 = 4/6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 5/7 од 42?",
+      "OptionA": "30",
+      "OptionB": "37",
+      "OptionC": "6",
+      "OptionD": "58",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 22/9 како мешан број.",
+      "OptionA": "3 4/9",
+      "OptionB": "2 4/9",
+      "OptionC": "2 5/9",
+      "OptionD": "2 4/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која реченица е дадена во учебникот за именителот?",
+      "OptionA": "Именителот прикажува колкав дел од целото е претставен.",
+      "OptionB": "Именителот е секогаш еднаков на броителот.",
+      "OptionC": "Именителот прикажува на колку еднакви делови е поделено целото.",
+      "OptionD": "Именителот го покажува бројот на цели броеви.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 3/5 и 1/5?",
+      "OptionA": "3/5 = 1/5",
+      "OptionB": "3/5 < 1/5",
+      "OptionC": "Не може да се споредат",
+      "OptionD": "3/5 > 1/5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Колку е 5/6 од 120?",
+      "OptionA": "100",
+      "OptionB": "144",
+      "OptionC": "20",
+      "OptionD": "106",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Колку е 1/2 од 560?",
+      "OptionA": "1120",
+      "OptionB": "280",
+      "OptionC": "282",
+      "OptionD": "279",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 9/4 како мешан број.",
+      "OptionA": "2 3/4",
+      "OptionB": "3 1/4",
+      "OptionC": "2 1/4",
+      "OptionD": "2 1/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 16/7 како мешан број.",
+      "OptionA": "2 5/7",
+      "OptionB": "3 2/7",
+      "OptionC": "2 2/8",
+      "OptionD": "2 2/7",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој дел од дропката 5/6 покажува колкав дел од целото е претставен?",
+      "OptionA": "Броителот 5",
+      "OptionB": "Дробната црта",
+      "OptionC": "Именителот 6",
+      "OptionD": "Именителот 5",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 5/8 и 3/4?",
+      "OptionA": "5/8 = 3/4",
+      "OptionB": "5/8 < 3/4",
+      "OptionC": "Не може да се споредат",
+      "OptionD": "5/8 > 3/4",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Дропките 3/6 и 1/2 се еквивалентни.",
+      "OptionA": "Неточно",
+      "OptionB": "И двете се точни",
+      "OptionC": "Точно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 1/2 и 3/4?",
+      "OptionA": "1/2 > 3/4",
+      "OptionB": "Не може да се споредат",
+      "OptionC": "1/2 = 3/4",
+      "OptionD": "1/2 < 3/4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 3/8 и 7/16?",
+      "OptionA": "3/8 < 7/16",
+      "OptionB": "Не може да се споредат",
+      "OptionC": "3/8 > 7/16",
+      "OptionD": "3/8 = 7/16",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 14 е еднаква (еквивалентна) на 4/7?",
+      "OptionA": "8/16",
+      "OptionB": "8/14",
+      "OptionC": "9/14",
+      "OptionD": "8/15",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Мелани потрошила 3/5 од 500 денари. Колку денари ѝ останале?",
+      "OptionA": "100",
+      "OptionB": "250",
+      "OptionC": "200",
+      "OptionD": "300",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 4/9 од 36?",
+      "OptionA": "4",
+      "OptionB": "81",
+      "OptionC": "25",
+      "OptionD": "16",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка се запишува со зборовите „три четвртини“?",
+      "OptionA": "3/4",
+      "OptionB": "4/3",
+      "OptionC": "3/5",
+      "OptionD": "4/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој дел од дропката 5/6 покажува на колку еднакви делови е поделено целото?",
+      "OptionA": "Броителот 6",
+      "OptionB": "Именителот 6",
+      "OptionC": "Броителот 5",
+      "OptionD": "Дробната црта",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која дропка се запишува со зборовите „пет осмини“?",
+      "OptionA": "6/8",
+      "OptionB": "5/9",
+      "OptionC": "5/8",
+      "OptionD": "8/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која дропка се запишува со зборовите „три осмини“?",
+      "OptionA": "4/8",
+      "OptionB": "8/3",
+      "OptionC": "3/9",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во ресторан има 45 гости, од кои 2/5 се деца. Колку се возрасни?",
+      "OptionA": "27",
+      "OptionB": "30",
+      "OptionC": "20",
+      "OptionD": "18",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Броителот прикажува колкав дел од целото е претставен.",
+      "OptionA": "И двете се точни",
+      "OptionB": "Точно",
+      "OptionC": "Неточно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Точно или неточно: Дропката 9/4 може да се запише како 2 1/4.",
+      "OptionA": "И двете се точни",
+      "OptionB": "Неточно",
+      "OptionC": "Точно",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/4 од 32?",
+      "OptionA": "12",
+      "OptionB": "7",
+      "OptionC": "128",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 15 е еднаква (еквивалентна) на 2/5?",
+      "OptionA": "6/15",
+      "OptionB": "6/16",
+      "OptionC": "7/15",
+      "OptionD": "6/17",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 6 е еднаква (еквивалентна) на 1/2?",
+      "OptionA": "4/6",
+      "OptionB": "3/6",
+      "OptionC": "3/7",
+      "OptionD": "3/8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 11/5 како мешан број.",
+      "OptionA": "2 1/6",
+      "OptionB": "2 4/5",
+      "OptionC": "2 1/5",
+      "OptionD": "3 1/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Дропките 1/3 и 2/6 се еквивалентни.",
+      "OptionA": "Не може да се одреди",
+      "OptionB": "Неточно",
+      "OptionC": "И двете се точни",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "На натпревар учествувале 42 ученици. Ако 5/7 се од четврто одделение, колку се од петто?",
+      "OptionA": "12",
+      "OptionB": "35",
+      "OptionC": "7",
+      "OptionD": "30",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 4/5 и 2/5?",
+      "OptionA": "Не може да се споредат",
+      "OptionB": "4/5 > 2/5",
+      "OptionC": "4/5 < 2/5",
+      "OptionD": "4/5 = 2/5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Кој знак правилно ги споредува дропките 5/6 и 4/5?",
+      "OptionA": "Не може да се споредат",
+      "OptionB": "5/6 = 4/5",
+      "OptionC": "5/6 > 4/5",
+      "OptionD": "5/6 < 4/5",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: За запишување на делови од целото користиме броеви кои ги викаме ________.",
+      "OptionA": "цели броеви",
+      "OptionB": "мешани броеви",
+      "OptionC": "именители",
+      "OptionD": "дропки",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 15/4 како мешан број.",
+      "OptionA": "3 3/4",
+      "OptionB": "3 1/4",
+      "OptionC": "3 3/5",
+      "OptionD": "4 3/4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 13/5 како мешан број.",
+      "OptionA": "2 3/6",
+      "OptionB": "2 3/5",
+      "OptionC": "3 3/5",
+      "OptionD": "2 2/5",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 1/4 од 12?",
+      "OptionA": "48",
+      "OptionB": "7",
+      "OptionC": "3",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку е 1/6 од 24?",
+      "OptionA": "3",
+      "OptionB": "10",
+      "OptionC": "144",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која дропка со именител 12 е еднаква (еквивалентна) на 1/3?",
+      "OptionA": "4/12",
+      "OptionB": "5/12",
+      "OptionC": "4/13",
+      "OptionD": "4/14",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Точно или неточно: Дропката 1/8 е поголема од дропката 1/2.",
+      "OptionA": "Точно",
+      "OptionB": "Неточно",
+      "OptionC": "И двете се точни",
+      "OptionD": "Не може да се одреди",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Семејството бара 4 крофни со џем, 16 со крем и 6 без полнење. Колку вкупно бара?",
+      "OptionA": "24",
+      "OptionB": "28",
+      "OptionC": "26",
+      "OptionD": "22",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ако 5/6 од парите на Бојан се 300 денари, колку пари има тој?",
+      "OptionA": "300",
+      "OptionB": "500",
+      "OptionC": "250",
+      "OptionD": "360",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претстави ја неправилната дропка 17/6 како мешан број.",
+      "OptionA": "2 5/6",
+      "OptionB": "2 5/7",
+      "OptionC": "2 1/6",
+      "OptionD": "3 5/6",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Од 24 крофни, 1/6 треба да бидат со џем. Колку се тоа?",
+      "OptionA": "12",
+      "OptionB": "4",
+      "OptionC": "8",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 3/8 од 72?",
+      "OptionA": "35",
+      "OptionB": "9",
+      "OptionC": "27",
+      "OptionD": "192",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точно или неточно: Дропката 3/4 е поголема од дропката 2/4.",
+      "OptionA": "Не може да се одреди",
+      "OptionB": "Неточно",
+      "OptionC": "И двете се точни",
+      "OptionD": "Точно",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во дропката 3/8, која цифра е броител?",
+      "OptionA": "3",
+      "OptionB": "5",
+      "OptionC": "11",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која дропка со именител 10 е еднаква (еквивалентна) на 3/5?",
+      "OptionA": "6/11",
+      "OptionB": "6/10",
+      "OptionC": "6/12",
+      "OptionD": "7/10",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Колку е 3/5 од 500?",
+      "OptionA": "100",
+      "OptionB": "833",
+      "OptionC": "300",
+      "OptionD": "305",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Од 24 крофни, 1/4 треба да бидат без полнење. Колку се тоа?",
+      "OptionA": "12",
+      "OptionB": "4",
+      "OptionC": "8",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    }
+  ]
+}

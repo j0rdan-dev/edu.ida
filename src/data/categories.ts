@@ -550,8 +550,8 @@ export const grades: Grade[] = [
   },
   {
     id: "grade5",
-    label: "Петто Одделение [во изработка]",
-    enabled: false,
+    label: "Петто Одделение",
+    enabled: true,
     subjects: [
       {
         id: "matematika-5",
@@ -560,10 +560,42 @@ export const grades: Grade[] = [
         color: "340 65% 50%",
         categories: [
           {
-            id: "broevi-i-broenje-5",
-            label: "1. Броеви и броење",
+            id: "broevi-i-broenje-5-1",
+            label: "1. Броеви и броење I",
             description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/5-broevi_i_broenje.json`,
+            file: `${import.meta.env.BASE_URL}data/matematika_5_broevi_i_broenje_100.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+          {
+            id: "broevi-i-broenje-5-2",
+            label: "1. Броеви и броење I",
+            description: "Цела тема (текстуални задачи)",
+            file: `${import.meta.env.BASE_URL}data/matematika_5_40_word_problems.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+          {
+            id: "broevi-i-broenje-5-3",
+            label: "1. Броеви и броење III",
+            description: "Дропки",
+            file: `${import.meta.env.BASE_URL}data/matematika_5_dropki_100_questions.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+          {
+            id: "broevi-i-broenje-5-4",
+            label: "1. Броеви и броење IV",
+            description: "Дропки",
+            file: `${import.meta.env.BASE_URL}data/matematika_5_decimalni_broevi_100_questions.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+          {
+            id: "broevi-i-broenje-5-5",
+            label: "1. Броеви и броење V",
+            description: "Проценти",
+            file: `${import.meta.env.BASE_URL}data/matematika_5_procenti_100_questions.json`,
             icon: Hash,
             color: "340 65% 50%",
           },
