@@ -583,6 +583,14 @@ export const grades: Grade[] = [
             icon: Hash,
             color: "340 65% 50%",
           },
+                    {
+            id: "broevi-i-broenje-5-3-tekstuali",
+            label: "1. Броеви и броење III",
+            description: "Дропки (текстуални задачи)",
+            file: `${import.meta.env.BASE_URL}data/matematika_5_dropki_40_tekstualni_zadaci.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
           {
             id: "broevi-i-broenje-5-4",
             label: "1. Броеви и броење IV",
