@@ -653,7 +653,7 @@ export const grades: Grade[] = [
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema1_100_questions.json`,
             icon: Earth,
-            color: "259 78% 51%",
+            color: "32 82% 52%",
           },
           {
             id: "prirodni-nauki-5-ciklus-na-cvetnite-rastenija",
@@ -661,7 +661,7 @@ export const grades: Grade[] = [
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema2_100_questions.json`,
             icon: Sprout,
-            color: "259 78% 51%",
+            color: "135 62% 40%",
           },
           {
             id: "prirodni-nauki-5-organizmi-i-zhivotnata-sredina",
@@ -669,7 +669,7 @@ export const grades: Grade[] = [
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema3_100_questions.json`,
             icon: Bug,
-            color: "259 78% 51%",
+            color: "52 90% 52%",
           },
           {
             id: "prirodni-nauki-5-smesi",
@@ -677,7 +677,7 @@ export const grades: Grade[] = [
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema4_100_questions.json`,
             icon: FlaskConical,
-            color: "259 78% 51%",
+            color: "200 82% 50%",
           },
           {
             id: "prirodni-nauki-5-svetlina-i-senki",
@@ -685,7 +685,7 @@ export const grades: Grade[] = [
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema5_100_questions.json`,
             icon: Sun,
-            color: "259 78% 51%",
+            color: "42 96% 58%",
           }
         ],
       },
