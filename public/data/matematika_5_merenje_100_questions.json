@@ -1,0 +1,804 @@
+{
+  "Questions": [
+    {
+      "Question": "Камион превезува 3 t товар. Колку килограми е тоа?",
+      "OptionA": "30000",
+      "OptionB": "300",
+      "OptionC": "30",
+      "OptionD": "3000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ѕид во форма на правоаголник е долг 5 m и висок 3 m. Колкава е плоштината во m²?",
+      "OptionA": "15",
+      "OptionB": "16",
+      "OptionC": "30",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори: Колку dm² има во 3 m²?",
+      "OptionA": "3",
+      "OptionB": "300",
+      "OptionC": "30",
+      "OptionD": "3000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од следните реченици е точна за течноста?",
+      "OptionA": "Течноста секогаш има еднаква форма.",
+      "OptionB": "Течноста се мери само во килограми.",
+      "OptionC": "Течноста ја добива формата според садот во кој се наоѓа.",
+      "OptionD": "Течноста не зафаќа простор.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ива вели: „1 век = 100 години“. Дали е точно?",
+      "OptionA": "Точно — тврдењето важи само за маса.",
+      "OptionB": "Неточно — сите мерни единици се еднакви.",
+      "OptionC": "Неточно — 1 век = 100 години",
+      "OptionD": "Точно — 1 век = 100 години",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку години има во 2 милениума?",
+      "OptionA": "2000",
+      "OptionB": "200",
+      "OptionC": "20",
+      "OptionD": "20000",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: 1 час = ________ минути.",
+      "OptionA": "30",
+      "OptionB": "60",
+      "OptionC": "100",
+      "OptionD": "24",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори: Колку mm има во 45 cm?",
+      "OptionA": "4500",
+      "OptionB": "45",
+      "OptionC": "405",
+      "OptionD": "450",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Правоаголна градина има должина 12 m и ширина 8 m. Колкав е нејзиниот периметар во метри?",
+      "OptionA": "96",
+      "OptionB": "20",
+      "OptionC": "32",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Борис тврди: „4 m 5 dm е повеќеимен број“. Дали е точно?",
+      "OptionA": "Точно — тврдењето важи само за маса.",
+      "OptionB": "Неточно — 4 m 5 dm е повеќеимен број",
+      "OptionC": "Точно — 4 m 5 dm е повеќеимен број",
+      "OptionD": "Неточно — сите мерни единици се еднакви.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Еден молив има должина 18 cm. Колку милиметри е тоа?",
+      "OptionA": "18",
+      "OptionB": "108",
+      "OptionC": "1800",
+      "OptionD": "180",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е поголема мерна единица за должина од метар?",
+      "OptionA": "километар (km)",
+      "OptionB": "милиметар (mm)",
+      "OptionC": "дециметар (dm)",
+      "OptionD": "сантиметар (cm)",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Квадратна плочка има страна 3 cm. Колку такви плочки се потребни за правоаголна површина од 54 cm²?",
+      "OptionA": "6",
+      "OptionB": "9",
+      "OptionC": "18",
+      "OptionD": "3",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Бојан вели: „1 t = 1 000 kg“. Дали е точно?",
+      "OptionA": "Неточно — 1 t = 1 000 kg",
+      "OptionB": "Неточно — сите мерни единици се еднакви.",
+      "OptionC": "Точно — 1 t = 1 000 kg",
+      "OptionD": "Точно — тврдењето важи само за маса.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ученик учел 1 час и 20 минути. Колку минути учел вкупно?",
+      "OptionA": "80",
+      "OptionB": "60",
+      "OptionC": "70",
+      "OptionD": "120",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Тренинг почнал во 16:35 и траел 65 минути. Кога завршил?",
+      "OptionA": "18:00",
+      "OptionB": "17:35",
+      "OptionC": "17:40",
+      "OptionD": "17:25",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кои се помали единици од литар според учебникот?",
+      "OptionA": "час, минута и секунда",
+      "OptionB": "килограм, декаграм и грам",
+      "OptionC": "децилитар, центилитар и милилитар",
+      "OptionD": "метар, дециметар и сантиметар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Во шише има 1 l 250 ml вода. Колку милилитри вода има?",
+      "OptionA": "1250",
+      "OptionB": "1500",
+      "OptionC": "1025",
+      "OptionD": "250",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори: Колку kg има во 350 dag?",
+      "OptionA": "35",
+      "OptionB": "3,5",
+      "OptionC": "0,35",
+      "OptionD": "3500",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Али вели: „1 dm² = 100 cm²“. Дали е точно?",
+      "OptionA": "Точно — 1 dm² = 100 cm²",
+      "OptionB": "Неточно — 1 dm² = 100 cm²",
+      "OptionC": "Неточно — сите мерни единици се еднакви.",
+      "OptionD": "Точно — тврдењето важи само за маса.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е основната мерна единица за должина?",
+      "OptionA": "метар (m)",
+      "OptionB": "дециметар (dm)",
+      "OptionC": "километар (km)",
+      "OptionD": "сантиметар (cm)",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори: Колку ml има во 6 l?",
+      "OptionA": "60000",
+      "OptionB": "600",
+      "OptionC": "6000",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Временскиот период од 10 години се вика ________.",
+      "OptionA": "век",
+      "OptionB": "деценија",
+      "OptionC": "милениум",
+      "OptionD": "недела",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која од наведените е помала мерна единица за должина од метар?",
+      "OptionA": "литар (l)",
+      "OptionB": "дециметар (dm)",
+      "OptionC": "километар (km)",
+      "OptionD": "килограм (kg)",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Бројот што содржи два или повеќе едноимени броеви од ист вид се вика ________.",
+      "OptionA": "децимален број",
+      "OptionB": "неименуван број",
+      "OptionC": "повеќеимен број",
+      "OptionD": "едноимен број",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "За покривање површина од 48 cm² со плочки со плоштина 6 cm², колку плочки се потребни?",
+      "OptionA": "6",
+      "OptionB": "8",
+      "OptionC": "42",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Марија тврди: „35 cm е повеќеимен број“. Дали е точно?",
+      "OptionA": "Неточно — 35 cm е едноимен број",
+      "OptionB": "Неточно — сите мерни единици се еднакви.",
+      "OptionC": "Точно — тврдењето важи само за маса.",
+      "OptionD": "Точно — наведеното тврдење е правилно.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во бокал има 150 cl течност. Колку литри е тоа?",
+      "OptionA": "0.15",
+      "OptionB": "15",
+      "OptionC": "1500",
+      "OptionD": "1.5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку kg има во 5 t?",
+      "OptionA": "50",
+      "OptionB": "500",
+      "OptionC": "50000",
+      "OptionD": "5000",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Во бокал има 2 l сок. Колку чаши од 200 ml можат да се наполнат?",
+      "OptionA": "100",
+      "OptionB": "5",
+      "OptionC": "10",
+      "OptionD": "20",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Игор тврди: „1 dag = 10 g“. Дали е точно?",
+      "OptionA": "Неточно — сите мерни единици се еднакви.",
+      "OptionB": "Точно — 1 dag = 10 g",
+      "OptionC": "Точно — тврдењето важи само за маса.",
+      "OptionD": "Неточно — 1 dag = 10 g",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори: Колку cm има во 600 mm?",
+      "OptionA": "60",
+      "OptionB": "6",
+      "OptionC": "0,6",
+      "OptionD": "6000",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Марко има лента долга 2 m 35 cm. Колку сантиметри е долга лентата?",
+      "OptionA": "230",
+      "OptionB": "253",
+      "OptionC": "2035",
+      "OptionD": "235",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која единица е 100 пати помала од килограм?",
+      "OptionA": "литар (l)",
+      "OptionB": "декаграм (dag)",
+      "OptionC": "грам (g)",
+      "OptionD": "тон (t)",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Јана купила 2 kg 300 g јаболка. Колку грама се тоа?",
+      "OptionA": "230",
+      "OptionB": "2030",
+      "OptionC": "3200",
+      "OptionD": "2300",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку cl има во 420 ml?",
+      "OptionA": "4200",
+      "OptionB": "42",
+      "OptionC": "4,2",
+      "OptionD": "420",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори: Колку ml има во 75 cl?",
+      "OptionA": "7500",
+      "OptionB": "75",
+      "OptionC": "7,5",
+      "OptionD": "750",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку m има во 250 cm?",
+      "OptionA": "2500",
+      "OptionB": "0,25",
+      "OptionC": "25",
+      "OptionD": "2,5",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како учебникот ја опишува плоштината?",
+      "OptionA": "Масата на 2Д формата.",
+      "OptionB": "Збирот од должините на сите страни на 2Д формата.",
+      "OptionC": "Величината што ја опишува големината на 2Д формата во рамнината.",
+      "OptionD": "Времето потребно за цртање на формата.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори: Колку години има во 4 децении?",
+      "OptionA": "40",
+      "OptionB": "400",
+      "OptionC": "4000",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Во вреќа има 5 kg брашно. Употребени се 1 500 g. Колку грама останале?",
+      "OptionA": "3500",
+      "OptionB": "6500",
+      "OptionC": "4500",
+      "OptionD": "2500",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Основна мерна единица за должина е ________.",
+      "OptionA": "километар (km)",
+      "OptionB": "метар (m)",
+      "OptionC": "милиметар (mm)",
+      "OptionD": "дециметар (dm)",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори: Колку секунди има во 7 минути?",
+      "OptionA": "240",
+      "OptionB": "420",
+      "OptionC": "70",
+      "OptionD": "700",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни според учебникот: Еден тон има ________ килограми.",
+      "OptionA": "10",
+      "OptionB": "1 000",
+      "OptionC": "10 000",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Автобус тргнал во 08:40 и пристигнал во 10:10. Колку минути траело патувањето?",
+      "OptionA": "80",
+      "OptionB": "130",
+      "OptionC": "70",
+      "OptionD": "90",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Квадратна леа има страна 7 m. Колкав е периметарот во метри?",
+      "OptionA": "21",
+      "OptionB": "49",
+      "OptionC": "14",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се одредува периметарот на правоаголник?",
+      "OptionA": "Со собирање на должините на сите негови страни.",
+      "OptionB": "Со делење на должината со ширината.",
+      "OptionC": "Со множење на должината и ширината.",
+      "OptionD": "Со собирање само на две соседни страни.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори: Колку години има во 3 века?",
+      "OptionA": "3000",
+      "OptionB": "300",
+      "OptionC": "30",
+      "OptionD": "3",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Почетокот на настанот е во 09:25, а трае 2 часа и 15 минути. Кога завршува?",
+      "OptionA": "10:40",
+      "OptionB": "12:40",
+      "OptionC": "11:40",
+      "OptionD": "11:25",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Која е мерна единица за плоштина од учебникот?",
+      "OptionA": "литар (l)",
+      "OptionB": "сантиметар (cm)",
+      "OptionC": "квадратен сантиметар (cm²)",
+      "OptionD": "килограм (kg)",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "За ограда околу правоаголник со страни 9 m и 4 m, колку метри жица се потребни за едно оградување?",
+      "OptionA": "36",
+      "OptionB": "18",
+      "OptionC": "26",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори: Колку cm има во 3 m?",
+      "OptionA": "3",
+      "OptionB": "30",
+      "OptionC": "300",
+      "OptionD": "3000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Сара вели: „1 l = 10 dl“. Дали е точно?",
+      "OptionA": "Точно — тврдењето важи само за маса.",
+      "OptionB": "Неточно — 1 l = 10 dl",
+      "OptionC": "Точно — 1 l = 10 dl",
+      "OptionD": "Неточно — сите мерни единици се еднакви.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Правоаголна рамка има страни 15 cm и 10 cm. Колкав е периметарот во cm?",
+      "OptionA": "150",
+      "OptionB": "25",
+      "OptionC": "50",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Марко вели: „1 час = 100 минути“. Дали е точно?",
+      "OptionA": "Точно — наведеното тврдење е правилно.",
+      "OptionB": "Неточно — 1 час = 60 минути",
+      "OptionC": "Неточно — сите мерни единици се еднакви.",
+      "OptionD": "Точно — тврдењето важи само за маса.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Нина тврди: „1 m² = 100 cm²“. Дали е точно?",
+      "OptionA": "Точно — тврдењето важи само за маса.",
+      "OptionB": "Неточно — сите мерни единици се еднакви.",
+      "OptionC": "Точно — наведеното тврдење е правилно.",
+      "OptionD": "Неточно — 1 m² = 10 000 cm²",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Квадрат има периметар 36 cm. Колкава е должината на неговата страна во cm?",
+      "OptionA": "9",
+      "OptionB": "18",
+      "OptionC": "6",
+      "OptionD": "12",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори: Колку cm² има во 6 dm²?",
+      "OptionA": "6",
+      "OptionB": "60",
+      "OptionC": "6000",
+      "OptionD": "600",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Плоштината на правоаголникот се пресметува со множење на неговата ________.",
+      "OptionA": "ширина и четири",
+      "OptionB": "должина и периметар",
+      "OptionC": "должина и ширина",
+      "OptionD": "должина и должина",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: 1 минута = ________ секунди.",
+      "OptionA": "24",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "60",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Марко тргнал во 14:20 и патувал 50 минути. Во колку часот пристигнал?",
+      "OptionA": "14:70",
+      "OptionB": "15:10",
+      "OptionC": "14:50",
+      "OptionD": "15:20",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Тони тврди: „1 милениум = 100 години“. Дали е точно?",
+      "OptionA": "Неточно — 1 милениум = 1 000 години",
+      "OptionB": "Неточно — сите мерни единици се еднакви.",
+      "OptionC": "Точно — наведеното тврдење е правилно.",
+      "OptionD": "Точно — тврдењето важи само за маса.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Претвори: Колку g има во 4 kg?",
+      "OptionA": "40",
+      "OptionB": "4000",
+      "OptionC": "40000",
+      "OptionD": "400",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори: Колку m има во 7 km?",
+      "OptionA": "70",
+      "OptionB": "700",
+      "OptionC": "7000",
+      "OptionD": "70000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Со кој инструмент се мери масата на телата?",
+      "OptionA": "вага",
+      "OptionB": "часовник",
+      "OptionC": "линијар",
+      "OptionD": "мензура",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Правоаголник има должина 12 cm и плоштина 72 cm². Колкава е неговата ширина во cm?",
+      "OptionA": "60",
+      "OptionB": "6",
+      "OptionC": "12",
+      "OptionD": "8",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Именуваниот број е составен од ________.",
+      "OptionA": "неименуван број и мерна единица запишана до него",
+      "OptionB": "две мерни единици без број",
+      "OptionC": "само неименуван број",
+      "OptionD": "само мерна единица",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Која е најголема мерна единица за маса наведена во лекцијата?",
+      "OptionA": "тон",
+      "OptionB": "декаграм",
+      "OptionC": "килограм",
+      "OptionD": "грам",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Декаграмот е ________ пати поголема мерна единица од грамот.",
+      "OptionA": "5",
+      "OptionB": "10",
+      "OptionC": "1 000",
+      "OptionD": "100",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Претвори: Колку cm има во 8 dm?",
+      "OptionA": "8000",
+      "OptionB": "8",
+      "OptionC": "800",
+      "OptionD": "80",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку cl има во 4 l?",
+      "OptionA": "400",
+      "OptionB": "4000",
+      "OptionC": "4",
+      "OptionD": "40",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Временскиот период од 1 000 години се вика ________.",
+      "OptionA": "година",
+      "OptionB": "век",
+      "OptionC": "деценија",
+      "OptionD": "милениум",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку cm² има во 2 m²?",
+      "OptionA": "200",
+      "OptionB": "20000",
+      "OptionC": "2000",
+      "OptionD": "200000",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Плоштината на квадрат се пресметува со множење на должината на неговата ________.",
+      "OptionA": "страна со четири",
+      "OptionB": "страна со два",
+      "OptionC": "дијагонала со два",
+      "OptionD": "страна сама по себе",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Под е правоаголен со страни 7 m и 4 m. Колку плочки со плоштина 1 m² се потребни за покривање?",
+      "OptionA": "11",
+      "OptionB": "14",
+      "OptionC": "22",
+      "OptionD": "28",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Елена тврди: „1 l = 100 ml“. Дали е точно?",
+      "OptionA": "Неточно — 1 l = 1 000 ml",
+      "OptionB": "Точно — наведеното тврдење е правилно.",
+      "OptionC": "Точно — тврдењето важи само за маса.",
+      "OptionD": "Неточно — сите мерни единици се еднакви.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Временскиот период од 100 години се вика ________.",
+      "OptionA": "месец",
+      "OptionB": "милениум",
+      "OptionC": "век",
+      "OptionD": "деценија",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Една работилница трае 45 минути. Две такви работилници траат колку часа и минути?",
+      "OptionA": "90 часа",
+      "OptionB": "2 часа",
+      "OptionC": "1 час и 15 минути",
+      "OptionD": "1 час и 30 минути",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Единица мерка за зафатнина на течност е ________.",
+      "OptionA": "метар",
+      "OptionB": "килограм",
+      "OptionC": "секунда",
+      "OptionD": "литар",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дејан тврди: „Плоштината на правоаголник се наоѓа со собирање на должината и ширината“. Дали е точно?",
+      "OptionA": "Неточно — сите мерни единици се еднакви.",
+      "OptionB": "Точно — наведеното тврдење е правилно.",
+      "OptionC": "Точно — тврдењето важи само за маса.",
+      "OptionD": "Неточно — Плоштината се наоѓа со множење на должината и ширината.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку dl има во 8 l?",
+      "OptionA": "8",
+      "OptionB": "800",
+      "OptionC": "80",
+      "OptionD": "8000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Колку секунди има во 2 минути и 30 секунди?",
+      "OptionA": "150",
+      "OptionB": "120",
+      "OptionC": "130",
+      "OptionD": "230",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Кој е повеќеимен број?",
+      "OptionA": "4 m 5 dm",
+      "OptionB": "1 m",
+      "OptionC": "8 kg",
+      "OptionD": "35 cm",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Петар тврди: „1 dm = 10 cm“. Дали неговото тврдење е точно?",
+      "OptionA": "Неточно — сите мерни единици се еднакви.",
+      "OptionB": "Точно — 1 dm = 10 cm",
+      "OptionC": "Точно — тврдењето важи само за маса.",
+      "OptionD": "Неточно — 1 dm = 10 cm",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Две кеси имаат маси 25 dag и 40 dag. Колку грама тежат заедно?",
+      "OptionA": "65",
+      "OptionB": "650",
+      "OptionC": "450",
+      "OptionD": "6500",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ана вели: „1 km = 100 m“. Дали нејзиното тврдење е точно?",
+      "OptionA": "Точно — наведеното тврдење е правилно.",
+      "OptionB": "Неточно — сите мерни единици се еднакви.",
+      "OptionC": "Неточно — 1 km = 1 000 m",
+      "OptionD": "Точно — тврдењето важи само за маса.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ана има 3 m 40 cm јаже. Колку сантиметри е долго?",
+      "OptionA": "3400",
+      "OptionB": "34",
+      "OptionC": "304",
+      "OptionD": "340",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Јана тврди: „Периметарот е збир од должините на сите страни“. Дали е точно?",
+      "OptionA": "Неточно — сите мерни единици се еднакви.",
+      "OptionB": "Точно — тврдењето важи само за маса.",
+      "OptionC": "Точно — Периметарот е збир од должините на сите страни.",
+      "OptionD": "Неточно — Периметарот е збир од должините на сите страни.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Кој е едноимен број?",
+      "OptionA": "35 cm",
+      "OptionB": "2 km 3 m",
+      "OptionC": "4 m 5 dm",
+      "OptionD": "1 kg 200 g",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Два сада содржат 3 dl и 7 dl сок. Колку литри сок има вкупно?",
+      "OptionA": "0.1",
+      "OptionB": "100",
+      "OptionC": "1",
+      "OptionD": "10",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Претвори: Колку g има во 9 dag?",
+      "OptionA": "900",
+      "OptionB": "9",
+      "OptionC": "90",
+      "OptionD": "9000",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Две летви се долги 75 cm и 125 cm. Колку метри е нивната вкупна должина?",
+      "OptionA": "20",
+      "OptionB": "2",
+      "OptionC": "1",
+      "OptionD": "200",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Ива пешачела 1 km 250 m. Колку метри пешачела?",
+      "OptionA": "250",
+      "OptionB": "1025",
+      "OptionC": "1250",
+      "OptionD": "1500",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни според учебникот: Основна мерна единица за маса е ________.",
+      "OptionA": "еден килограм (1 kg)",
+      "OptionB": "еден декаграм (1 dag)",
+      "OptionC": "еден грам (1 g)",
+      "OptionD": "еден тон (1 t)",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Квадрат има страна 6 cm. Колкава е плоштината во cm²?",
+      "OptionA": "30",
+      "OptionB": "36",
+      "OptionC": "12",
+      "OptionD": "24",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Правоаголник има страни 8 cm и 5 cm. Колкава е плоштината во cm²?",
+      "OptionA": "26",
+      "OptionB": "80",
+      "OptionC": "40",
+      "OptionD": "13",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Филм започнал во 18:15 и завршил во 19:45. Колку минути траел?",
+      "OptionA": "80",
+      "OptionB": "75",
+      "OptionC": "105",
+      "OptionD": "90",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Претвори: Колку минути има во 5 часа?",
+      "OptionA": "150",
+      "OptionB": "300",
+      "OptionC": "50",
+      "OptionD": "500",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Во сад од 2 l се истуриле 750 ml вода. Колку ml уште можат да се додадат?",
+      "OptionA": "2250",
+      "OptionB": "1250",
+      "OptionC": "1750",
+      "OptionD": "750",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Мила вели: „1 kg = 100 g“. Дали е точно?",
+      "OptionA": "Неточно — 1 kg = 1 000 g",
+      "OptionB": "Точно — тврдењето важи само за маса.",
+      "OptionC": "Неточно — сите мерни единици се еднакви.",
+      "OptionD": "Точно — наведеното тврдење е правилно.",
+      "CorrectAnswer": "OptionA"
+    }
+  ]
+}
