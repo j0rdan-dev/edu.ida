@@ -648,13 +648,45 @@ export const grades: Grade[] = [
         color: "259 78% 51%",
         categories: [
           {
-            id: "prirodni-nauki-5",
-            label: "Природни науки",
+            id: "prirodni-nauki-5-karakteristiki-na-zemjata",
+            label: "Природно-географски карактеристики на Земјата",
             description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/sample.json`,
+            file: `${import.meta.env.BASE_URL}data/prirodni_5_tema1_100_questions.json`,
             icon: FlaskConical,
             color: "259 78% 51%",
           },
+                    {
+            id: "prirodni-nauki-5-циклус-на-цветни-растенија",
+            label: "Животен циклус на цветните растенија",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/prirodni_5_tema2_100_questions.json`,
+            icon: FlaskConical,
+            color: "259 78% 51%",
+          },
+                    {
+            id: "prirodni-nauki-5-organizmi-i-zhivotnata-sredina",
+            label: "Живите организми и животната средина",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/prirodni_5_tema3_100_questions.json`,
+            icon: FlaskConical,
+            color: "259 78% 51%",
+          },
+                    {
+            id: "prirodni-nauki-5-smesi",
+            label: "Смеси",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/prirodni_5_tema4_100_questions.json`,
+            icon: FlaskConical,
+            color: "259 78% 51%",
+          },
+                    {
+            id: "prirodni-nauki-5-svetlina-i-senki",
+            label: "Светлина и сенки",
+            description: "Цела тема",
+            file: `${import.meta.env.BASE_URL}data/prirodni_5_tema5_100_questions.json`,
+            icon: FlaskConical,
+            color: "259 78% 51%",
+          }
         ],
       },
       {
