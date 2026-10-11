@@ -1,0 +1,839 @@
+{
+  "Questions": [
+    {
+      "Question": "Што е рамнина?",
+      "OptionA": "Ограничена рамна површина со четири страни.",
+      "OptionB": "Секоја површина која ја замислуваме како неограничена рамна површина.",
+      "OptionC": "Линија која има една почетна точка.",
+      "OptionD": "Дел од правата ограничен со две точки.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Права – ја подразбираме како ________.",
+      "OptionA": "бескрајно долга права линија, се продолжува на двете страни, нема почеток ниту крај",
+      "OptionB": "дел од права со две крајни точки",
+      "OptionC": "дел од права со почетна и крајна точка",
+      "OptionD": "затворена линија од отсечки",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е точка според учебникот?",
+      "OptionA": "Дел од права меѓу две точки.",
+      "OptionB": "Површина ограничена со три страни.",
+      "OptionC": "Бескрајна линија.",
+      "OptionD": "Точна положба или локација на објект.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Отсечка е ________.",
+      "OptionA": "права без почеток и крај",
+      "OptionB": "дел од правата ограниченa со две точки",
+      "OptionC": "затворена 2Д-форма",
+      "OptionD": "дел од права со една почетна точка без крајна",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која реченица ја опишува полуправата?",
+      "OptionA": "Полуправа има две крајни точки.",
+      "OptionB": "Полуправа е затворена крива линија.",
+      "OptionC": "Полуправа е дел од права, има почетна точка и може бесконечно да се продолжува во една насока.",
+      "OptionD": "Полуправа нема почетна точка и се продолжува во две насоки.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Правите што немаат заедничка точка, не се сечат и се на исто растојание се ________.",
+      "OptionA": "прави што се сечат",
+      "OptionB": "паралелни прави",
+      "OptionC": "полуправи",
+      "OptionD": "нормални прави",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Какви се две прави што се сечат под прав агол?",
+      "OptionA": "Нормални прави.",
+      "OptionB": "Совпаднати полуправи.",
+      "OptionC": "Паралелни прави.",
+      "OptionD": "Отсечки без пресек.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Две полуправи што имаат заедничка почетна точка и дел од рамнина опфатен меѓу нив формираат ________.",
+      "OptionA": "отсечка",
+      "OptionB": "рамнина",
+      "OptionC": "круг",
+      "OptionD": "агол",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е мерната единица за големина на агол?",
+      "OptionA": "Степен.",
+      "OptionB": "Секунда.",
+      "OptionC": "Квадратен сантиметар.",
+      "OptionD": "Метар.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Што е прав агол?",
+      "OptionA": "Агол помал од 90 степени.",
+      "OptionB": "Агол со големина 45 степени.",
+      "OptionC": "Агол поголем од 90 степени.",
+      "OptionD": "Агол со големина од 90 степени.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Агол помал од правиот агол се вика ________.",
+      "OptionA": "испружен агол",
+      "OptionB": "прав агол",
+      "OptionC": "тап агол",
+      "OptionD": "остар агол",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Агол поголем од правиот агол се вика ________.",
+      "OptionA": "остар агол",
+      "OptionB": "прав агол",
+      "OptionC": "нулти агол",
+      "OptionD": "тап агол",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Која е дефиницијата за триаголник во учебникот?",
+      "OptionA": "2Д-форма која нема агли.",
+      "OptionB": "Многуаголник со четири страни и три темиња.",
+      "OptionC": "Многуаголник кој има три страни, три агли и три темиња.",
+      "OptionD": "Секој многуаголник со еднакви страни.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Триаголник на кој што сите страни имаат еднаква должина се вика ________.",
+      "OptionA": "рамностран триаголник",
+      "OptionB": "разностран триаголник",
+      "OptionC": "правоаголен триаголник",
+      "OptionD": "рамнокрак триаголник",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Триаголник на којшто сите страни имаат различна должина се вика ________.",
+      "OptionA": "рамностран триаголник",
+      "OptionB": "рамнокрак триаголник",
+      "OptionC": "разностран триаголник",
+      "OptionD": "правилен четириаголник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Триаголник на којшто две од страните му се со еднаква должина се вика ________.",
+      "OptionA": "петаголник",
+      "OptionB": "правоаголник",
+      "OptionC": "разностран триаголник",
+      "OptionD": "рамнокрак триаголник",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се вика третата страна на рамнокракиот триаголник, покрај двата крака?",
+      "OptionA": "Радиус.",
+      "OptionB": "Дијагонала.",
+      "OptionC": "Висина на призма.",
+      "OptionD": "Основа.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Триаголник на кој што сите агли му се остри се вика ________.",
+      "OptionA": "тапоаголен триаголник",
+      "OptionB": "правоаголен триаголник",
+      "OptionC": "остроаголен триаголник",
+      "OptionD": "рамнокрак четириаголник",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Триаголник кој што има прав агол се вика ________.",
+      "OptionA": "остроаголен триаголник",
+      "OptionB": "правоаголен триаголник",
+      "OptionC": "тапоаголен триаголник",
+      "OptionD": "правилен петаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: Триаголник кој што има тап агол се вика ________.",
+      "OptionA": "остроаголен триаголник",
+      "OptionB": "тапоаголен триаголник",
+      "OptionC": "рамностран четириаголник",
+      "OptionD": "правоаголен триаголник",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Која е дефиницијата за многуаголник?",
+      "OptionA": "Отворена линија составена од полуправи.",
+      "OptionB": "Затворена 2Д-форма составена од надоврзани отсечки, каде што почетната точка на првата отсечка и крајната точка на последната отсечка се совпаѓаат.",
+      "OptionC": "Дел од права ограничен со две точки.",
+      "OptionD": "Секое тело со закривена површина.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Дополни: За многуаголниците велиме дека се правилни ако ________.",
+      "OptionA": "само две страни се еднакви",
+      "OptionB": "имаат барем еден прав агол",
+      "OptionC": "сите страни се со еднаква должина и сите агли им се со иста големина",
+      "OptionD": "сите агли се различни",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Како се нарекуваат страните на многуаголникот што имаат заедничко теме?",
+      "OptionA": "Оски на симетрија.",
+      "OptionB": "Дијагонали.",
+      "OptionC": "Спротивни темиња.",
+      "OptionD": "Соседни страни.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што е дијагонала?",
+      "OptionA": "Права која не ја сече фигурата.",
+      "OptionB": "Полуправа која минува низ теме.",
+      "OptionC": "Отсечка која поврзува само соседни темиња.",
+      "OptionD": "Отсечка која поврзува две несоседни темиња во еден многуаголник.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Дополни: Површините со кои се заградени 3Д-формите ги нарекуваме ________.",
+      "OptionA": "ѕидови",
+      "OptionB": "полуправи",
+      "OptionC": "оски",
+      "OptionD": "дијагонали",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Отсечката која ги спојува соседните ѕидови се нарекува ________.",
+      "OptionA": "агол",
+      "OptionB": "теме",
+      "OptionC": "раб",
+      "OptionD": "центар",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Што е мрежа на 3Д-форма?",
+      "OptionA": "Секоја права што минува низ 3Д-форма.",
+      "OptionB": "Бројна права со две оски.",
+      "OptionC": "2Д-форма која со превиткување може да се направи затворена 3Д-форма.",
+      "OptionD": "3Д-форма што не може да се расклопи.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Какви се страничните ѕидови на призмите во обработените мрежи?",
+      "OptionA": "Секогаш триаголници.",
+      "OptionB": "Само закривени површини.",
+      "OptionC": "Правоаголници.",
+      "OptionD": "Секогаш кругови.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Пирамидите се 3Д-форми со ________.",
+      "OptionA": "само правоаголни ѕидови",
+      "OptionB": "една крива и една рамна површина",
+      "OptionC": "две кружни основи",
+      "OptionD": "триаголни странични ѕидови",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Што е координатен почеток?",
+      "OptionA": "Точката (1,1).",
+      "OptionB": "Секоја точка на х-оската.",
+      "OptionC": "Точката О со координати (0,0), во која се сечат координатните оски.",
+      "OptionD": "Точката со најголема у-координата.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Првата координата х ја читаме од ________.",
+      "OptionA": "оска на симетрија",
+      "OptionB": "вертикалната оска (у-оска)",
+      "OptionC": "хоризонталната оска (х-оска)",
+      "OptionD": "дијагонала",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Втората координата у ја читаме од ________.",
+      "OptionA": "страната на многуаголникот",
+      "OptionB": "хоризонталната оска (х-оска)",
+      "OptionC": "оска на ротација",
+      "OptionD": "вертикалната оска (у-оска)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Како се вика 2Д-форма што може со права да се подели на два дела кои со превиткување по правата ќе се совпаднат?",
+      "OptionA": "Мрежа на 3Д-форма.",
+      "OptionB": "Неправилен многуаголник.",
+      "OptionC": "Осносиметрична форма.",
+      "OptionD": "Полуправа.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Дополни: Ротација е ________.",
+      "OptionA": "движење со кое фигурата ја вртиме околу една точка",
+      "OptionB": "превиткување на лист во 3Д-тело",
+      "OptionC": "движење само налево по права",
+      "OptionD": "поврзување на несоседни темиња",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Ред на ротација е број кој покажува ________.",
+      "OptionA": "колку пати фигурата при вртење под одреден агол се совпаѓа со првобитната почетна положба при едно цело кружно завртување од 360 степени",
+      "OptionB": "колку сантиметри се поместила фигурата",
+      "OptionC": "колку темиња има фигурата",
+      "OptionD": "колку прави агли има фигурата",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Дополни: Транслација е ________.",
+      "OptionA": "вртење на фигура околу една точка",
+      "OptionB": "превиткување по оска на симетрија",
+      "OptionC": "движење на 2Д формата по правец и насока",
+      "OptionD": "менување на должините на сите страни",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "На агломер е измерен агол од 35°. Каков е аголот?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Нема агол.",
+      "OptionD": "Прав агол.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 60°. Каков е аголот?",
+      "OptionA": "Нема агол.",
+      "OptionB": "Остар агол.",
+      "OptionC": "Тап агол.",
+      "OptionD": "Прав агол.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 90°. Каков е аголот?",
+      "OptionA": "Тап агол.",
+      "OptionB": "Нема агол.",
+      "OptionC": "Прав агол.",
+      "OptionD": "Остар агол.",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 105°. Каков е аголот?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Нема агол.",
+      "OptionC": "Тап агол.",
+      "OptionD": "Прав агол.",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 125°. Каков е аголот?",
+      "OptionA": "Прав агол.",
+      "OptionB": "Нема агол.",
+      "OptionC": "Тап агол.",
+      "OptionD": "Остар агол.",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 145°. Каков е аголот?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Прав агол.",
+      "OptionD": "Нема агол.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 175°. Каков е аголот?",
+      "OptionA": "Остар агол.",
+      "OptionB": "Нема агол.",
+      "OptionC": "Тап агол.",
+      "OptionD": "Прав агол.",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На агломер е измерен агол од 88°. Каков е аголот?",
+      "OptionA": "Прав агол.",
+      "OptionB": "Тап агол.",
+      "OptionC": "Нема агол.",
+      "OptionD": "Остар агол.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Триаголник има страни долги 5 см, 5 см и 5 см. Каков е според страните?",
+      "OptionA": "Рамнокрак триаголник.",
+      "OptionB": "Рамностран триаголник.",
+      "OptionC": "Правилен петаголник.",
+      "OptionD": "Разностран триаголник.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Триаголник има страни долги 7 см, 7 см и 4 см. Каков е според страните?",
+      "OptionA": "Правилен петаголник.",
+      "OptionB": "Разностран триаголник.",
+      "OptionC": "Рамностран триаголник.",
+      "OptionD": "Рамнокрак триаголник.",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Триаголник има страни долги 4 см, 6 см и 7 см. Каков е според страните?",
+      "OptionA": "Разностран триаголник.",
+      "OptionB": "Рамнокрак триаголник.",
+      "OptionC": "Рамностран триаголник.",
+      "OptionD": "Правилен петаголник.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Триаголник има страни долги 9 см, 9 см и 6 см. Каков е според страните?",
+      "OptionA": "Рамнокрак триаголник.",
+      "OptionB": "Рамностран триаголник.",
+      "OptionC": "Правилен петаголник.",
+      "OptionD": "Разностран триаголник.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Триаголник има страни долги 8 см, 8 см и 8 см. Каков е според страните?",
+      "OptionA": "Рамностран триаголник.",
+      "OptionB": "Рамнокрак триаголник.",
+      "OptionC": "Разностран триаголник.",
+      "OptionD": "Правилен петаголник.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Триаголник има страни долги 6 см, 7 см и 9 см. Каков е според страните?",
+      "OptionA": "Рамностран триаголник.",
+      "OptionB": "Разностран триаголник.",
+      "OptionC": "Правилен петаголник.",
+      "OptionD": "Рамнокрак триаголник.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 3 страни и 3 темиња. Како се вика?",
+      "OptionA": "Триаголник.",
+      "OptionB": "Четириаголник.",
+      "OptionC": "Петаголник.",
+      "OptionD": "Шестаголник.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 4 страни и 4 темиња. Како се вика?",
+      "OptionA": "Петаголник.",
+      "OptionB": "Четириаголник.",
+      "OptionC": "Триаголник.",
+      "OptionD": "Шестаголник.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 5 страни и 5 темиња. Како се вика?",
+      "OptionA": "Триаголник.",
+      "OptionB": "Шестаголник.",
+      "OptionC": "Четириаголник.",
+      "OptionD": "Петаголник.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 6 страни и 6 темиња. Како се вика?",
+      "OptionA": "Четириаголник.",
+      "OptionB": "Шестаголник.",
+      "OptionC": "Петаголник.",
+      "OptionD": "Триаголник.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAFoCAIAAAAuEJ7lAAAGJElEQVR42u3a0WnjQBSGUUm4F3fgHlyxelAHqmbyEDDBYCXEFqP765yHhSWwi+/MfBqZjK21AYAskxEAiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIOwDiDiDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDoC4A4g7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g7vud7ujz8h3sUIOEnWn/66LrPJEGxsrZkCJ8n6E31H3CGt7BKPuENC1h8R3/4piDsUy/qvl3qJR9yhQNa3e+0Kj7hDwoVd4hF3yM+6xCPuEJv17X9Q4hF36Jn1T1XYFR5xh4QLu8Qj7pCfdYlH3CE269v/tcQj7pDQVld4xB1ikyrxiDvEZlTiEXfITKcv4hF3iC2mKzziDrGhlHjEHWLjKPGIO2QG0RfxiDuyHttBV3jEHWWPzZ/EI+7I+uzzgrgjc+U/uMQj7qibZxuIO6JmGiDuCJnJIO4gXjuOyJQQdzTLUxDEHakyN8Qd5MkMEXckSZIME3FHiTBYxJ0q9REgiUfcER08RBF3ZN3YjR1xR18sAYg7vhmQeMQdKZESj1vEHVnHAiHuqAYWC3HH+z4Sj7gjEB7MiDuyjqVE3NECLCvijrd4JB5xx7HHIxxxR9ax6Ii7E44NgLjj3RyJR9xxmPGwR9yRdWwPxB3nFlsFcffGDRIv7jiiuBYYjrgj69hIiDtOIzYV4o73aCQecXfwwAUCcZd1sOXEHWcM28/2E3ccLWL3oU14cJMR1LIus0NFl41nCOKOA4bth7gDIO4AiDuAuAMg7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDiDuAIg7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4A4g7AOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C4GwGAuAMg7gD0cDGCQq63+zAM6zIbBV32Hm7uOGbYcvQ0ttZMoejRcoXH3kPcHTOw38Sdam/Hjhy2GeLuSgV2l7jjEGJHIe44kNhFiDt7nUyHE2UXdxxR7Bl7RtxxXLFPEHccXQ6+N2wPcUffsSsQdxxm7ATEHQcbq4+48+4Jd8iVHXHHUcdaI+449lhfxB0JYKc1tazijhZogac14o4oYAURdwQCq4a4IxZYLMSdnZOhGrKOuCMfWBfEHSnBGxXijsRbAkuAuCMuJo+4g9CYNuKO6IiOISPuhKdHfWQdcUeGME/EHUnyJgTijsQbHeIu7rh+yjriDoJlSog74iVehoO4o2IGAuKOnJkDiDvSdpDPruyIOxLvI4O44xor6yDuCJ9Ph7iDCCo74g6nqaGsI+7wpyxWKaOsI+4QlUi/5oi4Q1riXdgRd4jqpqwj7vDhgPZtqKwj7pAWU2VH3CGqqrKOuENUYWUdcYeovvs1R8Qd0hLvwo64Q1TiZR1xh4P2/X8tlnXEHdKu8MqOuENU4mUdcYeoxMs64g7l+/6z2n7NEXGHtCu8CzviDrG3eFlH3CE28bJOsMkIyPaq4MqOmzuEXOG/v3OXdcQdgJJ8LQMg7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g4g7kYAIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIOwDiDiDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDoC4A4g7AOIOwFF8AcpOem8KsfkQAAAAAElFTkSuQmCC"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 7 страни и 7 темиња. Како се вика?",
+      "OptionA": "Триаголник.",
+      "OptionB": "Четириаголник.",
+      "OptionC": "Седумаголник.",
+      "OptionD": "Петаголник.",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAFoCAIAAAAuEJ7lAAAHR0lEQVR42u3ZwW3cMBCG0azhXtxBekjF6SEduBrl5kOCZNdriZz5571DAANGDEjkhyF1O47jGwBZXjwCAHEHQNwBEHcAxB0AcQcQdwDEHQBxB0DcARB3AHEHQNwBEHcAxB0AcQdA3AHEHQBxB0DcARB3AMQdQNwBEHcAxB0AcQdA3AEQdwBxB0DcARB3AMQdAHEHEHcAxB0AcQdA3AEQdwDEHUDcARB3AMQdAHEHQNwBxB0AcQdA3AEQdwDEHQBxBxB3AMQdAHEHQNzha96+//j4F+K9egQMyfofP77/+unJEOx2HIenwJCs/03iEXeIyrrEI+6QkPWPgt/9BRB36JT1p38ZxB2qNP2RUks84g5RWZd4xB1is371/wniDiWmbIlH3CEq6xKPuENs1uv8aRB3ZF3iQdyRdYlH3EFDJR5xhxHdlHjEHWJbKfGIO8T2UeIRd7gTxL5NlHjEHVmPyrrEI+7IemzWJR5xR9ZHxE7iEXcEzhMAcUfUPA0Qd4Ss+JPxcBB3ZF3iQdyRdYlH3EHWPUDEHVVSJQ8TcUeJ8GARdxqlR30kHnFH1pF4xB1Z9/w9fMQdWfEuQNyREu8FcUc+8I4QdyQD7wtxRybw7hB3pAHvEXFHDrxTxB0JIO39esXijqwj8Yg79jlePeKOvY1DG+KOrCPxiDs2MFYI4m7TYrVYLeKOjYqVg7izdX/anFhCw716BGHsSZ5bM//5CE9HLx6BsoPFI+7UPVDbnJzYd4O8uAMg7gCIOwDiPosLd07n2l3cARB3AMQdAHGfyIU7F3HtLu4AiDsA4g6AuAMg7s35msqlfFMVdwDEHQBxB0Dcp3DhzgKu3cUdAHEHQNwBEHcAxL0hX1NZxjdVcQdA3AEQdwDEPZkLdxZz7S7uAIg7AOIOgLhncuHOFq7dxR0AcQdA3AEQdwBxpzxfU9nIN1VxB0DcARB3AMQ9hwt3tnPtLu4AiDsA4g6AuCdw4U4Rrt3FHQBxB0DcARB3AHGnGF9TKcU3VXEHQNwBEHcAxL0rF+4U5Npd3AEQdwDEHQBxBxB3CvA1lbJ8UxV3AMQdAHEHQNw7ceFOca7dxR0AcQdA3AEQ9x5cuNOCa3dxB0DcARB3AMQdQNxZztdUGvFNVdwBEHcAxB0Aca/LhTvtuHYXdwDEHQBxB0DcK3LhTlOu3cUdAHEHQNwBEHcAcedivqbSmm+q4g6AuAMg7gCIexUu3Ang2l3cARB3AMQdAHEHEHcu4GsqMXxTFXcAxB0AcQdA3Hdy4U4Y1+7iDoC4AyDuAOLOHi7cieTaXdwBEPcxUzxYzIi7LQGWMeJeiXt2LHLEfcTSN/WQNLYru7ij71i6iHv6udUmIaDsxnZxR99RdsR9TN/BYkbcA7eE4Z2OY7uyizvPnHbBEkXcE86zNg+Nym5sF3c+0XewdBH3wE1ieKf+2K7s4s4551+wIBH3hBOu7UTZshvbxR19R9kRd323bbBEEfcJm8fwTp2xXdnFnWvPxWDhIe4JJ1/bjO1lN7aLO/qOsiPuPNx3sBQR98BNZXhn/diu7OLOnvMyWGCIe8KJ2PZjWdmN7eLO0r6DhYe4B24zwztXj+3KLu5UOUGD5STuJJyRbUguKruxXdzRd5QdceeCvoMFhrgHbj/DO2eN7cou7lQ/WYNlI+4knJ1tVL5YdmO7uKPvKDvizsK+g4Uk7gRuS8M7nx3blV3c6XriBstD3Ek4U9vAPFh2Y7u4o+8oO+JOgb6DBSPuBG5Xwzv/WgzKLu6kncSxDBB3Es7aNray310kiDst+w6Wh7gTuIEN78Z2ZRd3ppzN8dIRdxJO37b68LIb28UdfUfZEXda9R3LAHEncGMb3qeN7cou7sw9s+PlIu4knMolYEjZje3ijr6j7Ig7EX3H60bcCdzwhvfUsV3ZxR1R0HcvEXEn8bQuDWFlN7aLO/qu78qOuBPdd7xWxJ3AEBjeu4/tyo648+gZHy8LcSfhFC8ZTctubEfcEQUvEXFnXhoM773GdmVH3Hn+1I9Xg7iTcK4XkRZlN7Yj7ui7siPu6DteFuJOajIM7zXHdmVH3Dn/NgCvAHEn4bwvLqXKbmxH3NF3ZUfcQUS8FMSdaSkxvO8d25UdcWfdLQEeNeJOwj2A6Gwpu7EdcefyvuMVIO4ExsXwvnJsV3bEnW0BwoNF3Am5GZChBWU3tiPu6Luyg7hzUt/xqCnldhyHp8BZMybKjskdAHHHXOnxgrizMkAy5JFSjTt3AJM7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4A4i7RwAg7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDjDZb2r53aLj/vKNAAAAAElFTkSuQmCC"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 8 страни и 8 темиња. Како се вика?",
+      "OptionA": "Осумаголник.",
+      "OptionB": "Петаголник.",
+      "OptionC": "Триаголник.",
+      "OptionD": "Четириаголник.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 9 страни и 9 темиња. Како се вика?",
+      "OptionA": "Четириаголник.",
+      "OptionB": "Петаголник.",
+      "OptionC": "Триаголник.",
+      "OptionD": "Деветаголник.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "На цртеж е претставен затворен многуаголник со 10 страни и 10 темиња. Како се вика?",
+      "OptionA": "Десетаголник.",
+      "OptionB": "Триаголник.",
+      "OptionC": "Петаголник.",
+      "OptionD": "Четириаголник.",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Ученик ги поврзува сите парови несоседни темиња на 3-аголник. Колку дијагонали ќе нацрта?",
+      "OptionA": "0",
+      "OptionB": "2",
+      "OptionC": "9",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Ученик ги поврзува сите парови несоседни темиња на 4-аголник. Колку дијагонали ќе нацрта?",
+      "OptionA": "2",
+      "OptionB": "0",
+      "OptionC": "5",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Ученик ги поврзува сите парови несоседни темиња на 5-аголник. Колку дијагонали ќе нацрта?",
+      "OptionA": "0",
+      "OptionB": "9",
+      "OptionC": "2",
+      "OptionD": "5",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Ученик ги поврзува сите парови несоседни темиња на 6-аголник. Колку дијагонали ќе нацрта?",
+      "OptionA": "5",
+      "OptionB": "0",
+      "OptionC": "2",
+      "OptionD": "9",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката P има координати (3,4). Каде се наоѓа?",
+      "OptionA": "Во вториот квадрант.",
+      "OptionB": "Во првиот квадрант.",
+      "OptionC": "На позитивниот дел од у-оската.",
+      "OptionD": "На позитивниот дел од х-оската.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката P има координати (-4,5). Каде се наоѓа?",
+      "OptionA": "На позитивниот дел од х-оската.",
+      "OptionB": "Во вториот квадрант.",
+      "OptionC": "Во првиот квадрант.",
+      "OptionD": "На позитивниот дел од у-оската.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката P има координати (2,7). Каде се наоѓа?",
+      "OptionA": "На позитивниот дел од у-оската.",
+      "OptionB": "На позитивниот дел од х-оската.",
+      "OptionC": "Во првиот квадрант.",
+      "OptionD": "Во вториот квадрант.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Точката P има координати (-6,2). Каде се наоѓа?",
+      "OptionA": "Во првиот квадрант.",
+      "OptionB": "Во вториот квадрант.",
+      "OptionC": "На позитивниот дел од х-оската.",
+      "OptionD": "На позитивниот дел од у-оската.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката P има координати (0,5). Каде се наоѓа?",
+      "OptionA": "Во вториот квадрант.",
+      "OptionB": "Во првиот квадрант.",
+      "OptionC": "На позитивниот дел од х-оската.",
+      "OptionD": "На позитивниот дел од у-оската.",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката P има координати (5,0). Каде се наоѓа?",
+      "OptionA": "На позитивниот дел од у-оската.",
+      "OptionB": "На позитивниот дел од х-оската.",
+      "OptionC": "Во вториот квадрант.",
+      "OptionD": "Во првиот квадрант.",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката А(2,3) се поместува со транслација 3 квадратчиња надесно и 2 квадратчиња нагоре. Кои се координатите на сликата А₁?",
+      "OptionA": "(5,1)",
+      "OptionB": "(5,5)",
+      "OptionC": "(-1,5)",
+      "OptionD": "(4,6)",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката А(1,5) се поместува со транслација 4 квадратчиња надесно и 3 квадратчиња надолу. Кои се координатите на сликата А₁?",
+      "OptionA": "(-2,9)",
+      "OptionB": "(5,2)",
+      "OptionC": "(5,8)",
+      "OptionD": "(-3,2)",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката А(-3,4) се поместува со транслација 2 квадратчиња надесно и 1 квадратчиња нагоре. Кои се координатите на сликата А₁?",
+      "OptionA": "(-1,3)",
+      "OptionB": "(-2,6)",
+      "OptionC": "(-5,5)",
+      "OptionD": "(-1,5)",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката А(5,2) се поместува со транслација 4 квадратчиња налево и 3 квадратчиња нагоре. Кои се координатите на сликата А₁?",
+      "OptionA": "(9,5)",
+      "OptionB": "(1,5)",
+      "OptionC": "(8,-2)",
+      "OptionD": "(1,-1)",
+      "CorrectAnswer": "OptionB",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAFoCAIAAAAuEJ7lAAAOj0lEQVR42u3dfXDU9Z3A8e9ywRFB0QgJsQpOfYhPNRV56CHkxsoJBKpURgFBOtZSz6tY0WvxsPa5FsZerzfSe3JumN4Vbs7TmyrpASqC8VolQDEoWlo8e60BdoEFtARCJb/7Y3tMugtcWDZL9rev11/rZveb9ZvkvR++WZZEFEUBgHjpZQsAxB0AcQdA3AEQdwDEHUDcARB3AMQdAHEHQNwBxB0AcQdA3AEQdwDEHQBxBxB3AMQdAHEHQNwBEHcAcQdA3AEQdwDEHQBxB0DcAcQdAHEHQNwBEHcAxB1A3AEQdwDEHQBxB0DcARB3gPJQYQuIjdoREzIXtjQvtxuY3AEQdwDEHQBxB6DHxD2ZSnffQ7S4xU/extffqh0x4euP/W3W9ctfaKodMeGffvi0Pbd4DL7PTe6UnWs+cvlHrrj0Rz9+oa3tQOfrlz7V2KfP6bfePN4WYXKHkjRr6s372w48s/zFI9dsfefXzT97fXLDDWed2df+IO5QkiaMrR9w7jlLnmrsPLaHEO6YerPNQdyhVPXuXTH9lom/fPtX6za+EUJoazvwzH+uGj1y6EUXXmBzEHcoYdOmNPTuXbH0qWUhhGeWv/jb/W2zpk22LYg7lLYBlec0/OmfPLf6p7t271n6dOOQCz5UP2qYbSGWElEU5X3nU/5aH+isftKMzIWmxiXHus2Wre/Mvv9LHxtW9+r6ls/fPWvKJ8bZN3qy6qrK/O5YUZDPmkyl834EXXkKsbjFC/XzUF1Vec3VV7y6vqVf3zM+NX1y3zP62HOLl+j3+fE5lqHsTL+lIYQw5aYbT6jsUFrEnbKzecvWRCIx89abbAUx5v3cKSOHOzpead74r0//ePg1Vw0+v8aGIO5Q8h5/4oeLnvj9L1pnz7rNhiDuEB9VA8+9a8YUr4BE3CEm5syeOWf2TPtAmfALVQBxB0DcARB3AMQdAHEHEHcAxB0AcQdA3AEQdwBxtwUA4g6AuAMg7gCIOwDiDiDuAIg7AOIOgLgDIO4A4g5A7CSiKMr7zslU2g7Sc9RPmpG50NS4xG4QD9VVlfndsaIgnzWZSuf9CLryFGJxixfn58GeW7yEvs+Pz7EMQAyJO4C4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C42wIAcQdA3AEQdwDEHQBxBxB3AMQdAHEHQNwBEHcAcQdA3AEQdwDEHQBxB0DcAcpFIoqivO+cTKXtID1H/aQZmQtNjUvsBvFQXVWZ3x0rCvJZk6l03o+gK08hFrd4cX4e7LnFS+j7/PgcywDEkLgDiDsA4g6AuAMg7gCIO4C4AyDuAIg7AN2qwhZAYb3+lbnvvbWp/5V1V33lu7kfbd+ZTG94Jb3hlX2bX4s++OCK+QvO+ehwm4a4Q492MLn9vZ+/HkLY9+amg8ntp1fXZN2gZf7nfrdvj42iuzmWgUJKrVkZoqhm/OQQRamXVube4PSqQTXjbr7y4QXVN0y0XYg7lIIoSjU917v/2RfecXfv/menXno+5Lyl9tXfWvThu+47u254rwp/bkbcoRTsfWNj+87kgFEf79X7tAGjrm/fuWPf5tdsC+IOpS21ZmUIoap+bAihaszYI9eAuEOpOnygbXfzy31qzu93UW0Iod/Fl/WpOX/X2qbDB9psDuIOpWrXT1d3tLcPrB975JqBY8Z2tLfveuUlm4O4Q6lKrlkZQhg4+g/iHkJIrV5hcyg+v6+HAjiw/d33t2wOIWyYMzPrQ+9teePA9tY+NR+yS5jcocQc/xenqTWGd0zuUHKiKPXScyGEjz72RN8hH+78kbbf/Grjg3elmp4fMu3TIZGwVYg7lIy9m9YfSu866/Krs8oeQjjjggv7X1m3b3PL3k0bzq4bFkL4xeOP7nx51ZEbvPnoQ5kLg+56sHpcg81E3KF4fnLbDZkLW0MIIVz35KrOH02uXhFCqBk/+aj3rRn/yX2bW5JrVmTiDuIOPavsna/p3Pfa+x+pvf+RY9393JFjOt/40jnzL50zP/dmyVTaVlNAfqEKJ1b2418P4g6lWnZ9R9whnmXXd8QdgGJLRDnvN911fgVEj1I/aUbmQlPjkpNfbeu9t3blZhcv+nc7T/eprqrM744VBfmsyVQ670fQlacQi1u8OD8PfxD3In4uX1CLF5xjGYAYEnc4uqy/qXRU/SZ32CjEHWLV90zZW5Ze37L0enuFuEMc+p41s+s74g4l3/frnlxVd/vquttX6zs9lveWga72Pff1D3W3r+7c9MzlrOiDyR1KT27KjfCIO8Sk745oEHcoixHeq2gQd4hn343wiDvEp++OaBB3KIsR3hEN4g7x7LsRHnGH+PTdEQ3iDmUxwjuiQdwhnn03wiPuEJ++O6JB3KEsRnhHNIg7xLPvRnjEHeLTd0c0iDuUxQi/44UpEo+4Qwz7boRH3CE+fXdEg7hDWYzwXkWDuENMDBr7dNY1+o64Q0zmd0c0iDvENvFZfZd4xB1i2HcjPOIO8em7IxpORiKKorzvnEyl7SA9R/2kGZkLTY1LYvM/teOFKVnX5P7qlRirrqo8BXHvXPm8H4HFLV4otSMmZC5saV4ep23Jndlzz218t5TV4l3hWAZ6Okc0iDvEOfFZfZd4xB1i2HcjPOIO8em7IxrEHcpihHdEg7hDPPtuhEfcIT59d0SDuENZjPCOaBB3iGffjfCIO8Sn745oEHcoixHeEY24A/HsuxFe3IH49D0r8blvLYm4A3EY4R3RiDsQz74HRzTiDsSm715FI+5APGX9402OaMQdiM8In3WNvos7EJO+O6IRd6AsRnhHNOIOxLPvRnhxB+LTd0c04g6UxQjviEbcgXj23Qgv7kB8+u6IRtyBshjhHdGIOxDPvhvhxR2IT98d0Yg7UBYjvCOaUpSIoijvOydTaTtIz1E/aUbmQlPjErtx8nL/iY+sNyCjCKqrKk9B3DtXPu9HYHGLF0rtiAmZC1ual9uWQi2eNbPnnsv7Viz+4l3hWAY4Hkc0JUrcgRPre/BbVnEHYtN3r6IRd6AsRnhHNOIOxLPv4WgvqkHcgZLsuyMacQfKYoR3RCPuQDz7boQXdyA+fc/6a6v6Lu5APEd4RzTiDsSz70Ue4T+zqHno3BWf/X6zL4S4A4Xv+yl5FU3r7raN/50OIWx4O926u80XQtyBbh/hi3BE82xzaxSFqWMGR1FYtm6bL4G4A8Xoe7eO8FEUGtdtq+x32tybLqvsd1rjutZCvNGtuAMco+/FOaJZ98vd2/ccGDe05rSKXjdeU7MtfWD91t32X9yB4o3w3XFE8+y61hBCw7XnhRAahp0XQni2udXOiztQ1L4XdoTff/CDFzclhwzse+Xg/iGEqwb3HzKw76pNyf3tH9h5cQe6ve/ddESzcuP2g4cOZwb2jAnX1hw8dPj5jTtsu7gDp2CEL8gRzbLfn8nUHLlmopOZ/1NhC4Ci9T0r6C1Lr889t+mi/9m5v+WdvSGET3yzKetDr72z59c72wYPPMPkDlCkvhfqiGbZccfzZc3vmtwBTuUIn7l8QiN8RxQ1rtsWQvi3L1x3yXlndv7Q2zt+e+vC/2pcv+2ehkt6JRImd4Ci9j3rmhMa4ddu2Z3ad3DoRZVZZQ8hXDSo37CLK5N7D679RVm/4N3kDpzKvmeN8EeiP3Tuis43/tlfj+/8n880t4YQpo4efNSVp40Zsn5r+tm1rX9cO0DcAU5N4nOPaO5cNy/rZkPnrujc9wWz6hbMqjvWmh+/ujrryaAMOZYBesQI39ni4Qtzb5Y1yyPuQAn0PSvx+i7uQExkncYsHr4wN/H6Lu5Ayff9WCM8/69EdBJvfpxMpe0gPUf9pBmZC02NS+xGKZrw7ebcpufmfvlfjiifPamuqszvjhUF+azJVDrvR9CVpxCLW7w4Pw/2vOcsfue6eYuHL8wtewG/vqX+fX58jmWAHuqoZUfcgRLTlRenewG7uANx67uyizsQt74ru7gDceu7sp8o7y0D9Ny+n/LXnJjcARB3AMQdAHEHEHcAxB0AcQdA3AEQdwDEHUDcARB3AMQdAHEHQNwBxB0AcQdA3AEQdwDEHQBxBxB3AMQdgB4jEUVR3ndOptJ2kJ6jftKMzIWmxiV2g3iorqrM744VBfmsyVQ670fQlacQi1u8OD8P9tziJfR9fnyOZQBiSNwBxB0AcQdA3AEQdwDEHUDcARB3AMQdAHEHQNwBxN0WAIg7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4A4g7AOIOgLgDIO4AiDsAR5WIoijvO9eOmGAHAbrPlublJncAxB0gvk7qWOaIZCpdXVXZTQ/R4hbvoiPnhHn/SdaeW7wkFje5A5QpcQcQdwDEHQBxB0DcARB3AHEHQNwBEHcAxB0gJjo6os98/pHLRjas+UnzkSt379lbP3Hmx26cuj25U9wBSnCg7pX4q298sWbQwC98+bF3t+0IIRzu6Hjg4QU7d6e/8415NdUDxR2gJPU/68zHF3zpYHv7fQ9969Ch3/3N3//zq+tb5syeOXrk0EI+i9hogCK76vJLHn7gzzb/fOud987/xx88WT9q2D2fnl7gPyLYZYDim3ZLw7gbRq9/7Y2qAZXf+foXE4mEuAOUvF3pPRs3vRVC2Lvv/dbtqYKvL+4AxXa4o+OBhxfu2p3+6rx7Kyr+6L6Hvvne+/vFHaC0fe/vfrB2Q8t9d8+aPmXit7/8wG9ad8z76mMF+XfxjkgUdjkAju/Fl9f++V98rX7UsH/47tcyR+0LvvfE4qX/8eDn7vzsp24Td4DS8+62HZ+8495+/fr+6F8W9T/rzMyVhw8fnnXPQxs3vbn4+4+OvLZO3AE4OmfuAOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAOJuCwDEHQBxB0DcARB3AMQdQNwBEHcAxB0AcQdA3AHEHQBxB0DcARB3AMQdAHEHEHcAxB0AcQdA3AEQdwBxB0DcARB3AIrvfwGIcuctXjSsoAAAAABJRU5ErkJggg=="
+    },
+    {
+      "Question": "Точката А(0,2) се поместува со транслација 3 квадратчиња налево и 2 квадратчиња нагоре. Кои се координатите на сликата А₁?",
+      "OptionA": "(2,-1)",
+      "OptionB": "(-3,0)",
+      "OptionC": "(-3,4)",
+      "OptionD": "(3,4)",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката А(3,6) се поместува со транслација 5 квадратчиња налево и 2 квадратчиња надолу. Кои се координатите на сликата А₁?",
+      "OptionA": "(-2,8)",
+      "OptionB": "(1,1)",
+      "OptionC": "(8,4)",
+      "OptionD": "(-2,4)",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Точката А(-2,3) се поместува со транслација 5 квадратчиња надесно и 1 квадратчиња нагоре. Кои се координатите на сликата А₁?",
+      "OptionA": "(3,2)",
+      "OptionB": "(-7,4)",
+      "OptionC": "(-1,8)",
+      "OptionD": "(3,4)",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Точката А(4,4) се поместува со транслација 6 квадратчиња налево и 0 квадратчиња нагоре. Кои се координатите на сликата А₁?",
+      "OptionA": "(-2,4)",
+      "OptionB": "(4,-2)",
+      "OptionC": "(10,4)",
+      "OptionD": "(4,4)",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "При едно цело вртење од 360°, кој ред на ротациска симетрија има квадрат?",
+      "OptionA": "3",
+      "OptionB": "2",
+      "OptionC": "1",
+      "OptionD": "4",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "При едно цело вртење од 360°, кој ред на ротациска симетрија има рамностран триаголник?",
+      "OptionA": "4",
+      "OptionB": "3",
+      "OptionC": "1",
+      "OptionD": "2",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "При едно цело вртење од 360°, кој ред на ротациска симетрија има правоаголник што не е квадрат?",
+      "OptionA": "4",
+      "OptionB": "2",
+      "OptionC": "3",
+      "OptionD": "1",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "При едно цело вртење од 360°, кој ред на ротациска симетрија има правилен шестаголник?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "1",
+      "OptionD": "6",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "При едно цело вртење од 360°, кој ред на ротациска симетрија има правилен петаголник?",
+      "OptionA": "2",
+      "OptionB": "1",
+      "OptionC": "5",
+      "OptionD": "3",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ана сака да склопи коцка од хартиена мрежа. Кои 2Д-форми ѝ се потребни?",
+      "OptionA": "6 правоаголници и 2 круга",
+      "OptionB": "2 триаголници и 3 правоаголници",
+      "OptionC": "6 квадрати",
+      "OptionD": "4 триаголници",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ана сака да склопи цилиндар од хартиена мрежа. Кои 2Д-форми ѝ се потребни?",
+      "OptionA": "6 квадрати",
+      "OptionB": "4 триаголници",
+      "OptionC": "2 круга и 1 правоаголник",
+      "OptionD": "2 триаголници и 3 правоаголници",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Ана сака да склопи триаголна призма од хартиена мрежа. Кои 2Д-форми ѝ се потребни?",
+      "OptionA": "6 квадрати",
+      "OptionB": "2 круга и 1 правоаголник",
+      "OptionC": "4 триаголници",
+      "OptionD": "2 триаголници и 3 правоаголници",
+      "CorrectAnswer": "OptionD"
+    },
+    {
+      "Question": "Ана сака да склопи триаголна пирамида од хартиена мрежа. Кои 2Д-форми ѝ се потребни?",
+      "OptionA": "4 триаголници",
+      "OptionB": "2 круга и 1 правоаголник",
+      "OptionC": "6 квадрати",
+      "OptionD": "2 триаголници и 3 правоаголници",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Ана сака да склопи четириаголна пирамида од хартиена мрежа. Кои 2Д-форми ѝ се потребни?",
+      "OptionA": "1 четириаголник и 4 триаголници",
+      "OptionB": "2 триаголници и 3 правоаголници",
+      "OptionC": "2 круга и 1 правоаголник",
+      "OptionD": "6 квадрати",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Коцка има раб долг 3 см. Колкав е збирот на должините на сите 12 рабови?",
+      "OptionA": "30 см",
+      "OptionB": "24 см",
+      "OptionC": "36 см",
+      "OptionD": "18 см",
+      "CorrectAnswer": "OptionC",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAFoCAIAAAAuEJ7lAAAIa0lEQVR42u3cXWyNdwDH8eccbdFKq1SHFmXoGRbCvM5mybIXwrxckNiyZReSLZFtEcniZheLZdvNZJlFXGwJzbLNXgQTCybGZsqsKvFWb6WqWIu2qlraZxdNGoyaraQ9+3yu6smpi//v5Os5jxIJwzAAIL5EHQGAuAMg7gCIOwDiDoC4A4g7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDiDuAIg7AOIOgLgDIO4AiDuAuAPQHiU4Alpd7pjJDqE9Orxrg0OIG5EwDJ0Cyo7ExxmPZVB2EHdQdmgPPHPnvpTdR3t/GOPOHWVH2RF3lB2TIe7IBCYTd5AJkyHuyIRMmAxxRyYwGeKOTGAyxB2ZwGSIOzJhMsQdZMJkiDsygckQd2QCkyHuyAQmQ9yRCZMh7iATJkPckQlMhrgjE5gMcUcmMBnijkyYzGSIOzJhMsQdmcBkiDsygckQd2QCkyHuyITJTIa4IxMmQ9yRCUyGuCMTmAxxRyYwGeKOTGAyxB2ZMBmIu0zIhMkQd2QCkyHuyAQmQ9yRCUyGuCMTJgNxlwmZMBnijkxgMsQdmcBkiDsygckQd2TCZCDuMiETJgNxlwlMhrgjE5gMcUcmMBnijkyYDFpRgiOIp0zc9gptmbLjzp27lx1lB3EHEHcA2g/P3H3A54HyMA137gCIOwDiDiDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDoC4A4g7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4AyDuAOIOgLgDIO4AiDsA4g4g7gCIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C4AyDuAIg7AOIOgLgDIO4A4g6AuAMg7gCIOwDiDiDuAIg7AOIOgLgDIO4AiDuAuAMg7gCIOwDiDoC4A4g7AOIOgLgDIO4AiDsA4g4g7kDcyR0z2SGIOxDPZT+8a4MzEXdA2RF3QNkRd0DZEXdA2RF3UHZlF3dA2RF3QNkRd0DZEXdA2RF3UHZlF3dA2RF3QNkRd0DZEXdA2RF3QNkRd1B2xB1QdsQdUHbEHVB2xB1QdsQdlB1xB5QdcQeUHXEHlB1xB5QdcQdlB3EHZUfcAWVH3AFlR9wBZUfcQdlB3EHZEXdA2RF3QNkRd0DZEXdQdmVH3EHZQdxB2RF3QNkRd0DZEXdQdmVH3EHZQdxB2RF3QNkRd6BVKDviDsoOd5HgCOLyAz7Kjjt3QNkRd0DZafMiYRg6hXbNAxllB3EH+F/wWAZA3AEQdwDEHQBxB0DcAcQdAHEHQNwBEHcAxB1A3B0BgLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g5Aa0hwBNyTguMX1+0u3Xv84pkLtZ2SOjySnTr3yZwnhvZwMtCmRMIwdAr8QyXlV6a/t+3v1xdMj730VI7zAXfutEvRSDA+ljF1dNbQPmk90zuVV9V98+upFVtOLF1fNHNcdkonbydw5068mLd0155jF1a+NW5Yv65OA9y5Ey/voQ6RIAjSu3Rs4TVhGKzbXbom//SRM9WNYZiT2WXW+OzpY7M7RCNBEOw4VD5/+e8LZ8QGZaV+ur6o6Ex1WnLi7Il9X316QBAEX20/+fX2U2UXa3t36/z65EHPjOjpzEHcuV8aw7C8qm5tfml+UcWEWEZW984tlH1RXuHGgrLmKwdKKg+UVGZ1Tx47uHvzxX0nK5esPdzQGAZBcLW+4ZMfipISouVVdSu2nGh6QfH5mkUrC/v2SM7NSnX+IO60suLzNbPe3970dVJCdPbjfd+YltvC69fkn95YUJaWkjh/yuCJQ3qkJieeOHf5ux0lTbf8zTYWlM2dlPPipH5dU5J2HCxflLd3+Y9HwzB4Z86wScMyo9HI55uO5W0t/uLnk+/OfdQKIO7cR/XXG/cVXzpypnp4/653es263aVBEHzw8ojm+/QhfdKGzEm75WUTYhkLZ8Savn56+EOTCjJ/Kjy3YHpsxrjspotvTstdvfP08bOXHTuIO60vJzPljyXPNzaGFdX1vxz886M1h15btvvbtyfe6clM8fma1OTEG5/A3Naogd1u/GWv9M5BEIx8OL35SjQayezaqaK6zgRwV/6FKv/2rRON9EjrOHNc9vwpg+uuNWwuPPsff8OOCTe9G5se2SQldLjloh/vAnHnQahvaAyC4PLV6y3c6VddubarqMJZgbjTFn22+fjH6w7vP1VZWXOt/npjaUXtl9tOLttwJAiCkQPS7/Rd00ZnBUGwKK/w+99Kzl26WlvfcLCkavGq/XuOXXCkcJ945s49qKqpz9ta3Pyzic2mjOo9PpZxp+96YWzWjkPlmwvPLl61/8brfmIdxJ02Yd5zA7MykjcVnD1x7nJV7bW05MRYdtrU0b2fHdGrpY+HkciHr4xYvbNkTX7p0bLqaDTSPzNl1vg+j938N6hAK/LfDwDEIc/cAcQdAHEHQNwBEHcAxB1A3AEQdwDEHQBxB0DcAcTdEQCIOwDiDoC4AyDuAIg7gLgDIO4AiDsA4g6AuAOIOwDiDoC4AyDuAIg7AOIOIO4AiDsA4g6AuAMg7gDiDoC4AyDuAIg7AOIOgLgDiDsA4g6AuAMg7gCIO4C4AyDuALR1fwFAvv6BZLCHdAAAAABJRU5ErkJggg=="
+    },
+    {
+      "Question": "Коцка има раб долг 5 см. Колкав е збирот на должините на сите 12 рабови?",
+      "OptionA": "60 см",
+      "OptionB": "30 см",
+      "OptionC": "40 см",
+      "OptionD": "50 см",
+      "CorrectAnswer": "OptionA",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Коцка има раб долг 7 см. Колкав е збирот на должините на сите 12 рабови?",
+      "OptionA": "56 см",
+      "OptionB": "42 см",
+      "OptionC": "70 см",
+      "OptionD": "84 см",
+      "CorrectAnswer": "OptionD",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "Question": "Коцка има раб долг 8 см. Колкав е збирот на должините на сите 12 рабови?",
+      "OptionA": "96 см",
+      "OptionB": "80 см",
+      "OptionC": "64 см",
+      "OptionD": "48 см",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Елена тврди: „Две паралелни прави се сечат во една точка.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Неточно. Не се сечат и немаат заедничка точка.",
+      "OptionB": "Точно. Не се сечат и немаат заедничка точка.",
+      "OptionC": "Неточно. Бидејќи спротивното својство секогаш важи.",
+      "OptionD": "Не може да се одреди само со дадените поими.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Елена тврди: „Две нормални прави при пресекот образуваат прав агол.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Точно. Бидејќи спротивното својство секогаш важи.",
+      "OptionB": "Точно. Се сечат под 90°.",
+      "OptionC": "Не може да се одреди само со дадените поими.",
+      "OptionD": "Неточно. Се сечат под 90°.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Елена тврди: „Секоја отсечка има две крајни точки.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Не може да се одреди само со дадените поими.",
+      "OptionB": "Неточно. Ограничена е со две точки.",
+      "OptionC": "Точно. Ограничена е со две точки.",
+      "OptionD": "Точно. Бидејќи спротивното својство секогаш важи.",
+      "CorrectAnswer": "OptionC"
+    },
+    {
+      "Question": "Елена тврди: „Полуправата има и почетна и крајна точка.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Неточно. Има почетна, но нема крајна точка.",
+      "OptionB": "Не може да се одреди само со дадените поими.",
+      "OptionC": "Неточно. Бидејќи спротивното својство секогаш важи.",
+      "OptionD": "Точно. Има почетна, но нема крајна точка.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Елена тврди: „Секој рамностран триаголник има три страни со еднаква должина.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Точно. Тоа е неговото својство според страните.",
+      "OptionB": "Точно. Бидејќи спротивното својство секогаш важи.",
+      "OptionC": "Не може да се одреди само со дадените поими.",
+      "OptionD": "Неточно. Тоа е неговото својство според страните.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Елена тврди: „Секој триаголник има барем една дијагонала.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Неточно. Бидејќи спротивното својство секогаш важи.",
+      "OptionB": "Неточно. Триаголникот нема дијагонали.",
+      "OptionC": "Точно. Триаголникот нема дијагонали.",
+      "OptionD": "Не може да се одреди само со дадените поими.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Елена тврди: „Правилниот многуаголник има еднакви страни и еднакви агли.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Точно. Бидејќи спротивното својство секогаш важи.",
+      "OptionB": "Точно. Двата услови важат истовремено.",
+      "OptionC": "Неточно. Двата услови важат истовремено.",
+      "OptionD": "Не може да се одреди само со дадените поими.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Елена тврди: „Петаголникот има девет дијагонали.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Неточно. Бидејќи спротивното својство секогаш важи.",
+      "OptionB": "Неточно. Има пет дијагонали.",
+      "OptionC": "Не може да се одреди само со дадените поими.",
+      "OptionD": "Точно. Има пет дијагонали.",
+      "CorrectAnswer": "OptionB"
+    },
+    {
+      "Question": "Елена тврди: „Првата координата на точка се чита од вертикалната оска.“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Неточно. Првата координата се чита од х-оската.",
+      "OptionB": "Не може да се одреди само со дадените поими.",
+      "OptionC": "Неточно. Бидејќи спротивното својство секогаш важи.",
+      "OptionD": "Точно. Првата координата се чита од х-оската.",
+      "CorrectAnswer": "OptionA"
+    },
+    {
+      "Question": "Елена тврди: „Координатниот почеток има координати (0,0).“ Кој одговор правилно го оценува тврдењето?",
+      "OptionA": "Неточно. Таму се сечат координатните оски.",
+      "OptionB": "Точно. Бидејќи спротивното својство секогаш важи.",
+      "OptionC": "Точно. Таму се сечат координатните оски.",
+      "OptionD": "Не може да се одреди само со дадените поими.",
+      "CorrectAnswer": "OptionC"
+    }
+  ]
+}

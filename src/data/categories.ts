@@ -611,7 +611,7 @@ export const grades: Grade[] = [
             id: "geometrija-5",
             label: "2. Геометрија",
             description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/matematika_5_geometrija_100_questions.json`,
+            file: `${import.meta.env.BASE_URL}data/matematika_5_geometrija_100_with_images.json`,
             icon: Compass,
             color: "280 70% 50%",
           },
