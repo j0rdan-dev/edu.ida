@@ -370,9 +370,17 @@ export const grades: Grade[] = [
           },
           {
             id: "rabota-podatoci-4",
-            label: "5. Работа со податоци",
+            label: "5. Работа со податоци I",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/4-rabota_so_podatoci.json`,
+            icon: BarChart3,
+            color: "260 60% 50%",
+          },
+          {
+            id: "rabota-podatoci-4-analiza-grafikoni",
+            label: "5. Работа со податоци II",
+            description: "Анализа на податоци и графикони",
+            file: `${import.meta.env.BASE_URL}data/matematika_4_rabota_so_podatoci_40_analiza_grafikoni.json`,
             icon: BarChart3,
             color: "260 60% 50%",
           },
