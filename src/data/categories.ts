@@ -635,7 +635,7 @@ export const grades: Grade[] = [
             id: "rabota-so-podatoci-5",
             label: "5. Работа со податоци",
             description: "Цела тема",
-            file: `${import.meta.env.BASE_URL}data/matematika_5_rabota_so_podatoci_100_questions.json`,
+            file: `${import.meta.env.BASE_URL}data/matematika_5_rabota_so_podatoci_100_with_images.json`,
             icon: BarChart3,
             color: "260 60% 50%",
           },
