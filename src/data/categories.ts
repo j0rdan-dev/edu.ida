@@ -586,7 +586,7 @@ export const grades: Grade[] = [
           {
             id: "broevi-i-broenje-5-4",
             label: "1. Броеви и броење IV",
-            description: "Дропки",
+            description: "Децимални броеви",
             file: `${import.meta.env.BASE_URL}data/matematika_5_decimalni_broevi_100_questions.json`,
             icon: Hash,
             color: "340 65% 50%",
