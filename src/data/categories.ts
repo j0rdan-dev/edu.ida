@@ -656,7 +656,7 @@ export const grades: Grade[] = [
             color: "259 78% 51%",
           },
           {
-            id: "prirodni-nauki-5-циклус-на-цветни-растенија",
+            id: "prirodni-nauki-5-ciklus-na-cvetnite-rastenija",
             label: "Животен циклус на цветните растенија",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema2_100_questions.json`,
