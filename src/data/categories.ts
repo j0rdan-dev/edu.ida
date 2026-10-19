@@ -300,6 +300,16 @@ export const grades: Grade[] = [
             icon: Hash,
             color: "340 65% 50%",
           },
+          ,
+                    {
+            id: "broevi-i-broenje-dropki-vizuelni-4",
+            label: "1. Броеви и броење IV",
+            timeLimitSeconds: 300,
+            description: "Дропки, визуелни",
+            file: `${import.meta.env.BASE_URL}data/matematika_4_dropki_40_unique_visual_quiz.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
           {
             id: "geometrija-4",
             label: "2. Геометрија I",
