@@ -291,7 +291,7 @@ export const grades: Grade[] = [
             icon: Hash,
             color: "340 65% 50%",
           },
-                    {
+          {
             id: "broevi-i-broenje-tekstualni-napredni-4",
             label: "1. Броеви и броење III - напредни",
             timeLimitSeconds: 300,
@@ -300,8 +300,7 @@ export const grades: Grade[] = [
             icon: Hash,
             color: "340 65% 50%",
           },
-          ,
-                    {
+          {
             id: "broevi-i-broenje-dropki-vizuelni-4",
             label: "1. Броеви и броење IV",
             timeLimitSeconds: 300,
