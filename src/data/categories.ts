@@ -310,7 +310,7 @@ export const grades: Grade[] = [
             color: "340 65% 50%",
           },
           {
-            id: "broevi-i-broenje-dropki-vizuelni-4",
+            id: "broevi-i-broenje-decimalni-broevi-vizuelni-4",
             label: "1. Броеви и броење V",
             timeLimitSeconds: 300,
             description: "Децимални броеви, визуелни",
