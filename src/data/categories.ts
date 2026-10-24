@@ -620,6 +620,7 @@ export const grades: Grade[] = [
             id: "broevi-i-broenje-5-3-tekstuali",
             label: "1. Броеви и броење III",
             description: "Дропки (текстуални задачи)",
+            timeLimitSeconds: 180,
             file: `${import.meta.env.BASE_URL}data/matematika_5_dropki_40_tekstualni_zadaci.json`,
             icon: Hash,
             color: "340 65% 50%",
