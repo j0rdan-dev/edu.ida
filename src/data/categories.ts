@@ -310,8 +310,17 @@ export const grades: Grade[] = [
             color: "340 65% 50%",
           },
           {
-            id: "broevi-i-broenje-dropki-i-decimalni-vizuelni-4",
+            id: "broevi-i-broenje-dropki-vizuelni-4",
             label: "1. Броеви и броење V",
+            timeLimitSeconds: 300,
+            description: "Децимални броеви, визуелни",
+            file: `${import.meta.env.BASE_URL}data/matematika_4_decimali_95_100_40_unique_images.json`,
+            icon: Hash,
+            color: "340 65% 50%",
+          },
+          {
+            id: "broevi-i-broenje-dropki-i-decimalni-vizuelni-4",
+            label: "1. Броеви и броење VI",
             timeLimitSeconds: 300,
             description: "Дропки и децимални броеви, визуелни",
             file: `${import.meta.env.BASE_URL}data/matematika_4_dropki_71_104_100_word_problems_unique_images.json`,
