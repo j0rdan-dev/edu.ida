@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import RouteMetadata from "@/components/RouteMetadata";
 import GlobalCharacterBuddy from "@/components/GlobalCharacterBuddy";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { CharacterProvider } from "@/context/CharacterContext";
 import { BuddyProvider } from "@/context/BuddyContext";
 import Index from "./pages/Index.tsx";
@@ -23,6 +24,7 @@ const App = () => (
           <Toaster />
           <Sonner />
           <BrowserRouter basename="/">
+            <GoogleAnalytics />
             <RouteMetadata />
             <div className="flex flex-col min-h-screen">
               <Header />
