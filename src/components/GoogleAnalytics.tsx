@@ -11,12 +11,19 @@ declare global {
 }
 
 const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
+const hasValidMeasurementId = /^G-[A-Z0-9]{10}$/i.test(measurementId ?? "");
+
+if (!hasValidMeasurementId) {
+  console.warn(
+    "Google Analytics is disabled because VITE_GA_MEASUREMENT_ID is missing or invalid. Expected format: G-XXXXXXXXXX.",
+  );
+}
 
 const GoogleAnalytics = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (!measurementId) {
+    if (!hasValidMeasurementId) {
       return;
     }
 
@@ -39,7 +46,7 @@ const GoogleAnalytics = () => {
   }, []);
 
   useEffect(() => {
-    if (!measurementId || !window.gtag) {
+    if (!hasValidMeasurementId || !window.gtag) {
       return;
     }
 
