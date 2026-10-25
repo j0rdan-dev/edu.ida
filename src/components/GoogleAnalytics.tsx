@@ -15,7 +15,7 @@ const hasValidMeasurementId = /^G-[A-Z0-9]{10}$/i.test(measurementId ?? "");
 
 if (!hasValidMeasurementId) {
   console.warn(
-    "Google Analytics is disabled because VITE_GA_MEASUREMENT_ID is missing or invalid. Expected format: G-XXXXXXXXXX.",
+    `Variable value ${measurementId}, Google Analytics is disabled because VITE_GA_MEASUREMENT_ID is missing or invalid. Expected format: G-XXXXXXXXXX.`,
   );
 }
 

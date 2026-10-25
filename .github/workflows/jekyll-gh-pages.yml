@@ -14,6 +14,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      VITE_GA_MEASUREMENT_ID: ${{ vars.VITE_GA_MEASUREMENT_ID }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -25,8 +27,6 @@ jobs:
 
       - name: Vite GitHub Pages Deployer
         uses: skywarth/vite-github-pages-deployer@v1.5.0
-        env:
-          VITE_GA_MEASUREMENT_ID: ${{ vars.VITE_GA_MEASUREMENT_ID }}
         with:
           public_base_path: /  # Custom domain - assets served from root
           build_path: ./dist
