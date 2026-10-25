@@ -2,10 +2,11 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 type GoogleAnalyticsArgument = string | Date | Record<string, unknown>;
+type GoogleAnalyticsDataLayerEntry = IArguments | Record<string, unknown>;
 
 declare global {
   interface Window {
-    dataLayer: GoogleAnalyticsArgument[][];
+    dataLayer: GoogleAnalyticsDataLayerEntry[];
     gtag: (...args: GoogleAnalyticsArgument[]) => void;
   }
 }
@@ -30,8 +31,10 @@ const GoogleAnalytics = () => {
     window.dataLayer = window.dataLayer || [];
     window.gtag =
       window.gtag ||
-      function (...args: GoogleAnalyticsArgument[]) {
-        window.dataLayer.push(args);
+      function () {
+        // Google’s tag script expects its standard arguments-object queue format.
+        // eslint-disable-next-line prefer-rest-params
+        window.dataLayer.push(arguments);
       };
     window.gtag("js", new Date());
     window.gtag("config", measurementId, { send_page_view: false });
