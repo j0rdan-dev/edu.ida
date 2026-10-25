@@ -128,6 +128,18 @@ const TextbooksSelect = ({ grade, onBack }: TextbooksSelectProps) => {
               Учебници - {grade.label}
             </h1>
             <p className="text-lg text-muted-foreground font-subtitle font-semibold">Преземи образовни материјали</p>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Книгите не се хостирани на нашите сервери. Линковите водат до страницата на{" "}
+              <a
+                href="https://www.e-ucebnici.mon.gov.mk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline underline-offset-4"
+              >
+                Министерството за образование
+              </a>
+              .
+            </p>
           </div>
 
           <div className="flex flex-col gap-3 flex-1">
