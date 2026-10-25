@@ -25,6 +25,8 @@ jobs:
 
       - name: Vite GitHub Pages Deployer
         uses: skywarth/vite-github-pages-deployer@v1.5.0
+        env:
+          VITE_GA_MEASUREMENT_ID: ${{ vars.VITE_GA_MEASUREMENT_ID }}
         with:
           public_base_path: /  # Custom domain - assets served from root
           build_path: ./dist
