@@ -230,15 +230,17 @@ ${question.Question}
           >
             Рестарт
           </button>
-          <a
-            href={aiAssistantUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 px-4 py-2 text-base rounded-xl border-2 border-slate-300/70 bg-slate-50/80 text-slate-900 hover:border-slate-400 hover:bg-slate-100 shadow-sm transition-all duration-200"
-          >
-            <Brain className="h-5 w-5 text-slate-700" />
-            AI Асистент
-          </a>
+          {!question.image?.trim() && (
+            <a
+              href={aiAssistantUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-4 py-2 text-base rounded-xl border-2 border-slate-300/70 bg-slate-50/80 text-slate-900 hover:border-slate-400 hover:bg-slate-100 shadow-sm transition-all duration-200"
+            >
+              <Brain className="h-5 w-5 text-slate-700" />
+              AI Асистент
+            </a>
+          )}
         </div>
       </div>
     </div>

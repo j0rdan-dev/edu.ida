@@ -111,7 +111,7 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
                     Точен одговор: <span className="text-success font-medium">{optionLabels[record.question.CorrectAnswer]} — {record.question[record.question.CorrectAnswer]}</span>
                   </p>
                 </div>
-                {!record.isCorrect && (
+                {!record.isCorrect && !record.question.image?.trim() && (
                   <a
                     href={getAiAssistantUrl(record.question)}
                     target="_blank"
