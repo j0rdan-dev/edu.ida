@@ -1,10 +1,12 @@
-import { ArrowLeft, ListChecks, PencilLine } from "lucide-react";
+import { ArrowLeft, ListChecks, PencilLine, Sparkles } from "lucide-react";
 import { QuizMode } from "@/types/quiz";
+import { DEFAULT_JOKERS_PER_QUIZ } from "@/lib/quizConfig";
 
 interface ModeSelectProps {
   quizTitle: string;
   onSelect: (mode: QuizMode) => void;
   onBack: () => void;
+  jokerLimit?: number;
 }
 
 const modes = [
@@ -17,12 +19,12 @@ const modes = [
   {
     id: "paper" as const,
     label: "Реши на лист хартија",
-    description: "Запиши го одговорот на хартија. По „Наредно прашање“ или кога ќе истече времето, точниот одговор се прикажува неколку секунди. На крај провери ги одговорите во прегледот.",
+    description: "Запиши го одговорот на хартија и продолжи веднаш со „Наредно прашање“. Кога ќе истече времето, точниот одговор се прикажува неколку секунди. На крај провери ги одговорите во прегледот.",
     icon: PencilLine,
   },
 ];
 
-const ModeSelect = ({ quizTitle, onSelect, onBack }: ModeSelectProps) => (
+const ModeSelect = ({ quizTitle, onSelect, onBack, jokerLimit = DEFAULT_JOKERS_PER_QUIZ }: ModeSelectProps) => (
   <div className="flex min-h-screen flex-col items-center justify-center px-4 py-8">
     <div className="w-full max-w-lg">
       <div className="mb-10 text-center opacity-0 animate-fade-up">
@@ -45,6 +47,12 @@ const ModeSelect = ({ quizTitle, onSelect, onBack }: ModeSelectProps) => (
             <span className="min-w-0">
               <span className="block text-base font-semibold text-foreground">{label}</span>
               <span className="mt-1 block text-sm text-muted-foreground">{description}</span>
+              {id === "paper" && jokerLimit > 0 && (
+                <span className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-2.5 py-1.5 text-xs font-semibold text-foreground">
+                  <Sparkles className="h-3.5 w-3.5 shrink-0 text-primary" aria-hidden="true" />
+                  Џокери за помош: {jokerLimit} · по еден за прашање
+                </span>
+              )}
             </span>
           </button>
         ))}

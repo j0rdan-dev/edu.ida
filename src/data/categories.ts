@@ -7,6 +7,7 @@ export interface Category {
   file: string;
   timeLimitSeconds?: number;
   numberOfQuestions?: number;
+  maxJokers?: number;
   icon: LucideIcon;
   color: string;
 }

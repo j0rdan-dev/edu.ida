@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { QuizData, QuizQuestion, OptionKey, AnswerRecord, QuizMode } from "@/types/quiz";
 import { Category, Grade, Subject, grades } from "@/data/categories";
-import { getNumberOfQuestionsForCategory } from "@/lib/quizConfig";
+import { getJokerLimitForCategory, getNumberOfQuestionsForCategory } from "@/lib/quizConfig";
 import GradeSelect from "./GradeSelect";
 import SubjectSelect from "./SubjectSelect";
 import CategorySelect from "./CategorySelect";
@@ -131,11 +131,22 @@ const QuizApp = () => {
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
+  const [jokerQuestionIndices, setJokerQuestionIndices] = useState<number[]>([]);
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [loading, setLoading] = useState(false);
   const [loadError, setLoadError] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const loadRequestIdRef = useRef(0);
+  const jokerLimit = getJokerLimitForCategory(selectedCategory);
+
+  const handleUseJoker = useCallback(() => {
+    if (quizMode !== "paper" || screen !== "quiz" || !quizQuestions[currentIndex]) return;
+
+    setJokerQuestionIndices((indices) => {
+      if (indices.includes(currentIndex) || indices.length >= jokerLimit) return indices;
+      return [...indices, currentIndex];
+    });
+  }, [quizMode, screen, quizQuestions, currentIndex, jokerLimit]);
 
   const handleGradeSelect = useCallback((grade: Grade) => {
     setSelectedGrade(grade);
@@ -173,6 +184,7 @@ const QuizApp = () => {
       setQuizQuestions(picked);
       setCurrentIndex(0);
       setAnswers([]);
+      setJokerQuestionIndices([]);
       setTimeElapsed(0);
       setScreen("quiz");
 
@@ -196,6 +208,7 @@ const QuizApp = () => {
         question,
         selectedAnswer: selected,
         isCorrect: selected !== null && selected === question.CorrectAnswer,
+        usedJoker: quizMode === "paper" && jokerQuestionIndices.includes(currentIndex),
       };
 
       const newAnswers = [...answers, record];
@@ -211,7 +224,7 @@ const QuizApp = () => {
         }
       }
     },
-    [quizQuestions, currentIndex, answers, selectedGrade, selectedSubject, selectedCategory, quizMode, navigate]
+    [quizQuestions, currentIndex, answers, selectedGrade, selectedSubject, selectedCategory, quizMode, navigate, jokerQuestionIndices]
   );
 
   const handleRestartQuiz = useCallback(() => {
@@ -270,6 +283,7 @@ const QuizApp = () => {
     setQuizQuestions([]);
     setCurrentIndex(0);
     setAnswers([]);
+    setJokerQuestionIndices([]);
     setTimeElapsed(0);
     setLoading(false);
     navigate("/", { replace: true, state: null });
@@ -296,6 +310,7 @@ const QuizApp = () => {
         setQuizQuestions([]);
         setCurrentIndex(0);
         setAnswers([]);
+        setJokerQuestionIndices([]);
         setTimeElapsed(0);
         return;
       }
@@ -466,6 +481,7 @@ const QuizApp = () => {
       return (
         <ModeSelect
           quizTitle={selectedCategory.label}
+          jokerLimit={jokerLimit}
           onSelect={(mode) => navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, selectedCategory.id, mode))}
           onBack={() => navigate(pathForSubject(selectedGrade.id, selectedSubject.id))}
         />
@@ -490,6 +506,9 @@ const QuizApp = () => {
           onHome={handleHome}
           quizTitle={selectedCategory?.label || ""}
           mode={quizMode}
+          jokerUsed={jokerQuestionIndices.includes(currentIndex)}
+          jokersRemaining={Math.max(0, jokerLimit - jokerQuestionIndices.length)}
+          onUseJoker={quizMode === "paper" ? handleUseJoker : undefined}
         />
       );
     case "results":
@@ -500,7 +519,7 @@ const QuizApp = () => {
           </div>
         );
       }
-      return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} quizTitle={selectedCategory?.label || ""} mode={quizMode} />;
+      return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} quizTitle={selectedCategory?.label || ""} mode={quizMode} jokerLimit={jokerLimit} />;
     case "textbooks":
       if (!selectedGrade) {
         return (

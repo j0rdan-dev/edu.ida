@@ -58,13 +58,14 @@ describe("paper question timing", () => {
 
     expect(screen.getByText(questions[0].Question)).toBeInTheDocument();
     expect(screen.getByRole("img")).toHaveAttribute("src", questions[0].image);
+    expect(screen.queryByText(/Запиши го одговорот на лист хартија/)).not.toBeInTheDocument();
     for (const key of ["OptionA", "OptionB", "OptionC", "OptionD"] as const) {
       expect(screen.queryByText(questions[0][key])).not.toBeInTheDocument();
     }
     expect(screen.getByRole("button", { name: "Наредно прашање" })).toBeEnabled();
   });
 
-  it("reveals only the correct answer for exactly five seconds after Next", () => {
+  it("advances immediately on Next without revealing answers or submitting twice", () => {
     const props = cardProps();
     render(<StrictMode><BuddyProvider><QuestionCard {...props} mode="paper" /></BuddyProvider></StrictMode>);
     tick(44000);
@@ -72,16 +73,16 @@ describe("paper question timing", () => {
     fireEvent.click(next);
     fireEvent.click(next);
 
-    expect(next).toBeDisabled();
-    expect(screen.getByText(questions[0].OptionA)).toBeInTheDocument();
-    expect(screen.queryByText(questions[0].OptionB)).not.toBeInTheDocument();
-    tick(4999);
-    expect(props.onAnswer).not.toHaveBeenCalled();
-    tick(1);
+    expect(props.onAnswer).toHaveBeenCalledExactlyOnceWith(null);
+    for (const key of ["OptionA", "OptionB", "OptionC", "OptionD"] as const) {
+      expect(screen.queryByText(questions[0][key])).not.toBeInTheDocument();
+    }
+    expect(screen.queryByText("Точен одговор", { exact: true })).not.toBeInTheDocument();
+    tick(5000);
     expect(props.onAnswer).toHaveBeenCalledExactlyOnceWith(null);
   });
 
-  it("reveals the answer when the category time limit expires, then waits five seconds", () => {
+  it("still reveals the answer for two seconds when the category time limit expires", () => {
     const props = { ...cardProps(), timeLimit: 180 };
     render(<BuddyProvider><QuestionCard {...props} mode="paper" /></BuddyProvider>);
     tick(179000);
@@ -89,25 +90,28 @@ describe("paper question timing", () => {
     tick(1000);
     expect(screen.getByText(questions[0].OptionA)).toBeInTheDocument();
     expect(props.onAnswer).not.toHaveBeenCalled();
-    tick(5000);
+    tick(1999);
+    expect(props.onAnswer).not.toHaveBeenCalled();
+    tick(1);
     expect(props.onAnswer).toHaveBeenCalledExactlyOnceWith(null);
   });
 
-  it("also waits five seconds before leaving the last question", () => {
+  it("submits the last question immediately without a result countdown", () => {
     const props = { ...cardProps(), questionNumber: 2 };
     render(<BuddyProvider><QuestionCard {...props} mode="paper" /></BuddyProvider>);
     fireEvent.click(screen.getByRole("button", { name: "Наредно прашање" }));
-    expect(screen.getByText(/Резултатите ќе се прикажат/)).toBeInTheDocument();
-    tick(4999);
-    expect(props.onAnswer).not.toHaveBeenCalled();
-    tick(1);
+    expect(screen.queryByText(/Резултатите ќе се прикажат/)).not.toBeInTheDocument();
+    expect(screen.queryByText(questions[0].OptionA)).not.toBeInTheDocument();
+    expect(props.onAnswer).toHaveBeenCalledExactlyOnceWith(null);
+    tick(5000);
     expect(props.onAnswer).toHaveBeenCalledOnce();
   });
 
   it("cancels a pending reveal when the card is unmounted", () => {
     const props = cardProps();
     const { unmount } = render(<BuddyProvider><QuestionCard {...props} mode="paper" /></BuddyProvider>);
-    fireEvent.click(screen.getByRole("button", { name: "Наредно прашање" }));
+    tick(45000);
+    expect(screen.getByText(questions[0].OptionA)).toBeInTheDocument();
     unmount();
     tick(5000);
     expect(props.onAnswer).not.toHaveBeenCalled();
@@ -208,17 +212,18 @@ describe("quiz mode navigation", () => {
     expect(fetch).toHaveBeenCalledTimes(1); // Only learning tips, before selecting the mode.
   });
 
-  it("runs paper mode through both reveal paths, shows all answers, and restarts in paper mode", async () => {
+  it("skips answers on Next, retains timeout review, and shows all answers in the summary", async () => {
     await renderQuiz();
     await act(async () => fireEvent.click(screen.getByRole("button", { name: /Реши на лист хартија/ })));
     expect(screen.getByText("Прашање 1 од 2")).toBeInTheDocument();
     expect(screen.getByLabelText("Current route")).toHaveTextContent("/quiz?mode=paper");
-    tick(45000);
-    expect(screen.getByText(questions[0].OptionA)).toBeInTheDocument();
-    tick(5000);
-    expect(screen.getByText("Прашање 2 од 2")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Наредно прашање" }));
-    tick(4999);
+    expect(screen.getByText("Прашање 2 од 2")).toBeInTheDocument();
+    expect(screen.queryByText(questions[0].OptionA)).not.toBeInTheDocument();
+    expect(screen.queryByText(questions[1].OptionB)).not.toBeInTheDocument();
+    tick(45000);
+    expect(screen.getByText(questions[1].OptionB)).toBeInTheDocument();
+    tick(1999);
     expect(screen.queryByText("Резултати од квизот")).not.toBeInTheDocument();
     tick(1);
     expect(screen.getByLabelText("Current route")).toHaveTextContent("/results?mode=paper");
@@ -255,7 +260,7 @@ describe("quiz mode navigation", () => {
 
   it("does not leave home when an abandoned answer reveal would finish", async () => {
     await renderQuiz(`${categoryPath}/quiz?mode=paper`);
-    fireEvent.click(screen.getByRole("button", { name: "Наредно прашање" }));
+    tick(45000);
     fireEvent.click(screen.getByRole("button", { name: "Почетна" }));
     tick(5000);
     expect(screen.getByText("EDU.IDA")).toBeInTheDocument();

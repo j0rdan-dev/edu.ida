@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AnswerRecord, OptionKey, QuizQuestion, QuizMode } from "@/types/quiz";
-import { Check, X, RotateCcw, Trophy, Target, Clock, Brain, PencilLine } from "lucide-react";
+import { Check, X, RotateCcw, Trophy, Target, Clock, Brain, PencilLine, Sparkles } from "lucide-react";
+import { DEFAULT_JOKERS_PER_QUIZ } from "@/lib/quizConfig";
 
 function getAiAssistantUrl(question: QuizQuestion) {
   const query = `На ученик од основно одделение му е потребна помош со следново прашање и темата на којашто припаѓа прашањето:
@@ -21,6 +22,7 @@ interface ResultsScreenProps {
   onRestartQuiz: () => void;
   quizTitle: string;
   mode?: QuizMode;
+  jokerLimit?: number;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -30,12 +32,13 @@ const optionLabels: Record<OptionKey, string> = {
   OptionD: "Г",
 };
 
-const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTitle, mode = "multiple-choice" }: ResultsScreenProps) => {
+const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTitle, mode = "multiple-choice", jokerLimit = DEFAULT_JOKERS_PER_QUIZ }: ResultsScreenProps) => {
   const isPaper = mode === "paper";
   const [paperChecks, setPaperChecks] = useState<Record<number, boolean>>({});
   const reviewed = Object.keys(paperChecks).length;
   const correct = isPaper ? Object.values(paperChecks).filter(Boolean).length : answers.filter((a) => a.isCorrect).length;
   const total = answers.length;
+  const jokersUsed = answers.filter((answer) => answer.usedJoker).length;
   const percentage = total ? Math.round((correct / total) * 100) : 0;
   const reviewComplete = !isPaper || reviewed === total;
   const minutes = Math.floor(timeElapsed / 60);
@@ -87,6 +90,20 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
           </div>
         </div>
 
+        {isPaper && (
+          <div role="group" aria-label="Џокери во квизот" className="mb-8 rounded-xl border-2 border-primary/20 bg-primary/5 p-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary"><Sparkles className="h-5 w-5" aria-hidden="true" /></span>
+              <div>
+                <p className="text-base font-semibold text-foreground">Искористени џокери</p>
+                <p className="mt-1 text-3xl font-bold tabular-nums text-foreground">
+                  {jokersUsed}{" "}<span className="text-sm font-medium text-muted-foreground">од {jokerLimit}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Review */}
         <div className="space-y-3 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "200ms" }}>
           <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide">Преглед</h3>
@@ -113,6 +130,12 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
                   <p className="text-sm font-medium text-foreground leading-relaxed mb-1.5">
                     {record.question.Question}
                   </p>
+                  {isPaper && record.usedJoker && (
+                    <span className="mb-2 inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-2 py-1 text-xs font-semibold text-foreground">
+                      <Sparkles className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
+                      Со џокер
+                    </span>
+                  )}
                   {!isPaper && !record.isCorrect && record.selectedAnswer && (
                     <p className="text-xs text-muted-foreground">
                       Твој одговор: <span className="text-destructive font-medium">{optionLabels[record.selectedAnswer]} — {record.question[record.selectedAnswer]}</span>

@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { QuizQuestion, OptionKey, QuizMode } from "@/types/quiz";
-import { Check, X, Timer, Brain, PencilLine, ArrowRight } from "lucide-react";
+import { Check, X, Timer, Brain, ArrowRight } from "lucide-react";
 import { useBuddy } from "@/context/BuddyContext";
+import PaperJokerHelp from "./PaperJokerHelp";
 
 interface QuestionCardProps {
   question: QuizQuestion;
@@ -13,6 +14,9 @@ interface QuestionCardProps {
   onHome: () => void;
   quizTitle: string;
   mode?: QuizMode;
+  jokerUsed?: boolean;
+  jokersRemaining?: number;
+  onUseJoker?: () => void;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -48,7 +52,7 @@ function getQuestionImageSrc(imageValue?: string): string | null {
 
 const PAPER_REVEAL_SECONDS = 2;
 
-const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome, quizTitle, mode = "multiple-choice" }: QuestionCardProps) => {
+const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome, quizTitle, mode = "multiple-choice", jokerUsed = false, jokersRemaining = 0, onUseJoker }: QuestionCardProps) => {
   const [selected, setSelected] = useState<OptionKey | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(timeLimit);
@@ -123,6 +127,13 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
     } else {
       triggerDissatisfied();
     }
+  };
+
+  const handlePaperNext = () => {
+    if (hasAnswered.current) return;
+    hasAnswered.current = true;
+    stopTimer();
+    onAnswer(null);
   };
 
   const isCorrect = (key: OptionKey) => key === question.CorrectAnswer;
@@ -214,7 +225,7 @@ ${question.Question}
 
         {isPaper ? (
           <div className="space-y-4">
-            {revealed ? (
+            {revealed && (
               <div role="status" className="rounded-xl border-2 border-success bg-success/10 p-5">
                 <p className="mb-2 flex items-center gap-2 text-sm font-semibold text-success">
                   <Check className="h-5 w-5" />
@@ -225,14 +236,20 @@ ${question.Question}
                   {questionNumber === totalQuestions ? "Резултатите ќе се прикажат" : "Следното прашање ќе се прикаже"} за {revealTimeLeft} секунди.
                 </p>
               </div>
-            ) : (
-              <p className="flex items-start gap-3 rounded-xl border-2 border-border bg-card p-5 text-muted-foreground">
-                <PencilLine className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
-                Запиши го одговорот на лист хартија. Кога ќе завршиш, притисни „Наредно прашање“ за да го видиш точниот одговор.
-              </p>
+            )}
+            {onUseJoker && (
+              <PaperJokerHelp
+                question={question}
+                remaining={jokersRemaining}
+                used={jokerUsed}
+                disabled={revealed}
+                onUse={() => {
+                  if (!hasAnswered.current && !jokerUsed && jokersRemaining > 0) onUseJoker();
+                }}
+              />
             )}
             <button
-              onClick={() => revealAnswer(null)}
+              onClick={handlePaperNext}
               disabled={revealed}
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-4 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary/90 disabled:cursor-default disabled:opacity-50"
             >

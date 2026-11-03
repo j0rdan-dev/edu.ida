@@ -20,4 +20,5 @@ export interface AnswerRecord {
   question: QuizQuestion;
   selectedAnswer: OptionKey | null;
   isCorrect: boolean;
+  usedJoker?: boolean;
 }
