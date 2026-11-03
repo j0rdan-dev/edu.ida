@@ -14,6 +14,8 @@ export interface QuizData {
 
 export type OptionKey = "OptionA" | "OptionB" | "OptionC" | "OptionD";
 
+export type QuizMode = "multiple-choice" | "paper";
+
 export interface AnswerRecord {
   question: QuizQuestion;
   selectedAnswer: OptionKey | null;

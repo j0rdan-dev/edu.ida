@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import { QuizQuestion, OptionKey } from "@/types/quiz";
-import { Check, X, Timer, Brain } from "lucide-react";
+import { QuizQuestion, OptionKey, QuizMode } from "@/types/quiz";
+import { Check, X, Timer, Brain, PencilLine, ArrowRight } from "lucide-react";
 import { useBuddy } from "@/context/BuddyContext";
 
 interface QuestionCardProps {
@@ -12,6 +12,7 @@ interface QuestionCardProps {
   onRestart: () => void;
   onHome: () => void;
   quizTitle: string;
+  mode?: QuizMode;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -45,10 +46,14 @@ function getQuestionImageSrc(imageValue?: string): string | null {
   return `/${trimmed.replace(/^\.?\//, "")}`;
 }
 
-const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome, quizTitle }: QuestionCardProps) => {
+const PAPER_REVEAL_SECONDS = 2;
+
+const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onAnswer, onRestart, onHome, quizTitle, mode = "multiple-choice" }: QuestionCardProps) => {
   const [selected, setSelected] = useState<OptionKey | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(timeLimit);
+  const [revealTimeLeft, setRevealTimeLeft] = useState(PAPER_REVEAL_SECONDS);
+  const isPaper = mode === "paper";
   const questionImageSrc = useMemo(() => getQuestionImageSrc(question.image), [question.image]);
   const [showImage, setShowImage] = useState(Boolean(questionImageSrc));
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -62,27 +67,49 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
     }
   }, []);
 
-  // Start countdown
-  useEffect(() => {
-    setTimeLeft(timeLimit);
-    hasAnswered.current = false;
+  const revealAnswer = useCallback((answer: OptionKey | null) => {
+    if (hasAnswered.current) return;
+    hasAnswered.current = true;
+    stopTimer();
+    setSelected(answer);
+    setRevealed(true);
+  }, [stopTimer]);
 
+  // Keep the question timer separate from the answer reveal.
+  useEffect(() => {
+    if (revealed) return;
+    setTimeLeft(timeLimit);
     timerRef.current = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          // Time's up — auto-submit null
-          if (!hasAnswered.current) {
-            hasAnswered.current = true;
-            setTimeout(() => onAnswer(null), 0);
-          }
-          return 0;
-        }
-        return prev - 1;
-      });
+      setTimeLeft((prev) => Math.max(0, prev - 1));
     }, 1000);
 
     return stopTimer;
-  }, [question, timeLimit, onAnswer, stopTimer]);
+  }, [timeLimit, revealed, stopTimer]);
+
+  useEffect(() => {
+    if (timeLeft !== 0 || hasAnswered.current) return;
+    if (isPaper) {
+      revealAnswer(null);
+    } else {
+      hasAnswered.current = true;
+      stopTimer();
+      onAnswer(null);
+    }
+  }, [timeLeft, isPaper, revealAnswer, stopTimer, onAnswer]);
+
+  useEffect(() => {
+    if (!revealed) return;
+
+    const advanceTimeout = setTimeout(() => onAnswer(selected), isPaper ? PAPER_REVEAL_SECONDS * 1000 : 1400);
+    const revealTimer = isPaper
+      ? setInterval(() => setRevealTimeLeft((prev) => Math.max(0, prev - 1)), 1000)
+      : null;
+
+    return () => {
+      clearTimeout(advanceTimeout);
+      if (revealTimer) clearInterval(revealTimer);
+    };
+  }, [revealed, isPaper, selected, onAnswer]);
 
   useEffect(() => {
     setShowImage(Boolean(questionImageSrc));
@@ -90,19 +117,12 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
 
   const handleSelect = (key: OptionKey) => {
     if (revealed || hasAnswered.current) return;
-    hasAnswered.current = true;
-    stopTimer();
+    revealAnswer(key);
     if (key === question.CorrectAnswer) {
       triggerCelebrate();
     } else {
       triggerDissatisfied();
     }
-    setSelected(key);
-    setRevealed(true);
-
-    setTimeout(() => {
-      onAnswer(key);
-    }, 1400);
   };
 
   const isCorrect = (key: OptionKey) => key === question.CorrectAnswer;
@@ -126,8 +146,9 @@ const QuestionCard = ({ question, questionNumber, totalQuestions, timeLimit, onA
   };
 
   const progress = (questionNumber / totalQuestions) * 100;
-  const timerPercent = (timeLeft / timeLimit) * 100;
-  const isUrgent = timeLeft <= 5;
+  const displayedTimeLeft = isPaper && revealed ? revealTimeLeft : timeLeft;
+  const timerPercent = (displayedTimeLeft / (isPaper && revealed ? PAPER_REVEAL_SECONDS : timeLimit)) * 100;
+  const isUrgent = !revealed && timeLeft <= 5;
 
   const aiAssistantUrl = useMemo(() => {
     const query = `На ученик од основно одделение му е потребна помош со следново прашање и темата на којашто припаѓа прашањето:
@@ -155,7 +176,7 @@ ${question.Question}
             <span>Прашање {questionNumber} од {totalQuestions}</span>
             <span className={`inline-flex items-center gap-1.5 font-semibold tabular-nums ${isUrgent ? "text-destructive" : "text-muted-foreground"}`}>
               <Timer className={`h-4 w-4 ${isUrgent ? "animate-pulse" : ""}`} />
-              {timeLeft}с
+              {displayedTimeLeft}с
             </span>
           </div>
           {/* Question progress bar */}
@@ -191,7 +212,35 @@ ${question.Question}
           </div>
         )}
 
-        {/* Options */}
+        {isPaper ? (
+          <div className="space-y-4">
+            {revealed ? (
+              <div role="status" className="rounded-xl border-2 border-success bg-success/10 p-5">
+                <p className="mb-2 flex items-center gap-2 text-sm font-semibold text-success">
+                  <Check className="h-5 w-5" />
+                  Точен одговор
+                </p>
+                <p className="text-lg font-semibold text-foreground break-words">{question[question.CorrectAnswer]}</p>
+                <p className="mt-3 text-sm text-muted-foreground">
+                  {questionNumber === totalQuestions ? "Резултатите ќе се прикажат" : "Следното прашање ќе се прикаже"} за {revealTimeLeft} секунди.
+                </p>
+              </div>
+            ) : (
+              <p className="flex items-start gap-3 rounded-xl border-2 border-border bg-card p-5 text-muted-foreground">
+                <PencilLine className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+                Запиши го одговорот на лист хартија. Кога ќе завршиш, притисни „Наредно прашање“ за да го видиш точниот одговор.
+              </p>
+            )}
+            <button
+              onClick={() => revealAnswer(null)}
+              disabled={revealed}
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-4 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary/90 disabled:cursor-default disabled:opacity-50"
+            >
+              Наредно прашање
+              <ArrowRight className="h-5 w-5" />
+            </button>
+          </div>
+        ) : (
         <div className="flex flex-col gap-3">
           {optionKeys.map((key) => (
             <button
@@ -215,6 +264,7 @@ ${question.Question}
             </button>
           ))}
         </div>
+        )}
 
         {/* Navigation buttons */}
         <div className="flex flex-col sm:flex-row gap-2 justify-center mt-8">
