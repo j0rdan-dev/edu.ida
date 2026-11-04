@@ -177,7 +177,7 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која од овие зафатнини е најмала?",
+      "Question": "Спореди ги мерките: 1 dl; 1 l; 10 dl; 5 l. Која зафатнина е најмала?",
       "OptionA": "1 dl",
       "OptionB": "1 l",
       "OptionC": "10 dl",
@@ -305,7 +305,7 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Кој сад зафаќа најмногу течност?",
+      "Question": "Разгледај ги примерите: „Чаша (2 dl)“; „Кофа (10 l)“; „Лажица (0.1 dl)“; „Шише (1 l)“. Кој сад има најголема зафатнина?",
       "OptionA": "Чаша (2 dl)",
       "OptionB": "Кофа (10 l)",
       "OptionC": "Лажица (0.1 dl)",
@@ -505,7 +505,7 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која е најголема зафатнина?",
+      "Question": "Спореди ги мерките: 9 dl; 1 l; 2 l; 10 dl. Која зафатнина е најголема?",
       "OptionA": "9 dl",
       "OptionB": "1 l",
       "OptionC": "2 l",
@@ -641,7 +641,7 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Што има најголема зафатнина од наведените?",
+      "Question": "Спореди ги мерките: 10 dl; 2 l; 15 dl; 3 l. Која зафатнина е најголема?",
       "OptionA": "10 dl",
       "OptionB": "2 l",
       "OptionC": "15 dl",
