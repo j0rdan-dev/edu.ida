@@ -1,16 +1,17 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { QuizData, QuizQuestion, OptionKey, AnswerRecord } from "@/types/quiz";
+import { QuizData, QuizQuestion, OptionKey, AnswerRecord, QuizMode } from "@/types/quiz";
 import { Category, Grade, Subject, grades } from "@/data/categories";
-import { DEFAULT_QUESTIONS_PER_QUIZ, getNumberOfQuestionsForCategory } from "@/lib/quizConfig";
+import { getJokerLimitForCategory, getNumberOfQuestionsForCategory } from "@/lib/quizConfig";
 import GradeSelect from "./GradeSelect";
 import SubjectSelect from "./SubjectSelect";
 import CategorySelect from "./CategorySelect";
 import QuestionCard from "./QuestionCard";
 import ResultsScreen from "./ResultsScreen";
 import TextbooksSelect from "./TextbooksSelect";
+import ModeSelect from "./ModeSelect";
 
-type Screen = "grades" | "subjects" | "categories" | "quiz" | "results" | "textbooks";
+type Screen = "grades" | "subjects" | "categories" | "modes" | "quiz" | "results" | "textbooks";
 
 const DEFAULT_TIME_PER_QUESTION = 45;
 
@@ -19,16 +20,17 @@ const pathForTextbooks = (gradeId: string) => `/grade/${gradeId}/textbooks`;
 const pathForSubject = (gradeId: string, subjectId: string) => `/grade/${gradeId}/subject/${subjectId}`;
 const pathForCategory = (gradeId: string, subjectId: string, categoryId: string) =>
   `/grade/${gradeId}/subject/${subjectId}/category/${categoryId}`;
-const pathForQuiz = (gradeId: string, subjectId: string, categoryId: string) =>
-  `${pathForCategory(gradeId, subjectId, categoryId)}/quiz`;
-const pathForResults = (gradeId: string, subjectId: string, categoryId: string) =>
-  `${pathForCategory(gradeId, subjectId, categoryId)}/results`;
+const pathForQuiz = (gradeId: string, subjectId: string, categoryId: string, mode: QuizMode) =>
+  `${pathForCategory(gradeId, subjectId, categoryId)}/quiz?mode=${mode}`;
+const pathForResults = (gradeId: string, subjectId: string, categoryId: string, mode: QuizMode) =>
+  `${pathForCategory(gradeId, subjectId, categoryId)}/results?mode=${mode}`;
 
 type RouteState =
   | { kind: "grades" }
   | { kind: "subjects"; gradeId: string }
   | { kind: "textbooks"; gradeId: string }
   | { kind: "categories"; gradeId: string; subjectId: string }
+  | { kind: "modes"; gradeId: string; subjectId: string; categoryId: string }
   | { kind: "quiz"; gradeId: string; subjectId: string; categoryId: string }
   | { kind: "results"; gradeId: string; subjectId: string; categoryId: string }
   | { kind: "unknown" };
@@ -64,9 +66,10 @@ function parseRoute(pathname: string): RouteState {
   const categoryMatch = pathname.match(/^\/grade\/([^/]+)\/subject\/([^/]+)\/category\/([^/]+)\/?$/);
   if (categoryMatch) {
     return {
-      kind: "categories",
+      kind: "modes",
       gradeId: categoryMatch[1],
       subjectId: categoryMatch[2],
+      categoryId: categoryMatch[3],
     };
   }
 
@@ -124,13 +127,26 @@ const QuizApp = () => {
   const [selectedGrade, setSelectedGrade] = useState<Grade | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
+  const [quizMode, setQuizMode] = useState<QuizMode>("multiple-choice");
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
+  const [jokerQuestionIndices, setJokerQuestionIndices] = useState<number[]>([]);
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [loadError, setLoadError] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const loadRequestIdRef = useRef(0);
+  const jokerLimit = getJokerLimitForCategory(selectedCategory);
+
+  const handleUseJoker = useCallback(() => {
+    if (quizMode !== "paper" || screen !== "quiz" || !quizQuestions[currentIndex]) return;
+
+    setJokerQuestionIndices((indices) => {
+      if (indices.includes(currentIndex) || indices.length >= jokerLimit) return indices;
+      return [...indices, currentIndex];
+    });
+  }, [quizMode, screen, quizQuestions, currentIndex, jokerLimit]);
 
   const handleGradeSelect = useCallback((grade: Grade) => {
     setSelectedGrade(grade);
@@ -143,7 +159,7 @@ const QuizApp = () => {
     navigate(pathForSubject(selectedGrade.id, subject.id));
   }, [navigate, selectedGrade]);
 
-  const startQuiz = useCallback(async (category: Category, options?: { updatePath?: boolean }) => {
+  const startQuiz = useCallback(async (category: Category, mode: QuizMode) => {
     const requestId = ++loadRequestIdRef.current;
 
     if (timerRef.current) {
@@ -152,36 +168,38 @@ const QuizApp = () => {
     }
 
     setLoading(true);
+    setLoadError(false);
     setSelectedCategory(category);
+    setQuizMode(mode);
 
     try {
       const res = await fetch(category.file);
+      if (!res.ok) throw new Error(`Failed to load questions: ${res.status}`);
       const data: QuizData = await res.json();
 
       if (requestId !== loadRequestIdRef.current) return;
 
       const picked = shuffleAndPick(data.Questions, getNumberOfQuestionsForCategory(category));
+      if (!picked.length) throw new Error("No questions available");
       setQuizQuestions(picked);
       setCurrentIndex(0);
       setAnswers([]);
+      setJokerQuestionIndices([]);
       setTimeElapsed(0);
       setScreen("quiz");
-
-      if (options?.updatePath !== false && selectedGrade && selectedSubject) {
-        navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, category.id));
-      }
 
       timerRef.current = setInterval(() => {
         setTimeElapsed((t) => t + 1);
       }, 1000);
     } catch (e) {
       console.error("Failed to load questions", e);
+      if (requestId === loadRequestIdRef.current) setLoadError(true);
     } finally {
       if (requestId === loadRequestIdRef.current) {
         setLoading(false);
       }
     }
-  }, [navigate, selectedGrade, selectedSubject]);
+  }, []);
 
   const handleAnswer = useCallback(
     (selected: OptionKey | null) => {
@@ -190,6 +208,7 @@ const QuizApp = () => {
         question,
         selectedAnswer: selected,
         isCorrect: selected !== null && selected === question.CorrectAnswer,
+        usedJoker: quizMode === "paper" && jokerQuestionIndices.includes(currentIndex),
       };
 
       const newAnswers = [...answers, record];
@@ -201,20 +220,23 @@ const QuizApp = () => {
         if (timerRef.current) clearInterval(timerRef.current);
         setScreen("results");
         if (selectedGrade && selectedSubject && selectedCategory) {
-          navigate(pathForResults(selectedGrade.id, selectedSubject.id, selectedCategory.id));
+          navigate(pathForResults(selectedGrade.id, selectedSubject.id, selectedCategory.id, quizMode));
         }
       }
     },
-    [quizQuestions, currentIndex, answers, selectedGrade, selectedSubject, selectedCategory, navigate]
+    [quizQuestions, currentIndex, answers, selectedGrade, selectedSubject, selectedCategory, quizMode, navigate, jokerQuestionIndices]
   );
 
   const handleRestartQuiz = useCallback(() => {
     if (!selectedCategory) return;
-    startQuiz(selectedCategory, { updatePath: false });
-    if (selectedGrade && selectedSubject) {
-      navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, selectedCategory.id));
+    if (screen === "quiz") {
+      void startQuiz(selectedCategory, quizMode);
+      return;
     }
-  }, [selectedCategory, startQuiz, selectedGrade, selectedSubject, navigate]);
+    if (selectedGrade && selectedSubject) {
+      navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, selectedCategory.id, quizMode));
+    }
+  }, [selectedCategory, startQuiz, selectedGrade, selectedSubject, quizMode, screen, navigate]);
 
   const handleRestart = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
@@ -231,6 +253,21 @@ const QuizApp = () => {
     navigate(pathForTextbooks(selectedGrade.id));
   }, [navigate, selectedGrade]);
 
+  const cancelPendingQuiz = useCallback(() => {
+    ++loadRequestIdRef.current;
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+  }, []);
+
+  // Cancel pending loads and timers when leaving a route, including during answer reveals.
+  useEffect(() => {
+    setLoading(false);
+    setLoadError(false);
+    return cancelPendingQuiz;
+  }, [location.pathname, location.search, cancelPendingQuiz]);
+
   useEffect(() => {
     if (!(location.state as { homeResetToken?: number } | null)?.homeResetToken) return;
 
@@ -246,6 +283,7 @@ const QuizApp = () => {
     setQuizQuestions([]);
     setCurrentIndex(0);
     setAnswers([]);
+    setJokerQuestionIndices([]);
     setTimeElapsed(0);
     setLoading(false);
     navigate("/", { replace: true, state: null });
@@ -272,6 +310,7 @@ const QuizApp = () => {
         setQuizQuestions([]);
         setCurrentIndex(0);
         setAnswers([]);
+        setJokerQuestionIndices([]);
         setTimeElapsed(0);
         return;
       }
@@ -332,9 +371,20 @@ const QuizApp = () => {
 
       setSelectedCategory(category);
 
+      if (route.kind === "modes") {
+        setScreen("modes");
+        return;
+      }
+
+      const routeMode = new URLSearchParams(location.search).get("mode");
+      if (routeMode !== "multiple-choice" && routeMode !== "paper") {
+        navigate(pathForCategory(grade.id, subject.id, category.id), { replace: true });
+        return;
+      }
+
       if (route.kind === "quiz") {
-        if (!quizQuestions.length || selectedCategory?.id !== category.id || screen !== "quiz") {
-          await startQuiz(category, { updatePath: false });
+        if (!quizQuestions.length || selectedCategory?.id !== category.id || quizMode !== routeMode || screen !== "quiz") {
+          await startQuiz(category, routeMode);
         } else {
           setScreen("quiz");
         }
@@ -342,9 +392,8 @@ const QuizApp = () => {
       }
 
       if (route.kind === "results") {
-        if (answers.length === 0 || selectedCategory?.id !== category.id) {
-          await startQuiz(category, { updatePath: false });
-          navigate(pathForQuiz(grade.id, subject.id, category.id), { replace: true });
+        if (answers.length === 0 || selectedCategory?.id !== category.id || quizMode !== routeMode) {
+          navigate(pathForCategory(grade.id, subject.id, category.id), { replace: true });
           return;
         }
         if (timerRef.current) {
@@ -358,24 +407,32 @@ const QuizApp = () => {
     void syncFromPath();
   }, [
     location.pathname,
+    location.search,
     navigate,
     quizQuestions.length,
     selectedCategory,
     screen,
     answers.length,
+    quizMode,
     startQuiz,
   ]);
-
-  useEffect(() => {
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, []);
 
   if (loading) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" />
+      </div>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 px-4 text-center">
+        <p role="alert">Прашањата не може да се вчитаат. Обиди се повторно.</p>
+        <button onClick={() => selectedCategory && startQuiz(selectedCategory, quizMode)} className="rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground">
+          Обиди се повторно
+        </button>
+        <button onClick={handleHome} className="text-primary">Почетна</button>
       </div>
     );
   }
@@ -412,11 +469,21 @@ const QuizApp = () => {
           categories={selectedSubject.categories}
           subjectTitle={selectedSubject.label}
           onSelect={(category) => {
-            navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, category.id));
+            navigate(pathForCategory(selectedGrade.id, selectedSubject.id, category.id));
           }}
           onBack={() => {
             navigate(pathForGrade(selectedGrade.id));
           }}
+        />
+      );
+    case "modes":
+      if (!selectedGrade || !selectedSubject || !selectedCategory) return null;
+      return (
+        <ModeSelect
+          quizTitle={selectedCategory.label}
+          jokerLimit={jokerLimit}
+          onSelect={(mode) => navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, selectedCategory.id, mode))}
+          onBack={() => navigate(pathForSubject(selectedGrade.id, selectedSubject.id))}
         />
       );
     case "quiz":
@@ -438,6 +505,10 @@ const QuizApp = () => {
           onRestart={handleRestartQuiz}
           onHome={handleHome}
           quizTitle={selectedCategory?.label || ""}
+          mode={quizMode}
+          jokerUsed={jokerQuestionIndices.includes(currentIndex)}
+          jokersRemaining={Math.max(0, jokerLimit - jokerQuestionIndices.length)}
+          onUseJoker={quizMode === "paper" ? handleUseJoker : undefined}
         />
       );
     case "results":
@@ -448,7 +519,7 @@ const QuizApp = () => {
           </div>
         );
       }
-      return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} quizTitle={selectedCategory?.label || ""} />;
+      return <ResultsScreen answers={answers} timeElapsed={timeElapsed} onRestart={handleRestart} onRestartQuiz={handleRestartQuiz} quizTitle={selectedCategory?.label || ""} mode={quizMode} jokerLimit={jokerLimit} />;
     case "textbooks":
       if (!selectedGrade) {
         return (

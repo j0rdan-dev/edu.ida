@@ -313,7 +313,7 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која дропка е еднаква на 0,5?",
+      "Question": "Која дропка со именител 10 е еднаква на 0,5?",
       "OptionA": "2/10",
       "OptionB": "1/10",
       "OptionC": "5/10",
@@ -737,7 +737,7 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Која дропка е еднаква на 0,75?",
+      "Question": "Која дропка со именител 100 е еднаква на 0,75?",
       "OptionA": "75/10",
       "OptionB": "5/100",
       "OptionC": "7/100",

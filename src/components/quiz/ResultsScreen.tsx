@@ -1,5 +1,7 @@
-import { AnswerRecord, OptionKey, QuizQuestion } from "@/types/quiz";
-import { Check, X, RotateCcw, Trophy, Target, Clock, Brain } from "lucide-react";
+import { useState } from "react";
+import { AnswerRecord, OptionKey, QuizQuestion, QuizMode } from "@/types/quiz";
+import { Check, X, RotateCcw, Trophy, Target, Clock, Brain, PencilLine, Sparkles } from "lucide-react";
+import { DEFAULT_JOKERS_PER_QUIZ } from "@/lib/quizConfig";
 
 function getAiAssistantUrl(question: QuizQuestion) {
   const query = `На ученик од основно одделение му е потребна помош со следново прашање и темата на којашто припаѓа прашањето:
@@ -19,6 +21,8 @@ interface ResultsScreenProps {
   onRestart: () => void;
   onRestartQuiz: () => void;
   quizTitle: string;
+  mode?: QuizMode;
+  jokerLimit?: number;
 }
 
 const optionLabels: Record<OptionKey, string> = {
@@ -28,10 +32,15 @@ const optionLabels: Record<OptionKey, string> = {
   OptionD: "Г",
 };
 
-const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTitle }: ResultsScreenProps) => {
-  const correct = answers.filter((a) => a.isCorrect).length;
+const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTitle, mode = "multiple-choice", jokerLimit = DEFAULT_JOKERS_PER_QUIZ }: ResultsScreenProps) => {
+  const isPaper = mode === "paper";
+  const [paperChecks, setPaperChecks] = useState<Record<number, boolean>>({});
+  const reviewed = Object.keys(paperChecks).length;
+  const correct = isPaper ? Object.values(paperChecks).filter(Boolean).length : answers.filter((a) => a.isCorrect).length;
   const total = answers.length;
-  const percentage = Math.round((correct / total) * 100);
+  const jokersUsed = answers.filter((answer) => answer.usedJoker).length;
+  const percentage = total ? Math.round((correct / total) * 100) : 0;
+  const reviewComplete = !isPaper || reviewed === total;
   const minutes = Math.floor(timeElapsed / 60);
   const seconds = timeElapsed % 60;
 
@@ -50,22 +59,28 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
         <div className="text-center mb-8 opacity-0 animate-fade-up">
           <h2 className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">{quizTitle}</h2>
           <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
-            <Trophy className="h-10 w-10 text-primary" />
+            {isPaper && !reviewComplete ? <PencilLine className="h-10 w-10 text-primary" /> : <Trophy className="h-10 w-10 text-primary" />}
           </div>
-          <h2 className="text-2xl font-bold text-foreground mb-1">{getMessage()}</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-1">{reviewComplete ? getMessage() : "Провери ги одговорите"}</h2>
           <p className="text-muted-foreground">Резултати од квизот</p>
+          {isPaper && (
+            <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+              <p>Спореди ги одговорите на хартија со точните одговори. Самостојно, со родител или наставник означи кои одговори се точни.</p>
+              <p role="status" className="font-semibold text-primary">Проверени: {reviewed} од {total}</p>
+            </div>
+          )}
         </div>
 
         {/* Stats cards */}
         <div className="grid grid-cols-3 gap-3 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
           <div className="flex flex-col items-center rounded-xl bg-card border border-border p-4 shadow-sm">
             <Target className="h-5 w-5 text-primary mb-1.5" />
-            <span className="text-2xl font-bold text-foreground">{correct}/{total}</span>
-            <span className="text-xs text-muted-foreground">Точни</span>
+            <span className="text-2xl font-bold text-foreground">{isPaper && reviewed === 0 ? "—" : `${correct}/${reviewComplete ? total : reviewed}`}</span>
+            <span className="text-xs text-muted-foreground">{isPaper && !reviewComplete ? "Точни од проверените" : "Точни"}</span>
           </div>
           <div className="flex flex-col items-center rounded-xl bg-card border border-border p-4 shadow-sm">
             <Trophy className="h-5 w-5 text-secondary mb-1.5" />
-            <span className="text-2xl font-bold text-foreground">{percentage}%</span>
+            <span className="text-2xl font-bold text-foreground">{reviewComplete ? `${percentage}%` : "—"}</span>
             <span className="text-xs text-muted-foreground">Успешност</span>
           </div>
           <div className="flex flex-col items-center rounded-xl bg-card border border-border p-4 shadow-sm">
@@ -75,43 +90,87 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
           </div>
         </div>
 
+        {isPaper && (
+          <div role="group" aria-label="Џокери во квизот" className="mb-8 rounded-xl border-2 border-primary/20 bg-primary/5 p-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary"><Sparkles className="h-5 w-5" aria-hidden="true" /></span>
+              <div>
+                <p className="text-base font-semibold text-foreground">Искористени џокери</p>
+                <p className="mt-1 text-3xl font-bold tabular-nums text-foreground">
+                  {jokersUsed}{" "}<span className="text-sm font-medium text-muted-foreground">од {jokerLimit}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Review */}
         <div className="space-y-3 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "200ms" }}>
           <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide">Преглед</h3>
-          {answers.map((record, i) => (
+          {answers.map((record, i) => {
+            const checkedCorrect = isPaper ? paperChecks[i] : record.isCorrect;
+            return (
             <div
               key={i}
               className={`rounded-xl border-2 p-4 ${
-                record.isCorrect
+                checkedCorrect === undefined
+                  ? "border-border bg-card"
+                  : checkedCorrect
                   ? "border-success/30 bg-success/5"
                   : "border-destructive/30 bg-destructive/5"
               }`}
             >
               <div className="flex items-start gap-3">
                 <span className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full ${
-                  record.isCorrect ? "bg-success text-success-foreground" : "bg-destructive text-destructive-foreground"
+                  checkedCorrect === undefined ? "bg-muted text-muted-foreground" : checkedCorrect ? "bg-success text-success-foreground" : "bg-destructive text-destructive-foreground"
                 }`}>
-                  {record.isCorrect ? <Check className="h-3.5 w-3.5" /> : <X className="h-3.5 w-3.5" />}
+                  {checkedCorrect === undefined ? <span className="text-xs font-semibold">{i + 1}</span> : checkedCorrect ? <Check className="h-3.5 w-3.5" /> : <X className="h-3.5 w-3.5" />}
                 </span>
                 <div className="min-w-0 flex-1">
                   <p className="text-sm font-medium text-foreground leading-relaxed mb-1.5">
                     {record.question.Question}
                   </p>
-                  {!record.isCorrect && record.selectedAnswer && (
+                  {isPaper && record.usedJoker && (
+                    <span className="mb-2 inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-2 py-1 text-xs font-semibold text-foreground">
+                      <Sparkles className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
+                      Со џокер
+                    </span>
+                  )}
+                  {!isPaper && !record.isCorrect && record.selectedAnswer && (
                     <p className="text-xs text-muted-foreground">
                       Твој одговор: <span className="text-destructive font-medium">{optionLabels[record.selectedAnswer]} — {record.question[record.selectedAnswer]}</span>
                     </p>
                   )}
-                  {!record.isCorrect && !record.selectedAnswer && (
+                  {!isPaper && !record.isCorrect && !record.selectedAnswer && (
                     <p className="text-xs text-destructive font-medium">
                       ⏱ Времето истече
                     </p>
                   )}
                   <p className="text-xs text-muted-foreground">
-                    Точен одговор: <span className="text-success font-medium">{optionLabels[record.question.CorrectAnswer]} — {record.question[record.question.CorrectAnswer]}</span>
+                    Точен одговор: <span className="text-success font-medium">{!isPaper && `${optionLabels[record.question.CorrectAnswer]} — `}{record.question[record.question.CorrectAnswer]}</span>
                   </p>
+                  {isPaper && (
+                    <div role="group" aria-label={`Проверка на прашање ${i + 1}`} className="mt-3 flex flex-wrap gap-2">
+                      <button
+                        aria-pressed={checkedCorrect === true}
+                        onClick={() => setPaperChecks((checks) => ({ ...checks, [i]: true }))}
+                        className={`inline-flex items-center gap-1.5 rounded-lg border-2 px-3 py-2 text-sm font-medium transition-colors ${checkedCorrect === true ? "border-success bg-success/10 text-success" : "border-border bg-card text-foreground hover:border-success/50"}`}
+                      >
+                        <Check className="h-4 w-4" />
+                        Точно
+                      </button>
+                      <button
+                        aria-pressed={checkedCorrect === false}
+                        onClick={() => setPaperChecks((checks) => ({ ...checks, [i]: false }))}
+                        className={`inline-flex items-center gap-1.5 rounded-lg border-2 px-3 py-2 text-sm font-medium transition-colors ${checkedCorrect === false ? "border-destructive bg-destructive/10 text-destructive" : "border-border bg-card text-foreground hover:border-destructive/50"}`}
+                      >
+                        <X className="h-4 w-4" />
+                        Неточно
+                      </button>
+                    </div>
+                  )}
                 </div>
-                {!record.isCorrect && !record.question.image?.trim() && (
+                {!checkedCorrect && !record.question.image?.trim() && (
                   <a
                     href={getAiAssistantUrl(record.question)}
                     target="_blank"
@@ -124,7 +183,8 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
                 )}
               </div>
             </div>
-          ))}
+          );
+          })}
         </div>
 
         {/* Restart buttons */}

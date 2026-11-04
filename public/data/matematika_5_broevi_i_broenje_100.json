@@ -217,7 +217,7 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој запис е еднаков на 50%?",
+      "Question": "Запиши 50% како децимален број.",
       "OptionA": "0,005",
       "OptionB": "5,0",
       "OptionC": "0,05",
@@ -281,7 +281,7 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Која дропка е еднаква на 1/4?",
+      "Question": "Која дропка со именител 8 е еднаква на 1/4?",
       "OptionA": "2/4",
       "OptionB": "4/8",
       "OptionC": "3/8",
@@ -353,7 +353,7 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Која дропка е еднаква на 1/2?",
+      "Question": "Која дропка со именител 4 е еднаква на 1/2?",
       "OptionA": "2/4",
       "OptionB": "3/8",
       "OptionC": "2/5",
@@ -361,7 +361,7 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Која дропка е еднаква на 1/3?",
+      "Question": "Која дропка со именител 6 е еднаква на 1/3?",
       "OptionA": "1/6",
       "OptionB": "2/6",
       "OptionC": "2/3",
@@ -737,7 +737,7 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Кој број е позитивен?",
+      "Question": "Разгледај ги броевите: 8; 0; -1; -8. Кој број е позитивен?",
       "OptionA": "8",
       "OptionB": "0",
       "OptionC": "-1",
@@ -793,7 +793,7 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Кој број е негативен?",
+      "Question": "Разгледај ги броевите: 7; 17; 0; -7. Кој број е негативен?",
       "OptionA": "7",
       "OptionB": "17",
       "OptionC": "0",
