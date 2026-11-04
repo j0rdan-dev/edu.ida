@@ -1,14 +1,13 @@
-import { Grade, Subject } from "@/data/categories";
+import { Grade } from "@/data/categories";
 import { ArrowLeft, BookOpen } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface SubjectSelectProps {
   grade: Grade;
-  onSelect: (subject: Subject) => void;
   onBack: () => void;
-  onTextbooksClick: () => void;
 }
 
-const SubjectSelect = ({ grade, onSelect, onBack, onTextbooksClick }: SubjectSelectProps) => {
+const SubjectSelect = ({ grade, onBack }: SubjectSelectProps) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg flex flex-col h-full">
@@ -24,11 +23,13 @@ const SubjectSelect = ({ grade, onSelect, onBack, onTextbooksClick }: SubjectSel
             const Icon = subject.icon;
             const hasCategories = subject.categories.length > 0;
             return (
-              <button
+              <Link
                 key={subject.id}
-                onClick={() => hasCategories && onSelect(subject)}
-                disabled={!hasCategories}
-                className="group flex items-center gap-4 w-full rounded-xl border-2 border-border bg-card p-5 text-left transition-all duration-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:border-border disabled:hover:shadow-none disabled:hover:translate-y-0 opacity-0 animate-fade-up"
+                to={`/grade/${encodeURIComponent(grade.id)}/subject/${encodeURIComponent(subject.id)}/`}
+                aria-disabled={!hasCategories || undefined}
+                tabIndex={!hasCategories ? -1 : undefined}
+                onClick={(event) => { if (!hasCategories) event.preventDefault(); }}
+                className="group flex items-center gap-4 w-full rounded-xl border-2 border-border bg-card p-5 text-left transition-all duration-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98] aria-disabled:opacity-50 aria-disabled:cursor-not-allowed aria-disabled:hover:border-border aria-disabled:hover:shadow-none aria-disabled:hover:translate-y-0 opacity-0 animate-fade-up"
                 style={{ animationDelay: `${100 + i * 80}ms` }}
               >
                 <div
@@ -45,13 +46,13 @@ const SubjectSelect = ({ grade, onSelect, onBack, onTextbooksClick }: SubjectSel
                       : "Наскоро"}
                   </p>
                 </div>
-              </button>
+              </Link>
             );
           })}
 
           {/* Textbooks Section */}
-          <button
-            onClick={onTextbooksClick}
+          <Link
+            to={`/grade/${encodeURIComponent(grade.id)}/textbooks/`}
             className="group flex items-center gap-4 w-full rounded-xl border-2 border-border bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-5 text-left transition-all duration-200 hover:border-purple-400/60 hover:shadow-lg hover:shadow-purple-500/10 hover:-translate-y-0.5 active:scale-[0.98] opacity-0 animate-fade-up mt-2"
             style={{ animationDelay: `${100 + grade.subjects.length * 80}ms` }}
           >
@@ -62,7 +63,7 @@ const SubjectSelect = ({ grade, onSelect, onBack, onTextbooksClick }: SubjectSel
               <p className="font-semibold text-foreground text-base">Учебници</p>
               <p className="text-sm text-muted-foreground">Образовни материјали</p>
             </div>
-          </button>
+          </Link>
         </div>
 
         {/* Back Button */}

@@ -15,11 +15,10 @@ type Screen = "grades" | "subjects" | "categories" | "modes" | "quiz" | "results
 
 const DEFAULT_TIME_PER_QUESTION = 45;
 
-const pathForGrade = (gradeId: string) => `/grade/${gradeId}`;
-const pathForTextbooks = (gradeId: string) => `/grade/${gradeId}/textbooks`;
-const pathForSubject = (gradeId: string, subjectId: string) => `/grade/${gradeId}/subject/${subjectId}`;
+const pathForGrade = (gradeId: string) => `/grade/${encodeURIComponent(gradeId)}`;
+const pathForSubject = (gradeId: string, subjectId: string) => `${pathForGrade(gradeId)}/subject/${encodeURIComponent(subjectId)}`;
 const pathForCategory = (gradeId: string, subjectId: string, categoryId: string) =>
-  `/grade/${gradeId}/subject/${subjectId}/category/${categoryId}`;
+  `${pathForSubject(gradeId, subjectId)}/category/${encodeURIComponent(categoryId)}`;
 const pathForQuiz = (gradeId: string, subjectId: string, categoryId: string, mode: QuizMode) =>
   `${pathForCategory(gradeId, subjectId, categoryId)}/quiz?mode=${mode}`;
 const pathForResults = (gradeId: string, subjectId: string, categoryId: string, mode: QuizMode) =>
@@ -36,6 +35,13 @@ type RouteState =
   | { kind: "unknown" };
 
 function parseRoute(pathname: string): RouteState {
+  try {
+    const segments = pathname.split("/").map(decodeURIComponent);
+    if (segments.some(segment => segment.includes("/"))) return { kind: "unknown" };
+    pathname = segments.join("/");
+  } catch {
+    return { kind: "unknown" };
+  }
   if (pathname === "/" || pathname === "") return { kind: "grades" };
 
   const gradeTextbooksMatch = pathname.match(/^\/grade\/([^/]+)\/textbooks\/?$/);
@@ -148,17 +154,6 @@ const QuizApp = () => {
     });
   }, [quizMode, screen, quizQuestions, currentIndex, jokerLimit]);
 
-  const handleGradeSelect = useCallback((grade: Grade) => {
-    setSelectedGrade(grade);
-    navigate(pathForGrade(grade.id));
-  }, [navigate]);
-
-  const handleSubjectSelect = useCallback((subject: Subject) => {
-    if (!selectedGrade) return;
-    setSelectedSubject(subject);
-    navigate(pathForSubject(selectedGrade.id, subject.id));
-  }, [navigate, selectedGrade]);
-
   const startQuiz = useCallback(async (category: Category, mode: QuizMode) => {
     const requestId = ++loadRequestIdRef.current;
 
@@ -247,11 +242,6 @@ const QuizApp = () => {
     if (timerRef.current) clearInterval(timerRef.current);
     navigate("/");
   }, [navigate]);
-
-  const handleTextbooksClick = useCallback(() => {
-    if (!selectedGrade) return;
-    navigate(pathForTextbooks(selectedGrade.id));
-  }, [navigate, selectedGrade]);
 
   const cancelPendingQuiz = useCallback(() => {
     ++loadRequestIdRef.current;
@@ -439,7 +429,7 @@ const QuizApp = () => {
 
   switch (screen) {
     case "grades":
-      return <GradeSelect onSelect={handleGradeSelect} />;
+      return <GradeSelect />;
     case "subjects":
       if (!selectedGrade) {
         return (
@@ -451,9 +441,7 @@ const QuizApp = () => {
       return (
         <SubjectSelect
           grade={selectedGrade}
-          onSelect={handleSubjectSelect}
           onBack={() => navigate("/")}
-          onTextbooksClick={handleTextbooksClick}
         />
       );
     case "categories":
@@ -468,9 +456,8 @@ const QuizApp = () => {
         <CategorySelect
           categories={selectedSubject.categories}
           subjectTitle={selectedSubject.label}
-          onSelect={(category) => {
-            navigate(pathForCategory(selectedGrade.id, selectedSubject.id, category.id));
-          }}
+          gradeId={selectedGrade.id}
+          subjectId={selectedSubject.id}
           onBack={() => {
             navigate(pathForGrade(selectedGrade.id));
           }}
