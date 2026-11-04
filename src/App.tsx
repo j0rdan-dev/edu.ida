@@ -13,6 +13,10 @@ import { BuddyProvider } from "@/context/BuddyContext";
 import Index from "./pages/Index.tsx";
 import About from "./pages/About.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import { lazy, Suspense } from "react";
+import { EARTH_GAME_PATH } from "@/data/earthExpedition";
+
+const EarthExpedition = lazy(() => import("./pages/EarthExpedition"));
 
 const queryClient = new QueryClient();
 
@@ -34,6 +38,7 @@ const App = () => (
                   <Route path="/grade/:gradeId/textbooks" element={<Index />} />
                   <Route path="/grade/:gradeId/*" element={<Index />} />
                   <Route path="/about" element={<About />} />
+                  <Route path={EARTH_GAME_PATH} element={<Suspense fallback={<div role="status" className="flex min-h-[60vh] items-center justify-center text-primary">Експедицијата се подготвува...</div>}><EarthExpedition /></Suspense>} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
                 </Routes>

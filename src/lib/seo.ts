@@ -1,4 +1,5 @@
 import { grades, textbooksByGrade } from "../data/categories";
+import { EARTH_GAME_PATH, EARTH_QUIZ_PATH, EARTH_SUBJECT_PATH } from "../data/earthExpedition";
 
 export const SITE_ORIGIN = "https://edu.ida.mk";
 export const SITE_NAME = "EDU.IDA";
@@ -63,6 +64,14 @@ export function getPageMetadata(pathname: string): PageMetadata {
   });
 
   if (path === "/") return base;
+  if (path === EARTH_GAME_PATH.replace(/\/+$/, "")) return {
+    ...base,
+    title: "Мисија: Земја | Образовна географска игра за деца | EDU.IDA",
+    description: "Истражи ги физичко-географските карактеристики на Земјата низ 16 откритија. Континенти, релјеф, компас, Земјини обвивки, време и клима за 4–5 одделение.",
+    keywords: keywords(...BASE_KEYWORDS, "мисија земја", "географска игра за деца", "физичко-географски карактеристики на Земјата", "континенти", "релјеф", "компас", "Земјини обвивки", "време и клима", "четврто одделение", "петто одделение"),
+    imageAlt: "Мисија: Земја — образовна истражувачка игра за деца",
+    breadcrumbs: [homeCrumb, { name: "Природни науки", url: canonicalUrl(EARTH_SUBJECT_PATH) }, { name: "Физичко-географски карактеристики на Земјата", url: canonicalUrl(EARTH_QUIZ_PATH) }, { name: "Мисија: Земја", url: canonicalUrl(EARTH_GAME_PATH) }],
+  };
   if (path === "/about") return {
     ...base,
     title: "За EDU.IDA | Учење преку квизови за деца",
@@ -153,7 +162,7 @@ export function getPageMetadata(pathname: string): PageMetadata {
 }
 
 export function getIndexablePaths() {
-  const paths = ["/", "/about/"];
+  const paths = ["/", "/about/", EARTH_GAME_PATH];
   for (const grade of grades.filter(grade => grade.enabled)) {
     const gradePath = `/grade/${encodeURIComponent(grade.id)}`;
     paths.push(`${gradePath}/`, `${gradePath}/textbooks/`);

@@ -16,6 +16,14 @@ Change `DEFAULT_JOKERS_PER_QUIZ` in `src/lib/quizConfig.ts` to set the default. 
 
 The production domain is configured by `SITE_ORIGIN` in `src/lib/seo.ts`. The sitemap follows the catalog automatically when grades, subjects, or quiz topics change. After deploying, submit the sitemap in Google Search Console and use URL Inspection to check the published pages.
 
+## Мисија: Земја
+
+The educational game at `/games/mission-earth/` is linked from the Earth geography topics in Natural Sciences for grades 4 and 5. It includes 16 discoveries across continents, landforms and water, compass navigation, Earth's spheres, and weather/climate. Children can retry and use hints without time limits. Five badges and a recap passport reward completion.
+
+Progress is saved locally on the device under `edu-ida-earth-expedition-v1`; the game also works if storage is unavailable. A new expedition resets that game's progress. Mission content is defined in `src/data/earthExpedition.ts`. Illustrations are local interactive SVGs, and the game loads in a separate bundle. Its public URL has metadata and a sitemap entry.
+
+Content follows the site's Earth geography topic. Teacher references: [NASA — Spheres of Earth](https://ares.jsc.nasa.gov/engagement/activities/spheres-of-earth.cfm) and [NOAA — Climate compared to weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather). The illustrated world map uses approximate continent shapes and the island is fictional.
+
 ## Google Analytics
 
 Set `VITE_GA_MEASUREMENT_ID` to your Google Analytics 4 measurement ID (for example, `G-XXXXXXXXXX`) in the environment used to build the app. When it is unset, analytics is disabled. Page views are sent for the initial page and each client-side route change.

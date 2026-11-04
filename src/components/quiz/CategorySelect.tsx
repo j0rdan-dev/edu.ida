@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Category } from "@/data/categories";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import EarthGameLink from "@/components/games/EarthGameLink";
+import { EARTH_GAME_PATH } from "@/data/earthExpedition";
 
 interface CategorySelectProps {
   categories: Category[];
@@ -49,6 +51,8 @@ const CategorySelect = ({ categories, subjectTitle, gradeId, subjectId, onBack }
           </h1>
           <p className="text-lg text-muted-foreground font-subtitle font-semibold">Избери категорија</p>
         </div>
+
+        {categories.some(category => category.gamePath === EARTH_GAME_PATH) && <div className="mb-5"><EarthGameLink /></div>}
 
         <div className="mb-6 rounded-xl border-2 border-amber-200 bg-amber-50/90 p-4 opacity-0 animate-fade-up" style={{ animationDelay: "90ms" }}>
           <p className="text-base font-bold text-amber-900 mb-1">Совети за подобро учење</p>
