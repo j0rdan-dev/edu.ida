@@ -1,5 +1,4 @@
 import { Droplets, Rocket, FlaskConical, Calculator, Globe, TreePine, Zap, BookOpen, LucideIcon, Earth, Volume, Volume2, Leaf, Bug, Microscope, Sprout, Wind, Hash, Compass, Plus, Ruler, BarChart3, Home, Flag, Clock, Sun } from "lucide-react";
-import { EARTH_GAME_PATH } from "./earthExpedition";
 
 export interface Category {
   id: string;
@@ -9,7 +8,6 @@ export interface Category {
   timeLimitSeconds?: number;
   numberOfQuestions?: number;
   maxJokers?: number;
-  gamePath?: string;
   icon: LucideIcon;
   color: string;
 }
@@ -520,7 +518,6 @@ export const grades: Grade[] = [
         categories: [
           {
             id: "karakteristiki-na-zemjata-4",
-            gamePath: EARTH_GAME_PATH,
             label: "1. Физичко-географски карактеристики на Земјата",
             description: "",
             timeLimitSeconds: 120,
@@ -714,7 +711,6 @@ export const grades: Grade[] = [
         categories: [
           {
             id: "prirodni-nauki-5-karakteristiki-na-zemjata",
-            gamePath: EARTH_GAME_PATH,
             label: "Природно-географски карактеристики на Земјата",
             description: "Цела тема",
             file: `${import.meta.env.BASE_URL}data/prirodni_5_tema1_100_questions.json`,

@@ -1,15 +1,12 @@
 import { ArrowLeft, ListChecks, PencilLine, Sparkles } from "lucide-react";
 import { QuizMode } from "@/types/quiz";
 import { DEFAULT_JOKERS_PER_QUIZ } from "@/lib/quizConfig";
-import EarthGameLink from "@/components/games/EarthGameLink";
-import { EARTH_GAME_PATH } from "@/data/earthExpedition";
 
 interface ModeSelectProps {
   quizTitle: string;
   onSelect: (mode: QuizMode) => void;
   onBack: () => void;
   jokerLimit?: number;
-  gamePath?: string;
 }
 
 const modes = [
@@ -27,7 +24,7 @@ const modes = [
   },
 ];
 
-const ModeSelect = ({ quizTitle, onSelect, onBack, jokerLimit = DEFAULT_JOKERS_PER_QUIZ, gamePath }: ModeSelectProps) => (
+const ModeSelect = ({ quizTitle, onSelect, onBack, jokerLimit = DEFAULT_JOKERS_PER_QUIZ }: ModeSelectProps) => (
   <div className="flex min-h-screen flex-col items-center justify-center px-4 py-8">
     <div className="w-full max-w-lg">
       <div className="mb-10 text-center opacity-0 animate-fade-up">
@@ -60,8 +57,6 @@ const ModeSelect = ({ quizTitle, onSelect, onBack, jokerLimit = DEFAULT_JOKERS_P
           </button>
         ))}
       </div>
-
-      {gamePath === EARTH_GAME_PATH && <div className="mt-5"><EarthGameLink /></div>}
 
       <button
         onClick={onBack}

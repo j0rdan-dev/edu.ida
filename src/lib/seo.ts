@@ -1,5 +1,5 @@
 import { grades, textbooksByGrade } from "../data/categories";
-import { EARTH_GAME_PATH, EARTH_QUIZ_PATH, EARTH_SUBJECT_PATH } from "../data/earthExpedition";
+import { EARTH_GAME_PATH } from "../data/earthExpedition";
 
 export const SITE_ORIGIN = "https://edu.ida.mk";
 export const SITE_NAME = "EDU.IDA";
@@ -70,7 +70,8 @@ export function getPageMetadata(pathname: string): PageMetadata {
     description: "Истражи ги физичко-географските карактеристики на Земјата низ 16 откритија. Континенти, релјеф, компас, Земјини обвивки, време и клима за 4–5 одделение.",
     keywords: keywords(...BASE_KEYWORDS, "мисија земја", "географска игра за деца", "физичко-географски карактеристики на Земјата", "континенти", "релјеф", "компас", "Земјини обвивки", "време и клима", "четврто одделение", "петто одделение"),
     imageAlt: "Мисија: Земја — образовна истражувачка игра за деца",
-    breadcrumbs: [homeCrumb, { name: "Природни науки", url: canonicalUrl(EARTH_SUBJECT_PATH) }, { name: "Физичко-географски карактеристики на Земјата", url: canonicalUrl(EARTH_QUIZ_PATH) }, { name: "Мисија: Земја", url: canonicalUrl(EARTH_GAME_PATH) }],
+    robots: NO_INDEX,
+    breadcrumbs: [],
   };
   if (path === "/about") return {
     ...base,
@@ -162,7 +163,7 @@ export function getPageMetadata(pathname: string): PageMetadata {
 }
 
 export function getIndexablePaths() {
-  const paths = ["/", "/about/", EARTH_GAME_PATH];
+  const paths = ["/", "/about/"];
   for (const grade of grades.filter(grade => grade.enabled)) {
     const gradePath = `/grade/${encodeURIComponent(grade.id)}`;
     paths.push(`${gradePath}/`, `${gradePath}/textbooks/`);
@@ -176,11 +177,11 @@ export function getIndexablePaths() {
 }
 
 export function getStaticPaths() {
-  // Session URLs need real HTML entry points for reloads on GitHub Pages, but
-  // only the public catalog and mode-selection URLs belong in the sitemap.
-  return getIndexablePaths().flatMap(path => path.includes("/category/")
+  // Keep direct-load entry points for unlisted routes without advertising them
+  // in the public sitemap.
+  return [EARTH_GAME_PATH, ...getIndexablePaths().flatMap(path => path.includes("/category/")
     ? [path, `${path}quiz/`, `${path}results/`]
-    : [path]);
+    : [path])];
 }
 
 export function getStructuredData(metadata: PageMetadata) {

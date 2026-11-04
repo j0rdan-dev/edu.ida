@@ -119,7 +119,7 @@ export default function EarthExpedition() {
           </section>
           <div className="earth-finish-actions"><button type="button" className="earth-primary-button" onClick={restart}><RotateCcw aria-hidden="true" /> Нова експедиција</button><Link to={EARTH_QUIZ_PATH} className="earth-secondary-button">Пробај и тематски квиз <ArrowRight aria-hidden="true" /></Link></div>
         </> : mission && chapter ? <>
-          <div className="earth-adventure-header"><Link to="/games/mission-earth/" onClick={() => setStarted(false)} className="earth-wordmark"><span aria-hidden="true">🌍</span> Мисија: Земја</Link><div className="earth-discovery-counter"><Star aria-hidden="true" /><strong>{completed.length}</strong><span>/ {earthMissions.length} откритија</span></div></div>
+          <div className="earth-adventure-header"><button type="button" onClick={() => setStarted(false)} className="earth-wordmark"><span aria-hidden="true">🌍</span> Мисија: Земја</button><div className="earth-discovery-counter"><Star aria-hidden="true" /><strong>{completed.length}</strong><span>/ {earthMissions.length} откритија</span></div></div>
           <progress className="earth-progress" value={completed.length} max={earthMissions.length} aria-label="Напредок на експедицијата" />
           <nav className="earth-chapter-nav" aria-label="Станици на експедицијата">
             {earthChapters.map(item => {

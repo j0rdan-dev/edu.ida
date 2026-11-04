@@ -468,7 +468,6 @@ const QuizApp = () => {
       return (
         <ModeSelect
           quizTitle={selectedCategory.label}
-          gamePath={selectedCategory.gamePath}
           jokerLimit={jokerLimit}
           onSelect={(mode) => navigate(pathForQuiz(selectedGrade.id, selectedSubject.id, selectedCategory.id, mode))}
           onBack={() => navigate(pathForSubject(selectedGrade.id, selectedSubject.id))}

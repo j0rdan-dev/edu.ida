@@ -5,7 +5,7 @@ import { BuddyProvider } from "@/context/BuddyContext";
 import EarthExpedition from "@/pages/EarthExpedition";
 import QuizApp from "@/components/quiz/QuizApp";
 import { EARTH_GAME_PATH, EARTH_PROGRESS_KEY, earthMissions, readEarthProgress } from "@/data/earthExpedition";
-import { getIndexablePaths, getPageMetadata, getStaticPaths } from "@/lib/seo";
+import { getIndexablePaths, getPageMetadata, getStaticPaths, getStructuredData } from "@/lib/seo";
 
 const renderGame = () => render(<MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}><BuddyProvider><EarthExpedition /></BuddyProvider></MemoryRouter>);
 const click = (name: string | RegExp) => fireEvent.click(screen.getByRole("button", { name }));
@@ -109,25 +109,31 @@ describe("Earth expedition", () => {
     expect(screen.getByText(/Напредокот важи додека е отворена играта/)).toBeVisible();
   });
 
-  it("has public SEO metadata, a sitemap entry and a direct HTML entry page", () => {
+  it("keeps a direct HTML entry page while excluding the game from search indexing and the sitemap", () => {
     const metadata = getPageMetadata(EARTH_GAME_PATH);
     expect(metadata.title).toContain("Мисија: Земја");
     expect(metadata.keywords).toContain("географска игра за деца");
-    expect(metadata.robots).toMatch(/^index/);
+    expect(metadata.robots).toBe("noindex, follow");
     expect(metadata.canonicalUrl).toBe(`https://edu.ida.mk${EARTH_GAME_PATH}`);
-    expect(getIndexablePaths()).toContain(EARTH_GAME_PATH);
+    expect(getIndexablePaths()).not.toContain(EARTH_GAME_PATH);
     expect(getStaticPaths()).toContain(EARTH_GAME_PATH);
+    expect(getStructuredData(metadata)).toBeNull();
   });
 
   it.each([
     ["/grade/grade4/subject/prirodni-nauki-4/", /1\. Физичко-географски/],
     ["/grade/grade5/subject/prirodni-nauki-5/", /Природно-географски карактеристики/],
-  ])("is discoverable from the subject and topic page at %s", async (path, topic) => {
+  ])("has no game links or buttons on the subject and topic page at %s", async (path, topic) => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ json: async () => ({ Tips: ["Истражувај!"] }) }));
     render(<MemoryRouter initialEntries={[path]} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}><QuizApp /></MemoryRouter>);
-    expect(await screen.findByRole("link", { name: /Мисија: Земја/ })).toHaveAttribute("href", EARTH_GAME_PATH);
-    fireEvent.click(screen.getByRole("link", { name: topic }));
+    const topicLink = await screen.findByRole("link", { name: topic });
+    expect(screen.queryByRole("link", { name: /Мисија: Земја/ })).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Мисија: Земја/ })).not.toBeInTheDocument();
+    expect(document.querySelector(`a[href^="${EARTH_GAME_PATH}"]`)).toBeNull();
+    fireEvent.click(topicLink);
     expect(await screen.findByRole("heading", { name: "Како сакаш да го решаваш квизот?" })).toBeVisible();
-    expect(screen.getByRole("link", { name: /Мисија: Земја/ })).toHaveAttribute("href", EARTH_GAME_PATH);
+    expect(screen.queryByRole("link", { name: /Мисија: Земја/ })).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Мисија: Земја/ })).not.toBeInTheDocument();
+    expect(document.querySelector(`a[href^="${EARTH_GAME_PATH}"]`)).toBeNull();
   });
 });

@@ -18,9 +18,9 @@ The production domain is configured by `SITE_ORIGIN` in `src/lib/seo.ts`. The si
 
 ## Мисија: Земја
 
-The educational game at `/games/mission-earth/` is linked from the Earth geography topics in Natural Sciences for grades 4 and 5. It includes 16 discoveries across continents, landforms and water, compass navigation, Earth's spheres, and weather/climate. Children can retry and use hints without time limits. Five badges and a recap passport reward completion.
+The educational game is unlisted: open it by entering `/games/mission-earth/` in the browser. It has no links from the site's navigation, subject pages, or quiz mode selection. It includes 16 discoveries across continents, landforms and water, compass navigation, Earth's spheres, and weather/climate for grades 4 and 5. Children can retry and use hints without time limits. Five badges and a recap passport reward completion.
 
-Progress is saved locally on the device under `edu-ida-earth-expedition-v1`; the game also works if storage is unavailable. A new expedition resets that game's progress. Mission content is defined in `src/data/earthExpedition.ts`. Illustrations are local interactive SVGs, and the game loads in a separate bundle. Its public URL has metadata and a sitemap entry.
+Progress is saved locally on the device under `edu-ida-earth-expedition-v1`; the game also works if storage is unavailable. A new expedition resets that game's progress. Mission content is defined in `src/data/earthExpedition.ts`. Illustrations are local interactive SVGs, and the game loads in a separate bundle. Its HTML entry page supports direct access and refreshes; the game uses `noindex` and is excluded from the public sitemap.
 
 Content follows the site's Earth geography topic. Teacher references: [NASA — Spheres of Earth](https://ares.jsc.nasa.gov/engagement/activities/spheres-of-earth.cfm) and [NOAA — Climate compared to weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather). The illustrated world map uses approximate continent shapes and the island is fictional.
 
