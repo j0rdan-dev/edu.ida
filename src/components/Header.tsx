@@ -1,9 +1,11 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Home, Info } from "lucide-react";
+import { Gamepad2, Home, Info } from "lucide-react";
+import { GAMES_PATH } from "@/data/educationalGames";
 
 const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const isGamesPage = `${location.pathname.replace(/\/+$/, "")}/`.startsWith(GAMES_PATH);
 
   const handleHomeClick = () => {
     navigate("/", {
@@ -20,29 +22,35 @@ const Header = () => {
           <span className="text-primary">EDU.IDA</span>
         </Link>
 
-        <nav className="flex items-center gap-4">
+        <nav className="flex items-center gap-1 sm:gap-3" aria-label="Главна навигација">
           <button
             type="button"
+            aria-label="Почетна"
             onClick={handleHomeClick}
-            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all duration-200 ${
+            className={`flex min-h-11 items-center gap-1.5 px-3 py-2 rounded-lg transition-all duration-200 ${
               location.pathname === "/"
                 ? "bg-primary text-primary-foreground"
                 : "hover:bg-muted text-foreground"
             }`}
           >
             <Home className="h-4 w-4" />
-            <span className="text-sm font-medium">Почетна</span>
+            <span className="hidden text-sm font-medium sm:inline">Почетна</span>
           </button>
+          <Link to={GAMES_PATH} aria-current={isGamesPage ? "page" : undefined}
+            className={`flex min-h-11 items-center gap-1.5 rounded-lg px-3 py-2 transition-all duration-200 ${isGamesPage ? "bg-primary text-primary-foreground" : "hover:bg-muted text-foreground"}`}>
+            <Gamepad2 className="h-4 w-4" aria-hidden="true" /><span className="text-sm font-medium">Игри</span>
+          </Link>
           <Link
             to="/about"
-            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all duration-200 ${
+            aria-label="За нас"
+            className={`flex min-h-11 items-center gap-1.5 px-3 py-2 rounded-lg transition-all duration-200 ${
               location.pathname.replace(/\/+$/, "") === "/about"
                 ? "bg-primary text-primary-foreground"
                 : "hover:bg-muted text-foreground"
             }`}
           >
             <Info className="h-4 w-4" />
-            <span className="text-sm font-medium">За нас</span>
+            <span className="hidden text-sm font-medium min-[400px]:inline">За нас</span>
           </Link>
         </nav>
       </div>

@@ -1,5 +1,6 @@
 import { grades, textbooksByGrade } from "../data/categories";
 import { EARTH_GAME_PATH } from "../data/earthExpedition";
+import { educationalGames, GAMES_PATH } from "../data/educationalGames";
 
 export const SITE_ORIGIN = "https://edu.ida.mk";
 export const SITE_NAME = "EDU.IDA";
@@ -64,10 +65,28 @@ export function getPageMetadata(pathname: string): PageMetadata {
   });
 
   if (path === "/") return base;
+  if (path === GAMES_PATH.replace(/\/+$/, "")) return {
+    ...base,
+    title: "Образовни игри за деца | Мисија: Земја | EDU.IDA",
+    description: "Пет образовни игри на македонски за 4–5 одделение. Истражувај континенти, релјеф, компас, Земјини обвивки, време и клима со нови задачи при секое играње.",
+    keywords: keywords(...BASE_KEYWORDS, "образовни игри за деца", "мисија земја", "географија", "природни науки", "четврто одделение", "петто одделение"),
+    imageAlt: "Мисија: Земја — пет образовни игри за деца",
+    breadcrumbs: [homeCrumb, { name: "Игри", url: base.canonicalUrl }],
+  };
+  const game = educationalGames.find(item => item.path.replace(/\/+$/, "") === path);
+  if (game) return {
+    ...base,
+    title: `${game.name} | ${game.shortTitle} | Образовна игра | EDU.IDA`,
+    description: `${game.description} Образовна игра за 4–5 одделение со две нивоа, разновидни задачи, мала лекција и објаснувања.`,
+    keywords: keywords(...BASE_KEYWORDS, game.name, game.shortTitle, "географска игра за деца", "четврто одделение", "петто одделение"),
+    imageAlt: `${game.name} — учење преку игра`,
+    breadcrumbs: [homeCrumb, { name: "Игри", url: canonicalUrl(GAMES_PATH) }, { name: game.name, url: base.canonicalUrl }],
+  };
   if (path === EARTH_GAME_PATH.replace(/\/+$/, "")) return {
     ...base,
     title: "Мисија: Земја | Образовна географска игра за деца | EDU.IDA",
-    description: "Истражи ги физичко-географските карактеристики на Земјата низ 16 откритија. Континенти, релјеф, компас, Земјини обвивки, време и клима за 4–5 одделение.",
+    description: "Мисија: Земја сега има пет одделни образовни игри. Отвори ја страницата со игри и избери ја твојата следна авантура.",
+    canonicalUrl: canonicalUrl(GAMES_PATH),
     keywords: keywords(...BASE_KEYWORDS, "мисија земја", "географска игра за деца", "физичко-географски карактеристики на Земјата", "континенти", "релјеф", "компас", "Земјини обвивки", "време и клима", "четврто одделение", "петто одделение"),
     imageAlt: "Мисија: Земја — образовна истражувачка игра за деца",
     robots: NO_INDEX,
@@ -163,7 +182,7 @@ export function getPageMetadata(pathname: string): PageMetadata {
 }
 
 export function getIndexablePaths() {
-  const paths = ["/", "/about/"];
+  const paths = ["/", "/about/", GAMES_PATH, ...educationalGames.map(game => game.path)];
   for (const grade of grades.filter(grade => grade.enabled)) {
     const gradePath = `/grade/${encodeURIComponent(grade.id)}`;
     paths.push(`${gradePath}/`, `${gradePath}/textbooks/`);

@@ -3,15 +3,15 @@ import CharacterPickerDialog from "@/components/CharacterPickerDialog";
 import CharacterBuddy from "@/components/quiz/CharacterBuddy";
 import { useBuddy } from "@/context/BuddyContext";
 import { useLocation } from "react-router-dom";
-import { EARTH_GAME_PATH } from "@/data/earthExpedition";
+import { GAMES_PATH } from "@/data/educationalGames";
 
 const GlobalCharacterBuddy = () => {
   const [isCharacterDialogOpen, setIsCharacterDialogOpen] = useState(false);
   const { celebrateKey, dissatisfiedKey } = useBuddy();
   const { pathname } = useLocation();
 
-  // The expedition supplies its own feedback; keep its map and touch controls clear.
-  if (pathname.replace(/\/+$/, "") === EARTH_GAME_PATH.replace(/\/+$/, "")) return null;
+  // Games supply their own feedback; keep their maps and touch controls clear.
+  if (`${pathname.replace(/\/+$/, "")}/`.startsWith(GAMES_PATH)) return null;
 
   return (
     <>
