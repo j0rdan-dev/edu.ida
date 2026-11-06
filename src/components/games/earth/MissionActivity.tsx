@@ -37,9 +37,14 @@ function CompassTrail({ mission, disabled, onResult }: ActivityProps & { mission
         const moves: Record<string, [number, number]> = { ArrowUp: [0, -1], ArrowDown: [0, 1], ArrowLeft: [-1, 0], ArrowRight: [1, 0] };
         if (moves[event.key]) { event.preventDefault(); move(...moves[event.key]); }
       }}>
-      <ol className="game-route-steps" aria-label="Делници на патеката">{route.map((step, index) => <li key={index} className={index < stage ? "is-done" : index === stage ? "is-current" : ""} aria-current={index === stage ? "step" : undefined}><span>{index < stage ? <Check aria-label="Завршено" /> : index + 1}</span>{step.instruction}</li>)}</ol>
+      <ol className="game-route-steps" aria-label="Делници на патеката">{route.map((step, index) => {
+        const previous = index === 0 ? start : route[index - 1].position;
+        const dx = step.position[0] - previous[0];
+        const dy = step.position[1] - previous[1];
+        return <li key={index} className={index < stage ? "is-done" : index === stage ? "is-current" : ""} aria-current={index === stage ? "step" : undefined} aria-label={`${index + 1}. ${step.instruction}${index < stage ? " — завршено" : ""}`}><span>{index < stage ? <Check aria-hidden="true" /> : index + 1}</span><span className="game-route-full">{step.instruction}</span><b className="game-route-short" aria-hidden="true">{Math.abs(dx || dy)} {dx > 0 ? "→" : dx < 0 ? "←" : dy > 0 ? "↓" : "↑"}</b></li>;
+      })}</ol>
       <p className="earth-north-label">↑ СЕВЕР</p>
-      <div className="earth-trail-grid" style={{ gridTemplateColumns: `repeat(${size}, minmax(0, 1fr))` }} role="img" aria-label={`Карта ${size} на ${size}. Истражувачот е во колона ${position[0] + 1}, ред ${position[1] + 1}. Следна станица: колона ${target[0] + 1}, ред ${target[1] + 1}. Редовите се бројат од север кон југ.`}>
+      <div className="earth-trail-grid" style={{ gridTemplateColumns: `repeat(${size}, minmax(0, 1fr))`, gridTemplateRows: `repeat(${size}, minmax(0, 1fr))` }} role="img" aria-label={`Карта ${size} на ${size}. Истражувачот е во колона ${position[0] + 1}, ред ${position[1] + 1}. Следна станица: колона ${target[0] + 1}, ред ${target[1] + 1}. Редовите се бројат од север кон југ.`}>
         {Array.from({ length: size * size }, (_, index) => {
           const x = index % size;
           const y = Math.floor(index / size);
@@ -61,7 +66,7 @@ function CompassTrail({ mission, disabled, onResult }: ActivityProps & { mission
         <button type="button" aria-label="Оди на исток" className="earth-go-east" disabled={disabled || position[0] === size - 1} onClick={() => move(1, 0)}><ArrowRight /><span>Исток</span></button>
         <button type="button" aria-label="Оди на југ" className="earth-go-south" disabled={disabled || position[1] === size - 1} onClick={() => move(0, 1)}><ArrowDown /><span>Југ</span></button>
       </div>
-      <button type="button" className="game-reset-trail" disabled={disabled} onClick={() => { setPosition(start); setTrail([start[1] * size + start[0]]); setStage(0); onResult(false, "restart"); }}><RotateCcw aria-hidden="true" />Повторно од кампот</button>
+      <button type="button" className="game-reset-trail" aria-label="Повторно од кампот" disabled={disabled} onClick={() => { setPosition(start); setTrail([start[1] * size + start[0]]); setStage(0); onResult(false, "restart"); }}><RotateCcw aria-hidden="true" /><span>Од кампот</span></button>
       <p className="earth-map-caption">Кликни на насоките. Можеш и со стрелките на тастатурата кога картата е избрана.</p>
     </div>
   );

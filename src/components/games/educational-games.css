@@ -102,3 +102,27 @@
   .game-summary { padding-top: 30px; }.game-summary-stats { gap: 18px; }.game-summary-stats span { max-width: 130px; }.game-summary .earth-finish-actions { flex-direction: column; }.game-summary .earth-finish-actions > * { width: 100%; }.game-recap h2 { font-size: 23px; }
 }
 @media (max-width: 520px) { .games-card-grid { grid-template-columns: minmax(0, 1fr); }.games-card .game-illustration { height: 185px; }.games-card-copy > p:not(.games-card-topic) { font-size: 15px; }.games-hero-facts { font-size: 12px; gap: 10px 14px; } }
+
+/* Put starting and resuming ahead of the optional reading. */
+.standalone-game .game-introduction { padding-block: 18px; }
+.standalone-game .game-introduction > .game-illustration { height: 160px; }
+.standalone-game .game-introduction h1 { font-size: clamp(28px, 3vw, 40px); margin: 8px 0; }
+.standalone-game .game-intro-description { font-size: 15px; line-height: 1.6; }
+.standalone-game .game-setup { margin-top: 12px; padding: 20px; }
+.standalone-game .game-levels { margin-block: 14px; }
+.standalone-game .game-levels label { padding: 12px; }
+.game-launch-lesson { margin-top: 20px; border-top: 1px solid var(--earth-line); padding-top: 12px; }
+.game-launch-lesson summary { display: flex; gap: 8px; align-items: center; min-height: 44px; cursor: pointer; color: var(--earth-green); }
+.game-launch-lesson summary > svg { width: 18px; height: 18px; flex-shrink: 0; }
+.game-launch-lesson h2 { font-size: 14px; font-weight: 800; }
+.game-launch-lesson .game-lesson-grid { margin-top: 12px; }
+@media (max-width: 700px) {
+  .standalone-game .game-introduction > .game-illustration { display: none; }
+  .standalone-game .game-introduction { padding-block: 8px; }
+  .standalone-game .game-introduction h1 { font-size: 28px; line-height: 1.3; letter-spacing: -1px; }
+  .standalone-game .game-setup { padding: 14px; }
+  .standalone-game .game-levels { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .standalone-game .game-levels label { padding: 10px 8px; gap: 7px; }
+  .standalone-game .game-levels strong { font-size: 14px; }
+  .standalone-game .game-levels small { font-size: 11px; }
+}

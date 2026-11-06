@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+    <header className="site-header border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-bold text-lg hover:opacity-80 transition-opacity">
           <span className="text-primary">EDU.IDA</span>

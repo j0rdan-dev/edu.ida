@@ -96,7 +96,9 @@ describe("varied educational game sessions", () => {
     rounds.forEach((mission, index) => {
       solve(mission);
       expect(screen.getByText("Уште едно откритие!")).toBeVisible();
+      click("Зошто е точно?");
       expect(screen.getByText(mission.explanation)).toBeVisible();
+      click("Назад кон играта");
       expect(screen.getByRole("progressbar")).toHaveAttribute("value", String(index + 1));
       expect(savedSession(game.id).results).toHaveLength(index + 1);
       click(index === rounds.length - 1 ? "Види го резултатот" : "Следно откритие");
@@ -122,7 +124,7 @@ describe("varied educational game sessions", () => {
     expect(screen.getByText("Пробај уште еднаш")).toBeVisible();
     expect(screen.getByRole("progressbar")).toHaveAttribute("value", "0");
     click("Мала помош?"); expect(screen.getByText(mission.hint)).toBeVisible();
-    click("Сокриј ја помошта");
+    click("Назад кон играта");
     fireEvent.keyDown(screen.getByRole("button", { name: continentNames[mission.answer] }), { key: "Enter" });
     expect(savedSession("atlas").results).toEqual([{ firstTry: false, hintUsed: true }]);
     cleanup(); renderGame("continents"); click("Продолжи ја играта");
@@ -146,6 +148,22 @@ describe("varied educational game sessions", () => {
     expect(screen.getByRole("progressbar")).toHaveAttribute("max", "8");
     expect(screen.getByRole("img", { name: /Карта 6 на 6/ })).toBeVisible();
     expect(localStorage.getItem(gameProgressKey("terrain"))).toBe(otherProgress);
+  });
+
+  it("keeps support optional and restores the page when leaving the play screen", () => {
+    seedGame("atlas");
+    renderGame("continents");
+    expect(document.documentElement).not.toHaveClass("game-play-active");
+    click("Продолжи ја играта");
+    expect(document.documentElement).toHaveClass("game-play-active");
+    click("Потсети се на лекцијата");
+    expect(screen.getByRole("dialog", { name: "Мала лекција за големи откритија" })).toBeVisible();
+    click("Назад кон играта");
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+    expect(savedSession("atlas").index).toBe(0);
+    click("Поставки на играта");
+    expect(document.documentElement).not.toHaveClass("game-play-active");
+    expect(screen.getByRole("button", { name: "Продолжи ја играта" })).toBeVisible();
   });
 
   it("keeps compass movement in bounds and resets the trail to the generated camp", () => {
@@ -199,7 +217,7 @@ describe("varied educational game sessions", () => {
     vi.spyOn(Storage.prototype, "setItem").mockImplementation(() => { throw new Error("Unavailable"); });
     renderGame("earth-spheres"); click("Ајде да играме");
     expect(screen.getByText(/Зачувувањето не е достапно/)).toBeVisible();
-    const item = screen.getByText("Избери кутија за откритието").parentElement!;
+    const item = screen.getByRole("region", { name: "Една поврзана планета" });
     expect(within(item).getAllByRole("button")).toHaveLength(4);
   });
 
