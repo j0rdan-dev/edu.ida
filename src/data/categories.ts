@@ -520,6 +520,7 @@ export const grades: Grade[] = [
             id: "karakteristiki-na-zemjata-4",
             label: "1. Физичко-географски карактеристики на Земјата",
             description: "",
+            timeLimitSeconds: 120,
             file: `${import.meta.env.BASE_URL}data/4-karakteristiki_na_zemjata.json`,
             icon: Earth,
             color: "30 80% 55%",

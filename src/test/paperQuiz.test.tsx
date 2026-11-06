@@ -205,11 +205,36 @@ describe("quiz mode navigation", () => {
 
   it("shows mode selection after choosing a category, before loading questions", async () => {
     await renderQuiz("/grade/grade3/subject/matematika-3");
-    await act(async () => fireEvent.click(screen.getByRole("button", { name: /1\. Броеви и броење/ })));
+    const categoryLink = screen.getByRole("link", { name: /1\. Броеви и броење/ });
+    expect(categoryLink).toHaveAttribute("href", `${categoryPath}/`);
+    await act(async () => fireEvent.click(categoryLink));
     expect(screen.getByRole("button", { name: /Со понудени одговори/ })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Реши на лист хартија/ })).toBeInTheDocument();
     expect(screen.queryByText(questions[0].Question)).not.toBeInTheDocument();
     expect(fetch).toHaveBeenCalledTimes(1); // Only learning tips, before selecting the mode.
+  });
+
+  it("opens encoded Cyrillic category links and preserves the category through a paper quiz", async () => {
+    const encodedCategoryPath = `/grade/grade3/subject/makedonski-jazik-3/category/${encodeURIComponent("direkten-indirektен-govor-3")}`;
+    await renderQuiz("/grade/grade3/subject/makedonski-jazik-3/");
+    const categoryLink = screen.getByRole("link", { name: /Директен и индиректен говор/ });
+    expect(categoryLink).toHaveAttribute("href", `${encodedCategoryPath}/`);
+    await act(async () => fireEvent.click(categoryLink));
+    expect(screen.getByRole("heading", { name: "Како сакаш да го решаваш квизот?" })).toBeInTheDocument();
+    await act(async () => fireEvent.click(screen.getByRole("button", { name: /Реши на лист хартија/ })));
+    expect(screen.getByText("Прашање 1 од 2")).toBeInTheDocument();
+    expect(screen.getByLabelText("Current route")).toHaveTextContent(`${encodedCategoryPath}/quiz?mode=paper`);
+    fireEvent.click(screen.getByRole("button", { name: "Наредно прашање" }));
+    fireEvent.click(screen.getByRole("button", { name: "Наредно прашање" }));
+    expect(screen.getByLabelText("Current route")).toHaveTextContent(`${encodedCategoryPath}/results?mode=paper`);
+    expect(screen.getByText("Резултати од квизот")).toBeInTheDocument();
+  });
+
+  it("handles malformed URL escapes without breaking navigation", async () => {
+    await renderQuiz("/grade/%E0%A4%A");
+    expect(screen.getByText("EDU.IDA")).toBeInTheDocument();
+    expect(screen.getByLabelText("Current route")).toHaveTextContent(/^\/$/);
+    expect(fetch).not.toHaveBeenCalled();
   });
 
   it("skips answers on Next, retains timeout review, and shows all answers in the summary", async () => {

@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { Category } from "@/data/categories";
 import { ArrowLeft } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface CategorySelectProps {
   categories: Category[];
   subjectTitle: string;
-  onSelect: (category: Category) => void;
+  gradeId: string;
+  subjectId: string;
   onBack: () => void;
 }
 
@@ -13,7 +15,7 @@ interface LearningTipsData {
   Tips: string[];
 }
 
-const CategorySelect = ({ categories, subjectTitle, onSelect, onBack }: CategorySelectProps) => {
+const CategorySelect = ({ categories, subjectTitle, gradeId, subjectId, onBack }: CategorySelectProps) => {
   const [tip, setTip] = useState<string>("");
 
   useEffect(() => {
@@ -57,9 +59,9 @@ const CategorySelect = ({ categories, subjectTitle, onSelect, onBack }: Category
           {categories.map((cat, i) => {
             const Icon = cat.icon;
             return (
-              <button
+              <Link
                 key={cat.id}
-                onClick={() => onSelect(cat)}
+                to={`/grade/${encodeURIComponent(gradeId)}/subject/${encodeURIComponent(subjectId)}/category/${encodeURIComponent(cat.id)}/`}
                 className="group flex items-center gap-4 w-full rounded-xl border-2 border-border bg-card p-5 text-left transition-all duration-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5 active:scale-[0.98] opacity-0 animate-fade-up"
                 style={{ animationDelay: `${100 + i * 80}ms` }}
               >
@@ -73,7 +75,7 @@ const CategorySelect = ({ categories, subjectTitle, onSelect, onBack }: Category
                   <p className="font-semibold text-foreground text-base">{cat.label}</p>
                   <p className="text-sm text-muted-foreground">{cat.description}</p>
                 </div>
-              </button>
+              </Link>
             );
           })}
         </div>

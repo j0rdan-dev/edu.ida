@@ -1,11 +1,8 @@
-import { Grade, grades } from "@/data/categories";
+import { grades } from "@/data/categories";
 import { BookOpen, GraduationCap, ExternalLink, Brain } from "lucide-react";
+import { Link } from "react-router-dom";
 
-interface GradeSelectProps {
-  onSelect: (grade: Grade) => void;
-}
-
-const GradeSelect = ({ onSelect }: GradeSelectProps) => {
+const GradeSelect = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <div className="w-full max-w-lg">
@@ -16,17 +13,20 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
             EDU.IDA
           </h1>
-          <p className="text-muted-foreground font-medium tracking-wide">учиме со AI поддршка и интерактивни тестови</p>
+          <p className="text-muted-foreground font-medium tracking-wide">Интерактивни квизови и тестови за основно образование</p>
+          <p className="mt-3 text-sm text-muted-foreground">Вежбај математика, македонски јазик, природни науки и општество за 3–5 одделение. Пронајди учебници за 1–5 одделение.</p>
         </div>
 
         <div className="flex flex-col gap-3">
           {grades.map((grade, i) => {
             const hasAiSupport = grade.id === "grade3" || grade.id === "grade4" || grade.id === "grade5";
             return (
-            <button
+            <Link
               key={grade.id}
-              onClick={() => onSelect(grade)}
-              disabled={!grade.enabled}
+              to={`/grade/${encodeURIComponent(grade.id)}/`}
+              aria-disabled={!grade.enabled || undefined}
+              tabIndex={!grade.enabled ? -1 : undefined}
+              onClick={(event) => { if (!grade.enabled) event.preventDefault(); }}
               className={`group relative flex items-center gap-4 w-full rounded-xl border-2 p-5 text-left transition-all duration-200 opacity-0 animate-fade-up ${
                 !grade.enabled
                   ? "border-muted bg-muted/30 cursor-not-allowed opacity-50"
@@ -51,7 +51,7 @@ const GradeSelect = ({ onSelect }: GradeSelectProps) => {
                   {grade.subjects.length === 0 ? "само учебници" : (grade.subjects.length === 1 ? "тестови по " + grade.subjects.length + " предмет и учебници" : "тестови по " + grade.subjects.length + " предмети и учебници")}
                 </p>
               </div>
-            </button>
+            </Link>
             );
           })}
 

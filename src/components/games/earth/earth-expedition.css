@@ -1,0 +1,230 @@
+.earth-game {
+  --earth-ink: hsl(177 44% 19%);
+  --earth-muted: hsl(171 17% 39%);
+  --earth-green: hsl(162 43% 32%);
+  --earth-paper: hsl(45 53% 97%);
+  --earth-line: hsl(161 24% 83%);
+  color: var(--earth-ink);
+  background: radial-gradient(ellipse at 85% 0%, hsl(153 43% 90% / .7), transparent 40%), var(--earth-paper);
+  font-family: "Nunito", "PT Sans", sans-serif;
+  min-height: 80vh;
+  padding: 28px 24px 80px;
+}
+.earth-game-container { width: min(1160px, 100%); margin-inline: auto; }
+.earth-game button, .earth-game a, .earth-game input { -webkit-tap-highlight-color: transparent; }
+.earth-game button { touch-action: manipulation; }
+.earth-game button:focus-visible, .earth-game a:focus-visible, .earth-game input:focus-visible, .earth-compass-activity:focus-visible, .earth-map-marker:focus-visible { outline: 3px solid hsl(33 90% 48%); outline-offset: 5px; }
+.earth-game h1:focus { outline: none; }
+.earth-game button:disabled { cursor: default; }
+.earth-topline, .earth-adventure-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.earth-back-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--earth-muted); font-size: 14px; font-weight: 700; }
+.earth-back-link:hover { color: var(--earth-green); }
+.earth-back-link svg { width: 17px; }
+.earth-grade-tag { display: inline-flex; align-items: center; gap: 7px; color: var(--earth-muted); font-size: 12px; font-weight: 700; }
+.earth-grade-tag svg { width: 16px; }
+.earth-intro { display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 36px; padding: 45px 0 50px; }
+.earth-eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; letter-spacing: 1.6px; line-height: 1.7; color: var(--earth-green); }
+.earth-eyebrow > span { width: 7px; height: 7px; border-radius: 50%; background: hsl(32 91% 61%); }
+.earth-intro h1 { position: relative; margin: 17px 0 23px; font-family: "Comfortaa", sans-serif; font-size: clamp(50px, 6.3vw, 77px); font-weight: 700; letter-spacing: -4px; line-height: 1.12; }
+.earth-intro h1 > span { color: var(--earth-green); }
+.earth-intro h1 > svg { position: absolute; width: 35px; height: 35px; top: 4px; left: min(4.4em, calc(100% - 40px)); color: hsl(32 86% 57%); transform: rotate(-10deg); }
+.earth-intro-lead { font-size: 21px; line-height: 1.5; font-weight: 800; }
+.earth-intro-description { max-width: 410px; font-size: 15px; line-height: 1.8; margin: 15px 0 25px; color: var(--earth-muted); }
+.earth-primary-button, .earth-secondary-button { min-height: 48px; display: inline-flex; justify-content: center; align-items: center; gap: 10px; border-radius: 13px; padding: 13px 20px; font-size: 14px; font-weight: 800; transition: transform .15s, background .15s, box-shadow .15s; }
+.earth-primary-button { color: hsl(0 0% 100%); background: var(--earth-green); border: 1px solid hsl(162 43% 25%); box-shadow: 0 4px 0 hsl(163 40% 22%); }
+.earth-primary-button:hover:not(:disabled) { background: hsl(162 45% 27%); transform: translateY(-2px); box-shadow: 0 6px 0 hsl(163 40% 22%); }
+.earth-primary-button:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 hsl(163 40% 22%); }
+.earth-primary-button:disabled { opacity: .6; }
+.earth-primary-button svg, .earth-secondary-button svg { width: 18px; height: 18px; flex-shrink: 0; }
+.earth-secondary-button { border: 1px solid var(--earth-line); background: hsl(0 0% 100%); color: var(--earth-ink); }
+.earth-secondary-button:hover { background: hsl(150 37% 93%); }
+.earth-start-button { padding: 16px 24px; font-size: 16px; }
+.earth-intro-meta { display: flex; gap: 10px 16px; flex-wrap: wrap; margin-top: 23px; font-size: 11px; font-weight: 700; color: var(--earth-muted); }
+.earth-intro-meta > span { display: inline-flex; align-items: center; gap: 5px; }
+.earth-intro-meta svg { width: 13px; height: 13px; }
+.earth-intro-meta > span:last-child { flex-basis: 100%; font-weight: 600; }
+.earth-saved-note { font-size: 12px; font-weight: 700; margin-top: 16px; color: var(--earth-green); }
+.earth-intro-visual { position: relative; margin-top: 25px; transform: rotate(-2deg); border-radius: 34px; padding: 20px 15px 47px; border: 1px solid hsl(153 24% 82%); background: hsl(0 0% 100%); box-shadow: 0 18px 50px hsl(171 40% 20% / .08), 8px 8px 0 hsl(149 36% 88%); }
+.earth-intro-visual .earth-landscape svg { border-radius: 24px; }
+.earth-adventure-label { display: flex; align-items: center; gap: 8px; padding: 0 8px 13px; font-size: 10px; font-weight: 800; letter-spacing: 1.3px; }
+.earth-adventure-label > span { font-size: 19px; }
+.earth-floating-note { display: flex; align-items: center; gap: 12px; position: absolute; right: 20px; bottom: -14px; padding: 15px 20px; border: 1px solid hsl(40 65% 80%); border-radius: 14px; transform: rotate(4deg); background: hsl(44 97% 89%); box-shadow: 0 6px 20px hsl(31 60% 23% / .06); }
+.earth-floating-note > span:first-child { font-size: 30px; }
+.earth-floating-note strong { display: block; font-size: 13px; }
+.earth-floating-note small { display: block; font-size: 10px; color: var(--earth-muted); margin-top: 3px; }
+.earth-visual-star { position: absolute; color: hsl(33 86% 59%); font-size: 40px; animation: earth-bob 4s ease-in-out infinite; }
+.earth-visual-star-one { top: -35px; right: 5px; }
+.earth-visual-star-two { bottom: 4px; left: -30px; color: hsl(161 40% 44%); font-size: 52px; animation-delay: -2s; }
+.earth-how-to { display: grid; grid-template-columns: repeat(3, 1fr); padding: 22px 28px; border: 1px solid var(--earth-line); border-radius: 18px; background: hsl(0 0% 100% / .6); margin: 10px 0 36px; gap: 30px; }
+.earth-how-to > div { display: grid; grid-template-columns: 35px 1fr; align-items: center; gap: 5px 9px; }
+.earth-how-to > div > span { grid-row: span 2; width: 31px; height: 31px; display: grid; place-items: center; border-radius: 50%; background: hsl(148 33% 90%); font-size: 11px; font-weight: 800; }
+.earth-how-to strong { font-size: 13px; }
+.earth-how-to p { font-size: 11px; line-height: 1.7; color: var(--earth-muted); }
+.earth-passport { background: hsl(0 0% 100% / .72); border: 1px solid var(--earth-line); border-radius: 20px; padding: 23px; margin-top: 28px; }
+.earth-passport-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px; }
+.earth-passport-heading > span { display: inline-flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 800; }
+.earth-passport-heading svg { width: 18px; height: 18px; color: var(--earth-green); }
+.earth-passport-heading small { font-size: 11px; white-space: nowrap; color: var(--earth-muted); }
+.earth-stamps { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.earth-tone-mint { --earth-tone: hsl(148 37% 91%); --earth-accent: hsl(153 35% 40%); }
+.earth-tone-peach { --earth-tone: hsl(28 80% 92%); --earth-accent: hsl(23 56% 43%); }
+.earth-tone-yellow { --earth-tone: hsl(44 86% 91%); --earth-accent: hsl(36 57% 37%); }
+.earth-tone-lavender { --earth-tone: hsl(265 50% 94%); --earth-accent: hsl(265 35% 44%); }
+.earth-tone-sky { --earth-tone: hsl(194 61% 92%); --earth-accent: hsl(192 47% 33%); }
+.earth-stamp { border: 1px dashed hsl(163 17% 75%); border-radius: 14px; min-width: 0; display: flex; flex-direction: column; align-items: center; padding: 18px 6px 13px; min-height: 138px; gap: 7px; background: hsl(42 24% 97%); }
+.earth-stamp:hover:not(:disabled) { border-color: var(--earth-accent); background: var(--earth-tone); }
+.earth-stamp:disabled { opacity: .6; }
+.earth-stamp-icon { position: relative; display: grid; place-items: center; width: 48px; height: 48px; font-size: 28px; filter: grayscale(.8); opacity: .7; }
+.earth-stamp-icon > svg { position: absolute; width: 18px; height: 18px; bottom: -1px; right: -3px; border-radius: 50%; padding: 2px; background: var(--earth-green); color: hsl(0 0% 100%); stroke-width: 3; }
+.earth-stamp strong { font-size: 11px; line-height: 1.5; text-align: center; }
+.earth-stamp small { font-size: 9px; color: var(--earth-muted); line-height: 1.4; }
+.earth-stamp.is-earned { border: 1px solid var(--earth-accent); background: var(--earth-tone); transform: rotate(-2deg); }
+.earth-stamp.is-earned:nth-child(even) { transform: rotate(2deg); }
+.earth-stamp.is-earned .earth-stamp-icon { filter: none; opacity: 1; }
+.earth-stamp.is-earned small { font-size: 9px; font-weight: 800; letter-spacing: .7px; color: var(--earth-accent); }
+.earth-save-caption { font-size: 11px; color: var(--earth-muted); text-align: center; margin-top: 21px; line-height: 1.7; }
+.earth-adventure-header { margin-top: 25px; }
+.earth-wordmark { display: flex; align-items: center; gap: 10px; font-family: "Comfortaa", sans-serif; font-size: 20px; font-weight: 700; }
+.earth-wordmark > span { font-size: 28px; }
+.earth-discovery-counter { display: flex; align-items: center; gap: 6px; padding: 8px 12px; background: hsl(43 89% 91%); border: 1px solid hsl(39 66% 80%); border-radius: 11px; font-size: 11px; }
+.earth-discovery-counter svg { width: 17px; height: 17px; fill: hsl(39 91% 63%); color: hsl(32 75% 40%); }
+.earth-discovery-counter strong { font-size: 16px; }
+.earth-progress { appearance: none; display: block; width: 100%; height: 7px; border: none; border-radius: 9px; overflow: hidden; margin: 17px 0 23px; background: hsl(155 20% 88%); }
+.earth-progress::-webkit-progress-bar { background: hsl(155 20% 88%); border-radius: 9px; }
+.earth-progress::-webkit-progress-value { background: hsl(158 43% 43%); border-radius: 9px; transition: width .4s; }
+.earth-progress::-moz-progress-bar { background: hsl(158 43% 43%); border-radius: 9px; }
+.earth-chapter-nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 9px; margin-bottom: 25px; }
+.earth-chapter-nav button { display: flex; align-items: center; justify-content: center; gap: 7px; min-height: 50px; padding: 8px; font-weight: 800; font-size: 11px; border: 1px solid var(--earth-line); background: hsl(0 0% 100% / .7); border-radius: 11px; }
+.earth-chapter-nav button > span:first-child { font-size: 21px; }
+.earth-chapter-nav button > svg { width: 13px; height: 13px; }
+.earth-chapter-nav button[aria-current="step"] { background: var(--earth-green); border-color: var(--earth-green); color: hsl(0 0% 100%); }
+.earth-chapter-nav button:disabled { opacity: .48; }
+.earth-chapter-nav button:hover:not(:disabled):not([aria-current]) { background: hsl(150 36% 92%); }
+.earth-play-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); grid-template-rows: auto 1fr; grid-template-areas: "activity brief" "activity feedback"; gap: 15px 22px; align-items: start; }
+.earth-mission-brief { grid-area: brief; background: hsl(0 0% 100%); padding: 25px; border: 1px solid var(--earth-line); border-radius: 18px; }
+.earth-mission-brief .earth-eyebrow { font-size: 9px; letter-spacing: 1px; }
+.earth-mission-brief h1 { font-family: "Comfortaa", sans-serif; font-size: 24px; font-weight: 700; line-height: 1.45; letter-spacing: -.6px; margin: 12px 0 15px; }
+.earth-mission-prompt { color: var(--earth-muted); font-size: 15px; font-weight: 600; line-height: 1.8; }
+.earth-hint-button { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 7px 10px; border-radius: 9px; background: hsl(43 84% 93%); border: 1px solid hsl(42 66% 82%); font-size: 12px; font-weight: 800; margin-top: 20px; color: hsl(33 57% 31%); }
+.earth-hint-button svg { width: 17px; height: 17px; }
+.earth-hint { margin-top: 12px; color: hsl(33 45% 30%); font-size: 13px; line-height: 1.8; padding: 13px; background: hsl(44 91% 95%); border-radius: 10px; }
+.earth-activity-panel { grid-area: activity; min-width: 0; overflow: hidden; border: 1px solid var(--earth-line); border-radius: 20px; background: hsl(0 0% 100%); }
+.earth-activity-title { background: var(--earth-tone); border-bottom: 1px solid var(--earth-line); padding: 15px 18px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.earth-activity-title > span { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 800; }
+.earth-activity-title svg { width: 17px; height: 17px; }
+.earth-activity-title small { font-size: 8px; letter-spacing: 1px; font-weight: 800; color: var(--earth-accent); }
+.earth-feedback { grid-area: feedback; padding: 22px 24px; border: 1px dashed var(--earth-line); border-radius: 16px; background: hsl(0 0% 100% / .4); }
+.earth-feedback h2 { font-size: 14px; font-weight: 800; margin: 11px 0 7px; }
+.earth-feedback p { color: var(--earth-muted); font-size: 13px; line-height: 1.8; }
+.earth-feedback-emoji { font-size: 25px; }
+.earth-feedback-icon { display: grid; place-items: center; background: var(--earth-green); color: hsl(0 0% 100%); width: 34px; height: 34px; border-radius: 50%; }
+.earth-feedback-icon svg { width: 22px; height: 22px; }
+.earth-feedback-success { background: hsl(150 42% 93%); border-style: solid; border-color: hsl(151 31% 73%); animation: earth-reveal .3s ease-out; }
+.earth-feedback-success .earth-primary-button { width: 100%; margin-top: 20px; font-size: 13px; padding-inline: 12px; }
+.earth-world-svg, .earth-landscape svg { display: block; width: 100%; height: auto; }
+.earth-activity-panel .earth-world-svg, .earth-activity-panel .earth-landscape > svg { border-radius: 0; }
+.earth-map-caption { font-size: 10px; color: var(--earth-muted); text-align: center; line-height: 1.7; padding: 12px 15px; }
+.earth-map-marker { cursor: pointer; outline: none; }
+.earth-marker-halo { fill: hsl(0 0% 100% / .25); transition: fill .15s; }
+.earth-marker-core { fill: hsl(0 0% 100%); stroke: hsl(177 36% 31%); stroke-width: 2; }
+.earth-map-marker:hover:not([aria-disabled]) .earth-marker-halo, .earth-map-marker:focus-visible .earth-marker-halo { fill: hsl(40 100% 69%); }
+.earth-map-marker.is-picked .earth-marker-core { fill: hsl(43 99% 76%); stroke-width: 4; }
+.earth-map-marker[aria-disabled] { cursor: default; }
+.earth-map-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 2px 16px 19px; }
+.earth-map-legend button { display: flex; align-items: center; gap: 8px; text-align: left; padding: 7px 9px; min-height: 48px; font-size: 13px; font-weight: 700; border: 1px solid var(--earth-line); border-radius: 10px; background: hsl(0 0% 100%); }
+.earth-map-legend button > span { display: grid; place-items: center; flex-shrink: 0; width: 25px; height: 25px; border-radius: 7px; background: hsl(149 34% 91%); color: var(--earth-ink); font-size: 12px; font-weight: 800; }
+.earth-map-legend button:hover:not(:disabled), .earth-map-legend button.is-picked { border-color: var(--earth-green); background: hsl(148 38% 93%); }
+.earth-compass-activity { padding: 14px 22px 4px; }
+.earth-north-label { font-size: 11px; letter-spacing: 2px; font-weight: 800; text-align: center; margin: 2px 0 12px; }
+.earth-trail-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; max-width: 340px; margin-inline: auto; background: hsl(43 37% 85%); border: 5px solid hsl(43 37% 85%); border-radius: 13px; }
+.earth-trail-cell { position: relative; display: grid; place-items: center; aspect-ratio: 1; min-width: 0; background: hsl(92 40% 92%); border-radius: 5px; font-size: clamp(22px, 3vw, 33px); }
+.earth-trail-cell:nth-child(3n) { background: hsl(103 33% 87%); }
+.earth-trail-cell.is-visited { background: hsl(43 88% 83%); }
+.earth-trail-cell.is-destination { outline: 2px dashed hsl(29 75% 51%); outline-offset: -4px; }
+.earth-player { width: 85%; height: 85%; display: grid; place-items: center; background: hsl(0 0% 100%); border-radius: 50%; box-shadow: 0 3px 0 hsl(161 32% 28% / .2); border: 2px solid var(--earth-green); }
+.earth-destination-flag { position: absolute; top: -4px; right: -1px; font-size: 20px; }
+.earth-trail-legend { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; font-size: 10px; color: var(--earth-muted); margin-top: 14px; }
+.earth-direction-pad { display: grid; grid-template-columns: repeat(3, 80px); grid-template-rows: repeat(3, 44px); gap: 5px; justify-content: center; margin-top: 20px; }
+.earth-direction-pad button { display: flex; justify-content: center; align-items: center; gap: 4px; background: hsl(0 0% 100%); border: 1px solid hsl(155 23% 73%); border-bottom-width: 3px; border-radius: 10px; font-size: 10px; font-weight: 800; }
+.earth-direction-pad button svg { width: 17px; height: 17px; }
+.earth-direction-pad button:disabled { opacity: .4; }
+.earth-direction-pad button:hover:not(:disabled) { background: hsl(44 93% 85%); }
+.earth-go-north { grid-column: 2; grid-row: 1; }.earth-go-west { grid-column: 1; grid-row: 2; }.earth-go-east { grid-column: 3; grid-row: 2; }.earth-go-south { grid-column: 2; grid-row: 3; }
+.earth-pad-center { grid-column: 2; grid-row: 2; display: grid; place-items: center; font-size: 31px; }
+.earth-sphere-activity { padding: 27px 23px 5px; text-align: center; }
+.earth-small-label { font-size: 9px; font-weight: 800; letter-spacing: 1.3px; color: var(--earth-muted); }
+.earth-discovery-item { width: min(290px, 100%); margin: 17px auto 0; padding: 21px 14px; border: 2px dashed hsl(35 63% 67%); border-radius: 17px; background: hsl(43 93% 94%); transform: rotate(-2deg); }
+.earth-discovery-item > span { display: block; font-size: 64px; line-height: 1.5; }
+.earth-discovery-item strong { display: block; font-size: 15px; margin-top: 3px; }
+.earth-sort-arrow { display: block; margin: 17px auto 8px; width: 20px; color: var(--earth-muted); }
+.earth-sort-instruction { font-size: 12px; color: var(--earth-muted); margin-bottom: 14px; font-weight: 700; }
+.earth-sphere-boxes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.earth-sphere-box { padding: 19px 8px 16px; border-radius: 15px; background: var(--earth-tone); border: 2px solid transparent; }
+.earth-sphere-box > svg { display: block; margin: 0 auto 10px; width: 30px; height: 30px; color: var(--earth-accent); }
+.earth-sphere-box > strong { display: block; font-size: 14px; margin-bottom: 5px; }
+.earth-sphere-box > span { display: block; font-size: 10px; color: var(--earth-muted); }
+.earth-sphere-box:hover:not(:disabled), .earth-sphere-box.is-picked { border-color: var(--earth-accent); }
+.earth-weather-activity { padding: 19px 25px 25px; }
+.earth-instrument-heading { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 14px; font-weight: 800; }
+.earth-instrument-heading svg { width: 22px; color: hsl(36 83% 49%); }
+.earth-instrument { width: 100%; height: 285px; display: block; margin: 7px auto 0; }
+.earth-reading-control { max-width: 350px; margin: 0 auto; }
+.earth-reading-control label { display: block; font-size: 12px; font-weight: 700; text-align: center; }
+.earth-reading-control output { display: block; text-align: center; font-size: 30px; font-weight: 800; margin: 5px 0 6px; }
+.earth-reading-control output > span { font-size: 18px; }
+.earth-reading-control input { accent-color: var(--earth-green); width: 100%; height: 44px; cursor: pointer; }
+.earth-range-labels { display: flex; justify-content: space-between; font-size: 10px; color: var(--earth-muted); margin-top: -2px; margin-bottom: 17px; }
+.earth-reading-control .earth-primary-button { width: 100%; }
+.earth-climate-activity { padding: 30px 25px; }
+.earth-weather-diary { position: relative; padding: 23px 23px 27px; background: repeating-linear-gradient(hsl(44 88% 95%), hsl(44 88% 95%) 31px, hsl(37 33% 83%) 32px); border: 1px solid hsl(38 48% 79%); border-radius: 5px 15px 15px 5px; box-shadow: -5px 0 0 hsl(169 26% 38%); }
+.earth-weather-diary > span { display: block; font-size: 43px; margin-bottom: 14px; }
+.earth-weather-diary blockquote { font-size: 19px; font-weight: 700; line-height: 1.7; margin-top: 14px; }
+.earth-climate-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+.earth-climate-choices button { border: 2px solid var(--earth-line); border-bottom-width: 4px; border-radius: 15px; padding: 20px 10px; background: hsl(0 0% 100%); }
+.earth-climate-choices button:hover:not(:disabled), .earth-climate-choices button.is-picked { background: hsl(151 42% 93%); border-color: var(--earth-green); }
+.earth-climate-choices button > span { display: block; font-size: 42px; margin-bottom: 9px; }
+.earth-climate-choices strong { display: block; font-size: 16px; }
+.earth-climate-choices small { display: block; font-size: 10px; margin-top: 7px; color: var(--earth-muted); }
+.earth-finish { text-align: center; padding: 50px 10px 15px; }
+.earth-medal { position: relative; display: grid; place-items: center; width: 115px; height: 115px; margin: 0 auto 25px; border-radius: 50%; background: hsl(44 92% 85%); border: 7px double hsl(35 81% 59%); transform: rotate(-6deg); }
+.earth-medal > svg { width: 56px; height: 56px; color: hsl(31 75% 38%); }
+.earth-medal > span { position: absolute; color: hsl(36 87% 55%); font-size: 35px; top: -15px; right: -29px; }
+.earth-medal > span:last-child { left: -29px; right: auto; top: 60px; font-size: 25px; }
+.earth-finish h1 { font-size: clamp(29px, 4vw, 43px); font-family: "Comfortaa", sans-serif; font-weight: 700; line-height: 1.5; letter-spacing: -1px; margin: 10px 0 13px; }
+.earth-finish > p:not(.earth-eyebrow) { font-size: 15px; line-height: 1.8; color: var(--earth-muted); }
+.earth-finish-stats { display: flex; justify-content: center; gap: 30px; margin: 24px 0 10px; }
+.earth-finish-stats > span { display: flex; align-items: center; gap: 7px; font-size: 14px; }
+.earth-finish-stats strong { font-size: 24px; }.earth-finish-stats svg { width: 20px; color: hsl(35 83% 46%); }
+.earth-field-notes { margin: 40px 0 30px; }
+.earth-field-notes h2 { font-family: "Comfortaa", sans-serif; font-weight: 700; font-size: 23px; margin: 9px 0 22px; }
+.earth-field-notes > div { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.earth-field-notes article { padding: 22px; border: 1px solid var(--earth-line); border-radius: 15px; background: hsl(0 0% 100% / .7); }
+.earth-field-notes article > span { font-size: 29px; }.earth-field-notes article h3 { font-size: 15px; font-weight: 800; margin: 13px 0 8px; }.earth-field-notes article p { color: var(--earth-muted); font-size: 13px; line-height: 1.8; }
+.earth-finish-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin: 30px 0; }
+@keyframes earth-bob { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-8px) rotate(10deg); } }
+@keyframes earth-reveal { from { opacity: .5; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 900px) {
+  .earth-game { padding-inline: 18px; }
+  .earth-intro { gap: 22px; }.earth-intro h1 { font-size: 59px; }.earth-intro-lead { font-size: 18px; }
+  .earth-how-to { padding: 20px; gap: 15px; }.earth-how-to > div { grid-template-columns: 1fr; }.earth-how-to > div > span { grid-row: auto; margin-bottom: 5px; }
+  .earth-play-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 14px; }.earth-mission-brief { padding: 20px; }.earth-mission-brief h1 { font-size: 21px; }
+  .earth-stamps { gap: 8px; }.earth-stamp strong { font-size: 10px; }.earth-stamp small { font-size: 8px; }.earth-passport { padding: 19px; }
+  .earth-activity-title small { display: none; }.earth-chapter-nav button { flex-direction: column; gap: 3px; font-size: 10px; }.earth-chapter-nav button > svg { display: none; }
+}
+@media (max-width: 640px) {
+  .earth-game { padding: 16px 15px 90px; }.earth-topline { align-items: flex-start; }.earth-grade-tag { font-size: 10px; max-width: 160px; justify-content: flex-end; text-align: right; line-height: 1.6; }.earth-grade-tag svg { display: none; }
+  .earth-intro { grid-template-columns: 1fr; padding-top: 25px; gap: 18px; padding-bottom: 36px; }.earth-intro h1 { font-size: 64px; letter-spacing: -3px; margin: 15px 0 20px; }.earth-intro-lead { font-size: 20px; }.earth-intro-description { max-width: 100%; font-size: 14px; margin-bottom: 22px; }.earth-intro h1 > svg { width: 28px; height: 28px; }
+  .earth-start-button { width: 100%; }.earth-intro-meta { margin-top: 21px; }.earth-intro-visual { margin: 13px 5px 14px; padding: 15px 10px 34px; border-radius: 24px; }.earth-adventure-label { font-size: 8px; letter-spacing: 1px; }.earth-floating-note { padding: 10px 13px; bottom: -16px; right: 8px; }.earth-floating-note > span:first-child { font-size: 24px; }.earth-floating-note strong { font-size: 11px; }.earth-floating-note small { font-size: 9px; }.earth-visual-star-one { font-size: 29px; top: -27px; }.earth-visual-star-two { font-size: 35px; left: -12px; }
+  .earth-how-to { grid-template-columns: 1fr; gap: 18px; padding: 20px; margin-bottom: 23px; }.earth-how-to > div { grid-template-columns: 33px 1fr; gap: 3px 10px; }.earth-how-to > div > span { grid-row: span 2; margin-bottom: 0; }
+  .earth-stamps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }.earth-stamp { padding: 13px 7px; min-height: 130px; }.earth-stamp strong { font-size: 11px; }.earth-stamp small { font-size: 9px; }.earth-passport { padding: 18px 15px; }.earth-passport-heading > span { font-size: 12px; gap: 7px; }.earth-passport-heading small { font-size: 10px; }.earth-passport-heading svg { width: 16px; }
+  .earth-adventure-header { margin-top: 15px; gap: 8px; }.earth-wordmark { font-size: 16px; gap: 6px; }.earth-wordmark > span { font-size: 23px; }.earth-discovery-counter { padding: 6px 9px; gap: 4px; font-size: 9px; }.earth-discovery-counter strong { font-size: 14px; }.earth-discovery-counter svg { width: 14px; }
+  .earth-chapter-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 7px; margin-bottom: 17px; }.earth-chapter-nav button { border-radius: 9px; min-height: 67px; font-size: 11px; font-weight: 800; padding: 7px 5px; line-height: 1.4; }.earth-chapter-nav button > span:first-child { font-size: 21px; }.earth-progress { margin: 15px 0 17px; }
+  .earth-play-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "brief" "activity" "feedback"; gap: 15px; }.earth-mission-brief { padding: 20px; }.earth-mission-brief h1 { font-size: 23px; margin-bottom: 12px; }.earth-mission-prompt { font-size: 14px; line-height: 1.8; }.earth-hint-button { margin-top: 14px; }.earth-feedback { padding: 21px; }
+  .earth-activity-title { padding: 14px 15px; }.earth-activity-title > span { font-size: 12px; }.earth-map-legend { padding-inline: 12px; gap: 7px; }.earth-map-legend button { font-size: 12px; padding: 7px; gap: 6px; }.earth-map-legend button > span { width: 23px; height: 23px; }.earth-map-caption { font-size: 9px; }
+  .earth-compass-activity { padding: 14px 15px 4px; }.earth-trail-grid { max-width: 310px; }.earth-sphere-activity { padding: 23px 15px 5px; }.earth-sphere-box { padding: 18px 6px 15px; }.earth-sphere-box > strong { font-size: 13px; }.earth-sphere-box > span { font-size: 9px; }
+  .earth-weather-activity { padding: 20px; }.earth-instrument { height: 270px; }.earth-climate-activity { padding: 25px 20px; }.earth-weather-diary blockquote { font-size: 17px; }.earth-climate-choices small { font-size: 9px; }
+  .earth-finish { padding-top: 35px; }.earth-finish > p:not(.earth-eyebrow) { font-size: 13px; }.earth-field-notes > div { grid-template-columns: 1fr; }.earth-finish-actions { flex-direction: column; }.earth-field-notes h2 { font-size: 21px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .earth-game *, .earth-game *::before, .earth-game *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
