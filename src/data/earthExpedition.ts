@@ -27,7 +27,7 @@ interface MissionBase {
 export type EarthMission = MissionBase & (
   | { kind: "atlas"; answer: ContinentId }
   | { kind: "terrain"; answer: TerrainId }
-  | { kind: "compass"; destination: readonly [number, number]; destinationName: string }
+  | { kind: "compass"; destination: readonly [number, number]; destinationName: string; start?: readonly [number, number]; gridSize?: number; route?: { position: readonly [number, number]; instruction: string }[] }
   | { kind: "spheres"; answer: SphereId; item: string; emoji: string }
   | { kind: "temperature"; answer: number; unit: string }
   | { kind: "rain"; answer: number; unit: string }
@@ -43,9 +43,9 @@ export const earthMissions: EarthMission[] = [
   },
   {
     id: "our-continent", chapter: "atlas", kind: "atlas", answer: "europe",
-    title: "Поздрав од дома!", prompt: "Нашата држава, Северна Македонија, е твојата почетна станица. На кој континент се наоѓа?",
+    title: "Поздрав од дома!", prompt: "Нашата држава, Македонија, е твојата почетна станица. На кој континент се наоѓа?",
     hint: "Барај го континентот северно од Африка и западно од Азија. На картата е означен со број 3.",
-    explanation: "Северна Македонија се наоѓа во Европа. Европа и Азија се поврзани со копно.",
+    explanation: "Македонија се наоѓа во Европа. Европа и Азија се поврзани со копно.",
   },
   {
     id: "ice-continent", chapter: "atlas", kind: "atlas", answer: "antarctica",

@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:games": "node scripts/check-game-viewport.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

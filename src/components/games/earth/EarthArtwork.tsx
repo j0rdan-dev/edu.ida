@@ -30,7 +30,7 @@ function MapMarker({ x, y, label, name, selected, disabled, onPick }: {
   x: number; y: number; label: string; name: string; selected: boolean; disabled?: boolean; onPick?: () => void;
 }) {
   return (
-    <g role="button" tabIndex={disabled ? -1 : 0} aria-label={name} aria-disabled={disabled || undefined}
+    <g role="button" tabIndex={disabled ? -1 : 0} aria-label={name} aria-pressed={selected} aria-disabled={disabled || undefined}
       className={`earth-map-marker ${selected ? "is-picked" : ""}`} transform={`translate(${x} ${y})`}
       onClick={() => { if (!disabled) onPick?.(); }}
       onKeyDown={event => { if (!disabled && (event.key === "Enter" || event.key === " ")) { event.preventDefault(); onPick?.(); } }}>
@@ -65,7 +65,7 @@ export function WorldAtlas({ onPick, selected, disabled }: MapProps<ContinentId>
       <p className="earth-map-caption">Илустрирана карта со приближни форми на континентите.</p>
       <div className="earth-map-legend" aria-label="Легенда на континентите">
         {continents.map(continent => <button key={continent.id} type="button" disabled={disabled} onClick={() => onPick?.(continent.id)}
-          aria-label={`Избери ${continent.name}`} className={selected === continent.id ? "is-picked" : ""}>
+          aria-label={`Избери ${continent.name}`} aria-pressed={selected === continent.id} className={selected === continent.id ? "is-picked" : ""}>
           <span style={{ backgroundColor: continent.color }}>{continent.number}</span>{continent.name}
         </button>)}
       </div>
@@ -120,7 +120,7 @@ export function IslandLandscape({ onPick, selected, disabled }: MapProps<Terrain
       </svg>
       {onPick && <><p className="earth-map-caption">Пределот е измислен. Природните форми се вистински!</p>
         <div className="earth-map-legend" aria-label="Легенда на пределот">
-          {terrainPlaces.map(place => <button key={place.id} type="button" disabled={disabled} onClick={() => onPick(place.id)} className={selected === place.id ? "is-picked" : ""} aria-label={`Избери ${place.name}`}>
+          {terrainPlaces.map(place => <button key={place.id} type="button" disabled={disabled} onClick={() => onPick(place.id)} className={selected === place.id ? "is-picked" : ""} aria-pressed={selected === place.id} aria-label={`Избери ${place.name}`}>
             <span>{place.number}</span>{place.name}
           </button>)}
         </div></>}

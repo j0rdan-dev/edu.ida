@@ -1,0 +1,147 @@
+/* Keep the board and its actions in one dynamic viewport, including browser chrome changes. */
+.game-play-active, .game-play-active body, .game-play-active #root {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+.game-play-active .site-header, .game-play-active .site-footer { display: none; }
+.earth-game.game-play-shell { padding: 0; min-height: 0; }
+.game-viewport {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 3px auto minmax(0, 1fr) auto;
+  gap: 0;
+  padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(12px, env(safe-area-inset-left, 0px));
+  overflow: hidden;
+  background: hsl(45 45% 97%);
+}
+.game-play-toolbar, .game-play-question, .game-play-stage, .game-play-bottom-bar { width: min(1100px, 100%); margin-inline: auto; min-width: 0; }
+.game-play-toolbar { display: flex; align-items: center; gap: 10px; min-height: 56px; }
+.game-tool-button { display: inline-grid; place-items: center; flex-shrink: 0; width: 44px; height: 44px; border: 1px solid var(--earth-line); background: hsl(0 0% 100%); border-radius: 12px; color: var(--earth-green); }
+.game-tool-button svg { width: 19px; height: 19px; }
+.game-tool-button:hover { background: var(--earth-tone); }
+.game-play-name { display: flex; align-items: center; gap: 8px; min-width: 0; flex: 1; font-size: 16px; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.game-play-name > span { font-size: 22px; }
+.game-play-round { white-space: nowrap; font-size: 17px; font-weight: 800; }
+.game-play-round > span { color: var(--earth-muted); font-size: 13px; }
+.game-viewport .game-play-progress { width: min(1100px, 100%); margin: 0 auto; height: 3px; }
+.game-play-question { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; }
+.game-play-question p { max-width: 900px; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.game-play-question .game-tool-button { background: transparent; border-color: transparent; }
+.game-play-stage { height: 100%; min-height: 0; padding: 12px; border: 1px solid var(--earth-line); border-radius: 18px; background: hsl(0 0% 100%); }
+.game-play-stage > div { height: 100%; min-height: 0; min-width: 0; }
+.game-play-bottom-bar { display: flex; align-items: center; gap: 10px; min-height: 72px; padding: 8px 0; }
+.game-play-status { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; flex: 1; min-width: 0; font-size: 14px; line-height: 1.4; color: var(--earth-muted); }
+.game-play-status > svg { width: 22px; height: 22px; flex-shrink: 0; color: var(--earth-green); }
+.game-play-status h2 { font-size: 15px; font-weight: 800; color: var(--earth-green); }
+.game-play-status small { font-size: 11px; width: 100%; }
+.game-explanation-button { min-width: 48px; min-height: 44px; font-size: 13px; text-decoration: underline; text-underline-offset: 4px; color: var(--earth-green); }
+.game-viewport .game-next-button { min-height: 48px; padding: 10px 15px; box-shadow: 0 3px 0 hsl(163 40% 22%); }
+.game-next-button:hover:not(:disabled) { transform: none; }
+.game-play-stage .earth-map-caption, .game-play-stage .earth-sort-arrow, .game-play-stage .earth-small-label, .game-play-stage .earth-sort-instruction, .game-play-stage .earth-trail-legend { display: none; }
+
+/* Maps flex around the answer grid instead of pushing it below the fold. */
+.game-play-stage .earth-atlas, .game-play-stage .earth-landscape { display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 10px; }
+.game-play-stage .earth-world-svg, .game-play-stage .earth-landscape > svg { width: 100%; height: 100%; min-height: 0; border-radius: 10px; }
+.game-play-stage .earth-map-legend { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; padding: 0; }
+.game-play-stage .earth-map-legend button { min-height: 48px; padding: 7px 9px; font-size: 13px; line-height: 1.3; }
+
+/* The compass board and the direction pad stay alongside each other. */
+.game-play-stage .earth-compass-activity { display: grid; grid-template-columns: minmax(0, 1fr) 160px; grid-template-rows: auto 18px minmax(0, 1fr) 44px; grid-template-areas: "route route" "north north" "map controls" "position reset"; align-items: center; gap: 6px 18px; padding: 0; max-width: 750px; margin: 0 auto; }
+.game-play-stage .game-route-steps { grid-area: route; display: flex; gap: 8px; margin: 0; }
+.game-play-stage .game-route-steps li { font-size: 13px; padding: 6px 10px; }
+.game-play-stage .game-route-steps li > span { flex-shrink: 0; }
+.game-play-stage .game-route-steps .game-route-full { display: inline; width: auto; height: auto; border-radius: 0; background: none; font-size: inherit; font-weight: inherit; }
+.game-route-short { display: none; }
+.game-play-stage .earth-north-label { grid-area: north; margin: 0; }
+.game-play-stage .earth-trail-grid { grid-area: map; width: min(100%, 48dvh); max-width: 400px; max-height: 100%; gap: 4px; border-width: 4px; aspect-ratio: 1; }
+.game-play-stage .earth-trail-cell { min-width: 0; min-height: 0; aspect-ratio: auto; font-size: clamp(10px, min(5vw, 4dvh), 26px); line-height: 1; }
+.game-play-stage .earth-destination-flag { font-size: 18px; }
+.game-play-stage .game-position { grid-area: position; margin: 0; font-size: 12px; }
+.game-play-stage .earth-direction-pad { grid-area: controls; width: 100%; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(3, 48px); margin: 0; gap: 5px; }
+.game-play-stage .earth-direction-pad button { flex-direction: column; font-size: 10px; gap: 2px; }
+.game-play-stage .game-reset-trail { grid-area: reset; margin: 0; font-size: 12px; }
+
+.game-play-stage .earth-sphere-activity { display: flex; flex-direction: column; justify-content: center; gap: 20px; padding: 0; max-width: 650px; margin: 0 auto; }
+.game-play-stage .earth-discovery-item { margin: 0 auto; padding: 12px; transform: none; }
+.game-play-stage .earth-discovery-item > span { font-size: 50px; line-height: 1.2; }
+.game-play-stage .earth-discovery-item strong { font-size: 17px; line-height: 1.4; }
+.game-play-stage .earth-sphere-boxes { gap: 10px; }
+.game-play-stage .earth-sphere-box { padding: 14px 8px; min-height: 80px; }
+.game-play-stage .earth-sphere-box > svg { width: 25px; height: 25px; margin-bottom: 5px; }
+.game-play-stage .earth-sphere-box > strong { font-size: 16px; margin-bottom: 3px; }
+.game-play-stage .earth-sphere-box > span { font-size: 12px; }
+
+.game-play-stage .earth-weather-activity { display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, .8fr); grid-template-rows: 24px minmax(0, 1fr); grid-template-areas: "name name" "instrument reading"; align-items: center; gap: 4px 20px; max-width: 800px; margin: 0 auto; padding: 0; }
+.game-play-stage .earth-instrument-heading { grid-area: name; font-size: 13px; }
+.game-play-stage .earth-instrument { grid-area: instrument; height: 100%; max-height: 400px; min-height: 0; width: 100%; margin: 0; }
+.game-play-stage .earth-reading-control { grid-area: reading; width: 100%; max-width: 320px; }
+.game-play-stage .earth-reading-control label { font-size: 13px; }
+.game-play-stage .game-reading-stepper { gap: 12px; margin: 5px 0; }
+.game-play-stage .game-reading-stepper output { min-width: 90px; margin: 0; font-size: 28px; }
+.game-play-stage .earth-reading-control input { display: block; height: 44px; }
+.game-play-stage .earth-range-labels { margin-bottom: 8px; }
+.game-play-stage .earth-reading-control .earth-primary-button { min-height: 44px; font-size: 13px; padding: 10px; }
+
+.game-play-stage .earth-climate-activity { display: flex; flex-direction: column; justify-content: center; gap: 18px; max-width: 650px; padding: 0; margin: 0 auto; }
+.game-play-stage .earth-weather-diary { padding: 18px; }
+.game-play-stage .earth-weather-diary > span { font-size: 28px; margin-bottom: 6px; }
+.game-play-stage .earth-weather-diary blockquote { font-size: 19px; line-height: 1.6; margin: 0; }
+.game-play-stage .earth-climate-choices { margin: 0; gap: 10px; }
+.game-play-stage .earth-climate-choices button { padding: 12px; min-height: 80px; }
+.game-play-stage .earth-climate-choices button > span { font-size: 28px; margin-bottom: 3px; }
+.game-play-stage .earth-climate-choices small { font-size: 12px; line-height: 1.4; }
+
+.game-support-dialog { --earth-green: hsl(162 43% 32%); --earth-ink: hsl(177 44% 19%); width: min(540px, calc(100% - 24px)); max-height: calc(100dvh - 24px); display: flex; flex-direction: column; gap: 16px; padding: 24px; border-radius: 18px; background: hsl(45 45% 97%); color: var(--earth-ink); font-family: "Nunito", "PT Sans", sans-serif; }
+.game-support-dialog > h2 { padding-right: 35px; line-height: 1.5; }
+.game-support-copy { overflow-y: auto; min-height: 0; font-size: 16px; line-height: 1.8; }
+.game-support-copy p + p { margin-top: 14px; }
+.game-support-dialog > .earth-primary-button { flex-shrink: 0; }
+.game-support-dialog > button:last-child { width: 44px; height: 44px; top: 10px; right: 10px; display: grid; place-items: center; }
+
+@media (max-width: 600px) {
+  .game-viewport { padding-inline: max(8px, env(safe-area-inset-left, 0px)) max(8px, env(safe-area-inset-right, 0px)); }
+  .game-play-toolbar { gap: 5px; min-height: 52px; }
+  .game-play-name { font-size: 13px; gap: 5px; }.game-play-name > span { font-size: 18px; }
+  .game-play-round { font-size: 15px; }.game-play-round > span { font-size: 12px; }
+  .game-play-question { gap: 4px; padding-block: 7px; }.game-play-question p { font-size: 14px; line-height: 1.45; }
+  .game-play-question .game-tool-button { width: 44px; }
+  .game-play-stage { padding: 8px; border-radius: 13px; }
+  .game-play-bottom-bar { min-height: 64px; gap: 6px; padding: 7px 0; }.game-play-status { font-size: 12px; gap: 4px; }.game-play-status > svg { display: none; }.game-play-status h2 { font-size: 13px; line-height: 1.35; }
+  .game-viewport .game-next-button { padding: 10px 12px; font-size: 13px; gap: 5px; }.game-explanation-button { font-size: 12px; }
+  .game-play-stage .earth-map-legend { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+  .game-play-stage .earth-map-legend button { min-height: 44px; font-size: 12px; padding: 5px; justify-content: center; text-align: center; }
+  .game-play-stage .earth-map-legend button > span { display: none; }
+  .game-play-stage .earth-atlas, .game-play-stage .earth-landscape { gap: 7px; }
+  .game-play-stage .earth-compass-activity { grid-template-columns: minmax(0, 1fr) 142px; gap: 4px 8px; }
+  .game-play-stage .game-route-steps { flex-wrap: nowrap; justify-content: center; gap: 6px; }
+  .game-play-stage .game-route-steps li { padding: 5px 9px; gap: 6px; }
+  .game-play-stage .game-route-steps .game-route-full { display: none; }.game-play-stage .game-route-short { display: inline; font-size: 16px; }
+  .game-play-stage .earth-trail-grid { width: min(100%, 40dvh); border-width: 3px; gap: 3px; }.game-play-stage .earth-destination-flag { font-size: 13px; top: -3px; }
+  .game-play-stage .earth-direction-pad { grid-template-rows: repeat(3, 44px); gap: 4px; }.game-play-stage .earth-pad-center { font-size: 25px; }.game-play-stage .game-position { font-size: 10px; line-height: 1.4; }
+  .game-play-stage .earth-sphere-activity { gap: 12px; }.game-play-stage .earth-discovery-item { padding: 10px; }.game-play-stage .earth-discovery-item > span { font-size: 40px; }.game-play-stage .earth-discovery-item strong { font-size: 15px; }
+  .game-play-stage .earth-sphere-box { min-height: 70px; padding: 10px 6px; }.game-play-stage .earth-sphere-box > strong { font-size: 15px; }.game-play-stage .earth-sphere-box > span { font-size: 11px; }
+  .game-play-stage .earth-weather-activity { grid-template-columns: minmax(0, 1fr); grid-template-rows: 20px minmax(0, 1fr) auto; grid-template-areas: "name" "instrument" "reading"; gap: 2px; }
+  .game-play-stage .earth-reading-control { max-width: 290px; }.game-play-stage .earth-reading-control label { font-size: 12px; }.game-play-stage .earth-range-labels { display: none; }.game-play-stage .game-reading-stepper { margin: 2px 0; }
+  .game-play-stage .earth-weather-diary { padding: 14px; }.game-play-stage .earth-weather-diary blockquote { font-size: 16px; line-height: 1.5; }.game-play-stage .earth-weather-diary > span { font-size: 25px; }.game-play-stage .earth-climate-choices button { padding: 10px 7px; }.game-play-stage .earth-climate-choices small { font-size: 11px; }
+}
+
+/* Short landscape screens use width for the board and controls. */
+@media (max-height: 600px) and (min-aspect-ratio: 3/2) {
+  .game-play-toolbar { min-height: 44px; }.game-play-question { padding-block: 2px; }.game-play-question p { font-size: 13px; line-height: 1.4; }.game-play-bottom-bar { min-height: 54px; padding-block: 3px; }
+  .game-play-stage { padding: 7px; }
+  .game-play-stage .earth-atlas, .game-play-stage .earth-landscape { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); grid-template-rows: minmax(0, 1fr); }
+  .game-play-stage .earth-map-legend { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; align-content: center; }.game-play-stage .earth-map-legend button { min-height: 44px; font-size: 12px; padding: 4px; }.game-play-stage .earth-map-legend button > span { display: none; }
+  .game-play-stage .earth-compass-activity { grid-template-columns: minmax(120px, .7fr) minmax(0, 1fr) 150px; grid-template-rows: minmax(0, 1fr) 44px; grid-template-areas: "route map controls" "reset map controls"; }
+  .game-play-stage .game-route-steps { flex-direction: column; align-items: flex-start; justify-content: center; gap: 4px; }.game-play-stage .game-route-steps li { padding: 4px 8px; }.game-play-stage .game-route-steps .game-route-full { display: none; }.game-play-stage .game-route-short { display: inline; font-size: 15px; }
+  .game-play-stage .earth-trail-grid { width: min(100%, 52dvh); }.game-play-stage .earth-north-label, .game-play-stage .game-position { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); }
+  .game-play-stage .earth-direction-pad { grid-template-rows: repeat(3, 44px); }
+  .game-play-stage .earth-sphere-activity { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: center; gap: 16px; }.game-play-stage .earth-sphere-boxes { gap: 8px; }.game-play-stage .earth-sphere-box { padding: 8px 6px; min-height: 70px; }.game-play-stage .earth-sphere-box > svg { width: 20px; height: 20px; margin-bottom: 3px; }.game-play-stage .earth-sphere-box > strong { margin: 0; line-height: 1.2; }.game-play-stage .earth-sphere-box > span { display: none; }
+  .game-play-stage .earth-weather-activity { grid-template-columns: minmax(0, 1fr) minmax(200px, 1fr); grid-template-rows: minmax(0, 1fr); grid-template-areas: "instrument reading"; }.game-play-stage .earth-instrument-heading { display: none; }.game-play-stage .earth-range-labels { display: none; }.game-play-stage .game-reading-stepper { margin: 0; }.game-play-stage .earth-reading-control label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .game-play-stage .earth-climate-activity { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: center; gap: 15px; }.game-play-stage .earth-weather-diary { padding: 12px; }.game-play-stage .earth-weather-diary > span { display: none; }.game-play-stage .earth-weather-diary blockquote { font-size: 14px; line-height: 1.45; }.game-play-stage .earth-climate-choices button { padding: 10px 6px; }
+}
