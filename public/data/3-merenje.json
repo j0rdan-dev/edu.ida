@@ -1,11 +1,11 @@
 {
   "Questions": [
     {
-      "Question": "Точно или неточно: Основна единица мерка за должина е метарот (m).",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Важи само за течности",
-      "OptionD": "Важи само за маса",
+      "Question": "Која е основната единица за должина?",
+      "OptionA": "Сантиметар (cm).",
+      "OptionB": "Метар (m).",
+      "OptionC": "Километар (km).",
+      "OptionD": "Милиметар (mm).",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -57,11 +57,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 10 dm се еднакви на 1 m.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Еднакви се на 1 cm",
-      "OptionD": "Еднакви се на 1 km",
+      "Question": "Дополни: 10 dm = ____ m.",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "100",
+      "OptionD": "2",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -313,11 +313,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 1 километар е пократок од 1 метар.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Зависи од времето",
-      "OptionD": "Тие се еднакви",
+      "Question": "Колку метри има во 1 километар?",
+      "OptionA": "10",
+      "OptionB": "1 000",
+      "OptionC": "100",
+      "OptionD": "10 000",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -345,11 +345,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 1000 g е исто што и 1 kg.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Важи само за вода",
-      "OptionD": "Важи само за овошје",
+      "Question": "Дополни: 1000 g = ____ kg.",
+      "OptionA": "1000",
+      "OptionB": "1",
+      "OptionC": "10",
+      "OptionD": "100",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -401,11 +401,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Масата на едно јаболко ја мериме во килограми.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Се мери во литри",
-      "OptionD": "Се мери во метри",
+      "Question": "Која единица е најпрактична за запишување на масата на едно јаболко?",
+      "OptionA": "Тон.",
+      "OptionB": "Грам.",
+      "OptionC": "Километар.",
+      "OptionD": "Литар.",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -457,11 +457,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 1 dm е исто што и 10 cm.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "1 dm е 100 cm",
-      "OptionD": "1 dm е 1 cm",
+      "Question": "Дополни: 1 dm = ____ cm.",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "100",
+      "OptionD": "1000",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -785,11 +785,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 1 минута е подолга од 1 час.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Тие се еднакви",
-      "OptionD": "Зависи од денот",
+      "Question": "Колку минути има во 1 час?",
+      "OptionA": "6",
+      "OptionB": "60",
+      "OptionC": "24",
+      "OptionD": "100",
       "CorrectAnswer": "OptionB"
     },
     {

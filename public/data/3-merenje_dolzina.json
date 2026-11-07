@@ -17,11 +17,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 1 дециметар (dm) е подолг од 1 метар (m).",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Тие се еднакви",
-      "OptionD": "Зависи од линијарот",
+      "Question": "Колку дециметри има во 1 метар?",
+      "OptionA": "10",
+      "OptionB": "1",
+      "OptionC": "100",
+      "OptionD": "1 000",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -41,11 +41,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 10 dm = 1 m.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "10 dm = 10 m",
-      "OptionD": "10 dm = 1 cm",
+      "Question": "Дополни: 10 dm = ____ m.",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "2",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -121,11 +121,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 40 dm = 4 m.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "40 dm = 400 m",
-      "OptionD": "40 dm = 1 m",
+      "Question": "Дополни: 40 dm = ____ m.",
+      "OptionA": "4",
+      "OptionB": "40",
+      "OptionC": "400",
+      "OptionD": "5",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -145,11 +145,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Должината на моливот се мери во метри.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Зависи колку е голем моливот",
-      "OptionD": "Се мери во литри",
+      "Question": "Која единица е најпрактична за запишување на должината на обичен училиштен молив?",
+      "OptionA": "Сантиметар.",
+      "OptionB": "Километар.",
+      "OptionC": "Литар.",
+      "OptionD": "Килограм.",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -209,11 +209,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 200 cm = 1 m.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "200 cm = 20 m",
-      "OptionD": "200 cm = 10 dm",
+      "Question": "Дополни: 200 cm = ____ m.",
+      "OptionA": "200",
+      "OptionB": "2",
+      "OptionC": "20",
+      "OptionD": "3",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -257,11 +257,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 15 cm > 2 dm.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "15 cm е исто што и 2 dm",
-      "OptionD": "2 dm има 2 cm",
+      "Question": "Дополни: 15 cm = ____ dm.",
+      "OptionA": "15",
+      "OptionB": "1,5",
+      "OptionC": "0,15",
+      "OptionD": "150",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -313,11 +313,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 1 m = 100 dm.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "1 m = 1 dm",
-      "OptionD": "1 m = 1000 cm",
+      "Question": "Дополни: 1 m = ____ dm.",
+      "OptionA": "1",
+      "OptionB": "10",
+      "OptionC": "100",
+      "OptionD": "1000",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -369,11 +369,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 7 dm = 700 cm.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "7 dm = 7 cm",
-      "OptionD": "7 dm = 1 m",
+      "Question": "Дополни: 7 dm = ____ cm.",
+      "OptionA": "7",
+      "OptionB": "70",
+      "OptionC": "700",
+      "OptionD": "7000",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -417,11 +417,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 5 dm = 5 cm.",
-      "OptionA": "Точно",
-      "OptionB": "5 dm е помало",
-      "OptionC": "Неточно",
-      "OptionD": "Тоа е исто",
+      "Question": "Дополни: 5 dm = ____ cm.",
+      "OptionA": "5",
+      "OptionB": "500",
+      "OptionC": "50",
+      "OptionD": "5000",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -465,11 +465,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 100 cm > 1 m.",
-      "OptionA": "Точно",
-      "OptionB": "100 cm е помало",
-      "OptionC": "Неточно (тие се еднакви)",
-      "OptionD": "Точно само за дрвени метри",
+      "Question": "Дополни: 100 cm = ____ m.",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1",
+      "OptionD": "2",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -553,11 +553,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 80 cm < 9 dm.",
-      "OptionA": "Неточно",
-      "OptionB": "Тие се еднакви",
-      "OptionC": "Точно",
-      "OptionD": "80 cm е поголемо",
+      "Question": "Дополни: 80 cm = ____ dm.",
+      "OptionA": "80",
+      "OptionB": "800",
+      "OptionC": "8",
+      "OptionD": "9",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -697,11 +697,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 100 cm = 10 dm.",
-      "OptionA": "Неточно",
-      "OptionB": "100 cm е помало",
-      "OptionC": "100 cm е поголемо",
-      "OptionD": "Точно",
+      "Question": "Дополни: 100 cm = ____ dm.",
+      "OptionA": "100",
+      "OptionB": "1",
+      "OptionC": "1000",
+      "OptionD": "10",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -737,11 +737,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Кој број е еднаков на 300 сантиметри?",
-      "OptionA": "3 dm",
-      "OptionB": "30 m",
-      "OptionC": "30 dm",
-      "OptionD": "3 m",
+      "Question": "Колку метри се 300 сантиметри?",
+      "OptionA": "30",
+      "OptionB": "300",
+      "OptionC": "3000",
+      "OptionD": "3",
       "CorrectAnswer": "OptionD"
     },
     {

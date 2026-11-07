@@ -9,11 +9,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: Едно цело има 100 стотинки.",
-      "OptionA": "Точно.",
-      "OptionB": "Не може да се одреди.",
-      "OptionC": "Точно е само за цели броеви.",
-      "OptionD": "Неточно.",
+      "Question": "Колку стотинки има во едно цело?",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1 000",
+      "OptionD": "1",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -73,11 +73,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Едно цело има 100 десетинки.",
-      "OptionA": "Не може да се одреди.",
-      "OptionB": "Точно.",
-      "OptionC": "Неточно.",
-      "OptionD": "Точно е само за цели броеви.",
+      "Question": "Колку десеттинки има во едно цело?",
+      "OptionA": "100",
+      "OptionB": "1 000",
+      "OptionC": "10",
+      "OptionD": "1",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -129,11 +129,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 0,03 претставува три стотинки.",
-      "OptionA": "Не може да се одреди.",
-      "OptionB": "Точно е само за цели броеви.",
-      "OptionC": "Точно.",
-      "OptionD": "Неточно.",
+      "Question": "Како се запишуваат три стотинки со децимален број?",
+      "OptionA": "0,3",
+      "OptionB": "3,0",
+      "OptionC": "0,03",
+      "OptionD": "0,003",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -345,11 +345,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Бројот 0,14 е еднаков на 14/10.",
-      "OptionA": "Не може да се одреди.",
-      "OptionB": "Точно е само за цели броеви.",
-      "OptionC": "Точно.",
-      "OptionD": "Неточно.",
+      "Question": "Која дропка е еднаква на 0,14?",
+      "OptionA": "14/10",
+      "OptionB": "14/1 000",
+      "OptionC": "100/14",
+      "OptionD": "14/100",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -417,11 +417,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 1/10 = 0,1.",
-      "OptionA": "Не може да се одреди.",
-      "OptionB": "Точно.",
-      "OptionC": "Точно е само за цели броеви.",
-      "OptionD": "Неточно.",
+      "Question": "Пресметај: 1 ÷ 10 = ?",
+      "OptionA": "11",
+      "OptionB": "0,1",
+      "OptionC": "10",
+      "OptionD": "9",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -465,11 +465,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: При заокружување на 2,5 до најблискиот цел број се добива 3.",
-      "OptionA": "Точно е само за цели броеви.",
-      "OptionB": "Не може да се одреди.",
-      "OptionC": "Неточно.",
-      "OptionD": "Точно.",
+      "Question": "На кој цел број се заокружува 2,5 според правилото дека цифра 5 на десеттинките заокружува нагоре?",
+      "OptionA": "2",
+      "OptionB": "4",
+      "OptionC": "25",
+      "OptionD": "3",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -633,11 +633,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 0,3 претставува три стотинки.",
-      "OptionA": "Неточно.",
-      "OptionB": "Точно.",
-      "OptionC": "Не може да се одреди.",
-      "OptionD": "Точно е само за цели броеви.",
+      "Question": "Колку стотинки содржи 0,3?",
+      "OptionA": "30",
+      "OptionB": "3",
+      "OptionC": "300",
+      "OptionD": "0,3",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -697,11 +697,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: Децималната запирка го одделува целиот од децималниот дел на бројот.",
-      "OptionA": "Точно е само за цели броеви.",
-      "OptionB": "Не може да се одреди.",
-      "OptionC": "Точно.",
-      "OptionD": "Неточно.",
+      "Question": "Што разделува децималната запирка во еден децимален број?",
+      "OptionA": "Броителот од именителот.",
+      "OptionB": "Десетките од единиците.",
+      "OptionC": "Целиот од децималниот дел.",
+      "OptionD": "Стотинките од илјадитинките.",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -729,11 +729,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 1/100 = 0,1.",
-      "OptionA": "Точно.",
-      "OptionB": "Точно е само за цели броеви.",
-      "OptionC": "Не може да се одреди.",
-      "OptionD": "Неточно.",
+      "Question": "Пресметај: 1 ÷ 100 = ?",
+      "OptionA": "101",
+      "OptionB": "100",
+      "OptionC": "99",
+      "OptionD": "0,01",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -793,11 +793,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Бројот 0,7 е помал од 0,2.",
-      "OptionA": "Точно е само за цели броеви.",
-      "OptionB": "Не може да се одреди.",
-      "OptionC": "Точно.",
-      "OptionD": "Неточно.",
+      "Question": "Кој од наведените броеви е најголем?",
+      "OptionA": "0,2",
+      "OptionB": "0,07",
+      "OptionC": "0,02",
+      "OptionD": "0,7",
       "CorrectAnswer": "OptionD"
     }
   ]
