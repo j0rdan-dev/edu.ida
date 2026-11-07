@@ -525,6 +525,15 @@ export const grades: Grade[] = [
             icon: Earth,
             color: "30 80% 55%",
           },
+                    {
+            id: "karakteristiki-na-zemjata-4-v2",
+            label: "1. Физичко-географски карактеристики на Земјата",
+            description: "v2",
+            timeLimitSeconds: 120,
+            file: `${import.meta.env.BASE_URL}data/4-karakteristiki_na_zemjata_v2.json`,
+            icon: Earth,
+            color: "30 80% 55%",
+          },
           {
             id: "osobini-na-zivotnite-i-rastenijata-4",
             label: "2. Особини на животните и растенијата и нивната поделба",
