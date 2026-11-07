@@ -9,11 +9,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Производот на најголемиот трицифрен број и 10 е 9990.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Зависи од позицијата на цифрите",
-      "OptionD": "Не може да се пресмета",
+      "Question": "Колку е 999 × 10?",
+      "OptionA": "9 990",
+      "OptionB": "999",
+      "OptionC": "99 900",
+      "OptionD": "9 099",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -41,11 +41,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на првите пет непарни природни броеви е 25.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Резултатот е 20",
-      "OptionD": "Резултатот е 30",
+      "Question": "Колкав е збирот на првите пет непарни природни броеви: 1, 3, 5, 7 и 9?",
+      "OptionA": "25",
+      "OptionB": "20",
+      "OptionC": "30",
+      "OptionD": "15",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -89,11 +89,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Ако еден фактор се зголеми 2 пати, а другиот остане ист, производот се зголемува 2 пати.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Се зголемува за 2",
-      "OptionD": "Не се менува",
+      "Question": "Еден множител се зголемува двапати, а другиот не се менува. Како се менува производот ако множителите се позитивни?",
+      "OptionA": "Се зголемува двапати.",
+      "OptionB": "Се зголемува за 2.",
+      "OptionC": "Се намалува двапати.",
+      "OptionD": "Останува ист.",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -137,11 +137,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Остатокот при делење на било кој број со 5 може да биде 6.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Само ако е непарен",
-      "OptionD": "Може",
+      "Question": "Колкав е најголемиот можен остаток при делење природен број со 5?",
+      "OptionA": "4",
+      "OptionB": "5",
+      "OptionC": "6",
+      "OptionD": "3",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -169,11 +169,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на најмалиот четирицифрен и најголемиот трицифрен број е 1999.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Резултатот е 1099",
-      "OptionD": "Резултатот е 2000",
+      "Question": "Колку е збирот на најмалиот четирицифрен и најголемиот трицифрен број?",
+      "OptionA": "1 999",
+      "OptionB": "1 099",
+      "OptionC": "2 000",
+      "OptionD": "1 899",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -201,11 +201,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Множењето е дистрибутивно во однос на одземањето.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Само за позитивни",
-      "OptionD": "Само за негативни",
+      "Question": "Кој запис правилно го применува дистрибутивното својство?",
+      "OptionA": "6 × (10 − 2) = 6 × 10 − 6 × 2",
+      "OptionB": "6 × (10 − 2) = 6 × 10 − 2",
+      "OptionC": "6 × (10 − 2) = 6 × 10 + 6 × 2",
+      "OptionD": "6 × (10 − 2) = 6 − 10 × 2",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -241,11 +241,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 100 000 поделено на 1 000 е 100.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Резултатот е 10",
-      "OptionD": "Резултатот е 1000",
+      "Question": "Колку е 100 000 : 1 000?",
+      "OptionA": "100",
+      "OptionB": "10",
+      "OptionC": "1 000",
+      "OptionD": "10 000",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -273,11 +273,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Секој парен број е делив со 2.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Само броевите над 10",
-      "OptionD": "Нема правило",
+      "Question": "Со кој број е делив секој парен природен број?",
+      "OptionA": "2",
+      "OptionB": "3",
+      "OptionC": "4",
+      "OptionD": "5",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -313,11 +313,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Разликата на два непарни броја е секогаш парен број.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Секогаш е непарен",
-      "OptionD": "Нема правило",
+      "Question": "Каква е разликата на два непарни цели броја?",
+      "OptionA": "Парен број.",
+      "OptionB": "Непарен број.",
+      "OptionC": "Секогаш бројот 1.",
+      "OptionD": "Секогаш бројот 2.",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -353,11 +353,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Производот на три парни броја е парен.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Секогаш е непарен",
-      "OptionD": "Зависи од големината",
+      "Question": "Која особина ја има производот на три позитивни парни броја?",
+      "OptionA": "Парен е.",
+      "OptionB": "Непарен е.",
+      "OptionC": "Секогаш е прост број.",
+      "OptionD": "Секогаш е еднаков на 2.",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -385,19 +385,19 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Дополни: Бројот кој е делив со 100 мора да завршува на _________.",
-      "OptionA": "0",
-      "OptionB": "00",
-      "OptionC": "50",
-      "OptionD": "25",
+      "Question": "Колку најмалку нули треба да има на крајот цел број делив со 100?",
+      "OptionA": "Една.",
+      "OptionB": "Две.",
+      "OptionC": "Три.",
+      "OptionD": "Четири.",
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на 999 и 1 е најмалиот четирицифрен број.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Тоа е 999",
-      "OptionD": "Тоа е 100",
+      "Question": "Кој број се добива кога на 999 ќе додадеме 1?",
+      "OptionA": "1 000",
+      "OptionB": "100",
+      "OptionC": "990",
+      "OptionD": "999",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -433,11 +433,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Множењето со 5 е исто што и множење со 10, па делење со 2.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Само за парни",
-      "OptionD": "Само за непарни",
+      "Question": "Кој израз е еднаков на 24 × 5?",
+      "OptionA": "24 × 10 : 2",
+      "OptionB": "24 × 10 × 2",
+      "OptionC": "24 × 2 : 10",
+      "OptionD": "24 + 10 : 2",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -473,11 +473,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: Разликата на 100 и 1 е 99.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Тоа е 90",
-      "OptionD": "Зависи од контекстот",
+      "Question": "Колку е 100 − 1?",
+      "OptionA": "99",
+      "OptionB": "90",
+      "OptionC": "101",
+      "OptionD": "9",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -513,11 +513,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на 50 + 50 е 100.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Само ако е наведен редоследот",
-      "OptionD": "Зависи од броевите",
+      "Question": "Колку е 50 + 50?",
+      "OptionA": "50",
+      "OptionB": "100",
+      "OptionC": "500",
+      "OptionD": "5 050",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -553,11 +553,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Множењето со 100 значи додавање две нули.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Точно само за парни броеви",
-      "OptionD": "Точно само за непарни",
+      "Question": "Колку е 307 × 100?",
+      "OptionA": "3 070",
+      "OptionB": "30 700",
+      "OptionC": "307",
+      "OptionD": "300 700",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -593,11 +593,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Разликата на 200 - 200 е 0.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Само за броеви над 500",
-      "OptionD": "Точно само за парни",
+      "Question": "Колку е 200 − 200?",
+      "OptionA": "1",
+      "OptionB": "0",
+      "OptionC": "200",
+      "OptionD": "400",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -633,11 +633,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на 20 + 80 е 100.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Само за броеви под 50",
-      "OptionD": "Точно само за непарни",
+      "Question": "Колку е 20 + 80?",
+      "OptionA": "60",
+      "OptionB": "100",
+      "OptionC": "1 000",
+      "OptionD": "1 600",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -673,11 +673,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Множењето со 1000 значи додавање три нули.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Точно само за броеви над 500",
-      "OptionD": "Точно само за непарни",
+      "Question": "Колку е 46 × 1 000?",
+      "OptionA": "4 600",
+      "OptionB": "46 000",
+      "OptionC": "460",
+      "OptionD": "460 000",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -713,11 +713,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Разликата на 300 - 300 е 0.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Точно само за големи броеви",
-      "OptionD": "Точно само за непарни",
+      "Question": "Колку е 300 − 300?",
+      "OptionA": "1",
+      "OptionB": "0",
+      "OptionC": "300",
+      "OptionD": "600",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -753,11 +753,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на 30 + 70 е 100.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Точно само за броеви под 50",
-      "OptionD": "Точно само за парни броеви",
+      "Question": "Колку е 30 + 70?",
+      "OptionA": "40",
+      "OptionB": "100",
+      "OptionC": "1 000",
+      "OptionD": "2 100",
       "CorrectAnswer": "OptionB"
     }
   ]

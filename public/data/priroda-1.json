@@ -89,11 +89,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Во кое годишно време цветаат цвеќињата?",
-      "OptionA": "Зима",
-      "OptionB": "Пролет",
-      "OptionC": "Есен",
-      "OptionD": "Никогаш",
+      "Question": "Кое годишно време следува по зимата?",
+      "OptionA": "Лето.",
+      "OptionB": "Пролет.",
+      "OptionC": "Есен.",
+      "OptionD": "Зима.",
       "CorrectAnswer": "OptionB"
     },
     {

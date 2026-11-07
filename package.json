@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check:games": "node scripts/check-game-viewport.mjs"
+    "check:games": "node scripts/check-game-viewport.mjs",
+    "check:data": "node scripts/check-quiz-data.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
