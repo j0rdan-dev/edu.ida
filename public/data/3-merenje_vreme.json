@@ -33,11 +33,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: Малата стрелка на часовникот ги покажува минутите.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Понекогаш",
-      "OptionD": "Само на дигитален часовник",
+      "Question": "Што покажува кратката стрелка на обичен аналоген часовник?",
+      "OptionA": "Часови.",
+      "OptionB": "Минути.",
+      "OptionC": "Секунди.",
+      "OptionD": "Денови.",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -65,11 +65,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: Септември има 31 ден.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Само во престапна година",
-      "OptionD": "Секогаш",
+      "Question": "Колку дена има септември?",
+      "OptionA": "30",
+      "OptionB": "31",
+      "OptionC": "28",
+      "OptionD": "29",
       "CorrectAnswer": "OptionA"
     },
     {
