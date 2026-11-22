@@ -345,6 +345,14 @@ export const grades: Grade[] = [
             color: "280 70% 50%",
           },
           {
+            id: "geometrija-4-analiza",
+            label: "2. Геометрија III",
+            description: "Анализа и решавање геометриски проблеми",
+            file: `${import.meta.env.BASE_URL}data/matematika_4_geometrija_100_analytics_with_images.json`,
+            icon: Compass,
+            color: "280 65% 45%",
+          },
+          {
             id: "operacii-broeci-4",
             label: "3. Операции со броеви I",
             description: "Цела тема",
