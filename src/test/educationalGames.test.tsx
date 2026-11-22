@@ -7,7 +7,7 @@ import EducationalGame from "@/pages/EducationalGame";
 import Header from "@/components/Header";
 import MissionActivity from "@/components/games/earth/MissionActivity";
 import { EARTH_GAME_PATH, EARTH_PROGRESS_KEY, earthMissions, type EarthMission } from "@/data/earthExpedition";
-import { createGameRounds, educationalGames, gameProgressKey, GAMES_PATH, readGameProgress, roundCount, type GameId, type GameSession } from "@/data/educationalGames";
+import { createGameRounds, educationalGames, gameProgressKey, GAMES_PATH, readGameProgress, roundCount, type GameId, type GameSession, type GameMission } from "@/data/educationalGames";
 import { getIndexablePaths, getPageMetadata, getStaticPaths } from "@/lib/seo";
 
 beforeEach(() => localStorage.clear());
@@ -25,7 +25,7 @@ const continentNames = { asia: "Азија", europe: "Европа", africa: "А
 const terrainNames = { mountain: "Планина", hill: "Рид", plain: "Рамница", river: "Река", lake: "Езеро", sea: "Море" };
 const sphereNames = { lithosphere: "Литосфера", hydrosphere: "Хидросфера", atmosphere: "Атмосфера", biosphere: "Биосфера" };
 
-function solve(mission: EarthMission) {
+function solve(mission: GameMission) {
   if (mission.kind === "atlas") click(`Избери ${continentNames[mission.answer]}`);
   else if (mission.kind === "terrain") click(`Избери ${terrainNames[mission.answer]}`);
   else if (mission.kind === "spheres") click(new RegExp(`^${sphereNames[mission.answer]}`));
@@ -33,6 +33,16 @@ function solve(mission: EarthMission) {
   else if (mission.kind === "temperature" || mission.kind === "rain") {
     fireEvent.change(screen.getByRole("slider"), { target: { value: String(mission.answer) } });
     click("Провери го мерењето");
+  } else if (mission.kind === "coordinates") {
+    const map = screen.getByRole("group", { name: "Координатна мрежа" });
+    let [x, y] = mission.start;
+    const destinations = mission.route.length ? mission.route.map(step => step.position) : mission.task === "read" ? [] : [mission.target];
+    for (const point of destinations) {
+      while (x !== point[0]) { const right = point[0] > x; fireEvent.keyDown(map, { key: right ? "ArrowRight" : "ArrowLeft" }); x += right ? 1 : -1; }
+      while (y !== point[1]) { const up = point[1] > y; fireEvent.keyDown(map, { key: up ? "ArrowUp" : "ArrowDown" }); y += up ? 1 : -1; }
+    }
+    if (mission.choices.length) click(mission.choices.find(choice => choice.id === mission.answer)!.label);
+    else if (!mission.route.length) click("Провери ја точката");
   } else if (mission.kind === "compass") {
     let [x, y] = mission.start!;
     const map = screen.getByRole("group", { name: "Карта за движење со компас" });
@@ -49,7 +59,7 @@ describe("varied educational game sessions", () => {
     for (const difficulty of ["explorer", "challenge"] as const) {
       for (let seed = 1; seed <= 40; seed++) {
         const rounds = createGameRounds(game.id, difficulty, seed);
-        expect(rounds).toHaveLength(roundCount(difficulty));
+        expect(rounds).toHaveLength(roundCount(difficulty, game.id));
         expect(rounds).toEqual(createGameRounds(game.id, difficulty, seed));
         expect(new Set(rounds.map(round => round.id)).size).toBe(rounds.length);
         expect(rounds.every(round => round.chapter === game.id && round.hint && round.explanation)).toBe(true);
@@ -81,11 +91,53 @@ describe("varied educational game sessions", () => {
     }
   });
 
-  it("lists five unlocked games and exposes them in navigation", () => {
+  it("lists independent games and exposes them in navigation", () => {
     render(<MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}><Header /><Games /></MemoryRouter>);
     expect(screen.getByRole("link", { name: "Игри" })).toHaveAttribute("href", GAMES_PATH);
     for (const game of educationalGames) expect(screen.getByRole("link", { name: `Играј: ${game.name}` })).toHaveAttribute("href", game.path);
-    expect(screen.getByText("0 / 5 значки")).toBeVisible();
+    expect(screen.getByText(`${educationalGames.length} игри`)).toBeVisible();
+    expect(screen.getByRole("searchbox", { name: "Пребарај игри" })).toBeVisible();
+    expect(screen.queryByText(/Мисија: Земја/)).not.toBeInTheDocument();
+  });
+
+  it("searches topics and combines subject and grade filters from the registry", () => {
+    const game = educationalGames[0];
+    const originalSubject = game.subject;
+    const originalGrades = game.gradeLevels;
+    try {
+      game.subject = "Тест предмет";
+      game.gradeLevels = [3];
+      render(<MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}><Games /></MemoryRouter>);
+      fireEvent.change(screen.getByRole("searchbox", { name: "Пребарај игри" }), { target: { value: "  КОНТИНЕНТИ  " } });
+      expect(screen.getAllByRole("article")).toHaveLength(1);
+      expect(screen.getByRole("link", { name: `Играј: ${game.name}` })).toBeVisible();
+      fireEvent.change(screen.getByRole("searchbox"), { target: { value: "" } });
+      click("Тест предмет");
+      expect(screen.getAllByRole("article")).toHaveLength(1);
+      fireEvent.change(screen.getByRole("combobox", { name: "Одделение" }), { target: { value: "4" } });
+      expect(screen.queryAllByRole("article")).toHaveLength(0);
+      expect(screen.getByRole("heading", { name: "Нема пронајдени игри" })).toBeVisible();
+      click("Исчисти ги филтрите");
+      expect(screen.getAllByRole("article")).toHaveLength(educationalGames.length);
+      expect(screen.getByRole("combobox")).toHaveValue("");
+      expect(screen.getByRole("button", { name: "Сите предмети" })).toHaveAttribute("aria-pressed", "true");
+    } finally {
+      game.subject = originalSubject;
+      game.gradeLevels = originalGrades;
+    }
+  });
+
+  it("shows saved progress on the matching game cards", () => {
+    seedGame("atlas");
+    localStorage.setItem(gameProgressKey("terrain"), JSON.stringify({ completedRuns: 1, bestFirstTry: 5, session: null }));
+    localStorage.setItem(gameProgressKey("coordinates"), JSON.stringify({ completedRuns: 0, bestFirstTry: 0, session: { seed: 42, difficulty: "explorer", index: 9, results: Array.from({ length: 9 }, () => ({ firstTry: true, hintUsed: false })), attempts: 0, hintShown: false } }));
+    render(<MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}><Games /></MemoryRouter>);
+    expect(screen.getByRole("link", { name: `Продолжи: ${educationalGames[0].name}` })).toHaveTextContent("Во тек");
+    const completed = screen.getByRole("link", { name: `Играј: ${educationalGames[1].name}` });
+    expect(completed).toHaveTextContent("Завршена");
+    expect(completed).toHaveTextContent("Повторно");
+    const coordinates = educationalGames.find(game => game.id === "coordinates")!;
+    expect(screen.getByRole("link", { name: `Продолжи: ${coordinates.name}` })).toHaveTextContent("Во тек");
   });
 
   it.each(educationalGames)("finishes $id independently, explains answers, saves a badge and replays with new tasks", game => {
@@ -105,7 +157,7 @@ describe("varied educational game sessions", () => {
     });
     expect(screen.getByRole("heading", { name: new RegExp(`Браво, ${game.badge.toLocaleLowerCase("mk")}`) })).toHaveFocus();
     expect(readGameProgress(game.id).completedRuns).toBe(1);
-    expect(readGameProgress(game.id).bestFirstTry).toBe(5);
+    expect(readGameProgress(game.id).bestFirstTry).toBe(rounds.length);
     expect(educationalGames.filter(other => other.id !== game.id).every(other => readGameProgress(other.id).completedRuns === 0)).toBe(true);
     click("Играј со нови задачи");
     expect(savedSession(game.id).seed).not.toBe(42);
@@ -221,7 +273,9 @@ describe("varied educational game sessions", () => {
     expect(within(item).getAllByRole("button")).toHaveLength(4);
   });
 
-  it("provides public metadata and static entry pages for the catalog and all five games", () => {
+  it("provides public metadata and static entry pages for the catalog and every game", () => {
+    expect(getPageMetadata(GAMES_PATH).title).not.toContain("Мисија: Земја");
+    expect(getPageMetadata(GAMES_PATH).description).toContain("предмет и одделение");
     for (const path of [GAMES_PATH, ...educationalGames.map(game => game.path)]) {
       expect(getPageMetadata(path).robots).toMatch(/^index/);
       expect(getPageMetadata(path).title).not.toContain("не е пронајдена");

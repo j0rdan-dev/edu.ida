@@ -27,6 +27,7 @@
 .game-tool-button:hover { background: var(--earth-tone); }
 .game-play-name { display: flex; align-items: center; gap: 8px; min-width: 0; flex: 1; font-size: 16px; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .game-play-name > span { font-size: 22px; }
+.game-play-name .game-play-label { font-size: inherit; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .game-play-round { white-space: nowrap; font-size: 17px; font-weight: 800; }
 .game-play-round > span { color: var(--earth-muted); font-size: 13px; }
 .game-viewport .game-play-progress { width: min(1100px, 100%); margin: 0 auto; height: 3px; }

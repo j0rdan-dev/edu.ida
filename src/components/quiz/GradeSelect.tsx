@@ -13,8 +13,7 @@ const GradeSelect = () => {
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">
             EDU.IDA
           </h1>
-          <p className="text-muted-foreground font-medium tracking-wide">Интерактивни квизови и тестови за основно образование</p>
-          <p className="mt-3 text-sm text-muted-foreground">Вежбај математика, македонски јазик, природни науки и општество за 3–5 одделение. Пронајди учебници за 1–5 одделение.</p>
+          <p className="text-muted-foreground font-medium tracking-wide">Учиме заедно со AI и интерактивни тестови.</p>
         </div>
 
         <div className="flex flex-col gap-3">

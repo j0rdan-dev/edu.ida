@@ -67,18 +67,18 @@ export function getPageMetadata(pathname: string): PageMetadata {
   if (path === "/") return base;
   if (path === GAMES_PATH.replace(/\/+$/, "")) return {
     ...base,
-    title: "Образовни игри за деца | Мисија: Земја | EDU.IDA",
-    description: "Пет образовни игри на македонски за 4–5 одделение. Истражувај континенти, релјеф, компас, Земјини обвивки, време и клима со нови задачи при секое играње.",
-    keywords: keywords(...BASE_KEYWORDS, "образовни игри за деца", "мисија земја", "географија", "природни науки", "четврто одделение", "петто одделение"),
-    imageAlt: "Мисија: Земја — пет образовни игри за деца",
+    title: "Образовни игри за деца | Учење преку игра | EDU.IDA",
+    description: "Образовни игри на македонски. Пребарувај по тема, избери предмет и одделение и вежбај со свое темпо.",
+    keywords: keywords(...BASE_KEYWORDS, "образовни игри за деца", "учење преку игра", "игри по предмети", "интерактивни задачи"),
+    imageAlt: "EDU.IDA — образовни игри за деца",
     breadcrumbs: [homeCrumb, { name: "Игри", url: base.canonicalUrl }],
   };
   const game = educationalGames.find(item => item.path.replace(/\/+$/, "") === path);
   if (game) return {
     ...base,
     title: `${game.name} | ${game.shortTitle} | Образовна игра | EDU.IDA`,
-    description: `${game.description} Образовна игра за 4–5 одделение со две нивоа, разновидни задачи, мала лекција и објаснувања.`,
-    keywords: keywords(...BASE_KEYWORDS, game.name, game.shortTitle, "географска игра за деца", "четврто одделение", "петто одделение"),
+    description: `${game.description} Образовна игра по ${game.subject.toLocaleLowerCase("mk")} за ${game.gradeLevels.join(" и ")} одделение со задачи и објаснувања.`,
+    keywords: keywords(...BASE_KEYWORDS, game.name, game.shortTitle, game.subject, "образовна игра за деца", ...game.gradeLevels.map(grade => `${grade} одделение`)),
     imageAlt: `${game.name} — учење преку игра`,
     breadcrumbs: [homeCrumb, { name: "Игри", url: canonicalUrl(GAMES_PATH) }, { name: game.name, url: base.canonicalUrl }],
   };

@@ -5,7 +5,14 @@ import { IslandLandscape } from "./earth/EarthArtwork";
 export default function GameIllustration({ gameId }: { gameId: GameId }) {
   return <div className={`game-illustration game-illustration-${gameId}`} aria-hidden="true">
     <span className="game-art-orbit game-art-orbit-one" /><span className="game-art-orbit game-art-orbit-two" />
-    {gameId === "terrain" ? <IslandLandscape /> : gameId === "atlas" ? <>
+    {gameId === "coordinates" ? <svg viewBox="0 0 180 180" fill="none">
+      {Array.from({ length: 6 }, (_, i) => <g key={i}><path d={`M25 ${30 + i * 25}H155M${25 + i * 25} 30V155`} stroke="#cbdde6" /></g>)}
+      <path d="M25 22v133h140" stroke="#6f8ca2" strokeWidth="2" />
+      <path d="M50 130V55h75v75Z" fill="#e1f3f5" stroke="#32869d" strokeWidth="3" strokeLinejoin="round" />
+      <circle cx="50" cy="130" r="6" fill="#e8a044" stroke="white" strokeWidth="2" />
+      <text x="37" y="121" fill="#344b61" fontSize="14" fontWeight="700">A</text>
+      <path d="m155 151 9 4-9 4m-134-128 4-9 4 9" stroke="#6f8ca2" strokeWidth="2" />
+    </svg> : gameId === "terrain" ? <IslandLandscape /> : gameId === "atlas" ? <>
       <svg viewBox="0 0 240 180" className="game-globe" fill="none">
         <ellipse cx="120" cy="155" rx="57" ry="8" fill="hsl(160 35% 35% / .12)" />
         <circle cx="120" cy="85" r="65" fill="hsl(193 65% 79%)" stroke="hsl(172 35% 31%)" strokeWidth="3" />

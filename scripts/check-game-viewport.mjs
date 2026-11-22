@@ -5,6 +5,7 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 
 const base = process.env.GAME_TEST_URL || "http://127.0.0.1:8080";
+const difficulty = process.env.GAME_TEST_DIFFICULTY === "explorer" ? "explorer" : "challenge";
 const sizes = [[320, 568], [375, 667], [390, 844], [768, 1024], [1366, 768], [844, 390], [568, 320]];
 const browser = await chromium.launch({ headless: true, channel: process.env.PLAYWRIGHT_CHANNEL || "chrome" });
 const page = await browser.newPage({ viewport: { width: 375, height: 667 }, reducedMotion: "reduce" });
@@ -37,6 +38,26 @@ async function solve(mission) {
   else if (mission.kind === "temperature" || mission.kind === "rain") {
     await page.getByRole("slider").fill(String(mission.answer));
     await page.getByRole("button", { name: "Провери го мерењето" }).click();
+  } else if (mission.kind === "coordinates") {
+    let [x, y] = mission.start;
+    if (mission.task === "plot") {
+      const point = await page.locator(".coordinate-board svg").evaluate((svg, target) => {
+        const local = new DOMPoint(32 + (target[0] - Number(svg.dataset.minX)) * 28, 20 + (Number(svg.dataset.maxY) - target[1]) * 28);
+        const screen = local.matrixTransform(svg.getScreenCTM());
+        return { x: screen.x, y: screen.y };
+      }, mission.target);
+      await page.mouse.click(point.x, point.y);
+      assert.equal(await page.locator(".coordinate-position output").textContent(), mission.answer);
+      await page.getByRole("button", { name: "Провери ја точката", exact: true }).click();
+      return;
+    }
+    const destinations = mission.route.length ? mission.route.map(step => step.position) : mission.task === "read" ? [] : [mission.target];
+    for (const point of destinations) {
+      while (x !== point[0]) { const right = point[0] > x; await page.getByRole("button", { name: right ? "Оди надесно" : "Оди налево", exact: true }).click(); x += right ? 1 : -1; }
+      while (y !== point[1]) { const up = point[1] > y; await page.getByRole("button", { name: up ? "Оди нагоре" : "Оди надолу", exact: true }).click(); y += up ? 1 : -1; }
+    }
+    if (mission.choices.length) await page.getByRole("button", { name: mission.choices.find(choice => choice.id === mission.answer).label, exact: true }).click();
+    else if (!mission.route.length) await page.getByRole("button", { name: "Провери ја точката", exact: true }).click();
   } else {
     let [x, y] = mission.start;
     for (const step of mission.route) {
@@ -58,10 +79,10 @@ try {
       const startButton = await page.getByRole("button", { name: "Ајде да играме" }).boundingBox();
       assert.ok(startButton && startButton.y + startButton.height <= height, `Start action below fold in ${game.id} at ${width}x${height}: ${JSON.stringify(startButton)}`);
     }
-    await page.evaluate(id => localStorage.setItem(`edu-ida-games-v1:${id}`, JSON.stringify({ completedRuns: 0, bestFirstTry: 0, session: { seed: 42, difficulty: "challenge", index: 0, results: [], attempts: 0, hintShown: false } })), game.id);
+    await page.evaluate(({ id, difficulty }) => localStorage.setItem(`edu-ida-games-v1:${id}`, JSON.stringify({ completedRuns: 0, bestFirstTry: 0, session: { seed: 42, difficulty, index: 0, results: [], attempts: 0, hintShown: false } })), { id: game.id, difficulty });
     await page.goto(`${base}${game.path}`);
     await page.getByRole("button", { name: "Продолжи ја играта" }).click();
-    const rounds = await page.evaluate(async id => (await import("/src/data/educationalGames.ts")).createGameRounds(id, "challenge", 42), game.id);
+    const rounds = await page.evaluate(async ({ id, difficulty }) => (await import("/src/data/educationalGames.ts")).createGameRounds(id, difficulty, 42), { id: game.id, difficulty });
     const photographed = new Set();
     for (const [index, mission] of rounds.entries()) {
       for (const [width, height] of sizes) {
@@ -69,9 +90,10 @@ try {
         await checkFit(`${game.id} ${mission.id} before answer ${width}x${height}`);
       }
       await page.setViewportSize({ width: 375, height: 667 });
-      if (!photographed.has(mission.kind)) {
-        await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${mission.kind}.png`), animations: "disabled" });
-        photographed.add(mission.kind);
+      const photoKey = mission.kind === "coordinates" ? `coordinates-${mission.task}` : mission.kind;
+      if (!photographed.has(photoKey)) {
+        await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${photoKey}.png`), animations: "disabled" });
+        photographed.add(photoKey);
       }
       if (index === 0) {
         await page.getByRole("button", { name: "Мала помош?" }).click();
@@ -79,6 +101,19 @@ try {
         await page.keyboard.press("Escape");
         await page.getByRole("dialog").waitFor({ state: "hidden" });
         assert.equal(await page.evaluate(() => scrollY), 0);
+      }
+      if (mission.kind === "coordinates" && mission.task !== "read") {
+        if (!mission.route.length) await page.getByRole("button", { name: "Провери ја точката", exact: true }).click();
+        else {
+          const horizontal = mission.route[0].position[1] === mission.start[1];
+          await page.getByRole("button", { name: horizontal ? "Оди нагоре" : "Оди надесно", exact: true }).click();
+          assert.equal(await page.locator(".coordinate-position output").textContent(), `(${mission.start.join(", ")})`);
+        }
+        for (const [width, height] of sizes) {
+          await page.setViewportSize({ width, height });
+          await checkFit(`${game.id} ${mission.id} after incorrect answer ${width}x${height}`);
+        }
+        await page.setViewportSize({ width: 375, height: 667 });
       }
       await solve(mission);
       await page.getByRole("button", { name: "Зошто е точно?" }).waitFor();
@@ -90,11 +125,11 @@ try {
       await page.getByRole("button", { name: "Зошто е точно?" }).click();
       await page.getByRole("dialog").getByText(mission.explanation, { exact: true }).waitFor();
       await page.getByRole("button", { name: "Назад кон играта" }).click();
-      await page.getByRole("button", { name: index === 7 ? "Види го резултатот" : "Следно откритие", exact: true }).click();
+      await page.getByRole("button", { name: index === rounds.length - 1 ? "Види го резултатот" : "Следно откритие", exact: true }).click();
     }
     await page.getByRole("heading", { name: /Браво,/ }).waitFor();
     assert.equal(await page.evaluate(() => document.documentElement.classList.contains("game-play-active")), false);
-    console.log(`PASS ${game.id}: all 8 rounds, ${sizes.length} viewports, hints, explanations, and next actions without scrolling`);
+    console.log(`PASS ${game.id} (${difficulty}): all ${rounds.length} rounds, ${sizes.length} viewports, hints, explanations, and next actions without scrolling`);
   }
   assert.deepEqual(errors, []);
   console.log(`PASS ${selectedGames.length} games; screenshots saved in the system temporary directory as edu-ida-compact-*.png`);

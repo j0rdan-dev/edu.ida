@@ -1,0 +1,91 @@
+.coordinate-activity {
+  display: flex;
+  align-items: stretch;
+  gap: clamp(12px, 3vw, 40px);
+  max-width: 1040px;
+  margin: 0 auto;
+  outline-offset: 3px;
+}
+.coordinate-board { flex: 1 1 0; min-width: 0; min-height: 0; display: flex; align-items: center; justify-content: center; }
+.coordinate-board svg { width: 100%; height: 100%; max-height: 100%; overflow: visible; user-select: none; touch-action: manipulation; }
+.coordinate-board svg.is-interactive { cursor: crosshair; }
+.coordinate-grid-background { fill: #fcfdff; }
+.coordinate-grid-line { stroke: #e0e8f0; stroke-width: 1; }
+.coordinate-axis { stroke: #8093aa; stroke-width: 1.6; }
+.coordinate-tick { fill: #52657c; font: 12px "Nunito", sans-serif; }
+.coordinate-axis-label { fill: #35485f; font: bold 13px "Nunito", sans-serif; }
+.coordinate-marker { fill: #344960; }
+.coordinate-marker text, .coordinate-cursor text { font: bold 14px "Nunito", sans-serif; paint-order: stroke; stroke: white; stroke-width: 4px; stroke-linejoin: round; }
+.coordinate-trace { fill: none; stroke: #318ca8; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.coordinate-trace.is-complete { stroke: #25816b; }
+.coordinate-given-path { fill: none; stroke: #91a5b9; stroke-width: 2; stroke-dasharray: 5 4; }
+.coordinate-cursor { fill: #ef9b38; }
+.coordinate-cursor circle:first-child { fill: #fff2d9; stroke: #cc7c21; stroke-width: 2; }
+.coordinate-cursor.is-complete { fill: #25816b; }
+.coordinate-cursor.is-complete circle:first-child { fill: #ddf4e9; stroke: #25816b; }
+.coordinate-controls { flex: 0 0 260px; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+.coordinate-route { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; }
+.coordinate-route li { border: 1px solid #e1e8ed; border-radius: 9px; color: #617187; min-height: 36px; display: flex; align-items: center; justify-content: center; gap: 3px; font-weight: 800; font-size: 16px; white-space: nowrap; }
+.coordinate-route li.is-current { border-color: #38859b; background: #edf8fb; color: #23697c; }
+.coordinate-route li.is-done { background: #eef7f2; border-color: #cce7da; color: #28785d; }
+.coordinate-route svg { width: 12px; height: 12px; }
+.coordinate-position { display: flex; align-items: center; justify-content: center; gap: 10px; color: #62748a; font-size: 13px; }
+.coordinate-position output { color: #243b51; font-size: 19px; font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.coordinate-navigation > p { margin: 0 0 8px; color: #62748a; font-size: 12px; text-align: center; }
+.coordinate-dpad { display: grid; grid-template: repeat(3, 46px) / repeat(3, 46px); gap: 4px; justify-content: center; }
+.coordinate-dpad button { display: flex; align-items: center; justify-content: center; border: 1px solid #cddfe6; border-radius: 12px; background: #f0f8fa; color: #23697c; min-height: 44px; min-width: 44px; }
+.coordinate-dpad button:hover:not(:disabled) { background: #d9eef4; border-color: #6ca6b8; }
+.coordinate-dpad button:disabled { opacity: .4; }
+.coordinate-dpad .direction-up { grid-area: 1 / 2; }
+.coordinate-dpad .direction-left { grid-area: 2 / 1; }
+.coordinate-dpad .direction-right { grid-area: 2 / 3; }
+.coordinate-dpad .direction-down { grid-area: 3 / 2; }
+.coordinate-dpad-center { grid-area: 2 / 2; align-self: center; justify-self: center; color: #a1b3bf; font-size: 22px; }
+.coordinate-controls .coordinate-check { min-height: 44px; justify-content: center; font-size: 13px; }
+.coordinate-reset { align-self: center; display: flex; align-items: center; justify-content: center; gap: 7px; min-height: 44px; padding: 8px 12px; font-size: 12px; color: #617187; border-radius: 8px; }
+.coordinate-reset svg { width: 15px; height: 15px; }
+.coordinate-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.coordinate-choices button { min-width: 0; min-height: 52px; padding: 9px; border-radius: 12px; border: 1px solid #d9e3e9; background: #f8fbfd; color: #354b60; font-size: 14px; font-weight: 700; line-height: 1.3; }
+.coordinate-choices button:hover:not(:disabled) { border-color: #5198ad; background: #edf8fb; }
+.coordinate-choices button.is-wrong { border-color: #d48068; background: #fff1ec; }
+.coordinate-choices button.is-correct { border-color: #56a68b; background: #e9f7ef; color: #23694f; }
+.coordinate-notice { font-size: 12px; line-height: 1.35; color: #6f6147; margin: 0; text-align: center; }
+.coordinate-notice:empty { display: none; }
+.game-illustration-coordinates > svg { width: 85%; height: 85%; z-index: 1; }
+@media (max-width: 600px) and (min-height: 501px) {
+  .coordinate-activity { flex-direction: column; gap: 6px; }
+  .coordinate-board { flex: 1 1 0; }
+  .coordinate-controls { flex: 0 0 auto; gap: 6px; }
+  .coordinate-route { max-width: 320px; width: 100%; align-self: center; }
+  .coordinate-route li { min-height: 28px; font-size: 14px; }
+  .coordinate-navigation > p { margin-bottom: 5px; font-size: 11px; }
+  .coordinate-dpad { grid-template: 44px / repeat(4, 44px); gap: 6px; }
+  .coordinate-dpad .direction-left { grid-area: 1 / 1; }
+  .coordinate-dpad .direction-up { grid-area: 1 / 2; }
+  .coordinate-dpad .direction-down { grid-area: 1 / 3; }
+  .coordinate-dpad .direction-right { grid-area: 1 / 4; }
+  .coordinate-dpad-center { display: none; }
+  .coordinate-reset { padding: 4px 8px; }
+  .coordinate-position { justify-content: center; }
+  .coordinate-choices button { min-height: 44px; padding: 7px; font-size: 13px; }
+  .coordinate-check { align-self: center; min-width: 200px; }
+}
+@media (max-height: 600px) and (min-aspect-ratio: 3/2) {
+  .coordinate-activity { gap: 10px; }
+  .coordinate-controls { flex-basis: 235px; gap: 4px; }
+  .coordinate-navigation > p { display: none; }
+  .coordinate-dpad { grid-template: 44px / repeat(4, 44px); gap: 4px; }
+  .coordinate-dpad .direction-left { grid-area: 1 / 1; }
+  .coordinate-dpad .direction-up { grid-area: 1 / 2; }
+  .coordinate-dpad .direction-down { grid-area: 1 / 3; }
+  .coordinate-dpad .direction-right { grid-area: 1 / 4; }
+  .coordinate-dpad-center { display: none; }
+  .coordinate-route li { min-height: 26px; font-size: 13px; }
+  .coordinate-position { font-size: 11px; }
+  .coordinate-position output { font-size: 16px; }
+  .coordinate-reset { padding: 3px 6px; font-size: 11px; }
+  .coordinate-check { padding: 6px 10px; font-size: 12px; }
+  .coordinate-notice { font-size: 10px; }
+  .coordinate-choices { gap: 6px; }
+  .coordinate-choices button { min-height: 44px; font-size: 12px; padding: 7px; }
+}
