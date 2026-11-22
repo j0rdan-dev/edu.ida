@@ -13,7 +13,7 @@ import ModeSelect from "./ModeSelect";
 
 type Screen = "grades" | "subjects" | "categories" | "modes" | "quiz" | "results" | "textbooks";
 
-const DEFAULT_TIME_PER_QUESTION = 45;
+const DEFAULT_TIME_PER_QUESTION = 180;
 
 const pathForGrade = (gradeId: string) => `/grade/${encodeURIComponent(gradeId)}`;
 const pathForSubject = (gradeId: string, subjectId: string) => `${pathForGrade(gradeId)}/subject/${encodeURIComponent(subjectId)}`;
