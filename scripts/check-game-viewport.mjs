@@ -83,6 +83,26 @@ async function solve(mission) {
       await page.setViewportSize({ width: 375, height: 667 });
       await page.getByRole("button", { name: `Ред ${mission.answer}`, exact: true }).click();
     }
+  } else if (mission.kind === "shapes") {
+    const labels = await page.evaluate(async () => (await import("/src/data/shapesGeometry.ts")).faceLabels);
+    if (mission.task === "sort") {
+      for (const card of mission.cards) await page.getByRole("button", { name: new RegExp(`^${mission.categories.find(category => category.id === card.category).label}`) }).click();
+    } else if (mission.task === "trace") {
+      for (let i = 0; i < mission.polygon.length; i++) {
+        const vertex = page.getByRole("button", { name: `Теме ${String.fromCharCode(65 + i)}`, exact: true });
+        if (i === 0) await vertex.press("Enter"); else await vertex.click();
+      }
+      await page.getByRole("button", { name: "Теме A", exact: true }).click();
+      for (const [width, height] of sizes) { await page.setViewportSize({ width, height }); await checkFit(`shapes trace choices ${width}x${height}`); }
+      await page.setViewportSize({ width: 375, height: 667 });
+      await page.getByRole("button", { name: mission.answer, exact: true }).click();
+    } else if (mission.task === "count") {
+      await page.getByRole("spinbutton").fill(mission.answer);
+      await page.getByRole("button", { name: "Провери", exact: true }).click();
+    } else if (mission.task === "build") {
+      for (const kind of mission.faceKinds) for (let i = 0; i < (mission.faceCounts[kind] ?? 0); i++) await page.getByRole("button", { name: `Повеќе: ${labels[kind]}`, exact: true }).click();
+      await page.getByRole("button", { name: "Провери ги ѕидовите", exact: true }).click();
+    } else await page.getByRole("button", { name: mission.choices.find(choice => choice.id === mission.answer).label, exact: true }).click();
   } else {
     let [x, y] = mission.start;
     for (const step of mission.route) {
@@ -115,7 +135,7 @@ try {
         await checkFit(`${game.id} ${mission.id} before answer ${width}x${height}`);
       }
       await page.setViewportSize({ width: 375, height: 667 });
-      const photoKey = mission.kind === "coordinates" || mission.kind === "symmetry" ? `${mission.kind}-${mission.task}` : mission.kind;
+      const photoKey = ["coordinates", "symmetry", "shapes"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
       if (!photographed.has(photoKey)) {
         await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${photoKey}.png`), animations: "disabled" });
         photographed.add(photoKey);
@@ -155,10 +175,45 @@ try {
         if (mission.task === "axes" && !mission.validAxes.length) await page.getByRole("button", { name: "Вертикална ↕", exact: true }).click();
         await page.setViewportSize({ width: 375, height: 667 });
       }
+      if (mission.kind === "shapes") {
+        if (mission.task === "sort") {
+          const wrong = mission.categories.find(category => category.id !== mission.cards[0].category);
+          await page.getByRole("button", { name: new RegExp(`^${wrong.label}`) }).click();
+        } else if (mission.task === "trace") {
+          await page.getByRole("button", { name: "Теме A", exact: true }).click();
+          await page.getByRole("button", { name: "Теме C", exact: true }).click();
+          if (mission.polygon.length === 3) await page.getByRole("button", { name: "Теме A", exact: true }).click();
+        } else if (mission.task === "count") {
+          if (mission.property !== "flat") {
+            const viewer = page.getByRole("group", { name: "Заврти го моделот со стрелките" });
+            const before = await viewer.innerHTML();
+            await viewer.press("ArrowUp");
+            assert.notEqual(await viewer.innerHTML(), before, "Keyboard must rotate the model");
+            const svg = viewer.locator("svg").first();
+            const position = await svg.boundingBox();
+            const turned = await viewer.innerHTML();
+            await page.mouse.move(position.x + position.width / 2, position.y + position.height / 2);
+            await page.mouse.down();
+            await page.mouse.move(position.x + position.width / 2 + 30, position.y + position.height / 2 + 10);
+            await page.mouse.up();
+            assert.notEqual(await viewer.innerHTML(), turned, "Dragging must rotate the model");
+          }
+          await page.getByRole("spinbutton").fill(String(mission.count + 1));
+          await page.getByRole("button", { name: "Провери", exact: true }).click();
+        } else if (mission.task === "build") await page.getByRole("button", { name: "Провери ги ѕидовите", exact: true }).click();
+        else await page.getByRole("button", { name: mission.choices.find(choice => choice.id !== mission.answer).label, exact: true }).click();
+        for (const [width, height] of sizes) {
+          await page.setViewportSize({ width, height });
+          await checkFit(`${game.id} ${mission.id} after incorrect answer ${width}x${height}`);
+        }
+        if (mission.task === "trace") await page.getByRole("button", { name: "Почни повторно", exact: true }).click();
+        await page.setViewportSize({ width: 375, height: 667 });
+      }
       await solve(mission);
       await page.getByRole("button", { name: "Зошто е точно?" }).waitFor();
       if (index === 0) await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${game.id}-solved.png`), animations: "disabled" });
       if (mission.kind === "symmetry") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-symmetry-${mission.task}-solved.png`), animations: "disabled" });
+      if (mission.kind === "shapes") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-shapes-${mission.task}-solved.png`), animations: "disabled" });
       for (const [width, height] of sizes) {
         await page.setViewportSize({ width, height });
         await checkFit(`${game.id} ${mission.id} after answer ${width}x${height}`);

@@ -10,6 +10,7 @@ import { EARTH_GAME_PATH, EARTH_PROGRESS_KEY, earthMissions, type EarthMission }
 import { createGameRounds, educationalGames, gameProgressKey, GAMES_PATH, readGameProgress, roundCount, type GameId, type GameSession, type GameMission } from "@/data/educationalGames";
 import { getIndexablePaths, getPageMetadata, getStaticPaths } from "@/lib/seo";
 import { axisLabels } from "@/data/symmetryGame";
+import { faceLabels } from "@/data/shapesGeometry";
 
 beforeEach(() => localStorage.clear());
 afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear(); });
@@ -57,6 +58,19 @@ function solve(mission: GameMission) {
       for (let angle = 0; angle < 360; angle += mission.rotationStep) click(`Заврти за ${mission.rotationStep}°`);
       click(`Ред ${mission.answer}`);
     }
+  } else if (mission.kind === "shapes") {
+    if (mission.task === "sort") {
+      for (const card of mission.cards) click(new RegExp(`^${mission.categories.find(category => category.id === card.category)!.label}`));
+    } else if (mission.task === "trace") {
+      for (let i = 0; i < mission.polygon.length; i++) fireEvent.click(screen.getByLabelText(`Теме ${String.fromCharCode(65 + i)}`));
+      fireEvent.click(screen.getByLabelText("Теме A"));
+      click(mission.answer);
+    } else if (mission.task === "count") {
+      fireEvent.change(screen.getByRole("spinbutton"), { target: { value: mission.answer } }); click("Провери");
+    } else if (mission.task === "build") {
+      for (const kind of mission.faceKinds) for (let i = 0; i < (mission.faceCounts[kind] ?? 0); i++) fireEvent.click(screen.getByLabelText(`Повеќе: ${faceLabels[kind]}`));
+      click("Провери ги ѕидовите");
+    } else click(mission.choices.find(choice => choice.id === mission.answer)!.label);
   } else if (mission.kind === "compass") {
     let [x, y] = mission.start!;
     const map = screen.getByRole("group", { name: "Карта за движење со компас" });

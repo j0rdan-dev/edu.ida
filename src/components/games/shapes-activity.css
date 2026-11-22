@@ -1,0 +1,64 @@
+.shapes-activity { display: flex; align-items: stretch; gap: clamp(12px, 3vw, 40px); max-width: 1000px; margin: 0 auto; color: #425f5a; }
+.shapes-board { flex: 1 1 0; min-height: 0; min-width: 0; display: flex; flex-direction: column; }
+.shapes-board-label { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; min-height: 26px; padding: 3px 5px; color: #728880; }
+.shapes-board-label > span:last-child { color: #8a769e; font-weight: 800; white-space: nowrap; }
+.shapes-model { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; }
+.shapes-model > svg, .shapes-net, .shapes-trace { flex: 1 1 0; min-height: 0; height: 0; width: 100%; user-select: none; }
+.shapes-turnable { cursor: grab; touch-action: none; }.shapes-turnable:active { cursor: grabbing; }
+.shapes-model:focus-visible { outline: 3px solid #c3934f; outline-offset: -3px; border-radius: 10px; }
+.shapes-turn-controls { flex: 0 0 44px; display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 11px; color: #7d8c86; }
+.shapes-activity button { min-height: 44px; min-width: 44px; border-radius: 10px; }
+.shapes-activity button:disabled { cursor: default; }.shapes-activity button:focus-visible, .shapes-trace [role=button]:focus-visible { outline: 3px solid #c3934f; outline-offset: 2px; }
+.shapes-turn-controls button, .shapes-number button, .shapes-face-row button { display: grid; place-items: center; background: #f2f7f5; border: 1px solid #d5e3df; color: #54877a; flex-shrink: 0; }
+.shapes-turn-controls button { width: 44px; height: 44px; }.shapes-activity button svg { width: 18px; height: 18px; }
+.shapes-number button:disabled, .shapes-face-row button:disabled { opacity: .45; }
+.shapes-caption { flex-shrink: 0; font-size: 11px; text-align: center; color: #7d8c86; min-height: 22px; line-height: 1.4; padding: 4px 0 0; margin: 0; }
+.shapes-controls { flex: 0 0 330px; min-width: 0; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.shapes-tip { text-align: center; color: #74847e; font-size: 13px; line-height: 1.5; margin: 0; }
+.shapes-controls .shapes-check { min-height: 44px; padding: 10px 12px; font-size: 13px; gap: 6px; }
+.shapes-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.shapes-choices button { min-width: 0; padding: 10px; background: #f7f8fb; border: 1px solid #dddfe9; font-size: 13px; line-height: 1.35; color: #646181; font-weight: 800; }
+.shapes-choices button:hover:not(:disabled) { background: #eeedf5; border-color: #b4a6cb; }
+.shapes-choices button.is-wrong { background: #fff0e8; border-color: #c89074; }
+.shapes-choices button.is-correct { background: #e3f4ec; border-color: #6aab90; color: #377d61; }
+.shapes-solid-choices button { display: flex; flex-direction: column; align-items: center; padding: 4px 8px 10px; }
+.shapes-solid-choices button > svg { width: 80px; height: 80px; }
+.shapes-sort-card { display: flex; flex: 1 1 0; min-height: 0; flex-direction: column; text-align: center; font-size: 17px; font-weight: 800; }
+.shapes-sort-card > svg { flex: 1 1 0; height: 0; min-height: 0; width: 100%; }
+.shapes-sort-card > strong { flex-shrink: 0; font-size: 16px; min-height: 26px; }
+.shapes-sort-progress { display: flex; justify-content: center; gap: 10px; padding: 8px 0; flex-shrink: 0; }
+.shapes-sort-progress > span { display: grid; place-items: center; border: 1px solid #e2e8e5; border-radius: 50%; width: 25px; height: 25px; color: #9aaba3; font-size: 11px; }
+.shapes-sort-progress .is-current { border-color: #9a80b5; color: #886f9f; }.shapes-sort-progress .is-done { background: #e1f1e9; color: #598978; border-color: #93b7a5; }.shapes-sort-progress svg { width: 15px; height: 15px; }
+.shapes-sort-options { display: flex; flex-direction: column; gap: 10px; }
+.shapes-sort-options button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; padding: 15px 10px; border: 1px solid #d3e2db; background: #f4f9f6; font-size: 16px; }
+.shapes-sort-options button:last-child { background: #f8f5fb; border-color: #ded4e9; color: #7d6692; }.shapes-sort-options button span { font-size: 12px; opacity: .8; }
+.shapes-trace g { cursor: pointer; touch-action: manipulation; }
+.shapes-vertex-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.shapes-vertex-options button { background: #f5f8f6; border: 1px solid #d5e2dc; font-size: 16px; font-weight: 800; }
+.shapes-vertex-options button[aria-pressed=true] { background: #e1f1e8; border-color: #8ab5a1; color: #4e806a; }
+.shapes-traced-count { text-align: center; color: #578c7b; font-size: 28px; font-weight: 800; }.shapes-traced-count span { font-size: 13px; font-weight: 600; }
+.shapes-secondary { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 12px; background: #f3f7f5; border: 1px solid #d5e0db; font-size: 13px; }
+.shapes-number { display: flex; align-items: center; justify-content: center; gap: 12px; }.shapes-number button { width: 44px; height: 44px; }
+.shapes-number input { width: 82px; height: 50px; font-size: 30px; font-weight: 800; text-align: center; border-radius: 10px; border: 1px solid #d3e1db; background: #fbfdfa; color: #527f6d; appearance: textfield; -moz-appearance: textfield; }.shapes-number input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.shapes-face-picker { display: flex; flex-direction: column; gap: 8px; }
+.shapes-face-row { display: grid; grid-template-columns: 34px minmax(0, 1fr) 44px 22px 44px; align-items: center; gap: 5px; }
+.shapes-face-row > svg { width: 34px; height: 34px; }.shapes-face-row label { font-size: 12px; line-height: 1.25; }.shapes-face-row output { font-size: 19px; font-weight: 800; text-align: center; }.shapes-face-row button { width: 44px; height: 44px; }
+.game-illustration-shapes > svg { width: 85%; height: 85%; z-index: 1; }
+@media (max-width: 600px) and (min-height: 501px) {
+  .shapes-activity { flex-direction: column; gap: 8px; }.shapes-controls { flex: 0 0 auto; gap: 8px; }.shapes-board-label { min-height: 20px; font-size: 10px; padding-block: 0; }.shapes-tip { font-size: 11px; }
+  .shapes-sort-options { flex-direction: row; gap: 8px; }.shapes-sort-options button { flex: 1; min-width: 0; padding: 10px 5px; font-size: 14px; }.shapes-sort-options button span { font-size: 10px; }
+  .shapes-solid-choices button { flex-direction: row; gap: 4px; padding: 4px; text-align: left; font-size: 11px; min-height: 52px; }.shapes-solid-choices button > svg { flex: 0 0 40px; width: 40px; height: 40px; }
+  .shapes-choices button { font-size: 12px; padding: 7px; }.shapes-face-picker { gap: 4px; }.shapes-face-row { grid-template-columns: 28px minmax(0, 1fr) 44px 22px 44px; }.shapes-face-row > svg { width: 28px; height: 28px; }.shapes-face-row label { font-size: 11px; }
+  .shapes-sort-progress { padding: 4px 0; }.shapes-caption { min-height: 18px; font-size: 10px; }.shapes-traced-count { font-size: 22px; }.shapes-traced-count span { font-size: 11px; }
+}
+@media (max-height: 600px) and (min-aspect-ratio: 3/2) {
+  .shapes-activity { gap: 12px; }.shapes-controls { flex-basis: 285px; gap: 6px; }.shapes-board-label { min-height: 18px; font-size: 10px; padding-block: 0; }.shapes-tip { display: none; }.shapes-caption { display: none; }
+  .shapes-task-build { display: grid; grid-template-columns: minmax(0, 1fr) 285px; grid-template-rows: minmax(0, 1fr) 44px; gap: 6px 12px; }
+  .shapes-task-build .shapes-board { grid-area: 1 / 1; }.shapes-task-build .shapes-controls { display: contents; }
+  .shapes-task-build .shapes-face-picker { grid-area: 1 / 2 / 3 / 3; align-self: center; }.shapes-task-build .shapes-check { grid-area: 2 / 1; }
+  .shapes-task-build .shapes-turn-controls { display: none; }
+  .shapes-traced-count { display: none; }
+  .shapes-turn-controls { gap: 6px; }.shapes-turn-controls span { font-size: 9px; }.shapes-solid-choices button { flex-direction: row; gap: 3px; padding: 3px; text-align: left; min-height: 52px; font-size: 11px; }.shapes-solid-choices button > svg { flex: 0 0 36px; width: 36px; height: 36px; }
+  .shapes-choices { gap: 6px; }.shapes-choices button { font-size: 11px; padding: 5px; }.shapes-face-picker { gap: 4px; }.shapes-face-row { grid-template-columns: 24px minmax(0, 1fr) 44px 20px 44px; gap: 3px; }.shapes-face-row > svg { width: 24px; height: 24px; }.shapes-face-row label { font-size: 10px; }.shapes-controls .shapes-check { padding: 7px; font-size: 12px; }
+  .shapes-sort-options button { padding: 8px; font-size: 14px; }.shapes-sort-options button span { font-size: 11px; }.shapes-sort-card > strong { font-size: 12px; min-height: 18px; }.shapes-sort-progress { padding: 2px 0; gap: 6px; }.shapes-sort-progress > span { width: 20px; height: 20px; }
+}

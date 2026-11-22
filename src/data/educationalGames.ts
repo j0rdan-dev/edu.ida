@@ -1,13 +1,14 @@
 import { earthChapters, earthMissions, readEarthProgress, type ContinentId, type EarthChapterId, type EarthMission, type SphereId, type TerrainId } from "./earthExpedition";
 import { COORDINATE_ROUND_COUNT, coordinateGameDetails, createCoordinateRounds, type CoordinateMission } from "./coordinateGame";
 import { SYMMETRY_ROUND_COUNT, symmetryGameDetails, createSymmetryRounds, type SymmetryMission } from "./symmetryGame";
+import { SHAPES_ROUND_COUNT, shapesGameDetails, createShapesRounds, type ShapesMission } from "./shapesGame";
 import { seededRandom, shuffle } from "./gameRandom";
 
 export const GAMES_PATH = "/games/";
-export type GameId = EarthChapterId | "coordinates" | "symmetry";
-export type GameMission = EarthMission | CoordinateMission | SymmetryMission;
+export type GameId = EarthChapterId | "coordinates" | "symmetry" | "shapes";
+export type GameMission = EarthMission | CoordinateMission | SymmetryMission | ShapesMission;
 export type Difficulty = "explorer" | "challenge";
-export const roundCount = (difficulty: Difficulty, gameId?: GameId) => gameId === "coordinates" ? COORDINATE_ROUND_COUNT : gameId === "symmetry" ? SYMMETRY_ROUND_COUNT : difficulty === "challenge" ? 8 : 5;
+export const roundCount = (difficulty: Difficulty, gameId?: GameId) => gameId === "coordinates" ? COORDINATE_ROUND_COUNT : gameId === "symmetry" ? SYMMETRY_ROUND_COUNT : gameId === "shapes" ? SHAPES_ROUND_COUNT : difficulty === "challenge" ? 8 : 5;
 
 const gameDetails: Record<EarthChapterId, { slug: string; name: string; description: string; subject: string; gradeLevels: number[]; action: string; lesson: string[] }> = {
   atlas: {
@@ -46,6 +47,7 @@ export const educationalGames = [
   ...earthChapters.map(chapter => ({ ...chapter, ...gameDetails[chapter.id], path: `${GAMES_PATH}${gameDetails[chapter.id].slug}/` })),
   { ...coordinateGameDetails, path: `${GAMES_PATH}${coordinateGameDetails.slug}/` },
   { ...symmetryGameDetails, path: `${GAMES_PATH}${symmetryGameDetails.slug}/` },
+  { ...shapesGameDetails, path: `${GAMES_PATH}${shapesGameDetails.slug}/` },
 ];
 export type EducationalGame = typeof educationalGames[number];
 
@@ -135,11 +137,13 @@ function makeCompass(seed: number, index: number, difficulty: Difficulty, random
 
 export function createGameRounds(gameId: "coordinates", difficulty: Difficulty, seed: number): CoordinateMission[];
 export function createGameRounds(gameId: "symmetry", difficulty: Difficulty, seed: number): SymmetryMission[];
+export function createGameRounds(gameId: "shapes", difficulty: Difficulty, seed: number): ShapesMission[];
 export function createGameRounds(gameId: EarthChapterId, difficulty: Difficulty, seed: number): EarthMission[];
 export function createGameRounds(gameId: GameId, difficulty: Difficulty, seed: number): GameMission[];
 export function createGameRounds(gameId: GameId, difficulty: Difficulty, seed: number): GameMission[] {
   if (gameId === "coordinates") return createCoordinateRounds(difficulty === "challenge", seed);
   if (gameId === "symmetry") return createSymmetryRounds(difficulty === "challenge", seed);
+  if (gameId === "shapes") return createShapesRounds(difficulty === "challenge", seed);
   const random = seededRandom(seed);
   const count = roundCount(difficulty);
   if (gameId === "compass") return Array.from({ length: count }, (_, index) => makeCompass(seed, index, difficulty, random));
