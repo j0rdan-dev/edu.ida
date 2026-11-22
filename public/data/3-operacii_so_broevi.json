@@ -89,11 +89,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 10 * 10 = 100.",
-      "OptionA": "Неточно",
-      "OptionB": "Еднакво е на 20",
-      "OptionC": "Еднакво е на 1000",
-      "OptionD": "Точно",
+      "Question": "Пресметај: 10 × 10 = ?",
+      "OptionA": "20",
+      "OptionB": "0",
+      "OptionC": "1000",
+      "OptionD": "100",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -137,11 +137,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 3 * 4 е исто што и 4 * 3.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Различно е",
-      "OptionD": "Важи само за собирање",
+      "Question": "Кој израз ја покажува замената на местата на множителите во 3 × 4?",
+      "OptionA": "4 + 3",
+      "OptionB": "4 × 3",
+      "OptionC": "4 − 3",
+      "OptionD": "4 : 3",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -185,11 +185,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 0 : 5 = 5.",
-      "OptionA": "Точно",
-      "OptionB": "Нема решение",
-      "OptionC": "Еднакво е на 1",
-      "OptionD": "Неточно",
+      "Question": "Пресметај: 0 : 5 = ?",
+      "OptionA": "5",
+      "OptionB": "1",
+      "OptionC": "2",
+      "OptionD": "0",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -209,11 +209,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Збирот на два парни броја е секогаш парен број.",
-      "OptionA": "Неточно",
-      "OptionB": "Понекогаш е непарен",
-      "OptionC": "Точно",
-      "OptionD": "Важи само за мали броеви",
+      "Question": "Каков број добиваме кога собираме два парни природни броја?",
+      "OptionA": "Непарен број.",
+      "OptionB": "Секогаш бројот 2.",
+      "OptionC": "Парен број.",
+      "OptionD": "Секогаш бројот 0.",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -233,11 +233,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 18 : 2 = 9.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Еднакво е на 8",
-      "OptionD": "Еднакво е на 7",
+      "Question": "Пресметај: 18 : 2 = ?",
+      "OptionA": "20",
+      "OptionB": "9",
+      "OptionC": "16",
+      "OptionD": "36",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -281,11 +281,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 24 : 3 = 6.",
-      "OptionA": "Точно",
-      "OptionB": "Еднакво е на 7",
-      "OptionC": "Еднакво е на 9",
-      "OptionD": "Неточно",
+      "Question": "Пресметај: 24 : 3 = ?",
+      "OptionA": "27",
+      "OptionB": "21",
+      "OptionC": "72",
+      "OptionD": "8",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -329,11 +329,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 100 + 100 = 200.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Еднакво е на 110",
-      "OptionD": "Еднакво е на 300",
+      "Question": "Пресметај: 100 + 100 = ?",
+      "OptionA": "0",
+      "OptionB": "200",
+      "OptionC": "10000",
+      "OptionD": "2000",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -353,11 +353,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 400 - 1 = 399.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Еднакво е на 300",
-      "OptionD": "Еднакво е на 401",
+      "Question": "Пресметај: 400 - 1 = ?",
+      "OptionA": "399",
+      "OptionB": "401",
+      "OptionC": "400",
+      "OptionD": "3990",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -393,11 +393,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 7 * 0 = 7.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Еднакво е на 70",
-      "OptionD": "Еднакво е на 1",
+      "Question": "Пресметај: 7 × 0 = ?",
+      "OptionA": "7",
+      "OptionB": "0",
+      "OptionC": "1",
+      "OptionD": "2",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -441,11 +441,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: Ако 8 * 2 = 16, тогаш 16 : 2 = 8.",
-      "OptionA": "Неточно",
-      "OptionB": "Само во некои случаи",
-      "OptionC": "Важи само за собирање",
-      "OptionD": "Точно",
+      "Question": "Која равенка со делење одговара на 8 × 2 = 16?",
+      "OptionA": "16 : 8 = 2 × 8",
+      "OptionB": "8 : 2 = 16",
+      "OptionC": "2 : 16 = 8",
+      "OptionD": "16 : 2 = 8",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -481,11 +481,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 12 : 4 = 3.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Еднакво е на 4",
-      "OptionD": "Еднакво е на 2",
+      "Question": "Пресметај: 12 : 4 = ?",
+      "OptionA": "3",
+      "OptionB": "16",
+      "OptionC": "8",
+      "OptionD": "48",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -505,11 +505,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 90 : 9 = 10.",
-      "OptionA": "Неточно",
-      "OptionB": "Еднакво е на 1",
-      "OptionC": "Еднакво е на 81",
-      "OptionD": "Точно",
+      "Question": "Пресметај: 90 : 9 = ?",
+      "OptionA": "99",
+      "OptionB": "81",
+      "OptionC": "810",
+      "OptionD": "10",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -529,11 +529,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 5 * 5 = 20.",
-      "OptionA": "Точно",
-      "OptionB": "Производот е 10",
-      "OptionC": "Неточно",
-      "OptionD": "Производот е 30",
+      "Question": "Пресметај: 5 × 5 = ?",
+      "OptionA": "10",
+      "OptionB": "0",
+      "OptionC": "25",
+      "OptionD": "250",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -553,11 +553,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 0 помножено со кој било број е 0.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Тоа важи само за бројот 10",
-      "OptionD": "Тоа важи само за бројот 1",
+      "Question": "Колку е 0 × 27?",
+      "OptionA": "27",
+      "OptionB": "0",
+      "OptionC": "1",
+      "OptionD": "270",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -577,11 +577,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 150 + 150 = 300.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Збирот е 250",
-      "OptionD": "Збирот е 350",
+      "Question": "Пресметај: 150 + 150 = ?",
+      "OptionA": "300",
+      "OptionB": "0",
+      "OptionC": "22500",
+      "OptionD": "3000",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -601,11 +601,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 20 : 5 = 5.",
-      "OptionA": "Точно",
-      "OptionB": "Еднакво е на 10",
-      "OptionC": "Еднакво е на 2",
-      "OptionD": "Неточно",
+      "Question": "Пресметај: 20 : 5 = ?",
+      "OptionA": "25",
+      "OptionB": "15",
+      "OptionC": "100",
+      "OptionD": "4",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -625,11 +625,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: Разликата на два исти броја е 1.",
-      "OptionA": "Точно",
-      "OptionB": "Разликата е 2",
-      "OptionC": "Неточно",
-      "OptionD": "Важи само за бројот 100",
+      "Question": "Колку е 36 − 36?",
+      "OptionA": "1",
+      "OptionB": "36",
+      "OptionC": "0",
+      "OptionD": "72",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -649,11 +649,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: 10 * 5 = 50.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Еднакво е на 15",
-      "OptionD": "Еднакво е на 5",
+      "Question": "Пресметај: 10 × 5 = ?",
+      "OptionA": "15",
+      "OptionB": "50",
+      "OptionC": "5",
+      "OptionD": "500",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -697,11 +697,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Точно или неточно: 16 : 4 = 4.",
-      "OptionA": "Неточно",
-      "OptionB": "Еднакво е на 2",
-      "OptionC": "Еднакво е на 8",
-      "OptionD": "Точно",
+      "Question": "Пресметај: 16 : 4 = ?",
+      "OptionA": "20",
+      "OptionB": "12",
+      "OptionC": "64",
+      "OptionD": "4",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -745,11 +745,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Секој непарен број помножен со 2 станува парен.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "Останува непарен",
-      "OptionD": "Важи само за бројот 3",
+      "Question": "Каков е производот на непарен природен број и бројот 2?",
+      "OptionA": "Непарен број.",
+      "OptionB": "Парен број.",
+      "OptionC": "Секогаш прост број.",
+      "OptionD": "Секогаш еднаков на непарниот множител.",
       "CorrectAnswer": "OptionB"
     },
     {

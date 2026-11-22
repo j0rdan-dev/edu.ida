@@ -41,11 +41,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Што е потешко: 1 kg железо или 1 kg памук?",
-      "OptionA": "Имаат иста маса",
-      "OptionB": "Железото",
-      "OptionC": "Памукот",
-      "OptionD": "Зависи од денот",
+      "Question": "Во една кеса има 1 kg памук, а во друга 1 kg железо. Колкава е масата на двете кеси заедно, без масата на амбалажата?",
+      "OptionA": "2 kg",
+      "OptionB": "1 kg",
+      "OptionC": "500 g",
+      "OptionD": "1 000 kg",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -97,11 +97,11 @@
       "CorrectAnswer": "OptionA"
     },
     {
-      "Question": "Точно или неточно: Дигиталната вага покажува попрецизни резултати во грамови.",
-      "OptionA": "Точно",
-      "OptionB": "Неточно",
-      "OptionC": "Вагата мери само во килограми",
-      "OptionD": "Дигиталните ваги не мерат маса",
+      "Question": "Што прикажува дигиталната вага на својот екран?",
+      "OptionA": "Бројна вредност на масата со избраната мерна единица.",
+      "OptionB": "Само волумен на предметот, без неговата маса.",
+      "OptionC": "Должина на предметот во сантиметри.",
+      "OptionD": "Времето потребно за предметот да падне.",
       "CorrectAnswer": "OptionA"
     },
     {
@@ -241,11 +241,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Што има поголема маса: едно јајце или една лубеница?",
-      "OptionA": "Јајцето",
-      "OptionB": "Лубеницата",
-      "OptionC": "Исти се",
-      "OptionD": "Зависи од кокошката",
+      "Question": "Јајце има маса 60 g, а лубеница 3 kg. Колку грама е потешка лубеницата?",
+      "OptionA": "57 g",
+      "OptionB": "2 940 g",
+      "OptionC": "3 060 g",
+      "OptionD": "240 g",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -369,11 +369,11 @@
       "CorrectAnswer": "OptionB"
     },
     {
-      "Question": "Точно или неточно: 2 kg > 1500 g.",
-      "OptionA": "Неточно",
-      "OptionB": "Точно",
-      "OptionC": "1500 g е поголемо",
-      "OptionD": "Тие се еднакви",
+      "Question": "Дополни: 2 kg = ____ g.",
+      "OptionA": "2",
+      "OptionB": "2000",
+      "OptionC": "20000",
+      "OptionD": "200",
       "CorrectAnswer": "OptionB"
     },
     {
@@ -433,11 +433,11 @@
       "CorrectAnswer": "OptionC"
     },
     {
-      "Question": "Што е потешко: 500 g праски или 1 kg круши?",
-      "OptionA": "Праските",
-      "OptionB": "Исти се",
-      "OptionC": "Крушите",
-      "OptionD": "Зависи од овошјето",
+      "Question": "За колку грама 1 kg круши е потежок од 500 g праски?",
+      "OptionA": "1 500 g",
+      "OptionB": "1 000 g",
+      "OptionC": "500 g",
+      "OptionD": "5 g",
       "CorrectAnswer": "OptionC"
     },
     {
@@ -617,11 +617,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: 1 kg = 100 g.",
-      "OptionA": "Точно",
-      "OptionB": "1 kg е 10 g",
-      "OptionC": "1 kg е 500 g",
-      "OptionD": "Неточно (1 kg е 1000 g)",
+      "Question": "Дополни: 1 kg = ____ g.",
+      "OptionA": "1",
+      "OptionB": "10000",
+      "OptionC": "100",
+      "OptionD": "1000",
       "CorrectAnswer": "OptionD"
     },
     {
@@ -721,11 +721,11 @@
       "CorrectAnswer": "OptionD"
     },
     {
-      "Question": "Точно или неточно: Масата не се менува ако предметот го преместиме на друго место.",
-      "OptionA": "Неточно",
-      "OptionB": "Масата зависи од местото",
-      "OptionC": "Масата исчезнува",
-      "OptionD": "Точно",
+      "Question": "Книга има маса 500 g. Колкава ќе биде нејзината маса ако само ја преместиме од масата на полицата?",
+      "OptionA": "250 g",
+      "OptionB": "1 000 g",
+      "OptionC": "0 g",
+      "OptionD": "500 g",
       "CorrectAnswer": "OptionD"
     },
     {
