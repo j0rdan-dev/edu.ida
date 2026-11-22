@@ -58,6 +58,31 @@ async function solve(mission) {
     }
     if (mission.choices.length) await page.getByRole("button", { name: mission.choices.find(choice => choice.id === mission.answer).label, exact: true }).click();
     else if (!mission.route.length) await page.getByRole("button", { name: "Провери ја точката", exact: true }).click();
+  } else if (mission.kind === "symmetry") {
+    if (mission.task === "pattern") {
+      for (const [x, y] of mission.targets) await page.getByRole("button", { name: `Квадратче (${x + 1}, ${y + 1})`, exact: true }).click();
+      await page.getByRole("button", { name: "Провери ја шарата", exact: true }).click();
+    } else if (mission.task === "reflect") {
+      for (const point of mission.targets) {
+        await page.getByRole("button", { name: `Постави точка (${point.join(", ")})`, exact: true }).click();
+        await page.getByRole("button", { name: "Постави го темето", exact: true }).click();
+      }
+    } else if (mission.task === "axes") {
+      if (!mission.validAxes.length) await page.getByRole("button", { name: "Нема линија", exact: true }).click();
+      else {
+        const labels = await page.evaluate(async () => (await import("/src/data/symmetryGame.ts")).axisLabels);
+        for (const axis of mission.validAxes) await page.getByRole("button", { name: labels[axis], exact: true }).click();
+        await page.getByRole("button", { name: "Провери ги линиите", exact: true }).click();
+      }
+    } else {
+      for (let angle = 0; angle < 360; angle += mission.rotationStep) await page.getByRole("button", { name: `Заврти за ${mission.rotationStep}°`, exact: true }).click();
+      const wrong = mission.choices.find(choice => choice.id !== mission.answer);
+      await page.getByRole("button", { name: `Ред ${wrong.id}`, exact: true }).click();
+      await page.setViewportSize({ width: 568, height: 320 });
+      await checkFit("symmetry rotation after incorrect answer");
+      await page.setViewportSize({ width: 375, height: 667 });
+      await page.getByRole("button", { name: `Ред ${mission.answer}`, exact: true }).click();
+    }
   } else {
     let [x, y] = mission.start;
     for (const step of mission.route) {
@@ -90,7 +115,7 @@ try {
         await checkFit(`${game.id} ${mission.id} before answer ${width}x${height}`);
       }
       await page.setViewportSize({ width: 375, height: 667 });
-      const photoKey = mission.kind === "coordinates" ? `coordinates-${mission.task}` : mission.kind;
+      const photoKey = mission.kind === "coordinates" || mission.kind === "symmetry" ? `${mission.kind}-${mission.task}` : mission.kind;
       if (!photographed.has(photoKey)) {
         await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${photoKey}.png`), animations: "disabled" });
         photographed.add(photoKey);
@@ -115,9 +140,25 @@ try {
         }
         await page.setViewportSize({ width: 375, height: 667 });
       }
+      if (mission.kind === "symmetry" && mission.task !== "rotation") {
+        if (mission.task === "pattern") await page.getByRole("button", { name: "Провери ја шарата", exact: true }).click();
+        else if (mission.task === "reflect") await page.getByRole("button", { name: "Постави го темето", exact: true }).click();
+        else if (mission.validAxes.length) await page.getByRole("button", { name: "Нема линија", exact: true }).click();
+        else {
+          await page.getByRole("button", { name: "Вертикална ↕", exact: true }).click();
+          await page.getByRole("button", { name: "Провери ги линиите", exact: true }).click();
+        }
+        for (const [width, height] of sizes) {
+          await page.setViewportSize({ width, height });
+          await checkFit(`${game.id} ${mission.id} after incorrect answer ${width}x${height}`);
+        }
+        if (mission.task === "axes" && !mission.validAxes.length) await page.getByRole("button", { name: "Вертикална ↕", exact: true }).click();
+        await page.setViewportSize({ width: 375, height: 667 });
+      }
       await solve(mission);
       await page.getByRole("button", { name: "Зошто е точно?" }).waitFor();
       if (index === 0) await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${game.id}-solved.png`), animations: "disabled" });
+      if (mission.kind === "symmetry") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-symmetry-${mission.task}-solved.png`), animations: "disabled" });
       for (const [width, height] of sizes) {
         await page.setViewportSize({ width, height });
         await checkFit(`${game.id} ${mission.id} after answer ${width}x${height}`);

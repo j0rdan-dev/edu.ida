@@ -4,6 +4,7 @@ import { Dialog, DialogClose, DialogContent, DialogDescription, DialogTitle } fr
 import type { EducationalGame, GameMission } from "@/data/educationalGames";
 import MissionActivity from "./earth/MissionActivity";
 import CoordinateActivity from "./CoordinateActivity";
+import SymmetryActivity from "./SymmetryActivity";
 import "./game-play-screen.css";
 
 type SupportPanel = "hint" | "lesson" | "explanation" | "task";
@@ -27,6 +28,7 @@ interface GamePlayScreenProps {
 
 function playPrompt(mission: GameMission) {
   if (mission.kind === "coordinates") return mission.shortPrompt;
+  if (mission.kind === "symmetry") return mission.shortPrompt;
   if (mission.kind === "compass") return "Следи ги насоките по ред. Едно притискање = едно поле.";
   if (mission.kind === "spheres") return "На која Земјина обвивка ѝ припаѓа ова откритие?";
   if (mission.kind === "temperature") return "Прочитај го термометарот. Едно мало деление = 2 °C.";
@@ -37,6 +39,7 @@ function playPrompt(mission: GameMission) {
 
 export default function GamePlayScreen({ game, mission, index, count, completed, solved, retry, selected, canSave, headingRef, onBack, onHint, onResult, onNext }: GamePlayScreenProps) {
   const [support, setSupport] = useState<SupportPanel | null>(null);
+  const [feedback, setFeedback] = useState("");
   const supportReturnRef = useRef<HTMLButtonElement | null>(null);
 
   useEffect(() => {
@@ -71,12 +74,14 @@ export default function GamePlayScreen({ game, mission, index, count, completed,
     <section className="game-play-stage" aria-label={game.title}>
       {mission.kind === "coordinates"
         ? <CoordinateActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />
-        : <MissionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />}
+        : mission.kind === "symmetry"
+          ? <SymmetryActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} onFeedback={setFeedback} />
+          : <MissionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />}
     </section>
 
     <footer className={`game-play-bottom-bar ${solved ? "is-solved" : ""}`}>
       <div className="game-play-status" role="status" aria-live="polite" aria-atomic="true">
-        {solved ? <><Check aria-hidden="true" /><h2>Уште едно откритие!</h2></> : <p>{retry ? "Пробај уште еднаш" : "Размисли и пробај. Ти можеш!"}</p>}
+        {solved ? <><Check aria-hidden="true" /><h2>Уште едно откритие!</h2></> : <p>{feedback || (retry ? "Пробај уште еднаш" : "Размисли и пробај. Ти можеш!")}</p>}
         {!canSave && <small>Зачувувањето не е достапно.</small>}
       </div>
       {solved && <>

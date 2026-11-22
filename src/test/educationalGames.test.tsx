@@ -9,6 +9,7 @@ import MissionActivity from "@/components/games/earth/MissionActivity";
 import { EARTH_GAME_PATH, EARTH_PROGRESS_KEY, earthMissions, type EarthMission } from "@/data/earthExpedition";
 import { createGameRounds, educationalGames, gameProgressKey, GAMES_PATH, readGameProgress, roundCount, type GameId, type GameSession, type GameMission } from "@/data/educationalGames";
 import { getIndexablePaths, getPageMetadata, getStaticPaths } from "@/lib/seo";
+import { axisLabels } from "@/data/symmetryGame";
 
 beforeEach(() => localStorage.clear());
 afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear(); });
@@ -43,6 +44,19 @@ function solve(mission: GameMission) {
     }
     if (mission.choices.length) click(mission.choices.find(choice => choice.id === mission.answer)!.label);
     else if (!mission.route.length) click("Провери ја точката");
+  } else if (mission.kind === "symmetry") {
+    if (mission.task === "pattern") {
+      for (const [x, y] of mission.targets) fireEvent.click(screen.getByLabelText(`Квадратче (${x + 1}, ${y + 1})`));
+      click("Провери ја шарата");
+    } else if (mission.task === "reflect") {
+      for (const point of mission.targets) { fireEvent.click(screen.getByLabelText(`Постави точка (${point.join(", ")})`)); click("Постави го темето"); }
+    } else if (mission.task === "axes") {
+      if (!mission.validAxes.length) click("Нема линија");
+      else { for (const axis of mission.validAxes) click(axisLabels[axis]); click("Провери ги линиите"); }
+    } else {
+      for (let angle = 0; angle < 360; angle += mission.rotationStep) click(`Заврти за ${mission.rotationStep}°`);
+      click(`Ред ${mission.answer}`);
+    }
   } else if (mission.kind === "compass") {
     let [x, y] = mission.start!;
     const map = screen.getByRole("group", { name: "Карта за движење со компас" });

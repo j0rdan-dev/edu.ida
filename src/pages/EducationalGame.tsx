@@ -24,8 +24,8 @@ function StandaloneGame({ game }: { game: EducationalGame }) {
   const mission = session ? rounds[session.index] : undefined;
   const solved = !!session && session.results.length > session.index;
   const finished = !!session && session.index >= rounds.length;
-  const isCoordinates = game.id === "coordinates";
-  const levels: { id: Difficulty; name: string; detail: string }[] = isCoordinates
+  const isMathGame = game.id === "coordinates" || game.id === "symmetry";
+  const levels: { id: Difficulty; name: string; detail: string }[] = isMathGame
     ? [{ id: "explorer", name: "4 одделение", detail: `${roundCount("explorer", game.id)} нови задачи` }, { id: "challenge", name: "5 одделение", detail: `${roundCount("challenge", game.id)} нови задачи` }]
     : [{ id: "explorer", name: "Истражувач", detail: "5 откритија" }, { id: "challenge", name: "Предизвик", detail: `8 откритија${game.id === "compass" ? " · подолги патеки" : ""}` }];
 
@@ -80,13 +80,13 @@ function StandaloneGame({ game }: { game: EducationalGame }) {
       <div className="earth-topline"><Link to={GAMES_PATH} className="earth-back-link"><ArrowLeft aria-hidden="true" />Сите игри</Link><span className="earth-grade-tag">{game.subject} · {game.gradeLevels.join("–")} одделение</span></div>
       {!started ? <>
         <section className="game-introduction">
-          <div><p className="earth-eyebrow">{isCoordinates ? "МАТЕМАТИКА · 4 И 5 ОДДЕЛЕНИЕ" : `${game.shortTitle} · УЧЕЊЕ ПРЕКУ ИГРА`}</p><h1>{game.name}</h1><p className="game-intro-description">{game.description}</p>
+          <div><p className="earth-eyebrow">{isMathGame ? "МАТЕМАТИКА · 4 И 5 ОДДЕЛЕНИЕ" : `${game.shortTitle} · УЧЕЊЕ ПРЕКУ ИГРА`}</p><h1>{game.name}</h1><p className="game-intro-description">{game.description}</p>
             {session && !finished && <div className="game-resume"><p>Те чека твојата започната игра: {session.results.length} од {rounds.length} откритија.</p><button type="button" className="earth-primary-button" onClick={resume}>Продолжи ја играта <ArrowRight aria-hidden="true" /></button></div>}
             {finished && <div className="game-resume"><button type="button" className="earth-secondary-button" onClick={resume}><BookOpen aria-hidden="true" />Погледни ги откритијата</button></div>}
             {progress.completedRuns > 0 && <p className="game-earned-note"><Trophy aria-hidden="true" />Твоја значка: {game.badge}</p>}
           </div><GameIllustration gameId={game.id} />
         </section>
-        <section className={`game-setup${isCoordinates ? " game-setup-math" : ""}`} aria-labelledby="game-level-title"><div><h2 id="game-level-title">{isCoordinates ? "Избери одделение" : "Избери ја твојата авантура"}</h2></div><fieldset className="game-levels"><legend className="sr-only">Ниво на играта</legend>{levels.map(level => <label key={level.id} className={difficulty === level.id ? "is-active" : ""}><input type="radio" name="game-level" value={level.id} checked={difficulty === level.id} onChange={() => setDifficulty(level.id)} /><span><strong>{level.name}</strong><small>{level.detail}</small></span></label>)}</fieldset><button type="button" className="earth-primary-button" onClick={start}>{session && !finished ? "Започни нова игра" : "Ајде да играме"}<ArrowRight aria-hidden="true" /></button></section>
+        <section className={`game-setup${isMathGame ? " game-setup-math" : ""}`} aria-labelledby="game-level-title"><div><h2 id="game-level-title">{isMathGame ? "Избери одделение" : "Избери ја твојата авантура"}</h2></div><fieldset className="game-levels"><legend className="sr-only">Ниво на играта</legend>{levels.map(level => <label key={level.id} className={difficulty === level.id ? "is-active" : ""}><input type="radio" name="game-level" value={level.id} checked={difficulty === level.id} onChange={() => setDifficulty(level.id)} /><span><strong>{level.name}</strong><small>{level.detail}</small></span></label>)}</fieldset><button type="button" className="earth-primary-button" onClick={start}>{session && !finished ? "Започни нова игра" : "Ајде да играме"}<ArrowRight aria-hidden="true" /></button></section>
         <details className="game-launch-lesson"><summary><BookOpen aria-hidden="true" /><h2>Мала лекција за големи откритија</h2></summary><div className="game-lesson-grid">{game.lesson.map((text, index) => <p key={text}><span>0{index + 1}</span>{text}</p>)}</div></details>
       </> : finished && session ? <>
         <section className="game-summary"><div className="earth-medal" aria-hidden="true"><Trophy /></div><p className="earth-eyebrow">УШТЕ ЕДНА УСПЕШНА АВАНТУРА</p><h1 ref={headingRef} tabIndex={-1}>Браво, {game.badge.toLocaleLowerCase("mk")}!</h1><p>Откри {rounds.length} нови нешта. Секој обид ти помогна да научиш повеќе.</p><div className="game-summary-stats"><span><strong>{rounds.length}</strong>завршени откритија</span><span><strong>{session.results.filter(result => result.firstTry && !result.hintUsed).length}</strong>без помош и повторување</span><span><strong>{progress.completedRuns}</strong>завршени игри</span></div><div className="earth-finish-actions"><button type="button" className="earth-primary-button" onClick={start}><RotateCcw aria-hidden="true" />Играј со нови задачи</button><Link to={GAMES_PATH} className="earth-secondary-button">Избери друга игра<ArrowRight aria-hidden="true" /></Link></div></section>
