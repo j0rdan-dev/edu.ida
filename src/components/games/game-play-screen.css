@@ -31,9 +31,10 @@
 .game-play-round { white-space: nowrap; font-size: 17px; font-weight: 800; }
 .game-play-round > span { color: var(--earth-muted); font-size: 13px; }
 .game-viewport .game-play-progress { width: min(1100px, 100%); margin: 0 auto; height: 3px; }
-.game-play-question { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; }
-.game-play-question p { max-width: 900px; font-size: 17px; font-weight: 700; line-height: 1.5; }
-.game-play-question .game-tool-button { background: transparent; border-color: transparent; }
+.game-play-question { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 16px; margin-block: 10px; border: 1px solid hsl(39 60% 79%); border-inline-start: 4px solid hsl(35 65% 52%); border-radius: 14px; background: hsl(43 90% 93%); }
+.game-play-question p { min-width: 0; max-width: 900px; margin: 0; color: var(--earth-ink); font-size: 19px; font-weight: 800; line-height: 1.5; }
+.game-play-question .game-tool-button { background: hsl(0 0% 100% / .65); border-color: hsl(39 45% 78%); }
+.game-play-question .game-tool-button:hover { background: hsl(0 0% 100%); }
 .game-play-stage { height: 100%; min-height: 0; padding: 12px; border: 1px solid var(--earth-line); border-radius: 18px; background: hsl(0 0% 100%); }
 .game-play-stage > div { height: 100%; min-height: 0; min-width: 0; }
 .game-play-bottom-bar { display: flex; align-items: center; gap: 10px; min-height: 72px; padding: 8px 0; }
@@ -110,7 +111,7 @@
   .game-play-toolbar { gap: 5px; min-height: 52px; }
   .game-play-name { font-size: 13px; gap: 5px; }.game-play-name > span { font-size: 18px; }
   .game-play-round { font-size: 15px; }.game-play-round > span { font-size: 12px; }
-  .game-play-question { gap: 4px; padding-block: 7px; }.game-play-question p { font-size: 14px; line-height: 1.45; }
+  .game-play-question { gap: 8px; padding: 6px 10px; margin-block: 5px; border-radius: 12px; }.game-play-question p { font-size: 16px; line-height: 1.45; }
   .game-play-question .game-tool-button { width: 44px; }
   .game-play-stage { padding: 8px; border-radius: 13px; }
   .game-play-bottom-bar { min-height: 64px; gap: 6px; padding: 7px 0; }.game-play-status { font-size: 12px; gap: 4px; }.game-play-status > svg { display: none; }.game-play-status h2 { font-size: 13px; line-height: 1.35; }
@@ -129,12 +130,13 @@
   .game-play-stage .earth-sphere-box { min-height: 70px; padding: 10px 6px; }.game-play-stage .earth-sphere-box > strong { font-size: 15px; }.game-play-stage .earth-sphere-box > span { font-size: 11px; }
   .game-play-stage .earth-weather-activity { grid-template-columns: minmax(0, 1fr); grid-template-rows: 20px minmax(0, 1fr) auto; grid-template-areas: "name" "instrument" "reading"; gap: 2px; }
   .game-play-stage .earth-reading-control { max-width: 290px; }.game-play-stage .earth-reading-control label { font-size: 12px; }.game-play-stage .earth-range-labels { display: none; }.game-play-stage .game-reading-stepper { margin: 2px 0; }
+  .game-play-stage .earth-climate-activity { gap: 8px; }
   .game-play-stage .earth-weather-diary { padding: 14px; }.game-play-stage .earth-weather-diary blockquote { font-size: 16px; line-height: 1.5; }.game-play-stage .earth-weather-diary > span { font-size: 25px; }.game-play-stage .earth-climate-choices button { padding: 10px 7px; }.game-play-stage .earth-climate-choices small { font-size: 11px; }
 }
 
 /* Short landscape screens use width for the board and controls. */
 @media (max-height: 600px) and (min-aspect-ratio: 3/2) {
-  .game-play-toolbar { min-height: 44px; }.game-play-question { padding-block: 2px; }.game-play-question p { font-size: 13px; line-height: 1.4; }.game-play-bottom-bar { min-height: 54px; padding-block: 3px; }
+  .game-play-toolbar { min-height: 44px; }.game-play-question { padding: 1px 10px; margin-block: 1px; border-radius: 10px; }.game-play-question p { font-size: 14px; line-height: 1.35; }.game-play-bottom-bar { min-height: 54px; padding-block: 3px; }
   .game-play-stage { padding: 7px; }
   .game-play-stage .earth-atlas, .game-play-stage .earth-landscape { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); grid-template-rows: minmax(0, 1fr); }
   .game-play-stage .earth-map-legend { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; align-content: center; }.game-play-stage .earth-map-legend button { min-height: 44px; font-size: 12px; padding: 4px; }.game-play-stage .earth-map-legend button > span { display: none; }
