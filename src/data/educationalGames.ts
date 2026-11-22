@@ -1,39 +1,50 @@
 import { earthChapters, earthMissions, readEarthProgress, type ContinentId, type EarthChapterId, type EarthMission, type SphereId, type TerrainId } from "./earthExpedition";
+import { COORDINATE_ROUND_COUNT, coordinateGameDetails, createCoordinateRounds, type CoordinateMission } from "./coordinateGame";
+import { seededRandom, shuffle } from "./gameRandom";
 
 export const GAMES_PATH = "/games/";
-export type GameId = EarthChapterId;
+export type GameId = EarthChapterId | "coordinates";
+export type GameMission = EarthMission | CoordinateMission;
 export type Difficulty = "explorer" | "challenge";
-export const roundCount = (difficulty: Difficulty) => difficulty === "challenge" ? 8 : 5;
+export const roundCount = (difficulty: Difficulty, gameId?: GameId) => gameId === "coordinates" ? COORDINATE_ROUND_COUNT : difficulty === "challenge" ? 8 : 5;
 
-const gameDetails: Record<GameId, { slug: string; name: string; description: string; action: string; lesson: string[] }> = {
+const gameDetails: Record<EarthChapterId, { slug: string; name: string; description: string; subject: string; gradeLevels: number[]; action: string; lesson: string[] }> = {
   atlas: {
     slug: "continents", name: "Патник низ светот", action: "Пронајди на картата",
-    description: "Патувај од континент до континент. Поврзи ги местата, природата и интересните откритија.",
+    description: "Препознај ги континентите и пронајди ги местата на картата.",
+    subject: "Природни науки", gradeLevels: [4, 5],
     lesson: ["Континент е голема копнена целина. На оваа карта разликуваме седум континенти, а Австралија ја прикажуваме заедно со островите на Океанија.", "Европа е северно од Африка и западно од Азија. Северна и Јужна Америка се во левиот дел од картата. Антарктик е околу Јужниот Пол.", "Читај ја задачата, па допри го бројот на картата или името во легендата. Бројот ја поврзува областа со нејзиното име."],
   },
   terrain: {
     slug: "landforms", name: "Ловец на предели", action: "Истражи го островот",
-    description: "Откриј планини, рамници и сини водни патеки на еден мал остров полн со приказни.",
+    description: "Разликувај планини, рамници, реки, езера и мориња.",
+    subject: "Природни науки", gradeLevels: [4, 5],
     lesson: ["Релјефот ги опфаќа формите на Земјината површина. Планината е високо возвишување, ридот е пониско возвишување, а рамницата е претежно рамно земјиште.", "Реката тече од извор кон влив. Езерото зафаќа вдлабнатина опкружена со копно. Морето е дел од светските океански води.", "Побарај ја формата што ја опишува задачата. Можеш да одговориш преку сликата или преку големите копчиња под неа."],
   },
   compass: {
     slug: "compass", name: "Компас авантура", action: "Следи ги насоките",
-    description: "Тргни од нов камп, следи ги насоките и пронајди ја следната истражувачка станица.",
+    description: "Вежбај ги страните на светот и следи насоки на карта.",
+    subject: "Природни науки", gradeLevels: [4, 5],
     lesson: ["Компасот ни помага да ги определиме страните на светот: север, исток, југ и запад.", "На нашата карта север е горе, исток е десно, југ е долу, а запад е лево. Едно притискање значи едно поле.", "Следи ги насоките по ред. Секоја завршена делница се означува со штикла. Ако скршнеш, врати се на патеката или тргни повторно од кампот."],
   },
   spheres: {
     slug: "earth-spheres", name: "Чувари на Земјата", action: "Подреди ги откритијата",
-    description: "Карпа, капка, лист или ветер? Откриј како се поврзани четирите Земјини обвивки.",
+    description: "Поврзи ги поимите со четирите Земјини обвивки.",
+    subject: "Природни науки", gradeLevels: [4, 5],
     lesson: ["Литосферата е цврстата карпеста обвивка на Земјата. Хидросферата ги опфаќа водите, вклучувајќи го и мразот.", "Атмосферата е гасовитата обвивка околу Земјата. Биосферата го опфаќа живиот свет: растенија, животни и други живи организми.", "Обвивките се поврзани. Рибата живее во вода, но како жив организам припаѓа на биосферата. Подреди го предметот што е именуван во задачата."],
   },
   weather: {
     slug: "weather-lab", name: "Мала метео-станица", action: "Мери и набљудувај",
-    description: "Прочитај вистинска скала, измери дожд и откриј ја разликата меѓу време и клима.",
+    description: "Читај мерни скали и разликувај време од клима.",
+    subject: "Природни науки", gradeLevels: [4, 5],
     lesson: ["Термометарот мери температура во Целзиусови степени (°C). Дождомерот го мери количеството врнежи во милиметри (mm). На нашите инструменти секое мало деление вреди 2 единици.", "Прво најди ги големите ознаки, па изброј ги малите деленија до врвот на столбот. Намести го одговорот со лизгачот или со копчињата − и +.", "Времето ја опишува атмосферата во одредено место и момент. Климата ги опишува вообичаените услови низ долг период, најчесто со набљудувања од најмалку 30 години."],
   },
 };
 
-export const educationalGames = earthChapters.map(chapter => ({ ...chapter, ...gameDetails[chapter.id], path: `${GAMES_PATH}${gameDetails[chapter.id].slug}/` }));
+export const educationalGames = [
+  ...earthChapters.map(chapter => ({ ...chapter, ...gameDetails[chapter.id], path: `${GAMES_PATH}${gameDetails[chapter.id].slug}/` })),
+  { ...coordinateGameDetails, path: `${GAMES_PATH}${coordinateGameDetails.slug}/` },
+];
 export type EducationalGame = typeof educationalGames[number];
 
 const atlasDiscoveries: { id: string; answer: ContinentId; title: string; clue: string; hint: string; fact: string }[] = [
@@ -95,17 +106,6 @@ export const gameQuestionBank: EarthMission[] = [
   ...climateObservations.map(item => ({ id: item.id, chapter: "weather" as const, kind: "climate" as const, answer: item.answer, observation: item.text, title: "Време или клима?", prompt: "Прочитај ја белешката. Дали опишува одреден момент или вообичаени услови низ многу години?", hint: item.answer === "weather" ? "Побарај зборови како денес, утре, утрово или во моментов." : "Набљудувањата од многу години ни помагаат да ја опишеме климата.", explanation: item.answer === "weather" ? "Ова е опис на времето: условите во одредено место и момент. И прогнозата за утре се однесува на времето." : "Ова е опис на климата: вообичаените услови утврдени со набљудување низ долг период." })),
 ];
 
-function seededRandom(seed: number) {
-  let state = seed >>> 0;
-  return () => { state = (Math.imul(1664525, state) + 1013904223) >>> 0; return state / 4294967296; };
-}
-
-function shuffle<T>(items: readonly T[], random: () => number): T[] {
-  const result = [...items];
-  for (let i = result.length - 1; i > 0; i--) { const j = Math.floor(random() * (i + 1)); [result[i], result[j]] = [result[j], result[i]]; }
-  return result;
-}
-
 function makeCompass(seed: number, index: number, difficulty: Difficulty, random: () => number): EarthMission {
   const size = difficulty === "challenge" ? 6 : 5;
   const start = [Math.floor(random() * size), Math.floor(random() * size)] as const;
@@ -131,7 +131,11 @@ function makeCompass(seed: number, index: number, difficulty: Difficulty, random
   };
 }
 
-export function createGameRounds(gameId: GameId, difficulty: Difficulty, seed: number): EarthMission[] {
+export function createGameRounds(gameId: "coordinates", difficulty: Difficulty, seed: number): CoordinateMission[];
+export function createGameRounds(gameId: EarthChapterId, difficulty: Difficulty, seed: number): EarthMission[];
+export function createGameRounds(gameId: GameId, difficulty: Difficulty, seed: number): GameMission[];
+export function createGameRounds(gameId: GameId, difficulty: Difficulty, seed: number): GameMission[] {
+  if (gameId === "coordinates") return createCoordinateRounds(difficulty === "challenge", seed);
   const random = seededRandom(seed);
   const count = roundCount(difficulty);
   if (gameId === "compass") return Array.from({ length: count }, (_, index) => makeCompass(seed, index, difficulty, random));
@@ -176,15 +180,15 @@ export function readGameProgress(id: GameId): GameProgress {
     if (!raw) {
       const old = readEarthProgress();
       const missions = earthMissions.filter(mission => mission.chapter === id);
-      return { ...empty, completedRuns: missions.every(mission => old.includes(mission.id)) ? 1 : 0 };
+      return { ...empty, completedRuns: missions.length > 0 && missions.every(mission => old.includes(mission.id)) ? 1 : 0 };
     }
     const stored = JSON.parse(raw);
     if (!stored || typeof stored !== "object") return empty;
     const validCount = (value: unknown, max: number) => Number.isInteger(value) && Number(value) >= 0 && Number(value) <= max;
-    const progress: GameProgress = { ...empty, completedRuns: validCount(stored.completedRuns, 1000000) ? stored.completedRuns : 0, bestFirstTry: validCount(stored.bestFirstTry, 8) ? stored.bestFirstTry : 0 };
+    const progress: GameProgress = { ...empty, completedRuns: validCount(stored.completedRuns, 1000000) ? stored.completedRuns : 0, bestFirstTry: validCount(stored.bestFirstTry, roundCount("challenge", id)) ? stored.bestFirstTry : 0 };
     const s = stored.session;
     if (!s || !["explorer", "challenge"].includes(s.difficulty) || !validCount(s.seed, 4294967295)) return progress;
-    const count = roundCount(s.difficulty);
+    const count = roundCount(s.difficulty, id);
     if (!validCount(s.index, count) || !Array.isArray(s.results) || ![s.index, Math.min(count, s.index + 1)].includes(s.results.length) || !validCount(s.attempts, 1000000) || typeof s.hintShown !== "boolean") return progress;
     if (!s.results.every((result: RoundResult) => result && typeof result.firstTry === "boolean" && typeof result.hintUsed === "boolean")) return progress;
     return { ...progress, session: { seed: s.seed, difficulty: s.difficulty, index: s.index, results: s.results.map((r: RoundResult) => ({ firstTry: r.firstTry, hintUsed: r.hintUsed })), attempts: s.attempts, hintShown: s.hintShown } };

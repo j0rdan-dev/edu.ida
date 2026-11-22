@@ -1,16 +1,16 @@
 import { useEffect, useRef, useState, type RefObject } from "react";
 import { ArrowLeft, ArrowRight, BookOpen, Check, Lightbulb, Maximize2 } from "lucide-react";
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
-import type { EarthMission } from "@/data/earthExpedition";
-import type { EducationalGame } from "@/data/educationalGames";
+import type { EducationalGame, GameMission } from "@/data/educationalGames";
 import MissionActivity from "./earth/MissionActivity";
+import CoordinateActivity from "./CoordinateActivity";
 import "./game-play-screen.css";
 
 type SupportPanel = "hint" | "lesson" | "explanation" | "task";
 
 interface GamePlayScreenProps {
   game: EducationalGame;
-  mission: EarthMission;
+  mission: GameMission;
   index: number;
   count: number;
   completed: number;
@@ -25,7 +25,8 @@ interface GamePlayScreenProps {
   onNext: () => void;
 }
 
-function playPrompt(mission: EarthMission) {
+function playPrompt(mission: GameMission) {
+  if (mission.kind === "coordinates") return mission.shortPrompt;
   if (mission.kind === "compass") return "Следи ги насоките по ред. Едно притискање = едно поле.";
   if (mission.kind === "spheres") return "На која Земјина обвивка ѝ припаѓа ова откритие?";
   if (mission.kind === "temperature") return "Прочитај го термометарот. Едно мало деление = 2 °C.";
@@ -54,7 +55,7 @@ export default function GamePlayScreen({ game, mission, index, count, completed,
   return <div className={`game-viewport game-viewport-${mission.kind}`} aria-label={game.name}>
     <header className="game-play-toolbar">
       <button type="button" className="game-tool-button" aria-label="Поставки на играта" onClick={onBack}><ArrowLeft aria-hidden="true" /></button>
-      <span className="game-play-name"><span aria-hidden="true">{game.emoji}</span>{game.shortTitle}</span>
+      <span className="game-play-name"><span aria-hidden="true">{game.emoji}</span><span className="game-play-label">{game.shortTitle}</span></span>
       <span className="game-play-round" aria-label={`Откритие ${index + 1} од ${count}`}>{index + 1}<span> / {count}</span></span>
       <button type="button" className="game-tool-button" aria-label="Мала помош?" onClick={event => openSupport("hint", event.currentTarget)}><Lightbulb aria-hidden="true" /></button>
       <button type="button" className="game-tool-button" aria-label="Потсети се на лекцијата" onClick={event => openSupport("lesson", event.currentTarget)}><BookOpen aria-hidden="true" /></button>
@@ -68,7 +69,9 @@ export default function GamePlayScreen({ game, mission, index, count, completed,
     </section>
 
     <section className="game-play-stage" aria-label={game.title}>
-      <MissionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />
+      {mission.kind === "coordinates"
+        ? <CoordinateActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />
+        : <MissionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />}
     </section>
 
     <footer className={`game-play-bottom-bar ${solved ? "is-solved" : ""}`}>
