@@ -13,6 +13,7 @@ import { axisLabels } from "@/data/symmetryGame";
 import { faceLabels } from "@/data/shapesGeometry";
 import { fractionRelations } from "@/data/fractionsGame";
 import { measurementCups, measurementWeightLabel, measurementWeights } from "@/data/measurementGame";
+import { chanceChoices, vennChoices, vennRegion } from "@/data/dataGame";
 
 beforeEach(() => localStorage.clear());
 afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear(); });
@@ -98,6 +99,21 @@ function solve(mission: GameMission) {
     } else {
       if (mission.task === "area") for (let i = 0; i < mission.height; i++) click("Постави ред");
       if (mission.task === "perimeter") for (let i = 1; i <= 4; i++) click(`Обиколи страна ${i}`);
+      fireEvent.change(screen.getByRole("spinbutton"), { target: { value: mission.answer } });
+    }
+    click("Провери");
+  } else if (mission.kind === "data") {
+    if (mission.task === "survey") { for (const value of mission.raw) click(mission.labels[value]); return; }
+    if (mission.task === "venn") { for (const value of mission.raw) click(vennChoices.find(c => c.id === vennRegion(value))!.label); return; }
+    if (mission.task === "chance") { for (const event of mission.events) click(chanceChoices.find(c => c.id === event.answer)!.label); return; }
+    if (mission.choices.length) { click(mission.choices.find(c => c.id === mission.answer)!.label); return; }
+    if (mission.task === "bars") for (const [i, value] of mission.values.entries()) {
+      click(`Избери: ${mission.labels[i]}`); fireEvent.change(screen.getByRole("spinbutton"), { target: { value: String(value) } });
+    }
+    else if (mission.task === "mode") {
+      if (!mission.modes.length) click("Нема мода"); else for (const value of mission.modes) click(String(value));
+    } else {
+      if (mission.task === "experiment") for (const value of mission.outcomes) { click("Фрли коцка"); click(`Запиши ${value}`); }
       fireEvent.change(screen.getByRole("spinbutton"), { target: { value: mission.answer } });
     }
     click("Провери");

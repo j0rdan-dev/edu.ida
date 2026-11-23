@@ -1,0 +1,38 @@
+.data-activity { display: flex; align-items: stretch; gap: clamp(12px, 3vw, 40px); max-width: 1040px; margin: 0 auto; color: #4b6256; }
+.data-board { display: flex; flex-direction: column; flex: 1 1 0; min-width: 0; min-height: 0; }
+.data-board-heading { flex-shrink: 0; min-height: 26px; margin: 0; padding: 3px 5px; color: #66796f; font-size: 12px; line-height: 1.4; }
+.data-board > svg { flex: 1 1 0; min-height: 0; height: 0; width: 100%; user-select: none; }
+.data-caption { flex-shrink: 0; margin: 0; padding-top: 4px; font-size: 11px; line-height: 1.4; text-align: center; color: #6c7d71; }
+.data-svg-small { fill: #657c70; font: 12px "Nunito", sans-serif; }.data-svg-label { fill: #526e60; font: 700 13px "Nunito", sans-serif; }
+.data-svg-value { fill: #80638f; font: 800 17px "Nunito", sans-serif; }.data-svg-large { fill: #80638f; font: 800 27px "Nunito", sans-serif; }.data-svg-letter { fill: #3e5148; font: 800 11px "Nunito", sans-serif; }
+.data-build-chart { touch-action: none; cursor: ns-resize; }.data-pie-part { cursor: pointer; }
+.data-spinner-needle { transition: transform .35s ease-in-out; }
+@media (prefers-reduced-motion: reduce) { .data-spinner-needle { transition: none; } }
+.data-controls { flex: 0 0 310px; min-width: 0; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+.data-activity button { min-height: 44px; min-width: 44px; border-radius: 10px; }.data-activity button:disabled { cursor: default; opacity: .55; }
+.data-activity button:focus-visible, .data-activity input:focus-visible { outline: 3px solid #bf904f; outline-offset: 2px; }.data-activity button svg { width: 18px; height: 18px; flex-shrink: 0; }
+.data-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.data-options button, .data-tabs button, .data-roll-options button, .data-answer-options button { border: 1px solid #d9dece; background: #f6f9f1; color: #5e7863; padding: 9px 6px; font-size: 13px; font-weight: 800; }
+.data-chance-options { grid-template-columns: 1fr; }.data-chance-options button { min-height: 48px; }
+.data-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }.data-tabs button { padding: 6px 2px; font-size: 11px; }
+.data-tabs button[aria-pressed=true], .data-explore[aria-pressed=true] { background: #e8def0; border-color: #af94c2; color: #77598b; box-shadow: inset 0 0 0 1px #af94c2; }
+.data-stepper, .data-actions { display: flex; justify-content: center; align-items: center; gap: 9px; }.data-stepper button, .data-icon { flex-shrink: 0; display: grid; place-items: center; width: 44px; height: 44px; background: #f4f8f3; border: 1px solid #d5dfd4; color: #6d8c74; }
+.data-stepper input, .data-input input { width: 96px; min-width: 0; height: 48px; border: 1px solid #d6dfd4; border-radius: 10px; background: #fcfdf9; color: #5d7c65; font: 800 24px "Nunito", sans-serif; text-align: center; }
+.data-input { display: flex; align-items: center; justify-content: space-between; gap: 9px; font-size: 12px; color: #6d7e70; }.data-input > span:last-child { min-width: 55px; }
+.data-controls .data-check { min-height: 44px; font-size: 13px; padding: 9px 12px; gap: 6px; }
+.data-explore { display: flex; justify-content: center; align-items: center; gap: 8px; border: 1px solid #dfd0b6; background: #faf6ed; color: #947647; padding: 9px 8px; font-size: 13px; font-weight: 800; }.data-actions .data-explore { flex: 1; }
+.data-roll-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }.data-roll-options button { font-size: 18px; padding: 5px; }
+.data-answer-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }.data-answer-options button { min-height: 54px; padding: 8px 3px; font-size: 11px; line-height: 1.35; }
+.data-controls .is-wrong { background: #fff0e9; border-color: #cd9178; }.data-controls .is-correct { background: #e7f4e9; border-color: #6ca682; }
+.game-illustration-data > svg { width: 85%; height: 85%; z-index: 1; }
+@media (max-width: 600px) and (min-height: 501px) {
+  .data-activity { flex-direction: column; gap: 8px; }.data-controls { flex: 0 0 auto; gap: 8px; }.data-board-heading { min-height: 20px; padding-block: 0; font-size: 10px; }.data-caption { font-size: 10px; }
+  .data-input input, .data-stepper input { height: 44px; font-size: 22px; }.data-options { gap: 6px; }.data-options button { padding: 8px 4px; font-size: 12px; }
+  .data-chance-options { grid-template-columns: repeat(3, minmax(0, 1fr)); }.data-chance-options button { padding: 7px 3px; font-size: 11px; }
+  .data-task-bars .data-caption, .data-task-pie .data-caption { display: none; }
+}
+@media (max-height: 600px) and (min-aspect-ratio: 3/2) {
+  .data-activity { gap: 12px; }.data-controls { flex-basis: 278px; gap: 6px; }.data-board-heading { min-height: 18px; padding-block: 0; font-size: 10px; }.data-caption { display: none; }
+  .data-stepper input, .data-input input { height: 44px; font-size: 21px; }.data-options { gap: 6px; }.data-options button { padding: 7px 4px; font-size: 12px; }.data-chance-options { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .data-chance-options button { padding: 7px 3px; font-size: 11px; }.data-controls .data-check { font-size: 12px; padding-block: 7px; }.data-roll-options { gap: 5px; }
+}

@@ -5,7 +5,13 @@ import { IslandLandscape } from "./earth/EarthArtwork";
 export default function GameIllustration({ gameId }: { gameId: GameId }) {
   return <div className={`game-illustration game-illustration-${gameId}`} aria-hidden="true">
     <span className="game-art-orbit game-art-orbit-one" /><span className="game-art-orbit game-art-orbit-two" />
-    {gameId === "measurement" ? <svg viewBox="0 0 180 180" fill="none">
+    {gameId === "data" ? <svg viewBox="0 0 180 180" fill="none">
+      <path d="M27 30v120h126" stroke="#93ad9b" strokeWidth="2" strokeLinecap="round" />
+      <path d="M27 60h113M27 90h113M27 120h113" stroke="#d7e4d8" strokeDasharray="3 4" />
+      <rect x="42" y="95" width="22" height="55" rx="3" fill="#aacbb5" /><rect x="76" y="68" width="22" height="82" rx="3" fill="#c2add6" /><rect x="110" y="112" width="22" height="38" rx="3" fill="#dfc18d" />
+      <circle cx="139" cy="45" r="24" fill="#e5d7ee" stroke="#b298c5" strokeWidth="2" /><path d="M139 21v24h24" stroke="#fffaf4" strokeWidth="2" /><path d="m156 63 11 12" stroke="#a08aaf" strokeWidth="5" strokeLinecap="round" />
+      <path d="m38 85 39-37 29 9" stroke="#b1956e" strokeWidth="2" strokeLinecap="round" /><circle cx="38" cy="85" r="3" fill="#b1956e" /><circle cx="77" cy="48" r="3" fill="#b1956e" />
+    </svg> : gameId === "measurement" ? <svg viewBox="0 0 180 180" fill="none">
       <path d="M25 115h130v30H25Z" fill="#f5ddb0" stroke="#bf9e6c" strokeWidth="2" />
       {Array.from({ length: 12 }, (_, i) => <path key={i} d={`M${33 + i * 10} 115v${i % 2 ? 8 : 14}`} stroke="#a5885b" strokeWidth="2" />)}
       <path d="M90 48v57m-25 0h50M47 57h86" stroke="#7e9e8b" strokeWidth="4" strokeLinecap="round" />

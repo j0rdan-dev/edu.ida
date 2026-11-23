@@ -154,6 +154,53 @@ async function solve(mission) {
       await page.getByRole("spinbutton").fill(mission.answer);
     }
     await page.getByRole("button", { name: "Провери", exact: true }).click();
+  } else if (mission.kind === "data") {
+    const data = await page.evaluate(async () => {
+      const module = await import("/src/data/dataGame.ts");
+      return { chance: module.chanceChoices, venn: module.vennChoices, regions: ["left", "both", "right", "outside"] };
+    });
+    if (mission.task === "survey") { for (const value of mission.raw) await page.getByRole("button", { name: mission.labels[value], exact: true }).click(); return; }
+    if (mission.task === "venn") {
+      for (const value of mission.raw) {
+        const region = value % 2 === 0 ? value > 10 ? "both" : "left" : value > 10 ? "right" : "outside";
+        await page.getByRole("button", { name: data.venn.find(c => c.id === region).label, exact: true }).click();
+      }
+      return;
+    }
+    if (mission.task === "chance") { for (const event of mission.events) await page.getByRole("button", { name: data.chance.find(c => c.id === event.answer).label, exact: true }).click(); return; }
+    if (mission.task === "spinner") for (let i = 0; i < 3; i++) await page.getByRole("button", { name: "Заврти го тркалото", exact: true }).click();
+    if (mission.choices.length) { await page.getByRole("button", { name: mission.choices.find(c => c.id === mission.answer).label, exact: true }).click(); return; }
+    if (mission.task === "bars") {
+      for (const [i, value] of mission.values.entries()) {
+        if (i === 0) {
+          const point = await page.locator(".data-build-chart").evaluate((svg, { value, maximum }) => {
+            const p = new DOMPoint(43 + 292 / 8, 230 - (230 - 83) * value / maximum).matrixTransform(svg.getScreenCTM());
+            return { x: p.x, y: p.y };
+          }, { value, maximum: mission.maximum });
+          await page.mouse.click(point.x, point.y);
+          assert.equal(await page.getByRole("spinbutton").inputValue(), String(value));
+        } else {
+          await page.getByRole("button", { name: `Избери: ${mission.labels[i]}`, exact: true }).click();
+          await page.getByRole("spinbutton").fill(String(value));
+        }
+      }
+    } else if (mission.task === "mode") {
+      await page.getByRole("button", { name: "Подреди ги броевите", exact: true }).click();
+      if (!mission.modes.length) await page.getByRole("button", { name: "Нема мода", exact: true }).click();
+      else for (const value of mission.modes) await page.getByRole("button", { name: String(value), exact: true }).click();
+    } else {
+      if (mission.task === "experiment") {
+        for (const value of mission.outcomes) {
+          const roll = page.getByRole("button", { name: "Фрли коцка", exact: true });
+          if (await roll.isEnabled()) await roll.click();
+          await page.getByRole("button", { name: `Запиши ${value}`, exact: true }).click();
+        }
+        for (const [width, height] of sizes) { await page.setViewportSize({ width, height }); await checkFit(`data experiment count phase ${width}x${height}`); }
+        await page.setViewportSize({ width: 375, height: 667 });
+      }
+      await page.getByRole("spinbutton").fill(mission.answer);
+    }
+    await page.getByRole("button", { name: "Провери", exact: true }).click();
   } else {
     let [x, y] = mission.start;
     for (const step of mission.route) {
@@ -186,7 +233,7 @@ try {
         await checkFit(`${game.id} ${mission.id} before answer ${width}x${height}`);
       }
       await page.setViewportSize({ width: 375, height: 667 });
-      const photoKey = ["coordinates", "symmetry", "shapes", "fractions", "measurement"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
+      const photoKey = ["coordinates", "symmetry", "shapes", "fractions", "measurement", "data"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
       if (!photographed.has(photoKey)) {
         await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${photoKey}.png`), animations: "disabled" });
         photographed.add(photoKey);
@@ -280,6 +327,23 @@ try {
         }
         await page.setViewportSize({ width: 375, height: 667 });
       }
+      if (mission.kind === "data") {
+        if (mission.task === "survey") await page.getByRole("button", { name: mission.labels[(mission.raw[0] + 1) % 4], exact: true }).click();
+        else if (mission.task === "venn") {
+          const expected = mission.raw[0] % 2 === 0 ? mission.raw[0] > 10 ? "both" : "left" : mission.raw[0] > 10 ? "right" : "outside";
+          const choices = await page.evaluate(async () => (await import("/src/data/dataGame.ts")).vennChoices);
+          await page.getByRole("button", { name: choices.find(c => c.id !== expected).label, exact: true }).click();
+        } else if (mission.task === "chance") {
+          const choices = await page.evaluate(async () => (await import("/src/data/dataGame.ts")).chanceChoices);
+          await page.getByRole("button", { name: choices.find(c => c.id !== mission.events[0].answer).label, exact: true }).click();
+        } else if (mission.task === "experiment") {
+          await page.getByRole("button", { name: "Фрли коцка", exact: true }).click();
+          await page.getByRole("button", { name: `Запиши ${mission.outcomes[0] % 6 + 1}`, exact: true }).click();
+        } else if (mission.choices.length) await page.getByRole("button", { name: mission.choices.find(c => c.id !== mission.answer).label, exact: true }).click();
+        else await page.getByRole("button", { name: "Провери", exact: true }).click();
+        for (const [width, height] of sizes) { await page.setViewportSize({ width, height }); await checkFit(`data ${mission.task} after incorrect answer ${width}x${height}`); }
+        await page.setViewportSize({ width: 375, height: 667 });
+      }
       await solve(mission);
       await page.getByRole("button", { name: "Зошто е точно?" }).waitFor();
       if (index === 0) await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${game.id}-solved.png`), animations: "disabled" });
@@ -287,6 +351,7 @@ try {
       if (mission.kind === "shapes") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-shapes-${mission.task}-solved.png`), animations: "disabled" });
       if (mission.kind === "fractions") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-fractions-${mission.task}-solved.png`), animations: "disabled" });
       if (mission.kind === "measurement") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-measurement-${mission.task}-solved.png`), animations: "disabled" });
+      if (mission.kind === "data") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-data-${mission.task}-solved.png`), animations: "disabled" });
       for (const [width, height] of sizes) {
         await page.setViewportSize({ width, height });
         await checkFit(`${game.id} ${mission.id} after answer ${width}x${height}`);

@@ -8,6 +8,7 @@ import SymmetryActivity from "./SymmetryActivity";
 import ShapesActivity from "./ShapesActivity";
 import FractionActivity from "./FractionActivity";
 import MeasurementActivity from "./MeasurementActivity";
+import DataActivity from "./DataActivity";
 import "./game-play-screen.css";
 
 type SupportPanel = "hint" | "lesson" | "explanation" | "task";
@@ -35,6 +36,7 @@ function playPrompt(mission: GameMission) {
   if (mission.kind === "shapes") return mission.shortPrompt;
   if (mission.kind === "fractions") return mission.shortPrompt;
   if (mission.kind === "measurement") return mission.shortPrompt;
+  if (mission.kind === "data") return mission.shortPrompt;
   if (mission.kind === "compass") return "Следи ги насоките по ред. Едно притискање = едно поле.";
   if (mission.kind === "spheres") return "На која Земјина обвивка ѝ припаѓа ова откритие?";
   if (mission.kind === "temperature") return "Прочитај го термометарот. Едно мало деление = 2 °C.";
@@ -88,7 +90,9 @@ export default function GamePlayScreen({ game, mission, index, count, completed,
               ? <FractionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} onFeedback={setFeedback} />
               : mission.kind === "measurement"
                 ? <MeasurementActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} onFeedback={setFeedback} />
-                : <MissionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />}
+                : mission.kind === "data"
+                  ? <DataActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} onFeedback={setFeedback} />
+                  : <MissionActivity mission={mission} disabled={solved} selected={selected} onResult={onResult} />}
     </section>
 
     <footer className={`game-play-bottom-bar ${solved ? "is-solved" : ""}`}>
