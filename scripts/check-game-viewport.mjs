@@ -126,6 +126,34 @@ async function solve(mission) {
       await page.mouse.click(point.x, point.y);
     } else await page.getByRole("spinbutton").fill(mission.answer);
     await page.getByRole("button", { name: "Провери", exact: true }).click();
+  } else if (mission.kind === "measurement") {
+    const math = await page.evaluate(async () => {
+      const data = await import("/src/data/measurementGame.ts");
+      return { weights: data.measurementWeights, cups: data.measurementCups };
+    });
+    if (mission.task === "tools") { await page.getByRole("button", { name: mission.choices.find(item => item.id === mission.answer).label, exact: true }).click(); return; }
+    if (mission.task === "mass" || mission.task === "capacity") {
+      let remaining = mission.target;
+      for (const value of mission.task === "mass" ? math.weights : math.cups) while (remaining >= value) {
+        const name = mission.task === "mass" ? `Додај тег ${value === 1000 ? "1 kg" : `${value} g`}` : `Додај ${value} ml`;
+        await page.getByRole("button", { name, exact: true }).click(); remaining -= value;
+      }
+    } else if (mission.task === "clock") {
+      await page.getByRole("spinbutton", { name: "Час", exact: true }).fill(String(Math.floor(mission.target / 60)));
+      // Place the minute hand through the actual SVG screen transform.
+      const point = await page.locator(".measurement-clock").evaluate((svg, minute) => {
+        const p = new DOMPoint(160 + 80 * Math.sin(minute * Math.PI / 30), 118 - 80 * Math.cos(minute * Math.PI / 30)).matrixTransform(svg.getScreenCTM());
+        return { x: p.x, y: p.y };
+      }, mission.target % 60);
+      await page.mouse.click(point.x, point.y);
+      assert.equal(await page.getByRole("spinbutton", { name: "Минути", exact: true }).inputValue(), String(mission.target % 60));
+    } else {
+      if (mission.task === "length") await page.getByRole("button", { name: "Порамни со 0", exact: true }).click();
+      if (mission.task === "area") for (let i = 0; i < mission.height; i++) await page.getByRole("button", { name: "Постави ред", exact: true }).click();
+      if (mission.task === "perimeter") for (let i = 1; i <= 4; i++) await page.getByRole("button", { name: `Обиколи страна ${i}`, exact: true }).click();
+      await page.getByRole("spinbutton").fill(mission.answer);
+    }
+    await page.getByRole("button", { name: "Провери", exact: true }).click();
   } else {
     let [x, y] = mission.start;
     for (const step of mission.route) {
@@ -158,7 +186,7 @@ try {
         await checkFit(`${game.id} ${mission.id} before answer ${width}x${height}`);
       }
       await page.setViewportSize({ width: 375, height: 667 });
-      const photoKey = ["coordinates", "symmetry", "shapes", "fractions"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
+      const photoKey = ["coordinates", "symmetry", "shapes", "fractions", "measurement"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
       if (!photographed.has(photoKey)) {
         await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${photoKey}.png`), animations: "disabled" });
         photographed.add(photoKey);
@@ -243,12 +271,22 @@ try {
         }
         await page.setViewportSize({ width: 375, height: 667 });
       }
+      if (mission.kind === "measurement") {
+        if (mission.task === "tools") await page.getByRole("button", { name: mission.choices.find(item => item.id !== mission.answer).label, exact: true }).click();
+        else await page.getByRole("button", { name: "Провери", exact: true }).click();
+        for (const [width, height] of sizes) {
+          await page.setViewportSize({ width, height });
+          await checkFit(`${game.id} ${mission.id} after incorrect answer ${width}x${height}`);
+        }
+        await page.setViewportSize({ width: 375, height: 667 });
+      }
       await solve(mission);
       await page.getByRole("button", { name: "Зошто е точно?" }).waitFor();
       if (index === 0) await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${game.id}-solved.png`), animations: "disabled" });
       if (mission.kind === "symmetry") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-symmetry-${mission.task}-solved.png`), animations: "disabled" });
       if (mission.kind === "shapes") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-shapes-${mission.task}-solved.png`), animations: "disabled" });
       if (mission.kind === "fractions") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-fractions-${mission.task}-solved.png`), animations: "disabled" });
+      if (mission.kind === "measurement") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-measurement-${mission.task}-solved.png`), animations: "disabled" });
       for (const [width, height] of sizes) {
         await page.setViewportSize({ width, height });
         await checkFit(`${game.id} ${mission.id} after answer ${width}x${height}`);

@@ -1,0 +1,38 @@
+.measurement-activity { display: flex; align-items: stretch; gap: clamp(12px, 3vw, 40px); max-width: 1000px; margin: 0 auto; color: #485e55; }
+.measurement-board { display: flex; flex-direction: column; flex: 1 1 0; min-width: 0; min-height: 0; }
+.measurement-board-heading { flex-shrink: 0; min-height: 26px; margin: 0; padding: 3px 5px; color: #63796d; font-size: 12px; line-height: 1.4; }
+.measurement-board > svg { flex: 1 1 0; min-height: 0; height: 0; width: 100%; user-select: none; }
+.measurement-caption { flex-shrink: 0; margin: 0; padding-top: 4px; font-size: 11px; line-height: 1.4; text-align: center; color: #6c7d71; }
+.measure-svg-label { fill: #587165; font: 700 13px "Nunito", sans-serif; }.measure-svg-small { fill: #657c70; font: 12px "Nunito", sans-serif; }
+.measure-svg-value { fill: #80638f; font: 800 17px "Nunito", sans-serif; }.measure-svg-large { fill: #80638f; font: 800 29px "Nunito", sans-serif; }
+.measure-svg-clock-number { fill: #587165; font: 800 17px "Nunito", sans-serif; }
+.measurement-clock { touch-action: none; cursor: pointer; }
+.measurement-controls { flex: 0 0 310px; min-width: 0; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.measurement-activity button { min-height: 44px; min-width: 44px; border-radius: 10px; }.measurement-activity button:disabled { cursor: default; opacity: .55; }
+.measurement-activity button:focus-visible, .measurement-activity input:focus-visible { outline: 3px solid #c28b46; outline-offset: 2px; }
+.measurement-activity button svg { width: 18px; height: 18px; }
+.measurement-additions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }.measurement-additions.is-weights { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.measurement-additions button, .measurement-explore, .measurement-choices button { border: 1px solid #d4dfd1; background: #f5f9f1; color: #5c7b64; padding: 8px 6px; font-size: 14px; font-weight: 800; }
+.measurement-additions button { display: flex; justify-content: center; align-items: center; gap: 5px; }.measurement-additions button > span { color: #99ad93; }
+.measurement-explore { background: #faf6ed; border-color: #dfd0b6; color: #947647; }
+.measurement-row-actions, .measurement-actions { display: flex; gap: 8px; }.measurement-row-actions .measurement-explore { flex: 1; }
+.measurement-icon { flex-shrink: 0; display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #d5dfd4; background: #f4f8f3; color: #6d8c74; }
+.measurement-input { display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 12px; color: #6d7e70; }.measurement-input > span { flex: 1; }
+.measurement-input > strong { min-width: 28px; font-size: 17px; color: #7d6592; }
+.measurement-input input, .measurement-time-inputs input { width: 105px; min-width: 0; height: 48px; border: 1px solid #d6dfd4; border-radius: 10px; background: #fcfdf9; color: #5d7c65; font: 800 24px "Nunito", sans-serif; text-align: center; }
+.measurement-time-inputs { display: flex; align-items: center; justify-content: center; gap: 12px; }.measurement-time-inputs label { display: flex; flex-direction: column; align-items: center; gap: 5px; font-size: 12px; }.measurement-time-inputs > span { font-size: 24px; }
+.measurement-controls .measurement-check { flex: 1; min-height: 44px; font-size: 13px; padding: 9px 12px; gap: 6px; }
+.measurement-choices { display: grid; grid-template-columns: 1fr; gap: 8px; }.measurement-choices button { padding: 10px 8px; font-size: 13px; }
+.measurement-choices .is-wrong { background: #fff0e9; border-color: #cd9178; }.measurement-choices .is-correct { background: #e7f4e9; border-color: #6ca682; }
+.game-illustration-measurement > svg { width: 85%; height: 85%; z-index: 1; }
+@media (max-width: 600px) and (min-height: 501px) {
+  .measurement-activity { flex-direction: column; gap: 8px; }.measurement-controls { flex: 0 0 auto; gap: 8px; }.measurement-board-heading { min-height: 20px; padding-block: 0; font-size: 10px; }.measurement-caption { font-size: 10px; }
+  .measurement-choices { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }.measurement-choices button { min-height: 52px; font-size: 12px; }
+  .measurement-input input, .measurement-time-inputs input { height: 44px; font-size: 22px; }
+}
+@media (max-height: 600px) and (min-aspect-ratio: 3/2) {
+  .measurement-activity { gap: 12px; }.measurement-controls { flex-basis: 270px; gap: 6px; }.measurement-board-heading { min-height: 18px; padding-block: 0; font-size: 10px; }.measurement-caption { display: none; }
+  .measurement-additions { gap: 5px; }.measurement-additions button { padding: 4px; font-size: 12px; }.measurement-input input { height: 44px; font-size: 21px; }
+  .measurement-choices { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }.measurement-choices button { padding: 7px 4px; font-size: 11px; }
+  .measurement-controls .measurement-check { font-size: 12px; padding-block: 7px; }.measurement-time-inputs input { height: 44px; }
+}

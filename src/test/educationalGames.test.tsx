@@ -12,6 +12,7 @@ import { getIndexablePaths, getPageMetadata, getStaticPaths } from "@/lib/seo";
 import { axisLabels } from "@/data/symmetryGame";
 import { faceLabels } from "@/data/shapesGeometry";
 import { fractionRelations } from "@/data/fractionsGame";
+import { measurementCups, measurementWeightLabel, measurementWeights } from "@/data/measurementGame";
 
 beforeEach(() => localStorage.clear());
 afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear(); });
@@ -83,6 +84,22 @@ function solve(mission: GameMission) {
       const board = screen.getByRole("group", { name: "Работилница за дропки" });
       for (let i = 0; i < mission.target; i++) fireEvent.keyDown(board, { key: "ArrowRight" });
     } else fireEvent.change(screen.getByRole("spinbutton"), { target: { value: mission.answer } });
+    click("Провери");
+  } else if (mission.kind === "measurement") {
+    if (mission.task === "tools") { click(mission.choices.find(item => item.id === mission.answer)!.label); return; }
+    if (mission.task === "mass" || mission.task === "capacity") {
+      let remaining = mission.target;
+      for (const value of mission.task === "mass" ? measurementWeights : measurementCups) while (remaining >= value) {
+        click(mission.task === "mass" ? `Додај тег ${measurementWeightLabel(value)}` : `Додај ${value} ml`); remaining -= value;
+      }
+    } else if (mission.task === "clock") {
+      fireEvent.change(screen.getByRole("spinbutton", { name: "Час" }), { target: { value: String(Math.floor(mission.target / 60)) } });
+      fireEvent.change(screen.getByRole("spinbutton", { name: "Минути" }), { target: { value: String(mission.target % 60) } });
+    } else {
+      if (mission.task === "area") for (let i = 0; i < mission.height; i++) click("Постави ред");
+      if (mission.task === "perimeter") for (let i = 1; i <= 4; i++) click(`Обиколи страна ${i}`);
+      fireEvent.change(screen.getByRole("spinbutton"), { target: { value: mission.answer } });
+    }
     click("Провери");
   } else if (mission.kind === "compass") {
     let [x, y] = mission.start!;
