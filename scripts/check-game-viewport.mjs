@@ -103,6 +103,29 @@ async function solve(mission) {
       for (const kind of mission.faceKinds) for (let i = 0; i < (mission.faceCounts[kind] ?? 0); i++) await page.getByRole("button", { name: `Повеќе: ${labels[kind]}`, exact: true }).click();
       await page.getByRole("button", { name: "Провери ги ѕидовите", exact: true }).click();
     } else await page.getByRole("button", { name: mission.choices.find(choice => choice.id === mission.answer).label, exact: true }).click();
+  } else if (mission.kind === "fractions") {
+    if (mission.task === "portion") {
+      for (let i = 1; i <= mission.fraction.numerator; i++) {
+        const piece = page.getByRole("button", { name: `Парче ${i}`, exact: true });
+        if (i === 1) await piece.press("Enter"); else await piece.click();
+      }
+    } else if (mission.task === "compare") {
+      await page.getByRole("button", { name: "Види ги деловите", exact: true }).click();
+      const relations = await page.evaluate(async () => (await import("/src/data/fractionsGame.ts")).fractionRelations);
+      await page.getByRole("button", { name: relations.find(relation => relation.id === mission.answer).label, exact: true }).click();
+      return;
+    } else if (mission.task === "mixed") {
+      await page.getByRole("spinbutton", { name: "Цели пици", exact: true }).fill(String(mission.whole));
+      await page.getByRole("spinbutton", { name: "Останати парчиња", exact: true }).fill(String(mission.remainder));
+    } else if (mission.task === "line") {
+      const svg = page.locator(".fraction-ribbon");
+      const point = await svg.evaluate((el, { target, divisions }) => {
+        const p = new DOMPoint(30 + target * 240 / divisions, 95).matrixTransform(el.getScreenCTM());
+        return { x: p.x, y: p.y };
+      }, mission);
+      await page.mouse.click(point.x, point.y);
+    } else await page.getByRole("spinbutton").fill(mission.answer);
+    await page.getByRole("button", { name: "Провери", exact: true }).click();
   } else {
     let [x, y] = mission.start;
     for (const step of mission.route) {
@@ -135,7 +158,7 @@ try {
         await checkFit(`${game.id} ${mission.id} before answer ${width}x${height}`);
       }
       await page.setViewportSize({ width: 375, height: 667 });
-      const photoKey = ["coordinates", "symmetry", "shapes"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
+      const photoKey = ["coordinates", "symmetry", "shapes", "fractions"].includes(mission.kind) ? `${mission.kind}-${mission.task}` : mission.kind;
       if (!photographed.has(photoKey)) {
         await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${photoKey}.png`), animations: "disabled" });
         photographed.add(photoKey);
@@ -209,11 +232,23 @@ try {
         if (mission.task === "trace") await page.getByRole("button", { name: "Почни повторно", exact: true }).click();
         await page.setViewportSize({ width: 375, height: 667 });
       }
+      if (mission.kind === "fractions") {
+        if (mission.task === "compare") {
+          const relations = await page.evaluate(async () => (await import("/src/data/fractionsGame.ts")).fractionRelations);
+          await page.getByRole("button", { name: relations.find(relation => relation.id !== mission.answer).label, exact: true }).click();
+        } else await page.getByRole("button", { name: "Провери", exact: true }).click();
+        for (const [width, height] of sizes) {
+          await page.setViewportSize({ width, height });
+          await checkFit(`${game.id} ${mission.id} after incorrect answer ${width}x${height}`);
+        }
+        await page.setViewportSize({ width: 375, height: 667 });
+      }
       await solve(mission);
       await page.getByRole("button", { name: "Зошто е точно?" }).waitFor();
       if (index === 0) await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-${game.id}-solved.png`), animations: "disabled" });
       if (mission.kind === "symmetry") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-symmetry-${mission.task}-solved.png`), animations: "disabled" });
       if (mission.kind === "shapes") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-shapes-${mission.task}-solved.png`), animations: "disabled" });
+      if (mission.kind === "fractions") await page.screenshot({ path: join(tmpdir(), `edu-ida-compact-fractions-${mission.task}-solved.png`), animations: "disabled" });
       for (const [width, height] of sizes) {
         await page.setViewportSize({ width, height });
         await checkFit(`${game.id} ${mission.id} after answer ${width}x${height}`);

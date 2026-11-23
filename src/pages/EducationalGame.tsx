@@ -24,7 +24,7 @@ function StandaloneGame({ game }: { game: EducationalGame }) {
   const mission = session ? rounds[session.index] : undefined;
   const solved = !!session && session.results.length > session.index;
   const finished = !!session && session.index >= rounds.length;
-  const isMathGame = game.id === "coordinates" || game.id === "symmetry" || game.id === "shapes";
+  const isMathGame = game.subject === "Математика";
   const levels: { id: Difficulty; name: string; detail: string }[] = isMathGame
     ? [{ id: "explorer", name: "4 одделение", detail: `${roundCount("explorer", game.id)} нови задачи` }, { id: "challenge", name: "5 одделение", detail: `${roundCount("challenge", game.id)} нови задачи` }]
     : [{ id: "explorer", name: "Истражувач", detail: "5 откритија" }, { id: "challenge", name: "Предизвик", detail: `8 откритија${game.id === "compass" ? " · подолги патеки" : ""}` }];

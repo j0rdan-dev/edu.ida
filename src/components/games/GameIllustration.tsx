@@ -5,7 +5,16 @@ import { IslandLandscape } from "./earth/EarthArtwork";
 export default function GameIllustration({ gameId }: { gameId: GameId }) {
   return <div className={`game-illustration game-illustration-${gameId}`} aria-hidden="true">
     <span className="game-art-orbit game-art-orbit-one" /><span className="game-art-orbit game-art-orbit-two" />
-    {gameId === "shapes" ? <svg viewBox="0 0 180 180" fill="none">
+    {gameId === "fractions" ? <svg viewBox="0 0 180 180" fill="none">
+      <circle cx="74" cy="78" r="48" fill="#fff0cf" stroke="#cca16c" strokeWidth="3" />
+      <path d="M74 30a48 48 0 0 1 48 48H74Z" fill="#d8b8c9" stroke="#fffaf0" strokeWidth="2" />
+      <path d="M74 78h48a48 48 0 0 1-48 48Z" fill="#b4d5c7" stroke="#fffaf0" strokeWidth="2" />
+      <path d="M26 78h48v48m0-96v48" stroke="#cca16c" strokeWidth="2" />
+      <path d="m130 92 32 5-5 47q-1 10-12 10h-10q-11 0-11-10Z" fill="#f6ead1" stroke="#b19f80" strokeWidth="2" />
+      <path d="m127 120 32 4-2 20q-1 10-12 10h-10q-11 0-11-10Z" fill="#e7c080" />
+      <path d="m146 93 9-40" stroke="#9a84b1" strokeWidth="4" strokeLinecap="round" />
+      <path d="M40 154h63m-47-14v28m32-28v28" stroke="#88b09e" strokeWidth="3" strokeLinecap="round" />
+    </svg> : gameId === "shapes" ? <svg viewBox="0 0 180 180" fill="none">
       <path d="m90 60 40 23v47l-40 23-40-23V83Z" fill="#c2e2d8" stroke="#5f9586" strokeWidth="2" strokeLinejoin="round" />
       <path d="m50 83 40 24 40-24M90 107v46" stroke="#5f9586" strokeWidth="2" />
       <path d="m90 60 40 23-40 24-40-24Z" fill="#deeee6" stroke="#5f9586" strokeWidth="2" />

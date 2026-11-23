@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Check, ChevronDown, CloudSun, Compass, FlipHorizontal2, Gamepad2, Globe2, Grid2X2, Layers3, Mountain, Play, Search, Shapes, type LucideIcon } from "lucide-react";
+import { Check, ChevronDown, CloudSun, Compass, FlipHorizontal2, Gamepad2, Globe2, Grid2X2, Layers3, Mountain, PieChart, Play, Search, Shapes, type LucideIcon } from "lucide-react";
 import { educationalGames, readGameProgress, roundCount } from "@/data/educationalGames";
 import "@/components/games/games-catalog.css";
 
@@ -13,6 +13,7 @@ const gameIcons: Partial<Record<string, LucideIcon>> = {
   coordinates: Grid2X2,
   symmetry: FlipHorizontal2,
   shapes: Shapes,
+  fractions: PieChart,
 };
 
 export default function Games() {

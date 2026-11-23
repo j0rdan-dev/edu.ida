@@ -11,6 +11,7 @@ import { createGameRounds, educationalGames, gameProgressKey, GAMES_PATH, readGa
 import { getIndexablePaths, getPageMetadata, getStaticPaths } from "@/lib/seo";
 import { axisLabels } from "@/data/symmetryGame";
 import { faceLabels } from "@/data/shapesGeometry";
+import { fractionRelations } from "@/data/fractionsGame";
 
 beforeEach(() => localStorage.clear());
 afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear(); });
@@ -71,6 +72,18 @@ function solve(mission: GameMission) {
       for (const kind of mission.faceKinds) for (let i = 0; i < (mission.faceCounts[kind] ?? 0); i++) fireEvent.click(screen.getByLabelText(`Повеќе: ${faceLabels[kind]}`));
       click("Провери ги ѕидовите");
     } else click(mission.choices.find(choice => choice.id === mission.answer)!.label);
+  } else if (mission.kind === "fractions") {
+    if (mission.task === "portion") {
+      for (let i = 1; i <= mission.fraction.numerator; i++) fireEvent.click(screen.getByLabelText(`Парче ${i}`));
+    } else if (mission.task === "compare") { click(fractionRelations.find(relation => relation.id === mission.answer)!.label); return; }
+    else if (mission.task === "mixed") {
+      fireEvent.change(screen.getByRole("spinbutton", { name: "Цели пици" }), { target: { value: String(mission.whole) } });
+      fireEvent.change(screen.getByRole("spinbutton", { name: "Останати парчиња" }), { target: { value: String(mission.remainder) } });
+    } else if (mission.task === "line") {
+      const board = screen.getByRole("group", { name: "Работилница за дропки" });
+      for (let i = 0; i < mission.target; i++) fireEvent.keyDown(board, { key: "ArrowRight" });
+    } else fireEvent.change(screen.getByRole("spinbutton"), { target: { value: mission.answer } });
+    click("Провери");
   } else if (mission.kind === "compass") {
     let [x, y] = mission.start!;
     const map = screen.getByRole("group", { name: "Карта за движење со компас" });

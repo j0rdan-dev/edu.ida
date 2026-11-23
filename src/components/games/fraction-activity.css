@@ -1,0 +1,53 @@
+.fraction-activity { display: flex; align-items: stretch; gap: clamp(12px, 3vw, 40px); max-width: 1000px; margin: 0 auto; color: #485d55; }
+.fraction-activity:focus-visible { outline: 3px solid #c28b46; border-radius: 12px; outline-offset: 2px; }
+.fraction-board { display: flex; flex-direction: column; flex: 1 1 0; min-width: 0; min-height: 0; }
+.fraction-board-heading { flex-shrink: 0; min-height: 26px; padding: 3px 5px; color: #66796e; font-size: 12px; line-height: 1.4; margin: 0; }
+.fraction-board > svg { flex: 1 1 0; min-height: 0; height: 0; width: 100%; user-select: none; }
+.fraction-piece, .fraction-ribbon { cursor: pointer; touch-action: manipulation; }
+.fraction-diagram-text { fill: #52695e; font: 700 12px "Nunito", sans-serif; }
+.fraction-diagram-value { fill: #80638f; font: 800 16px "Nunito", sans-serif; }
+.fraction-diagram-muted { fill: #6d7d74; font: 11px "Nunito", sans-serif; }
+.fraction-caption { flex-shrink: 0; margin: 0; padding-top: 4px; font-size: 11px; line-height: 1.4; text-align: center; color: #6c7d71; }
+.fraction-controls { flex: 0 0 300px; min-width: 0; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.fraction-activity button { min-height: 44px; min-width: 44px; border-radius: 10px; }.fraction-activity button:disabled { cursor: default; }
+.fraction-activity button:focus-visible, .fraction-activity input:focus-visible { outline: 3px solid #c28b46; outline-offset: 2px; }
+.fraction-readout { display: flex; align-items: center; justify-content: center; gap: 14px; min-height: 28px; color: #6a7d70; font-size: 13px; }
+.fraction-readout output { color: #82608c; font-size: 20px; font-weight: 800; }
+.fraction-number { display: inline-flex; align-items: center; gap: 8px; color: #80638f; font-size: 25px; font-weight: 800; font-variant-numeric: tabular-nums; vertical-align: middle; }
+.fraction-stack { display: inline-grid; text-align: center; line-height: 1.1; min-width: 1.15em; }.fraction-stack > span:first-child { padding: 0 3px 3px; border-bottom: 2px solid currentColor; }.fraction-stack > span:last-child { padding: 3px 3px 0; }
+.fraction-whole-number { font-size: 1.4em; }
+.fraction-mixed-value { display: flex; align-items: center; justify-content: center; flex-shrink: 0; gap: 12px; min-height: 55px; font-size: 12px; color: #6a7d70; }.fraction-mixed-value output > strong { font-size: 28px; color: #80638f; }
+.fraction-piece-options { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 5px; }
+.fraction-piece-options button { min-width: 0; background: #faf5ed; border: 1px solid #dfcfb9; font-size: 16px; font-weight: 800; color: #997343; }
+.fraction-piece-options button[aria-pressed=true] { background: #efd0ad; border-color: #b78751; box-shadow: inset 0 0 0 1px #b78751; color: #78532d; }
+.fraction-stepper { display: flex; align-items: center; justify-content: center; gap: 10px; }
+.fraction-stepper button, .fraction-line-controls button, .fraction-icon-button { display: grid; place-items: center; width: 44px; height: 44px; background: #f4f7f3; border: 1px solid #d5e0d5; color: #65876c; flex-shrink: 0; }
+.fraction-stepper button:disabled, .fraction-line-controls button:disabled { opacity: .45; }
+.fraction-activity button svg { width: 18px; height: 18px; }
+.fraction-stepper input { width: 90px; height: 48px; border: 1px solid #d6dfd4; background: #fcfdf9; color: #5d7c65; border-radius: 10px; font: 800 25px "Nunito", sans-serif; text-align: center; appearance: textfield; -moz-appearance: textfield; }
+.fraction-stepper input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.fraction-controls .fraction-check { min-height: 44px; font-size: 13px; padding: 9px 12px; gap: 6px; }
+.fraction-actions { display: flex; align-items: stretch; gap: 8px; }.fraction-actions .fraction-check { flex: 1; }
+.fraction-comparison { display: flex; align-items: center; justify-content: center; gap: 24px; }.fraction-comparison > span:not(.fraction-number) { color: #ad9aaf; font-size: 24px; }
+.fraction-reveal { display: flex; align-items: center; justify-content: center; gap: 7px; border: 1px solid #ded4e6; background: #faf7fc; color: #876d96; font-size: 12px; padding: 7px 10px; }
+.fraction-relations { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 7px; }
+.fraction-relations button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; border: 1px solid #d9e2d5; background: #f7faf4; color: #627c65; padding: 8px 4px; font-size: 10px; line-height: 1.3; }.fraction-relations strong { font-size: 26px; line-height: 1; }
+.fraction-relations .is-wrong { background: #fff0e9; border-color: #cd9178; }.fraction-relations .is-correct { background: #e7f4e9; border-color: #6ca682; }
+.fraction-mixed-input { display: flex; flex-direction: column; align-items: center; gap: 6px; }.fraction-mixed-input > label { font-size: 12px; color: #72846f; }
+.fraction-line-controls { display: flex; justify-content: center; gap: 14px; }
+.game-illustration-fractions > svg { width: 85%; height: 85%; z-index: 1; }
+@media (max-width: 600px) and (min-height: 501px) {
+  .fraction-activity { flex-direction: column; gap: 8px; }.fraction-controls { flex: 0 0 auto; gap: 8px; }.fraction-board-heading { min-height: 20px; font-size: 10px; padding-block: 0; }.fraction-caption { font-size: 10px; }
+  .fraction-number { font-size: 21px; }.fraction-readout { min-height: 24px; font-size: 12px; }.fraction-piece-options { gap: 4px; }.fraction-piece-options button { font-size: 14px; }
+  .fraction-relations button { flex-direction: row; gap: 4px; min-height: 48px; padding: 6px 3px; }.fraction-relations strong { font-size: 22px; }.fraction-relations button > span { font-size: 9px; }
+  .fraction-mixed-input { gap: 4px; }.fraction-stepper input { height: 44px; font-size: 23px; }
+}
+@media (max-height: 600px) and (min-aspect-ratio: 3/2) {
+  .fraction-activity { gap: 12px; }.fraction-controls { flex-basis: 286px; gap: 6px; }.fraction-board-heading { min-height: 18px; padding-block: 0; font-size: 10px; }.fraction-caption { display: none; }
+  .fraction-task-portion .fraction-readout { display: none; }
+  .fraction-mixed-value { display: none; }
+  .fraction-number { font-size: 18px; }.fraction-readout { min-height: 20px; font-size: 11px; }.fraction-readout output { font-size: 16px; }.fraction-piece-options { gap: 4px; }
+  .fraction-relations button { flex-direction: row; gap: 3px; padding: 6px 3px; }.fraction-relations strong { font-size: 22px; }.fraction-relations button > span { font-size: 9px; }
+  .fraction-mixed-input { flex-direction: row; justify-content: space-between; gap: 4px; }.fraction-mixed-input > label { flex: 1; font-size: 10px; }.fraction-mixed-input .fraction-stepper { gap: 4px; }.fraction-stepper input { width: 64px; height: 44px; font-size: 22px; }
+  .fraction-controls .fraction-check { padding-block: 7px; font-size: 12px; }
+}
