@@ -1,0 +1,483 @@
+{
+  "sourceFile": "Opstestvo_3.pdf",
+  "sourceTitle": "Општество – учебник за трето одделение во деветгодишното основно образование",
+  "authors": [
+    "Билјана Маневска",
+    "Орданка Мицкова"
+  ],
+  "editionYear": 2023,
+  "sourceSha256": "1185bc00cf28c5ffad7033c172804b1b0976b6b0e5b89cd3a947831799f448ff",
+  "notes": [
+    "Questions are newly authored in Macedonian from the supplied textbook only; no outside reference material was used.",
+    "Question ranges are one-based and refer to the saved order in each JSON file. PDF page numbers are printed page numbers plus one.",
+    "The requested third-topic label is Мојата држава; the textbook chapter is titled Ја сакам мојата држава.",
+    "Each bank contains 100 questions, four distinct options per question, and 25 correct answers in each option position. Answer positions and distractor order were shuffled independently.",
+    "Application questions adapt the lessons and examples without requiring unseen illustrations. Textbook-specific rules are presented as reading comprehension.",
+    "These files are 100-question banks; the app retains its existing quiz-session length configuration."
+  ],
+  "topics": [
+    {
+      "file": "public/data/opstestvo_3_tema1_100_questions.json",
+      "title": "Учам, учествувам, успевам",
+      "textbookTitle": "Учам, учествувам, успевам",
+      "questionCount": 100,
+      "sections": [
+        {
+          "title": "Децата имаат право на образование",
+          "printedPages": [
+            10,
+            11
+          ],
+          "pdfPages": [
+            11,
+            12
+          ],
+          "firstQuestion": 1,
+          "lastQuestion": 10
+        },
+        {
+          "title": "Државата и образованието",
+          "printedPages": [
+            12,
+            13
+          ],
+          "pdfPages": [
+            13,
+            14
+          ],
+          "firstQuestion": 11,
+          "lastQuestion": 17
+        },
+        {
+          "title": "Придобивки од образованието",
+          "printedPages": [
+            14,
+            15
+          ],
+          "pdfPages": [
+            15,
+            16
+          ],
+          "firstQuestion": 18,
+          "lastQuestion": 23
+        },
+        {
+          "title": "Основно, средно и високо образование",
+          "printedPages": [
+            16,
+            17
+          ],
+          "pdfPages": [
+            17,
+            18
+          ],
+          "firstQuestion": 24,
+          "lastQuestion": 34
+        },
+        {
+          "title": "Образованието и идната професија",
+          "printedPages": [
+            18,
+            19
+          ],
+          "pdfPages": [
+            19,
+            20
+          ],
+          "firstQuestion": 35,
+          "lastQuestion": 40
+        },
+        {
+          "title": "Поставување цел – посветеност, фокусираност",
+          "printedPages": [
+            20,
+            21
+          ],
+          "pdfPages": [
+            21,
+            22
+          ],
+          "firstQuestion": 41,
+          "lastQuestion": 50
+        },
+        {
+          "title": "Барање помош",
+          "printedPages": [
+            22,
+            23
+          ],
+          "pdfPages": [
+            23,
+            24
+          ],
+          "firstQuestion": 51,
+          "lastQuestion": 59
+        },
+        {
+          "title": "Успех, неуспех",
+          "printedPages": [
+            24,
+            25
+          ],
+          "pdfPages": [
+            25,
+            26
+          ],
+          "firstQuestion": 60,
+          "lastQuestion": 65
+        },
+        {
+          "title": "Однесување, постапка, последица",
+          "printedPages": [
+            26,
+            27
+          ],
+          "pdfPages": [
+            27,
+            28
+          ],
+          "firstQuestion": 66,
+          "lastQuestion": 72
+        },
+        {
+          "title": "Намерна и ненамерна грешка",
+          "printedPages": [
+            28
+          ],
+          "pdfPages": [
+            29
+          ],
+          "firstQuestion": 73,
+          "lastQuestion": 78
+        },
+        {
+          "title": "Признавање на грешките",
+          "printedPages": [
+            29
+          ],
+          "pdfPages": [
+            30
+          ],
+          "firstQuestion": 79,
+          "lastQuestion": 83
+        },
+        {
+          "title": "Правила за групно решавање проблем",
+          "printedPages": [
+            30
+          ],
+          "pdfPages": [
+            31
+          ],
+          "firstQuestion": 84,
+          "lastQuestion": 88
+        },
+        {
+          "title": "Процес на донесување групна одлука",
+          "printedPages": [
+            31
+          ],
+          "pdfPages": [
+            32
+          ],
+          "firstQuestion": 89,
+          "lastQuestion": 92
+        },
+        {
+          "title": "Правила за донесување групна одлука",
+          "printedPages": [
+            32
+          ],
+          "pdfPages": [
+            33
+          ],
+          "firstQuestion": 93,
+          "lastQuestion": 96
+        },
+        {
+          "title": "Одлука со мнозинство и одлука со консензус",
+          "printedPages": [
+            33,
+            34
+          ],
+          "pdfPages": [
+            34,
+            35
+          ],
+          "firstQuestion": 97,
+          "lastQuestion": 100
+        }
+      ]
+    },
+    {
+      "file": "public/data/opstestvo_3_tema2_100_questions.json",
+      "title": "Се грижам за себе и моето опкружување",
+      "textbookTitle": "Се грижам за себе и моето опкружување",
+      "questionCount": 100,
+      "sections": [
+        {
+          "title": "Опасности во опкружувањето и опасни предмети во домот",
+          "printedPages": [
+            38,
+            39,
+            41
+          ],
+          "pdfPages": [
+            39,
+            40,
+            42
+          ],
+          "firstQuestion": 1,
+          "lastQuestion": 5
+        },
+        {
+          "title": "Заштита од струен удар, пожар и гром",
+          "printedPages": [
+            40
+          ],
+          "pdfPages": [
+            41
+          ],
+          "firstQuestion": 6,
+          "lastQuestion": 18
+        },
+        {
+          "title": "Ризик и заштита од потенцијални опасности",
+          "printedPages": [
+            42,
+            43
+          ],
+          "pdfPages": [
+            43,
+            44
+          ],
+          "firstQuestion": 19,
+          "lastQuestion": 28
+        },
+        {
+          "title": "Опасни растенија и животни",
+          "printedPages": [
+            44,
+            45
+          ],
+          "pdfPages": [
+            45,
+            46
+          ],
+          "firstQuestion": 29,
+          "lastQuestion": 40
+        },
+        {
+          "title": "Непознати лица",
+          "printedPages": [
+            46
+          ],
+          "pdfPages": [
+            47
+          ],
+          "firstQuestion": 41,
+          "lastQuestion": 48
+        },
+        {
+          "title": "Грижа за домашните миленици",
+          "printedPages": [
+            47,
+            49
+          ],
+          "pdfPages": [
+            48,
+            50
+          ],
+          "firstQuestion": 49,
+          "lastQuestion": 60
+        },
+        {
+          "title": "Грижа за растенијата и однесување кон растенијата и животните",
+          "printedPages": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "pdfPages": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "firstQuestion": 61,
+          "lastQuestion": 68
+        },
+        {
+          "title": "Видови сообраќај и лица што управуваат со превозните средства",
+          "printedPages": [
+            52,
+            53,
+            54
+          ],
+          "pdfPages": [
+            53,
+            54,
+            55
+          ],
+          "firstQuestion": 69,
+          "lastQuestion": 84
+        },
+        {
+          "title": "Безбедно однесување на патниците и последици од непочитување на правилата",
+          "printedPages": [
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "pdfPages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "firstQuestion": 85,
+          "lastQuestion": 100
+        }
+      ]
+    },
+    {
+      "file": "public/data/opstestvo_3_tema3_100_questions.json",
+      "title": "Мојата држава",
+      "textbookTitle": "Ја сакам мојата држава",
+      "questionCount": 100,
+      "sections": [
+        {
+          "title": "Природни езера во мојата земја",
+          "printedPages": [
+            62,
+            63
+          ],
+          "pdfPages": [
+            63,
+            64
+          ],
+          "firstQuestion": 1,
+          "lastQuestion": 15
+        },
+        {
+          "title": "Планини во мојата земја",
+          "printedPages": [
+            64,
+            65
+          ],
+          "pdfPages": [
+            65,
+            66
+          ],
+          "firstQuestion": 16,
+          "lastQuestion": 27
+        },
+        {
+          "title": "По текот на реката Вардар",
+          "printedPages": [
+            66,
+            67
+          ],
+          "pdfPages": [
+            67,
+            68
+          ],
+          "firstQuestion": 28,
+          "lastQuestion": 35
+        },
+        {
+          "title": "Национални паркови во нашата земја",
+          "printedPages": [
+            68,
+            69
+          ],
+          "pdfPages": [
+            69,
+            70
+          ],
+          "firstQuestion": 36,
+          "lastQuestion": 51
+        },
+        {
+          "title": "Туристички дестинации, природни убавини и проектна задача",
+          "printedPages": [
+            70,
+            71,
+            72
+          ],
+          "pdfPages": [
+            71,
+            72,
+            73
+          ],
+          "firstQuestion": 52,
+          "lastQuestion": 62
+        },
+        {
+          "title": "Јазици во наставата во основното образование",
+          "printedPages": [
+            73,
+            74
+          ],
+          "pdfPages": [
+            74,
+            75
+          ],
+          "firstQuestion": 63,
+          "lastQuestion": 70
+        },
+        {
+          "title": "Како можам да придонесам за мојата земја",
+          "printedPages": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "pdfPages": [
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "firstQuestion": 71,
+          "lastQuestion": 85
+        },
+        {
+          "title": "Ајде да патуваме",
+          "printedPages": [
+            80
+          ],
+          "pdfPages": [
+            81
+          ],
+          "firstQuestion": 86,
+          "lastQuestion": 92
+        },
+        {
+          "title": "Поврзување преку интернет",
+          "printedPages": [
+            81,
+            82,
+            83,
+            84
+          ],
+          "pdfPages": [
+            82,
+            83,
+            84,
+            85
+          ],
+          "firstQuestion": 93,
+          "lastQuestion": 100
+        }
+      ]
+    }
+  ]
+}

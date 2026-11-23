@@ -205,8 +205,32 @@ export const grades: Grade[] = [
         color: "220 65% 55%",
         categories: [
           {
+            id: "opstestvo-3-ucam-ucestvuvam-uspevam",
+            label: "1. Учам, учествувам, успевам",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/opstestvo_3_tema1_100_questions.json`,
+            icon: BookOpen,
+            color: "220 65% 55%",
+          },
+          {
+            id: "opstestvo-3-se-grizam",
+            label: "2. Се грижам за себе и моето опкружување",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/opstestvo_3_tema2_100_questions.json`,
+            icon: Leaf,
+            color: "120 65% 45%",
+          },
+          {
+            id: "opstestvo-3-mojata-drzava",
+            label: "3. Мојата држава",
+            description: "",
+            file: `${import.meta.env.BASE_URL}data/opstestvo_3_tema3_100_questions.json`,
+            icon: Flag,
+            color: "40 80% 50%",
+          },
+          {
             id: "istorija-3",
-            label: "Историја и географиja",
+            label: "БОНУС: Историја и географиja",
             description: "Македонска историја, устав, соседи",
             file: `${import.meta.env.BASE_URL}data/opstestvo-3.json`,
             icon: BookOpen,
