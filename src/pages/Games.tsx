@@ -1,22 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { BarChart3, Check, ChevronDown, CloudSun, Compass, FlipHorizontal2, Gamepad2, Globe2, Grid2X2, Layers3, Mountain, PieChart, Play, Ruler, Search, Shapes, type LucideIcon } from "lucide-react";
+import { Check, ChevronDown, Gamepad2, Play, Search, Sparkles } from "lucide-react";
 import { educationalGames, readGameProgress, roundCount } from "@/data/educationalGames";
 import "@/components/games/games-catalog.css";
-
-const gameIcons: Partial<Record<string, LucideIcon>> = {
-  atlas: Globe2,
-  terrain: Mountain,
-  compass: Compass,
-  spheres: Layers3,
-  weather: CloudSun,
-  coordinates: Grid2X2,
-  symmetry: FlipHorizontal2,
-  shapes: Shapes,
-  fractions: PieChart,
-  measurement: Ruler,
-  data: BarChart3,
-};
 
 export default function Games() {
   const [query, setQuery] = useState("");
@@ -37,9 +23,8 @@ export default function Games() {
     <main className="games-catalog">
       <div className="games-catalog-container">
         <header className="games-catalog-heading">
-          <div className="games-catalog-heading-icon" aria-hidden="true"><Gamepad2 /></div>
-          <h1>Игри</h1>
-          <p>Избери игра и учи со свое темпо.</p>
+          <div className="games-catalog-heading-icon" aria-hidden="true"><Gamepad2 /><Sparkles /></div>
+          <div><h1>Време е за игра!</h1><p>Избери игра. Откриј нешто ново.</p></div>
         </header>
 
         <div className="games-catalog-controls" role="search" aria-label="Пребарај и филтрирај игри">
@@ -71,20 +56,20 @@ export default function Games() {
             const saved = progress[game.id];
             const active = saved.session && saved.session.index < roundCount(saved.session.difficulty, game.id);
             const completed = saved.completedRuns > 0;
-            const Icon = gameIcons[game.id] ?? Gamepad2;
             return (
-              <article key={game.id} className="games-catalog-card">
+              <article key={game.id} className={`games-catalog-card games-catalog-tone-${game.color}`}>
                 <Link to={game.path} className="games-catalog-card-link" aria-label={`${active ? "Продолжи" : "Играј"}: ${game.name}`}>
-                  <div className="games-catalog-card-top">
-                    <span className="games-catalog-icon" aria-hidden="true"><Icon /></span>
+                  <div className="games-catalog-card-art">
+                    <img src={`/images/games/${game.id}.jpg`} alt="" width="720" height="480" loading="lazy" decoding="async" />
+                    <span className="games-catalog-topic">{game.shortTitle}</span>
                     {active ? <span className="games-catalog-status">Во тек</span> : completed ? <span className="games-catalog-status is-complete"><Check aria-hidden="true" />Завршена</span> : null}
                   </div>
-                  <p className="games-catalog-topic">{game.shortTitle}</p>
-                  <h2>{game.name}</h2>
-                  <p className="games-catalog-description">{game.description}</p>
-                  <div className="games-catalog-card-footer">
-                    <div className="games-catalog-meta"><span>{game.subject}</span><span>{game.gradeLevels.join(" и ")} одделение</span></div>
-                    <span className="games-catalog-action"><Play aria-hidden="true" />{active ? "Продолжи" : completed ? "Повторно" : "Играј"}</span>
+                  <div className="games-catalog-card-body">
+                    <h2>{game.name}</h2>
+                    <div className="games-catalog-card-footer">
+                      <span className="games-catalog-meta" aria-label={`${game.gradeLevels.join(" и ")} одделение`}>{game.gradeLevels.join("–")} одделение</span>
+                      <span className="games-catalog-action"><Play aria-hidden="true" fill="currentColor" />{active ? "Продолжи" : completed ? "Повторно" : "Играј"}</span>
+                    </div>
                   </div>
                 </Link>
               </article>
