@@ -1,6 +1,7 @@
 import { ArrowLeft, ListChecks, PencilLine, Sparkles } from "lucide-react";
 import { QuizMode } from "@/types/quiz";
 import { DEFAULT_JOKERS_PER_QUIZ } from "@/lib/quizConfig";
+import ShareButtons from "@/components/ShareButtons";
 
 interface ModeSelectProps {
   quizTitle: string;
@@ -57,6 +58,8 @@ const ModeSelect = ({ quizTitle, onSelect, onBack, jokerLimit = DEFAULT_JOKERS_P
           </button>
         ))}
       </div>
+
+      <ShareButtons className="mt-8" label="Сподели го квизот" text={`Пробај го квизот „${quizTitle}“ на EDU.IDA!`} />
 
       <button
         onClick={onBack}

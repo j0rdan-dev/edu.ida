@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnswerRecord, OptionKey, QuizQuestion, QuizMode } from "@/types/quiz";
 import { Check, X, RotateCcw, Trophy, Target, Clock, Brain, PencilLine, Sparkles } from "lucide-react";
 import { DEFAULT_JOKERS_PER_QUIZ } from "@/lib/quizConfig";
+import ShareButtons from "@/components/ShareButtons";
 
 function getAiAssistantUrl(question: QuizQuestion) {
   const query = `На ученик од основно одделение му е потребна помош со следново прашање и темата на којашто припаѓа прашањето:
@@ -102,6 +103,14 @@ const ResultsScreen = ({ answers, timeElapsed, onRestart, onRestartQuiz, quizTit
               </div>
             </div>
           </div>
+        )}
+
+        {reviewComplete && total > 0 && (
+          <ShareButtons
+            className="mb-8 rounded-xl border border-border bg-card p-5"
+            label="Сподели го резултатот"
+            text={`Мојот резултат на „${quizTitle}“: ${correct}/${total} (${percentage}%)${isPaper ? " · самопроверка" : ""}. Пробај го квизот на EDU.IDA!`}
+          />
         )}
 
         {/* Review */}

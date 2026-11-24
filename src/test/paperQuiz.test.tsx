@@ -175,7 +175,7 @@ describe("paper summary", () => {
     render(<ResultsScreen answers={answers} timeElapsed={10} onRestart={vi.fn()} onRestartQuiz={vi.fn()} quizTitle="Test quiz" />);
     expect(screen.getByText("0%")).toBeInTheDocument();
     expect(screen.getAllByText(/Времето истече/)).toHaveLength(2);
-    expect(screen.queryByRole("group")).not.toBeInTheDocument();
+    expect(screen.queryByRole("group", { name: /Проверка на прашање/ })).not.toBeInTheDocument();
   });
 });
 
