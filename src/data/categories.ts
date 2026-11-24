@@ -68,6 +68,14 @@ export const grades: Grade[] = [
             color: "280 70% 50%",
           },
           {
+            id: "geometrija-3-vizuelni",
+            label: "2. Геометрија II",
+            description: "Визуелизирани задачи",
+            file: `${import.meta.env.BASE_URL}data/matematika_3_geometrija_50_unique_images.json`,
+            icon: Compass,
+            color: "280 65% 45%",
+          },
+          {
             id: "operacii-so-broevi-3",
             label: "3. Операции со броеви",
             description: "Цела тема",
