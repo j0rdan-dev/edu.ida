@@ -79,6 +79,7 @@ export function getPageMetadata(pathname: string): PageMetadata {
     title: `${game.name} | ${game.shortTitle} | Образовна игра | EDU.IDA`,
     description: `${game.description} Образовна игра по ${game.subject.toLocaleLowerCase("mk")} за ${game.gradeLevels.join(" и ")} одделение со задачи и објаснувања.`,
     keywords: keywords(...BASE_KEYWORDS, game.name, game.shortTitle, game.subject, "образовна игра за деца", ...game.gradeLevels.map(grade => `${grade} одделение`)),
+    imagePath: `/images/games/${game.id}.jpg`,
     imageAlt: `${game.name} — учење преку игра`,
     breadcrumbs: [homeCrumb, { name: "Игри", url: canonicalUrl(GAMES_PATH) }, { name: game.name, url: base.canonicalUrl }],
   };
