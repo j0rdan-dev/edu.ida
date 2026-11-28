@@ -6,6 +6,7 @@ import GamePlayScreen from "@/components/games/GamePlayScreen";
 import GameIllustration from "@/components/games/GameIllustration";
 import { useBuddy } from "@/context/BuddyContext";
 import NotFound from "./NotFound";
+import ShareButtons from "@/components/ShareButtons";
 import "@/components/games/earth/earth-expedition.css";
 import "@/components/games/educational-games.css";
 
@@ -92,6 +93,14 @@ function StandaloneGame({ game }: { game: EducationalGame }) {
         <section className="game-summary"><div className="earth-medal" aria-hidden="true"><Trophy /></div><p className="earth-eyebrow">УШТЕ ЕДНА УСПЕШНА АВАНТУРА</p><h1 ref={headingRef} tabIndex={-1}>Браво, {game.badge.toLocaleLowerCase("mk")}!</h1><p>Откри {rounds.length} нови нешта. Секој обид ти помогна да научиш повеќе.</p><div className="game-summary-stats"><span><strong>{rounds.length}</strong>завршени откритија</span><span><strong>{session.results.filter(result => result.firstTry && !result.hintUsed).length}</strong>без помош и повторување</span><span><strong>{progress.completedRuns}</strong>завршени игри</span></div><div className="earth-finish-actions"><button type="button" className="earth-primary-button" onClick={start}><RotateCcw aria-hidden="true" />Играј со нови задачи</button><Link to={GAMES_PATH} className="earth-secondary-button">Избери друга игра<ArrowRight aria-hidden="true" /></Link></div></section>
         <section className="game-recap" aria-labelledby="game-recap-title"><h2 id="game-recap-title">Што откри во оваа игра?</h2><ul>{rounds.map((round, index) => <li key={round.id}><Check aria-hidden="true" /><div><h3>{round.title}</h3><p>{round.explanation}</p>{session.results[index]?.hintUsed && <small>Истражено со мала помош</small>}</div></li>)}</ul></section>
       </> : null}
+      <ShareButtons
+        className="my-6"
+        path={game.path}
+        label={started && finished ? "Сподели го резултатот" : "Сподели ја играта"}
+        text={started && finished && session
+          ? `Ја завршив играта „${game.name}“ на EDU.IDA: ${rounds.length} откритија, ${session.results.filter(result => result.firstTry && !result.hintUsed).length} без помош и повторување!`
+          : `Пробај ја образовната игра „${game.name}“ на EDU.IDA!`}
+      />
       <p className="earth-save-caption">{canSave ? "Завршените откритија и значките се зачувуваат на овој уред. Продолжи кога ќе посакаш." : "Зачувувањето не е достапно. Сè уште можеш да ја завршиш играта во оваа сесија."}</p>
     </div>
   </main>;

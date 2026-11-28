@@ -16,9 +16,9 @@ export interface PageMetadata {
   breadcrumbs: { name: string; url: string }[];
 }
 
-const HOME_TITLE = "Квизови и тестови за основно образование | EDU.IDA";
+const HOME_TITLE = "Интерактивни тестови и игри за основно образование | EDU.IDA";
 const HOME_DESCRIPTION =
-  "Интерактивни квизови и тестови за трето, четврто и петто одделение. Вежбај математика, македонски јазик, природни науки и општество. Учебници за 1–5 одделение.";
+  "Интерактивни игри и тестови за трето, четврто и петто одделение. Вежбај математика, македонски јазик, природни науки и општество. Учебници за 1–5 одделение.";
 const BASE_KEYWORDS = ["EDU.IDA", "образовни квизови", "тестови за ученици", "основно образование", "учење преку игра"];
 const INDEX = "index, follow, max-image-preview:large";
 const NO_INDEX = "noindex, follow";
@@ -79,6 +79,7 @@ export function getPageMetadata(pathname: string): PageMetadata {
     title: `${game.name} | ${game.shortTitle} | Образовна игра | EDU.IDA`,
     description: `${game.description} Образовна игра по ${game.subject.toLocaleLowerCase("mk")} за ${game.gradeLevels.join(" и ")} одделение со задачи и објаснувања.`,
     keywords: keywords(...BASE_KEYWORDS, game.name, game.shortTitle, game.subject, "образовна игра за деца", ...game.gradeLevels.map(grade => `${grade} одделение`)),
+    imagePath: `/images/games/${game.id}.jpg`,
     imageAlt: `${game.name} — учење преку игра`,
     breadcrumbs: [homeCrumb, { name: "Игри", url: canonicalUrl(GAMES_PATH) }, { name: game.name, url: base.canonicalUrl }],
   };

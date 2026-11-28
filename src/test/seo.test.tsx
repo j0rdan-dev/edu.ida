@@ -4,6 +4,7 @@ import { Link, MemoryRouter } from "react-router-dom";
 import RouteMetadata from "@/components/RouteMetadata";
 import QuizApp from "@/components/quiz/QuizApp";
 import { grades } from "@/data/categories";
+import { educationalGames } from "@/data/educationalGames";
 import { canonicalUrl, getIndexablePaths, getPageMetadata, getStaticPaths, getStructuredData, SITE_ORIGIN } from "@/lib/seo";
 
 const originalHead = document.head.innerHTML;
@@ -18,6 +19,38 @@ afterEach(() => {
 });
 
 describe("page SEO", () => {
+  it("uses the matching game cover for link previews on every game route", () => {
+    for (const game of educationalGames) {
+      for (const path of [game.path, game.path.slice(0, -1), `${game.path}?utm_source=share#results`]) {
+        const metadata = getPageMetadata(path);
+        expect(metadata.imagePath).toBe(`/images/games/${game.id}.jpg`);
+        expect(metadata.imageAlt).toContain(game.name);
+      }
+    }
+  });
+
+  it("updates both social preview images when navigating between games and home", () => {
+    const [first, second] = educationalGames;
+    render(
+      <MemoryRouter initialEntries={[first.path]} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <RouteMetadata />
+        <Link to={second.path}>Next game</Link>
+        <Link to="/">Home</Link>
+      </MemoryRouter>,
+    );
+    const expectPreviewImage = (path: string) => {
+      for (const selector of ['meta[property="og:image"]', 'meta[name="twitter:image"]']) {
+        expect(document.head.querySelectorAll(selector)).toHaveLength(1);
+        expect(document.head.querySelector(selector)).toHaveAttribute("content", `${SITE_ORIGIN}${path}`);
+      }
+    };
+    expectPreviewImage(`/images/games/${first.id}.jpg`);
+    fireEvent.click(screen.getByText("Next game"));
+    expectPreviewImage(`/images/games/${second.id}.jpg`);
+    fireEvent.click(screen.getByText("Home"));
+    expectPreviewImage("/og-home.png");
+  });
+
   it("describes every public catalog URL with grade, subject and topic keywords", () => {
     const paths = getIndexablePaths();
     expect(new Set(paths).size).toBe(paths.length);
