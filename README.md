@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Eductional Quiz project
 
 TODO: Document your project here - triger new version
 
